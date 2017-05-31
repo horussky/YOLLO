@@ -95,9 +95,9 @@ $(document).ready(function () {
 		
 
 		/*mobile hamburger*/
-		/*$('#nav-icon').click(function(){
-			$(this).toggleClass('open');
-		});*/
+		$('#nav-icon, .site-overlay').click(function(){
+			$('#nav-icon').toggleClass('open');
+		});
 	
 	
 	

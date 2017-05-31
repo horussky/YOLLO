@@ -54,18 +54,20 @@
     text-align: center; }
 
   .event-nav-mobile {
-    display: block;
     background: #222;
     text-align: left; }
+    .event-nav-mobile ul {
+      margin-left: 0; }
     .event-nav-mobile li {
       display: block; }
     .event-nav-mobile a {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       color: #fff;
       text-decoration: none;
-      height: 5rem;
-      line-height: 5rem;
+      height: 4rem;
+      line-height: 4rem;
       display: block;
+      padding: 0;
       padding-left: 2rem; }
       .event-nav-mobile a:hover {
         background: #555; }

@@ -7,6 +7,7 @@
 <script src="js/jquery.prettyPhoto.js"></script>
 <!--<script src="js/scotchPanels.min.js"></script>-->
 <script src="js/jquery.nanogallery.min.js" ></script>
+<script src="js/pushy.min.js"></script>
 <script src="js/scripts-min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
 

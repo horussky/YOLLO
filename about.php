@@ -12,14 +12,17 @@
 
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
 <link href="css/global.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.sidr/2.2.1/stylesheets/jquery.sidr.dark.min.css">
 </head> 
 
 <body>
 
-
-
 <div id="wrap">
+    
+<!--Nav-->
+	<?php include 'includes/mobile.nav.inc.php'; ?>
+<!--End of Nav-->   
+
+
 
     <div id="container">
 
@@ -32,7 +35,6 @@
                     <?php include 'includes/nav.inc.php'; ?>
                     <!--End of Nav-->
             </div>
-
             <!--Left Content-->
 
            
@@ -80,11 +82,6 @@
 <?php include 'includes/analytics.inc.php'; ?>
 <!--End of google analytics-->
 
-<script src="//cdn.jsdelivr.net/jquery.sidr/2.2.1/jquery.sidr.min.js"></script>
-<script>
-$(document).ready(function() {
-  $('#simple-menu').sidr();
-});
-</script>
+
 
 </body></html>

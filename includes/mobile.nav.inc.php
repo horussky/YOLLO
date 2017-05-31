@@ -86,24 +86,19 @@ sort($nav);
 ?>
 
 
+<nav class="pushy pushy-right">
+	<div class="event-nav-mobile pushy-content">
+		<ul>
+			<?php foreach($nav as $links=>$value): ?>
+				<li><a href="<?php echo $value['link']?>"><?php echo $value['title']?></a></li>
+			<?php endforeach; ?>
+			<li class="home"><a title="Home" href="/home">Home</a></li>
+			<li class="about"><a title="About Us" href="/about">About Us</a></li>
+			<li class="faq"><a title="FAQs" href="/faq">FAQs</a></li>
+			<li class="contact"><a title="Contact" href="/contact">Contact</a></li>
+		</ul>
+	</div>
+</nav>
 
 
-
-
-
-<h4 class="event-title" style="text-transform:uppercase"> <i class="fa fa-star" aria-hidden="true"></i> Our Events</h4>
-
-<div id="nav-icon" class="toggle-panel menu-btn">
-  <span></span>
-  <span></span>
-  <span></span>
-  <span></span>
-  <p>Menu</p>
-</div>
-
-<ul class="event-nav">
-	<?php foreach($nav as $links=>$value): ?>
-        <li class="<?php echo $value['class']?>"><a href="<?php echo $value['link']?>" class="hvr-bounce-to-right <?php if ($_SERVER['REQUEST_URI'] == rtrim($value['link'], "/")){ echo "active";} ?>"><?php echo $value['title']?></a></li>
-    <?php endforeach; ?>
-</ul>
-
+<div class="site-overlay"></div>

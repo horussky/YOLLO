@@ -24,8 +24,8 @@
 @import '../scss/components/_home.scss';
 @import '../scss/components/_preheader.scss';
 
-// Third Party CSS
-@import '../scss/components/_trunk.scss'; //trunk off canvas drawer menu
+// Vendor CSS
+@import '../scss/vendor/_pushy.scss'; //pushy off canvas drawer menu 
 
 // Custom CSS
 @import '../scss/components/_custom.scss';
