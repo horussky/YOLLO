@@ -1,0 +1,152 @@
+/* CSS Document */
+
+/*
+	 RESET
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+html{				font-size:16px;}
+body{				line-height:1;}
+ol, ul{				list-style:none;}
+table{				border-collapse:collapse; border-spacing:0;}
+ins{				text-decoration:none;}
+del{				text-decoration:line-through;}
+input[type=hidden]{	display:none; border:none;}
+blockquote, q{		quotes:none;}
+blockquote:before, blockquote:after, q:before, q:after{	content:''; content:none;}
+input[type=checkbox], input[type=radio]{ border:none;}
+img[align=left]{	margin:0 10px 6px 0; float:left;}
+img[align=right]{	margin:0 0 6px 10px; float:right;}
+
+
+/*
+	 *Structure
+*/
+html{  font-size:16px;}
+body{ background: #071d34; color:#fff;}
+a{color:#fff; text-decoration:none;}
+a:hover{text-decoration:underline; color:#fff;}
+
+#container{					width:796px; margin:0 auto; font:12px Arial, Helvetica, sans-serif; position:relative; }
+#header{					width:796px; height:56px; padding-top:123px; background:url(../images/nascar/bg-header.jpg) no-repeat;}
+h3{							font:bold 16px Arial, Helvetica, sans-serif; margin-bottom:10px;}
+p{							margin-bottom:10px; line-height:18px;}
+/* 
+	* Navigation
+*/
+
+#nav{						width:440px; height:21px; padding:10px 0 0 206px; font:14px/13px Helvetica, Arial, sans-serif; text-transform:uppercase; float:left;}
+#nav a{						margin-right:22px;}
+#nav a:hover{			    color:#3b95f0; text-decoration:none;}
+
+#social{					float:right; margin-right:25px; width:90px; height:31px;}
+#social a *{				display:none;}
+#social a{					height:20px; background:url(../images/nascar/bg-social-icon.gif) no-repeat; display:block; float:left; margin-top:5px; }
+#social a#yollo{			width:21px; background-position:0 0; margin-right:10px;}
+#social a#facebook{			width:21px; background-position:0 -20px ;}
+#social a#twitter{			width:21px; background-position:0 -41px ;  margin-right:10px;}
+#social a#yollo:hover{		width:21px; background-position:-21px 0;}
+#social a#facebook:hover{	width:21px; background-position:-21px -20px;}
+#social a:#twitter:hover{	width:21px; background-position:-21px -41px;}
+
+
+/* 
+	* Slider
+*/
+
+/* The Nivo Slider styles */
+#topslide {					width:774px; height:439px; padding: 13px 11px; background:url(../images/nascar/bg-slider.jpg) no-repeat;}
+.nivoSlider {				position:relative;}
+.nivoSlider img {			position:absolute; top:0; left:0; width:774px; height:400px;}
+
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink { position:absolute; top:0px; left:0px; width:100%; height:100%; border:0; padding:0; margin:0; z-index:60; display:none;}
+/* The slices in the Slider */
+.nivo-slice {				display:block; position:absolute; z-index:50; height:100%;}
+
+/* Caption styles */
+.nivo-caption { 			position:absolute; left:0px; bottom:0px; background:#000; color:#fff; opacity:0.8; 
+							/* Overridden by captionOpacity setting */ width:100%; z-index:89;}
+.nivo-caption p { 			padding:5px; margin:0;}
+
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a { 		position:absolute; top:45%; z-index:99; cursor:pointer;}
+.nivo-prevNav {				left:0px;}
+.nivo-nextNav {				right:0px;}
+
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {			position:absolute; left:0; bottom:-30px;}
+.nivo-controlNav a { 		display:block; width:10px; height:10px; background: url(../images/nascar/bullets.gif) no-repeat ; 
+							text-indent:-9999px; border:0; margin-right:3px; float:left; cursor:pointer;}
+.nivo-controlNav a.active {	background-position:-10px 0;}
+/* keep from flashing images before load*/
+#slider {					position:relative; }
+#slider img {				position:absolute; top:0px; left:0px; display:none;}
+
+
+/*Race info*/
+#raceinformation{					width:774px; padding:11px;  background:#203449; position:relative; overflow:hidden;}
+#raceinformation a.top{				position:absolute; right:11px; padding:3px; background-color:#071D34; background: rgb(0,0,0, 0.2); background: rgba(0,0,0, 0.2);}
+#raceinformation a.top:hover{		text-decoration:none; color:#fff; background-color:#29517B; background: rgb(55,125,197, 0.3); background: rgba(55,125,197, 0.3);}
+#raceinformation img{				border:1px solid #314C67;}
+
+/*Packages*/
+#package{					 width:774px; padding:11px;  background:#203449; position:relative; overflow:hidden;}
+#package a.top{				position:absolute; right:11px; padding:3px; background-color:#071D34; background: rgb(0,0,0, 0.2); background: rgba(0,0,0, 0.2);}
+#package a.top:hover{		text-decoration:none; color:#fff; background-color:#29517B; background: rgb(55,125,197, 0.3); background: rgba(55,125,197, 0.3);}
+#package img{				border:1px solid #314C67;}
+#package ul.packages li{	list-style:outside disc; margin-left:20px; margin-bottom:5px; text-transform:uppercase; font-size:11px;}
+
+div.pack-col1,
+div.pack-col2,
+div.pack-col3{				width:225px; min-height:320px; height:320px; float:left; margin-right:48px;}
+
+div.pack-col3{				float:right; margin-right:0;}
+div.pack-col3 img{			border:0; border:none!important;}
+
+/*Social Btns*/
+
+.socialbtn{width:654px; padding-left:142px; margin-bottom:100px; margin:20px 0;}
+.socialbtn a{ background:url(../images/nascar/social-big-btn.gif) no-repeat; width:247px; height:80px; display:block; float:left;}
+.socialbtn a *{display:none;}
+.socialbtn a.twitter{background-position:0 0 ; margin-right:20px; }
+.socialbtn a.facebook{background-position:0 -80px ; margin-top:5px; }
+
+
+
+/*Base Div*/
+div.base{width:100%; min-height:600px; _height:600px; padding:150px 0; position:relative;}
+
+/* 
+	* Footer
+*/
+/*bottom logo*/
+div.bottom-logo{			width:348px; height:61px; background:url(../images/nascar/bg-bottom-logo.gif) no-repeat; margin-left:225px; margin-bottom:100px}
+div.bottom-logo a {			width:348px; height:61px; display:block;}
+div.bottom-logo a *{		display:none;}
+
+#footer{					height:30px; width:100%; background:#A7A67A; border-top:1px solid #7F7F6F; padding:10px 0; text-align:center; 
+							font:11px Arial, Helvetica, sans-serif; clear:both; }
+.fcontent{					width:600px; margin-left:200px;}
+#footer a{					text-decoration:underline; color:#000;}
+#footer a:hover{			text-decoration:underline; color:#8C2D24;}
+
+
+/*Tipsy*/
+.tipsy { 					padding: 5px; font-size: 10px; font-family:Arial, Helvetica, sans-serif !important; text-transform:uppercase; 
+							opacity: 0.9; filter: alpha(opacity=90);  
+							background-repeat: no-repeat;  background-image: url(../images/nascar/tipsy.gif); }
+.tipsy-inner { 				padding: 5px 8px 4px 8px; background-color: #000; color: #fff; max-width: 250px; text-align: center; font: Arial, Helvetica, sans-serif; }
+.tipsy-inner { 				-moz-border-radius:3px; -webkit-border-radius:3px; }
+.tipsy-north { 				background-position: top center; }
+.tipsy-south { 				background-position: bottom center; }
+.tipsy-east { 				background-position: right center; }
+.tipsy-west { 				background-position: left center; }
+  	

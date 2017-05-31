@@ -1,0 +1,50 @@
+/*Nano Gallery Overrides*/
+
+.nanogallery_theme_default .nanoGalleryContainer{
+	width:100%!important;
+	height: auto!important;
+}
+.nanogallery_theme_default .nanoGalleryContainer .nanoGalleryThumbnailContainer {
+    
+    display: inline-block;
+    position: initial;
+    overflow: hidden;
+    float: left;
+}
+
+.nanogallery_theme_default .nanoGalleryContainer .nanoGalleryThumbnailContainer:not(:last-of-type){
+	margin-right:15px;
+	margin-bottom:15px;
+}
+
+.nanoGalleryThumbnailContainer .subcontainer:hover{opacity:.6;}
+
+
+/*Authorize.Net Seal*/
+div.AuthorizeNetSeal {
+    font: normal 9px arial,helvetica,san-serif;
+    line-height: 10px;
+    position: relative;
+    top: -1rem;
+    color: #fff;
+	
+	a {
+		text-decoration: none;
+		color: #fff;
+		&:visited,
+		&:active{
+			color: #fff!important;
+		}
+		
+		img{
+			width: 80%;
+    		height: 80%;
+		}
+	}
+
+}
+
+div.AuthorizeNetSeal * {
+    color: #fff;
+}
+

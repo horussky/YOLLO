@@ -1,0 +1,165 @@
+/* PayPal Form
+.reserve-form{					width:174px; padding:13px; background: #cdcdcd;  
+								border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; margin: 0 0 10px 0;}
+.reserve-form select{			width:auto; border-color:#AFAFAF; }
+.reserve-form .group{			width:166px; border-color:#AFAFAF; font-size:13px;}
+.reserve-form .group-size{		width:20px; border-color:#AFAFAF; text-align:center;}
+.reserve-form .buy-package{		margin-bottom:5px;}
+.reserve-form select, 
+.reserve-form option{			font-size:13px; line-height:17px;}
+.reserve-form option{			color: #333;}
+.reserve-form optgroup{			font-style:normal; font-size:14px;  cursor:pointer;}
+.reserve-form select*{			width:400px;}*/
+.buy-package{					margin-bottom:10px;}
+
+
+
+
+.pay label {
+	display:block;
+	margin-bottom: 3px;
+	width: 100%;
+	font-weight: bold;
+}
+
+.pay input,
+.pay select{margin-bottom:10px;}
+
+.pay .termsbox{width:auto; margin-right:5px; float:left}
+
+.pay input:focus,
+.pay select:focus{ border:2px solid #A04B4E;}
+input.buy-package:focus{border:none;}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+}
+
+.form-control::-moz-placeholder {
+    color: #999;
+    opacity: 1
+}
+
+.form-control:-ms-input-placeholder {
+    color: #999
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #999
+}
+
+.form-control::-ms-expand {
+    background-color: transparent;
+    border: 0
+}
+
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+    background-color: #eee;
+    opacity: 1
+}
+
+.form-control[disabled],
+fieldset[disabled] .form-control {
+    cursor: not-allowed
+}
+
+textarea.form-control {
+    height: auto
+}
+
+input[type=search] {
+    -webkit-appearance: none
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.checkbox,
+.radio {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.checkbox label,
+.radio label {
+    min-height: 20px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer
+}
+
+.checkbox input[type=checkbox],
+.checkbox-inline input[type=checkbox],
+.radio input[type=radio],
+.radio-inline input[type=radio] {
+    position: absolute;
+    margin-top: 4px\9;
+}
+
+
+.form-col {
+    width: 45%;
+    float: left;
+}
+
+.form-col:nth-child(odd) {
+    margin-right: 5%;
+}
+
+
+form .checkbox{ clear:both;}
+
+
+.input-lg {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 1.125em;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+
+
+/* alert messages styles */
+.alert{							
+	padding:10px;
+	margin:10px 0; 
+	font-weight:bold; 
+}
+.error {
+    color: #dc5353;
+    text-align: center;
+}
+.success {						
+	background:#e1f8dd;
+	border:1px solid #67dc53; 
+	color:#666; 
+	text-align:center;
+}

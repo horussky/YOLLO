@@ -1,0 +1,51 @@
+.event-nav{
+    width: 100%;
+    box-sizing: border-box;
+    border-left: 5px solid $yollo-red;
+    text-indent: 10px;
+	
+	li{
+		padding:0;
+		display:block;
+	}
+}
+
+.event-nav li a{    
+	font-size: .85em;
+    line-height: 3;
+    color: $font-color;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    height: 3em;
+    text-align: left;
+}
+
+.event-nav li [class^="hvr-"]:before{
+	background:$yollo-red;
+}
+
+.event-nav .active{
+	background:#eee;
+		a{
+			font-weight:700;
+			&:hover{
+				color:#fff;
+			}
+		}
+}
+
+.event-nav li [class^="hvr-"].active:before,
+.event-nav .active:hover:before{
+	background:#000;
+}
+
+
+/*mobile select at desktop*/
+.event-nav-mobile,
+.event-nav-mobile.form-control,
+.scotch-panel{
+	display:none;
+}
+
+.toggle-panel { display: none; }

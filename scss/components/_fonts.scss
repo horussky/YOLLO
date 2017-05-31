@@ -1,0 +1,59 @@
+/* CSS Document */
+/*@import url(http://fonts.googleapis.com/css?family=PT+Serif:700);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif+Caption);*/
+@import url(https://fonts.googleapis.com/css?family=Sansita+One); 
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+/*Font-Face */
+@font-face {
+    font-family: 'ChunkFive';
+    src: url('/js/fonts/Chunkfive-webfont.eot');
+    src: url('/js/fonts/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/js/fonts/Chunkfive-webfont.woff') format('woff'),
+         url('/js/fonts/Chunkfive-webfont.ttf') format('truetype'),
+         url('/js/fonts/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'pt_serif';
+    src: url('../fonts/ptserif-webfont.eot');
+    src: url('../fonts/ptserif-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ptserif-webfont.woff') format('woff'),
+         url('../fonts/ptserif-webfont.ttf') format('truetype'),
+         url('../fonts/ptserif-webfont.svg#pt_serifregular') format('svg');
+}
+
+@font-face {
+    font-family: 'opensans-lite';
+    src: url('../fonts/opensans-light-webfont.eot');
+    src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-light-webfont.woff') format('woff'),
+         url('../fonts/opensans-light-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-light-webfont.svg#opensans-light') format('svg');
+}
+
+@font-face {
+    font-family: 'opensans';
+    src: url('../fonts/opensans-regular-webfont.eot');
+    src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-regular-webfont.svg#opensans-regular') format('svg');
+}
+
+@font-face {
+    font-family: 'opensans-bold';
+    src: url('../fonts/opensans-bold.eot');
+    src: url('../fonts/opensans-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-bold.woff') format('woff'),
+         url('../fonts/opensans-bold.ttf') format('truetype'),
+         url('../fonts/opensans-bold.svg#opensans-regular') format('svg');
+}
+
+@font-face {
+    font-family: 'creditcardstack';
+    src: url('../fonts/creditcardstack.eot?424st');
+    src: url('../fonts/creditcardstack.eot?#iefix424st') format('embedded-opentype'),
+         url('../fonts/creditcardstack.woff?424st') format('woff'),
+         url('../fonts/creditcardstack.ttf?424st') format('truetype'),
+         url('../fonts/creditcardstack.svg?424st#creditcardstack') format('svg');
+}

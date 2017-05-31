@@ -1,0 +1,37 @@
+/*Date Location*/
+
+.date-location{
+	font-family:"opensans", Arial, sans-serif; 
+	font-size:1.125em;
+	display:flex;
+	flex-direction:row;
+	width:100%;
+	margin-bottom:1.5em;
+	text-transform:uppercase;
+}
+
+.date-location .col{
+	color: #fff; padding:10px;
+}
+
+.date-location .col:nth-child(1){
+	background:#a31523;
+	border-left: 5px solid #000;
+}
+
+.date-location .col:nth-child(1):before{
+	font-family:"fontAwesome";
+	content: "\f073";
+	margin-right: 10px;
+}
+
+.date-location .col:nth-child(2){
+	background:#000; 
+	flex-grow:2;	
+}
+
+.date-location .col:nth-child(2):before{
+	font-family:"fontAwesome";
+	content: "\f279";
+	margin-right: 10px;
+}

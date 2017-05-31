@@ -1,0 +1,35 @@
+/*///////////////////////////////////////////////////////////////////////
+Part of the code from the book 
+Building Findable Websites: Web Standards, SEO, and Beyond
+by Aarron Walter (aarron@buildingfindablewebsites.com)
+http://buildingfindablewebsites.com
+
+Distrbuted under Creative Commons license
+http://creativecommons.org/licenses/by-sa/3.0/us/
+///////////////////////////////////////////////////////////////////////*/
+
+
+
+fieldset {margin:1em; padding:1em; border:1px solid #ccc; background:#000;}
+legend {font:1.5em "Century Gothic",Helvetica,sans-serif; color:#000; border:1px solid #ccc; border-bottom:0; background:#eee; padding:.4em;}
+label {display:block; font:12px Helvetica, Arial, sans-serif; color:#fff;}
+input {border:1px solid #999; padding:.4em; width:70%; font-size:12px;}
+input{ background:url(../images/bg-newsletter-input.jpg) no-repeat; width:305px; height:27px; padding:2px; border:none; display:inline;  margin:0 0 10px 0; vertical-align:text-top;  color:#666; }
+.btn {border:0; padding:0; width:105px; margin-bottom:-.9em;}
+
+#response {color:#f30; font-style:italic; font-size:inherit; padding:.4em;}
+#no-spam {font-size:1.1em; font-style:italic; color:#666; margin-top:.4em;}
+#description {font-size:1.1em; margin:1.5em 1em -1.9em 0; text-align:right; color:#fff;}
+#SendButton{  width:90px; height:38px; border:0; padding:0; }
+#SendButton:hover{cursor:pointer; }
+#signup{margin:0 0 10px 0;}
+
+label#email, label#fname, label#lname{float: left; clear:both; margin-right:10px; width:100px; color:#fff; font:12px/15px "Arial Black", Gadget, sans-serif; padding:8px 0 0 0;}
+	
+	#newsletter label{	margin:0 0; font-size:12px; text-transform:uppercase; color:#fff;}
+	#newsletter fieldset{ border:none; font-size:1em; padding:0; margin:0;}
+	#newsletter  input.btn{	background: url(../images/bg-newsletter-submit.jpg) no-repeat; width:91px; height:31px; cursor:pointer; color:#490d08; text-transform: capitalize; font: bold 13px/13px Arial, Helvetica, sans-serif ; }
+	#newsletter  input.btn:hover{color:#9a3227;}
+	#newsletter div.mce_inline_error{font:bold 10px Arial, Helvetica, sans-serif; margin-top:-8px; text-align:right; color:#f4925c;}
+
+label.error{color:#F00; font:11px Arial, Helvetica, sans-serif; position:relative; right:90px; top: 10px; float:right; text-align:left;}

@@ -1,0 +1,155 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:700);
+/*
+	 RESET
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+html{				font-size: 62.5%; }
+body{				line-height:1;}
+ol, ul{				list-style:none;}
+table{				border-collapse:collapse; border-spacing:0;}
+ins{				text-decoration:none;}
+del{				text-decoration:line-through;}
+input[type=hidden]{	display:none; border:none;}
+blockquote, q{		quotes:none;}
+blockquote:before, blockquote:after, q:before, q:after{	content:''; content:none;}
+input[type=checkbox], input[type=radio]{ border:none;}
+img[align=left]{	margin:0 10px 6px 0; float:left;}
+img[align=right]{	margin:0 0 6px 10px; float:right;}
+
+/*
+	@font-face
+*/
+@font-face {
+    font-family: 'Droid';
+    src: url('../css/fonts/DroidSansMono-webfont.eot');
+    src: url('../css/fonts/DroidSansMono-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../css/fonts/DroidSansMono-webfont.woff') format('woff'),
+         url('../css/fonts/DroidSansMono-webfont.ttf') format('truetype'),
+         url('../css/fonts/DroidSansMono-webfont.svg#DroidSansMonoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lane';
+    src: url('../css/fonts/LANENAR_-webfont.eot');
+    src: url('../css/fonts/LANENAR_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../css/fonts/LANENAR_-webfont.woff') format('woff'),
+         url('../css/fonts/LANENAR_-webfont.ttf') format('truetype'),
+         url('../css/fonts/LANENAR_-webfont.svg#LaneNarrowRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*Font-Face */
+@font-face {
+    font-family: 'ChunkFive';
+    src: url('/js/fonts/Chunkfive-webfont.eot');
+    src: url('/js/fonts/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/js/fonts/Chunkfive-webfont.woff') format('woff'),
+         url('/js/fonts/Chunkfive-webfont.ttf') format('truetype'),
+         url('/js/fonts/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1, h2, h3, h4{ font-family:"PT Serif","ChunkFive", Arial, Helvetica, sans-serif; font-weight:normal;}
+
+/*
+	 *Structure
+*/
+html{							font-size: 62.5%; }
+body{							background: #111; font-family:Tahoma, Geneva, sans-serif;}
+a{								color:#0065a2; text-decoration:underline;}
+a:hover{						text-decoration:underline; color:#CC9900;}
+p{								font-size: 13px; font-size:1.3em; line-height:18px; margin-bottom:15px;}
+h1{								font-size: 47px; font-size:4.7em; line-height:51px; margin-bottom:5px; color:#fff;}
+h2{								font-size: 14px; font-size:1.4em; text-transform:uppercase; line-height:25px;
+								margin-bottom:5px; color:#333;}
+h3{								font-size: 18px; font-size:1.8em; line-height:20px; margin-bottom:5px; color:#222;
+								font-family:normal "PT Serif","ChunkFive", Arial, Helvetica, sans-serif;  }
+h4{								font-size:16px; font-size:1.6em; line-height:20px; margin-bottom:5px; color:#222; 
+								font-family:normal "PT Serif","ChunkFive", Arial, Helvetica, sans-serif; }
+
+#container{						width:100%; height:100%; min-height:100%; /*background: url(../images/split-bg.gif) 70.2% 0 repeat-y;*/ font-size:1em; float:left;}
+#wrap{							width:1024px; background: #ece7e9 }
+#left{ 							width:340px; height:100%; float:left;  background: #ece7e9 url(../images/splash-yollo-logo.jpg) no-repeat;}
+#left .left-content{			width:263px;   padding-left:42px; padding-right:35px; margin-top:200px; color:#333;  }
+
+#right{							width:684px; float:left; background: #111; min-height:1000px;}
+#right .right-content{			width:639px; padding:0 0 0 23px; margin-top:93px; color:#fff;  background: #111 }
+#right h1{						margin-bottom:15px;}
+#right h2{						margin-bottom:15px; font-size:25px; line-height:29px; text-transform:none; 
+								margin-bottom:15px; color:#fff;}
+
+
+
+
+/* Sticky Footer */
+html, body {height: 100%;}
+
+#container{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -50px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+	height: 50px; /* .push must be the same height as .footer */
+	clear:both;
+}
+
+/* Footer */
+#footer{height:30px; width:100%; background:#222; border-top:1px solid #000; padding:10px 0; font:11px Arial, Helvetica, sans-serif; clear:both; color:#fff; position:relative; }
+.fcontent{width:600px; float:left; margin-top:6px;}
+#footer a{text-decoration:underline; color:#fff;}
+#footer a:hover{text-decoration:underline; color:#8C2D24;}
+.footerlogo{ margin-left:200px; margin-right:10px; width:43px; height:25px; float:left;}
+
+/*
+	*Social Site Icons
+*/
+
+a.facebook{width:24px; height:24px; background:url(../images/social-icons.gif) 0 0; display:block; float:left; margin-right:5px; }
+a.facebook:hover{width:24px; height:24px; background:url(../images/social-icons.gif)  -24px 0; }
+a.twitter{width:24px; height:24px; background:url(../images/social-icons.gif) 0 -24px ; display:block; float:left;}
+a.twitter:hover{width:24px; height:24px; background:url(../images/social-icons.gif) -24px -24px ; display:block; }
+a.facebook *, a.twitter *{display:none;}
+
+/*Clear Fix*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {display: inline-block;}/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}/* End hide from IE-mac */
+
+.mc-field-group label{	width:100px; display:inline-block; vertical-align:middle;}
+input.splashinput{		background:url(../images/splash-input.gif) no-repeat; width:305px; height:28px; border:none; 
+						padding:3px; padding-top:6px; color:#666; font-size:13px; line-height:18px; margin-bottom:10px; }
+form fieldset{			width:420px;}						
+.btn{					float:right; cursor:pointer;}
+.response{				padding:5px; background:#093; color:#fff; font:13px/16px Arial, Helvetica, sans-serif;}
+
+/*Media Queries*/
+@media only screen and (max-width: 600px) {
+	.tweet, .facebook{display:none;}
+	#footer{padding-left:10px;}
+
+}
+

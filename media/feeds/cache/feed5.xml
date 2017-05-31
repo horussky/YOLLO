@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
+
+<channel>
+	<title>Usability Post</title>
+	
+	<link>http://www.usabilitypost.com</link>
+	<description>Design and usability blog</description>
+	<lastBuildDate>Tue, 01 Dec 2009 22:03:47 +0000</lastBuildDate>
+	<generator>http://wordpress.org/?v=2.8.4</generator>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+			<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" href="http://feeds.feedburner.com/usabilitypost" type="application/rss+xml" /><feedburner:emailServiceId xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">usabilitypost</feedburner:emailServiceId><feedburner:feedburnerHostname xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">http://feedburner.google.com</feedburner:feedburnerHostname><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com" /><item>
+		<title>The Web Is the Perfect Content Delivery Channel For Tablet Readers</title>
+		<link>http://www.usabilitypost.com/2009/12/01/the-web-is-the-perfect-content-delivery-channel-for-tablet-readers/</link>
+		<comments>http://www.usabilitypost.com/2009/12/01/the-web-is-the-perfect-content-delivery-channel-for-tablet-readers/#comments</comments>
+		<pubDate>Tue, 01 Dec 2009 21:53:40 +0000</pubDate>
+		<dc:creator>Dmitry</dc:creator>
+				<category><![CDATA[Miscellaneous]]></category>
+		<category><![CDATA[User Experience]]></category>
+
+		<guid isPermaLink="false">http://www.usabilitypost.com/?p=725</guid>
+		<description><![CDATA[A while back I wrote a post on why we still use paper. I&#8217;ve talked about the idea of consumption of digital content, mainly textual content. We still read books and magazines because they&#8217;re much more suited for consumption &#8212; it&#8217;s just much easier to sit comfortably in an armchair read a book than to [...]]]></description>
+			<content:encoded><![CDATA[<p><img class="alignright" title="Tablet reader" src="http://img.usabilitypost.com/0912/tablet.jpg" alt="" width="250" height="241" />A while back I wrote a post on <a href="http://www.usabilitypost.com/2009/01/14/why-we-still-use-paper/">why we still use paper</a>. I&#8217;ve talked about the idea of consumption of digital content, mainly textual content. We still read books and magazines because they&#8217;re much more suited for consumption &#8212; it&#8217;s just much easier to sit comfortably in an armchair read a book than to read a book on a computer monitor at your desk. Personal computers are more suited towards content creation because of their size, input devices, big monitors and so on.</p>
+<p>I believe than eventually paper books and magazines will become obsolete. This will happen when we get a good digital device for reading them, a good reading tablet. Amazon has begun this with the <a href="http://www.amazon.com/dp/B0015T963C">Kindle</a>, Barnes &amp; Noble have recently answered with the <a href="http://www.barnesandnoble.com/nook/">nook</a>, but I think it will take us a lot more time to arrive at a perfect device of this sort. When it does arrive, there will become little point in printing thousands of paper copies when you can distribute the same content in digital form.</p>
+<p>One interesting thing I notice a lot is that people tend to be confused about tablets. They see no reason for making a digital tablet. Who would use it and why?<span id="more-725"></span></p>
+<p>But the reason is staring back at them. The reason for a tablet is this: to consume the Web. You see, the Web, is the world&#8217;s biggest collection of content. People today don&#8217;t just write books and magazines, they write blogs, participate in social networks and other forms of social media (forums, comments on blogs, photo sharing, etc.). Content is created not in a very rigid form of books, magazines and journals but in a very flexible form, spread all around the Web.</p>
+<p>But books, magazines and other forms of old fashioned content that&#8217;s distributed in digital form are still packaged up in formats like PDF, or worse, closed, proprietary document formats. Old-fashioned content types are clinging to an old-fashioned distribution model when all the time we have this greatest distribution channel ever made sitting right there, open to all.</p>
+<p>The best way to distribute tomorrow&#8217;s content then (the content that is currently printed on paper) is simply by using the tools we&#8217;ve always had: HTML and CSS, delivered over the Web. No PDFs or proprietary formats &#8212; simply web pages. This has obvious advantages. It&#8217;s easy to create the actual hardware to read them because we&#8217;ve already got browsers that can do it. It&#8217;s easy to style &#8212; we&#8217;re creating websites every day. Easy to modify styles for different devices and to make content more accessible (e.g. resizing text). It&#8217;s easy to update content when it&#8217;s stored in a central location, making error correction much faster. You can download the pages should you need the content locally when you don&#8217;t have Internet access. It just makes perfect sense.</p>
+<p>What&#8217;s even better is that Google is working on an operating system well suited for this task: Chrome OS. The operating system is just a web browser. While I&#8217;m sure many notebooks and portable devices will benefit from the power of Chrome in running web apps, I see Chrome OS a perfect fit for tablet devices as well, where reading will be the main usage.</p>
+<p>I think the important thing to consider when thinking about tablets is that these devices aren&#8217;t meant for content creation &#8212; that would be difficult on a small screen and tiny keyboard &#8212; they&#8217;re meant for content consumption, reading books, blogs, newspapers, email, etc., which they&#8217;ll be much better at given their size and weight.</p>
+<p>Steve Jobs once made a comment saying that: &#8220;people don&#8217;t read&#8221;. But they do read. Even if they don&#8217;t read books or newspapers, they read other things like blogs and social media. Content is changing. New media has introduced many types of new content that was born on the Web. The Web is its original habitat.</p>
+<p>Not so with old content like books, newspapers, journals. They were born long before the Internet was invented and while we&#8217;re seeing some move into this new medium, a lot of it still clings to the old. I think eventually books and magazines should migrate online as well. A simple tablet reading device powered by a browser will be the means of accessing them, together with the rest of content we already consume daily on the Web.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.usabilitypost.com/2009/12/01/the-web-is-the-perfect-content-delivery-channel-for-tablet-readers/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+		<item>
+		<title>Breaking Rules</title>
+		<link>http://www.usabilitypost.com/2009/11/30/breaking-rules/</link>
+		<comments>http://www.usabilitypost.com/2009/11/30/breaking-rules/#comments</comments>
+		<pubDate>Mon, 30 Nov 2009 19:34:58 +0000</pubDate>
+		<dc:creator>Dmitry</dc:creator>
+				<category><![CDATA[Design]]></category>
+		<category><![CDATA[User Interface]]></category>
+
+		<guid isPermaLink="false">http://www.usabilitypost.com/?p=716</guid>
+		<description><![CDATA[In user interface design we have a thing called design patterns, or more specifically, user interface patterns &#8212; tried and tested ways of building interface elements, or sets of elements together, that solve a given problem. User interface patterns include things like drop-down menus, search boxes, value sliders, scrollbars, progress meters, forms, and so on. [...]]]></description>
+			<content:encoded><![CDATA[<p>In user interface design we have a thing called design patterns, or more specifically, user interface patterns &#8212; tried and tested ways of building interface elements, or sets of elements together, that solve a given problem. User interface patterns include things like drop-down menus, search boxes, value sliders, scrollbars, progress meters, forms, and so on. These patterns have been established and evolved over time, they work, and people are used to them.</p>
+<p>This means that when you&#8217;re developing a new product, and you&#8217;re faced with common problems, the smart thing to do is to use these established patterns. Most people will do this automatically because that&#8217;s the only way of solving those problems that they know of. The benefit is obvious: you don&#8217;t have to reinvent the wheel. You also know that this solution will work and your users will likely know how to use it given that it&#8217;s used everywhere else.</p>
+<p>But should these patterns always be followed?<span id="more-716"></span></p>
+<p>No. User interface patterns and conventions can, and should, be broken, provided one criterion is met: the new solution is better at its task than the one it replaces. Innovation by definition must introduce some new way of doing things, and it&#8217;s often impossible to do this without breaking the old norms.</p>
+<p>When an interface pattern is replaced by a new one, it is inevitable that your users will have to learn how it works. That&#8217;s the toll innovation will collect from you &#8212; the only toll. If in the end your solution is better and it&#8217;s accessible enough &#8212; the learning curve is not too steep &#8212; then it will get adapted and it is your competitors who will in turn have to keep up with you.</p>
+<p>You cannot leap ahead away from your competitors unless you can produce something remarkable &#8212; something that they don&#8217;t have. Following rules, patterns and conventions can help you make a good product, but it will also restrain you from creating fresh, innovative ideas that push the design of your product to a new level. To do that you have to break away from preconceptions and association bias and focus on developing better solutions for your given problem &#8212; solutions that aren&#8217;t built by following a set of guidelines, but built to produce better results.</p>
+<p>The real danger is falling into the trap of simply doing things the way everyone else does it simply because everyone else expects you to. That is a road with a dead end, and while that destination may suffice, you&#8217;ll not be breaking new ground. Instead, strive to make things better. These improvements will be the things that differentiate your product. If they don&#8217;t work you can always revert back. If they do, you&#8217;ll be the one with a better product, and others will have to follow. In this way you&#8217;ll no longer be the one simply obeying rules, you&#8217;ll be the one shaping them.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.usabilitypost.com/2009/11/30/breaking-rules/feed/</wfw:commentRss>
+		<slash:comments>13</slash:comments>
+		</item>
+		<item>
+		<title>Search-dropdown Hybrid Box</title>
+		<link>http://www.usabilitypost.com/2009/11/30/search-dropdown-hybrid-box/</link>
+		<comments>http://www.usabilitypost.com/2009/11/30/search-dropdown-hybrid-box/#comments</comments>
+		<pubDate>Mon, 30 Nov 2009 09:43:40 +0000</pubDate>
+		<dc:creator>Dmitry</dc:creator>
+				<category><![CDATA[Usability]]></category>
+		<category><![CDATA[User Experience]]></category>
+		<category><![CDATA[User Interface]]></category>
+
+		<guid isPermaLink="false">http://www.usabilitypost.com/?p=710</guid>
+		<description><![CDATA[Here&#8217;s an interesting interface element: a search and a drop-down menu in one. Search boxes now use dropdowns for live results and suggested searches but here it&#8217;s used as a basic navigation menu, combined with an ability to just type and search for what you want.
+This is from Giraffe Restaurants website by Engage Interactive. Here&#8217;s what the box looks [...]]]></description>
+			<content:encoded><![CDATA[<p>Here&#8217;s an interesting interface element: a search and a drop-down menu in one. Search boxes now use dropdowns for live results and suggested searches but here it&#8217;s used as a basic navigation menu, combined with an ability to just type and search for what you want.</p>
+<p>This is from <a href="http://giraffe.net/restaurants/">Giraffe Restaurants</a> website by <a href="http://www.engageinteractive.co.uk/">Engage Interactive</a>. Here&#8217;s what the box looks like when hovered over:</p>
+<p><img class="alignnone" title="Giraffe hover" src="http://img.usabilitypost.com/0911/giraffe_hover.png" alt="" width="530" height="254" /></p>
+<p>And clicked:</p>
+<p><img class="alignnone" title="Giraffe clicked" src="http://img.usabilitypost.com/0911/giraffe_click.png" alt="" width="530" height="336" /><span id="more-710"></span></p>
+<p>Additionally, it shows nearest locations to whatever result you choose or search for underneath:</p>
+<p><img class="alignnone" title="Giraffe suggestions" src="http://img.usabilitypost.com/0911/giraffe_suggestions.png" alt="" width="530" height="254" /></p>
+<p>Great way to keep the interface simple and helpful.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.usabilitypost.com/2009/11/30/search-dropdown-hybrid-box/feed/</wfw:commentRss>
+		<slash:comments>10</slash:comments>
+		</item>
+		<item>
+		<title>Google Wave’s Clever Way Of Saving Scrollbar Space</title>
+		<link>http://www.usabilitypost.com/2009/11/29/google-waves-clever-way-of-saving-scrollbar-space/</link>
+		<comments>http://www.usabilitypost.com/2009/11/29/google-waves-clever-way-of-saving-scrollbar-space/#comments</comments>
+		<pubDate>Sun, 29 Nov 2009 17:49:54 +0000</pubDate>
+		<dc:creator>Dmitry</dc:creator>
+				<category><![CDATA[User Interface]]></category>
+
+		<guid isPermaLink="false">http://www.usabilitypost.com/?p=705</guid>
+		<description><![CDATA[I&#8217;ve finally received my Wave invitation and have been playing around a little bit with Google&#8217;s app for it. One interesting thing in the Wave app interface is the scrollbars. Google have designed their own scrollbar which has the arrows on the actual scroller itself and the length of the scrollbar also reflects the length [...]]]></description>
+			<content:encoded><![CDATA[<p>I&#8217;ve finally received my <a href="http://wave.google.com">Wave</a> invitation and have been playing around a little bit with Google&#8217;s app for it. One interesting thing in the Wave app interface is the scrollbars. Google have designed their own scrollbar which has the arrows on the actual scroller itself and the length of the scrollbar also reflects the length of the document. I&#8217;ve read some critique on this, but I found the scrollbar to actually be fairly usable. The scrolling is just as responsive when using the mouse wheel, which most people will do anyway.</p>
+<p>One great thing about the design of the scrollbar though is how it conserves space. Instead of giving the scrollbar its own full bar to operate in, or hiding (or making it transparent) the bar when not in use, Google opted for another solution: they offset the bar out of the content box, and use the edge of the box as the &#8220;bar&#8221; on which the scroller moves along. In this way Google manages to save a little bit of space for content. The extra whitespace also makes these savings seem bigger.</p>
+<p>Here&#8217;s a picture of Google&#8217;s bar:</p>
+<p><img class="alignnone" title="Wave scrollbar" src="http://img.usabilitypost.com/0911/wave_scrollbar.png" alt="" width="113" height="314" /><span id="more-705"></span></p>
+<p>Here&#8217;s a mockup of the same bar with the default OS X scrollbar:</p>
+<p><img class="alignnone" title="OS scrollbar" src="http://img.usabilitypost.com/0911/os_scrollbar.png" alt="" width="113" height="314" /></p>
+<p>I&#8217;ve moved the scrollbar left a bit to fit it into the box. That&#8217;s exactly how Google saves the space &#8212; they move the bar right, out of the box a little. If I made the box bigger to fit the bar exactly where Google&#8217;s one is, then the whitespace between the content boxes would be tightened, which we don&#8217;t want in for reasons of keeping the design less cluttered. Additionally, because Google&#8217;s scroller is floating on top without the actual &#8220;bar&#8221; below it extra whitespace is created around it. This whitespace makes the design even simpler and less cluttered. Very clever way of optimizing space.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.usabilitypost.com/2009/11/29/google-waves-clever-way-of-saving-scrollbar-space/feed/</wfw:commentRss>
+		<slash:comments>25</slash:comments>
+		</item>
+		<item>
+		<title>Cooking a Website</title>
+		<link>http://www.usabilitypost.com/2009/11/13/cooking-a-website/</link>
+		<comments>http://www.usabilitypost.com/2009/11/13/cooking-a-website/#comments</comments>
+		<pubDate>Fri, 13 Nov 2009 23:41:52 +0000</pubDate>
+		<dc:creator>Dmitry</dc:creator>
+				<category><![CDATA[Design]]></category>
+
+		<guid isPermaLink="false">http://www.usabilitypost.com/?p=693</guid>
+		<description><![CDATA[I&#8217;m not really an expert at cooking but I do love to watch professionals cook. I mean Michelin star level professionals. What these guys produce is really amazing and its also interesting to see just how much work some of these dishes involve and how many unique techniques are used. It&#8217;s not just food really, [...]]]></description>
+			<content:encoded><![CDATA[<p><img class="alignright" title="plate" src="http://img.usabilitypost.com/0911/plate.png" alt="" width="250" height="180" />I&#8217;m not really an expert at cooking but I do love to watch professionals cook. I mean Michelin star level professionals. What these guys produce is really amazing and its also interesting to see just how much work some of these dishes involve and how many unique techniques are used. It&#8217;s not just food really, it&#8217;s art. Some art is there to be seen: paintings, some art is to be listened to: music, and some art is to be tasted. Anyhow&#8230; what does all this have to do with websites?</p>
+<p>Well, what I do find interesting is that I&#8217;m seeing several parallels between cooking and designing interfaces and websites. Let&#8217;s see&#8230;<span id="more-693"></span></p>
+<h3>1. You need to pick complementary flavors</h3>
+<p>Creating a Michelin star winning dish requires a naturally good palate. You need to know how flavors come together in order to create a fusion that works. Choose the wrong ingredient and you could ruin the whole dish.</p>
+<p>In web design you need to be able to create a design that works as a whole; when all the elements are sliced and coded it must come together as a coherent page, with each element reinforcing the other. Keeping a consistent theme is crucial, as is picking a color palette that works.</p>
+<h3>2. It&#8217;s all about the flavor of the main ingredients</h3>
+<p>Each dish has a star ingredient, be it the delicate scallop, or the hearty fillet of beef; everything else on the plate works to bring out its flavor. All the other elements should support that main ingredient and work to bring out its flavor. If there are too many other things on the plate, or the other flavors are overpowering, the main ingredient becomes in danger of getting lost.</p>
+<p>Your web design is a user interface, and as such it&#8217;s an interface <em>to</em> something. That something is of course the site&#8217;s content. The content should always be the star, not the design (unless it&#8217;s a portfolio site where the site itself is often part of the content). A good interface works to bring out the content, make sense of it, and ultimately fade away.</p>
+<h3>3. Taste and presentation both matter</h3>
+<p>If you go to a restaurant, you expect your food to look good as well as taste good. These elements are part of delivering an experience. If the food tastes fantastic but looks like dog&#8217;s dinner then the experience is ruined.</p>
+<p>Similarly, if the content on a website is great, but the interface is ugly, then you may still use the site but the user experience won&#8217;t be at a level that it could be. On the other side, fantastic design coupled with bad content just isn&#8217;t going to deliver. However, when you achieve a fusion of great design and great content you deliver a user experience that your visitors will enjoy and remember, which is sure to bring them back again and again.</p>
+<h3>4. Too many things on the plate confuse the palate</h3>
+<p>A good dish has a theme &#8212; a selection of flavors combined together with a direction and intent; a fusion that delivers a unique experience. Ingredients must be chosen well so that they go complement and reinforce each other. If you put too many ingredients on the plate then you risk confusing the palate as the dish becomes a cacophony of tastes.</p>
+<p>The same is true in design. Too many fonts destroy the typographical theme of the page. Too many colors dilute the brand. Too much content makes the page difficult to digest. Don&#8217;t rush into styling everything or adding everything you can think of. Approach your web design with a strategic stance. What&#8217;s your branding &#8212; what color should dominate? What is the main font that you&#8217;re going to use and why? What should the reader get from this page? What don&#8217;t they want?</p>
+<h3>5. It takes restraint and confidence to achieve simplicity</h3>
+<p>A dish that looks simple doesn&#8217;t mean it will taste simple or deliver little. Simplicity has an elegance of its own.</p>
+<p>Designing simple websites and interfaces is all about <a href="http://www.usabilitypost.com/2009/10/02/restraint/">restraint</a>. Yes, you can utilize the latest trends and Photoshop skills, you can add gradients, wet floors and highlights &#8212; but does the design really need it? What value do these things add, if any? Reducing a design to its most basic components and arranging them in a simple and elegant fashion isn&#8217;t easy &#8212; it&#8217;s very hard. Minimalism is beautiful because everything on the page is there for a reason, nothing is superfluous, and when form is so tightly wrapped around function the results are beautiful.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.usabilitypost.com/2009/11/13/cooking-a-website/feed/</wfw:commentRss>
+		<slash:comments>18</slash:comments>
+		</item>
+		<item>
+		<title>A Better Distribution Channel for Desktop Apps</title>
+		<link>http://www.usabilitypost.com/2009/11/06/better-distribution-channe-for-desktop-apps/</link>
+		<comments>http://www.usabilitypost.com/2009/11/06/better-distribution-channe-for-desktop-apps/#comments</comments>
+		<pubDate>Fri, 06 Nov 2009 18:42:44 +0000</pubDate>
+		<dc:creator>Dmitry</dc:creator>
+				<category><![CDATA[Miscellaneous]]></category>
+
+		<guid isPermaLink="false">http://www.usabilitypost.com/?p=671</guid>
+		<description><![CDATA[My Tuesday&#8217;s post was about the iPhone and what it does right. Apart from being a usable device it has another great feature: the App Store. You can browse all the apps available for the phone and get them with just a tap of the finger (or two, together with password input to be precise). [...]]]></description>
+			<content:encoded><![CDATA[<p>My Tuesday&#8217;s post was about the iPhone and what it does right. Apart from being a usable device it has another great feature: the App Store. You can browse all the apps available for the phone and get them with just a tap of the finger (or two, together with password input to be precise). The apps you download are also updated through the App Store &#8212; so whenever there&#8217;s a new version of the app out, you see a little number pop up above the App Store icon. That number says: you&#8217;ve got a new update available. Going to the update window lets you see what&#8217;s been updated and download the update.</p>
+<p>This is a great delivery channel for apps. There are two big benefits to this approach: 1) you get to browse all the apps available for your platform in one place and 2) you can keep all your apps up to date with ease.<span id="more-671"></span></p>
+<p>There is no such delivery system for all our desktop apps. Some might say: well&#8230; the Web is now that system. Search for whatever you need on Google and buy the app online. This is an open system without constraints on developers or consumers. But it&#8217;s also not very good for consumers because Googling for apps isn&#8217;t very efficient. Sometimes there are little tools that do exactly what you want, but they have poorly optimised websites that just don&#8217;t show up in the search results you&#8217;re looking at. Also, in an integrated marketplace you can track the most popular apps and read user reviews, which help you make purchase decisions.</p>
+<p>Also: updating apps today can be simplified. A lot of apps have some sort of auto-update system where the app will automatically monitor itself for updates and then download them when required. That&#8217;s great, but not all desktop apps have this. Sometimes you have to go to the app&#8217;s website and download the new files. The ideal is an automatic system that keeps everything up to date without requiring much effort on the user&#8217;s part to maintain. The system should do the checking and updating, leaving the user with just one task: confirming whether they want to update or not &#8212; and even that should be optional.</p>
+<p>My OS of choice is Mac OS X. There&#8217;s this great website called <a href="http://osx.iusethis.com/">I use this</a>. It&#8217;s basically a database of all apps available for OS X (Windows and iPhone sites are also available). It&#8217;s a bit like a social news site for apps &#8212; instead of voting up stories, you vote up apps. This lets you see the most popular apps overall, and also in individual categories. This is a great method of finding software to solve your problem &#8212; just search for your keyword and look through the top entries. User comments/reviews also come in handy.</p>
+<p>This solves the selection problem, but it doesn&#8217;t solve updating. I think there&#8217;s an opportunity here for Apple, or whomever, to build an application manager like this that will 1) let you find the right apps to solve your problems and 2) update these apps through a simple integrated interface.</p>
+<p>A great example of this done right is the <a href="http://store.steampowered.com/">Steam</a> platform on Windows. Steam is a game delivery channel developed by Valve that basically does exactly what I&#8217;m talking about above: it offers you a catalog of games to browse through, it offers you an interface to purchase and download them, and it offers you instant updates when they become available. One of the more important benefits of Steam is that when you log on to a new PC, or say, reformat your current one, you can easily re-download all the stuff you&#8217;ve purchased because it keeps a record of that. This means you don&#8217;t need to keep any registration codes or CDs around &#8212; all the apps you own are instantly available to you when you log in.</p>
+<p style="text-align: center;"><img class="alignnone" title="Valves steam" src="http://img.usabilitypost.com/0911/steam.png" alt="" width="540" height="409" /><br />
+<em>Valve&#8217;s Steam</em></p>
+<p>Perhaps this is the right model for distributing today&#8217;s desktop apps. Offer an App Store for desktop apps that lets you find, purchase and download what you need, keep a track of all your purchases in case you need to get them again and offer integrated updates. Apple and the App Store have been under some heavy fire lately for hand picking apps they do and don&#8217;t want to include in their store, and although that is a real concern with this distribution model I think the benefits for consumers outweigh those problems.</p>
+<p>What do you think? Do we need a better app delivery system? Leave your comments below.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.usabilitypost.com/2009/11/06/better-distribution-channe-for-desktop-apps/feed/</wfw:commentRss>
+		<slash:comments>24</slash:comments>
+		</item>
+		<item>
+		<title>3 Things Phone Manufacturers Should Get Right to Beat the iPhone</title>
+		<link>http://www.usabilitypost.com/2009/11/03/3-things-phone-manufacturers-should-get-right-to-beat-the-iphone/</link>
+		<comments>http://www.usabilitypost.com/2009/11/03/3-things-phone-manufacturers-should-get-right-to-beat-the-iphone/#comments</comments>
+		<pubDate>Tue, 03 Nov 2009 23:03:07 +0000</pubDate>
+		<dc:creator>Dmitry</dc:creator>
+				<category><![CDATA[Usability]]></category>
+		<category><![CDATA[User Experience]]></category>
+
+		<guid isPermaLink="false">http://www.usabilitypost.com/?p=652</guid>
+		<description><![CDATA[It&#8217;s interesting to see the latest developments in the phone market. Everyone is scrambling to match the iPhone in form and function in order to hold on to their market share. Sure, the iPhone is a high end phone, so not everyone is going for it, but it at is also a very very successful [...]]]></description>
+			<content:encoded><![CDATA[<p>It&#8217;s interesting to see the latest developments in the phone market. Everyone is scrambling to match the iPhone in form and function in order to hold on to their market share. Sure, the iPhone is a high end phone, so not everyone is going for it, but it at is also a very very successful phone that gets a lot of things right, and the competition knows it.</p>
+<p>Which is why we&#8217;re seeing all those Storms, Pres and Droids on the market lately. They come close, but always seem to fall short. It&#8217;s not the features &#8212; these phones usually have more features and better specs than Apple&#8217;s offering &#8212; it&#8217;s something else. To me, it all boils down to just 3 things. If any phone manufacturer gets these 3 things right, they&#8217;ll beat the iPhone at its own game:<span id="more-652"></span></p>
+<p>1. Flow<br />
+2. Responsiveness<br />
+3. Polish</p>
+<h3>1. Flow</h3>
+<p>Usable devices are all about flow. What&#8217;s flow? For every task that people perform on their device there is a sequence of actions they go through. Sometimes it&#8217;s just one action &#8212; you click a button and whatever you wanted to happen, happens: e.g. pushing the Home button to get back to the main screen. For other tasks you may go through dozens of actions before you reach your desired end.</p>
+<p>Good flow means the designers have anticipated common tasks, reduced the number of actions required to accomplish them, and ensured the next actions are always there in front of the user so they don&#8217;t even have to think about what to push next. Here&#8217;s a great <a href="http://www.viddler.com/explore/fowd/videos/16/">presentation by Ryan Singer</a> from 37signals talking about usability &#8212; Ryan talks about flow at about 38 minutes in with some great examples.</p>
+<h3>2. Responsiveness</h3>
+<p>Responsiveness here is all about speed. Stuff should happen when you press buttons or slide your finger across the screen. That&#8217;s obvious, right? Yet most phones on the market aren&#8217;t very responsive. You slide your finger, and half a second later the screen begins to move in a choppy manner. The device is laggy and slow &#8212; it&#8217;s not responsive.</p>
+<p>All of the lag, the waiting between screens, the waiting for applications to launch and for the screen to scroll creates serious friction with the user. When you want to do something you have to wait for the device to catch up. That&#8217;s frustrating.</p>
+<h3>3. Polish</h3>
+<p>Polish is craftsmanship. When you&#8217;re finalising the user interface, make it look good. This doesn&#8217;t mean adding gradients, shiny gloss, reflections, shadows or a plethora of other visual effects &#8212; most of that stuff is superfluous &#8212; it means tasteful typesetting, choice of palette and contrast calibration. The important things should pop out at you, while the secondary and tertiary elements should fade into the background. There should be enough whitespace to make things easy to read and scan. That&#8217;s all you really need, yet we&#8217;re still seeing a lot of blunders in this department.</p>
+<p>Just look at the settings panels of a Blackberry &#8212; there isn&#8217;t even any left padding on the text there, which means its touching the left edge of the screen. A little bit of polish will go a long way.</p>
+<p>Get those 3 things right and you&#8217;ll beat the iPhone, or will at least match it. Why? Because the phone is a different device to say, a PC. The phone is always there with you, and its used primary for quick, almost mechanical, tasks. Calling people, checking SMS, checking the time, checking the map, snapping a quick picture. There are many different things you can do with a phone, but all of them are quick actions. This means the phone should aim to be closer to how a mechanical device works.</p>
+<p>Think about a toaster. You put in the bread, you push the lever, and that&#8217;s it. Your action is done, and now you just wait for the bread to toast. The interface is dead simple and its instantly responsive. That&#8217;s because it&#8217;s mechanical. There&#8217;s not a lot to get between you and what you want to achieve. In electronic devices though, there is a lot of &#8220;interface&#8221; in your way, which tends to also be very laggy and confusing. What you want to do though is get closer to the mechanical toaster and do the users&#8217; actions easily and quickly.</p>
+<p>That&#8217;s why the iPhone is so effective. It&#8217;s fast and responsive. It&#8217;s also very polished, which raises it even higher. Apple doesn&#8217;t care about features because it knows that that stuff just doesn&#8217;t matter. What people want is a device that doesn&#8217;t get in your way.</p>
+<p>Other phone manufacturers are too focused on the hardware. Most of them produce really great hardware. But the problem is that hardware is only half the problem &#8212; the OS is just as, if not more, important than the hardware it runs on. The OS is the interface &#8212; it&#8217;s what lets people do the stuff they want to do with their phones. The OS is also the thing that my 3 points above are governed by.</p>
+<p>Forget features, forget specs, forget <a href="http://mashable.com/2009/10/29/droid-vs-iphone/">comparison charts</a>. A comparison chart will never tell you about user experience and usability, and in the end, that&#8217;s what matters most in a pocket device.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.usabilitypost.com/2009/11/03/3-things-phone-manufacturers-should-get-right-to-beat-the-iphone/feed/</wfw:commentRss>
+		<slash:comments>45</slash:comments>
+		</item>
+		<item>
+		<title>Mouse Cursor Affordance</title>
+		<link>http://www.usabilitypost.com/2009/10/26/mouse-cursor-affordance/</link>
+		<comments>http://www.usabilitypost.com/2009/10/26/mouse-cursor-affordance/#comments</comments>
+		<pubDate>Mon, 26 Oct 2009 19:18:07 +0000</pubDate>
+		<dc:creator>Dmitry</dc:creator>
+				<category><![CDATA[HTML/CSS]]></category>
+		<category><![CDATA[Tutorials]]></category>
+		<category><![CDATA[Usability]]></category>
+		<category><![CDATA[User Interface]]></category>
+
+		<guid isPermaLink="false">http://www.usabilitypost.com/?p=638</guid>
+		<description><![CDATA[One important interaction indicator on the web is the mouse cursor. The default cursor arrow changes into a pointing hand when you hover over links for example, which indicates they are indeed links and can be clicked on. It also changes into other things to differentiate context, for example it can change into a text [...]]]></description>
+			<content:encoded><![CDATA[<p>One important interaction indicator on the web is the mouse cursor. The default cursor arrow changes into a pointing hand when you hover over links for example, which indicates they are indeed links and can be clicked on. It also changes into other things to differentiate context, for example it can change into a text input cursor when hovering over text fields to indicate you can type there.</p>
+<p>When styling your website with CSS, in some cases you may lose the correct cursor type for certain elements. It&#8217;s important to retain this indicator as it will inform the user about how the item they&#8217;re hovering over can be used (see <a href="http://www.uxbooth.com/blog/foundations-of-affordances/">affordances</a>). The solution is easy: if the cursor type is wrong, specify it using the CSS &#8220;cursor&#8221; property.<span id="more-638"></span></p>
+<p>Here are a couple of examples.</p>
+<p>There&#8217;s a technique for simplifying forms where you place the text field labels inside the actual text fields &#8212; not to the side, not above, but as pre-filled values. When the user clicks on the field, the label disappears and they can start typing. <a href="http://www.alistapart.com/articles/makingcompactformsmoreaccessible">One way of doing this</a> is to use absolute positioning for the label and simply place it above the field. When the field is in focus, use JavaScript to hide the label.</p>
+<p>The following problem arises: when the user hovers over the text field, their cursor changes into the text input cursor &#8212; however, when they hover over the area with the label, the cursor doesn&#8217;t change &#8212; it remains the default arrow. This is because you&#8217;re hovering over a label element, not a text field element underneath it. To fix this, we simply add this CSS code to the label field:</p>
+<pre>.your_overlabel_class { cursor: text; }</pre>
+<p>Now when you hover over any area of the input field, the mouse cursor will change properly to the text input cursor.</p>
+<p style="text-align: center; "><img class="alignnone" title="form field arrow cursor" src="http://img.usabilitypost.com/0910/form_cursor_arrow.png" alt="" width="314" height="61" /><br />
+<em>Arrow cursor shown when hovering over a label.</em></p>
+<p style="text-align: center; "><img class="alignnone" title="text cursor" src="http://img.usabilitypost.com/0910/form_cursor_text.png" alt="" width="321" height="61" /><br />
+<em>Text type cursor. Let the user know they can type here.</em></p>
+<p>Ok, another example. I like styling form elements on my sites &#8212; text fields, text areas, buttons and so on. Form buttons don&#8217;t actually change the cursor type when you hover over them &#8212; they&#8217;re buttons, not links. Their appearance alone is enough to indicate their purpose. However, when you change their appearance they become something else. Their look is unique to your site, and even though they may look like buttons and are most likely clickable, when the user hovers over them the mouse cursor won&#8217;t change. This is confusing.</p>
+<p>Adding the following code to your styled buttons will change the cursor into a pointing hand, indicating the element is clickable:</p>
+<pre>.your_button_class { cursor: pointer; }</pre>
+<p style="text-align: center;"><img class="alignnone" title="button cursor arrow" src="http://img.usabilitypost.com/0910/button_cursor_arrow.png" alt="" width="92" height="64" /><br />
+<em>Standard arrow cursor shown over this styled button</em></p>
+<p style="text-align: center;"><img class="alignnone" title="button cursor pointer" src="http://img.usabilitypost.com/0910/button_cursor_pointer.png" alt="" width="92" height="65" /><br />
+<em>Pointer cursor on this styled button indicates clickability.</em></p>
+<p>I think this is better. Hovering over styled buttons now assures the user that they&#8217;re clickable.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.usabilitypost.com/2009/10/26/mouse-cursor-affordance/feed/</wfw:commentRss>
+		<slash:comments>26</slash:comments>
+		</item>
+		<item>
+		<title>Everyday Usability Heuristics: Visibility Of System Status</title>
+		<link>http://www.usabilitypost.com/2009/10/23/everyday-usability-heuristics-visibility-of-system-status/</link>
+		<comments>http://www.usabilitypost.com/2009/10/23/everyday-usability-heuristics-visibility-of-system-status/#comments</comments>
+		<pubDate>Fri, 23 Oct 2009 16:41:59 +0000</pubDate>
+		<dc:creator>Guest post</dc:creator>
+				<category><![CDATA[Usability]]></category>
+
+		<guid isPermaLink="false">http://www.usabilitypost.com/?p=627</guid>
+		<description><![CDATA[
+Guest post by Ondřej Válka
+Ondřej is a freelance front-end Web developer &#38; designer, currently
+helping Pixmac to make its front-end bulletproof.
+Two weeks ago, I was watching my 45-year old father browsing the Internet. Every time I watch him I learn a lesson in usability. I&#8217;m sure you know with situations like this one – valuable opportunities [...]]]></description>
+			<content:encoded><![CDATA[<div class="guest_author_box">
+<div class="guest_author_name">Guest post by <strong>Ondřej Válka</strong></div>
+<p><a href="http://www.valka.info">Ondřej</a> is a freelance front-end Web developer &amp; designer, currently<br />
+helping <a href="http://www.pixmac.com">Pixmac</a> to make its front-end bulletproof.</div>
+<p>Two weeks ago, I was watching my 45-year old father browsing the Internet. Every time I watch him I learn a lesson in usability. I&#8217;m sure you know with situations like this one – valuable opportunities to learn from the ordinary users for whom we design.</p>
+<p>As he is using Windows XP the very first thing he did was that he ran Firefox clicking an icon on the desktop. No response. Nothing happened so after a few seconds he clicked the icon one more time. With his eyes focused on the Firefox icon he clicked the icon again. Everything he got was three Firefox windows opened. Sounds familiar?<span id="more-627"></span></p>
+<p>The moment I saw this process I realized how applications are launched at my Mac OS X. Being clicked, the Firefox icon starts jumping in the dock. It&#8217;s not just a fancy effect, but a really useful feature. Clicking an icon user gets apparent immediate response. Moreover realize what you do: anytime you want to click an element, your eyes sticks to it. You are not watching the pointer, you just use a mouse and click. The same did my father.</p>
+<p><img class="alignnone" title="OS X Dock icon bouncing" src="http://img.usabilitypost.com/0910/up-system-status.png" alt="" width="530" height="80" /></p>
+<p style="text-align: center;"><em>Application icons in the OS X Dock bounce during launch to indicate activity.</em></p>
+<p>Is a small flickering sand-glass beside the pointer more apparent than a big jumping Firefox icon that user&#8217;s eyes are sticked to? Keep this in mind and try to design thoughtful user interfaces. It&#8217;s not just about applying the <a href="http://www.useit.com/papers/heuristic/heuristic_list.html">Nielsen&#8217;s rules</a>.</p>
+<p>Of course it doesn&#8217;t matter what, but it also matters how.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.usabilitypost.com/2009/10/23/everyday-usability-heuristics-visibility-of-system-status/feed/</wfw:commentRss>
+		<slash:comments>10</slash:comments>
+		</item>
+		<item>
+		<title>Remember Me</title>
+		<link>http://www.usabilitypost.com/2009/10/05/remember-me/</link>
+		<comments>http://www.usabilitypost.com/2009/10/05/remember-me/#comments</comments>
+		<pubDate>Mon, 05 Oct 2009 14:59:45 +0000</pubDate>
+		<dc:creator>Dmitry</dc:creator>
+				<category><![CDATA[Usability]]></category>
+		<category><![CDATA[User Experience]]></category>
+		<category><![CDATA[User Interface]]></category>
+
+		<guid isPermaLink="false">http://www.usabilitypost.com/?p=621</guid>
+		<description><![CDATA[Last month David Heinemeier Hansson posted a micropost on the 37signals blog asking if it&#8217;s time to kill off the &#8220;Remember me&#8221; checkbox on login forms and simply assume that the user wants the app to remember them the next time they load it, automatically logging them in.
+I think this falls in the same category [...]]]></description>
+			<content:encoded><![CDATA[<p>Last month David Heinemeier Hansson posted a micropost on the 37signals blog <a href="http://37signals.com/svn/posts/1920-has-the-time-come-to-kill-the-remember-me">asking if it&#8217;s time to kill off the &#8220;Remember me&#8221; checkbox</a> on login forms and simply assume that the user wants the app to remember them the next time they load it, automatically logging them in.</p>
+<p>I think this falls in the same category as <a href="http://www.useit.com/alertbox/passwords.html">Jakob Nielsen&#8217;s recent suggestion to drop password masking</a>. Yes, it would make life easier in many cases, but it would also pose problems. The consensus seems to be that the problems outweigh the benefits. Forgetting to log out and thus compromising your data is worse than having to check a &#8220;Remember me&#8221; box.</p>
+<p>But this isn&#8217;t the only solution to the problem. There is another way you can do this that leans closer to the automatic remembering, but doesn&#8217;t go quite as far:<span id="more-621"></span> check the &#8220;Remember me&#8221; box by default.  This is exactly what Google is doing:</p>
+<p><img class="alignnone" title="Google Reader login box" src="http://img.usabilitypost.com/0910/google_reader_login.png" alt="" width="321" height="221" /></p>
+<p>And you know, I think it works. Most of us probably check that remember box all the time anyway and having the form automatically help you out saves you having to take your hands off your keyboard and mouse over that checkbox. It&#8217;s a small thing, but it makes the login form more usable and faster to process.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.usabilitypost.com/2009/10/05/remember-me/feed/</wfw:commentRss>
+		<slash:comments>43</slash:comments>
+		</item>
+	</channel>
+</rss><!-- Dynamic Page Served (once) in 0.531 seconds --><!-- Cached page generated by WP-Super-Cache on 2009-12-07 16:47:45 -->

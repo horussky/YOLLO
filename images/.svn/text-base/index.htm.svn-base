@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>KJB Enterprises | Contact us today at 1-800-279-4932 | We specialize in offering affordable travel for everyone | Black College Reunion | Student Travel | Mardi Gras | NBA Allstar Weekend </title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="classification" content="Travel Agents" />
+<meta name="Description" content="KJB Enterprises is a travel company specializing in offering affordable travel for everyone. We also specialize in travel for college students." />
+<meta name="Keywords" content="spring bling, BET, urban events, N.B.A. all star, Mardi gras, mobile alabama, urban fiesta weekend,san juan puerto rico,carnival cruise,royal carribean cruise, alabama a&amp;m university,alabama state univerity,stillman college,miles college,florida vacations, spring break, student travel,cheap student travel, travel services, black college reunion, domestic travel, international travel" />
+<meta name="robots" content="ALL" />
+<meta name="rating" content="General" />
+<meta name="author" content="KJB Enterprises" />
+
+<link href="favicon.ico" rel="icon" type="image/x-icon" />
+<link href="css/global.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script type="text/javascript" src="jquery-1.3.2.min.js"></script>
+<script type="text/javascript">
+function slideSwitch() {
+    var $active = $('#slideshow IMG.active');
+    if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
+    // use this to pull the images in the order they appear in the markup
+    var $next =  $active.next().length ? $active.next()
+        : $('#slideshow IMG:first');
+    // uncomment the 3 lines below to pull the images in random order
+    
+    var $sibs  = $active.siblings();
+    var rndNum = Math.floor(Math.random() * $sibs.length );
+    var $next  = $( $sibs[ rndNum ] );
+    $active.addClass('last-active');
+    $next.css({opacity: 0.0})
+        .addClass('active')
+        .animate({opacity: 1.0}, 1000, function() {
+            $active.removeClass('active last-active');
+        });
+}
+$(function() {
+    setInterval( "slideSwitch()", 5000 );
+});
+ </script>
+
+</head>
+<body background="_themes/axis/axibkgnd.gif" bgcolor="#FFFFFF" text="#000000" link="#00CC00" vlink="#996666" alink="#FF9933">
+<div id="container">
+	
+<!--nav-->
+<table dir="ltr" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+	  <td valign="top" >
+			<script type="text/javascript">
+				<!--
+				MSFPhover = 
+				  (((navigator.appName == "Netscape") && 
+				  (parseInt(navigator.appVersion) >= 3 )) || 
+				  ((navigator.appName == "Microsoft Internet Explorer") && 
+				  (parseInt(navigator.appVersion) >= 4 ))); 
+				function MSFPpreload(img) 
+				{
+				  var a=new Image(); a.src=img; return a; 
+				}
+				// -->
+            </script>
+			<script type="text/javascript">
+				<!--
+				if(MSFPhover) { 
+				MSFPnav1n=MSFPpreload("_derived/home_cmp_axis110_vbtn_p.gif"); 
+				MSFPnav1h=MSFPpreload("_derived/home_cmp_axis110_vbtn_a.gif"); 
+				}
+				// -->
+			</script>
+		<a style="text-decoration:none; border:none;" href="index.htm" onmouseover="if(MSFPhover) document['MSFPnav1'].src=MSFPnav1h.src" onmouseout="if(MSFPhover) document['MSFPnav1'].src=MSFPnav1n.src">
+        <img style="text-decoration:none; border:none;" src="_derived/home_cmp_axis110_vbtn_p.gif" alt="Home" name="MSFPnav1" width="140" height="46" id="MSFPnav1" /></a>
+        
+        <br />
+			<script language="JavaScript" type="text/javascript"><!--
+if(MSFPhover) { MSFPnav2n=MSFPpreload("_derived/hbcufootbal08.htm_cmp_axis110_vbtn.gif"); MSFPnav2h=MSFPpreload("_derived/hbcufootbal08.htm_cmp_axis110_vbtn_a.gif"); }
+// --></script><a href="hbcufootbal08.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav2'].src=MSFPnav2h.src" onmouseout="if(MSFPhover) document['MSFPnav2'].src=MSFPnav2n.src"><img src="_derived/hbcufootbal08.htm_cmp_axis110_vbtn.gif" alt="HBCU Football 09" name="MSFPnav2" width="140" height="46" border="0" id="MSFPnav2" /></a><br /><script language="JavaScript" type="text/javascript"><!--
+if(MSFPhover) { MSFPnav3n=MSFPpreload("_derived/mardigras hm2010.htm_cmp_axis110_vbtn.gif"); MSFPnav3h=MSFPpreload("_derived/mardigras hm2010.htm_cmp_axis110_vbtn_a.gif"); }
+// --></script><a href="mardigras%20hm2010.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav3'].src=MSFPnav3h.src" onmouseout="if(MSFPhover) document['MSFPnav3'].src=MSFPnav3n.src"><img src="_derived/mardigras%20hm2010.htm_cmp_axis110_vbtn.gif" alt="Mardi Gras 2010" name="MSFPnav3" width="140" height="46" border="0" id="MSFPnav3" /></a><br /><script language="JavaScript" type="text/javascript"><!--
+if(MSFPhover) { MSFPnav4n=MSFPpreload("_derived/nbaall-star2010.htm_cmp_axis110_vbtn.gif"); MSFPnav4h=MSFPpreload("_derived/nbaall-star2010.htm_cmp_axis110_vbtn_a.gif"); }
+// --></script><a href="nbaall-star2010.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav4'].src=MSFPnav4h.src" onmouseout="if(MSFPhover) document['MSFPnav4'].src=MSFPnav4n.src"><img src="_derived/nbaall-star2010.htm_cmp_axis110_vbtn.gif" alt="N.B.A. All-Star 2010" name="MSFPnav4" width="140" height="46" border="0" id="MSFPnav4" /></a><br /><script language="JavaScript" type="text/javascript"><!--
+if(MSFPhover) { MSFPnav5n=MSFPpreload("_derived/BCR hm.htm_cmp_axis110_vbtn.gif"); MSFPnav5h=MSFPpreload("_derived/BCR hm.htm_cmp_axis110_vbtn_a.gif"); }
+// --></script><a href="BCR%20hm.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav5'].src=MSFPnav5h.src" onmouseout="if(MSFPhover) document['MSFPnav5'].src=MSFPnav5n.src"><img src="_derived/BCR%20hm.htm_cmp_axis110_vbtn.gif" alt="Black College Reunion" name="MSFPnav5" width="140" height="46" border="0" id="MSFPnav5" /></a><br /><script language="JavaScript" type="text/javascript"><!--
+if(MSFPhover) { MSFPnav6n=MSFPpreload("_derived/essencefesivalsite.htm_cmp_axis110_vbtn.gif"); MSFPnav6h=MSFPpreload("_derived/essencefesivalsite.htm_cmp_axis110_vbtn_a.gif"); }
+// --></script><a href="essencefesivalsite.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav6'].src=MSFPnav6h.src" onmouseout="if(MSFPhover) document['MSFPnav6'].src=MSFPnav6n.src"><img src="_derived/essencefesivalsite.htm_cmp_axis110_vbtn.gif" alt="Essence Festival 2009" name="MSFPnav6" width="140" height="46" border="0" id="MSFPnav6" /></a><br /><script language="JavaScript" type="text/javascript"><!--
+if(MSFPhover) { MSFPnav7n=MSFPpreload("_derived/springblinginfo2010.htm_cmp_axis110_vbtn.gif"); MSFPnav7h=MSFPpreload("_derived/springblinginfo2010.htm_cmp_axis110_vbtn_a.gif"); }
+// --></script><a href="springblinginfo2010.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav7'].src=MSFPnav7h.src" onmouseout="if(MSFPhover) document['MSFPnav7'].src=MSFPnav7n.src"><img src="_derived/springblinginfo2010.htm_cmp_axis110_vbtn.gif" alt="Spring Bling 2010" name="MSFPnav7" width="140" height="46" border="0" id="MSFPnav7" /></a><br /><script language="JavaScript" type="text/javascript"><!--
+if(MSFPhover) { MSFPnav8n=MSFPpreload("_derived/urban.htm_cmp_axis110_vbtn.gif"); MSFPnav8h=MSFPpreload("_derived/urban.htm_cmp_axis110_vbtn_a.gif"); }
+// --></script><a href="urban.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav8'].src=MSFPnav8h.src" onmouseout="if(MSFPhover) document['MSFPnav8'].src=MSFPnav8n.src"><img src="_derived/urban.htm_cmp_axis110_vbtn.gif" alt="Urban Feista" name="MSFPnav8" width="140" height="46" border="0" id="MSFPnav8" /></a><br /><script language="JavaScript" type="text/javascript"><!--
+if(MSFPhover) { MSFPnav9n=MSFPpreload("_derived/party_with_kjb.htm_cmp_axis110_vbtn.gif"); MSFPnav9h=MSFPpreload("_derived/party_with_kjb.htm_cmp_axis110_vbtn_a.gif"); }
+// --></script><a href="party_with_kjb.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav9'].src=MSFPnav9h.src" onmouseout="if(MSFPhover) document['MSFPnav9'].src=MSFPnav9n.src"><img src="_derived/party_with_kjb.htm_cmp_axis110_vbtn.gif" alt="Party With KJB" name="MSFPnav9" width="140" height="46" border="0" id="MSFPnav9" /></a><br /><script language="JavaScript" type="text/javascript"><!--
+if(MSFPhover) { MSFPnav10n=MSFPpreload("_derived/cruises hm.htm_cmp_axis110_vbtn.gif"); MSFPnav10h=MSFPpreload("_derived/cruises hm.htm_cmp_axis110_vbtn_a.gif"); }
+// --></script><a href="cruises%20hm.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav10'].src=MSFPnav10h.src" onmouseout="if(MSFPhover) document['MSFPnav10'].src=MSFPnav10n.src"><img src="_derived/cruises%20hm.htm_cmp_axis110_vbtn.gif" alt="Cruises" name="MSFPnav10" width="140" height="46" border="0" id="MSFPnav10" /></a><br /><script language="JavaScript" type="text/javascript"><!--
+if(MSFPhover) { MSFPnav11n=MSFPpreload("_derived/casino hm.htm_cmp_axis110_vbtn.gif"); MSFPnav11h=MSFPpreload("_derived/casino hm.htm_cmp_axis110_vbtn_a.gif"); }
+// --></script><a href="casino%20hm.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav11'].src=MSFPnav11h.src" onmouseout="if(MSFPhover) document['MSFPnav11'].src=MSFPnav11n.src"><img src="_derived/casino%20hm.htm_cmp_axis110_vbtn.gif" alt="Casino Trips" name="MSFPnav11" width="140" height="46" border="0" id="MSFPnav11" /></a><br /><script language="JavaScript" type="text/javascript"><!--
+if(MSFPhover) { MSFPnav12n=MSFPpreload("_derived/feedback.htm_cmp_axis110_vbtn.gif"); MSFPnav12h=MSFPpreload("_derived/feedback.htm_cmp_axis110_vbtn_a.gif"); }
+// --></script><a href="feedback.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav12'].src=MSFPnav12h.src" onmouseout="if(MSFPhover) document['MSFPnav12'].src=MSFPnav12n.src"><img src="_derived/feedback.htm_cmp_axis110_vbtn.gif" alt="Feedback" name="MSFPnav12" width="140" height="46" border="0" id="MSFPnav12" /></a><br /><script language="JavaScript" type="text/javascript"><!--
+if(MSFPhover) { MSFPnav13n=MSFPpreload("_derived/affilites.htm_cmp_axis110_vbtn.gif"); MSFPnav13h=MSFPpreload("_derived/affilites.htm_cmp_axis110_vbtn_a.gif"); }
+// --></script><a href="affilites.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav13'].src=MSFPnav13h.src" onmouseout="if(MSFPhover) document['MSFPnav13'].src=MSFPnav13n.src"><img src="_derived/affilites.htm_cmp_axis110_vbtn.gif" alt="Affiliates" name="MSFPnav13" width="140" height="46" border="0" id="MSFPnav13" /></a><br /><script language="JavaScript" type="text/javascript"><!--
+if(MSFPhover) { MSFPnav14n=MSFPpreload("_derived/faq.htm_cmp_axis110_vbtn.gif"); MSFPnav14h=MSFPpreload("_derived/faq.htm_cmp_axis110_vbtn_a.gif"); }
+// --></script><a href="faq.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav14'].src=MSFPnav14h.src" onmouseout="if(MSFPhover) document['MSFPnav14'].src=MSFPnav14n.src"><img src="_derived/faq.htm_cmp_axis110_vbtn.gif" alt="F.A.Q." name="MSFPnav14" width="140" height="46" border="0" id="MSFPnav14" /></a><br /><script language="JavaScript" type="text/javascript"><!--
+if(MSFPhover) { MSFPnav15n=MSFPpreload("_derived/contact_information.php_cmp_axis110_vbtn.gif"); MSFPnav15h=MSFPpreload("_derived/contact_information.php_cmp_axis110_vbtn_a.gif"); }
+// --></script><a href="contact_information.php" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav15'].src=MSFPnav15h.src" onmouseout="if(MSFPhover) document['MSFPnav15'].src=MSFPnav15n.src">
+<img src="_derived/contact_information.php_cmp_axis110_vbtn.gif" alt="Contact Information" name="MSFPnav15" width="140" height="46" border="0" id="MSFPnav15" /></a></font></p><!--mstheme--></font></td>
+<td valign="top" width="30"></td><!--msnavigation-->
+
+<td valign="top">
+
+
+
+<div id="content">
+			<div id="toplogo">
+			<div style="margin-bottom:20px; margin-top:10px;" align="center">
+            <img title="KJB Logo" src="kjb-logo.png" alt="kjb logo" />
+            </div>
+            <img src="_themes/axis/aaxirule.gif" width="600" height="10" alt="horizontal rule" />
+	</div>
+
+       	  <div id="slideshow">
+                <img src="slide-1.jpg" alt="" class="active" />
+                <img src="slide-2.jpg" alt="" />
+                <img src="slide-3.jpg" alt="" />
+                <img src="slide-4.jpg" alt="" />
+                <img src="slide-5.jpg" alt="" />
+                <img src="slide-6.jpg" alt="" />
+                <img src="slide-7.jpg" alt="" />
+                <img src="slide-8.jpg" alt="" />
+                <img src="slide-9.jpg" alt="" />
+                <img src="slide-10.jpg" alt="" />
+                <img src="slide-11.jpg" alt="" />
+                <img src="slide-12.jpg" alt="" />
+                <img src="slide-13.jpg" alt="" />
+                <img src="slide-14.jpg" alt="" />
+         </div>
+        <div class="topinfo">
+        <h2>You Dream It...<br />
+          We Make it Reality!</h2>
+        <p>KJB Enterprises strives to find great traveling deals for college students. Within this struggling economy, students must pinch pennies to afford everyday necessities. Therefore traveling may be out of the picture. We believe college should encourage seeing the world, socializing, and etc. <br />
+          <br />
+          KJB Enterprises can bring  the destinations and parties you demand  at affordable prices! <strong>Our job is turning your dreams into reality!</strong></p>
+        </div>
+        <br />
+        
+      <img src="_themes/axis/aaxirule.gif" width="600" height="10" alt="horizontal rule" />
+         <div align="center">For information on upcoming events please call us @ <strong>1-800-279-4932</strong>.</div>
+    <img src="_themes/axis/aaxirule.gif" width="600" height="10" alt="horizontal rule" /><br /><br />
+        
+       
+<br clear="all" />
+
+<div align="center">
+<img alt="ATM Machines" title="ATM Machines" src="http://www.credit-card-logos.com/images/multiple_credit-card-logos-2/credit_card_paypal_logos_1.gif" width="204" height="27" border="0" />
+</div>
+
+<br />
+<br />
+<img src="_themes/axis/aaxirule.gif" width="600" height="10" alt="horizontal rule" />
+<div id="footer">
+<a href="index.htm" style="text-decoration: none;">Home</a> |
+<a href="hbcufootbal08.htm" style="text-decoration: none;">HBCU Football 09</a> |
+<a href="mardigras%20hm2010.htm" style="text-decoration: none;">Mardi Gras 2010</a> |
+<a href="nbaall-star2010.htm"style="text-decoration: none;">N.B.A. All-Star 2010</a>| 
+<a href="BCR%20hm.htm" style="text-decoration: none;">Black College Reunion</a> | 
+<a href="essencefesivalsite.htm" style="text-decoration: none;">Essence Festival 2009</a>| 
+<a href="springblinginfo2010.htm" style="text-decoration: none;">Spring Bling 2010</a> | 
+<a href="urban.htm" style="text-decoration: none;">Urban Feista</a> | 
+<a href="party_with_kjb.htm"  style="text-decoration: none;">Party With KJB</a> | 
+<a href="cruises%20hm.htm"  style="text-decoration: none;">Cruises</a> | 
+<a href="casino%20hm.htm" style="text-decoration: none;">Casino Trips</a> | 
+<a href="feedback.htm"  style="text-decoration: none;">Feedback</a> | 
+<a href="affilites.htm" style="text-decoration: none;">Affiliates</a> | 
+<a href="faq.htm" style="text-decoration: none;">F.A.Q.</a> | 
+<a href="contact_information.php" style="text-decoration: none;">Contact Information</a>
+<br /><br />
+For problems or questions regarding this web contact <a href="mailto:[ProjectEmail]">[Bookkjbweb@bookkjb.com]</a>.
+<br />
+&copy;2001- 2009 KJB Enterprises &nbsp;All&nbsp; Rights Reserved<a href="https://email.secureserver.net/login.php?logout=1">.</a>
+</div>
+</div>
+
+
+</td>
+</tr>
+</table>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-12084943-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body></html>

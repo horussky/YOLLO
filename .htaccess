@@ -1,0 +1,81 @@
+
+
+###############################################################
+
+RewriteEngine on
+IndexIgnore *
+Options +FollowSymLinks -Multiviews -Indexes
+####Uncomment for Production SSL####
+#RewriteCond %{HTTPS} off
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+###############################################################
+
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access 1 month"
+ExpiresByType image/jpeg "access 1 month"
+ExpiresByType image/gif "access 1 month"
+ExpiresByType image/png "access 1 month"
+ExpiresByType text/css "access 1 day"
+ExpiresByType text/html "access 1 month"
+ExpiresByType application/pdf "access 1 month"
+ExpiresByType text/x-javascript "access 1 month"
+ExpiresByType application/x-shockwave-flash "access 1 month"
+ExpiresByType image/x-icon "access 1 year"
+ExpiresDefault "access 1 month"
+</IfModule>
+
+# 1 Month for most static assets
+<filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
+Header set Cache-Control "max-age=2592000, public"
+</filesMatch>
+
+###############################################################
+
+
+
+
+## GZIP and DEFLATE ##
+<IfModule mod_gzip.c>
+    mod_gzip_on       Yes
+    mod_gzip_dechunk  Yes
+    mod_gzip_item_include file      .(html?|txt|css|js|php|pl)$
+    mod_gzip_item_include handler   ^cgi-script$
+    mod_gzip_item_include mime      ^text/.*
+    mod_gzip_item_include mime      ^application/x-javascript.*
+    mod_gzip_item_exclude mime      ^image/.*
+    mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
+</IfModule>
+
+
+<IfModule mod_deflate.c>
+  <FilesMatch "\\.(js|css|html|htm|php|xml)$">
+    SetOutputFilter DEFLATE
+  </FilesMatch>
+</IfModule>
+
+###############################################################
+
+#change file extensions
+
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+RewriteCond %{REQUEST_FILENAME}\.htm -f
+RewriteRule ^(.*)$ $1.htm
+
+###############################################################
+
+ErrorDocument 404 /404.php
+
+###############################################################
+
+#301 Redirect
+Redirect 301 /black-ski-weekend.php /urban-ski-weekend.php
+Redirect 301 /ciaa.php /the-tourney.php
+Redirect 301 /macys-music-festival.php /nati-music-festival.php

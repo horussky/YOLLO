@@ -1,0 +1,157 @@
+@media (max-width: 96rem) {
+  #container {
+    width: 100%; }
+
+  /*Top Navigation*/
+  .header {
+    display: block; }
+
+  .header .left {
+    width: 100%;
+    display: block;
+    float: none; }
+    .header .left .logo {
+      margin: 0 auto;
+      max-width: 40rem;
+      text-align: center;
+      padding: 2rem 0; }
+      .header .left .logo img {
+        max-width: 25rem; }
+
+  .header .right {
+    width: 100%;
+    display: block;
+    float: none; }
+
+  .header .right ul.top-nav {
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    height: 5rem;
+    display: table;
+    font-size: 1.6rem; }
+
+  .header .right ul.top-nav li:not(:last-child) {
+    margin-right: 2rem;
+    padding-right: 2rem;
+    border-right: 1px solid #dbdbdb; }
+
+  /*Event Navigation*/
+  #left {
+    width: 100%;
+    float: none;
+    padding: 0 2rem;
+    text-align: center; }
+
+  .event-nav {
+    display: none; }
+
+  .event-nav-mobile {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2rem; }
+
+  .event-nav-mobile.form-control {
+    display: block; }
+
+  /*Main Content*/
+  #right {
+    width: 100%;
+    float: none;
+    padding: 0 2rem; }
+    #right .topcontent {
+      height: auto; }
+      #right .topcontent img {
+        height: 100%; }
+    #right .headline {
+      font-size: 4rem; }
+    #right .tcycle {
+      height: auto; }
+    #right #upcoming-events .event {
+      width: 100%; }
+    #right .box-fade {
+      opacity: 1; }
+
+  #right .content .date-location {
+    font-size: 1.4rem;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    #right .content .date-location .col:nth-child(1) {
+      border: none; }
+
+  #right .content h2.title {
+    font-size: 3rem;
+    margin-bottom: 2rem; }
+
+  /*Yollo Tabs*/
+  .yollo-tabs .ui-widget-content {
+    padding: 2rem 0;
+    overflow: initial; }
+
+  .yollo-tabs .ui-tabs-anchor {
+    font-size: 1.4rem; }
+
+  .yollo-tabs ul li > a {
+    padding: 1rem; }
+
+  .hotel-box-container {
+    -webkit-flex-flow: column nowrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    height: 100%; }
+    .hotel-box-container .hotel-box {
+      height: 100%;
+      width: 100%;
+      display: block; }
+
+  #nanoGallery {
+    overflow: inherit; }
+
+  /*Price Table*/
+  .price-table {
+    width: 100%;
+    display: block; }
+
+  /*Social Aside*/
+  #social {
+    display: none; }
+
+  /*Footer */
+  footer {
+    padding: 0; }
+    footer .foot-wrap {
+      width: 100%; }
+
+  .foot-header {
+    padding: 0 2rem; }
+
+  .footer-logo {
+    margin-top: 2rem; }
+    .footer-logo .foot-slogan {
+      left: 16rem; }
+
+  .foot-affiliates {
+    display: none; }
+
+  .foot-columns {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column-reverse wrap;
+        -ms-flex-flow: column-reverse wrap;
+            flex-flow: column-reverse wrap; }
+    .foot-columns div[class^="foot-col"] {
+      margin-bottom: 2rem;
+      padding: 0 2rem;
+      border: none; }
+
+  .disclosure {
+    width: 100%;
+    display: block;
+    overflow: hidden; }
+
+  .content .form,
+  .content .forminfo {
+    width: 100%; } }

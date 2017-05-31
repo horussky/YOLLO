@@ -1,0 +1,200 @@
+#accordion * {
+    transition: all 0.05s ease;
+}
+
+#accordion {
+	list-style: none;
+	padding: 0;
+	width:100%;
+	margin-bottom:1em;
+	clear:both;
+}
+
+#accordion section {
+	text-align: left;
+	margin-bottom: .5em;
+	border: 1px solid #cdcdcd;
+}
+
+#accordion section h2 {
+	font-size: 1.6rem;
+  font-family:"opensans", Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing:normal;
+  text-transform: none;
+	line-height:1.2;
+	cursor: pointer;
+	background-color: #777;
+	padding: 1.5rem 3rem;
+	color: #fff;
+	position: relative;
+  margin-bottom: 0;
+
+	&:hover {
+    	background-color: #666;
+	}
+}
+
+#accordion section p {
+	display: none;
+	padding: 1.5rem 3rem;
+	margin-bottom:0;
+}
+
+#accordion .active ~ p {
+    display: block;
+}
+
+#accordion section span {
+	position: absolute;
+    float: right;
+    display: block;
+    top: 50%;
+    right: .5rem;
+}
+
+#accordion section span::before,
+#accordion section span::after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	width: 14px;
+	height: 4px;
+	background-color: #fff;
+	-webkit-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	-webkit-transition: all 0.15s;
+	transition: all 0.15s;
+}
+
+#accordion section span.open::before {
+	-webkit-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+	opacity: 1;
+}
+#accordion section span.closed::after {
+	-webkit-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+#accordion h2.active{
+	color:#fff;
+	background-color: #000;
+	font-weight: 700;
+  font-family:"opensans-bold", Arial, sans-serif;
+	&:hover {
+    	background-color: #000; 
+	}
+}
+
+/*Fix List Items for Accordion.js*/
+#accordion section > * {
+    padding: 1.6rem 3rem 0 3rem;
+}
+
+#accordion ul {
+    display: block;
+    list-style: disc outside none;
+	
+	li {
+    	margin-left: 2rem;
+	}
+}
+
+
+/*Pure CSS Accordion*/
+.accordion-container {
+    width: 100%;
+    text-align: left;
+	margin-bottom: 1.6rem;
+	
+	label {
+		color:#fff;
+		padding: 1rem 3rem;
+		position: relative;
+		display: block;
+		cursor: pointer;
+		background: #777;
+		margin-bottom: 0;
+		
+		&:hover {
+    		background: #666;
+		}
+	}
+}
+
+.accordion-container > section:not(:last-child){
+  margin-bottom:.25rem;
+}
+.accordion-container > section{
+  border: 1px solid #cdcdcd;
+}
+
+
+
+.accordion-container input:checked + label,
+.accordion-container input:checked + label:hover {
+    background: #000;
+    color: #fff;
+    font-weight:600;
+}
+
+
+.accordion-container input {
+    display: none;
+}
+
+.accordion-container section > div {
+    overflow: hidden;
+    height: 0;
+    position: relative;
+    //-webkit-transition: height 0.3s ease-in-out;
+    //transition: height 0.3s ease-in-out;
+	-webkit-transform: scaleY(1);
+  	transform: scaleY(1);
+	-webkit-transition-duration: 0.3s;
+  	transition-duration: 0.3s;
+  	-webkit-transition-timing-function: ease-out;
+  	transition-timing-function: ease-out; 
+    padding: 0 3rem;
+	
+	p:last-child{
+		margin-bottom:0;
+	}
+  
+}
+
+.accordion-container input:checked ~ div {
+ // -webkit-transition: height 0.5s ease-in-out;
+//  transition: height 0.5s ease-in-out;
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+	 -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out; 
+  height:100%; 
+  padding: 1.5rem 3rem;
+}
+
+//plus and minus icon
+
+
+.accordion-container label:after,
+.accordion-container input:checked + label:after {
+	font-family: "FontAwesome";
+    content: "\f067";
+    position: absolute;
+    right: 2.5rem;
+}
+
+.accordion-container input:checked + label:after {
+	font-family: "FontAwesome";
+    content: "\f068"; 
+}
+

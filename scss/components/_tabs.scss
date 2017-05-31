@@ -1,0 +1,91 @@
+#tabs-2 img{					
+	width:100%; max-width:100%;
+}
+
+#tabs-4 li{						
+	list-style:none; 
+	margin-bottom:20px; 
+	line-height:1.5;
+	padding-left: 32px; 
+	margin: 0 0 1em 0
+}
+								
+#tabs-4 li:before{
+	font-family:"fontAwesome"; 
+	content: "\f059"; 
+	position: absolute; 
+	left: 32px;
+}									
+							
+
+
+
+#tabs a i:hover {
+    color: inherit;
+	text-decoration: none;
+}
+
+
+.yollo-tabs > ul {
+	border-bottom: 1px solid #ddd;
+	margin:0; 
+	margin-bottom:1em;
+	width:100%;
+	float: left;
+}
+  
+.yollo-tabs > ul li{
+	float:left;
+	list-style:none;
+	padding: 0;
+	margin:0;
+	text-decoration: none;
+	position: relative;
+    display: block; 
+    margin-bottom: -1px;
+    position: relative;
+} 
+
+
+
+.yollo-tabs ul > .ui-tabs-active :hover{
+    background-color: #fff;
+}
+
+.yollo-tabs > ul li > a {
+    line-height: 1.4;
+	position: relative;
+    display: block;
+    padding: 1rem 1.6rem;
+	margin-right: 2px;
+    border: 1px solid transparent;
+	text-decoration: none;
+	font-size: 1.6rem;
+}
+
+.yollo-tabs .ui-tabs-anchor{
+	font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.yollo-tabs ul > .ui-tabs-active > a,
+.yollo-tabs ul > .ui-tabs-active > a:focus,
+.yollo-tabs ul > .ui-tabs-active > a:hover {
+	color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+
+
+.yollo-tabs ul > .ui-tabs-active a{
+	box-shadow: 0 -3px 0 0 #db1c2c;
+}
+
+.yollo-tabs .ui-widget-content {
+	color:#222;
+	min-height: 6em;
+	padding: 1em;
+	overflow: hidden;
+}
