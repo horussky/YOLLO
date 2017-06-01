@@ -19,13 +19,10 @@
 
 @media(max-width:76.8rem){
 
-
-
-
 	/*Top Navigation*/
 	.header{
 		display:block;
-		margin-bottom:1.6rem;
+		margin-bottom:2.4rem;
 	}
 
 	.header .left{
@@ -79,26 +76,38 @@
 
 
 	.event-nav-mobile{
-		display: block;
-		background: #222;
-		text-align: left;
 		
-		li{
-			display:block;
+		ul {
+    		margin-left: 0;
+			
+			li{
+				display:block;
+			}
 		}
 
 		a{
-			font-size: 1.8rem;
-			color:#fff;
+			font-size: 1.6rem;
+			color: $font-color;
 			text-decoration: none;
-			height: 5rem;
-			line-height: 5rem;
+			height: 4rem;
+			line-height: 4rem;
 			display: block;
-			padding-left:2rem;
+			padding: 0;
+			padding-left: 2rem;
 
 			&:hover{
-				background:#555;
+				background:#999;
 			}
+		}
+		
+		hr{
+			width: 85%;
+    		margin: 2rem auto;
+		}
+		
+		.mobile-nav-title{
+			padding-left: 2rem;
+    		margin-top: 2rem;
 		}
 
 	}
@@ -112,37 +121,20 @@
 	}
 
 
-	.toggle-panel,
-	.scotch-panel {
+	.toggle-panel {
 		display: block;
 	}
 
-	.scotch-panel-wrapper {
-	  position: relative;
-	  overflow: auto;
-	  width: 100%;
-	}
-
-	.scotch-panel-canvas {
-	  position: relative;
-	  height: 100%;
-	  width: 100%;
-	}
 
 	#site-canvas {
 	  -webkit-backface-visibility: hidden;
 	  backface-visibility: hidden;
 	}
 
-	#nav-icon p {
-		position:relative;
-		left:-5rem;
-		font-family:"opensans";
-	}
 
 	#nav-icon {
-	  width: 3.5rem;
-	  height: 1rem;
+	  width: 3rem;
+	  height: 3rem;
 	  position: absolute;
 	  top:0;
 	  right: 2rem;
@@ -156,7 +148,15 @@
 	  -o-transition: .5s ease-in-out;
 	  transition: .5s ease-in-out;
 	  cursor: pointer;
+		
+		p {
+			position:relative;
+			left:-5rem;
+			font-family:"opensans";
+			font-size: 1.4rem;
+		}
 	}
+	
 	#nav-icon span {
 	  display: block;
 	  position: absolute;

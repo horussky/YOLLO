@@ -78,7 +78,7 @@ include 'includes/functions.inc.php';
 
 <title><?php echo $event["title"]?> | <?php echo $phonenumber ?></title>
 <meta name="description" content="YOLLO Group Services will provide you with all-inclusive arrangements and tickets for Cincinnati Music Festival 2017." />
-<meta name="keywords" content="macy's music festival, Cincinnati jazz festival, black concerts, black celebrities, contemporary african, cincinnati music festival, cincinnati music festival 2017, grown and sophisticated cruise, grown and sophisticated cruise cincinnati music festival, grown and sophisticated cruise cincinnati music festival 2017, yollo cruise in cincinnatimacy's music festival 2017, macy's music festival 2017,macy's music festival 2017, Cincinnati jazz festival, essence festival, Cincinnati jazz festival 2017, black concerts, black celebrities, contemporary african american music, Cincinnati jazz festival parties, mid day party cruise, mid day all white cruise, mid day party cruise 2017, mid day all white cruise 2017, mid day all white cruise 2017, VIP on the River, macy's music festival cruise, macy's music festival party boat cruise, Cincinnati jazz festival cruise tickets, Cincinnati Music Festival 2017, Cincinnati Music Festival cruise,Cincinnati Music Festival tickets" />
+<meta name="keywords" content="grown and sophisticated cruise, macy's music festival party boat cruise, Cincinnati jazz festival cruise tickets, Cincinnati Music Festival 2017, Cincinnati Music Festival cruise, Cincinnati Music Festival tickets" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
@@ -87,6 +87,11 @@ include 'includes/functions.inc.php';
 </head>
 <body>
 <div id="wrap">
+   
+    <!--Mobile Nav-->
+	<?php include 'includes/mobile.nav.inc.php'; ?>
+	<!--Mobile Nav--> 
+   
     <div id="container">
 				<?php include 'includes/header.inc.php'; ?>
 				<!--Left Content-->
@@ -321,35 +326,6 @@ include 'includes/functions.inc.php';
 <?php include 'includes/scripts.inc.php'; ?>
 <script type="text/javascript">
 	$(function(){
-
-		//grays out sold out features
-		$(".priceblock span:contains('SOLD OUT')").addClass("disable");
-
-		//simple hover fade
-		$(".box-fade").hover(function() {
-		  $(this).stop().animate({opacity: "0.8"}, 400);
-		},
-		function() {
-		  $(this).stop().animate({opacity: "1"}, 400);
-		});
-
-
-		//form validation
-		$('#paypal_frm').validate({
-			rules: {
-				terms: {required: true},
-				os3: {required: true},
-				os2: {required: true},
-			},
-			messages: {
-				terms: "You must agree to terms!",
-				os3: "must add group size",
-				os2: "must add group leader"
-
-			}
-  		});
-
-
 
 			//nano
 			$("#nanoGallery").nanoGallery({

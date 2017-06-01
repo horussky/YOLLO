@@ -22,7 +22,10 @@ include("includes/home-featured-events.inc.php");
 
 <div id="wrap">
 
-
+	<!--Mobile Nav-->
+	<?php include 'includes/mobile.nav.inc.php'; ?>
+	<!--Mobile Nav-->
+	 
 	<div id="container">
     		<?php include 'includes/header.inc.php'; ?>
 

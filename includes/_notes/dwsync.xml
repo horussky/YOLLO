@@ -7,7 +7,6 @@
 <file name="scripts.inc.php" server="ftp.goyollo.com//" local="131008487688398651" remote="131008479000000000" Dst="1" />
 <file name="footer.inc.php" server="ftp.goyollo.com//" local="130811544000000000" remote="130811544000000000" Dst="1" />
 <file name="functions.inc.php" server="ftp.goyollo.com//" local="131007614128554749" remote="131008478400000000" Dst="1" />
-<file name="nav.inc.php" server="ftp.goyollo.com//" local="131027469491557640" remote="131027419200000000" Dst="2" />
 <file name="analytics.inc.php" server="ftp.goyollo.com//" local="130708650712490824" remote="130838967000000000" Dst="2" />
 <file name="ciaa.slide.inc.php" server="ftp.goyollo.com//" local="130708650692439677" remote="130838967000000000" Dst="2" />
 <file name="classic.slide.inc.php" server="ftp.goyollo.com//" local="130708650696549912" remote="130838967000000000" Dst="2" />
@@ -18,7 +17,6 @@
 <file name="logo.inc.php" server="ftp.goyollo.com//" local="130855238400000000" remote="130855238400000000" Dst="2" />
 <file name="mailchimp.inc.php" server="ftp.goyollo.com//" local="130708650749952967" remote="130838967000000000" Dst="2" />
 <file name="mardigras.slide.inc.php" server="ftp.goyollo.com//" local="130708650754043201" remote="130838967000000000" Dst="2" />
-<file name="nav2.inc.php" server="ftp.goyollo.com//" local="130708650773134293" remote="130838967000000000" Dst="2" />
 <file name="nba.slide.inc.php" server="ftp.goyollo.com//" local="130708650781454769" remote="130838967000000000" Dst="2" />
 <file name="newsletter.inc.php" server="ftp.goyollo.com//" local="130708650785525001" remote="130838967000000000" Dst="2" />
 <file name="package-info-generic.inc.php" server="ftp.goyollo.com//" local="130708650795385565" remote="130838967000000000" Dst="2" />
@@ -42,7 +40,6 @@
 <file name="logo.inc.php" server="goyollo.com//public_html/" local="131031508800000000" remote="131031508800000000" Dst="2" />
 <file name="mailchimp.inc.php" server="goyollo.com//public_html/" local="131031508800000000" remote="131031508800000000" Dst="2" />
 <file name="mardigras.slide.inc.php" server="goyollo.com//public_html/" local="131031508800000000" remote="131031508800000000" Dst="2" />
-<file name="nav.inc.php" server="goyollo.com//public_html/" local="131073897107383656" remote="131073845400000000" Dst="2" />
 <file name="nba.slide.inc.php" server="goyollo.com//public_html/" local="131031508800000000" remote="131031508800000000" Dst="2" />
 <file name="newsletter.inc.php" server="goyollo.com//public_html/" local="131031508800000000" remote="131031508800000000" Dst="2" />
 <file name="package-info-generic.inc.php" server="goyollo.com//public_html/" local="131031508800000000" remote="131031508800000000" Dst="2" />
