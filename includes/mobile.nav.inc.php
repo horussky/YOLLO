@@ -89,10 +89,14 @@ $event_nav = unserialize (EVENT);
 
 <nav class="pushy pushy-right">
 	<div class="event-nav-mobile pushy-content">
+		<h4 class="mobile-nav-title">Our Events</h4>
 		<ul>
 			<?php foreach($event_nav as $links=>$value): ?>
 				<li><a href="<?php echo $value['link']?>"><?php echo $value['title']?></a></li>
 			<?php endforeach; ?>
+		</ul>
+		<hr />
+		<ul>
 			<li class="home"><a title="Home" href="/home">Home</a></li>
 			<li class="about"><a title="About Us" href="/about">About Us</a></li>
 			<li class="faq"><a title="FAQs" href="/faq">FAQs</a></li>

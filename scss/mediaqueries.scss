@@ -76,21 +76,18 @@
 
 
 	.event-nav-mobile{
-		//display: block;
-		background: #222;
-		text-align: left;
 		
 		ul {
     		margin-left: 0;
-		}
-		
-		li{
-			display:block;
+			
+			li{
+				display:block;
+			}
 		}
 
 		a{
 			font-size: 1.6rem;
-			color: #fff;
+			color: $font-color;
 			text-decoration: none;
 			height: 4rem;
 			line-height: 4rem;
@@ -99,8 +96,18 @@
 			padding-left: 2rem;
 
 			&:hover{
-				background:#555;
+				background:#999;
 			}
+		}
+		
+		hr{
+			width: 85%;
+    		margin: 2rem auto;
+		}
+		
+		.mobile-nav-title{
+			padding-left: 2rem;
+    		margin-top: 2rem;
 		}
 
 	}

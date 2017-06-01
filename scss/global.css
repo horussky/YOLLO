@@ -7355,7 +7355,7 @@ footer a:hover {
   height: 100%;
   top: 0;
   z-index: 9999;
-  background: #191919;
+  background: #eee;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   /* enables momentum scrolling in iOS overflow elements */ }
@@ -7593,24 +7593,27 @@ div.AuthorizeNetSeal * {
     padding: 0 2rem;
     text-align: center; }
 
-  .event-nav-mobile {
-    background: #222;
-    text-align: left; }
-    .event-nav-mobile ul {
-      margin-left: 0; }
-    .event-nav-mobile li {
+  .event-nav-mobile ul {
+    margin-left: 0; }
+    .event-nav-mobile ul li {
       display: block; }
-    .event-nav-mobile a {
-      font-size: 1.6rem;
-      color: #fff;
-      text-decoration: none;
-      height: 4rem;
-      line-height: 4rem;
-      display: block;
-      padding: 0;
-      padding-left: 2rem; }
-      .event-nav-mobile a:hover {
-        background: #555; }
+  .event-nav-mobile a {
+    font-size: 1.6rem;
+    color: #222;
+    text-decoration: none;
+    height: 4rem;
+    line-height: 4rem;
+    display: block;
+    padding: 0;
+    padding-left: 2rem; }
+    .event-nav-mobile a:hover {
+      background: #999; }
+  .event-nav-mobile hr {
+    width: 85%;
+    margin: 2rem auto; }
+  .event-nav-mobile .mobile-nav-title {
+    padding-left: 2rem;
+    margin-top: 2rem; }
 
   .event-nav {
     display: none; }
