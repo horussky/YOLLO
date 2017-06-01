@@ -1,15 +1,16 @@
 <?php
-$nav = array(
+
+define ("EVENT", serialize ($nav = array(
 			array(
 					"title"	=>	"Alumni Getaway Cruise",
-				  "class"	=>	"alumni",
-				  "link"	=>	"/alumni-getaway-cruise"
+				  	"class"	=>	"alumni",
+				  	"link"	=>	"/alumni-getaway-cruise"
 				  
 			),
 			array(
 					"title"	=>	"College BeachFest",
-				  "class"	=>	"cbf",
-				  "link"	=>	"/college-beachfest"
+				  	"class"	=>	"cbf",
+				  	"link"	=>	"/college-beachfest"
 				  
 			),
 			array(
@@ -20,8 +21,8 @@ $nav = array(
 			),
 			array(
 					"title"	=>	"Essence Festival",
-				  "class"	=>	"essence",
-				  "link"	=>	"/essence-festival"
+				  	"class"	=>	"essence",
+				  	"link"	=>	"/essence-festival"
 				  
 			),
 			/*
@@ -77,19 +78,19 @@ $nav = array(
 					"class"	=>	"bsw",
 				  	"link"	=>	"/urban-ski-weekend"
 				  
-			),
+			)))
 
 );
 
 sort($nav);
+$event_nav = unserialize (EVENT);
 
 ?>
-
 
 <nav class="pushy pushy-right">
 	<div class="event-nav-mobile pushy-content">
 		<ul>
-			<?php foreach($nav as $links=>$value): ?>
+			<?php foreach($event_nav as $links=>$value): ?>
 				<li><a href="<?php echo $value['link']?>"><?php echo $value['title']?></a></li>
 			<?php endforeach; ?>
 			<li class="home"><a title="Home" href="/home">Home</a></li>

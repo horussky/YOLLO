@@ -109,7 +109,7 @@ strong, b {
   src: url("../fonts/creditcardstack.eot?#iefix424st") format("embedded-opentype"), url("../fonts/creditcardstack.woff?424st") format("woff"), url("../fonts/creditcardstack.ttf?424st") format("truetype"), url("../fonts/creditcardstack.svg?424st#creditcardstack") format("svg"); }
 h2 {
   font-family: "opensans-bold", sans-serif;
-  line-height: normal;
+  line-height: 1.2;
   margin-bottom: 1.6rem;
   text-transform: uppercase;
   font-weight: 700;
@@ -7554,7 +7554,7 @@ div.AuthorizeNetSeal * {
   /*Top Navigation*/
   .header {
     display: block;
-    margin-bottom: 1.6rem; }
+    margin-bottom: 2.4rem; }
 
   .header .left {
     width: 100%;
@@ -7618,32 +7618,16 @@ div.AuthorizeNetSeal * {
   .event-title {
     display: none; }
 
-  .toggle-panel,
-  .scotch-panel {
+  .toggle-panel {
     display: block; }
-
-  .scotch-panel-wrapper {
-    position: relative;
-    overflow: auto;
-    width: 100%; }
-
-  .scotch-panel-canvas {
-    position: relative;
-    height: 100%;
-    width: 100%; }
 
   #site-canvas {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden; }
 
-  #nav-icon p {
-    position: relative;
-    left: -5rem;
-    font-family: "opensans"; }
-
   #nav-icon {
-    width: 3.5rem;
-    height: 1rem;
+    width: 3rem;
+    height: 3rem;
     position: absolute;
     top: 0;
     right: 2rem;
@@ -7657,6 +7641,11 @@ div.AuthorizeNetSeal * {
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     cursor: pointer; }
+    #nav-icon p {
+      position: relative;
+      left: -5rem;
+      font-family: "opensans";
+      font-size: 1.4rem; }
 
   #nav-icon span {
     display: block;
