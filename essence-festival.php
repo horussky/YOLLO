@@ -92,6 +92,10 @@
 <body>
 
 <div id="wrap">
+    
+    <!--Mobile Nav-->
+	<?php include 'includes/mobile.nav.inc.php'; ?>
+	<!--Mobile Nav--> 
 
     <div id="container">
 

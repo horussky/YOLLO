@@ -92,6 +92,12 @@ include 'includes/functions.inc.php';
 <body>
 
 <div id="wrap">
+
+	<!--Mobile Nav-->
+	<?php include 'includes/mobile.nav.inc.php'; ?>
+	<!--Mobile Nav--> 
+
+
 	<div id="container">
 			<?php include 'includes/header.inc.php'; ?>
 			<!--Left Content-->
@@ -306,22 +312,6 @@ include 'includes/functions.inc.php';
 <?php include 'includes/scripts.inc.php'; ?>
 <script type="text/javascript">
 	$(document).ready(function(){
-		//form validation
-		$('#paypal_frm').validate({
-			rules: {
-				terms: {required: true},
-				os3: {required: true},
-				os2: {required: true},
-				os1: {required: true}
-			},
-			messages: {
-				os3: "must add group size",
-				os2: "must add group leader",
-				os1: "must choose a package type",
-				terms: "You must agree to terms!"
-			}
-  		});
-
 
 			//nano
 			$("#nanoGallery").nanoGallery({

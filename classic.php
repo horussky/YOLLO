@@ -110,6 +110,11 @@
 
 <body>
 <div id="wrap">
+ 
+	<!--Mobile Nav-->
+	<?php include 'includes/mobile.nav.inc.php'; ?>
+	<!--Mobile Nav--> 
+ 
   <div id="container">
     <?php include 'includes/header.inc.php'; ?>
     <div id="left"> 
