@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$font-color".
-        on line 90 of C:/Users/sc93323/Documents/GitHub/yollo-repo/scss/mediaqueries.scss
+        on line 85 of C:/Users/sc93323/Documents/GitHub/yollo-repo/scss/mediaqueries.scss
 
-85: 			}
-86: 		}
-87: 
-88: 		a{
-89: 			font-size: 1.6rem;
-90: 			color: $font-color;
-91: 			text-decoration: none;
-92: 			height: 4rem;
-93: 			line-height: 4rem;
-94: 			display: block;
-95: 			padding: 0;
+80: 			}
+81: 		}
+82: 
+83: 		a{
+84: 			font-size: 1.6rem;
+85: 			color: $font-color;
+86: 			text-decoration: none;
+87: 			height: 4rem;
+88: 			line-height: 4rem;
+89: 			display: block;
+90: 			padding: 0;
 
 Backtrace:
-C:/Users/sc93323/Documents/GitHub/yollo-repo/scss/mediaqueries.scss:90
+C:/Users/sc93323/Documents/GitHub/yollo-repo/scss/mediaqueries.scss:85
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
@@ -86,4 +86,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$font-color\".\A         on line 90 of C:/Users/sc93323/Documents/GitHub/yollo-repo/scss/mediaqueries.scss\A \A 85: 			}\A 86: 		}\A 87: \A 88: 		a{\A 89: 			font-size: 1.6rem;\A 90: 			color: $font-color;\A 91: 			text-decoration: none;\A 92: 			height: 4rem;\A 93: 			line-height: 4rem;\A 94: 			display: block;\A 95: 			padding: 0;"; }
+  content: "Error: Undefined variable: \"$font-color\".\A         on line 85 of C:/Users/sc93323/Documents/GitHub/yollo-repo/scss/mediaqueries.scss\A \A 80: 			}\A 81: 		}\A 82: \A 83: 		a{\A 84: 			font-size: 1.6rem;\A 85: 			color: $font-color;\A 86: 			text-decoration: none;\A 87: 			height: 4rem;\A 88: 			line-height: 4rem;\A 89: 			display: block;\A 90: 			padding: 0;"; }
