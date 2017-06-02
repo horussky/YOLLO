@@ -165,7 +165,7 @@ include 'includes/functions.inc.php';
 
                                         <div id="tabs-1">
 
-                                             <h3>Puerto Rico is the ONLY place to be Memorial Day weekend 2017!</h3>
+                                             <h3>Jamaica is the ONLY place to be Memorial Day weekend 2018!</h3>
 
                                              <p>It's the 10th anniversary for Urban Fiesta and we are making a big and new splash. We are taking you to beautiful Jamaica! Urban Fiesta will be the livest event in Jamaica during Memorial Day weekend. There are plenty of activities to occupy your time from sun up to sun down - excursions, shopping areas, sandy beaches, parties, and the list goes on.<p> 
 
