@@ -37,6 +37,10 @@ a.btn {
 	font-size:$base-fontsize-lg;
 }
 
+.btn + .btn{
+	margin-left:1.6rem;
+}
+
 .btn:focus,
 .btn:active:focus,
 .btn.active:focus,
@@ -176,6 +180,20 @@ a.btn {
   background-color: $yollo-red;
   border-color: lighten($yollo-red, 5%);
 }
+
+/*Outlined*/
+.btn-outlined {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+}
+
+.btn-outlined:hover {
+  color: #fff; 
+  background-color: rgba(#555, .3);
+  border-color: rgba(#fff, .8); 
+}
+
 
 /*Newsletter Btn*/
 aside .btn{
