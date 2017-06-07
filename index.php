@@ -27,103 +27,64 @@ if(!ob_start("ob_gzhandler")) ob_start();
 html{
 	 font-size: 62.5%;
 }	
-body{					font-size:1.6rem; color:#464646;}
-
-p{						line-height:1.5;}
-
-h1{						font-size:2.500em;}
-
-
-h1, h2, h3, h4 { 		font-family: "PT Serif", Arial, Helvetica, sans-serif;
-						font-weight: normal;}
-
-.sidebar{				background:#ccc; padding:0 1.250em; margin-top:0; margin-bottom: -99999px; padding-bottom: 99999px; overflow:hidden;
-						-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
-						
-.right{					color:#fff; padding:0 10px 0 0;
-						-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
-.right h2{				color:#fff; font-size:18px;}
-
-#title{					margin-top: 1.625em}
-
-
-.logo{					max-width:95%; }
-#container{				overflow:hidden;}
-
-/*twitter*/
-.tweet, .query{					font: 13px/18px  Georgia, "Times New Roman", Times, serif; color: #333; } 
-.tweet_even,
-.tweet_odd{						margin-bottom:15px;}
-.twittermsg{					display:none;}
-.tweet{							background:#eee; box-sizing:content-box; padding:10px; 
-								-moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;}
-
-/*Slider*/
-.flexslider {
-	width:52.500em;
-    max-width:100%; /* Change this to your images width */
-    /* height:360px; Change this to your images height */
-    background:url(images/loading.gif) no-repeat 50% 50%;
-	margin-bottom:20px;
-	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
-	
+body{					
+	font-size:1.6rem; 
+	color:#464646;
 }
 
-.ui-icon { 
-    display: inline-block!important; margin-right: 3px;
+h2{
+	font-family:"opensans-bold", sans-serif;
+	line-height:1.2;
+	margin-bottom: 1.6rem;
+	text-transform:none;
+	font-weight:700;
+	letter-spacing:-2px;
+	font-size:3.2rem;
 }
 
-.ui-icon, .ui-widget-content .ui-icon, .ui-widget-header .ui-icon  {
-    background-image: url("css/jmetro-theme/images/ui-icons_ffffff_0.png")!important;
+h3{
+	font-family:"opensans-bold", Arial, sans-serif;
+	line-height:1.2;
+	margin-bottom: 1.6rem;
+	font-weight:700;
+	letter-spacing:-1px;
 }
 
+h4{
+	font-family:"opensans-bold", Arial, sans-serif;
+	line-height:1.2;
+	margin-bottom: 1.6rem;
+	font-weight:700;
+}
 
-	
-	
-	
+h5{
+	font-family:"opensans-bold", Arial, sans-serif;
+	line-height:1.2;
+	margin-bottom: 1.6rem;
+	font-weight:700;
+}
 
-#info{ 			max-width:52.500em; color:#fff; }
-#info h2{		color:#fff;}
+p{
+	font-family:"opensans", san-serif;
+	line-height:1.5;
+	margin-bottom:1.6rem;
+}	
 
-	
-#subscribe{		margin-top:2.500em}	
-#subscribe .btn{float:none;	}
-#subscribe p{	color:#fff;	}
-	
-	
-	
 	
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	
-	#twitter,
-	#social-media, 
-	#about{		
-		display:none;
-	}
-	.sidebar{			
-		margin-bottom:0; 
-		padding-bottom:0;
-		width: 100%;
-	}
-	.logo{				
-		width:50%;
-	}
+
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	.logo{				
-		width:70%;
-	}
+
 }
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
-	.logo{				
-		width:100%;
-	}
+
 }
 
 /* Custom, iPhone Retina */ 
@@ -138,6 +99,11 @@ h1, h2, h3, h4 { 		font-family: "PT Serif", Arial, Helvetica, sans-serif;
 		width:100%;
 	}
 	
+	.container-fluid .container{
+		padding-top:4rem;
+		padding-bottom:4rem;
+	}
+	
 	.slider-header{
 		background:#222;
 		color:#fff;
@@ -147,10 +113,7 @@ h1, h2, h3, h4 { 		font-family: "PT Serif", Arial, Helvetica, sans-serif;
 		
 	}
 	
-	.slider-header .container{
-		padding-top:40px;
-		padding-bottom:40px;
-	}
+
 	
 	.slider-logo{
 		margin-bottom:4rem;
@@ -177,16 +140,12 @@ h1, h2, h3, h4 { 		font-family: "PT Serif", Arial, Helvetica, sans-serif;
 	
 	.why-us h2{
 		font-size: 3.2rem;
-		line-height: 1.2;
-		font-family:"opensans-bold", Arial, sans-serif;
 		text-transform: none;
 		margin-bottom: 1.6rem;
 	}
 	
 	.why-us h3{
 		font-size: 2.4rem;
-		line-height: 1.2;
-		font-family:"opensans-bold", Arial, sans-serif;
 		text-transform: none;
 		margin-bottom: 1.6rem;
 	}
@@ -204,6 +163,74 @@ h1, h2, h3, h4 { 		font-family: "PT Serif", Arial, Helvetica, sans-serif;
 	}
 	
 	
+	.testimonials {
+		background:#f7f7f7;
+	}
+	
+	.testimonials .test,
+	.event-slider{
+		display: none;
+	}
+	
+	.testimonials .test p{
+		font-size:2.4rem;
+		font-family:"opensans", Arial, sans-serif;
+		font-style: italic;
+		text-align: center;
+		
+	}
+	
+	.testimonials hr{
+		width: 10rem;
+		border-bottom: .3rem solid;
+		border-color:#aaa;
+		margin: 0 auto;
+		margin-bottom:1.6rem;
+	}
+	
+	.testimonials .stars{
+		color:gold;
+	}
+	
+	.testimonials .test .author{
+		font-size:1.4rem;
+		text-transform: uppercase;
+		color:#aaa;
+	}
+	
+	.unslider-arrow {
+    display: block;
+    width: 32px;
+    height: 32px;
+    top: 50%;
+    right: -50px;
+    left: auto;
+    margin-top: -16px;
+    overflow: hidden;
+    background: rgba(0,0,0,.2) no-repeat 50% 50%;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAQCAQAAABuQZ3IAAAAi0lEQVR4AU3OISBEQQBAwS0AACS9NxqQgCZpkiYBVddFvWhAAUABAPQCAGC4g/0vTnrBqCfDIZl70J+kMUBPpEwT4FNXxBxz4F1HxHyr4EVTxBLb4EFNxEon4CJSlVNw9AcV9sC16h8osgke1P1ArgXwouVvdQq86ww/GQefusNf7kBviBlxpT8k+gL/Wox4r1d4MwAAAABJRU5ErkJggg==');
+    background-size: 7px 11px;
+    border-radius: 32px;
+    text-indent: -999em;
+    opacity: .6;
+    transition: opacity .2s;
+	}
+	
+	.prev {
+		left: -50px;
+		right: auto;
+		-ms-transform: rotate(-180deg);
+		transform: rotate(-180deg);
+	}
+	
+	.unslider-arrow.next {
+		left: auto;
+		right: -50px;
+	}	
+
+	
+	
+	
 </style>
 
 
@@ -212,7 +239,7 @@ h1, h2, h3, h4 { 		font-family: "PT Serif", Arial, Helvetica, sans-serif;
 <body>
 
 
-<section class="container-fluid slider-header largemargin">
+<section class="container-fluid slider-header">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -231,16 +258,16 @@ h1, h2, h3, h4 { 		font-family: "PT Serif", Arial, Helvetica, sans-serif;
 							<div class="slider">
 								<div class="event-slider">
 									<ul>
+										<li><img src="images/slides/splash-mmf.jpg"></li>
 										<li><img src="images/slides/splash-urban-fiesta.jpg"></li>
 										<li><img src="images/slides/splash-urban-ski.jpg"></li>
-										<!--<li><img src="images/slides/splash-partygras.jpg"></li>-->
-										<li><img src="images/slides/splash-mmf.jpg"></li>
 										<li><img src="images/slides/splash-essence.jpg"></li>
-										<li><img src="images/slides/splash-ufw.jpg"></li>
-										<!--<li><img src="images/slides/splash-mcc.jpg"></li>-->
 										<li><img src="images/slides/splash-tourney.jpg"></li> 
 										<li><img src="images/slides/splash-nba.jpg"></li>
 										<li><img src="images/slides/splash-facebook.jpg"></li>
+										<!--<li><img src="images/slides/splash-partygras.jpg"></li>-->
+										<!--<li><img src="images/slides/splash-ufw.jpg"></li>
+										<li><img src="images/slides/splash-mcc.jpg"></li>-->
 									</ul>
 								</div>
 
@@ -282,21 +309,91 @@ h1, h2, h3, h4 { 		font-family: "PT Serif", Arial, Helvetica, sans-serif;
 
 				<div class="col-md-4 text-center">
 					<i class="fa fa-usd fa-2x mediummargin" aria-hidden="true"></i>
-					<h3>Value for Money</h3>
-					<p>We provide affordable all-inclusive packages for some of the best destinations and events across the country.  </p>
+					<h3>Amazing Value</h3>
+					<p>We provide fun and affordable all-inclusive packages for some of the best destinations across and out of the country.</p>
 				</div><!-- ./col -->
 
 				<div class="col-md-4 text-center">
 					<i class="fa fa-plane fa-2x mediummargin" aria-hidden="true"></i>
-					<h3>Event Demand</h3>
-					<p>Our events range from Essence Festival, NBA All-star, HBCU classic's and more. Whereever there is sexy and fun, we are there!</p>
+					<h3>Exciting and Diverse</h3>
+					<p>Our events range from Celebrity Hosted Parties, Party Cruises, Tropical getaways, and more. Wherever there is sexy and fun, we are there!</p>
 				</div><!-- ./col -->
 
 				<div class="col-md-4 text-center">
 					<i class="fa fa-thumbs-up fa-2x mediummargin" aria-hidden="true"></i>
 					<h3>Quality Service</h3>
-					<p>Any events we hosts will always have a company liaison on site to assist with any customer needs and questions.</p>
+					<p>Any events, all-inclusive or hosted, will always have a company liaison on site to assist with any customer needs and questions.</p>
 				</div><!-- ./col -->
+				
+		
+
+		</div><!-- /.row -->
+	
+	</div><!-- /.container -->
+
+</section><!-- /.container-fluid -->
+
+
+
+<section class="container-fluid testimonials">
+
+	<div class="container">
+	
+		<div class="row">
+			<div class="col-12-md largemargin text-center">
+				<h2>Testimonials</h2>
+			</div>
+		</div>
+	
+		<div class="row">
+
+				<div class="col-md-8 col-md-offset-2">
+			
+						<div class="test">
+							<ul>
+								<li>
+									<div class="stars">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+									</div>
+									<p>Enjoyed the cruise in Cincinnati. Special thanks to Matthew and his security staff for all of their efforts. Chicago love to you.</p>
+									<hr />
+									<p class="author">Regina O.</p>
+									
+								</li>
+								
+								<li>
+									<div class="stars">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+									</div>
+									<p>I enjoyed the boat trip in Montgomery...Will return again for sure.</p>
+									<hr />
+									<p class="author">Phil H.</p>
+								</li>
+								
+								<li>
+									<div class="stars">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star-half" aria-hidden="true"></i>
+									</div>
+									<p>YOLLO always keep it lit for Urban Ski Weekend!!! Great service, comedy show was funny AF, and a lot of parties to attend. Definitely bringing more of my people next time.</p>
+									<hr />
+									<p class="author">Jamaal W.</p>
+								</li>
+							</ul>
+						</div>
+
+					
+				</div><!-- /.col-->
 
 		</div><!-- /.row -->
 	
@@ -317,6 +414,17 @@ $(function(){
 		infinite: true,
 		nav: true,
 		delay:4000,
+		animation: "fade"
+	})
+	
+	$(".testimonials .test,.event-slider").fadeIn(2000);
+	
+	$('.testimonials .test').unslider({
+		arrows: true,
+		autoplay: true,
+		infinite: true,
+		nav: true,
+		delay:8000,
 		animation: "fade"
 	}) 
 });
