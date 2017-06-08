@@ -70,31 +70,7 @@ p{
 	margin-bottom:1.6rem;
 }	
 
-	
 
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-
-}
-
-/* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 480px) {
-
-}
-
-/* Custom, iPhone Retina */ 
-@media only screen and (max-width : 320px) {
-	
-}
-
-	
-	
-	
 	.container-fluid{
 		width:100%;
 	}
@@ -136,6 +112,8 @@ p{
 		color:#ccc;
 		margin-bottom: 1.6rem;
 	}
+	
+	
 	
 	
 	.why-us h2{
@@ -270,7 +248,59 @@ p{
     	text-decoration: none;
 	}
 	
+	/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
 	
+	.slider-logo img {
+		width: 20rem;
+	}
+	
+	.slider{
+		height: 20rem;
+	}
+	.slider-content .btn,
+	.slider-content .btn + btn{
+		display:block;
+		width: 90%;
+		margin: 0 auto 1.6rem;
+	}
+	
+	.testimonials .test p{
+		font-size:1.8rem;
+	}
+	
+	
+	.unslider-arrow {
+		width: 3rem;
+		height: 3rem;
+		top:0;
+		background-size: 3rem;
+	}
+	
+	.unslider-arrow.prev {
+    	left: 0;
+	}
+	.unslider-arrow.next {
+		right: 0;
+		bottom: 0;
+	}	
+	
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+	
+}
 </style>
 
 
@@ -475,7 +505,7 @@ $top_links = array('home' => 'Home', 'about'=>'About Us', 'faq'=>'FAQs', 'contac
 					<?php endforeach; ?>
 						
 				</ul>
-				<p class="text-center">&copy; <?php echo date("Y") ?> YOLLO Group Services, Inc. All Rights Reserved.</p>
+				<p class="text-center">&copy; <?php date_default_timezone_set("America/Chicago"); echo date("Y") ?> YOLLO Group Services, Inc. All Rights Reserved.</p>
 			</div>
 		</div>
 	</div>
