@@ -5,7 +5,7 @@ ob_start("ob_gzhandler");
 
 $event = array(
 	"title"				=>"Urban Fiesta 2018",
-	"location"		   	=>"Trelawny, Jamacia",
+	"location"		   	=>"Rio Bueno, Jamacia",
 	"date"				=>"May 25-27, 2018",
 	"img_url"				=>"../../images/slides/splash-urban-fiesta.jpg",
 	"img_alt"			 	=>"Urban Fiesta"
@@ -59,11 +59,12 @@ $people = array(
 $package_items = array(
 
 	"diamond_items" => array(
-		"Upgraded Hotel Accommodations"					=> "checked",
+		"Upgraded Hotel Accommodations - Oceanfront View/ Upgraded Liquor Options All Weekend"					=> "checked",
 		"Hotel Accommodations (3 days/2 nights)"		=> "checked",
 		"Welcoming Reception"							=> "checked",
 		"All-Access Event Weekend Passes"				=> "checked",
 		"Unlimited Drinks on-site all weekend"			=> "checked",
+		"Complimentary Room Mini Bar Restocked Daily"			=> "checked",
 		"Unlimited Dining on-site all weekend"			=> "checked",
 		"FREE Guest Room Mini Bar Restocked Daily"		=> "checked",
 		"Add'l Night - $350/plus tax and resort fees"	=> "checked",
@@ -71,17 +72,19 @@ $package_items = array(
 	),
 
 	"emerald_items" => array(
-		"Upgraded Hotel Accommodations"					=> "ex",
+		"Upgraded Hotel Accommodations - Oceanfront View/ Upgraded Liquor Options All Weekend"					=> "ex",
 		"Hotel Accommodations (3 days/2 nights)"		=> "checked",
 		"Welcoming Reception"							=> "checked",
 		"All-Access Event Weekend Passes"				=> "checked",
 		"Unlimited Drinks on-site all weekend"			=> "checked",
+		"Complimentary Room Mini Bar Restocked Daily"			=> "checked",
 		"Unlimited Dining on-site all weekend"			=> "checked",
 		"FREE Guest Room Mini Bar Restocked Daily"		=> "checked",
 		"Add'l Night - $350/plus tax and resort fees"	=> "checked",
 		"YOLLO Gift Bag"								=> "checked"
-	),
-
+	)
+	
+	
 );
 
 include 'includes/functions.inc.php';
@@ -96,7 +99,7 @@ include 'includes/functions.inc.php';
      </title>
 
      <meta name="description" content="Urban Fiesta 2018 in Jamacia with YOLLO Group Services Inc. Memorial Day Weekend." />
-     <meta name="keywords" content="Urban Fiesta, Urban Fiesta 2017, Trelawny, Jamacia" />
+     <meta name="keywords" content="Urban Fiesta, Urban Fiesta 2017, Trelawny, Jamacia, Rio Bueno, Malia Jamacia, Urban Fiesta 2018" />
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
      <link href="favicon.ico" rel="icon" type="image/x-icon" />
@@ -266,6 +269,19 @@ include 'includes/functions.inc.php';
                                                        <!-- price table -->
 
                                                        <?php endif; ?>
+                                                       
+                                                       
+                                                       <hr />
+                                                       
+                                                        <h3>Additional Options</h3>
+                                                        <ul>
+															<li>Airport Transportation: $20 ($40 Round trip)</li>
+															<li>Dunn'ss River Falls Excursion: $60pp</li>
+															<li>Tour of Ocho Rios: $70pp</li>
+															<li>Tour Of Montego Bay: $70pp</li>
+															<li>Luminous Lagoon: $70pp</li>
+														</ul>	
+                                                      
 
                                         </div>
                                         <!-- end of Tab 2 -->
@@ -319,7 +335,7 @@ include 'includes/functions.inc.php';
                                                   </section>
                                                   
                                                   <section>
-                                                       <h2>Where exactly is Trelawny, Braco Village, Jamaica? <span></span></h2>
+                                                       <h2>Where exactly is Rio Bueno, Braco Village, Jamaica? <span></span></h2>
                                                        <p>It is located between Montego Bay and Ocho Rios. More specifically, 30 minutes outside of Montego Bay and 40 minutes from Ocho Rios. So this is the PERFECT center of what Jamaica has to offer.</p>
                                                   </section>
                                                   
