@@ -190,6 +190,8 @@ p{
 	
 	.testimonials .stars{
 		color:gold;
+		text-align: center;
+		margin-bottom:1.6rem;
 	}
 	
 	.testimonials .test .author{
@@ -200,16 +202,16 @@ p{
 	
 	.unslider-arrow {
     display: block;
-    width: 32px;
-    height: 32px;
+    width: 5rem;
+    height: 5rem;
     top: 50%;
     right: -50px;
     left: auto;
     margin-top: -16px;
     overflow: hidden;
-    background: rgba(0,0,0,.2) no-repeat 50% 50%;
-    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAQCAQAAABuQZ3IAAAAi0lEQVR4AU3OISBEQQBAwS0AACS9NxqQgCZpkiYBVddFvWhAAUABAPQCAGC4g/0vTnrBqCfDIZl70J+kMUBPpEwT4FNXxBxz4F1HxHyr4EVTxBLb4EFNxEon4CJSlVNw9AcV9sC16h8osgke1P1ArgXwouVvdQq86ww/GQefusNf7kBviBlxpT8k+gL/Wox4r1d4MwAAAABJRU5ErkJggg==');
-    background-size: 7px 11px;
+   	background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ3Ny4xNzUgNDc3LjE3NSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDc3LjE3NSA0NzcuMTc1OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4Ij4KPGc+Cgk8cGF0aCBkPSJNMzYwLjczMSwyMjkuMDc1bC0yMjUuMS0yMjUuMWMtNS4zLTUuMy0xMy44LTUuMy0xOS4xLDBzLTUuMywxMy44LDAsMTkuMWwyMTUuNSwyMTUuNWwtMjE1LjUsMjE1LjUgICBjLTUuMyw1LjMtNS4zLDEzLjgsMCwxOS4xYzIuNiwyLjYsNi4xLDQsOS41LDRjMy40LDAsNi45LTEuMyw5LjUtNGwyMjUuMS0yMjUuMUMzNjUuOTMxLDI0Mi44NzUsMzY1LjkzMSwyMzQuMjc1LDM2MC43MzEsMjI5LjA3NXogICAiIGZpbGw9IiNhYWFhYWEiLz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K);
+    background-size: 5rem;
+	background-repeat: no-repeat;
     border-radius: 32px;
     text-indent: -999em;
     opacity: .6;
@@ -227,8 +229,46 @@ p{
 		left: auto;
 		right: -50px;
 	}	
-
 	
+	footer.container-fluid > .container{
+		padding-top:2rem;
+		padding-bottom: 2rem;
+	}
+	
+	footer ul{
+		display: flex;
+    	justify-content: center;
+	}
+	
+	footer li{
+		float:left;
+		list-style: none;
+		font-size: 1.4rem;
+	}
+	
+	footer p{
+		font-size:1.4rem;
+	}
+	
+	footer li:not(:last-child){
+		margin-right:1rem;
+		border-right: 1px solid #fff;
+		padding-right:1rem;
+		
+		
+	}
+	
+	footer li a{
+		color: #fff;
+    	border-bottom: 1px solid transparent;
+    	text-decoration: none;
+	}
+	
+	footer li a:hover{
+		color: #fff;
+    	border-bottom: 1px solid #fff;
+    	text-decoration: none;
+	}
 	
 	
 </style>
@@ -371,6 +411,21 @@ p{
 										<i class="fa fa-star" aria-hidden="true"></i>
 										<i class="fa fa-star" aria-hidden="true"></i>
 										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+									</div>
+									<p>Urban Fiesta with YOLLO Group Services was such a great experience. Puerto Rico, the parties, and quality of service, was amazing. I will be doing business with this company again, very soon! 5 star experience for sure.</p>
+									<hr />
+									<p class="author">Brenda P.</p>
+								</li>
+								
+								
+								
+								<li>
+									<div class="stars">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
 									</div>
 									<p>I enjoyed the boat trip in Montgomery...Will return again for sure.</p>
 									<hr />
@@ -383,12 +438,14 @@ p{
 										<i class="fa fa-star" aria-hidden="true"></i>
 										<i class="fa fa-star" aria-hidden="true"></i>
 										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star-half" aria-hidden="true"></i>
+							
 									</div>
 									<p>YOLLO always keep it lit for Urban Ski Weekend!!! Great service, comedy show was funny AF, and a lot of parties to attend. Definitely bringing more of my people next time.</p>
 									<hr />
 									<p class="author">Jamaal W.</p>
 								</li>
+								
+								
 							</ul>
 						</div>
 
@@ -400,8 +457,29 @@ p{
 	</div><!-- /.container -->
 
 </section><!-- /.container-fluid -->
-
-
+<?php
+//array for top links
+$top_links = array('home' => 'Home', 'about'=>'About Us', 'faq'=>'FAQs', 'contact'=>'Contact');
+?>
+<footer class="container-fluid">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<ul>
+					<?php foreach($top_links as $top_link => $link_name): ?>
+						<li class="<?php echo $top_link ?>">
+							<a title="<?php echo $link_name ?>" href="/<?php echo $top_link ?>">
+								<?php echo $link_name ?>
+							</a>
+						</li>
+					<?php endforeach; ?>
+						
+				</ul>
+				<p class="text-center">&copy; <?php echo date("Y") ?> YOLLO Group Services, Inc. All Rights Reserved.</p>
+			</div>
+		</div>
+	</div>
+</footer>
 
 <?php include 'includes/scripts.inc.php'; ?>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
