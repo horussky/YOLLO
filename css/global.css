@@ -5576,6 +5576,9 @@ a.btn {
 .btn-lg {
   font-size: 2.4rem; }
 
+.btn + .btn {
+  margin-left: 1.6rem; }
+
 .btn:focus,
 .btn:active:focus,
 .btn.active:focus,
@@ -5707,6 +5710,17 @@ a.btn {
   color: #fff;
   background-color: #9E1421;
   border-color: #b51726; }
+
+/*Outlined*/
+.btn-outlined {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff; }
+
+.btn-outlined:hover {
+  color: #fff;
+  background-color: rgba(85, 85, 85, 0.3);
+  border-color: rgba(255, 255, 255, 0.8); }
 
 /*Newsletter Btn*/
 aside .btn {
@@ -7855,6 +7869,96 @@ footer a:hover {
     -ms-transform: translateY(-50%) rotate(90deg);
     transform: translateY(-50%) rotate(90deg); }
 
+.unslider {
+  overflow: auto;
+  margin: 0;
+  padding: 0; }
+
+.unslider-wrap {
+  position: relative; }
+
+.unslider-wrap.unslider-carousel > li {
+  float: left; }
+
+.unslider-vertical > ul {
+  height: 100%; }
+
+.unslider-vertical li {
+  float: none;
+  width: 100%; }
+
+.unslider-fade {
+  position: relative; }
+
+.unslider-fade .unslider-wrap li {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 8; }
+
+.unslider-fade .unslider-wrap li.unslider-active {
+  z-index: 10; }
+
+.unslider li,
+.unslider ol,
+.unslider ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: none; }
+
+.unslider-arrow {
+  position: absolute;
+  left: 20px;
+  z-index: 2;
+  cursor: pointer; }
+
+.unslider-arrow.next {
+  left: auto;
+  right: 20px; }
+
+/*Custom*/
+.unslider-fade .unslider-active {
+  position: static !important; }
+
+/**
+ *   Here's where everything gets included. You don't need
+ *   to change anything here, and doing so might break
+ *   stuff. Here be dragons and all that.
+ */
+/**
+ *   Default variables
+ *
+ *   While these can be set with JavaScript, it's probably
+ *   better and faster to just set them here, compile to
+ *   CSS and include that instead to use some of that
+ *   hardware-accelerated goodness.
+ */
+.unslider-nav ol {
+  list-style: none;
+  text-align: center; }
+
+.unslider-nav ol li {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: 0 4px;
+  background: transparent;
+  border-radius: 5px;
+  overflow: hidden;
+  text-indent: -999em;
+  border: 2px solid #fff;
+  cursor: pointer; }
+
+.unslider-nav ol li.unslider-active {
+  background: #fff;
+  cursor: default; }
+
+.unslider-nav ol li {
+  width: 1rem;
+  height: 1rem; }
+
 /*Nano Gallery Overrides*/
 .nanogallery_theme_default .nanoGalleryContainer {
   width: 100% !important;
@@ -7893,14 +7997,6 @@ div.AuthorizeNetSeal * {
   color: #fff; }
 
 @media only screen and (min-width: 76.9rem) {
-  /* Closes the Panel on window resize from small to large. */
-  /* Important tags aren't always bad otherwise you can close with JS on resize. */
-  .scotch-panel-canvas {
-    -o-transform: translate3d(0px, 0px, 0px) !important;
-    -ms-transform: translate3d(0px, 0px, 0px) !important;
-    -moz-transform: translate3d(0px, 0px, 0px) !important;
-    -webkit-transform: translate3d(0px, 0px, 0px) !important;
-    transform: translate3d(0px, 0px, 0px) !important; }
   .event-nav-mobile {
     display: none; } }
 
@@ -7908,7 +8004,11 @@ div.AuthorizeNetSeal * {
   /*Top Navigation*/
   .header {
     display: block;
-    margin-bottom: 2.4rem; }
+    margin-bottom: 2.4rem;
+    position: fixed;
+    z-index: 9999999;
+    background: #fff;
+    height: 8rem; }
   .header .left {
     width: 100%;
     display: block;
@@ -7940,6 +8040,7 @@ div.AuthorizeNetSeal * {
     width: 100%;
     float: none;
     padding: 0 2rem;
+    padding-top: 10rem;
     text-align: center; }
   .event-nav-mobile ul {
     margin-left: 0; }

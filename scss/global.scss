@@ -25,7 +25,9 @@
 @import '../scss/components/_preheader.scss';
 
 // Vendor CSS
-@import '../scss/vendor/_pushy.scss'; //pushy off canvas drawer menu 
+@import '../scss/vendor/_pushy.scss'; //pushy off canvas drawer menu
+@import '../scss/vendor/_unslider.scss'; //unslider 
+@import '../scss/vendor/_unslider-dots.scss'; //unslider dots
 
 // Custom CSS
 @import '../scss/components/_custom.scss';
