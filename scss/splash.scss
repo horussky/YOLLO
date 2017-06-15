@@ -1,0 +1,268 @@
+// Import Global CSS
+@import '../scss/global.scss';
+/*html{
+	 font-size: 62.5%;
+}	
+body{					
+	font-size:1.6rem; 
+	color:#464646;
+}*/
+
+h2{
+	text-transform:none;
+	font-size:3.2rem;
+}
+
+/*h3{
+	font-family:"opensans-bold", Arial, sans-serif;
+	line-height:1.2;
+	margin-bottom: 1.6rem;
+	font-weight:700;
+	letter-spacing:-1px;
+}
+
+h4{
+	font-family:"opensans-bold", Arial, sans-serif;
+	line-height:1.2;
+	margin-bottom: 1.6rem;
+	font-weight:700;
+}
+
+h5{
+	font-family:"opensans-bold", Arial, sans-serif;
+	line-height:1.2;
+	margin-bottom: 1.6rem;
+	font-weight:700;
+}
+*/
+
+	.container-fluid{
+		width:100%;
+	}
+	
+	.container-fluid .container{
+		padding-top:4rem;
+		padding-bottom:4rem;
+	}
+	
+	.slider-header{
+		background:#222;
+		color:#fff;
+		background-image: url(/images/splash-top-slider-bg.jpg);
+		background-repeat: no-repeat;
+		background-position: top center;
+		
+	}
+	
+
+	
+	.slider-logo{
+		margin-bottom:4rem;
+	}
+	
+	.slider-logo img{
+		width:17rem;
+		margin: 0 auto;
+    	display: block;
+	}
+	
+	.flex{
+		display: flex;
+	}
+	
+	.slider-content h1{
+		font-size: 4rem;
+		line-height: 1.2;
+		font-family:"opensans-bold", Arial, sans-serif;
+		color:#ccc;
+		margin-bottom: 1.6rem;
+	}
+	
+	
+	
+	
+	.why-us h2{
+		font-size: 3.2rem;
+		text-transform: none;
+		margin-bottom: 1.6rem;
+	}
+	
+	.why-us h3{
+		font-size: 2.4rem;
+		text-transform: none;
+		margin-bottom: 1.6rem;
+	}
+	
+	.slider .unslider{
+		position: relative;
+    	top: 50%;
+    	transform: translate(0, -50%);
+	}
+	
+	.slider .unslider img{
+		width: 100%;
+		height: auto;
+		border: 4px solid #fff;
+	}
+	
+	
+	.testimonials {
+		background:#f7f7f7;
+	}
+	
+	.testimonials .test,
+	.event-slider{
+		display: none;
+	}
+	
+	.testimonials .test p{
+		font-size:2.4rem;
+		font-family:"opensans", Arial, sans-serif;
+		font-style: italic;
+		text-align: center;
+		
+	}
+	
+	.testimonials hr{
+		width: 10rem;
+		border-bottom: .3rem solid;
+		border-color:#aaa;
+		margin: 0 auto;
+		margin-bottom:1.6rem;
+	}
+	
+	.testimonials .stars{
+		color:gold;
+		text-align: center;
+		margin-bottom:1.6rem;
+	}
+	
+	.testimonials .test .author{
+		font-size:1.4rem;
+		text-transform: uppercase;
+		color:#aaa;
+	}
+	
+	.unslider-arrow {
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    top: 50%;
+    right: -50px;
+    left: auto;
+    margin-top: -16px;
+    overflow: hidden;
+   	background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ3Ny4xNzUgNDc3LjE3NSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDc3LjE3NSA0NzcuMTc1OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4Ij4KPGc+Cgk8cGF0aCBkPSJNMzYwLjczMSwyMjkuMDc1bC0yMjUuMS0yMjUuMWMtNS4zLTUuMy0xMy44LTUuMy0xOS4xLDBzLTUuMywxMy44LDAsMTkuMWwyMTUuNSwyMTUuNWwtMjE1LjUsMjE1LjUgICBjLTUuMyw1LjMtNS4zLDEzLjgsMCwxOS4xYzIuNiwyLjYsNi4xLDQsOS41LDRjMy40LDAsNi45LTEuMyw5LjUtNGwyMjUuMS0yMjUuMUMzNjUuOTMxLDI0Mi44NzUsMzY1LjkzMSwyMzQuMjc1LDM2MC43MzEsMjI5LjA3NXogICAiIGZpbGw9IiNhYWFhYWEiLz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K);
+    background-size: 5rem;
+	background-repeat: no-repeat;
+    border-radius: 32px;
+    text-indent: -999em;
+    opacity: .6;
+    transition: opacity .2s;
+	}
+	
+	.prev {
+		left: -50px;
+		right: auto;
+		-ms-transform: rotate(-180deg);
+		transform: rotate(-180deg);
+	}
+	
+	.unslider-arrow.next {
+		left: auto;
+		right: -50px;
+	}	
+	
+	footer.container-fluid > .container{
+		padding-top:2rem;
+		padding-bottom: 2rem;
+	}
+	
+	footer ul{
+		display: flex;
+    	justify-content: center;
+	}
+	
+	footer li{
+		float:left;
+		list-style: none;
+		font-size: 1.4rem;
+	}
+	
+	footer p{
+		font-size:1.4rem;
+	}
+	
+	footer li:not(:last-child){
+		margin-right:1rem;
+		border-right: 1px solid #fff;
+		padding-right:1rem;
+		
+		
+	}
+	
+	footer li a{
+		color: #fff;
+    	border-bottom: 1px solid transparent;
+    	text-decoration: none;
+	}
+	
+	footer li a:hover{
+		color: #fff;
+    	border-bottom: 1px solid #fff;
+    	text-decoration: none;
+	}
+	
+	/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	
+	.slider-logo img {
+		width: 20rem;
+	}
+	
+	.slider{
+		height: 20rem;
+	}
+	.slider-content .btn,
+	.slider-content .btn + btn{
+		display:block;
+		width: 90%;
+		margin: 0 auto 1.6rem;
+	}
+	
+	.testimonials .test p{
+		font-size:1.8rem;
+	}
+	
+	
+	.unslider-arrow {
+		width: 3rem;
+		height: 3rem;
+		top:0;
+		background-size: 3rem;
+	}
+	
+	.unslider-arrow.prev {
+    	left: 0;
+	}
+	.unslider-arrow.next {
+		right: 0;
+		bottom: 0;
+	}	
+	
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+	
+}
