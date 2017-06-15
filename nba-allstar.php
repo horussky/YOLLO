@@ -6,7 +6,7 @@ $event = array(
 	"location"				=>"Los Angeles, Ca",
 	"date"					=>"February 16 – 18, 2018",
 	"img_url"				=>"../../images/slides/splash-nba.jpg",
-	"img_alt"				=>"NBA All-Star"
+	"img_alt"				=>"NBA All-Star 2018"
 );
 
 $geolocation = array(
@@ -77,7 +77,7 @@ $package_items = array(
 		"YOLLO Gift Bag"									=> "checked"
 	),
 
-	"Hotel Only" =>"$550/per person"
+	"Hotel Only" =>"$2000/room"
 );
 
 include 'includes/functions.inc.php';
@@ -293,7 +293,7 @@ include 'includes/functions.inc.php';
 
 											<section>
 													<h2>When are the payments due? <span></span></h2>
-													<p>The first payment of $125 is due on or before March 28, 2017. The final payment (remaining balance) is due on or before July 27, 2017.</p>
+													<p>The first payment of $125 is due on or before July 07, 2017. The final payment (remaining balance) is due on or before October 11, 2017.</p>
 											</section>
 
 											<section>

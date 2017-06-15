@@ -71,7 +71,7 @@ include 'includes/functions.inc.php';
 
 <title><?php echo $event["title"]?> | <?php echo $phonenumber ?></title>
 <meta name="description" content="YOLLO Group Services is a travel company specializing in offering affordable travel to amazing events for everyone." />
-<meta name="keywords" content="Urban Fantasy 2016, Carnival Cruise, Bahamas, YOLLO Group Services, student travel, bahamas, Cruise Travel packages" />
+<meta name="keywords" content="Urban Fantasy 2017, Carnival Cruise, Bahamas, YOLLO Group Services, student travel, bahamas, Cruise Travel packages" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
@@ -240,7 +240,7 @@ include 'includes/functions.inc.php';
 
                                 <section>
                                         <h2>When are the payments due? <span></span></h2>
-                                        <p>After registration the first payment of $125 is due <strong>April 10, 2017</strong> . The final payment (remaining balance) is due on or before <strong>July 13, 2017</strong> . If the announced payment dates have passed contact us for our current payment plan.</p>
+                                        <p>After registration the first payment of $125 is due <strong>July 10, 2017</strong> . The final payment (remaining balance) is due on or before <strong>August 13, 2017</strong> . If the announced payment dates have passed contact us for our current payment plan.</p>
                                 </section>
 
                                 <section>

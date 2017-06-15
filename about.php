@@ -5,7 +5,7 @@
 <head>
 <meta charset="utf-8">
 <title>About YOLLO Group Services </title>
-<meta name="description" content="YOLLO Group Services, Inc., formerly KJB Enterprises. We create travel packages for all mature ages." />
+<meta name="description" content="YOLLO Group Services, Inc. We create travel packages for all ages." />
 <meta name="keywords" content="About YOLLO Group Services Inc." />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
@@ -44,9 +44,9 @@
 
 					<h2 class="title">About YOLLO Group Services Inc.</h2>
 
-					<p>In our humble beginnings, YOLLO Group Services provided event packages exclusively for college students, for over 10,000 customers. We have since set our focus to accommodating travelers of all mature ages. </p>
+					<p>In our humble beginnings, YOLLO Group Services provided event packages exclusively for college students, for over 10,000 customers. We have since set our focus to accommodating travelers of all ages. </p>
 
-					<p>We provide all-inclusive packages for events such as NBA All-Star, Essence Festival, Urban Ski Weekend during the Superbowl and Urban Fiesta during Memorial Day weekend. We also proide packages for cruises, comedy shows, and HBCU classic's. For any special event that YOLLO hosts, there will always be a company liaison on site to assist with any customer needs.</p>
+					<p>We provide all-inclusive packages for events such as NBA All-Star, Essence Festival, Urban Ski Weekend during the Superbowl and Urban Fiesta during Memorial Day weekend. We also provide packages for cruises, comedy shows, and HBCU classic's. For any special event that YOLLO hosts, there will always be a company liaison on site to assist with any customer needs.</p>
 
 					<p>Before any event, our agents travel to survey the destination. This survey involves visiting the city, hotel, and other venues associated with the event. We do not provide services for our customers that we wouldn't enjoy ourselves.</p>
 
