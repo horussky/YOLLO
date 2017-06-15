@@ -10,7 +10,6 @@
 	<meta name="Keywords" content="YOLLO Group Services, travel packages, all-inclusive, Urban Fantasy Cruise, Urban Fiesta Weekend, Essence Festival, NBA All-Star Weekend, Urban Ski Weekend, Magic City Classic, Travel Services, Black College Reunion, BCR, HBCU Football" />
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/splash.css" rel="stylesheet" />
-    <link href="css/jmetro-theme/jquery-ui.css" rel="stylesheet" >
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
 </head>
 
