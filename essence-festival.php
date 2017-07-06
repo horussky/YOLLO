@@ -300,7 +300,7 @@
                         <div id="tabs-4">
 					   	<h3>Photos</h3>
                         		<div id="nanoGallery"></div>
-                        </div>  <!-- end of tabs 5 -->
+                        </div>  <!-- end of tabs 4 -->
 
 
 
@@ -310,17 +310,17 @@
 							<p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
                         	<div class="cognito"></div>
 
-                    	</div>
+                    	</div> <!-- end of tabs 5 -->
 
 
 
-                    </div>
+                    </div><!-- end of tabs -->
 
-                </div><!-- end of tabs -->
+                </div><!-- end of colful -->
 
 
 
-		</div><!-- end of col1 -->
+		</div><!-- end of content -->
 
 
 
@@ -335,18 +335,16 @@
 
       </section>
 
-      </div><!--end of content-->
-
-
       </div><!--end of right-->
 
       <aside id="social">
       <?php include 'includes/twitter.inc.php'; ?>
       </aside>
 
-    </div><!--end of container-->
+	</div><!--end of container-->
 
 </div><!--end of wrap-->
+
 
 <!-- Footer  -->
 <?php include 'includes/footer.inc.php'; ?>
