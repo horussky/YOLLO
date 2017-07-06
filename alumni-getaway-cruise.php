@@ -48,9 +48,15 @@ $package_items = array(
 	"diamond_items" => array(
 		"4 Day/3 Night Cruise Departing From Port of Mobile"			=> "checked",
 		"All You Can Eat aboard Ship"									=> "checked",
-		"Greek or Nah Event"											=> "checked",
-		"Rep Your University Event"										=> "checked",
-		"Exclusive Beach Party"											=> "checked",
+		"Bust a Gut Comedy Series"											=> "checked",
+		"80's vs 90's Party"										=> "checked",
+		"Word Easy Spoken Word Show"											=> "checked",
+		"Alumni Getaway Welcome Reception"											=> "checked",
+		"Rep My Set Party"											=> "checked",
+		"Alumni Getaway Beach Retreat"											=> "checked",
+		"Alumni Getaway Ocean Blue Fun and Sexy Party"											=> "checked",
+		"Farewell Party"											=> "checked",
+		"Black Film Review"											=> "checked",
 		"YOLLO Gift Bag"												=> "checked"
 	),
 
@@ -291,7 +297,7 @@ include 'includes/functions.inc.php';
 
 	     		<?php include 'includes/package-info-generic.inc.php'; ?><br/>
 
-	          <strong>Disclaimer</strong> | The term Urban Fantasy, Carnival Cruise Lines, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. We are in no way associated with or authorized by Carnival Cruises and neither this production nor its affiliates have licensed or endorsed us to sell goods and/or services in conjunction with any Carnival Cruise productions. The use of any logos, words, trademarks, or photos have been used for Descriptive Purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.
+	          <strong>Disclaimer</strong> | The term Alumni Getaway, Carnival Cruise Lines, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. We are in no way associated with or authorized by Carnival Cruises and neither this production nor its affiliates have licensed or endorsed us to sell goods and/or services in conjunction with any Carnival Cruise productions. The use of any logos, words, trademarks, or photos have been used for Descriptive Purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.
 	    </div>
 
 
