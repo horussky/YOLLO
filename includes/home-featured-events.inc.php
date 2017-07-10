@@ -56,6 +56,13 @@ $feature_event = array(
 		"end"		=> strtotime("February 5, 2018"),
 		"img" 		=> "images/featured-events/featured-event-usw.jpg",
 		"link" 		=> "/urban-ski-weekend"
+	),
+	array(
+		"title" 	=> "Alumni Getaway Cruise",
+		"date" 		=> "December 7-11 ,2017",
+		"end"		=> strtotime("December 7-11 ,2017"),
+		"img" 		=> "images/featured-events/featured-event-agc.jpg",
+		"link" 		=> "/alumni-getaway-cruise"
 	)
 
 );
