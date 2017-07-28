@@ -6,11 +6,11 @@ include("includes/home-featured-events.inc.php");
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>YOLLO Group Services | Contact us today at (888) 946-9655 </title>
+<title>YOLLO Group Services | Home </title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<meta name="Description" content="YOLLO Group Services Inc. is one of the leading full-service travel company in the Southern Region." />
-<meta name="Keywords" content="YOLLO Group Services, Urban Fiesta, NBA All-Star Weekend, Mardi Gras, Urban Ski, Urban Fantasy, Magic City Classic, HBCU Football, Party Gras, Essence Festival, Cincinnati Music Festival" />
+<meta name="Description" content="YOLLO Group Services Inc. is one of the leading full-service event concierge company in the Southern Region." />
+<meta name="Keywords" content="YOLLO Group Services, Alumni Getaway Cruise, Urban Fiesta, NBA All-Star Weekend, Mardi Gras, Urban Ski Weekend, Black Ski Weekend, Urban Fantasy, Magic City Classic, Essence Festival, Cincinnati Music Festival, College Beach Festival" />
 <meta name="author" content="YOLLO Group Services" />
 
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
