@@ -3,7 +3,7 @@ ob_start("ob_gzhandler");
 
 $event = array(
 	"title"					=>"The Tourney Weekend 2018",
-	"location"			=>"Charlotte, NC",
+	"location"				=>"Charlotte, NC",
 	"date"					=>"March 2 - 4, 2018",
 	"img_url"				=>"../../images/slides/splash-tourney.jpg",
 	"img_alt"				=>"The Tourney"
@@ -12,12 +12,12 @@ $event = array(
 $geolocation = array(
 
 	"hotel1"=> array(
-		"title" 				=>"Embassy Suites Charlotte",
-		"address"				=>"4800 South Tryon Street",
-		"location"				=>"Charlotte, North Carolina 28217",
+		"title" 				=>"Sheraton Charlotte",
+		"address"				=>"555 S. McDowell Street",
+		"location"				=>"Charlotte, North Carolina 28204",
 		"geolocation"			=>"35.180122,-80.89066",
 		"hotel1_soldout"		=>false,
-		"img_url"				=>"https://media.expedia.com/hotels/1000000/30000/21400/21398/21398_100_y.jpg"
+		"img_url"				=>"https://media-cdn.tripadvisor.com/media/photo-o/06/b6/ba/bb/exterior.jpg"
 	),
 
 	"hotel2"=> array(
@@ -29,22 +29,22 @@ $geolocation = array(
 
 $people = array(
 		"diamond"=> array(
-			"Group of 4" 			=>"$365",
-			"Group of 3"			=>"$425",
-			"Group of 2"			=>"$550",
-			"Individual"			=>"$1020"
+			"Group of 4" 			=>"$405",
+			"Group of 3"			=>"$480",
+			"Group of 2"			=>"$590",
+			"Individual"			=>"$1200"
 		),
 
 		"emerald"=> array(
-			"Group of 4" 			=>"$310",
-			"Group of 3"			=>"$375",
-			"Group of 2"			=>"$490",
-			"Individual"			=>"$895"
+			"Group of 4" 			=>"$350",
+			"Group of 3"			=>"$410",
+			"Group of 2"			=>"$535",
+			"Individual"			=>"$960"
 		),
 
 		"options"=>array(
 			"Party Bus" 			=> "$150",
-			"Hotel Only"			=> "$550/per person"
+			"Hotel Only"			=> "$915/weekend"
 		),
 
 );
@@ -53,22 +53,24 @@ $package_items = array(
 	"diamond_items" => array(
 		"Hotel Accommodations (Thurs-Sun)"				=> "checked",
 		"Friday Night Celebrity Party Pass"				=> "checked",
-		"Saturday Night Party Pass"								=> "checked",
-		"Saturday Day Party"											=> "checked",
-		"One Bottle of flavored Ciroc per group"	=> "checked",
-		"YOLLO Gift Bag"													=> "checked"
+		"Saturday Night Party Pass"						=> "checked",
+		"Saturday Day Party"							=> "checked",
+		"Saturday After Hours Party"					=> "checked",
+		"One Bottle of Ciroc per group"					=> "checked",
+		"YOLLO Gift Bag"								=> "checked"
 	),
 
 	"emerald_items" => array(
 		"Hotel Accommodations (Thurs-Sun)"				=> "checked",
 		"Friday Night Celebrity Party Pass"				=> "ex",
-		"Saturday Night Party Pass"								=> "ex",
-		"Saturday Day Party"											=> "checked",
-		"One Bottle of flavored Ciroc per group"	=> "checked",
-		"YOLLO Gift Bag"													=> "checked"
+		"Saturday Night Party Pass"						=> "ex",
+		"Saturday Day Party"							=> "checked",
+		"Saturday After Hours Party"					=> "checked",
+		"One Bottle of Ciroc per group"					=> "checked",
+		"YOLLO Gift Bag"								=> "checked"
 	),
 
-	"Hotel Only" =>"$550/per person"
+	"Hotel Only" =>"$915/weekend"
 );
 
 include 'includes/functions.inc.php';
@@ -82,7 +84,7 @@ include 'includes/functions.inc.php';
 
 <title><?php echo $event["title"]?> | <?php echo $phonenumber ?></title>
 <meta name="description" content="We can provide you with all inclusive arrangements and tickets for the Tourney." />
-<meta name="keywords" content="The Tourney, CIAA Charlotte, Basketball, CIAA Tournament, CIAA, CIAA Party Passes" />
+<meta name="keywords" content="The Tourney, CIAA Charlotte, Basketball, CIAA Tournament, CIAA, CIAA Party Passes, ciaa 2018, the tournament, ciaa parties, ciaa party" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
@@ -184,7 +186,7 @@ include 'includes/functions.inc.php';
 
 										<h3>Price</h3>
 
-											<?php if(count($geolocation["hotel1"]) > 1) :?>
+											<?php if(count($people["diamond"]) > 1) :?>
 											<div class="price-table">
 												<ul class="price">
 													<li class="header">Diamond <span>Package</span></li>
@@ -205,7 +207,7 @@ include 'includes/functions.inc.php';
 
 
 
-											<?php if(count($geolocation["hotel2"]) > 1) :?>
+											<?php if(count($people["emerald"]) > 1) :?>
 											<div class="price-table">
 												<ul class="price">
 													<li class="header">Emerald <span>Package</span></li>
@@ -234,7 +236,7 @@ include 'includes/functions.inc.php';
 
 											<section>
 													<h2>When are the payments due? <span></span></h2>
-													<p>After registration the first payment of $125 is due July 13, 2017. The final payment (remaining balance) is due on or before November 09, 2017.</p>
+													<p>After registration the first payment of $125 is due September 05, 2017. The final payment (remaining balance) is due on or before December 12, 2017.</p>
 											</section>
 
 											<section>
