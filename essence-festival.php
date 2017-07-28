@@ -3,7 +3,7 @@
 	$event = array(
 		"title"				=>"Essence Festival 2018",
 		"location"			=>"New Orleans, LA",
-		"date"				=>"June 29 - July 1, 2018",
+		"date"				=>"July 6 - 8, 2018",
 		"img_url"			=>"../../images/slides/splash-essence.jpg",
 		"img_alt"			=>"Essence Festival 2017"
 	);
@@ -39,8 +39,8 @@
 			),
 
 			"emerald"=> array(
-				"Group of 4" 			=>"$555",
-				"Group of 3"			=>"$655",
+				"Group of 4" 			=>"$605",
+				"Group of 3"			=>"$695",
 				"Group of 2"			=>"$840",
 				"Individual"			=>"$1375"
 			),
@@ -54,8 +54,12 @@
 			"One night concert ticket (Lodge Section)"	=> "checked",
 			"All White Mid-Day Boat Cruise "			=> "checked",
 			"Mid-Day Comedy Show (Sunday)"				=> "checked",
+			"Fashion Show (Sunday)"				=> "checked",
+			"Speak Easy Poetry Show (Sunday)"				=> "checked",
+			"Welcome to NOLA party (Friday)"				=> "checked",
 			"Complimentary Additional Night*"			=> "checked",
 			"Additional nights: $349 plus tax and fees"	=> "checked",
+			"Additional concert nights (Loge Section): $150"	=> "checked",
 			"YOLLO Gift Bag"							=> "checked"
 		),
 
@@ -64,8 +68,12 @@
 			"One night concert ticket (Lodge Section)"	=> "ex",
 			"All White Mid-Day Boat Cruise "			=> "ex",
 			"Mid-Day Comedy Show (Sunday)"				=> "checked",
+			"Fashion Show (Sunday)"				=> "checked",
+			"Speak Easy Poetry Show (Sunday)"				=> "checked",
+			"Welcome to NOLA party (Friday)"				=> "checked",
 			"Complimentary Additional Night*"			=> "checked",
 			"Additional nights: $349 plus tax and fees"	=> "checked",
+			"Additional concert nights (Loge Section): $150"	=> "checked",
 			"YOLLO Gift Bag"							=> "checked"
 		)
 	);
@@ -143,14 +151,14 @@
                         <div id="tabs-1">
 						<h3>Get ready for Essence Festival 2018</h3>
 
-						<p>The 24th annual Essence Music Festival is an annual mega music event filled with concerts, seminars and celebrities, sponsored by Essence Magazine. The Essence Music Festival summer concert series, will once again be held in New Orleans, Louisiana. In 2017, this event brought in over 470,000 attendees. 2018 promises to bring in an even larger crowd with teh planned performers that will be in attendance. Concerts rock the New Orleans Superdome each night and teh variety of parties have been added to highlight the daylight hours! You don't want to miss a minute of the fun in the Big Easy during this exciting time.</p>
+						<p>The 24th annual Essence Music Festival is an annual mega music event filled with concerts, seminars and celebrities, sponsored by Essence Magazine. The Essence Music Festival summer concert series, will once again be held in New Orleans, Louisiana. In 2017, this event brought in over 470,000 attendees. 2018 promises to bring in an even larger crowd with the planned performers that will be in attendance. Concerts rock the New Orleans Superdome each night and teh variety of parties have been added to highlight the daylight hours! You don't want to miss a minute of the fun in the Big Easy during this exciting time.</p>
 
 						<h4>The Mid-Day Cruise Party</h4>
 
-						<p>This cruise was such a HUGE success in 2017 that we had to add two cruises to accommodate the demand! The 13th annual Mid-Day Party Boat Cruise will happen on the famous Creole Queen and will be in feature 4 options for you cruising delight! Enjoy a multi-level paddle-wheel boat cruising the Mighty Mississippi River, while listening to the livest Hip-Hop and R&B music. This cruise will be All White preferred, however not required theme while providing the ULTIMATE party experience during Essence!  Please remember that once we sell out, we will not have any more tickets available. So don't procrastinate and miss out on mixing and mingling, or partying like a rock star!</p>
+						<p>This cruise was such a HUGE success in 2017 that we had to add two cruises to accommodate the demand! The 13th annual Mid-Day Party Boat Cruise will happen on the famous Creole Queen and will be featured with 4 options for you cruising delight! Enjoy a multi-level paddle-wheel boat cruising the Mighty Mississippi River, while listening to the livest Hip-Hop and R&B music. This cruise will be All White preferred, however not required theme while providing the ULTIMATE party experience during Essence!  Please remember that once we sell out, we will not have any more tickets available. So don't procrastinate and miss out on mixing and mingling, or partying like a rock star!</p>
 
 						<h4>The Mid-Day Comedy Show</h4>
-						<p>Needless to say, the comedy show was bigger and better than ever! The food was great, drinks were on point, and the jokes had everyone in stitches! If you are in need of some serious laughter, this is the event for you. Last year's headliner Steve Brown had tears in EVERYBODY'S eyes! Don't think we are going to let you down with our 2018 lineup! The 8th annual Comedy Show will happen on July 1st, 2018. Join us to hear some of the funniest comedians to ever hit the main circuit.</p>
+						<p>Needless to say, the comedy show was bigger and better than ever! The food was great, drinks were on point, and the jokes had everyone in stitches! If you are in need of some serious laughter, this is the event for you. Last year's headliner Steve Brown had tears in EVERYBODY'S eyes! Don't think we are going to let you down with our 2018 lineup! The 8th annual Comedy Show will happen on July 8th, 2018. Join us to hear some of the funniest comedians to ever hit the main circuit.</p>
 
 						<p>Do the right thing and <a href="#tabs-5" class="open-tab" data-tab-index="4">Book now</a> with YOLLO Group Services Inc. and allow us to give you the best travel experience while in New Orleans!</p>
 
@@ -248,15 +256,20 @@
                                 </section>
 
                                 <section>
-                                    <h2>What are the payment due dates for Early Bird Essence 2018 Packages? <span></span></h2>
-                                    <p>To reserve a package each group member pays the $19.99 per person fee. Because of the deeply discounted price of this package it’s limited to double occupancy. The pricing is $1025 total after registration and will covered up to two people. The first payment of $450 is due on or before August 17, 2017. The final payment (remaining balance) is due on or before December 05, 2017. Because of the high demand for this offer there will no extensions allowed. Once the package is fully paid no name changes will be allowed. We strongly suggest you purchase travelers insurance to cover the unexpected. You can purchase travelers insurance by clicking on the link to AIG below. If you miss your payment your package will be cancelled. If you would still like to attend you are free to sign up for one of our current offers. If you would like to make payments between due dates you may do so using the drop down options on the right side of the page under "Hotel Selection".</p>
-                                </section>
-
-                                <section>
                                     <h2>What are the payment due dates for Essence Packages? <span></span></h2>
                                     <p>To reserve a package each group member pays the $19.99 per person fee. The first payment of $125 is due on or before September 6, 2017. The final payment (remaining balance) is due on or before January 10, 2018. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by cliocking on the BUY NOW tab above and following the prompts.</p>
                                 </section>
 
+                                <section>
+                                    <h2>Your prices listed are only for up to four people max? Can you accommodate groups larger than four? <span></span></h2>
+                                    <p>Yes, we can accommodate any size group, but due to hotel regulations the max occupancy per room is four. This why you see pricing up to four.</p>
+                                </section>
+                                
+                                <section>
+                                    <h2>Can I purchase additional concert nights? <span></span></h2>
+                                    <p>Yes, additonal night concert tickets are $150 per night. Just let us know and we can add it to your invoice.</p>
+                                </section>
+                                                                               
                                 <section>
                                     <h2>Are there restrictions to what I can bring into the Superdome? <span></span></h2>
                                     <p>The following items are prohibited: animals (with the exception of service dogs), backpacks/knapsacks, banners, containers of any kind, contraband, glass, laser pointers, noise makers, projectiles, sticks, bats, poles or clubs; video and audio recording devices with lenses that are longer than six (6) inches); weapons of any kind and other items deemed inappropriate by SMG/Landmark</p>

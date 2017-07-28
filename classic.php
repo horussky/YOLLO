@@ -231,7 +231,7 @@
               <div id="accordion" class="nodisp">
                 <section>
                   <h2>When are the payments due? <span></span></h2>
-                  <p>After registration the 1st payment of $50 is due on or before due July 06, 2017. The second and final payment is due September 08, 2017.</p>
+                  <p>After registration the 1st payment of $50 is due on or before due August 06, 2017. The second and final payment is due September 08, 2017.</p>
                 </section>
                 <section>
                   <h2>Can I make payments before my due date? <span></span></h2>
