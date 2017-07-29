@@ -1,71 +1,3 @@
-<?php error_reporting (E_ALL ^ E_NOTICE); ?>
-
-<?php
-
-if(isset($_POST['action']) && $_POST['action'] == 'contact' && empty($_POST['nobots'])):
-
-
-
-	foreach($_POST as $k => $v):
-
-		${$k} = $v;
-
-	endforeach;
-
-
-
-	$emailto = 'onelife@goyollo.com';
-
-	//$emailto = 'horussky@gmail.com';
-
-	$subject = 'Email Sent from YOLLO Website';
-
-
-
-	$msg = "Message sent from YOLLO contact page\r\n\r\n";
-
-	$msg.= "Name: $name\r\n";
-
-	$msg.= "Phone Number: $phone\r\n";
-
-	$msg.= "Email: $email\r\n";
-
-	$msg.= "Event of Interest: $event\r\n";
-
-	$msg.= "Comment/Question: $comment\r\n";
-
-
-
-	//Send To Headers
-
-	$headers = "From: $email";
-
-	//Mail It
-
-	$success = mail($emailto, $subject, $msg, $headers);
-
-
-
-
-
-	if($success){
-
-		header("Location: /contact.php?url=success");
-
-	}else{
-
-		header("Location: /contact.php?url=error");
-
-	}
-
-	exit;
-
-
-
-endif;
-
-?>
-
 <!doctype html>
 
 <html lang="en">
@@ -81,7 +13,9 @@ endif;
 <link href="css/global.css" rel="stylesheet" type="text/css" />
 <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
 </head>
-
+<style>
+	.content{display:none;}
+</style>
 <body>
 
 
@@ -111,58 +45,11 @@ endif;
         	<div class="content">
 
           		<div class="form">
-
-					<form method="post" action="contact.php" name="frm_contact" id="frm_contact">
-							<?php if($_GET['url'] == 'success'):?>
-								<p class="alert success">Your message was sent successfully.</p>
-							<?php elseif($_GET['url'] == 'error'):?>
-								<p class="alert error">An error has occured, please try again.</p>
-							<?php endif;?>
+          			<h2 class="contact title">Contact Us</h2>
+					<p class="lead">Don't hesitate to say or ask us anything. Fill out the form below for questions or comments.</p>
 
 
-
-						   <h2 class="contact title">Need support?</h2>
-
-						   <p class="lead">Don't hesitate to say or ask us anything. Fill out the form below for questions or comments.</p>
-
-							<span class="teeny">* = required field</span>  <br /><br />
-
-						  	<label for="cname">* Full Name</label>
-
-							<input class="group form-control" type="text" name="name" id="name" />
-
-						  	<label for="phone">Contact Number</label>
-
-							<input class="group form-control" type="text" name="phone" id="phone" class="default" />
-
-							<label for="email">* Email Address</label>
-
-							<input class="group form-control" type="text" name="email" id="email" />
-
-							<label for="event">Event of Interest?</label>
-
-							<?php /*?><input type="text" name="event" id="event" /><?php */?>
-
-							<select name="event" id="event" class="group form-control">
-								<option value="">-- Choose an Event -- </option>
-								<option value="Essence Festival">Essence Festival</option>
-								<option value="HBCU Games">HBCU Games</option>
-								<option value="Magic City Classic">Magic City Classic</option>
-								<option value="NBA All-Star">NBA All-Star</option>
-								<option value="Urban Fiesta">Urban Fiesta</option>
-								<option value="Urban Ski Weekend">Urban Ski Weekend</option>
-								<option value="Other">Other</option>
-							</select>
-
-							<label for="comment">* Comment/Question</label>
-							<textarea name="comment" id="comment" rows="6" class="group form-control"></textarea>
-							<input type="submit" value="Submit" class="btn btn-success" />
-
-							<input type="text" name="nobots" title="please leave blank" class="nodisp" />
-
-							<input type="hidden" name="action" value="contact" class="nodisp"/>
-
-					</form>
+					<div class="cognito"></div>
 
                 </div>
 
@@ -233,25 +120,14 @@ endif;
 
 <?php include 'includes/scripts.inc.php'; ?>
 
-<script type="text/javascript">
-
-	$(document).ready(function(){
-
-		$('#frm_contact').validate({
-
-			rules: {
-				name: {required: true, minlength: 5, maxlength: 25},
-				cname: {required: true, minlength: 5, maxlength: 25},
-				email: {required: true, email: true},
-				comment: {required: true, minlength: 20}
-			}
-
-  		});
-
-		//end of alert
+<script>
+	$(function(){
+		$(".content").show()
 	});
-
 </script>
+
+<script src="https://services.cognitoforms.com/s/NiNAkf4LukqBZOHDFOMsiQ"></script>
+<script>Cognito.load("forms", { id: "56" });</script>
 
 <!--google analytics-->
 
