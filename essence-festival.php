@@ -16,7 +16,7 @@
 			"location"			=>"New Orleans, LA 70130",
 			"geolocation"		=>"500 Canal Street,New Orleans, LA 70130",
 			"hotel1_soldout"    =>false,
-			"img_url"			=>"//cdn.hotelplanner.com/Common/Images/Hotels/8832_1.jpg"
+			"img_url"			=>"//media-cdn.tripadvisor.com/media/oyster/1070/05/8d/7d/cf/restaurants-bars--v1986548-55.jpg"
 		),
 
 		"hotel2"=> array(
@@ -25,7 +25,7 @@
 			"location"			=>"New Orleans, LA 70130",
 			"geolocation"		=>"2 Poydras Street, New Orleans, LA 70130",
 			"hotel2_soldout"	=>false,
-			"img_url"			=>"//hotel.maggiesdoughnuts.com/wp-content/uploads/2016/01/hilton-new-orleans-riverside-shuttle.gif"
+			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-o/10/0f/3c/12/hilton-new-orleans-riverside.jpg"
 		)
 
 	);
