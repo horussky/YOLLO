@@ -12,21 +12,29 @@
 
 		"hotel1"=> array(
 			"title" 			=>"Sheraton New Orleans Hotel",
-			"address"			=>"500 Canal Street",
-			"location"			=>"New Orleans, LA 70130",
 			"geolocation"		=>"500 Canal Street,New Orleans, LA 70130",
 			"hotel1_soldout"    =>false,
 			"img_url"			=>"//media-cdn.tripadvisor.com/media/oyster/1070/05/8d/7d/cf/restaurants-bars--v1986548-55.jpg"
 		),
 
 		"hotel2"=> array(
-			"title" 			=>"Hilton New Orleans Riverside",
-			"address"			=>"2 Poydras Street",
-			"location"			=>"New Orleans, LA 70130",
+			"title" 			=>"Hilton N.O. Riverside",
 			"geolocation"		=>"2 Poydras Street, New Orleans, LA 70130",
 			"hotel2_soldout"	=>false,
 			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-o/10/0f/3c/12/hilton-new-orleans-riverside.jpg"
-		)
+		),
+		
+		"hotel3"=> array(
+			"title" 			=>"Hilton N.O. St. Charles Ave",
+			"geolocation"		=>"333 Saint Charles Ave, New Orleans, LA 70130",
+			"hotel2_soldout"	=>false,
+			"img_url"			=>"//media-cdn.tripadvisor.com/media/oyster/1430/08/e1/6c/7f/hallways--v8652118.jpg"
+		),
+		
+		
+		
+		
+		
 
 	);
 
@@ -186,6 +194,13 @@
                                     	 <img src="<?php echo $geolocation['hotel2']['img_url']; ?>" />
                                         <div class="hotel-title">
                                             <h3><?php echo $geolocation["hotel2"]["title"]; ?></h3>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="hotel-box">
+                                    	 <img src="<?php echo $geolocation['hotel3']['img_url']; ?>" />
+                                        <div class="hotel-title">
+                                            <h3><?php echo $geolocation["hotel3"]["title"]; ?></h3>
                                         </div>
                                     </div>
 
