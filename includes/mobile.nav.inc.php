@@ -1,6 +1,6 @@
 <?php
 
-define ("EVENT", serialize ($nav = array(
+define("EVENT", serialize ($nav = array(
 			array(
 					"title"	=>	"Alumni Getaway Cruise",
 				  	"class"	=>	"alumni",
@@ -39,7 +39,7 @@ define ("EVENT", serialize ($nav = array(
 				  
 			),
 			array(
-					"title"	=>	"NBA All-Star",
+					"title"	=>	"All-Star Weekend",
 				  	"class"	=>	"nba",
 				  	"link"	=>	"/nba-allstar"
 				  
@@ -82,9 +82,9 @@ define ("EVENT", serialize ($nav = array(
 
 );
 
-sort($nav);
-$event_nav = unserialize (EVENT);
 
+$event_nav = unserialize (EVENT);
+sort($event_nav);
 ?>
 
 <nav class="pushy pushy-right">
