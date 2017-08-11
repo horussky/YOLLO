@@ -7971,28 +7971,24 @@ footer a:hover {
 .foot-col3 a:not(:last-child) {
   margin-right: 1rem; }
 
-.price-table {
-  float: left;
-  width: 45%;
-  margin-right: 2rem;
-  margin-bottom: 2rem; }
-  .price-table:nth-of-type(1) {
-    float: right;
-    margin-right: 0; }
-  .price-table:only-of-type {
-    float: none;
-    width: 100%; }
-    .price-table:only-of-type li:not(.header) {
-      text-align: center;
-      margin: 0 auto;
-      display: block;
-      padding-left: 20%;
-      padding-right: 20%; }
-    .price-table:only-of-type li:last-of-type {
-      padding: 0 2rem; }
-  .price-table:only-of-type .priceblock li span {
-    display: block;
-    width: 100%; }
+.price-table-container {
+  display: grid;
+  display: -ms-grid;
+  grid-gap: 2rem 2rem;
+  grid-auto-columns: auto;
+  grid-auto-flow: column; }
+
+.price-table li:not(.header) {
+  text-align: center;
+  margin: 0 auto;
+  display: block; }
+
+.price-table li:last-of-type {
+  padding: 0 2rem; }
+
+.price-table:only-of-type .priceblock li span {
+  display: block;
+  width: 100%; }
 
 /* Style the list */
 .price-table .price {
@@ -8001,6 +7997,7 @@ footer a:hover {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  margin-left: 0;
   /* Add shadows on hover */
   /* Pricing header */ }
   .price-table .price:hover {
@@ -8063,7 +8060,9 @@ footer a:hover {
 
 .people-price ul {
   margin-bottom: none;
-  border-bottom: none; }
+  margin-left: 0;
+  border-bottom: none;
+  width: 100%; }
   .people-price ul li {
     margin-left: 0;
     background: none;
@@ -8721,7 +8720,6 @@ div.AuthorizeNetSeal * {
     overflow: inherit; }
   /*Price Table*/
   .price-table {
-    width: 45%;
     display: block; }
     .price-table .header {
       position: relative;
@@ -8794,6 +8792,8 @@ div.AuthorizeNetSeal * {
   .price-table {
     width: 100%;
     display: block; }
+  .price-table-container {
+    grid-auto-flow: row; }
   .hotel-box-container .hotel-box {
     width: 100%; } }
 
