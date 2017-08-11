@@ -177,6 +177,8 @@ include 'includes/functions.inc.php';
                                 <hr />
 
                         <h3>Price</h3>
+                                    
+                                    <div class="price-table-container">
 
                                     <?php if(count($geolocation["cruise1"]) > 1) :?>
                                     <div class="price-table">
@@ -217,6 +219,8 @@ include 'includes/functions.inc.php';
                                         </ul>
                                     </div><!-- price table -->
                                 <?php endif; ?>
+                                
+						</div><!-- price table container-->
 
                     </div><!-- end of Tab 2 -->
 
@@ -246,7 +250,7 @@ include 'includes/functions.inc.php';
 
                                 <section>
                                         <h2>When are the payments due? <span></span></h2>
-                                        <p>After registration the first payment of $125 is due <strong>July 10, 2017</strong> . The final payment (remaining balance) is due on or before <strong>August 13, 2017</strong> . If the announced payment dates have passed contact us for our current payment plan.</p>
+                                        <p>After registration the first payment of $125 is due <strong>August 03, 2017</strong> . The final payment (remaining balance) is due on or before <strong>September 13, 2017</strong> . If the announced payment dates have passed contact us for our current payment plan.</p>
                                 </section>
 
                                 <section>

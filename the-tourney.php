@@ -185,6 +185,8 @@ include 'includes/functions.inc.php';
 										<hr />
 
 										<h3>Price</h3>
+											
+											<div class="price-table-container">
 
 											<?php if(count($people["diamond"]) > 1) :?>
 											<div class="price-table">
@@ -225,6 +227,8 @@ include 'includes/functions.inc.php';
 												</ul>
 											</div><!-- price table -->
 										<?php endif; ?>
+										
+										</div><!-- price table container-->
 
 								</div><!-- end of Tab 2 -->
 

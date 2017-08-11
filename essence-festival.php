@@ -196,40 +196,45 @@
                             	<hr />
 
                                 <h3>Price</h3>
-                                <div class="price-table">
-                                  <ul class="price">
-                                    <li class="header">Diamond <span>Package</span></li>
-                                    <?php foreach($package_items['diamond_items'] as $key=>$value): ?>
-                                    	<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-                                    <?php endforeach; ?>
-                                    <li class="people-price">
-                                    	<ul class="priceblock">
-                                        	<?php foreach($people['diamond'] as $key=>$value): ?>
-                                            <li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
-                                            <?php endforeach; ?>
-										</ul>
-                                    </li>
-                                    <li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
-                                  </ul>
-                                </div><!-- price table -->
+                                
+                                <div class="price-table-container">
+                                
+									<div class="price-table">
+									  <ul class="price">
+										<li class="header">Diamond <span>Package</span></li>
+										<?php foreach($package_items['diamond_items'] as $key=>$value): ?>
+											<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+										<?php endforeach; ?>
+										<li class="people-price">
+											<ul class="priceblock">
+												<?php foreach($people['diamond'] as $key=>$value): ?>
+												<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
+												<?php endforeach; ?>
+											</ul>
+										</li>
+										<li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
+									  </ul>
+									</div><!-- price table -->
 
 
-                                <div class="price-table">
-                                  <ul class="price">
-                                    <li class="header">Emerald <span>Package</span></li>
-                                    <?php foreach($package_items['emerald_items'] as $key=>$value): ?>
-                                    	<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-                                    <?php endforeach; ?>
-                                    <li class="people-price">
-                                    	<ul class="priceblock">
-                                        	<?php foreach($people['emerald'] as $key=>$value): ?>
-                                            <li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
-                                            <?php endforeach; ?>
-										</ul>
-                                    </li>
-                                    <li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
-                                  </ul>
-                                </div><!-- price table -->
+									<div class="price-table">
+									  <ul class="price">
+										<li class="header">Emerald <span>Package</span></li>
+										<?php foreach($package_items['emerald_items'] as $key=>$value): ?>
+											<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+										<?php endforeach; ?>
+										<li class="people-price">
+											<ul class="priceblock">
+												<?php foreach($people['emerald'] as $key=>$value): ?>
+												<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
+												<?php endforeach; ?>
+											</ul>
+										</li>
+										<li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
+									  </ul>
+									</div><!-- price table -->
+                                
+								</div><!-- price table container-->
 
 
 

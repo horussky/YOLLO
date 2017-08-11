@@ -224,6 +224,8 @@ include 'includes/functions.inc.php';
 								<hr/>
 
 								<h3>Price</h3>
+								
+								<div class="price-table-container">
 
 								<?php if(count($geolocation["cruise1"]) > 1) :?>
 
@@ -323,7 +325,7 @@ include 'includes/functions.inc.php';
 
 								<?php endif; ?>
 
-
+								</div><!-- price table container-->
 
 							</div>
 							<!-- end of Tab 2 -->
