@@ -12,45 +12,32 @@
 
 		"hotel1"=> array(
 			"title" 			=>"Sheraton New Orleans Hotel",
-			"geolocation"		=>"500 Canal Street,New Orleans, LA 70130",
 			"hotel1_soldout"    =>false,
 			"img_url"			=>"//media-cdn.tripadvisor.com/media/oyster/1070/05/8d/7d/cf/restaurants-bars--v1986548-55.jpg"
 		),
 
 		"hotel2"=> array(
-			"title" 			=>"Hilton N.O. Riverside",
-			"geolocation"		=>"2 Poydras Street, New Orleans, LA 70130",
+			"title" 			=>"Hilton New Orleans/St. Charles Avenue",
 			"hotel2_soldout"	=>false,
-			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-o/10/0f/3c/12/hilton-new-orleans-riverside.jpg"
-		),
-		
-		"hotel3"=> array(
-			"title" 			=>"Hilton N.O. St. Charles Ave",
-			"geolocation"		=>"333 Saint Charles Ave, New Orleans, LA 70130",
-			"hotel2_soldout"	=>false,
-			"img_url"			=>"//media-cdn.tripadvisor.com/media/oyster/1430/08/e1/6c/7f/hallways--v8652118.jpg"
-		),
-		
-		
-		
-		
-		
+			"img_url"			=>"//media-cdn.tripadvisor.com/media/oyster/1180/08/e1/6c/7f/hallways--v8652118.jpg"
+		)
+
 
 	);
 
 	$people = array(
 			"diamond"=> array(
-				"Group of 4" 			=>"$755",
-				"Group of 3"			=>"$820",
-				"Group of 2"			=>"$985",
-				"Individual"			=>"$1630"
+				"Group of 4" 			=>"$860",
+				"Group of 3"			=>"$925",
+				"Group of 2"			=>"$1090",
+				"Individual"			=>"$1735"
 			),
 
 			"emerald"=> array(
-				"Group of 4" 			=>"$605",
-				"Group of 3"			=>"$695",
-				"Group of 2"			=>"$840",
-				"Individual"			=>"$1375"
+				"Group of 4" 			=>"$710",
+				"Group of 3"			=>"$800",
+				"Group of 2"			=>"$945",
+				"Individual"			=>"$1480"
 			),
 
 			"Hotel Only" =>"$1245 (Weekend)"
@@ -211,40 +198,45 @@
                             	<hr />
 
                                 <h3>Price</h3>
-                                <div class="price-table">
-                                  <ul class="price">
-                                    <li class="header">Diamond <span>Package</span></li>
-                                    <?php foreach($package_items['diamond_items'] as $key=>$value): ?>
-                                    	<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-                                    <?php endforeach; ?>
-                                    <li class="people-price">
-                                    	<ul class="priceblock">
-                                        	<?php foreach($people['diamond'] as $key=>$value): ?>
-                                            <li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
-                                            <?php endforeach; ?>
-										</ul>
-                                    </li>
-                                    <li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
-                                  </ul>
-                                </div><!-- price table -->
+                                
+                                <div class="price-table-container">
+                                
+									<div class="price-table">
+									  <ul class="price">
+										<li class="header">Diamond <span>Package</span></li>
+										<?php foreach($package_items['diamond_items'] as $key=>$value): ?>
+											<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+										<?php endforeach; ?>
+										<li class="people-price">
+											<ul class="priceblock">
+												<?php foreach($people['diamond'] as $key=>$value): ?>
+												<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
+												<?php endforeach; ?>
+											</ul>
+										</li>
+										<li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
+									  </ul>
+									</div><!-- price table -->
 
 
-                                <div class="price-table">
-                                  <ul class="price">
-                                    <li class="header">Emerald <span>Package</span></li>
-                                    <?php foreach($package_items['emerald_items'] as $key=>$value): ?>
-                                    	<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-                                    <?php endforeach; ?>
-                                    <li class="people-price">
-                                    	<ul class="priceblock">
-                                        	<?php foreach($people['emerald'] as $key=>$value): ?>
-                                            <li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
-                                            <?php endforeach; ?>
-										</ul>
-                                    </li>
-                                    <li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
-                                  </ul>
-                                </div><!-- price table -->
+									<div class="price-table">
+									  <ul class="price">
+										<li class="header">Emerald <span>Package</span></li>
+										<?php foreach($package_items['emerald_items'] as $key=>$value): ?>
+											<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+										<?php endforeach; ?>
+										<li class="people-price">
+											<ul class="priceblock">
+												<?php foreach($people['emerald'] as $key=>$value): ?>
+												<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
+												<?php endforeach; ?>
+											</ul>
+										</li>
+										<li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
+									  </ul>
+									</div><!-- price table -->
+                                
+								</div><!-- price table container-->
 
 
 

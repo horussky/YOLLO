@@ -10,7 +10,10 @@
     position: fixed;
     z-index: 9999999;
     background: #fff;
-    height: 8rem; }
+    height: 8rem;
+    left: 50%;
+    top: 0%;
+    transform: translateX(-50%); }
 
   .header .left {
     width: 100%;
@@ -207,7 +210,6 @@
 
   /*Price Table*/
   .price-table {
-    width: 45%;
     display: block; }
     .price-table .header {
       position: relative;
@@ -282,6 +284,9 @@
   .price-table {
     width: 100%;
     display: block; }
+
+  .price-table-container {
+    grid-auto-flow: row; }
 
   .hotel-box-container .hotel-box {
     width: 100%; } }

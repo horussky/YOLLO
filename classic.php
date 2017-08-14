@@ -179,7 +179,10 @@
                 <?php endif; ?>
               </div>
               <hr />
+              
               <h3>Price</h3>
+              
+              <div class="price-table-container">
               <div class="price-table">
                 <ul class="price">
                   <li class="header">Diamond <span>Package</span></li>
@@ -223,6 +226,7 @@
                 </ul>
               </div>
               <!-- price table --> 
+				</div><!-- price table container-->
               
             </div>
             <!-- end of tabs 2 -->
