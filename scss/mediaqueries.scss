@@ -17,6 +17,9 @@
     	z-index: 9999999;
     	background: #fff;
 		height:8rem;
+		left: 50%;
+		top: 0%;
+		transform: translateX(-50%);
 	}
 
 	.header .left{

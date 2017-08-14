@@ -8082,7 +8082,8 @@ footer a:hover {
     .people-price ul li span {
       width: 100%;
       font-size: 2rem;
-      font-weight: 700; }
+      font-weight: 700;
+      display: block; }
       .people-price ul li span em {
         font-weight: 700;
         font-size: 1.2rem; }
@@ -8546,7 +8547,12 @@ div.AuthorizeNetSeal * {
     position: fixed;
     z-index: 9999999;
     background: #fff;
-    height: 8rem; }
+    height: 8rem;
+    left: 50%;
+    top: 0%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); }
   .header .left {
     width: 100%;
     display: block;

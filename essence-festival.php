@@ -12,37 +12,31 @@
 
 		"hotel1"=> array(
 			"title" 			=>"Sheraton New Orleans Hotel",
-			"address"			=>"500 Canal Street",
-			"location"			=>"New Orleans, LA 70130",
-			"geolocation"		=>"500 Canal Street,New Orleans, LA 70130",
 			"hotel1_soldout"    =>false,
 			"img_url"			=>"//cdn.hotelplanner.com/Common/Images/Hotels/8832_1.jpg"
 		),
 
 		"hotel2"=> array(
-			"title" 			=>"Hilton New Orleans Riverside",
-			"address"			=>"2 Poydras Street",
-			"location"			=>"New Orleans, LA 70130",
-			"geolocation"		=>"2 Poydras Street, New Orleans, LA 70130",
+			"title" 			=>"Hilton New Orleans/St. Charles Avenue",
 			"hotel2_soldout"	=>false,
-			"img_url"			=>"//hotel.maggiesdoughnuts.com/wp-content/uploads/2016/01/hilton-new-orleans-riverside-shuttle.gif"
+			"img_url"			=>"//media-cdn.tripadvisor.com/media/oyster/1180/08/e1/6c/7f/hallways--v8652118.jpg"
 		)
 
 	);
 
 	$people = array(
 			"diamond"=> array(
-				"Group of 4" 			=>"$755",
-				"Group of 3"			=>"$820",
-				"Group of 2"			=>"$985",
-				"Individual"			=>"$1630"
+				"Group of 4" 			=>"$860",
+				"Group of 3"			=>"$925",
+				"Group of 2"			=>"$1090",
+				"Individual"			=>"$1735"
 			),
 
 			"emerald"=> array(
-				"Group of 4" 			=>"$605",
-				"Group of 3"			=>"$695",
-				"Group of 2"			=>"$840",
-				"Individual"			=>"$1375"
+				"Group of 4" 			=>"$710",
+				"Group of 3"			=>"$800",
+				"Group of 2"			=>"$945",
+				"Individual"			=>"$1480"
 			),
 
 			"Hotel Only" =>"$1245 (Weekend)"
