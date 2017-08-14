@@ -20,30 +20,34 @@
 		left: 50%;
 		top: 0%;
 		transform: translateX(-50%);
-	}
+		
+		
+		.left{
+			width:100%;
+			display:block;
+			float:none;
 
-	.header .left{
-		width:100%;
-		display:block;
-		float:none;
+			.logo{
+				margin: 1rem 0 0 1rem;
+				max-width: 15rem;
+				text-align: center;
 
-		.logo{
-			margin: 1rem 0 0 1rem;
-			max-width: 15rem;
-			text-align: center;
-
-			img{
-				max-width:13rem;
+				img{
+					max-width:13rem;
+				}
 			}
 		}
+		
+		.right{
+			width:100%;
+			display:block;
+			float:none;
+		}
+		
+		
 	}
 
 
-	.header .right{
-		width:100%;
-		display:block;
-		float:none;
-	}
 
 	.header .right ul.top-nav{
 		float: none;
@@ -249,7 +253,6 @@
 	}
 
 
-
 	/*Yollo Tabs*/
 
 	.yollo-tabs .ui-widget-content {
@@ -271,13 +274,10 @@
 
 
 	.hotel-box-container {
-    	display:block;
-		height: 100%;
-		overflow: hidden;
 
 
 		.hotel-box {
-			width: 50%;
+			//width: 50%;
     		display: block;
     		float: left;
 			
@@ -331,6 +331,8 @@
 	}
 
 }
+
+
 
 @media(max-width:48rem){
 	
@@ -422,16 +424,24 @@
 	}
 	
 	
-	.hotel-box-container .hotel-box {
-		width: 100%;	
-	}
+	
+	
 
 }
 
 
 
-@media(max-width:32rem){
+@media(max-width:36rem){
 	
+	.hotel-box-container {
+    	display:block;
+		width: 100%;
+		
+		.hotel-box img{
+			height: 15rem;
+    		max-height: 20rem;
+		}
+	}
 	
 	
 }

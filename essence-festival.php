@@ -184,13 +184,6 @@
                                         </div>
                                     </div>
                                     
-                                    <div class="hotel-box">
-                                    	 <img src="<?php echo $geolocation['hotel3']['img_url']; ?>" />
-                                        <div class="hotel-title">
-                                            <h3><?php echo $geolocation["hotel3"]["title"]; ?></h3>
-                                        </div>
-                                    </div>
-
 
 
                                 </div>

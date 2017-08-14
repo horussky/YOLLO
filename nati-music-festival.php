@@ -5,7 +5,7 @@ ob_start("ob_gzhandler");
 $event = array(
 	"title"					=>"Cincinnati Music Festival",
 	"location"				=>"Cincinnati, Ohio",
-	"date"					=>"July 28- 30, 2017",
+	"date"					=>"July 27- 29, 2018",
 	"img_url"				=>"../../images/slides/splash-mmf.jpg",
 	"img_alt"				=>"Cincinnati Music Festival"
 );
@@ -14,11 +14,8 @@ $geolocation = array(
 
 	"hotel1"=> array(
 		"title" 			=>"Holiday Inn Cincinnati Riverfront",
-		"address"			=>"600 West 3rd Street",
-		"location"			=>"Covington, KY 41011",
-		"geolocation"		=>"600 West 3rd Street, Covington, KY 41011",
 		"hotel1_soldout"    =>false,
-		"img_url"			=>"//www.ihg.com/hotelmedia/repository/hotelimages/CVGRF/WELCM_EXTR_2_E.jpg"
+		"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-o/0e/10/b3/cf/hotel-exterior.jpg"
 	),
 
 	"hotel2"=> array(
@@ -48,7 +45,7 @@ $package_items = array(
 		"Weekend Concert Tickets"				    => "checked",
 		"Grown and Sophisticated Mid Day Cruise"	=> "checked",
 		"Meet and Greet Mixer"						=> "checked",
-		"R/T Transportation via motorcoach"			=> "checked",
+		"R/T Transportation via motorcoach (Birmingham, AL)"			=> "checked",
 		"Breakfast Daily"							=> "checked",
 		"Additional Hotel nights $275 per night"	=> "checked",
 		"YOLLO Gift Bag"							=> "checked"
@@ -59,7 +56,7 @@ $package_items = array(
 		"Weekend Concert Tickets"					=> "checked",
 		"Grown and Sophisticated Mid Day Cruise"	=> "checked",
 		"Meet and Greet Mixer"						=> "checked",
-		"R/T Transportation via motorcoach"			=> "ex",
+		"R/T Transportation via motorcoach (Birmingham, AL)"			=> "ex",
 		"Breakfast Daily"							=> "checked",
 		"Additional Hotel nights $275 per night"	=> "checked",
 		"YOLLO Gift Bag"							=> "checked"
@@ -78,7 +75,7 @@ include 'includes/functions.inc.php';
 
 <title><?php echo $event["title"]?> | <?php echo $phonenumber ?></title>
 <meta name="description" content="YOLLO Group Services will provide you with all-inclusive arrangements and tickets for Cincinnati Music Festival 2017." />
-<meta name="keywords" content="grown and sophisticated cruise, macy's music festival party boat cruise, Cincinnati jazz festival cruise tickets, Cincinnati Music Festival 2017, Cincinnati Music Festival cruise, Cincinnati Music Festival tickets" />
+<meta name="keywords" content="grown and sophisticated cruise, macy's music festival party boat cruise, Cincinnati jazz festival cruise tickets, Cincinnati Music Festival 2018, Cincinnati Music Festival cruise, Cincinnati Music Festival tickets" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
@@ -135,13 +132,13 @@ include 'includes/functions.inc.php';
 
 
                   <div id="tabs-1">
-					<h3>Get ready for Cincinnati Music Festival '17</h3>
+					<h3>Get ready for Cincinnati Music Festival '18</h3>
                     <p>YOLLO is taking you to Cincinnati for the Cincinnati Music Festival formerly known as the Macy's Music Festival! Over the years as a result of a number of factors, the event has evolved from that of a musical genre of pure jazz, to one predicated by a musical genre of rhythm and blues.</p>
 					<p>The Cincinnati Music Festival, now held at the Paul Brown Stadium (home of the Cincinnati Bengal's) is a state of the art facility. Outside of the performers on stage, it is an event for those who are looking for a great concert environment while being in a city full of musical history. It is an event to see and to be seen which provides the atmosphere to meet and greet, mix and mingle. Each year, the Cincinnati Music Festival draws a wonderful mix of Old School and the hottest contemporary R&amp;B music performers to its stage. </p>
 
-                  	<h4>3rd Annual Grown and Sophisticated Mid-Day Cruise</h4>
-                  	<p>The 3rd Annual Grown and Sophisticated Mid-Day Cruise will happen on the River Queen and will be another MUST ATTEND event during Cincinnati Music Festival Weekend! Enjoy a multi-level paddle-wheel boat cruising the mighty Ohio River, while listening to the livest Hip-Hop and R&amp;B music. Come enjoy some great music and network with the grown and sexy festival attendees while enjoying the Cincinnati skyline. Last years' cruise was Mardi Gras themed, however we are returning to the original format of an All White cruise.  Please arrive "dressed to impress" while enjoying the ULTIMATE party experience! The cruise sails from 2:30 pm – 5 pm. Please remember that once we sell out, we will not have any more tickets available. So don't procrastinate and miss out on mixing and mingling, or partying like a rock star !<p>
-					<p>YOLLO is looking forward to another terrific festival in 2017, and we hope you join us and be a part of this special summer occasion. Packages are available now, but they won't last long. Don't wait reserve today for $19.99!</p>
+                  	<h4>4th Annual Grown and Sophisticated Mid-Day Cruise</h4>
+                  	<p>The 4th Annual Grown and Sophisticated Mid-Day Cruise will happen on the River Queen and will be another MUST ATTEND event during Cincinnati Music Festival Weekend! Enjoy a multi-level paddle-wheel boat cruising the mighty Ohio River, while listening to the livest Hip-Hop and R&amp;B music. Come enjoy some great music and network with the grown and sexy festival attendees while enjoying the Cincinnati skyline. Last years' cruise was Mardi Gras themed, however we are returning to the original format of an All White cruise.  Please arrive "dressed to impress" while enjoying the ULTIMATE party experience! The cruise sails from 1:00 pm – 4:00 pm. Please remember that once we sell out, we will not have any more tickets available. So don't procrastinate and miss out on mixing and mingling, or partying like a rock star !<p>
+					<p>YOLLO is looking forward to another terrific festival in 2018, and we hope you join us and be a part of this special summer occasion. Packages are available now, but they won't last long. Don't wait reserve today for $19.99!</p>
 
                   </div><!-- tabs1 -->
 
@@ -244,7 +241,7 @@ include 'includes/functions.inc.php';
 
                                 <section>
                                         <h2>What are the payment due dates for Cincinnati Music Festival Packages? <span></span></h2>
-                                        <p>To reserve a package each group member pays the $19.99 per person fee. The first payment of $125 is due on or before <strong>April 04, 2017</strong>. The final payment (remaining balance) is due on or before <strong>May 29, 2017</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
+                                        <p>To reserve a package each group member pays the $19.99 per person fee. The first payment of $125 is due on or before <strong>November 15, 2017</strong>. The final payment (remaining balance) is due on or before <strong>February 20, 2018</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
                                 </section>
 
                                 <section>
@@ -259,7 +256,7 @@ include 'includes/functions.inc.php';
 
                                 <section>
                                         <h2>Where is the cruise being held? <span></span></h2>
-                                        <p>The cruise is being hosted on the River Queen Riverboat.</p>
+                                        <p>The cruise is being hosted on the River Queen Riverboat. The cruise is located at BB Riverboats, 101 Riverboat Row, Newport, KY 41071</p>
                                 </section>
 
                                 <section>
@@ -269,7 +266,7 @@ include 'includes/functions.inc.php';
 
                                 <section>
                                         <h2>What time does the cruise start and how much does it cost? <span></span></h2>
-                                        <p>The cruise will sail from 3:00 pm - 5:00 pm, however boarding begins at 2:30 pm. The cost of the cruise is $40 for General Admission and $85 for VIP. VIP grants no line waiting entrance, Open bar, and light food during the cruise.</p>
+                                        <p>The cruise will sail from 1:30 pm - 4:00 pm, however boarding begins at 1:00 pm. The cost of the cruise is $40 for General Admission and $95 for VIP. VIP grants no line waiting entrance, Open bar, and light food during the cruise.</p>
                                 </section>
 
                                 <section>
