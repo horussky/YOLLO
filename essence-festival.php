@@ -13,7 +13,7 @@
 		"hotel1"=> array(
 			"title" 			=>"Sheraton New Orleans Hotel",
 			"hotel1_soldout"    =>false,
-			"img_url"			=>"//cdn.hotelplanner.com/Common/Images/Hotels/8832_1.jpg"
+			"img_url"			=>"//media-cdn.tripadvisor.com/media/oyster/1070/05/8d/7d/cf/restaurants-bars--v1986548-55.jpg"
 		),
 
 		"hotel2"=> array(
@@ -21,6 +21,7 @@
 			"hotel2_soldout"	=>false,
 			"img_url"			=>"//media-cdn.tripadvisor.com/media/oyster/1180/08/e1/6c/7f/hallways--v8652118.jpg"
 		)
+
 
 	);
 
@@ -180,6 +181,13 @@
                                     	 <img src="<?php echo $geolocation['hotel2']['img_url']; ?>" />
                                         <div class="hotel-title">
                                             <h3><?php echo $geolocation["hotel2"]["title"]; ?></h3>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="hotel-box">
+                                    	 <img src="<?php echo $geolocation['hotel3']['img_url']; ?>" />
+                                        <div class="hotel-title">
+                                            <h3><?php echo $geolocation["hotel3"]["title"]; ?></h3>
                                         </div>
                                     </div>
 
