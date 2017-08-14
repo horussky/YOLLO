@@ -1,4 +1,4 @@
-<div class="price-table-container"><?php
+<?php
 
 ob_start("ob_gzhandler");
 
@@ -110,8 +110,7 @@ include 'includes/functions.inc.php';
 
 
 
-<body><div class="price-table-container"><div class="price-table-container"><div class="price-table-container"><div class="price-table-container"><div class="price-table-container"><div class="price-table-container"><div class="price-table-container"><div class="price-table-container">
-
+<body>
      <div id="wrap">
           
           
@@ -216,6 +215,8 @@ include 'includes/functions.inc.php';
                                              <hr />
 
                                              <h3>Price</h3>
+                                            
+                                            <div class="price-table-container">
 
                                              	<?php if(count($people["diamond"]) > 1) :?>
                                                   <div class="price-table">
@@ -270,7 +271,7 @@ include 'includes/functions.inc.php';
 
                                                        <?php endif; ?>
                                                        
-                                                       
+                                                       </div>
                                                        <hr />
                                                        
                                                         <h3>Additional Options</h3>
