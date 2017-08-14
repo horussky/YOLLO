@@ -61,13 +61,13 @@ define ("EVENT", serialize ($nav = array(
 					"class"	=>	"urban",
 				  	"link"	=>	"/urban"		  	
 			),
-			array(
+			/*array(
 					"title"	=>	"Urban Fantasy Cruise",
 				  	"class"	=>	"ufw",
 				 	"link"	=>	"/urban-fantasy"
 				  
 			),
-			/*array(
+			array(
 					"title"	=>	"Urban Reunion Cruise",
 				 	"class"	=>	"urc",
 				  	"link"	=>	"/urban-reunion"
