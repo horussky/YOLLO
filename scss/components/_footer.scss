@@ -17,12 +17,59 @@ footer {
 
 /*Footer Styles*/		
 footer{
-	padding:2rem; 
-	width:100%;  
 	background:#222; 
-	font-size:1.3rem; 
-	overflow: hidden;
-}	
+	width:100%;
+	padding:4rem 0;
+	
+	
+	.footer-grid{
+		width:1200px;
+		margin:0 auto;
+		display: grid;
+		grid-template-columns: repeat(4, 30rem);
+		grid-gap: 0 1.5rem;
+	}
+	
+	.foot-about{
+		
+		*:not(h5){
+			font-size:1.4rem;
+		}
+		
+	}
+	
+	.foot-events{
+		
+		.event{
+			display:grid;
+			grid-template-areas:"event-img event-content";
+			grid-template-columns:10rem 1fr;
+			grid-gap:0 1.5rem;
+			margin-bottom:2rem;
+			
+			.event-img{
+				grid-area:event-img;
+			}
+			
+			.event-content{
+				grid-area:event-content;
+
+				*{
+					margin-bottom:0;
+					font-size:1.4rem;
+				}
+			}
+		}
+		
+		img{
+			width:9.5rem;
+		}
+		
+				
+			
+	}
+}
+
 
 footer, 
 footer *{ 

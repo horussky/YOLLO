@@ -1,7 +1,5 @@
 <?php
-date_default_timezone_set("America/Chicago");
-$now = strtotime("now");
-include("includes/home-featured-events.inc.php");
+include 'includes/functions.inc.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">

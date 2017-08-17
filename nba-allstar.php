@@ -80,7 +80,7 @@ $package_items = array(
 	"Hotel Only" =>"$2000/room"
 );
 
-include 'includes/functions.inc.php';
+include("includes/functions.inc.php");
 
 ?>
 <!doctype html>

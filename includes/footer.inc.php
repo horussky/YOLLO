@@ -1,6 +1,51 @@
-<?php
-date_default_timezone_set('America/Chicago');
-?>
+<footer>
+	<div class="footer-grid">
+		<div class="foot-about">
+			<h5>About</h5>
+			<p>YOLLO Group Services is an IATAN certified company that provides affordable and fun all-inclusive travel packages. We get you to some of the best and biggest concerts, parties, cruises, and sports events around the country.</p>
+			<p><a class="chev-link" href="/about" title="Learn more about YOLLO">Read more about YOLLO</a></p>
+		</div>
+
+		<div class="foot-events">
+			<h5>Upcoming Events</h5>
+              	<?php $i=0; foreach($feature_event as $event): if ($i == 3) break; ?>
+					<?php if($event["end"] > $now): $i++;  ?>
+                        <div class="event">
+                        	<div class="event-img">
+								<a href="<?php echo $event["link"]; ?>" title="<?php echo $event["title"]; ?>">
+									<img src="<?php echo $event["img"]; ?>" />
+								</a>
+							</div>
+                           	<div class="event-content">
+								<h5><?php echo $event["title"]; ?></h5>
+								<p><?php echo $event["date"]; ?></p>
+								<p><a class="learnmore" href="<?php echo $event["link"]; ?>" title="See more about <?php echo $event["title"]; ?>">View Details</a></p>
+							</div>
+                        </div>
+                    <?php  endif; ?>
+                <?php endforeach;?>
+			
+			
+			
+		</div>
+
+		<div class="foot-contact">
+			<h5>Contact Us</h5>
+		</div>
+
+		<div class="foot-sponsor">
+			<h5>Sponsors</h5>
+		</div>
+
+		<div class="foot-copyright"></div>
+	</div><!-- end of footer grid -->
+</footer>
+
+
+
+
+
+
 <footer>
 <div class="foot-wrap">
 
