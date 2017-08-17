@@ -1,10 +1,15 @@
 
 .price-table-container{
 	display: grid;
-	display: -ms-grid;
 	grid-gap:2rem 2rem;
 	grid-auto-columns:auto;
 	grid-auto-flow: column;
+	
+	//ms prefix
+	display: -ms-grid;
+	-ms-grid-gap:2rem 2rem;
+	-ms-grid-auto-columns:auto;
+	-ms-grid-auto-flow: column;
 }
 
 

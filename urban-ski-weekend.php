@@ -256,7 +256,7 @@ include 'includes/functions.inc.php';
 
 													<section>
 															<h2>When are the payments due? <span></span></h2>
-															<p>Following registration the first payment of $125 is due on or before May 15, 2017. The final payment (remaining balance) is due on or before September 27, 2017.</p>
+															<p>Following registration the first payment of $125 is due on or before September 20, 2017. The final payment (remaining balance) is due on or before December 06, 2017.</p>
 													</section>
 
 

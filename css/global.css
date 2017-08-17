@@ -7973,10 +7973,13 @@ footer a:hover {
 
 .price-table-container {
   display: grid;
-  display: -ms-grid;
   grid-gap: 2rem 2rem;
   grid-auto-columns: auto;
-  grid-auto-flow: column; }
+  grid-auto-flow: column;
+  display: -ms-grid;
+  -ms-grid-gap: 2rem 2rem;
+  -ms-grid-auto-columns: auto;
+  -ms-grid-auto-flow: column; }
 
 .price-table li:not(.header) {
   text-align: center;
@@ -8089,15 +8092,15 @@ footer a:hover {
         font-size: 1.2rem; }
 
 .hotel-box-container {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-flow: row nowrap;
-  -ms-flex-flow: row nowrap;
-  flex-flow: row nowrap; }
+  display: grid;
+  grid-auto-columns: minmax(25%, 100%);
+  grid-auto-flow: column;
+  grid-gap: 0 2rem;
+  display: -ms-grid;
+  -ms-grid-auto-columns: minmax(25%, 100%);
+  -ms-grid-auto-flow: column;
+  -ms-grid-gap: 0 2rem;
+  margin-bottom: 4rem; }
 
 .hotel-box * {
   -webkit-box-sizing: border-box;
@@ -8105,15 +8108,7 @@ footer a:hover {
 
 .hotel-box {
   position: relative;
-  margin-bottom: 2rem;
   overflow: hidden;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: 45%;
-  -ms-flex-preferred-size: 45%;
-  flex-basis: 45%;
   color: #ffffff;
   text-align: left;
   font-size: 1.6rem;
@@ -8121,8 +8116,7 @@ footer a:hover {
   background-repeat: no-repeat;
   background-position: center;
   -o-object-fit: cover;
-  object-fit: cover;
-  padding: 1rem; }
+  object-fit: cover; }
   .hotel-box:before {
     font-family: "fontAwesome";
     content: "\f236";
@@ -8151,6 +8145,8 @@ footer a:hover {
 
 .hotel-box img {
   vertical-align: top;
+  height: 28rem;
+  max-height: 32rem;
   /*height: 25rem;
   object-fit: cover;*/ }
 
@@ -8553,20 +8549,20 @@ div.AuthorizeNetSeal * {
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%); }
-  .header .left {
-    width: 100%;
-    display: block;
-    float: none; }
-    .header .left .logo {
-      margin: 1rem 0 0 1rem;
-      max-width: 15rem;
-      text-align: center; }
-      .header .left .logo img {
-        max-width: 13rem; }
-  .header .right {
-    width: 100%;
-    display: block;
-    float: none; }
+    .header .left {
+      width: 100%;
+      display: block;
+      float: none; }
+      .header .left .logo {
+        margin: 1rem 0 0 1rem;
+        max-width: 15rem;
+        text-align: center; }
+        .header .left .logo img {
+          max-width: 13rem; }
+    .header .right {
+      width: 100%;
+      display: block;
+      float: none; }
   .header .right ul.top-nav {
     float: none;
     margin: 0 auto;
@@ -8709,19 +8705,14 @@ div.AuthorizeNetSeal * {
     padding: 1rem 2rem; }
   #tabs li a span {
     display: none; }
-  .hotel-box-container {
+  .hotel-box-container .hotel-box {
     display: block;
-    height: 100%;
-    overflow: hidden; }
-    .hotel-box-container .hotel-box {
-      width: 50%;
-      display: block;
-      float: left; }
-      .hotel-box-container .hotel-box img {
-        height: 25rem;
-        max-height: 30rem; }
-      .hotel-box-container .hotel-box:only-child {
-        width: 100%; }
+    float: left; }
+    .hotel-box-container .hotel-box img {
+      height: 25rem;
+      max-height: 30rem; }
+    .hotel-box-container .hotel-box:only-child {
+      width: 100%; }
   #nanoGallery {
     overflow: inherit; }
   /*Price Table*/
@@ -8799,9 +8790,15 @@ div.AuthorizeNetSeal * {
     width: 100%;
     display: block; }
   .price-table-container {
-    grid-auto-flow: row; }
-  .hotel-box-container .hotel-box {
-    width: 100%; } }
+    grid-auto-flow: row; } }
+
+@media (max-width: 36rem) {
+  .hotel-box-container {
+    display: block;
+    width: 100%; }
+    .hotel-box-container .hotel-box img {
+      height: 15rem;
+      max-height: 20rem; } }
 
 @media (min-width: 600px) {
   #container, .foot-wrap {

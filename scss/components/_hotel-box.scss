@@ -1,6 +1,16 @@
 .hotel-box-container{
-	display: flex;
-  	flex-flow: row nowrap; 
+	display: grid;
+    grid-auto-columns: minmax(25%, 100%);
+    grid-auto-flow: column;
+    grid-gap: 0 2rem;
+	
+	//ms prefix
+	display: -ms-grid;
+    -ms-grid-auto-columns:minmax(25%, 100%);
+    -ms-grid-auto-flow: column;
+    -ms-grid-gap: 0 2rem;
+	
+	margin-bottom:4rem;
 }
 
 .hotel-box * {
@@ -10,10 +20,7 @@
 
 .hotel-box {
   position: relative;
-  margin-bottom:2rem;
   overflow: hidden;
-  flex-grow: 1;
-  flex-basis: 45%;
   color: #ffffff;
   text-align: left;
   font-size: 1.6rem;
@@ -21,7 +28,7 @@
   background-repeat:no-repeat;
   background-position: center;
   object-fit: cover;
-  padding:1rem; 
+ // padding:1rem; 
   
  	 &:before{
 		font-family:"fontAwesome";
@@ -62,6 +69,8 @@
 
 .hotel-box img {
   vertical-align: top;
+	    height: 28rem;
+    max-height: 32rem;
   /*height: 25rem;
   object-fit: cover;*/
 }
