@@ -31,6 +31,13 @@
 
 		<div class="foot-contact">
 			<h5>Contact Us</h5>
+			<ul>
+				<li class="foot-phone"><a href="tel:8889469655">(888) 946-9655</a></li>
+				<li class="foot-phone"><a href="tel:8889469655">(888) 946-9655</a></li>
+				<li class="foot-email"><a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></li>
+				<li class="foot-address">P.O. Box 240613,<br> Montgomery, AL 36124</li>
+			</ul>
+			
 		</div>
 
 		<div class="foot-sponsor">

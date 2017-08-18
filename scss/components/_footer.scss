@@ -68,7 +68,50 @@ footer{
 				
 			
 	}
+	
+	.foot-contact{
+		
+		*:not(h5){
+			font-size:1.4rem;
+		}
+		
+		ul{
+			list-style: none;
+		}
+		
+		.foot-phone{
+			
+			&:before{
+				font-family: 'FontAwesome';
+				content: "\f098";
+				margin:0 1rem 0 -1.8rem;
+				color:#fff;
+			}
+		}
+		
+		.foot-email{
+			
+			&:before{
+				font-family: 'FontAwesome';
+				content: "\f0e0";
+				margin:0 1rem 0 -1.8rem;
+				color:#fff;
+			}
+		}
+		
+		.foot-address{
+			
+			&:before{
+				font-family: 'FontAwesome';
+				content: "\f279";
+				margin:0 1rem 0 -1.8rem;
+				color:#fff;
+			}
+		}
+		
+	}
 }
+
 
 
 footer, 
