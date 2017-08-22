@@ -219,7 +219,24 @@
 
   .content .form,
   .content .forminfo {
-    width: 100%; } }
+    width: 100%; }
+
+  footer .footer-grid {
+    max-width: 90%;
+    grid-template-columns: repeat(4, 25%);
+    -ms-grid-template-columns: repeat(4, 25%); }
+  footer .foot-events .event {
+    grid-template-areas: "event-img" "event-content";
+    grid-template-columns: 100%;
+    grid-gap: 0.5rem 0;
+    -ms-grid-template-areas: "event-img" "event-content";
+    -ms-grid-template-columns: 100%;
+    -ms-grid-gap: 0.5rem 0;
+    margin-bottom: 2rem; }
+  footer .foot-copyright {
+    text-align: left;
+    grid-column: 1/span 2;
+    -ms-grid-column: 1/span 2; } }
 @media (max-width: 48rem) {
   .rslides {
     width: 100%;
@@ -241,32 +258,6 @@
   #right .content h2.title {
     margin-bottom: 2rem; }
 
-  /*Footer */
-  footer {
-    padding: 0; }
-    footer .foot-wrap {
-      width: 100%; }
-
-  .foot-header {
-    padding: 0 2rem; }
-
-  .footer-logo {
-    margin-top: 2rem; }
-    .footer-logo .foot-slogan {
-      left: 16rem; }
-
-  .foot-affiliates {
-    display: none; }
-
-  .foot-columns {
-    display: flex;
-    flex-flow: column-reverse wrap; }
-    .foot-columns div[class^="foot-col"] {
-      margin-bottom: 2rem;
-      padding: 0 2rem;
-      border: none;
-      width: 100%; }
-
   #package-info-box .ccs {
     font-size: 4rem;
     width: 3rem;
@@ -279,14 +270,62 @@
     display: block; }
 
   .price-table-container {
-    grid-auto-flow: row; } }
+    grid-auto-flow: row;
+    -ms-grid-auto-flow: row; }
+
+  footer .footer-grid {
+    grid-template-columns: repeat(2, 50%);
+    grid-template-areas: "foot-events foot-contact" "foot-sponsor foot-about";
+    grid-gap: 2rem 2rem;
+    -ms-grid-template-columns: repeat(2, 50%);
+    -ms-grid-template-areas: "foot-events foot-contact" "foot-sponsor foot-about";
+    -ms-grid-gap: 2rem 2rem;
+    max-width: 90%; }
+  footer .foot-events .event {
+    grid-template-areas: "event-img event-content";
+    grid-template-columns: 10rem 1fr;
+    grid-gap: 0 1.5rem;
+    -ms-grid-template-areas: "event-img event-content";
+    -ms-grid-template-columns: 10rem 1fr;
+    -ms-grid-gap: 0 1.5rem;
+    margin-bottom: 2rem; }
+  footer .foot-sponsor .sponsors {
+    grid-template-columns: repeat(2, 48%);
+    -ms-grid-template-columns: repeat(2, 48%); }
+    footer .foot-sponsor .sponsors img {
+      width: 80%; } }
 @media (max-width: 36rem) {
   .hotel-box-container {
     display: block;
     width: 100%; }
     .hotel-box-container .hotel-box img {
       height: 15rem;
-      max-height: 20rem; } }
+      max-height: 20rem; }
+
+  footer .footer-grid {
+    max-width: 90%;
+    grid-template-columns: 100%;
+    grid-template-areas: "foot-events" "foot-contact" "foot-sponsor" "foot-about";
+    -ms-grid-template-columns: 100%;
+    -ms-grid-template-areas: "foot-events" "foot-contact" "foot-sponsor" "foot-about"; }
+  footer .foot-copyright {
+    grid-column: 1;
+    -ms-grid-column: 1; }
+  footer .foot-events .event {
+    grid-template-areas: "event-img event-content";
+    grid-template-columns: 14rem 1fr;
+    grid-gap: 0 1.5rem;
+    -ms-grid-template-areas: "event-img event-content";
+    -ms-grid-template-columns: 14rem 1fr;
+    -ms-grid-gap: 0 1.5rem;
+    margin-bottom: 2rem; }
+    footer .foot-events .event img {
+      width: 100%; }
+  footer .foot-sponsor .sponsors {
+    grid-template-columns: repeat(3, 33%);
+    -ms-grid-template-columns: repeat(3, 33%); }
+    footer .foot-sponsor .sponsors img {
+      width: 90%; } }
 @media (min-width: 600px) {
   #container, .foot-wrap {
     width: 100%; } }
