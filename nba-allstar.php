@@ -2,7 +2,7 @@
 ob_start("ob_gzhandler");
 
 $event = array(
-	"title"					=>"All-Star Weekend",
+	"title"					=>"NBA All-Star is going back to CALI!",
 	"location"				=>"Los Angeles, Ca",
 	"date"					=>"February 16 – 18, 2018",
 	"img_url"				=>"../../images/slides/splash-nba.jpg",
@@ -80,7 +80,7 @@ $package_items = array(
 	"Hotel Only" =>"$2000/room"
 );
 
-include("includes/functions.inc.php");
+include 'includes/functions.inc.php';
 
 ?>
 <!doctype html>
@@ -147,7 +147,7 @@ include("includes/functions.inc.php");
 
 
 								<div id="tabs-1">
-									<h3><?php echo $event["title"]?> is going to Cali!</h3>
+									<h3><?php echo $event["title"]?></h3>
 
 									<p>In 2018, the the City of Angels, Los Angeles is hosting the 67th  annual NBA All-Star game! With a lively fan base and Hollywood serving as the backdrop, this weekend event is sure to be lit. All-Star Weekend attracts the biggest celebrities around, and most already live in LA. YOLLO has the all-inclusive package to get you face-to-face with these celebrities. From party passes, hotel stay, and the Celebrity game, YOLLO is here for your turn up!  </p>
 
@@ -298,7 +298,7 @@ include("includes/functions.inc.php");
 
 											<section>
 													<h2>When are the payments due? <span></span></h2>
-													<p>The first payment of $125 is due on or before August 07, 2017. The final payment (remaining balance) is due on or before October 11, 2017.</p>
+													<p>The first payment of $125 is due on or before July 07, 2017. The final payment (remaining balance) is due on or before October 11, 2017.</p>
 											</section>
 
 											<section>

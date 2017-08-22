@@ -8030,6 +8030,10 @@ footer a:hover {
   grid-column: 2;
   -ms-grid-column: 3; }
 
+.price-table:only-of-type {
+  grid-column: 1;
+  -ms-grid-column: 1; }
+
 .price-table li:not(.header) {
   text-align: center;
   margin: 0 auto;

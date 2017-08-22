@@ -24,6 +24,11 @@
 		-ms-grid-column:3;
 	}
 	
+	&:only-of-type{
+		grid-column:1;
+		-ms-grid-column:1;
+	}
+	
 	li:not(.header){
 		text-align: center;
 		margin: 0 auto;
