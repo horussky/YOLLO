@@ -415,16 +415,38 @@
 		line-height: 3rem;
 	}
 
+/*Price Table*/
+	.price-table-container{
+		grid-auto-flow: row;
+		grid-template-columns: 50% 50%;
+		grid-gap:0 2rem;
+		
+		
+		.price-table {
+			width: 100%; 
+			display: block;
 
-	/*Price Table*/
-	.price-table {
-		width: 100%; 
-		display: block;
+			&:first-child {
+				grid-column: 1;
+				grid-row: 1;
+			}
+
+			&:last-child {
+				grid-column: 2;
+				grid-row: 1;
+			}
+
+			&:only-of-type {
+				grid-column: 1;
+				grid-row: 1;
+			}
+		}
+	
 	}
 	
-	.price-table-container{
-		    grid-auto-flow: row;
-	}
+	
+	
+	
 	
 	footer{
 		
@@ -482,10 +504,7 @@
 		}
 		
 	}
-	
-	
-	
-	
+
 
 }
 
@@ -494,14 +513,61 @@
 @media(max-width:36rem){
 	
 	.hotel-box-container {
-    	display:block;
+    	//display:block;
 		width: 100%;
+		grid-gap:2rem 0;
+		
+		.hotel-box{
+			
+			&:first-child {
+				grid-column: 1;
+				grid-row: 1;
+			}
+
+			&:last-child {
+				grid-column: 1;
+				grid-row: 2;
+			}
+
+			&:only-of-type {
+				grid-column: 1;
+				grid-row: 1;
+			}
+		}
 		
 		.hotel-box img{
 			height: 15rem;
     		max-height: 20rem;
 		}
 	}
+	
+	
+	.price-table-container{
+		grid-template-columns: 100%;
+		grid-gap:2rem 0;
+		
+		
+		.price-table {
+
+
+			&:first-child {
+				grid-column: 1;
+				grid-row: 1;
+			}
+
+			&:last-child {
+				grid-column: 1;
+				grid-row: 2;
+			}
+
+			&:only-of-type {
+				grid-column: 1;
+				grid-row: 1;
+			}
+		}
+	
+	}
+	
 	
 	
 	
@@ -518,6 +584,7 @@
 		.foot-events{ 
 			grid-column:1;
 			grid-row:1;
+			
 			.event {
 				grid-template-areas: "event-img event-content";
 				grid-template-columns: 14rem 1fr;

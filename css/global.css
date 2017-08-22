@@ -7883,6 +7883,9 @@ footer {
   @supports (display: grid) {
     footer .footer-grid {
       display: block; } }
+  footer a {
+    display: inline-block;
+    overflow: hidden; }
   footer .footer-grid {
     max-width: 1200px;
     margin: 0 auto;
@@ -8017,6 +8020,7 @@ footer a:hover {
 .price-table-container {
   display: grid;
   grid-gap: 2rem 2rem;
+  grid-template-columns: 50% 50%;
   grid-auto-columns: auto;
   grid-auto-flow: column;
   display: -ms-grid;
@@ -8155,9 +8159,7 @@ footer a:hover {
   grid-auto-flow: column;
   grid-gap: 0 2rem;
   display: -ms-grid;
-  -ms-grid-auto-columns: minmax(25%, 100%);
-  -ms-grid-auto-flow: column;
-  -ms-grid-gap: 0 2rem;
+  -ms-grid-columns: 48% 4% 48%;
   margin-bottom: 4rem; }
 
 .hotel-box * {
@@ -8175,6 +8177,22 @@ footer a:hover {
   background-position: center;
   -o-object-fit: cover;
   object-fit: cover; }
+  .hotel-box:first-child {
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+    grid-column: 1;
+    grid-row: 1; }
+  .hotel-box:last-child {
+    -ms-grid-column: 3;
+    -ms-grid-row: 1;
+    grid-column: 2;
+    grid-row: 1; }
+  .hotel-box:only-of-type {
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1;
+    grid-row: 1; }
   .hotel-box:before {
     font-family: "fontAwesome";
     content: "\f236";
@@ -8833,11 +8851,22 @@ div.AuthorizeNetSeal * {
     height: 2rem;
     line-height: 3rem; }
   /*Price Table*/
-  .price-table {
-    width: 100%;
-    display: block; }
   .price-table-container {
-    grid-auto-flow: row; }
+    grid-auto-flow: row;
+    grid-template-columns: 50% 50%;
+    grid-gap: 0 2rem; }
+    .price-table-container .price-table {
+      width: 100%;
+      display: block; }
+      .price-table-container .price-table:first-child {
+        grid-column: 1;
+        grid-row: 1; }
+      .price-table-container .price-table:last-child {
+        grid-column: 2;
+        grid-row: 1; }
+      .price-table-container .price-table:only-of-type {
+        grid-column: 1;
+        grid-row: 1; }
   footer .footer-grid {
     grid-template-columns: repeat(2, 50%);
     grid-template-areas: "foot-events foot-contact" "foot-sponsor foot-about";
@@ -8870,11 +8899,32 @@ div.AuthorizeNetSeal * {
 
 @media (max-width: 36rem) {
   .hotel-box-container {
-    display: block;
-    width: 100%; }
+    width: 100%;
+    grid-gap: 2rem 0; }
+    .hotel-box-container .hotel-box:first-child {
+      grid-column: 1;
+      grid-row: 1; }
+    .hotel-box-container .hotel-box:last-child {
+      grid-column: 1;
+      grid-row: 2; }
+    .hotel-box-container .hotel-box:only-of-type {
+      grid-column: 1;
+      grid-row: 1; }
     .hotel-box-container .hotel-box img {
       height: 15rem;
       max-height: 20rem; }
+  .price-table-container {
+    grid-template-columns: 100%;
+    grid-gap: 2rem 0; }
+    .price-table-container .price-table:first-child {
+      grid-column: 1;
+      grid-row: 1; }
+    .price-table-container .price-table:last-child {
+      grid-column: 1;
+      grid-row: 2; }
+    .price-table-container .price-table:only-of-type {
+      grid-column: 1;
+      grid-row: 1; }
   footer .footer-grid {
     max-width: 90%;
     grid-template-columns: 100%;
