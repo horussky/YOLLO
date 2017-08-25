@@ -8020,7 +8020,6 @@ footer a:hover {
 .price-table-container {
   display: grid;
   grid-gap: 2rem 2rem;
-  grid-template-columns: 50% 50%;
   grid-auto-columns: auto;
   grid-auto-flow: column;
   display: -ms-grid;
