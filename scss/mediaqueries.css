@@ -3,6 +3,14 @@
   .event-nav-mobile {
     display: none; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #container #left {
+    width: 30%; }
+  #container #right {
+    width: 70%;
+    padding-right: 0; }
+  #container #social {
+    display: none; }
+
   footer .footer-grid {
     max-width: 90%;
     grid-template-columns: repeat(4, 25%); }
@@ -21,6 +29,14 @@
     text-align: left;
     grid-column: 1/span 2; } }
 @media only screen and (max-width: 768px) {
+  #container #left {
+    width: 100%; }
+  #container #right {
+    width: 100%;
+    padding: 0 2rem; }
+  #container #social {
+    display: none; }
+
   /*Top Navigation*/
   .header {
     display: block;
@@ -178,8 +194,7 @@
   /*Main Content*/
   #right {
     width: 100%;
-    float: none;
-    padding: 0 2rem; }
+    float: none; }
     #right .topcontent {
       height: auto; }
       #right .topcontent img {
