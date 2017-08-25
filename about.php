@@ -1,4 +1,7 @@
-<?php ob_start("ob_gzhandler"); ?>
+<?php 
+ob_start("ob_gzhandler"); 
+include 'includes/functions.inc.php';
+?>
 <!doctype html>
 <html lang="en">
 

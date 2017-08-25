@@ -2,31 +2,45 @@
 .price-table-container{
 	display: grid;
 	grid-gap:2rem 2rem;
+	grid-template-columns:50% 50%;
 	grid-auto-columns:auto;
 	grid-auto-flow: column;
 	
 	//ms prefix
 	display: -ms-grid;
-	-ms-grid-gap:2rem 2rem;
-	-ms-grid-auto-columns:auto;
-	-ms-grid-auto-flow: column;
+	-ms-grid-columns:48% 4% 48%
 }
+
 
 
 .price-table{
 	
+	&:first-child{
+		grid-column:1;
+		-ms-grid-column:1;
+	}
 	
-		li:not(.header){
-			text-align: center;
-			margin: 0 auto;
-			display: block;
-			//padding-left: 20%;
-			//padding-right: 20%;
-		}
+	&:last-child{
+		grid-column:2;
+		-ms-grid-column:3;
+	}
 	
-		li:last-of-type{
-			padding:0 2rem;
-		}
+	&:only-of-type{
+		grid-column:1;
+		-ms-grid-column:1;
+	}
+	
+	li:not(.header){
+		text-align: center;
+		margin: 0 auto;
+		display: block;
+		//padding-left: 20%;
+		//padding-right: 20%;
+	}
+
+	li:last-of-type{
+		padding:0 2rem;
+	}
 	
 	&:only-of-type .priceblock li span{
 		display: block;
@@ -88,21 +102,29 @@
 	.btn {
 		 margin: 2rem auto;
 		 padding: 1rem 4rem;
-	}  
+	}
+	
+	&.checked,
+	&.ex{
+		display: block;
+		padding-left: 4rem;
+	}
 }
 
 .price-table .price li.checked:before {
 	content: "\f00c";
 	font-family: "fontAwesome";
 	color:#4CAF50;
-	margin-right:1rem;
+	margin-left: -2rem;
+    position: absolute;
 }
 
 .price-table .price li.ex:before {
 	content: "\f00d";
 	font-family: "fontAwesome";
 	color:#A31523;
-	margin-right:1.25rem;
+	margin-left: -2rem;
+    position: absolute;
 }
 
 .price-table .price > li:nth-child(even) {

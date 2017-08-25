@@ -5,9 +5,7 @@
 <file name="bcr-package-btn.gif" server="bookkjb.com" local="129109749600000000" remote="129109749600000000" Dst="-1" />
 <file name="bg-main.gif" server="bookkjb.com" local="129100485600000000" remote="129100485600000000" Dst="-1" />
 <file name="bg-slide.jpg" server="bookkjb.com" local="129100485600000000" remote="129100485600000000" Dst="-1" />
-<file name="nav-sprite.gif" server="bookkjb.com" local="129119923800000000" remote="129119923800000000" Dst="-1" />
 <file name="overlay.png" server="bookkjb.com" local="129100485600000000" remote="129100485600000000" Dst="-1" />
-<file name="reserve-spot.gif" server="bookkjb.com" local="129100912200000000" remote="129100912200000000" Dst="-1" />
 <file name="tour_participatant_release PDF.pdf" server="bookkjb.com" local="129100487400000000" remote="129100487400000000" Dst="-1" />
 <file name="social-icons.gif" server="bookkjb.com" local="129113692200000000" remote="129113692200000000" Dst="-1" />
 <file name="yollo-logo.gif" server="bookkjb.com" local="129188442194907500" remote="129188377200000000" Dst="-1" />
@@ -24,13 +22,6 @@
 <file name="saturday-fiesta.jpg" server="ftp.goyollo.com//" local="130758427800000000" remote="130758427800000000" Dst="2" />
 <file name="sunday-fiesta.jpg" server="ftp.goyollo.com//" local="130758427800000000" remote="130758427800000000" Dst="2" />
 <file name="groove-cruise-banner.jpg" server="ftp.goyollo.com//" local="130794753600000000" remote="130794753600000000" Dst="2" />
-<file name="3d-yollo-logo-breast-cancer.png" server="ftp.goyollo.com//" local="130708651791552543" remote="130838959800000000" Dst="2" />
-<file name="3d-yollo-logo-thanksgiving-nosign.png" server="ftp.goyollo.com//" local="129655085640121437" remote="130838960400000000" Dst="2" />
-<file name="3d-yollo-logo-thanksgiving.png" server="ftp.goyollo.com//" local="130708651823154350" remote="130838960400000000" Dst="2" />
-<file name="3d-yollo-logo-trayvon.png" server="ftp.goyollo.com//" local="130708651829104691" remote="130838960400000000" Dst="2" />
-<file name="3d-yollo-logo-valentines.png" server="ftp.goyollo.com//" local="130708651831654837" remote="130838960400000000" Dst="2" />
-<file name="3d-yollo-logo-xmas.png" server="ftp.goyollo.com//" local="130708651837795188" remote="130838960400000000" Dst="2" />
-<file name="3d-yollo-logo.png" server="ftp.goyollo.com//" local="130708651836195096" remote="130838960400000000" Dst="2" />
 <file name="applications.png" server="ftp.goyollo.com//" local="130708651842185439" remote="130838960400000000" Dst="2" />
 <file name="arrow-down.gif" server="ftp.goyollo.com//" local="130708651846335676" remote="130838960400000000" Dst="2" />
 <file name="arrow.gif" server="ftp.goyollo.com//" local="130708651849895880" remote="130838960400000000" Dst="2" />
@@ -69,9 +60,6 @@
 <file name="college-beachfest-img.jpg" server="ftp.goyollo.com//" local="130708651960692217" remote="130838962200000000" Dst="2" />
 <file name="controls.png" server="ftp.goyollo.com//" local="130708651954821881" remote="130838962200000000" Dst="2" />
 <file name="credit-card-form.pdf" server="ftp.goyollo.com//" local="130708651965752507" remote="130838962200000000" Dst="2" />
-<file name="date-icon.png" server="ftp.goyollo.com//" local="130708651964902458" remote="130838962200000000" Dst="2" />
-<file name="elite-pool.jpg" server="ftp.goyollo.com//" local="130708651987053725" remote="130838962800000000" Dst="2" />
-<file name="elite-video-header.jpg" server="ftp.goyollo.com//" local="130708651994864172" remote="130838962800000000" Dst="2" />
 <file name="email-icon.png" server="ftp.goyollo.com//" local="130708651991573984" remote="130838962800000000" Dst="2" />
 <file name="error.gif" server="ftp.goyollo.com//" local="130708651995764223" remote="130838962800000000" Dst="2" />
 <file name="essence-feature.jpg" server="ftp.goyollo.com//" local="130708651999174418" remote="130838962800000000" Dst="2" />
@@ -103,8 +91,6 @@
 <file name="mcc-thumb3.jpg" server="ftp.goyollo.com//" local="130708652102330318" remote="130838964000000000" Dst="2" />
 <file name="mcc-thumb4.jpg" server="ftp.goyollo.com//" local="130708652104890465" remote="130838964000000000" Dst="2" />
 <file name="modal-overlay.png" server="ftp.goyollo.com//" local="130708652106570561" remote="130838964000000000" Dst="2" />
-<file name="nav-sprite-2.gif" server="ftp.goyollo.com//" local="130708652109190711" remote="130838964000000000" Dst="2" />
-<file name="nav-sprite.gif" server="ftp.goyollo.com//" local="130708652114281002" remote="130838964000000000" Dst="2" />
 <file name="newsletter-icon.png" server="ftp.goyollo.com//" local="130708652127221742" remote="130838964600000000" Dst="2" />
 <file name="newsletter-subscribe-btn.gif" server="ftp.goyollo.com//" local="130708652129411867" remote="130838964600000000" Dst="2" />
 <file name="overlay.png" server="ftp.goyollo.com//" local="130708652131361979" remote="130838964600000000" Dst="2" />
@@ -113,7 +99,6 @@
 <file name="photo-gallery-btn.gif" server="ftp.goyollo.com//" local="130708652151813149" remote="130838964600000000" Dst="2" />
 <file name="programming.png" server="ftp.goyollo.com//" local="130708652152573192" remote="130838964600000000" Dst="2" />
 <file name="questions-icon.png" server="ftp.goyollo.com//" local="130708652156013389" remote="130838964600000000" Dst="2" />
-<file name="reserve-spot.gif" server="ftp.goyollo.com//" local="130708652156843436" remote="130838964600000000" Dst="2" />
 <file name="right-arrow.gif" server="ftp.goyollo.com//" local="130708652160273633" remote="130838964600000000" Dst="2" />
 <file name="shadow.png" server="ftp.goyollo.com//" local="129868339700000000" remote="130838965200000000" Dst="2" />
 <file name="social-icons.gif" server="ftp.goyollo.com//" local="130708652183984989" remote="130838965200000000" Dst="2" />
@@ -142,4 +127,10 @@
 <file name="urban-events-2016.jpg" server="goyollo.com//public_html/" local="131073319320390961" remote="131073251400000000" Dst="2" />
 <file name="beachfest-2017-event-list.jpg" server="ftp.goyollo.com" local="131294423806610626" remote="131294387400000000" Dst="1" />
 <file name="urban-fiesta-event-17.jpg" server="ftp.goyollo.com" local="131395233712043715" remote="131395170000000000" Dst="2" />
+<file name="bbb-logo.png" server="ftp.goyollo.com" local="131477865909369860" remote="131478872400000000" Dst="2" />
+<file name="bag-voyage-logo.png" server="ftp.goyollo.com" local="131477866461031413" remote="131478872400000000" Dst="2" />
+<file name="whats-happening-bham-logo.png" server="ftp.goyollo.com" local="131477866918707591" remote="131478872400000000" Dst="2" />
+<file name="urbanham-logo-small.png" server="ftp.goyollo.com" local="131477867295319132" remote="131478872400000000" Dst="2" />
+<file name="travel-guard-logo.png" server="ftp.goyollo.com" local="131477867705132572" remote="131478872400000000" Dst="2" />
+<file name="iata-logo.png" server="ftp.goyollo.com" local="131477868970254932" remote="131478872400000000" Dst="2" />
 </dwsync>

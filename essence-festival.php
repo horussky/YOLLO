@@ -13,7 +13,7 @@
 		"hotel1"=> array(
 			"title" 			=>"Sheraton New Orleans Hotel",
 			"hotel1_soldout"    =>false,
-			"img_url"			=>"//media-cdn.tripadvisor.com/media/oyster/1070/05/8d/7d/cf/restaurants-bars--v1986548-55.jpg"
+			"img_url"			=>"//cdn.hotelplanner.com/Common/Images/Hotels/8832_1.jpg"
 		),
 
 		"hotel2"=> array(
@@ -21,7 +21,6 @@
 			"hotel2_soldout"	=>false,
 			"img_url"			=>"//media-cdn.tripadvisor.com/media/oyster/1180/08/e1/6c/7f/hallways--v8652118.jpg"
 		)
-
 
 	);
 
@@ -183,7 +182,7 @@
                                             <h3><?php echo $geolocation["hotel2"]["title"]; ?></h3>
                                         </div>
                                     </div>
-                                    
+
 
 
                                 </div>
@@ -280,6 +279,26 @@
                                     <p>Yes, all large bags will be thoroughly checked upon entry to all venues, including the Superdome, Convention Center and many other locations held during the weekend events.</p>
                                 </section>
 
+<section>
+                                    <h2>Do you offer transportation for/with your travel packages? <span></span></h2>
+                                    <p>Unfortunately, we do not provide any transportation options for Essence Weekend. Transportation is the responsibility of the client for this event.</p>
+                                </section>
+
+<section>
+                                    <h2>How do I make my first payment?  <span></span></h2>
+                                    <p>You follow the same procedure as you did for registration. You will select the First Payment option under package options. </p>
+                                </section>
+                                
+                                <section>
+                                    <h2>How do I make additional payments on my account?  <span></span></h2>
+                                    <p>You follow the same procedure as you did for registration. You will select the Partial Payment option under package options.</p>
+                                </section>                             
+
+<section>
+                                    <h2>How does the complimentary night work? <span></span></h2>
+                                    <p>Your base package includes check-in on Friday with check-out on Sunday. If you make your first payment ($125) on time you earn the complimentary night. You can use it to arrive a day early on Thursday or depart a day later on Monday.</p>
+                                </section> 
+
                                 <section>
                                     <h2>What kind of access do I get with my concert ticket? <span></span></h2>
                                     <p>With your concert ticket, you gain entry into the Louisiana Superdome. You will have a designated seat to experience the Main Stage performances. Once you are in the Superdome, you can experience all the performances that night in the Superlounges on the Lounge level for no additional fee or ticket. Everyone MUST have a ticket to get into the Superdome.</p>
@@ -299,7 +318,7 @@
 
                                 <section>
                                     <h2>What is included with V.I.P. vs V.V.I.P admission to the Boat Party? <span></span></h2>
-                                    <p>V.I.P. tickets are general admission tickets to the cruise and only cover entrance to the cruise with no food or drinks included. V.V.I.P. includes a speedy admission onto the boat party, delicious food, and an open bar to get you right all while partying on the boat. Our packages include the V.I.P ticket. You can upgrade to the V.V.I.P. ticket for an additional $55 per person.</p>
+                                    <p>V.I.P. tickets are general admission tickets to the cruise and only cover entrance to the cruise with no food or drinks included. V.V.I.P. includes a speedy admission onto the boat party, delicious food, and an open bar to get you right all while partying on the boat. Our packages include the V.I.P ticket. You can upgrade to the V.V.I.P. ticket for an additional $55 per person. The V.V.I.P. option is SOLD OUT!</p>
                                 </section>
 
                             </div><!-- ./accordion -->

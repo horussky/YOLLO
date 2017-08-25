@@ -6,9 +6,7 @@
 	
 	//ms prefix
 	display: -ms-grid;
-    -ms-grid-auto-columns:minmax(25%, 100%);
-    -ms-grid-auto-flow: column;
-    -ms-grid-gap: 0 2rem;
+	-ms-grid-columns:48% 4% 48%;
 	
 	margin-bottom:4rem;
 }
@@ -17,6 +15,7 @@
   box-sizing: border-box;
   
 }
+
 
 .hotel-box {
   position: relative;
@@ -30,6 +29,31 @@
   object-fit: cover;
  // padding:1rem; 
   
+	&:first-child {
+		-ms-grid-column: 1;
+		-ms-grid-row: 1;
+		
+		grid-column: 1;
+		grid-row: 1;
+	}
+
+	&:last-child {
+		-ms-grid-column: 3;
+		-ms-grid-row: 1;
+		
+		grid-column: 2;
+		grid-row: 1;
+	}
+
+	&:only-of-type {
+		-ms-grid-column: 1;
+		-ms-grid-row: 1;
+		-ms-grid-column-span:3;
+		
+		grid-column: 1;
+		grid-row: 1;
+	}
+	
  	 &:before{
 		font-family:"fontAwesome";
 		content: "\f236";

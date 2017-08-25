@@ -14,8 +14,11 @@ $geolocation = array(
 
 	"hotel1"=> array(
 		"title" 			=>"Holiday Inn Cincinnati Riverfront",
+		"address"			=>"600 West 3rd Street",
+		"location"			=>"Covington, KY 41011",
+		"geolocation"		=>"600 West 3rd Street, Covington, KY 41011",
 		"hotel1_soldout"    =>false,
-		"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-o/0e/10/b3/cf/hotel-exterior.jpg"
+		"img_url"			=>"//www.ihg.com/hotelmedia/repository/hotelimages/CVGRF/WELCM_EXTR_2_E.jpg"
 	),
 
 	"hotel2"=> array(
