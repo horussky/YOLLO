@@ -67,9 +67,9 @@
 		
 	}
 
-}
+}//end of 768 and 1024px
 
-@media only screen and(max-width:768px){
+@media only screen and (max-width:768px){
 	
 	#container{
 		
@@ -145,6 +145,14 @@
 		padding-right: 2rem;
 		border-right: 1px solid #dbdbdb;
 	}
+	
+	/*image header*/
+	#right .topcontent .title {
+		padding: 0 8rem;
+	}
+	
+	
+	
 
 	/*Event Navigation*/
 
@@ -472,7 +480,7 @@
 
 
 
-@media only screen and(max-width:480px){
+@media only screen and (max-width:480px){
 	
 	.rslides {
 		width:100%;
@@ -483,8 +491,30 @@
 	#upcoming-events .event {
 		width: 100%;
 	}
+	
+	/*image header*/
+	
+	#right .topcontent{
 
-
+		.title{
+			padding: 0 4rem;
+			
+			h1{	
+				font-size:4rem;
+			}
+			
+			.btn{
+				width: 70%;
+			}
+		}
+	}
+	
+	.content .date-location{
+		text-align: center;
+	}
+	
+	
+	
 	#right .tcycle {
 		height: 20rem;
 	}
@@ -646,9 +676,21 @@
 	
 	
 	
+	/*image header*/
 	
+	#right .topcontent{
+
+		.title{
+			padding: 0 2rem;
+			
+			h1{	
+				font-size:3.5rem;
+			}
+		}
+	}
 	
 
+	
 	
 	
 	footer{
@@ -715,8 +757,7 @@
 	}
 	
 	
-}
-
+}//end of 360px
 
 
 
@@ -725,8 +766,6 @@
 		width: 100%;
 	}	
 }
-
-
 
 
 

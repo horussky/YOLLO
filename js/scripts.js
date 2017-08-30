@@ -35,7 +35,7 @@ $(document).ready(function () {
 		});
 
 		//open tab for programmatic linking tabs
-		$('.open-tab').click(function(event) {
+		$('.open-tab').click(function() {
     		$('#tabs').tabs("option", "active", $(this).data("tab-index"));
 		});
 	

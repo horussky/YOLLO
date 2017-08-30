@@ -77,6 +77,10 @@
     padding-right: 2rem;
     border-right: 1px solid #dbdbdb; }
 
+  /*image header*/
+  #right .topcontent .title {
+    padding: 0 8rem; }
+
   /*Event Navigation*/
   #left {
     width: 100%;
@@ -293,6 +297,17 @@
   #upcoming-events .event {
     width: 100%; }
 
+  /*image header*/
+  #right .topcontent .title {
+    padding: 0 4rem; }
+    #right .topcontent .title h1 {
+      font-size: 4rem; }
+    #right .topcontent .title .btn {
+      width: 70%; }
+
+  .content .date-location {
+    text-align: center; }
+
   #right .tcycle {
     height: 20rem; }
 
@@ -372,6 +387,12 @@
     footer .foot-sponsor .sponsors img {
       width: 80%; } }
 @media only screen and (max-width: 360px) {
+  /*image header*/
+  #right .topcontent .title {
+    padding: 0 2rem; }
+    #right .topcontent .title h1 {
+      font-size: 3.5rem; }
+
   footer .footer-grid {
     max-width: 90%;
     grid-template-columns: 100%;
