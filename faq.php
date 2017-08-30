@@ -59,7 +59,7 @@ include 'includes/functions.inc.php';
                 
 					<section>
 						<input id="ac-1" name="accordion" type="radio" checked="">
-						<label for="ac-1">Is YOLLO Group Services is a credible travel agency? <span></span></label>
+						<label for="ac-1">Is YOLLO Group Services a credible travel agency? <span></span></label>
 						<div>
 							<p>We are accredited by <a title="International Airlines Travel Agent Network affiliate" href="http://www.iatan.org" target="_blank">International Airlines Travel Agent Network</a> (IATAN), the world's leader in certification of travel companies, and the <a title="CLIA" href="http://www.cruising.org/" target="_blank">Cruise Lines International Association</a> (CLIA).</p>
 						</div>
