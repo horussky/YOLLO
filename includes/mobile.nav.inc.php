@@ -101,6 +101,7 @@ sort($event_nav);
 			<li class="about"><a title="About Us" href="/about">About Us</a></li>
 			<li class="faq"><a title="FAQs" href="/faq">FAQs</a></li>
 			<li class="contact"><a title="Contact" href="/contact">Contact</a></li>
+			<li class="subscribe"><a title="Subscribe" href="//eepurl.com/bgY6P">Subscribe to Newsletter</a></li>
 		</ul>
 	</div>
 </nav>

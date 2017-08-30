@@ -892,14 +892,14 @@ h4 .soldout {
   display: flex; }
 
 .header .left {
-  width: 60%;
+  width: 50%;
   float: left;
   text-align: left; }
   .header .left img {
     max-width: 15rem; }
 
 .header .right {
-  width: 40%;
+  width: 50%;
   float: left;
   text-align: right;
   -webkit-box-align: end;
@@ -8020,7 +8020,6 @@ footer a:hover {
 .price-table-container {
   display: grid;
   grid-gap: 2rem 2rem;
-  grid-template-columns: 50% 50%;
   grid-auto-columns: auto;
   grid-auto-flow: column;
   display: -ms-grid;
@@ -8612,6 +8611,13 @@ div.AuthorizeNetSeal * {
     display: none; } }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #container #left {
+    width: 30%; }
+  #container #right {
+    width: 70%;
+    padding-right: 0; }
+  #container #social {
+    display: none; }
   footer .footer-grid {
     max-width: 90%;
     grid-template-columns: repeat(4, 25%); }
@@ -8631,6 +8637,13 @@ div.AuthorizeNetSeal * {
     grid-column: 1/span 2; } }
 
 @media only screen and (max-width: 768px) {
+  #container #left {
+    width: 100%; }
+  #container #right {
+    width: 100%;
+    padding: 0 2rem; }
+  #container #social {
+    display: none; }
   /*Top Navigation*/
   .header {
     display: block;
@@ -8776,8 +8789,7 @@ div.AuthorizeNetSeal * {
   /*Main Content*/
   #right {
     width: 100%;
-    float: none;
-    padding: 0 2rem; }
+    float: none; }
     #right .topcontent {
       height: auto; }
       #right .topcontent img {

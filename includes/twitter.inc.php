@@ -1,5 +1,4 @@
-<a title="Sign up for the YOLLO Newsletter" class="btn btn-info" href="//eepurl.com/bgY6P" target="_blank">
-<i class="fa fa-envelope-o" aria-hidden="true"></i> Subscribe to Newsletter</a>
+
 
 <div class="tweet">
 <!--<h4><span class="fa fa-twitter" aria-hidden="true"></span> @yollogsinc</h4>-->
@@ -14,7 +13,7 @@ data-chrome="nofooter noheader"
 
 
 <section>
-	<div>
+	<div style="margin-top:2rem">
 		<a href="https://www.bbb.org/csal/business-reviews/travel-agencies-and-bureaus/yollo-group-services-in-montgomery-al-90038616#sealclick">
 			<img style="border: 0;" src="https://seal-centralalabama.bbb.org/seals/black-seal-96-50-whitetxt-yollogroupservicesinc-90038616.png" />
 		</a>
