@@ -4,9 +4,10 @@ ob_start("ob_gzhandler");
 
 $event = array(
 	"title"						=>"Alumni Getaway Cruise",
+	"subtitle"					=>"Grab your alumni shirts and book today!",
 	"location"					=>"Cozumel, Mexico",
-	"date"						=>"December 7-11 ,2017",
-	"img_url"				 	=>"../../images/slides/splash-alumni.jpg",
+	"date"						=>"December 7-11, 2017",
+	"img_url"				 	=>"../../images/slides/splash-alumni-cta.jpg",
 	"img_alt"				 	=>"Alumni Getaway Cruise"
 );
 
@@ -46,18 +47,18 @@ $people = array(
 
 $package_items = array(
 	"diamond_items" => array(
-		"4 Day/3 Night Cruise Departing From Port of Mobile"			=> "checked",
-		"All You Can Eat aboard Ship"									=> "checked",
-		"Bust a Gut Comedy Series"											=> "checked",
+		"4 Day/3 Night Cruise Departing From Port of Mobile"		=> "checked",
+		"All You Can Eat aboard Ship"								=> "checked",
+		"Bust a Gut Comedy Series"									=> "checked",
 		"80's vs 90's Party"										=> "checked",
-		"Word Easy Spoken Word Show"											=> "checked",
-		"Alumni Getaway Welcome Reception"											=> "checked",
+		"Word Easy Spoken Word Show"								=> "checked",
+		"Alumni Getaway Welcome Reception"							=> "checked",
 		"Rep My Set Party"											=> "checked",
-		"Alumni Getaway Beach Retreat"											=> "checked",
-		"Alumni Getaway Ocean Blue Fun and Sexy Party"											=> "checked",
+		"Alumni Getaway Beach Retreat"								=> "checked",
+		"Alumni Getaway Ocean Blue Fun and Sexy Party"				=> "checked",
 		"Farewell Party"											=> "checked",
 		"Black Film Review"											=> "checked",
-		"YOLLO Gift Bag"												=> "checked"
+		"YOLLO Gift Bag"											=> "checked"
 	),
 
 	"emerald_items" => array(
@@ -81,7 +82,7 @@ include 'includes/functions.inc.php';
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
-<link href="css/global.css" rel="stylesheet" type="text/css" />
+<link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -107,13 +108,18 @@ include 'includes/functions.inc.php';
             <!--Right Content-->
             <div id="right">
         
-            <div class="topcontent">
-                    <img src="<?php echo $event["img_url"]; ?>" alt="<?php echo $event["img_alt"]; ?>" >
-            </div>
+            <div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
+				<div class="overlay"></div>
+				<div class="title">
+					<h1><?php echo $event["title"]; ?></h1>
+					<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
+					<a href="#tabs-5" class="btn btn-red open-tab" data-tab-index="4">Buy Now</a>
+				</div>
+			</div>
         
             <div class="content">
         
-                <h2 class="title"><?php echo $event["title"]; ?></h2>
+               
         
                 <div class="date-location">
                         <div class="col"><?php echo $event["date"]; ?></div>
@@ -151,74 +157,74 @@ include 'includes/functions.inc.php';
                     <div id="tabs-2">
 
                         <h3>Cruise</h3>
-                                    <div class="hotel-box-container">
+						<div class="hotel-box-container">
 
-                                            <?php if(count($geolocation["cruise1"]) > 1) :?>
-                                            <div class="hotel-box">
-                                                    <img src="<?php echo $geolocation['cruise1']['img_url']; ?>" />
-                                                    <div class="hotel-title">
-                                                            <h3><?php echo $geolocation["cruise1"]["title"]; ?></h3>
-                                                    </div>
-                                            </div>
-                                            <?php endif; ?>
+								<?php if(count($geolocation["cruise1"]) > 1) :?>
+								<div class="hotel-box">
+										<img src="<?php echo $geolocation['cruise1']['img_url']; ?>" />
+										<div class="hotel-title">
+												<h3><?php echo $geolocation["cruise1"]["title"]; ?></h3>
+										</div>
+								</div>
+								<?php endif; ?>
 
-                                            <?php if(count($geolocation["cruise2"]) > 1) :?>
-                                            <div class="hotel-box">
-                                                 <img src="<?php echo $geolocation['cruise2']['img_url']; ?>" />
-                                                    <div class="hotel-title">
-                                                            <h3><?php echo $geolocation["cruise2"]["title"]; ?></h3>
-                                                    </div>
-                                            </div>
-                                            <?php endif; ?>
+								<?php if(count($geolocation["cruise2"]) > 1) :?>
+								<div class="hotel-box">
+									 <img src="<?php echo $geolocation['cruise2']['img_url']; ?>" />
+										<div class="hotel-title">
+												<h3><?php echo $geolocation["cruise2"]["title"]; ?></h3>
+										</div>
+								</div>
+								<?php endif; ?>
 
 
-                                    </div><!-- hotel box container -->
+						</div><!-- hotel box container -->
 
-                                <hr />
+                        <hr />
 
                         <h3>Price</h3>
                                     
-                                    <div class="price-table-container">
+						<div class="price-table-container">
 
-                                    <?php if(count($geolocation["cruise1"]) > 1) :?>
-                                    <div class="price-table">
-                                        <ul class="price">
-                                            <li class="header">Diamond <span>Package</span></li>
-                                            <?php foreach($package_items['diamond_items'] as $key=>$value): ?>
-                                                <li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-                                            <?php endforeach; ?>
-                                            <li class="people-price">
-                                                <ul class="priceblock">
-                                                        <?php foreach($people['diamond'] as $key=>$value): ?>
-                                                            <li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
-                                                            <?php endforeach; ?>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
-                                        </ul>
-                                    </div><!-- price table -->
-                                    <?php endif; ?>
+						<?php if(count($geolocation["cruise1"]) > 1) :?>
+						<div class="price-table">
+							<ul class="price">
+								<li class="header">Diamond <span>Package</span></li>
+								<?php foreach($package_items['diamond_items'] as $key=>$value): ?>
+									<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+								<?php endforeach; ?>
+								<li class="people-price">
+									<ul class="priceblock">
+										<?php foreach($people['diamond'] as $key=>$value): ?>
+											<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
+											<?php endforeach; ?>
+									</ul>
+								</li>
+								<li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
+							</ul>
+						</div><!-- price table -->
+						<?php endif; ?>
 
 
 
-                                    <?php if(count($geolocation["cruise2"]) > 1) :?>
-                                    <div class="price-table">
-                                        <ul class="price">
-                                            <li class="header">Emerald <span>Package</span></li>
-                                            <?php foreach($package_items['emerald_items'] as $key=>$value): ?>
-                                                <li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-                                            <?php endforeach; ?>
-                                            <li class="people-price">
-                                                <ul class="priceblock">
-                                                        <?php foreach($people['emerald'] as $key=>$value): ?>
-                                                            <li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
-                                                            <?php endforeach; ?>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
-                                        </ul>
-                                    </div><!-- price table -->
-                                <?php endif; ?>
+						<?php if(count($geolocation["cruise2"]) > 1) :?>
+						<div class="price-table">
+							<ul class="price">
+								<li class="header">Emerald <span>Package</span></li>
+								<?php foreach($package_items['emerald_items'] as $key=>$value): ?>
+									<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+								<?php endforeach; ?>
+								<li class="people-price">
+									<ul class="priceblock">
+										<?php foreach($people['emerald'] as $key=>$value): ?>
+											<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
+											<?php endforeach; ?>
+									</ul>
+								</li>
+								<li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
+							</ul>
+						</div><!-- price table -->
+						<?php endif; ?>
                                 
 						</div><!-- price table container-->
 
@@ -232,35 +238,75 @@ include 'includes/functions.inc.php';
                         <div id="accordion" class="nodisp">
 
                                 <section>
-                                        <h2>Do I need a Passport? <span></span></h2>
-                                        <p>A passport is not required to go on the cruise if you are a United States citizen and departing from a US port. If you DO NOT have a passport, you can board with a birth certificate issued by the department of vital statistics and your driver’s license.</p>
+									<h2>Do I need a Passport? <span></span></h2>
+									<p>It is not required for US citizens and departing from a US port, but it's recommended to bring. We recommend if you DO NOT have a passport, to bring a birth certificate issued by the department of vital statistics and your driver’s license for boarding.</p>
+									<p>If you are planning to get a Passport before the trip, make sure you give yourself ample time before the cruise to purchase. It normally takes 6 to 8 weeks, however you can request to experdite for faster processing time. There is a extra fee applied to expedited requests. Check your local USPS for more information on requesting a passport. </p>
                                 </section>
 
 
                                 <section>
-                                        <h2>What are some things you suggest I buy for this trip? <span></span></h2>
-                                        <p>Relaxed casual wear, motion sickness medicine (just in case), swim wear, sun block lotion/spray, deet bug spray, and a sexy classy white outfit.</p>
+									<h2>What are some things you suggest I buy for this trip? <span></span></h2>
+									<p>Here are a some suggested items to consider:</p>
+									
+									<ul>
+										<li>Light and Casual clothing. Linen and breathable cotton is best. Mexico is hot!</li>
+										<li>Swimming trunks and bikini's</li>
+										<li>Sun Block and Lotions</li>
+										<li>Bug Repellant with DEET</li>
+										<li>Medicines such as: Motion Sickness/Nausea (Dramamine), Tylenol/Advil, and Pepto Bismal/Imodium</li>
+										<li>Light Walking Shoes and Sandals</li>
+										<li>White party outfit</li>
+										<li>A night formal dinner outfit</li>
+									</ul>
+									
                                 </section>
 
 
                                 <section>
-                                        <h2>How do I pay for this package? <span></span></h2>
-                                        <p>Navigate to the Buy Now tab and complete the form. You will receive a welcome letter within 7 business days with all your reservation information.</p>
+									<h2>How do I pay for this package? <span></span></h2>
+									<p>Navigate to the Buy Now tab and complete the form. You will receive a welcome letter within 7 business days with all your reservation information.</p>
                                 </section>
 
                                 <section>
-                                        <h2>When are the payments due? <span></span></h2>
-                                        <p>After registration $200 is due <strong>at booking</strong> . The final payment (remaining balance) is due on or before <strong>September 13, 2017</strong> . If the announced payment dates have passed contact us for our current payment plan.</p>
+									<h2>When are the payments due? <span></span></h2>
+									<p>After registration $200 is due <strong>at booking</strong> . The final payment (remaining balance) is due on or before <strong>September 13, 2017</strong> . If the announced payment dates have passed contact us for our current payment plan.</p>
                                 </section>
 
                                 <section>
-                                        <h2>Are there any other charges associated with the cruise? <span></span></h2>
-                                        <p>Yes, clients are responsible for paying cabin gratuities. The standard charge is $11.25 per day, but you may want to leave more depending on your service. Sometimes gratuity is added to your final bill, so check with the cruiseline front desk on the ship before returning back to Mobile.</p>
+									<h2>Are there any other charges associated with the cruise? <span></span></h2>
+									<p>Yes, clients are responsible for paying cabin gratuities. The standard charge is $11.25 per day, but you may want to leave more depending on your service. Sometimes gratuity is added to your final bill, so check with the cruiseline front desk on the ship before returning back to Mobile.</p>
                                 </section>
 
                                 <section>
-                                        <h2>What port are we departing from and what time do I need to be there? <span></span></h2>
-                                        <p>The Carnival Fantasy sails from the Port of Mobile. We suggest arriving no later than 2:30 pm.</p>
+									<h2>What port are we departing from and what time do I need to be there? <span></span></h2>
+									<p>The Carnival Fantasy sails from the Port of Mobile. We suggest arriving no later than 2:30 pm.</p>
+                                </section>
+                                
+                                <section>
+									<h2>What type of currency do I need in Cozumel? <span></span></h2>
+									<p>In Cozumel you may use USD or the Mexican Peso. Be aware, rates for the MX Peso vary shop to shop. We suggest downloading a Currency app to have at least a ball park amount of what things cost in Cozumel. </p>
+                                </section>
+                                
+                                <section>
+									<h2>I do not speak Spanish, will this be a problem? <span></span></h2>
+									<p>No. Though everyone may not speak English, most do understand and/or speak rudimentary English. Knowing some Spanish will definitely help, however, Cozumel is a large tourist island, and many of the shop owners and cab drivers speak English and Spanish. We recommend downloading the <a href="https://translator.microsoft.com/apps/" target="_blank">Microsoft Translate app</a> on your smartphone. It can translate Spanish to English and vice versa, translate words from images/signs/etc, and listen to conversation and translate in real-time.  </p>
+                                </section>
+                                
+                                <section>
+									<h2>Are there anything to be aware of while on the island? <span></span></h2>
+									<ul>
+										<li>Be aware of scammer shops. Make sure you visit multiple shops before buying anything. Cozumel has many shops on the island and many of them sell the exact same things. Make sure you are getting the best cost and quality for your money.</li>
+										<li>Don't venture too far from the port. Many of the big name shops are closer to the main strip. There are many shops within the area, but many sell similar if not the same items. </li>
+										<li>If buying tequila, buy the local brands. You are in Mexico, so engulf the culture. Yes, you can probably get Patron for much cheaper, but you may be missing out on one of Mexico's best products. Many shops do free tastings for their liquor. Even if you don't buy, you can get a good buzz without spending a dime.</li>
+									</ul>
+                                </section>
+                                
+                                <section>
+									<h2>I want to buy liquor, any recommendations? <span></span></h2>
+									<ul>
+										<li>Buy local tequila!  We recommend finding a good Anejo [AN-YE-HO] (3 years aged) or Extra Anejo (3+ years aged) sipping Tequila; (most look and taste like a brandy). The older the Tequila, the smoother and sweeter the taste. Once you taste one of these fine spirits, you may throw out all your Patron's at home. Some brands to ask for: Cava de Oro, Adictivo, Milagro. Anejo tequila are more premium in price, but the taste is well worth the cost. </li>
+										<li>Outside of sipping tequila, there are some liqueur and creams you may be interested inm such as: Sheridan coffee liqueur, and  Almond flavored tequila.</li>
+									</ul>
                                 </section>
 
 

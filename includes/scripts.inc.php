@@ -11,6 +11,15 @@
 <script src="js/scripts-min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
 
+<script>
+	$(function(){
+		if($("#accordion section h2.active").length){
+			$("#accordion section").addClass("active-section");
+		} 
+	});
+</script>
+
+
 <!-- Schema Org Social Media Markup | Helps with SEO-->
 <script type="application/ld+json">
 {

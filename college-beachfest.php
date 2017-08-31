@@ -4,6 +4,7 @@
 
 	$event = array(
 		"title"					=>"The Official College Beachfest",
+		"subtitle"				=>"Book your package today!",
 		"location"				=>"Daytona Beach, Florida",
 		"date"					=>"March 31 - April 2, 2017",
 		"img_url"				=>"../../images/slides/splash-cbf.jpg",
@@ -70,7 +71,7 @@
 <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
 <link href="css/global.css" rel="stylesheet" type="text/css" />
-<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+<link href="css/prettyPhoto.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 
 </head>
 <body>
@@ -95,12 +96,16 @@
 
 
 
-            <div class="topcontent">
-                    <img src="<?php echo $event["img_url"]; ?>" alt="<?php echo $event["img_alt"]; ?>" >
-            </div>
+            <div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
+				<div class="overlay"></div>
+				<div class="title">
+					<h1><?php echo $event["title"]; ?></h1>
+					<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
+					<a href="#tabs-5" class="btn btn-red open-tab" data-tab-index="4">Buy Now</a>
+				</div>
+			</div>
 
             <div class="content">
-            		<h2 class="title"><?php echo $event["title"]; ?></h2>
                     <div class="date-location">
                         <div class="col"><?php echo $event["date"]; ?></div>
                         <div class="col"><?php echo $event["location"]; ?></div>

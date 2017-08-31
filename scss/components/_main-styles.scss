@@ -35,6 +35,8 @@ body{
 	font-size: 1.6rem;
 	-webkit-transition: all 0.45s ease;
   	transition: all 0.45s ease;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 a{
@@ -98,6 +100,10 @@ a.chev-link:hover:after{
 	width:100%; 
 	float:left; 
 	margin-bottom:20px;
+	
+	.title{
+		margin-top: 0;
+	}
 } 
 
 /*Right Main | Left Column*/
@@ -107,23 +113,6 @@ a.chev-link:hover:after{
 	padding-right:20px;
 }
  
-#right .topcontent {
-  width: 100%;
-  height: 300px;
-  float: left;
-  padding: 0;
-  clear: both;
-  margin-bottom: 10px;
-  overflow:hidden;
-  display: flex;
-  align-items: center;
-}
-
-#right .topcontent img {
-  width: 100%;
-}
-
-
 
 .topinfo,
 .left-col .about {
@@ -416,14 +405,14 @@ li.phone{ 						height:24px; padding-left: 40px; background: transparent url(../
 
 
 .headline{
-	font-family:"Sansita One", cursive, "PT Serif Caption", sans-serif;
-	font-weight:normal;
+	font-family:"Sansita", cursive, "PT Serif Caption", sans-serif;
+	font-weight: 800;
+	font-style: italic;
 	font-size:60px;
 	line-height: 1.1;
 	text-align:justify;
 	margin-bottom: .33em;
 }
-
 
 
 

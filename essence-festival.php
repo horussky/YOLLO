@@ -1,10 +1,11 @@
 <?php
 
 	$event = array(
-		"title"				=>"Essence Festival 2018",
+		"title"				=>"Essence Music Festival 2018",
+		"subtitle"			=>"Make your own Girl's Trip come true!",
 		"location"			=>"New Orleans, LA",
 		"date"				=>"July 6 - 8, 2018",
-		"img_url"			=>"../../images/slides/splash-essence.jpg",
+		"img_url"			=>"../../images/slides/splash-essence-cta.jpg",
 		"img_alt"			=>"Essence Festival 2017"
 	);
 
@@ -87,7 +88,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
-<link href="css/global.css" rel="stylesheet" type="text/css" />
+<link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
 
 </head>
@@ -112,15 +113,17 @@
 
         <div id="right">
 
-            <div class="topcontent">
-            	<img src="<?php echo $event["img_url"]; ?>" alt="<?php echo $event["img_alt"]; ?>" >
-            </div>
+            <div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
+					<div class="overlay"></div>
+					<div class="title">
+						<h1><?php echo $event["title"]; ?></h1>
+						<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
+						<a href="#tabs-5" class="btn btn-red open-tab" data-tab-index="4">Buy Now</a>
+					</div>
+			</div>
 
             <div class="content">
 
-
-
-            		<h2 class="title"><?php echo $event["title"]; ?></h2>
                     <div class="date-location">
                         <div class="col"><?php echo $event["date"]; ?></div>
                         <div class="col"><?php echo $event["location"]; ?></div>
