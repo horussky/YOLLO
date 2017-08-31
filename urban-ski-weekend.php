@@ -2,9 +2,10 @@
 if(!ob_start("ob_gzhandler")) ob_start();
 $event = array(
 	"title"						=>"Urban Ski Weekend 2018",
-	"location"				=>"Gatlinburg, Tennessee",
+	"subtitle"					=>"Book your package today!",
+	"location"					=>"Gatlinburg, Tennessee",
 	"date"						=>"February 2 - 5 2018",
-	"img_url"				 	=>"../../images/slides/splash-urban-ski.jpg",
+	"img_url"				 	=>"../../images/slides/splash-urban-ski-cta.jpg",
 	"img_alt"				 	=>"Urban Ski Weekend"
 );
 
@@ -101,7 +102,7 @@ include 'includes/functions.inc.php';
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
-<link href="css/global.css" rel="stylesheet" type="text/css" />
+<link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -126,13 +127,18 @@ include 'includes/functions.inc.php';
 						<!--Right Content-->
 						<div id="right">
 
-						<div class="topcontent">
-								<img src="<?php echo $event["img_url"]; ?>" alt="<?php echo $event["img_alt"]; ?>" >
+						<div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
+							<div class="overlay"></div>
+							<div class="title">
+								<h1><?php echo $event["title"]; ?></h1>
+								<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
+								<a href="#tabs-5" class="btn btn-red open-tab" data-tab-index="4">Buy Now</a>
+							</div>
 						</div>
 
 						<div class="content">
 
-								<h2 class="title"><?php echo $event["title"]; ?></h2>
+								
 
 								<div class="date-location">
 										<div class="col"><?php echo $event["date"]; ?></div>
