@@ -9051,7 +9051,7 @@ div.AuthorizeNetSeal * {
     footer .foot-sponsor .sponsors img {
       width: 90%; } }
 
-@media (min-width: 320px) {
+@media (min-width: 360px) {
   #container, .foot-wrap {
     width: 100%;
     padding: 0 2rem; } }
@@ -9080,7 +9080,8 @@ div.AuthorizeNetSeal * {
 
 @media (min-width: 1024px) {
   #container, .foot-wrap {
-    width: 992px; } }
+    width: 100%;
+    padding: 0 2rem; } }
 
 @media (min-width: 1200px) {
   #container, .foot-wrap {
