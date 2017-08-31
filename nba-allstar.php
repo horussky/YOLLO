@@ -7,7 +7,6 @@ $event = array(
 	"location"				=>"Los Angeles, Ca",
 	"date"					=>"February 16 – 18, 2018",
 	"img_url"				=>"../../images/slides/splash-nba-cta.jpg",
-	"img_alt"				=>"NBA All-Star 2018"
 );
 
 $geolocation = array(
@@ -16,7 +15,6 @@ $geolocation = array(
 		"title" 			=>"Hilton Garden Inn Hollywood",
 		"address"			=>"2005 North Highland Avenue",
 		"location"			=>"Los Angeles, CA 90068",
-		"geolocation"		=>"2005 North Highland Avenue, Los Angeles, CA 90068",
 		"hotel1_soldout"	=> false,
 		"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/0b/51/06/3c/hotel-exterior.jpg"
 	),
@@ -25,7 +23,6 @@ $geolocation = array(
 		"title" 			=>"DoubleTree by Hilton Downtown",
 		"address"			=>"120 S Los Angeles St",
 		"location"			=>"Los Angeles, CA 90012",
-		"geolocation"		=>"120 S Los Angeles St, Los Angeles, CA 90012",
 		"hotel1_soldout"	=> false,
 		"img_url"			=>"https://media-cdn.tripadvisor.com/media/photo-o/0c/df/e5/a4/hotel-exterior.jpg"
 	)
@@ -316,8 +313,7 @@ include 'includes/functions.inc.php';
 											</section>
 
 												<section>
-													<h2>I would like to bring my child to the NBA All Star Weekend Games, does he/she need a ticket?
-			 <span></span></h2>
+													<h2>I would like to bring my child to the NBA All Star Weekend Games, does he/she need a ticket? <span></span></h2>
 													<p>Children under the age of 2 are admitted free of charge. Children under 2 years of age are not guaranteed a seat and may be required to sit on a parent's/guardian's lap. Children 2 and over must have ticket.</p>
 											</section>							
 
@@ -366,7 +362,7 @@ include 'includes/functions.inc.php';
 
 
 			<div class="disclosure">
-				      		<?php include 'includes/package-info-generic.inc.php'; ?><br/>
+			<?php include 'includes/package-info-generic.inc.php'; ?><br/>
             <strong>Disclaimer</strong> | The terms NBA All-Star, NBA All-Star Weekend, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. We are in no way associated with or authorized by the National Basketball Association and neither this production nor its affiliates have licensed or endorsed us to sell goods and/or services in conjunction with any National Basketball Association productions. The use of any logos, words, trademarks, or photos have been used for descriptive purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.
       </div><!-- end of disclosure -->
 
