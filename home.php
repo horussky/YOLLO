@@ -12,7 +12,7 @@ include 'includes/functions.inc.php';
 <meta name="author" content="YOLLO Group Services" />
 
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
-<link href="css/global.css" rel="stylesheet" type="text/css" />
+<link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 <body>
 

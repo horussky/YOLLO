@@ -92,7 +92,7 @@ include 'includes/functions.inc.php';
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
-<link href="css/global.css" rel="stylesheet" type="text/css" />
+<link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
 </head>
 

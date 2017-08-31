@@ -8,6 +8,18 @@
 	width:100%;
 	margin-bottom:1em;
 	clear:both;
+	
+	section :not(h2) {
+    	display: none;
+	}
+	
+	section .active + ul,
+	section .active + p + ul,
+	section .active + ul li,
+	section .active + p + ul li,
+	section .active + p + p + ul li{
+    	display: block;
+	}
 }
 
 #accordion section {
@@ -99,10 +111,21 @@
 
 #accordion ul {
     display: block;
-    list-style: disc outside none;
+    list-style: none;
+	margin-bottom: 2rem;
 	
 	li {
-    	margin-left: 2rem;
+    	margin-left: 0rem;
+		margin-bottom: 1rem;
+		padding-left: 0rem;
+		position: relative;
+		
+		&:before{
+			content: '\2022';
+			margin-left: -2rem;
+			position: absolute;
+			font-size: 1.6rem; 
+		}
 	}
 }
 

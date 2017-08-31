@@ -101,6 +101,10 @@ $(document).ready(function () {
 	
 	
 	
+		
+	
+	
+	
 	//Acordion.js
 		/*
 		* Name : accordion.js
@@ -125,6 +129,7 @@ $(document).ready(function () {
 				contentElement = document.getElementById(el).childNodes[1].childNodes[3].nodeName.toLowerCase();
 
 				accordion.addListener();
+			
 			},
 			clicked: function(obj){
 				if ($(obj).find("span").hasClass("open")){
@@ -138,6 +143,8 @@ $(document).ready(function () {
 					$(obj).parent().find(contentElement).stop().slideDown();
 					$(obj).parent().find(headerElement + " span").addClass('open');
 					$(obj).parent().find(headerElement + " span").removeClass('closed');
+					
+					
 				}
 
 
@@ -147,10 +154,17 @@ $(document).ready(function () {
 				$("#" + accordion.element + " " + groupElement + " " + headerElement).click(function(){
 					accordion.clicked(this);
 				});
+				
+				
+				
 			}
 		};
+	
 
 		$(document).ready(function(){
+			
+			
+			
 
 			accordion.init("accordion");
 
