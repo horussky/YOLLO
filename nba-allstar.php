@@ -299,7 +299,7 @@ include 'includes/functions.inc.php';
 
 											<section>
 													<h2>When are the payments due? <span></span></h2>
-													<p>The first payment of $125 is due on or before July 07, 2017. The final payment (remaining balance) is due on or before October 11, 2017.</p>
+													<p>The first payment of $125 is due on or before September 20, 2017. The final payment (remaining balance) is due on or before Decmeber 13, 2017.</p>
 											</section>
 
 											<section>

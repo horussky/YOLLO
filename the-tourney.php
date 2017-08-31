@@ -3,9 +3,10 @@ ob_start("ob_gzhandler");
 
 $event = array(
 	"title"					=>"The Tourney Weekend 2018",
+	"subtitle"				=>"Book your package today!",
 	"location"				=>"Charlotte, NC",
 	"date"					=>"March 2 - 4, 2018",
-	"img_url"				=>"../../images/slides/splash-tourney.jpg",
+	"img_url"				=>"../../images/slides/splash-tourney-cta.jpg",
 	"img_alt"				=>"The Tourney"
 );
 
@@ -113,14 +114,17 @@ include 'includes/functions.inc.php';
 			<!--Right Content-->
 			<div id="right">
 
-			<div class="topcontent">
-					<img src="<?php echo $event["img_url"]; ?>" alt="<?php echo $event["img_alt"]; ?>" >
-			</div>
+				<div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
+					<div class="overlay"></div>
+					<div class="title">
+						<h1><?php echo $event["title"]; ?></h1>
+						<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
+						<a href="#tabs-5" class="btn btn-red open-tab" data-tab-index="4">Buy Now</a>
+					</div>
+				</div>
 
 
 			<div class="content">
-
-					<h2 class="title"><?php echo $event["title"]; ?></h2>
 
 					<div class="date-location">
 							<div class="col"><?php echo $event["date"]; ?></div>

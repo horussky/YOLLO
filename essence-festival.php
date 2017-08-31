@@ -1,10 +1,11 @@
 <?php
 
 	$event = array(
-		"title"				=>"Essence Festival 2018",
+		"title"				=>"Essence Music Festival 2018",
+		"subtitle"			=>"Make your own Girl's Trip come true!",
 		"location"			=>"New Orleans, LA",
 		"date"				=>"July 6 - 8, 2018",
-		"img_url"			=>"../../images/slides/splash-essence.jpg",
+		"img_url"			=>"../../images/slides/splash-essence-cta.jpg",
 		"img_alt"			=>"Essence Festival 2017"
 	);
 
@@ -112,15 +113,17 @@
 
         <div id="right">
 
-            <div class="topcontent">
-            	<img src="<?php echo $event["img_url"]; ?>" alt="<?php echo $event["img_alt"]; ?>" >
-            </div>
+            <div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
+					<div class="overlay"></div>
+					<div class="title">
+						<h1><?php echo $event["title"]; ?></h1>
+						<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
+						<a href="#tabs-5" class="btn btn-red open-tab" data-tab-index="4">Buy Now</a>
+					</div>
+			</div>
 
             <div class="content">
 
-
-
-            		<h2 class="title"><?php echo $event["title"]; ?></h2>
                     <div class="date-location">
                         <div class="col"><?php echo $event["date"]; ?></div>
                         <div class="col"><?php echo $event["location"]; ?></div>
