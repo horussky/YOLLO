@@ -269,7 +269,7 @@ include 'includes/functions.inc.php';
 
     <ul class="list-unstyled">
 		<li><a title="View or Download the Tour Participation form" style="background: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/700084-icon-5-file-pdf-32.png) no-repeat; padding-left: 40px; padding-top: 7px;" href="/images/tour-participation-form.pdf" target="_blank">Tour Participation Form</a></li>
-		<li><a title="View or Download the Credit Card Authorization form" style="background: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/700084-icon-5-file-pdf-32.png) no-repeat; padding-left: 40px; padding-top: 7px;" href="/images/credit-card-form.pdf" target="_blank">Credit Card Authorization Form</a></li>
+		<?php /* ?><li><a title="View or Download the Credit Card Authorization form" style="background: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/700084-icon-5-file-pdf-32.png) no-repeat; padding-left: 40px; padding-top: 7px;" href="/images/credit-card-form.pdf" target="_blank">Credit Card Authorization Form</a></li><?php */ ?>
     
 	</ul>
 
