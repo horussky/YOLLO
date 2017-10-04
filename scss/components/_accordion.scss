@@ -47,14 +47,20 @@
 	}
 }
 
+
 #accordion section p {
 	display: none;
 	padding: 1.5rem 3rem;
 	margin-bottom:0;
 }
 
+
 #accordion .active ~ p {
     display: block;
+}
+
+#accordion .active ~ p strong {
+    display: inline-block;
 }
 
 #accordion section span {
@@ -154,6 +160,8 @@
 .accordion-container > section:not(:last-child){
   margin-bottom:.25rem;
 }
+
+
 .accordion-container > section{
   border: 1px solid #cdcdcd;
 }
@@ -166,6 +174,7 @@
     color: #fff;
     font-weight:600;
 }
+
 
 
 .accordion-container input {
@@ -206,8 +215,6 @@
 }
 
 //plus and minus icon
-
-
 .accordion-container label:after,
 .accordion-container input:checked + label:after {
 	font-family: "FontAwesome";
@@ -220,4 +227,3 @@
 	font-family: "FontAwesome";
     content: "\f068"; 
 }
-
