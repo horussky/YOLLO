@@ -7,14 +7,14 @@ define("EVENT", serialize ($nav = array(
 				  	"link"	=>	"/alumni-getaway-cruise"
 				  
 			),
-	/*
+	
 			array(
 					"title"	=>	"College BeachFest",
 				  	"class"	=>	"cbf",
 				  	"link"	=>	"/college-beachfest"
 				  
 			),
-			*/
+			
 			array(
 					"title"	=>	"Magic City Classic",
 				  	"class"	=>	"classic",

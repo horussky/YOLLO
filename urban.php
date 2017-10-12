@@ -38,16 +38,16 @@ $people = array(
 
 		"diamond"=> array(
 			//"Group of 4" 			=>"$580",
-			"Group of 3"			=>"$975",
-			"Group of 2"			=>"$1025",
-			"Individual"			=>"$1275"
+			"Group of 3"			=>"$1075",
+			"Group of 2"			=>"$1125",
+			"Individual"			=>"$1375"
 		),
 
 		"emerald"=> array(
 			//"Group of 4" 			=>"$580",
-			"Group of 3"			=>"$725",
-			"Group of 2"			=>"$775",
-			"Individual"			=>"$975"
+			"Group of 3"			=>"$825",
+			"Group of 2"			=>"$875",
+			"Individual"			=>"$1075"
 		),
 
 		"options"=>array(
@@ -326,7 +326,7 @@ include 'includes/functions.inc.php';
 
                                                   <section>
                                                        <h2>When are the payments due? <span></span></h2>
-                                                       <p>The first payment of $125 is due August 29, 2017 after registration. The final payment (remaining balance) is due on or before November 13, 2017. If you would like to make payments between due dates that is fine also.</p>
+                                                       <p>The first payment of $125 is due November 30, 2017 after registration. The final payment (remaining balance) is due on or before Febuary 08, 2018. If you would like to make payments between due dates that is fine also.</p>
                                                   </section>
                                                   
                                                   <section>

@@ -98,7 +98,7 @@ include 'includes/functions.inc.php';
 
 <title><?php echo $event["title"]?> | <?php echo $phonenumber ?></title>
 <meta name="description" content="We provide all-inclusive arrangements and tickets for Urban Ski Weekend." />
-<meta name="keywords" content="Black Ski Weekend 2017, Urban Ski Weekend 2017,gatlinburg, winter skifest 2017, urban ski, urban ski 2017" />
+<meta name="keywords" content="Black Ski Weekend 2018, Urban Ski Weekend 2017,gatlinburg, winter skifest 2017, urban ski, urban ski 2017, urban ski 2018, urban ski weekend 2018, black ski weekend" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
@@ -166,7 +166,7 @@ include 'includes/functions.inc.php';
 										<p>YOLLO Group Services has the ultimate ski-weekend package for you. So you have never been skiing? No problem. Nervous about skiing and falling? No worries at all. There will be hundreds of others just like you at the lodge. You may fall, roll, or make the slopes a slave to your skills. Regardless, you will definitely have a great time at Urban Ski Weekend in Gatlinburg, Tennesee.</p>
 
 										<h4>What else?</h4>
-										<p>Tired of busting your butt on the slopes? You can enjoy many parties and events going on around the mountain. Don't be surprised to see a Celebrity or two hosting our parties. Last year's event featured Comedian Steve Brown along with Yung Joc and  R&amp;B Diva KeKe Wyatt! </p>
+										<p>Tired of busting your butt on the slopes? You can enjoy many parties and events going on around the mountain. The 2018 edition of Urban Ski Weeekend will be hosted by LHHNY own DJ Self! Don't be surprised to see his celebrity friends drop in and party with us. </p>
 
 										<h4>The packages</h4>
 										<p>Our packages includes hotel stay, party passes, comedy show, breakfast, and plenty of networking oppurtunities. We also have transportation available via one of our exclusive party buses. These buses will be available in Alabama, Tennessee, and Georgia.</p>
@@ -262,7 +262,7 @@ include 'includes/functions.inc.php';
 
 													<section>
 															<h2>When are the payments due? <span></span></h2>
-															<p>Following registration the first payment of $125 is due on or before September 20, 2017. The final payment (remaining balance) is due on or before December 06, 2017.</p>
+															<p>Following registration the first payment of $125 is due on or before October 12, 2017. The final payment (remaining balance) is due on or before December 06, 2017.</p>
 													</section>
 
 

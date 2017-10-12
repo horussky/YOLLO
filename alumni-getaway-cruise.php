@@ -269,7 +269,7 @@ include 'includes/functions.inc.php';
 
                                 <section>
 									<h2>When are the payments due? <span></span></h2>
-									<p>After registration $200 is due <strong>at booking</strong> . The final payment (remaining balance) is due on or before <strong>September 13, 2017</strong> . If the announced payment dates have passed contact us for our current payment plan.</p>
+									<p>After registration of $19.99 per person the first payment of $200 is due <strong>by October 5, 2017</strong> . The final payment (remaining balance) is due on or before <strong>November 07, 2017</strong> . If the announced payment dates have passed contact us for our current payment plan.</p>
                                 </section>
 
                                 <section>
@@ -305,7 +305,7 @@ include 'includes/functions.inc.php';
 									<h2>I want to buy liquor, any recommendations? <span></span></h2>
 									<ul>
 										<li>Buy local tequila!  We recommend finding a good Anejo [AN-YE-HO] (3 years aged) or Extra Anejo (3+ years aged) sipping Tequila; (most look and taste like a brandy). The older the Tequila, the smoother and sweeter the taste. Once you taste one of these fine spirits, you may throw out all your Patron's at home. Some brands to ask for: Cava de Oro, Adictivo, Milagro. Anejo tequila are more premium in price, but the taste is well worth the cost. </li>
-										<li>Outside of sipping tequila, there are some liqueur and creams you may be interested inm such as: Sheridan coffee liqueur, and  Almond flavored tequila.</li>
+										<li>Outside of sipping tequila, there are some liqueur and creams you may be interested in such as: Sheridan coffee liqueur, and Almond flavored tequila.</li>
 									</ul>
                                 </section>
 

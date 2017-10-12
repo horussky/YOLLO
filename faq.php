@@ -69,7 +69,7 @@ include 'includes/functions.inc.php';
 						<input id="ac-2" name="accordion" type="radio">
 						<label for="ac-2">What if I'm not able to pay by the due date? <span></span></label>
 						<div>
-							<p>Notify us immediately via our <a href="/contact.php">contact page</a> or call <strong>(888) 946-9655</strong>. Failure to do so may result in your account incurring a $35 late fee. If payment is not made 7 days after your package due date, your reservation will be cancelled and you will need to re-register if you decide to still attend the event.
+							<p>Notify us immediately via our <a href="/contact.php">contact page</a> or call <strong>(888) 946-9655</strong>. Failure to do so may result in your account incurring a $35 late fee. If payment is not made 3 days after your package due date, your reservation will be cancelled and you will need to re-register if you decide to still attend the event.
                             </p>
 						</div>
 					</section>
@@ -83,6 +83,7 @@ include 'includes/functions.inc.php';
 								<li>Late Fee: $35</li>
 								<li>Extension Fee: $25</li>
 								<li>Reinstatement Fee: $75</li>
+								<li>Chargeback Fee: $100</li>
 								<li>Reservation Name Change Fee: $50</li>
 								<li>Electronic Processing Fee: 4% of Amount</li>
 							</ul>
@@ -109,7 +110,7 @@ include 'includes/functions.inc.php';
 						<div>
 							<ol>
                             	<li>A price adjustment will incur on the remaining group. Your final payment will be made based on the number of people still attending.</li>
-                                <li>You are allowed to replace any member of the group that cancels; new memeber will need to pay the registration fee.</li>
+                                <li>You are allowed to replace any member of the group that cancels; new members will need to pay the registration fee.</li>
                                 <li>There are no contracts. You have the option to walk away and we hope to see you at our next event!</li>
 							</ol>
 						</div>
@@ -145,7 +146,7 @@ include 'includes/functions.inc.php';
 						<div>
 							<p>The registration fee is a mandatory nonrefundable/nontransferable fee charged to hold/reserve an event package, current package price, and availability until your first payment is due.</p>
 							<p>This fee is in addition to your overall package price. Every person within a group must pay the Registration Fee. It is not mandatory that all registration payments are paid at once. Everyone in the group must pay their Registration fee within 10 days of the initial payment.</p> 
-							<p>Any payment made after 10 days of the initial Registration Fee will be booked and receive pricing/amenities at market value.</p>
+							<p>Any payment made after 7 days of the initial Registration Fee will be booked and receive pricing/amenities at market value.</p>
 						</div>
 					</section>
 					
@@ -269,7 +270,7 @@ include 'includes/functions.inc.php';
 
     <ul class="list-unstyled">
 		<li><a title="View or Download the Tour Participation form" style="background: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/700084-icon-5-file-pdf-32.png) no-repeat; padding-left: 40px; padding-top: 7px;" href="/images/tour-participation-form.pdf" target="_blank">Tour Participation Form</a></li>
-		<li><a title="View or Download the Credit Card Authorization form" style="background: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/700084-icon-5-file-pdf-32.png) no-repeat; padding-left: 40px; padding-top: 7px;" href="/images/credit-card-form.pdf" target="_blank">Credit Card Authorization Form</a></li>
+		<?php /* ?><li><a title="View or Download the Credit Card Authorization form" style="background: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/700084-icon-5-file-pdf-32.png) no-repeat; padding-left: 40px; padding-top: 7px;" href="/images/credit-card-form.pdf" target="_blank">Credit Card Authorization Form</a></li><?php */ ?>
     
 	</ul>
 
