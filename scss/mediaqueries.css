@@ -323,7 +323,7 @@
 
   .hotel-box-container {
     width: 100%;
-    grid-gap: 2rem 0; }
+    grid-gap: 2rem 2rem; }
     .hotel-box-container .hotel-box:first-child {
       grid-column: 1;
       grid-row: 1; }

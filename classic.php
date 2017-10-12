@@ -261,7 +261,7 @@
                 </section>
                 <section>
                   <h2>When do they start selling tailgating spots? <span></span></h2>
-                  <p>Legion Field controls all tailgating which includes RV and tent spaces. The time when spaces will be available for purchase has not been determined.  For all questions regarding tailgating please contact 205-254-2388.</p>
+                  <p>Legion Field controls all tailgating which includes RV and tent spaces. The time when spaces will be available for purchase has not been determined.  For all questions regarding tailgating please contact 205-254-2391.</p>
                 </section>
                 <section>
                   <h2>How do I lock in the prices and amenities advertised today? <span></span></h2>

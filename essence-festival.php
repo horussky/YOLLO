@@ -18,26 +18,32 @@
 		),
 
 		"hotel2"=> array(
-			"title" 			=>"Hilton New Orleans/St. Charles Avenue",
+			"title" 			=>"Hilton New Orleans",
 			"hotel2_soldout"	=>false,
 			"img_url"			=>"//media-cdn.tripadvisor.com/media/oyster/1180/08/e1/6c/7f/hallways--v8652118.jpg"
+		),
+		
+		"hotel3"=> array(
+			"title" 			=>"Residence Inn Downtown",
+			"hotel3_soldout"	=>false,
+			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-o/06/8c/e3/e4/residence-inn-new-orleans.jpg"
 		)
 
 	);
 
 	$people = array(
 			"diamond"=> array(
-				"Group of 4" 			=>"$860",
-				"Group of 3"			=>"$925",
-				"Group of 2"			=>"$1090",
-				"Individual"			=>"$1735"
+				"Group of 4" 			=>"$910",
+				"Group of 3"			=>"$975",
+				"Group of 2"			=>"$1140",
+				"Individual"			=>"$1785"
 			),
 
 			"emerald"=> array(
-				"Group of 4" 			=>"$710",
-				"Group of 3"			=>"$800",
-				"Group of 2"			=>"$945",
-				"Individual"			=>"$1480"
+				"Group of 4" 			=>"$760",
+				"Group of 3"			=>"$850",
+				"Group of 2"			=>"$995",
+				"Individual"			=>"$1530"
 			),
 
 			"Hotel Only" =>"$1245 (Weekend)"
@@ -183,6 +189,13 @@
                                     	 <img src="<?php echo $geolocation['hotel2']['img_url']; ?>" />
                                         <div class="hotel-title">
                                             <h3><?php echo $geolocation["hotel2"]["title"]; ?></h3>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="hotel-box">
+                                    	 <img src="<?php echo $geolocation['hotel3']['img_url']; ?>" />
+                                        <div class="hotel-title">
+                                            <h3><?php echo $geolocation["hotel3"]["title"]; ?></h3>
                                         </div>
                                     </div>
 

@@ -269,7 +269,7 @@ include 'includes/functions.inc.php';
 
                                 <section>
 									<h2>When are the payments due? <span></span></h2>
-									<p>After registration $200 is due <strong>at booking</strong> . The final payment (remaining balance) is due on or before <strong>September 13, 2017</strong> . If the announced payment dates have passed contact us for our current payment plan.</p>
+									<p>After registration of $19.99 per person the first payment of $200 is due <strong>by October 5, 2017</strong> . The final payment (remaining balance) is due on or before <strong>November 07, 2017</strong> . If the announced payment dates have passed contact us for our current payment plan.</p>
                                 </section>
 
                                 <section>
