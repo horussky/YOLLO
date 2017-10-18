@@ -145,7 +145,7 @@ include 'includes/functions.inc.php';
 						<label for="ac-9">What is the registration fee and what is it for? <span></span></label>
 						<div>
 							<p>The registration fee is a mandatory nonrefundable/nontransferable fee charged to hold/reserve an event package, current package price, and availability until your first payment is due.</p>
-							<p>This fee is in addition to your overall package price. Every person within a group must pay the Registration Fee. It is not mandatory that all registration payments are paid at once. Everyone in the group must pay their Registration fee within 10 days of the initial payment.</p> 
+							<p>This fee is in addition to your overall package price. Every person within a group must pay the Registration Fee. It is not mandatory that all registration payments are paid at once. Everyone in the group must pay their Registration fee within 7 days of the initial payment.</p> 
 							<p>Any payment made after 7 days of the initial Registration Fee will be booked and receive pricing/amenities at market value.</p>
 						</div>
 					</section>

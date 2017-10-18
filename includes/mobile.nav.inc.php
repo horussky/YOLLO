@@ -14,6 +14,13 @@ define("EVENT", serialize ($nav = array(
 				  	"link"	=>	"/college-beachfest"
 				  
 			),
+	
+			array(
+					"title"	=>	"Groove Cruise",
+				  	"class"	=>	"groove",
+				  	"link"	=>	"/groove-cruise"
+				  
+			),
 			
 			array(
 					"title"	=>	"Magic City Classic",

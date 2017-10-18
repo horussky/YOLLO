@@ -272,7 +272,7 @@
 
                                 <section>
                                     <h2>What are the payment due dates for Essence Packages? <span></span></h2>
-                                    <p>To reserve a package each group member pays the $19.99 per person fee. The first payment of $125 is due on or before September 6, 2017. The final payment (remaining balance) is due on or before January 10, 2018. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by cliocking on the BUY NOW tab above and following the prompts.</p>
+                                    <p>To reserve a package each group member pays the $19.99 per person fee. The first payment of $125 is due on or before November 14, 2017. The final payment (remaining balance) is due on or before February 20, 2018. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by cliocking on the BUY NOW tab above and following the prompts.</p>
                                 </section>
 
                                 <section>
