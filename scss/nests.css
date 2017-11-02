@@ -7759,11 +7759,12 @@ footer a:hover {
 [data-accordion] {
   line-height: 1; }
 
+/*
 [data-control],
 [data-content] > * {
-  border-bottom: 1px solid #888;
-  padding: 10px; }
-
+    border-bottom: 1px solid #888;
+    padding: 10px;
+}*/
 [data-content] [data-accordion] {
   border: 0;
   padding: 0; }
@@ -7789,6 +7790,38 @@ footer a:hover {
   -webkit-transform: rotate(-180deg);
   -ms-transform: rotate(-180deg);
   transform: rotate(-180deg); }
+
+[data-accordion-group] {
+  margin-bottom: 4rem; }
+  [data-accordion-group] h4 {
+    margin-top: 4rem; }
+    [data-accordion-group] h4:first-child {
+      margin-top: 0; }
+  [data-accordion-group] .open [data-control] {
+    background: #111;
+    font-weight: 700; }
+  [data-accordion-group] .open [data-content] {
+    padding: 2rem 3rem;
+    max-height: 100% !important;
+    border: 1px solid #888; }
+  [data-accordion-group] [data-accordion] {
+    margin-bottom: 1rem;
+    background: #888; }
+  [data-accordion-group] [data-control] {
+    padding: 1.2rem 3rem;
+    border-bottom: none;
+    color: #fff; }
+    [data-accordion-group] [data-control]:hover {
+      cursor: pointer; }
+  [data-accordion-group] [data-content] {
+    background: #fff;
+    border: 1px solid transparent;
+    border-top: none;
+    padding: 0 3rem; }
+    [data-accordion-group] [data-content] p:last-child {
+      margin-bottom: 0; }
+    [data-accordion-group] [data-content] ul li, [data-accordion-group] [data-content] ol li {
+      margin-bottom: 1rem; }
 
 /*Nano Gallery Overrides*/
 .nanogallery_theme_default .nanoGalleryContainer {
