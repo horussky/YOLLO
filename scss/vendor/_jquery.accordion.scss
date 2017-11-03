@@ -78,19 +78,36 @@
 		[data-content]{
 			padding: 2rem 3rem;
 			max-height:100%!important;
-			border: 1px solid #888;
+			border: 1px solid #666;
+			
+			p{
+				line-height: 1.4;
+
+				&:last-child{
+					margin-bottom:0;
+				}
+			}
+
+			ul, ol{
+
+				li{
+					margin-bottom:1rem;
+					line-height: 1.4;
+				}
+			}
 		}
 	} 
 	
 	[data-accordion]{
 		margin-bottom: 1rem;
-		background:#888;
+		background:#666;
 	} 
 	
 	[data-control]{
 		padding: 1.2rem 3rem;
 		border-bottom:none; 
 		color:#fff;
+		line-height: 1.4;
 		
 		&:hover{
 			cursor: pointer;
@@ -103,18 +120,7 @@
     	border-top: none;
 		padding:0 3rem;
 		
-		p{
-			&:last-child{
-				margin-bottom:0;
-			}
-		}
 		
-		ul, ol{
-			
-			li{
-				margin-bottom:1rem; 
-			}
-		}
 	}
 	
 }

@@ -7803,14 +7803,22 @@ footer a:hover {
   [data-accordion-group] .open [data-content] {
     padding: 2rem 3rem;
     max-height: 100% !important;
-    border: 1px solid #888; }
+    border: 1px solid #666; }
+    [data-accordion-group] .open [data-content] p {
+      line-height: 1.4; }
+      [data-accordion-group] .open [data-content] p:last-child {
+        margin-bottom: 0; }
+    [data-accordion-group] .open [data-content] ul li, [data-accordion-group] .open [data-content] ol li {
+      margin-bottom: 1rem;
+      line-height: 1.4; }
   [data-accordion-group] [data-accordion] {
     margin-bottom: 1rem;
-    background: #888; }
+    background: #666; }
   [data-accordion-group] [data-control] {
     padding: 1.2rem 3rem;
     border-bottom: none;
-    color: #fff; }
+    color: #fff;
+    line-height: 1.4; }
     [data-accordion-group] [data-control]:hover {
       cursor: pointer; }
   [data-accordion-group] [data-content] {
@@ -7818,10 +7826,6 @@ footer a:hover {
     border: 1px solid transparent;
     border-top: none;
     padding: 0 3rem; }
-    [data-accordion-group] [data-content] p:last-child {
-      margin-bottom: 0; }
-    [data-accordion-group] [data-content] ul li, [data-accordion-group] [data-content] ol li {
-      margin-bottom: 1rem; }
 
 /*Nano Gallery Overrides*/
 .nanogallery_theme_default .nanoGalleryContainer {

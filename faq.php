@@ -50,70 +50,25 @@ include 'includes/functions.inc.php';
                 
                 <h2 class="title">Frequently Asked Questions</h2>
                 
-                <p class="lead">People often have questions about our packages or information regarding payments. Click any of the questions below to see the answer(s). </p>
+                <p class="lead">People often have questions about our packages or information regarding payments. Click any questions below to see the answers. </p>
                 
-                <p>If you have any questions that are not apart of the FAQs, please give us a call at 888.9GO.YOLLO or send us a email at <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a> or  use our <a href="contact.php" title="contact us today">Contact Page</a> form.</p><br />
+					<p>For questions not answered in this section, please contact us by using the form on the <a href="/contact">Contact Page</a>, calling <a href="tel:888-946-9655">(888) 946-9655</a>, or emailing us at <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p><br />
                 
                 
                 <div data-accordion-group>
                 
 					<h4>General Questions</h4>
 					
+					
 					<div class="accordion open" data-accordion>
 
-					  <div data-control>Is YOLLO Group Services a credible travel agency?</div>
-					  <div data-content>
-						<p>We are accredited by <a title="International Airlines Travel Agent Network affiliate" href="http://www.iatan.org" target="_blank">International Airlines Travel Agent Network</a> (IATAN), the world's leader in certification of travel companies, and the <a title="CLIA" href="http://www.cruising.org/" target="_blank">Cruise Lines International Association</a> (CLIA).</p>
-					  </div>
-
-					</div><!-- end of accordion-->
-					
-					
-					<div class="accordion" data-accordion>
-
-					  <div data-control>When will I receive my party passes and other amenities?</div>
+					  <div data-control>How do I buy or hold a spot for an event?</div>
 					  <div data-content>
 						<ul>
-							<li>As soon as you arrive at the event.</li>
-							<li>Typically you will receive passes and/or tangible items for your event during hotel check-in.</li>
-							<li>Specific instructions will be included in your confirmation letter.</li>
-						</ul>
-					  </div>
-
-					</div><!-- end of accordion-->
-					
-					
-					<div class="accordion" data-accordion>
-
-					  <div data-control>Why do I have to sign and return a release form?</div>
-					  <div data-content>
-						<p>It is a common sense agreement that assures us that you understand our company's terms and conditions.</p>
-					  </div>
-
-					</div><!-- end of accordion-->
-					
-					
-					<div class="accordion" data-accordion>
-
-					  <div data-control>How do I reserve an event?</div>
-					  <div data-content>
-						<ul>
-							<li>Pay a $19.99 event Registration Fee to hold your spot.</li>
-							<li>This is a non-refundable fee that secures a room, transportation, and other amenities of your package.</li>
-							<li>This fee is not applied toward your total package price.</li>
+							<li>To get started with reserving an event you must first pay the mandatory $19.99 Registration Fee. This will hold your spot for the event. On each event page there is a "buy now" button and a "buy now" tab. Clicking any of them will get you to the payment form for that event.</li>
+							<li>The Registration Fee is non-refundable. It secures your room, transportation, and other amenities of your event package. The Registration Fee is not applied toward your total package price.</li>
 							<li>Make all payments payable to YOLLO Group Services.</li>
 						</ul>
-					  </div>
-
-					</div><!-- end of accordion-->
-					
-					
-					
-					<div class="accordion" data-accordion>
-
-					  <div data-control>What form of transportation do you provide?</div>
-					  <div data-content>
-						<p>For certain packages we provide an exclusive party charter bus; limited to Alabama, Georgia, Mississippi, and Tennessee areas. We can arrange air travel, but be aware, this will alter the price of your package.</p>
 					  </div>
 
 					</div><!-- end of accordion-->
@@ -123,11 +78,23 @@ include 'includes/functions.inc.php';
 
 					  <div data-control>How can I contact you?</div>
 					  <div data-content>
+						<p>You can contact us using the following:</p>
 						<ul>
-							<li>Toll-free number: <strong>(888) 946-9655</strong> </li>
+							<li>For any questions or comments please use the <a href="/contact/"><strong>Contact Page</strong></a> form.</li>
+							<li>Toll-free number: <a href="tel:888-946-9655"><strong>(888) 946-9655</strong></a> </li>
 							<li>Email: <a href="mailto:onelife@goyollo.com"><strong>onelife@goyollo.com</strong></a></li>
 						</ul>
-						<p>We utilize multiple social networks. Contact and/or follow us on <a href="https://twitter.com/YOLLOGSINC" title="Follow YOLLO on Twitter" target="_blank">Twitter</a>, <a title="Like YOLLO on Facebook" href="http://www.facebook.com/yollogsinc" target="_blank">Facebook</a>, and <a href="http://instagram.com/YOLLOGSINC" title="Follow YOLLO on Instagram" target="_blank">Instagram</a>.</p>
+						<p>We utilize multiple social networks. Follow us on <a href="https://twitter.com/YOLLOGSINC" title="Follow YOLLO on Twitter" target="_blank">Twitter</a>, <a title="Like YOLLO on Facebook" href="http://www.facebook.com/yollogsinc" target="_blank">Facebook</a>, and <a href="http://instagram.com/YOLLOGSINC" title="Follow YOLLO on Instagram" target="_blank">Instagram</a>. <strong>@yollogsinc</strong></p>
+					  </div>
+
+					</div><!-- end of accordion-->
+					
+
+					<div class="accordion" data-accordion>
+
+					  <div data-control>Is it safe to use my credit card?</div>
+					  <div data-content>
+						<p>Yes. Our website is secured under a Secure Socket Layer (SSL) Certificate (e.g. https://), which uses encryption technology to ensure that your personal data is kept confidential. We do not store or share any of your personal information.</p>
 					  </div>
 
 					</div><!-- end of accordion-->
@@ -135,11 +102,70 @@ include 'includes/functions.inc.php';
 					
 					<div class="accordion" data-accordion>
 
-					  <div data-control>What will I need to provide upon arrival?</div>
+					  <div data-control>What forms of payment do you accept?</div>
+					  <div data-content>
+						<ul>
+							<li>Credit Card (Visa, MasterCard, American Express, and Discover) </li>
+							<li>Personal Check (not accepted for final payment); Make all checks out to YOLLO Group Services.</li>
+							<li>Money Order or Cashiers Check </li>
+						</ul>
+						<p>For credit card payments, you can use our payment form for the event under the "Buy Now" tab, otherwise please provide a copy of valid state or government issued ID, and a copy of the front and back of the credit card. This method of payment incurs a 4% processing fee. You will be contacted to verify information before card is processed.</p>
+					  </div>
+
+					</div><!-- end of accordion-->
+					
+					
+					<div class="accordion" data-accordion>
+
+					  <div data-control>When will I receive my party passes and other amenities?</div>
+					  <div data-content>
+							<p>Party passes and/or other tangible items for your event are received during hotel check-in. In most cases we hand out passes as soon as you arrive to the event. Specific instructions will be included in your confirmation letter.</p>
+					  </div>
+
+					</div><!-- end of accordion-->
+					
+					
+					<div class="accordion" data-accordion>
+
+					  <div data-control>Why do I have to sign and return a release form?</div>
+					  <div data-content>
+						<p>It is an agreement that indicates that you have read and understand our company's Terms and Conditions.</p>
+					  </div>
+
+					</div><!-- end of accordion-->
+					
+					
+					<div class="accordion" data-accordion>
+
+					  <div data-control>What form of transportation do you provide?</div>
+					  <div data-content>
+						  <p>For packages such as <a href="/urban-ski-weekend">Urban Ski Weekend</a>, we provide an exclusive party charter bus; limited to Alabama, Georgia, Mississippi, and Tennessee areas. We can arrange air travel, but be aware, this will alter the price of your package.</p>
+					  </div>
+
+					</div><!-- end of accordion-->
+					
+					
+					<div class="accordion" data-accordion>
+
+					  <div data-control>How do I confirm my event package?</div>
+					  <div data-content>
+						<ul>
+							<li>You will be mailed your itinerary via USPS. </li>
+							<li>You should receive it within 7 days, after reserving your package.</li>
+							<li>You may also call <a href="tel:888-946-9655">(888) 946-9655</a> and speak with a rep who can confirm your package. </li>
+						</ul>
+					  </div>
+
+					</div><!-- end of accordion-->
+					
+					
+					<div class="accordion" data-accordion>
+
+					  <div data-control>What will I need to provide upon arrival of the event?</div>
 					  <div data-content>
 						<ul>
 							<li>Your state-issued ID.</li>
-							<li>If used, the credit card used to make payments on your package.</li>
+							<li>The credit card(s) used to make payments on your package, including gift cards, debit, and expired cards. We simply have to see the physical card.</li>
 							<li>Your confirmation letter.</li>
 						</ul>
 					  </div>
@@ -151,7 +177,7 @@ include 'includes/functions.inc.php';
 
 					  <div data-control>What is the Free Night Promotions?</div>
 					  <div data-content>
-						<p>This is normally a special offering during a package's Early Bird Special. The guest can choose one additional night outside of the listed stay. e.g. 3 days/2 nights + One Free Night; actual vacation stay is 4 days and 3 nights!</p>
+						<p>This is a special offering during a package's Early Bird Special. The guest can choose one additional night outside of the listed stay. For example: 3 days/2 nights + One Free Night; actual vacation stay is 4 days and 3 nights!</p>
 					  </div>
 
 					</div><!-- end of accordion-->
@@ -159,21 +185,37 @@ include 'includes/functions.inc.php';
 					
 					<div class="accordion" data-accordion>
 
-					  <div data-control>Is it safe to use my credit card via your website or web invoice?</div>
+					  <div data-control>Is YOLLO Group Services an accredited travel agency?</div>
 					  <div data-content>
-						<p>Yes. Our website is secured under a SSL certificate (e.g. https://) that uses encryption technology to ensure that your personal data is kept confidential. We do not store or share any of your personal information.</p>
+						<p>Yes. YOLLO Group Services is accredited by <a title="International Airlines Travel Agent Network affiliate" href="http://www.iatan.org" target="_blank">International Airlines Travel Agent Network</a> (IATAN), the world's leader in certification of travel companies, and the <a title="CLIA" href="http://www.cruising.org/" target="_blank">Cruise Lines International Association</a> (CLIA).</p>
 					  </div>
 
 					</div><!-- end of accordion-->
 					
 					
+					
+					<!-- 
+					---------------------- Due Dates and Fees ----------------------
+					-->
+					
 					<h4>Due Dates and Fees</h4>
+					
+					
+					<div class="accordion" data-accordion>
+
+					  <div data-control>Can I make payments before my due date?</div>
+					  <div data-content>
+						  <p>Yes. In fact we recommend it. Our payment plans are designed to help you pay over time. If you want to pay more frequent than the established dates that's great.</p>
+					  </div>
+
+					</div><!-- end of accordion-->
+					
 					
 					<div class="accordion" data-accordion>
 
 					  <div data-control>What if I'm not able to pay by the due date?</div>
 					  <div data-content>
-						<p>Notify us immediately via our <a href="/contact.php">contact page</a> or call <strong>(888) 946-9655</strong>. Failure to do so may result in your account incurring a $35 late fee. If payment is not made 3 days after your package due date, your reservation will be cancelled and you will need to re-register if you decide to still attend the event.
+						  <p>Notify us immediately via our <a href="/contact.php">contact page</a> or call <a href="tel:888-946-9655"><strong>(888) 946-9655</strong></a>. Failure to do so may result in your account incurring a $35 late fee. If payment is not made 3 days after your package due date, your reservation will be cancelled and you will need to re-register if you decide to still attend the event.
                         </p>
 					  </div>
 
@@ -200,9 +242,9 @@ include 'includes/functions.inc.php';
 					
 					<div class="accordion" data-accordion>
 
-					  <div data-control>What is the registration fee and what is it for?</div>
+					  <div data-control>What is the Registration Fee and what is it for?</div>
 					  <div data-content>
-						<p>The registration fee is a mandatory nonrefundable/nontransferable fee charged to hold/reserve an event package, current package price, and availability until your first payment is due.</p>
+						<p>The Registration Fee is a mandatory nonrefundable/nontransferable fee charged to hold/reserve an event package, current package price, and availability until your first payment is due.</p>
 							<p>This fee is in addition to your overall package price. Every person within a group must pay the Registration Fee. It is not mandatory that all registration payments are paid at once. Everyone in the group must pay their Registration fee within 7 days of the initial payment.</p> 
 							<p>Any payment made after 7 days of the initial Registration Fee will be booked and receive pricing/amenities at market value.</p>
 					  </div>
@@ -212,15 +254,63 @@ include 'includes/functions.inc.php';
 					
 					<div class="accordion" data-accordion>
 
-					  <div data-control>Are there any other mandatory fees associated with my package? </div>
+					  <div data-control>Must the entire group pay the Registration Fee?</div>
 					  <div data-content>
-						<p>The Registration Fee is the only required fee before purchasing a package. Penalty fees are incurred if payments are delinquent.</p>
+						<p>Yes. All prices are per person. The Registration Fee secures your spot for the event and is independent from the package price.</p>
 					  </div>
 
 					</div><!-- end of accordion-->
 					
 					
 					
+					<div class="accordion" data-accordion>
+
+					  <div data-control>Why is the Registration non-refundable?</div>
+					  <div data-content>
+						  	<p>We are providing you with a service. This means:</p>
+						  	<ul>
+								<li>We take packages out of inventory, in good faith, on a lay-a-way basis.</li>
+								<li>We provide a system for single/multiple payments that allows everyone in your party to use their own credit/debit cards.</li>
+								<li>We provide package details clearly and concisely, so that everyone will know what is required, without ambiguity.</li>
+						    </ul>
+					  </div>
+
+					</div><!-- end of accordion-->
+					
+					
+					<div class="accordion" data-accordion>
+
+					  <div data-control>Does the price take care of hotel reservation for all 4 members in either package or only one person?</div>
+					  <div data-content>
+						<p>All prices listed are per person. Under the package prices description, all amenities included in your package are per person and includes one (1) room per group.</p>
+					  </div>
+
+					</div><!-- end of accordion-->
+					
+					
+					<div class="accordion" data-accordion>
+
+					  <div data-control>Your prices listed are only for up to four people max? Can you accommodate groups larger than four?</div>
+					  <div data-content>
+						<p>Yes, we can accommodate any size group, but due to hotel regulations the max occupancy per room is four. This is why you see pricing for up to four people.</p>
+					  </div>
+
+					</div><!-- end of accordion-->
+					
+					
+					<div class="accordion" data-accordion>
+
+					  <div data-control>Are there any other mandatory fees associated with my package? </div>
+					  <div data-content>
+						<p>The Registration Fee is the only mandatory payment before purchasing a package. Penalty fees are incurred if payments are delinquent.</p>
+					  </div>
+
+					</div><!-- end of accordion-->
+					
+					
+					<!-- 
+					---------------------- Refunds ----------------------
+					-->
 					
 					
 					<h4>Refunds and Cancellations</h4>
@@ -229,7 +319,7 @@ include 'includes/functions.inc.php';
 
 					  <div data-control>I paid in full, what is the refund policy?</div>
 					  <div data-content>
-						<p>Any client paying in full, at first booking, are still subject to our first and final payment policies. Registration fee and first payment are non-refundable.</p>
+						<p>Any client paying in full, at first booking, are still subject to our first and final payment policies. The Registration Fee and First payment are non-refundable.</p>
 					  </div>
 
 					</div><!-- end of accordion-->
@@ -240,10 +330,10 @@ include 'includes/functions.inc.php';
 					  <div data-control>How do I cancel?</div>
 					  <div data-content>
 						<ul>
-							<li>All cancellations have to be submitted in writing to our office.</li>
-							<li>60 days or more before event, payment is non-refundable;</li>
+							<li>All cancellations must be submitted in writing to our office.</li>
+							<li>If cancelling 60 days or more before event, payment is non-refundable;</li>
 							<li>In-house credit can be used within one year on a future travel package.</li>
-							<li>Registration Fee and First scheduled payment is non-refundable and non-transferable.</li>
+							<li>Registration Fee and First scheduled payment is non-refundable and non-transferable. No Exceptions.</li>
 							<li>Cancellations less than 60 days prior to departure are non-refundable/non-transferable.</li>
 						</ul>
 					  </div>
@@ -253,34 +343,17 @@ include 'includes/functions.inc.php';
 					
 					<div class="accordion" data-accordion>
 
-					  <div data-control>If members of my group cancel or I change my mind, what are my options?</div>
+					  <div data-control>If a member of my group wants to cancel or I change my mind, what are my options?</div>
 					  <div data-content>
 						<ol>
-							<li>A price adjustment will incur on the remaining group. Your final payment will be made based on the number of people still attending.</li>
-							<li>You are allowed to replace any member of the group that cancels; new members will need to pay the registration fee.</li>
-							<li>There are no contracts. You have the option to walk away and we hope to see you at our next event!</li>
+							<li>A price adjustment will incur on the remaining group members. Your final payment will be made based on the number of people still attending.</li>
+							<li>You are allowed to replace any member of the group that cancels; new members will need to pay the Registration Fee.</li>
 						</ol>
+						
+						  <p>There are no contracts. You have the option to walk away and we hope to see you at our next event!</p>
 					  </div>
 
 					</div><!-- end of accordion-->
-					
-					
-
-					
-					
-					<div class="accordion" data-accordion>
-
-					  <div data-control>How do I confirm my event package?</div>
-					  <div data-content>
-						<ul>
-							<li>You will be mailed your itinerary via USPS. </li>
-							<li>You should receive it within 7 days, after reserving your package.</li>
-							<li>You may also call (888) 946-9655 and speak with a rep who can confirm your package. </li>
-						</ul>
-					  </div>
-
-					</div><!-- end of accordion-->
-					
 					
 					
 					
@@ -294,24 +367,7 @@ include 'includes/functions.inc.php';
 
 					</div><!-- end of accordion-->
 					
-					
-					<div class="accordion" data-accordion>
 
-					  <div data-control>What forms of payment do you accept?</div>
-					  <div data-content>
-						<ul>
-							<li>Credit Card (Visa, MasterCard, American Express, and Discover) </li>
-							<li>Personal Check (not accepted for final payment)</li>
-							<li>Money Order or Cashiers Check </li>
-						</ul>
-						<p>For credit card payments, you can use our payment form for the event under the "Buy Now" tab, otherwise please provide a copy of valid state or government issued I.D, and a copy of the front and back of the credit card. This method of payment incurs a 4% processing fee. You will be contacted to verify information before card is processed.</p>
-					  </div>
-
-					</div><!-- end of accordion-->
-					
-					
-					
-					
 					
 					
 				</div><!-- end of data-accordion-group-->
