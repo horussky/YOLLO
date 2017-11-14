@@ -623,6 +623,34 @@ hr {
 	height: auto;
 }
 
+.close-x{
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+	
+	&:hover {
+  		opacity: 1;
+	}
+	
+	&:before, 
+	&:after {
+	  position: absolute;
+	  left: 15px;
+	  content: ' ';
+	  height: 33px;
+	  width: 2px;
+	  background-color: #333;
+	}
+	
+	&:before {
+	  transform: rotate(45deg);
+	}
+	&:after {
+	  transform: rotate(-45deg);
+	}
+}
+
+
 /*Remove Cognito Logo from Form*/
 .cognito form + div {
 	opacity: 0!important;
@@ -684,4 +712,19 @@ hr {
 .col-1 {
 	width: 8.33333333%
 }
+
+//container
+.container{
+	display: block;
+  	max-width: 100%!important;
+}
+
+@media only screen and (max-width: 767px) {
+	.container{
+		width:auto;
+		margin-left: 1em;
+		margin-right:1em;
+	}
+}
+
 

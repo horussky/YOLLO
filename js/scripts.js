@@ -2,6 +2,7 @@ $(document).ready(function () {
 
 
 	//Jquery Tabs
+		$("#tabs").show();
 		$("#tabs").tabs({
 
 
@@ -80,31 +81,20 @@ $(document).ready(function () {
 		/*fix breadcrumbs*/
 		$(".cognito .c-forms-form .c-progress-steps li:before").css({"border-radius":"0", "font-size": "1.6rem", "padding": "0"});
 
-		//scotch off canvas menu
-		//$(".event-nav-mobile").show();
-		/*$('.event-nav-mobile').scotchPanel({
-			containerSelector: 'body',
-			direction: 'right',
-			duration: 300,
-			transition: 'ease',
-			clickSelector: '.toggle-panel',
-			distanceX: '70%',
-			forceMinHeight: true,
-			enableEscapeKey: true
-        });*/
-		
-
 		/*mobile hamburger*/
 		$('#nav-icon, .site-overlay').click(function(){
 			$('#nav-icon').toggleClass('open');
 		});
 	
-
+		/*added x close btn to pushy and changes menu back to burger from X*/
+		$('.pushy-content .menu-btn').click(function(){
+			$('body').removeClass('pushy-open-right');
+			$('#nav-icon').removeClass('open');
+		}); 
+	
 });
 
 /* end of document.ready */
-
-
 
 
 

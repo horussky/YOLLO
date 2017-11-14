@@ -985,6 +985,24 @@ hr {
   max-width: 100%;
   height: auto; }
 
+.close-x {
+  width: 32px;
+  height: 32px;
+  opacity: 0.3; }
+  .close-x:hover {
+    opacity: 1; }
+  .close-x:before, .close-x:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333; }
+  .close-x:before {
+    transform: rotate(45deg); }
+  .close-x:after {
+    transform: rotate(-45deg); }
+
 /*Remove Cognito Logo from Form*/
 .cognito form + div {
   opacity: 0 !important;
@@ -1032,6 +1050,15 @@ hr {
 .col-1 {
   width: 8.33333%; }
 
+.container {
+  display: block;
+  max-width: 100% !important; }
+
+@media only screen and (max-width: 767px) {
+  .container {
+    width: auto;
+    margin-left: 1em;
+    margin-right: 1em; } }
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
  * Version: 2.0.2
@@ -7654,6 +7681,31 @@ footer a:hover {
     -webkit-transform: translateY(-50%) rotate(90deg);
     -ms-transform: translateY(-50%) rotate(90deg);
     transform: translateY(-50%) rotate(90deg); }
+
+/***************************
+CUSTOM
+***************************/
+.pushy-open-right .pushy {
+  position: fixed;
+  z-index: 99999999; }
+  .pushy-open-right .pushy .close-x {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: inline-block;
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    height: 2.4rem; }
+    .pushy-open-right .pushy .close-x:hover {
+      background: transparent; }
+    .pushy-open-right .pushy .close-x:after, .pushy-open-right .pushy .close-x:before {
+      right: .8rem;
+      top: .4rem;
+      margin: 0;
+      height: 2.4rem; }
+
+.pushy-open-right .header {
+  z-index: 1; }
 
 .unslider {
   overflow: auto;

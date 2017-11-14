@@ -234,56 +234,100 @@ include 'includes/functions.inc.php';
                     <div id="tabs-3">
 
                         <h3>Frequently Asked Questions</h3>
-                        <div id="accordion" class="nodisp">
+                        
+                        <div data-accordion-group>	
+										
+							<div class="accordion open" data-accordion>
 
-                                <section>
-                                        <h2>Does the price listed take care of hotel reservations for all members in either the Diamond or Emerald package or only one person? <span></span></h2>
-                                        <p>All prices listed are per person. Under the package prices description, all amenities included in your package are per person and includes one (1) room for the group.</p>
-                                </section>
+							  <div data-control>Does the price listed take care of hotel reservations for all members in either the Diamond or Emerald package or only one person?</div>
+							  <div data-content>
+								<p>All prices listed are per person. Under the package prices description, all amenities included in your package are per person and includes one (1) room for the group.</p>
+							  </div>
 
-                                <section>
-                                        <h2>How many concert tickets are included in the package for my group? <span></span></h2>
-                                        <p>The package includes tickets for both nights of the concerts! That's right you get to attend both nights and its all included in the package price. If you don't plan on attending both nights you can give away or sell the additional night ticket.</p>
-                                </section>
+							</div><!-- end of accordion-->
+							
+							
+							<div class="accordion" data-accordion>
 
-                                <section>
-                                        <h2>What are the payment due dates for Cincinnati Music Festival Packages? <span></span></h2>
-                                        <p>To reserve a package each group member pays the $19.99 per person fee. The first payment of $125 is due on or before <strong>November 15, 2017</strong>. The final payment (remaining balance) is due on or before <strong>February 20, 2018</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
-                                </section>
+							  <div data-control>How many concert tickets are included in the package for my group?</div>
+							  <div data-content>
+								<p>The package includes tickets for both nights of the concerts! That's right you get to attend both nights and its all included in the package price. If you don't plan on attending both nights you can give away or sell the additional night ticket.</p>
+							  </div>
 
-                                <section>
-                                        <h2>What cities will the bus depart from? <span></span></h2>
-                                        <p>Montgomery, Birmingham, and Huntsville, AL! Don't see you city or state listed? Email us and let's see what we can work out!</p>
-                                </section>
+							</div><!-- end of accordion-->
+							
+							
+							<div class="accordion" data-accordion>
 
-                                <section>
-                                        <h2>Where will we be staying that weekend? <span></span></h2>
-                                        <p>The Holiday Inn Cincinnati Riverfront has been selected as the host hotel for this wonderful event!</p>
-                                </section>
+							  <div data-control>What are the payment due dates for Cincinnati Music Festival Packages?</div>
+							  <div data-content>
+								<p>To reserve a package each group member pays the $19.99 per person fee. The first payment of $125 is due on or before <strong>November 15, 2017</strong>. The final payment (remaining balance) is due on or before <strong>February 20, 2018</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
+							  </div>
 
-                                <section>
-                                        <h2>Where is the cruise being held? <span></span></h2>
-                                        <p>The cruise is being hosted on the River Queen Riverboat. The cruise is located at BB Riverboats, 101 Riverboat Row, Newport, KY 41071</p>
-                                </section>
+							</div><!-- end of accordion-->
+							
+							
+							<div class="accordion" data-accordion>
 
-                                <section>
-                                        <h2>Can I purchase tickets to the cruise independent of the hotel package deal? <span></span></h2>
-                                        <p>Yes, Yes, and Yes! Just follow the same booking procedures as you would if booking the hotel package.</p>
-                                </section>
+							  <div data-control>What cities will the bus depart from?</div>
+							  <div data-content>
+								<p>Montgomery, Birmingham, and Huntsville, AL! Don't see you city or state listed? Email us and let's see what we can work out!</p>
+							  </div>
 
-                                <section>
-                                        <h2>What time does the cruise start and how much does it cost? <span></span></h2>
-                                        <p>The cruise will sail from 1:30 pm - 4:00 pm, however boarding begins at 1:00 pm. The cost of the cruise is $40 for General Admission and $95 for VIP. VIP grants no line waiting entrance, Open bar, and light food during the cruise.</p>
-                                </section>
+							</div><!-- end of accordion-->
+							
+							
+							<div class="accordion" data-accordion>
 
-                                <section>
-                                        <h2>Does the price take care of hotel reservation for all 4 members in either Diamond or Emerald package or only one person? <span></span></h2>
-                                        <p>All prices listed are per person. Under the package prices description, all amenities included in your package is what's included per person.</p>
-                                </section>
+							  <div data-control>Where will we be staying that weekend?</div>
+							  <div data-content>
+								<p>The Holiday Inn Cincinnati Riverfront has been selected as the host hotel for this wonderful event!</p>
+							  </div>
 
+							</div><!-- end of accordion-->
+							
+							
+							<div class="accordion" data-accordion>
 
+							  <div data-control>Where is the cruise being held?</div>
+							  <div data-content>
+								<p>The cruise is being hosted on the River Queen Riverboat. The cruise is located at BB Riverboats, 101 Riverboat Row, Newport, KY 41071</p>
+							  </div>
 
-                        </div><!-- accordion -->
+							</div><!-- end of accordion-->
+							
+							<div class="accordion" data-accordion>
+
+							  <div data-control>Can I purchase tickets to the cruise independent of the hotel package deal?</div>
+							  <div data-content>
+								<p>Yes! Just follow the same booking procedures as you would if booking the hotel package.</p>
+							  </div>
+
+							</div><!-- end of accordion-->
+							
+							
+							<div class="accordion" data-accordion>
+
+							  <div data-control>What time does the cruise start and how much does it cost?</div>
+							  <div data-content>
+								<p>The cruise will sail from 1:30 pm - 4:00 pm, however boarding begins at 1:00 pm. The cost of the cruise is $40 for General Admission and $95 for VIP. VIP grants no line waiting entrance, Open bar, and light food during the cruise.</p>
+							  </div>
+
+							</div><!-- end of accordion-->
+							
+							
+							<div class="accordion" data-accordion>
+
+							  <div data-control>Does the price take care of hotel reservation for all 4 members in either Diamond or Emerald package or only one person?</div>
+							  <div data-content>
+								<p>All prices listed are per person. Under the package prices description, all amenities included in your package is what's included per person.</p>
+							  </div>
+
+							</div><!-- end of accordion-->
+							
+							
+						</div><!-- end of accordion group-->
+
 
             		</div> <!-- end of Tab 3 -->
 

@@ -240,29 +240,44 @@ include 'includes/functions.inc.php';
 								<div id="tabs-3">
 
 									<h3>Frequently Asked Questions</h3>
-									<div id="accordion" class="nodisp">
+									
+									<div data-accordion-group>	
+										
+										<div class="accordion open" data-accordion>
 
-											<section>
-													<h2>When are the payments due? <span></span></h2>
-													<p>After registration the first payment of $125 is due November 08, 2017. The final payment (remaining balance) is due on or before January 10, 2018.</p>
-											</section>
+										  <div data-control>When are the payments due?</div>
+										  <div data-content>
+											<p>After registration the first payment of $125 is due November 29, 2017. The final payment (remaining balance) is due on or before January 10, 2018.</p>
+										  </div>
 
-											<section>
-													<h2>Can I make payments before my due date? <span></span></h2>
-													<p>Yes. All prices are per person. The reservation fee secures your spot on the package, and is independent from the package price.</p>
-											</section>
+										</div><!-- end of accordion-->
 
-											<section>
-													<h2>Must the entire group pay the $19.99 Reservation fee? <span></span></h2>
-													<p>A celebrity party ticket is a party that will be hosted by some of the biggest names in movie, music, sports, and entertainment.  Past celebrities whom have hosted parties have been the likes of P. Ditty, Mary J. Blige, Jamie Foxx, and Kevin Durant. Who knows who will host parties at this annual sporting event that draws thousands from all over the globe.</p>
-											</section>
 
-											<section>
-													<h2>Does the price take care of hotel reservation for all 4 members in either package or only one person? <span></span></h2>
-													<p>All prices listed are per person. Under the package prices description, all amenities included in your package is what's included per person.  That means the group will share one room, but receive individual party passes and other amenities included in the package. </p>
-											</section>
+										<div class="accordion" data-accordion>
 
-									</div><!-- accordion -->
+										  <div data-control>Can I make payments before my due date?</div>
+										  <div data-content>
+											<p>Yes. Our payment plans are designed to help you pay over time. If you want to pay more frequent than the established dates that's great.</p>
+										  </div>
+
+										</div><!-- end of accordion-->
+
+
+										<div class="accordion" data-accordion>
+
+										  <div data-control>Does the price take care of hotel reservation for all 4 members in either package or only one person?</div>
+										  <div data-content>
+											<p>All prices listed are per person. Under the package prices description, all amenities included in your package is what's included per person.  That means the group will share one room, but receive individual party passes and other amenities included in the package. </p>
+										  </div>
+
+										</div><!-- end of accordion-->
+
+
+
+
+									</div><!-- end of accordion group-->
+									
+
 
 				        </div> <!-- end of Tab 3 -->
 

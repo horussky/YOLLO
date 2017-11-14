@@ -242,58 +242,103 @@
             <!-- end of tabs 2 -->
             
             <div id="tabs-3">
-              <div id="accordion" class="nodisp">
-                <section>
-                  <h2>When are the payments due? <span></span></h2>
-                  <p>After registration the 1st payment of $50 is due on or before due August 06, 2017. The second and final payment is due September 08, 2017.</p>
-                </section>
-                <section>
-                  <h2>Can I make payments before my due date? <span></span></h2>
-                  <p>Absolutely! Our payment plans are designed to help you pay over time. If you want to pay more frequent than the established dates that's great.</p>
-                </section>
-                <section>
-                  <h2>What would you recommend for parking on gameday? <span></span></h2>
-                  <p> Gameday parking is extremely limited at Legion Filed and the price is $20 per vehicle in most cases. We recommend utilizing the shuttle system from one of three convenient locations for areas near you. Parking at each of the three convenient locations is FREE, and a round trip shuttle ride is just $5 per person (ages 10 and under are free).</p>
-                </section>
-                <section>
-                  <h2>Which team is the home team? <span></span></h2>
-                  <p> Home team honors alternate each year between Alabama State and Alabama A&amp;M.  Alabama State will be the home team for 2017! Regardless of home team, ASU bench is always on the east side and AAMU is on the west side of the stadium.</p>
-                </section>
-                <section>
-                  <h2>When do they start selling tailgating spots? <span></span></h2>
-                  <p>Legion Field controls all tailgating which includes RV and tent spaces. The time when spaces will be available for purchase has not been determined.  For all questions regarding tailgating please contact 205-254-2391.</p>
-                </section>
-                <section>
-                  <h2>How do I lock in the prices and amenities advertised today? <span></span></h2>
-                  <p>It only takes $19.99 to lock in your spot today! It's that simple!</p>
-                </section>
-                <section>
-                  <h2>What is Legion Field bag policy and what items are prohibited? <span></span></h2>
-                  <p>All bags must be clear. Prohibited items includeWeapons of any kind, umbrellas, purses and bags larger than 1"x4.5"x6.5", non-see thru cinch bags, diaper bags, fanny packs, backpacks, briefcases, computer bags, luggage (all types), seat cushions with compartments, selfie sticks, tripods, video cameras and recorders, cameras with 12" lenses or greater, all camera cases, remote controlled drones or devices, tobacco products of any kind, cigarettes and e-cigarettes, illegal drugs, alcoholic beverages, outside food or drinks, fireworks and smoke producing devices, all types of radios, all animals (except certified, leashed service animals), helium filled balloons, inflated balls, frisbees, rollerblades, heelies, skateboards and scooters, *any other item deemed dangerous or inappropriate by staff. VIOLATION OF THIS POLICY WILL BE SUBJECT TO EJECTION WITHOUT REFUND. </p>
-                </section>
-                <section>
-                  <h2>Is there an ATM located at the stadium? <span></span></h2>
-                  <p>An ATM will be provided by Regions Bank and will be located on the south side of the stadium.</p>
-                </section>              
-                <section>
-                  <h2>Must the entire group pay the $19.99 reservation fee? <span></span></h2>
-                  <p>Yes. All prices are per person. The reservation fee secures your spot on the package, and is independent from the package price.</p>
-                </section>
-                <section>
-                  <h2>Does the price take care of hotel reservation for all 4 members in either package or only one person? <span></span></h2>
-                  <p>All prices listed are per person. Under the package prices description, all amenities included in your package is what's included per person. That means the group will share one room, but receive individual party passes and other amenities included in the package.</p>
-                </section>
-              </div>
-              <!-- ./accordion --> 
+				<h3>Frequently Asked Questions</h3>
+             	
+             	<div data-accordion-group>	
+										
+					<div class="accordion open" data-accordion>
+
+					  <div data-control>When are the payments due?</div>
+					  <div data-content>
+						<p>After registration the 1st payment of $50 is due on or before due August 06, 2017. The second and final payment is due September 08, 2017.</p>
+					  </div>
+
+					</div><!-- end of accordion-->
+
+
+					<div class="accordion" data-accordion>
+
+					  <div data-control>Can I make payments before my due date?</div>
+					  <div data-content>
+						<p>Yes. Our payment plans are designed to help you pay over time. If you want to pay more frequent than the established dates that's great.</p>
+					  </div>
+
+					</div><!-- end of accordion-->
+
+
+					<div class="accordion" data-accordion>
+
+					  <div data-control>What would you recommend for parking on gameday?</div>
+					  <div data-content>
+						<p> Gameday parking is extremely limited at Legion Filed and the price is $20 per vehicle in most cases. We recommend utilizing the shuttle system from one of three convenient locations for areas near you. Parking at each of the three convenient locations is FREE, and a round trip shuttle ride is just $5 per person (ages 10 and under are free).</p>
+					  </div>
+
+					</div><!-- end of accordion-->
+
+
+					<div class="accordion" data-accordion>
+
+					  <div data-control>Which team is the home team?</div>
+					  <div data-content>
+						<p> Home team honors alternate each year between Alabama State and Alabama A&amp;M.  Alabama State will be the home team for 2017! Regardless of home team, ASU bench is always on the east side and AAMU is on the west side of the stadium.</p>
+					  </div>
+
+					</div><!-- end of accordion-->
+
+
+					<div class="accordion" data-accordion>
+
+					  <div data-control>When do they start selling tailgating spots?</div>
+					  <div data-content>
+						<p>Legion Field controls all tailgating which includes RV and tent spaces. The time when spaces will be available for purchase has not been determined.  For all questions regarding tailgating please contact 205-254-2391.</p>
+					  </div>
+
+					</div><!-- end of accordion-->
+
+
+					<div class="accordion" data-accordion>
+
+					  <div data-control>What is Legion Field bag policy and what items are prohibited?</div>
+					  <div data-content>
+						<p>All bags must be clear. Prohibited items includeWeapons of any kind, umbrellas, purses and bags larger than 1"x4.5"x6.5", non-see thru cinch bags, diaper bags, fanny packs, backpacks, briefcases, computer bags, luggage (all types), seat cushions with compartments, selfie sticks, tripods, video cameras and recorders, cameras with 12" lenses or greater, all camera cases, remote controlled drones or devices, tobacco products of any kind, cigarettes and e-cigarettes, illegal drugs, alcoholic beverages, outside food or drinks, fireworks and smoke producing devices, all types of radios, all animals (except certified, leashed service animals), helium filled balloons, inflated balls, frisbees, rollerblades, heelies, skateboards and scooters, *any other item deemed dangerous or inappropriate by staff. VIOLATION OF THIS POLICY WILL BE SUBJECT TO EJECTION WITHOUT REFUND. </p>
+					  </div>
+
+					</div><!-- end of accordion-->
+
+					<div class="accordion" data-accordion>
+
+					  <div data-control>Is there an ATM located at the stadium?</div>
+					  <div data-content>
+						<p>An ATM will be provided by Regions Bank and will be located on the south side of the stadium.</p>
+					  </div>
+
+					</div><!-- end of accordion-->
+
+
+					<div class="accordion" data-accordion>
+
+					  <div data-control>Must the entire group pay the $19.99 reservation fee?</div>
+					  <div data-content>
+						<p>Yes. All prices are per person. The reservation fee secures your spot on the package, and is independent from the package price.</p>
+					  </div>
+
+					</div><!-- end of accordion-->
+
+
+
+				</div><!-- end of accordion group-->
+             
               
             </div>
             <!-- end of tabs 3 -->
+            
             
             <div id="tabs-4">
               <h3>Classic Weekend</h3>
               <div id="nanoGallery"></div>
             </div>
             <!-- end of tabs 4 -->
+            
             
             <div id="tabs-5">
              	<h3>Buy Now</h3>

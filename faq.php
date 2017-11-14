@@ -185,6 +185,16 @@ include 'includes/functions.inc.php';
 					
 					<div class="accordion" data-accordion>
 
+					  <div data-control>How do I make additional payments on my account? </div>
+					  <div data-content>
+						<p>You follow the same procedure as you did for registration. You will select the Partial Payment option under package options. You can then pay one of the default options or create a custom payment. Custom Payments will allow you to pay the remainder of your balance.</p>
+					  </div>
+
+					</div><!-- end of accordion-->
+					
+					
+					<div class="accordion" data-accordion>
+
 					  <div data-control>Is YOLLO Group Services an accredited travel agency?</div>
 					  <div data-content>
 						<p>Yes. YOLLO Group Services is accredited by <a title="International Airlines Travel Agent Network affiliate" href="http://www.iatan.org" target="_blank">International Airlines Travel Agent Network</a> (IATAN), the world's leader in certification of travel companies, and the <a title="CLIA" href="http://www.cruising.org/" target="_blank">Cruise Lines International Association</a> (CLIA).</p>
