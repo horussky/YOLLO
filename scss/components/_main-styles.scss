@@ -713,11 +713,25 @@ hr {
 	width: 8.33333333%
 }
 
+
+ 
 //container
+
+.container-fluid{
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+   
 .container{
 	display: block;
-  	max-width: 100%!important;
-}
+  	max-width: 1200px;
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; 
+}  
 
 @media only screen and (max-width: 767px) {
 	.container{
@@ -726,5 +740,3 @@ hr {
 		margin-right:1em;
 	}
 }
-
-
