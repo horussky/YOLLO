@@ -1,21 +1,25 @@
 <!-- Load JQuery -->
 <script src="js/jquery-2.2.4.js"></script>
+<!--<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>-->
 <script src="js/jquery-ui.min.js"></script>
 
 <!-- Load Other Scripts -->
 <script src="js/jquery.fancybox.js"></script>
 <script src="js/jquery.prettyPhoto.js"></script>
-<!--<script src="js/scotchPanels.min.js"></script>-->
 <script src="js/jquery.nanogallery.min.js" ></script>
 <script src="js/pushy.min.js"></script>
 <script src="js/scripts-min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+<script src="js/jquery.accordion.js"></script>
 
 <script>
 	$(function(){
-		if($("#accordion section h2.active").length){
-			$("#accordion section").addClass("active-section");
-		} 
+		
+		//accordion
+		$('[data-accordion-group] [data-accordion]').accordion({
+    		"transitionSpeed": 400
+		});
+		
+		
 	});
 </script>
 

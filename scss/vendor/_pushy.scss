@@ -219,3 +219,40 @@ $menu_adjust: $menu_width - 10px;
         transform: translateY(-50%) rotate(90deg);
     }
 }
+
+
+/***************************
+CUSTOM
+***************************/
+.pushy-open-right .pushy{
+	
+	position: fixed;
+    z-index: 99999999;
+	
+	.close-x{
+		margin: 0!important;
+		padding: 0!important;
+		display: inline-block;
+		position: absolute;
+		right: 2rem;
+		top: 2rem;
+		height:2.4rem;
+		
+		&:hover{
+			background:transparent;
+		}
+		
+		&:after,
+		&:before{
+			right:.8rem;
+			top:.4rem;
+			margin:0;
+			height:2.4rem;
+		}
+	}
+	
+}
+
+.pushy-open-right .header{
+	z-index: 1;
+} 

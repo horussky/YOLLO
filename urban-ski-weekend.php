@@ -2,7 +2,7 @@
 if(!ob_start("ob_gzhandler")) ob_start();
 $event = array(
 	"title"						=>"Urban Ski Weekend 2018",
-	"subtitle"					=>"Book your package today!",
+	"subtitle"					=>"With Celebrity Host DJ Self of Love and Hip-Hop NY",
 	"location"					=>"Gatlinburg, Tennessee",
 	"date"						=>"February 2 - 5 2018",
 	"img_url"				 	=>"../../images/slides/splash-urban-ski-cta.jpg",
@@ -51,38 +51,38 @@ $people = array(
 $package_items = array(
 	"diamond_items" => array(
 		"4 Days / 3 Nights Hotel Accommodations"						=> "checked",
-		"Party Bus Access"																	=> "checked",
-		"The Best of the Best Fashion Shows"								=> "checked",
-		"6th Annual Winter White Party"											=> "checked",
-		"6th Annual \"LOL\" Comedy Show"										=> "checked",
-		"The Rep Your City Super Bowl Party"								=> "checked",
-		"Freaky Friday PJ Party"														=> "checked",
-		"Access To The Exclusive Super Lounges Each Night"	=> "checked",
-		"Access To The Love Jones Poets Corner Lounge"			=> "checked",
-		"The \"Mid-Night Mountain\" Indoor Pool Party"			=> "checked",
-		"Access To The Caribbean Lounge"										=> "checked",
-		"Access To The 80's & 90's Old School Lounge"				=> "checked",
-		"Tickets To All Additionally Added Events"					=> "checked",
-		"Breakfast Daily"																		=> "checked",
-		"YOLLO Gift Bag"																		=> "checked"
+		"Party Bus Access"												=> "checked",
+		"The Best of the Best Fashion Shows"							=> "checked",
+		"6th Annual Winter White Party"									=> "checked",
+		"6th Annual \"LOL\" Comedy Show"								=> "checked",
+		"The Rep Your City Super Bowl Party"							=> "checked",
+		"Freaky Friday PJ Party"										=> "checked",
+		"Access To The Exclusive Super Lounges Each Night"				=> "checked",
+		"Access To The Love Jones Poets Corner Lounge"					=> "checked",
+		"The \"Mid-Night Mountain\" Indoor Pool Party"					=> "checked",
+		"Access To The Caribbean Lounge"								=> "checked",
+		"Access To The 80's & 90's Old School Lounge"					=> "checked",
+		"Tickets To All Additionally Added Events"						=> "checked",
+		"Breakfast Daily"												=> "checked",
+		"YOLLO Gift Bag"												=> "checked"
 	),
 
 	"emerald_items" => array(
 		"4 Days / 3 Nights Hotel Accommodations"						=> "checked",
-		"Party Bus Access"																	=> "ex",
-		"The Best of the Best Fashion Shows"								=> "checked",
-		"6th Annual Winter White Party"											=> "checked",
-		"6th Annual \"LOL\" Comedy Show"										=> "checked",
-		"The Rep Your City Super Bowl Party"								=> "checked",
-		"Freaky Friday PJ Party"														=> "checked",
-		"Access To The Exclusive Super Lounges Each Night"	=> "checked",
-		"Access To The Love Jones Poets Corner Lounge"			=> "checked",
-		"The \"Mid-Night Mountain\" Indoor Pool Party"			=> "checked",
-		"Access To The Caribbean Lounge"										=> "checked",
-		"Access To The 80's & 90's Old School Lounge"				=> "checked",
-		"Tickets To All Additionally Added Events"					=> "checked",
-		"Breakfast Daily"																		=> "checked",
-		"YOLLO Gift Bag"																		=> "checked"
+		"Party Bus Access"												=> "ex",
+		"The Best of the Best Fashion Shows"							=> "checked",
+		"6th Annual Winter White Party"									=> "checked",
+		"6th Annual \"LOL\" Comedy Show"								=> "checked",
+		"The Rep Your City Super Bowl Party"							=> "checked",
+		"Freaky Friday PJ Party"										=> "checked",
+		"Access To The Exclusive Super Lounges Each Night"				=> "checked",
+		"Access To The Love Jones Poets Corner Lounge"					=> "checked",
+		"The \"Mid-Night Mountain\" Indoor Pool Party"					=> "checked",
+		"Access To The Caribbean Lounge"								=> "checked",
+		"Access To The 80's & 90's Old School Lounge"					=> "checked",
+		"Tickets To All Additionally Added Events"						=> "checked",
+		"Breakfast Daily"												=> "checked",
+		"YOLLO Gift Bag"												=> "checked"
 	),
 
 	"Hotel Only" =>"$525 (Weekend)"
@@ -255,67 +255,107 @@ include 'includes/functions.inc.php';
 
 
 
-										<div id="tabs-3">
+								<div id="tabs-3">
 
-											<h3>Frequently Asked Questions</h3>
-											<div id="accordion" class="nodisp">
+									<h3>Frequently Asked Questions</h3>
+									
+									<div data-accordion-group>	
+										
+										<div class="accordion open" data-accordion>
 
-													<section>
-															<h2>When are the payments due? <span></span></h2>
-															<p>Following registration the first payment of $125 is due on or before October 12, 2017. The final payment (remaining balance) is due on or before December 06, 2017.</p>
-													</section>
+										  <div data-control>When are the payments due?</div>
+										  <div data-content>
+											<p>Following registration the first payment of $125 is due on or before November 15, 2017. The final payment (remaining balance) is due on or before December 27, 2017.</p>
+										  </div>
+
+										</div><!-- end of accordion-->
 
 
-													<section>
-															<h2>What time will the bus depart from Atlanta? <span></span></h2>
-															<p>The bus will depart Atlanta at 1pm (EST) on Friday and return to Atlanta Monday at 4 pm (EST).</p>
-													</section>
+										<div class="accordion" data-accordion>
 
+										  <div data-control>What time will the bus depart from Atlanta?</div>
+										  <div data-content>
+											<p>The bus will depart Atlanta at 1pm (EST) on Friday and return to Atlanta Monday at 4 pm (EST).</p>
+										  </div>
 
-													<section>
-															<h2>What cities will the bus depart from? <span></span></h2>
-															<p>Montgomery, Birmingham, Huntsville, and Atlanta! Don't see you city or state listed? Email us and let's see what we can work out!</p>
-													</section>
-
-													<section>
-															<h2>What if I don't want to ski? <span></span></h2>
-															<p>While we encourage everyone to "at least try", since it is a "Ski Trip", YOU CAN try another excursion such as Lazer Tag, Ropes Challenge Course, Horse Back Riding, Shopping Excursions, Mountain Tours, Ice Skating and a few others. Regardless of what you do, you will still get everything else in the package and the exchange options will NOT over lap the other events. Its going to be fun for everyone.</p>
-													</section>
-
-													<section>
-															<h2>Does this trip include any transportation? <span></span></h2>
-															<p>Yes. Transportation is provided for this trip if you purchase our Diamond Package. If the party bus is not your thing then the Emerald Package was designed for YOU.</p>
-													</section>
-
-													<section>
-															<h2>Do I need a rental car? <span></span></h2>
-															<p>If you aren't on the party bus, YES, otherwise, no. Just hop on the party bus!</p>
-													</section>
-
-													<section>
-															<h2>What if I cancel a package? When will I receive a refund? <span></span></h2>
-															<p>Please click on our FAQ link located in the upper right corner for full details.</p>
-													</section>
-
-													<section>
-															<h2>What are some things you suggest I buy for this trip? <span></span></h2>
-															<p>Relaxed casual winter wear, sweaters,  thermal wears, ski gloves, ski bib, a hat, goggles or shades, swim wear, and a sexy classy black outfit</p>
-													</section>
-
-													<section>
-															<h2>Can I bring my children on this trip? <span></span></h2>
-															<p> Unfortunately no; this event includes all adult festivities and alcohol not meant for minors.</p>
-													</section>
-
-													<section>
-															<h2>Do I need any extra money? <span></span></h2>
-															<p> Yes, please bring money for parking on Saturday
-															and lunch on Saturday on the mountain, for shopping at the outlet malls and for your souvenirs.</p>
-													</section>
+										</div><!-- end of accordion-->
 
 
 
-											</div><!-- accordion -->
+										<div class="accordion" data-accordion>
+
+										  <div data-control>What cities will the bus depart from?</div>
+										  <div data-content>
+											<p>Birmingham, Huntsville, and Atlanta! Don't see you city or state listed? Email us and let's see what we can work out!</p>
+										  </div>
+
+										</div><!-- end of accordion-->
+
+
+										<div class="accordion" data-accordion>
+
+										  <div data-control>What if I don't want to ski?</div>
+										  <div data-content>
+											<p>While we encourage everyone to "at least try", since it is a "Ski Trip", YOU CAN try another excursion such as Lazer Tag, Ropes Challenge Course, Horse Back Riding, Shopping Excursions, Mountain Tours, Ice Skating and a few others. Regardless of what you do, you will still get everything else in the package and the exchange options will NOT over lap the other events. Its going to be fun for everyone.</p>
+										  </div>
+
+										</div><!-- end of accordion-->
+
+
+										<div class="accordion" data-accordion>
+
+										  <div data-control>Does this trip include any transportation?</div>
+										  <div data-content>
+											<p>Yes. Transportation is provided for this trip if you purchase our Diamond Package. If the party bus is not your thing then the Emerald Package was designed for YOU.</p>
+										  </div>
+
+										</div><!-- end of accordion-->
+
+
+										<div class="accordion" data-accordion>
+
+										  <div data-control>Do I need a rental car?</div>
+										  <div data-content>
+											<p>If you aren't on the party bus, YES, otherwise, no. Just hop on the party bus!</p>
+										  </div>
+
+										</div><!-- end of accordion-->
+
+
+										<div class="accordion" data-accordion>
+
+										  <div data-control>What are some things you suggest I buy for this trip?</div>
+										  <div data-content>
+											<p>Relaxed casual winter wear, sweaters,  thermal wears, ski gloves, ski bib, a hat, goggles or shades, swim wear, and a sexy classy black outfit</p>
+										  </div>
+
+										</div><!-- end of accordion-->
+
+
+										<div class="accordion" data-accordion>
+
+										  <div data-control>Do I need any extra money?</div>
+										  <div data-content>
+											<p> Yes, please bring money for parking on Saturday and lunch on Saturday on the mountain, for shopping at the outlet malls and for your souvenirs.</p>
+										  </div>
+
+										</div><!-- end of accordion-->
+
+										<div class="accordion" data-accordion>
+
+										  <div data-control>Can I bring my children on this trip?</div>
+										  <div data-content>
+											<p> No. This event includes all adult festivities and alcohol not meant for minors.</p>
+										  </div>
+
+										</div><!-- end of accordion-->
+
+
+
+
+									</div><!-- end of accordion group-->
+									
+							
 
 						        </div> <!-- end of Tab 3 -->
 

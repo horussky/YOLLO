@@ -2,6 +2,7 @@ $(document).ready(function () {
 
 
 	//Jquery Tabs
+		$("#tabs").show();
 		$("#tabs").tabs({
 
 
@@ -80,117 +81,20 @@ $(document).ready(function () {
 		/*fix breadcrumbs*/
 		$(".cognito .c-forms-form .c-progress-steps li:before").css({"border-radius":"0", "font-size": "1.6rem", "padding": "0"});
 
-		//scotch off canvas menu
-		//$(".event-nav-mobile").show();
-		/*$('.event-nav-mobile').scotchPanel({
-			containerSelector: 'body',
-			direction: 'right',
-			duration: 300,
-			transition: 'ease',
-			clickSelector: '.toggle-panel',
-			distanceX: '70%',
-			forceMinHeight: true,
-			enableEscapeKey: true
-        });*/
-		
-
 		/*mobile hamburger*/
 		$('#nav-icon, .site-overlay').click(function(){
 			$('#nav-icon').toggleClass('open');
 		});
 	
+		/*added x close btn to pushy and changes menu back to burger from X*/
+		$('.pushy-content .menu-btn').click(function(){
+			$('body').removeClass('pushy-open-right');
+			$('#nav-icon').removeClass('open');
+		}); 
 	
-	
-		
-	
-	
-	
-	//Acordion.js
-		/*
-		* Name : accordion.js
-		* Usage: Turn a set of nested elements into an accordion by passing in the id of a wrapper element. The html document must be structured in the following way, using unique HTML tags for each section, header and content:
-		* 	  Container element
-		* 	  Sub-container element for each item in the according - recommended tag: section
-		  Header element for each title in the accordion - recommended tag: h1
-		  Content element for each item in the accordion - recommended tag: p
-		  Close Sub-container
-		  Repeat sub-containers as often as required
-		  Close Container
-		  Eg. <div id="my_accordion"><section><h1>First item</h1><p>First item content</p></section><section><h1>Second item</h1><p>Second item content</p></section></div>
-		*/
-
-		var accordion = accordion || {
-			element: '',
-			init: function(el){
-				accordion.element = el;
-
-				groupElement = document.getElementById(el).childNodes[1].nodeName.toLowerCase();
-				headerElement = document.getElementById(el).childNodes[1].childNodes[1].nodeName.toLowerCase();
-				contentElement = document.getElementById(el).childNodes[1].childNodes[3].nodeName.toLowerCase();
-
-				accordion.addListener();
-			
-			},
-			clicked: function(obj){
-				if ($(obj).find("span").hasClass("open")){
-
-				} else {
-					$("#" + accordion.element + " " + groupElement + " " + headerElement + " span").removeClass("open");
-					$("#" + accordion.element + " " + groupElement + " " + headerElement + " span").addClass("closed");
-
-
-					$("#" + accordion.element + " " + groupElement + " " + contentElement).stop().slideUp();
-					$(obj).parent().find(contentElement).stop().slideDown();
-					$(obj).parent().find(headerElement + " span").addClass('open');
-					$(obj).parent().find(headerElement + " span").removeClass('closed');
-					
-					
-				}
-
-
-
-			},
-			addListener: function(){
-				$("#" + accordion.element + " " + groupElement + " " + headerElement).click(function(){
-					accordion.clicked(this);
-				});
-				
-				
-				
-			}
-		};
-	
-
-		$(document).ready(function(){
-			
-			
-			
-
-			accordion.init("accordion");
-
-			$("#accordion section:first-of-type span").addClass("open");
-			$("#accordion section span").not($("#accordion section:first-of-type span")).addClass("closed");
-			$("#accordion section:first-of-type h2").addClass("active");
-
-
-			$('#accordion h2').click(function(){
-				$('#accordion h2').removeClass("active");
-				$(this).addClass("active");
-			});
-			
-
-		});
-
-
-		//Display after Load
-		$("#accordion").show(); 
-		$("#tabs").show();
-
 });
 
 /* end of document.ready */
-
-
 
 
 

@@ -230,26 +230,40 @@
 
                        <div id="tabs-3">
                        		<h3>Frequently Asked Questions</h3>
-                       		<div id="accordion" class="nodisp">
+                       		
+                       		<div data-accordion-group>	
+										
+								<div class="accordion open" data-accordion>
 
-                                <section>
-                                    <h2>When are the payments due? <span></span></h2>
-                                    <p>After registration the 1st payment is due on or before due February 09, 2017. The second and final payment is due March 06, 2017.</p>
-                                </section>
+								  <div data-control>When are the payments due?</div>
+								  <div data-content>
+									<p>After registration the 1st payment is due on or before due February 09, 2017. The second and final payment is due March 06, 2017.</p>
+								  </div>
 
-                                <section>
-                                    <h2>How do I pay? <span></span></h2>
-                                    <p>Complete the form and the next steps to the right of the page. You will receive a welcome letter within 7 business days with all your reservation information.</p>
-                                </section>
-
-                                <section>
-                                    <h2>Do I need any extra money? <span></span></h2>
-                                    <p>Yes, please bring money for shopping at the malls and for your souvenirs. Also, you will need money for beach activities i.e. parasail, jet ski, etc.</p>
-                                </section>
+								</div><!-- end of accordion-->
 
 
+								<div class="accordion" data-accordion>
 
-                            </div><!-- accordion -->
+								  <div data-control>How do I pay?</div>
+								  <div data-content>
+									<p>Complete the form and the next steps to the right of the page. You will receive a welcome letter within 7 business days with all your reservation information.</p>
+								  </div>
+
+								</div><!-- end of accordion-->
+								
+								
+								<div class="accordion" data-accordion>
+
+								  <div data-control>Do I need any extra money?</div>
+								  <div data-content>
+									<p>Yes, please bring money for shopping at the malls and for your souvenirs. Also, you will need money for beach activities i.e. parasail, jet ski, etc.</p>
+								  </div>
+
+								</div><!-- end of accordion-->
+					   
+					   
+						   </div><!-- end of accordion group-->
 
 
                        </div> <!-- End of Tab 3-->

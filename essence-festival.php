@@ -53,7 +53,7 @@
 		"diamond_items" => array(
 			"Hotel Accommodations (Fri-Sun)"			=> "checked",
 			"One night concert ticket (Lodge Section)"	=> "checked",
-			"All White Mid-Day Boat Cruise "			=> "checked",
+			"All White Boat Cruise "			=> "checked",
 			"Mid-Day Comedy Show (Sunday)"				=> "checked",
 			"Fashion Show (Sunday)"				=> "checked",
 			"Speak Easy Poetry Show (Sunday)"				=> "checked",
@@ -67,7 +67,7 @@
 		"emerald_items" => array(
 			"Hotel Accommodations (Fri-Sun)"			=> "checked",
 			"One night concert ticket (Lodge Section)"	=> "ex",
-			"All White Mid-Day Boat Cruise "			=> "ex",
+			"All White Boat Cruise "			=> "ex",
 			"Mid-Day Comedy Show (Sunday)"				=> "checked",
 			"Fashion Show (Sunday)"				=> "checked",
 			"Speak Easy Poetry Show (Sunday)"				=> "checked",
@@ -257,87 +257,163 @@
 
                         <div id="tabs-3">
 					    <h3>Frequently Asked Questions</h3>
-                         	<div id="accordion" class="nodisp">
+                       	
+                       	<div data-accordion-group>	
+										
+							<div class="accordion open" data-accordion>
 
-                                <section>
-                                    <h2>Does the price listed take care of hotel reservations for all members in either the Diamond or Emerald package or only one person? <span></span></h2>
-                                    <p>All prices listed are per person. Under the package prices description, all amenities included in your package are per person and includes one (1) room for the group.</p>
-                                </section>
+							  <div data-control>Does the price listed take care of hotel reservations for all members in either the Diamond or Emerald package or only one person?</div>
+							  <div data-content>
+								<p>All prices listed are per person. Under the package prices description, all amenities included in your package are per person and includes one (1) room for the group.</p>
+							  </div>
 
-
-                                <section>
-                                    <h2>How is the one night concert ticket chosen for my group? <span></span></h2>
-                                    <p>After Essence releases the performer’s lineup we send an email notifying everyone of the daily lineups. Each person in the group has the freedom to choose which night they would like to attend. In the event we don’t hear from anyone in the group we will secure Saturday night tickets for the group or group members whom haven’t confirmed their concert night.</p>
-                                </section>
-
-                                <section>
-                                    <h2>What are the payment due dates for Essence Packages? <span></span></h2>
-                                    <p>To reserve a package each group member pays the $19.99 per person fee. The first payment of $125 is due on or before September 6, 2017. The final payment (remaining balance) is due on or before January 10, 2018. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by cliocking on the BUY NOW tab above and following the prompts.</p>
-                                </section>
-
-                                <section>
-                                    <h2>Your prices listed are only for up to four people max? Can you accommodate groups larger than four? <span></span></h2>
-                                    <p>Yes, we can accommodate any size group, but due to hotel regulations the max occupancy per room is four. This why you see pricing up to four.</p>
-                                </section>
-                                
-                                <section>
-                                    <h2>Can I purchase additional concert nights? <span></span></h2>
-                                    <p>Yes, additonal night concert tickets are $150 per night. Just let us know and we can add it to your invoice.</p>
-                                </section>
-                                                                               
-                                <section>
-                                    <h2>Are there restrictions to what I can bring into the Superdome? <span></span></h2>
-                                    <p>The following items are prohibited: animals (with the exception of service dogs), backpacks/knapsacks, banners, containers of any kind, contraband, glass, laser pointers, noise makers, projectiles, sticks, bats, poles or clubs; video and audio recording devices with lenses that are longer than six (6) inches); weapons of any kind and other items deemed inappropriate by SMG/Landmark</p>
-                                </section>
-
-                                <section>
-                                    <h2>Will there be any bag checks at the event? <span></span></h2>
-                                    <p>Yes, all large bags will be thoroughly checked upon entry to all venues, including the Superdome, Convention Center and many other locations held during the weekend events.</p>
-                                </section>
-
-<section>
-                                    <h2>Do you offer transportation for/with your travel packages? <span></span></h2>
-                                    <p>Unfortunately, we do not provide any transportation options for Essence Weekend. Transportation is the responsibility of the client for this event.</p>
-                                </section>
-
-<section>
-                                    <h2>How do I make my first payment?  <span></span></h2>
-                                    <p>You follow the same procedure as you did for registration. You will select the First Payment option under package options. </p>
-                                </section>
-                                
-                                <section>
-                                    <h2>How do I make additional payments on my account?  <span></span></h2>
-                                    <p>You follow the same procedure as you did for registration. You will select the Partial Payment option under package options.</p>
-                                </section>                             
-
-<section>
-                                    <h2>How does the complimentary night work? <span></span></h2>
-                                    <p>Your base package includes check-in on Friday with check-out on Sunday. If you make your first payment ($125) on time you earn the complimentary night. You can use it to arrive a day early on Thursday or depart a day later on Monday.</p>
-                                </section> 
-
-                                <section>
-                                    <h2>What kind of access do I get with my concert ticket? <span></span></h2>
-                                    <p>With your concert ticket, you gain entry into the Louisiana Superdome. You will have a designated seat to experience the Main Stage performances. Once you are in the Superdome, you can experience all the performances that night in the Superlounges on the Lounge level for no additional fee or ticket. Everyone MUST have a ticket to get into the Superdome.</p>
-                                </section>
-
-                                <section>
-                                    <h2>If I wait until the lineup is complete before I book my hotel room will you still have packages available? <span></span></h2>
-                                    <p>In most cases you will be out of luck! This event breaks attendance records every year. Some people may attend the festival for the concerts, while others may attend for the surrounding activities and mingling opportunities. Regardless, you will need to book your package now. With our payment plans it helps you to reserve your package today and pay over time.</p>
-                                </section>
-
-                                <section>
-                                    <h2>Must the entire group pay the $19.99 Reservation fee? <span></span></h2>
-                                    <p>Yes. All prices are per person. The Reservation fee secures your spot on the package, and is separate from the package price.</p>
-                                </section>
+							</div><!-- end of accordion-->
 
 
+							<div class="accordion" data-accordion>
 
-                                <section>
-                                    <h2>What is included with V.I.P. vs V.V.I.P admission to the Boat Party? <span></span></h2>
-                                    <p>V.I.P. tickets are general admission tickets to the cruise and only cover entrance to the cruise with no food or drinks included. V.V.I.P. includes a speedy admission onto the boat party, delicious food, and an open bar to get you right all while partying on the boat. Our packages include the V.I.P ticket. You can upgrade to the V.V.I.P. ticket for an additional $55 per person. The V.V.I.P. option is SOLD OUT!</p>
-                                </section>
+							  <div data-control>How is the one night concert ticket chosen for my group?</div>
+							  <div data-content>
+								<p>After Essence releases the performer’s lineup we send an email notifying everyone of the daily lineups. Each person in the group has the freedom to choose which night they would like to attend. In the event we don’t hear from anyone in the group we will secure Saturday night tickets for the group or group members whom haven’t confirmed their concert night.</p>
+							  </div>
 
-                            </div><!-- ./accordion -->
+							</div><!-- end of accordion-->
+
+
+							<div class="accordion" data-accordion>
+
+							  <div data-control>What are the payment due dates for Essence Packages?</div>
+							  <div data-content>
+								<p>To reserve a package each group member pays the $19.99 per person fee. The first payment of $125 is due on or before January 14, 2018. The final payment (remaining balance) is due on or before March 13, 2018. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by cliocking on the BUY NOW tab above and following the prompts.</p>
+							  </div>
+
+							</div><!-- end of accordion-->
+
+
+							<div class="accordion" data-accordion>
+
+							  <div data-control>Your prices listed are only for up to four people max? Can you accommodate groups larger than four?</div>
+							  <div data-content>
+								<p>Yes, we can accommodate any size group, but due to hotel regulations the max occupancy per room is four. This why you see pricing up to four.</p>
+							  </div>
+
+							</div><!-- end of accordion-->
+
+
+							<div class="accordion" data-accordion>
+
+							  <div data-control>Can I purchase additional concert nights?</div>
+							  <div data-content>
+								<p>Yes, additonal night concert tickets are $150 per night. Just let us know and we can add it to your invoice.</p>
+							  </div>
+
+							</div><!-- end of accordion-->
+
+
+							<div class="accordion" data-accordion>
+
+							  <div data-control>Are there restrictions to what I can bring into the Superdome?</div>
+							  <div data-content>
+								<p>The following items are prohibited: animals (with the exception of service dogs), backpacks/knapsacks, banners, containers of any kind, contraband, glass, laser pointers, noise makers, projectiles, sticks, bats, poles or clubs; video and audio recording devices with lenses that are longer than six (6) inches); weapons of any kind and other items deemed inappropriate by SMG/Landmark</p>
+							  </div>
+
+							</div><!-- end of accordion-->
+
+
+							<div class="accordion" data-accordion>
+
+							  <div data-control>Will there be any bag checks at the event?</div>
+							  <div data-content>
+								<p>Yes, all large bags will be thoroughly checked upon entry to all venues, including the Superdome, Convention Center and many other locations held during the weekend events.</p>
+							  </div>
+
+							</div><!-- end of accordion-->
+
+
+							<div class="accordion" data-accordion>
+
+							  <div data-control>Do you offer transportation for/with your travel packages?</div>
+							  <div data-content>
+								<p>No. Transportation is the responsibility of the client for this event.</p>
+							  </div>
+
+							</div><!-- end of accordion-->
+
+
+							<div class="accordion" data-accordion>
+
+							  <div data-control>How do I make my first payment?</div>
+							  <div data-content>
+								<p>You follow the same procedure as you did for registration. You will select the First Payment option under package options. </p>
+
+							  </div>
+
+							</div><!-- end of accordion-->
+
+
+							<div class="accordion" data-accordion>
+
+							  <div data-control>How do I make additional payments on my account? </div>
+							  <div data-content>
+								<p>You follow the same procedure as you did for registration. You will select the Partial Payment option under package options.</p>
+							  </div>
+
+							</div><!-- end of accordion-->
+
+
+							<div class="accordion" data-accordion>
+
+							  <div data-control>How does the complimentary night work?</div>
+							  <div data-content>
+								<p>Your base package includes check-in on Friday with check-out on Sunday. If you make your first payment ($125) on time you earn the complimentary night. You can use it to arrive a day early on Thursday or depart a day later on Monday.</p>
+							  </div>
+
+							</div><!-- end of accordion-->
+
+
+							<div class="accordion" data-accordion>
+
+							  <div data-control>What kind of access do I get with my concert ticket?</div>
+							  <div data-content>
+								<p>With your concert ticket, you gain entry into the Louisiana Superdome. You will have a designated seat to experience the Main Stage performances. Once you are in the Superdome, you can experience all the performances that night in the Superlounges on the Lounge level for no additional fee or ticket. Everyone MUST have a ticket to get into the Superdome.</p>
+							  </div>
+
+							</div><!-- end of accordion-->
+
+
+							<div class="accordion" data-accordion>
+
+							  <div data-control>If I wait until the lineup is complete before I book my hotel room will you still have packages available?</div>
+							  <div data-content>
+								<p>In most cases you will be out of luck! This event breaks attendance records every year. Some people may attend the festival for the concerts, while others may attend for the surrounding activities and mingling opportunities. Regardless, you will need to book your package now. With our payment plans it helps you to reserve your package today and pay over time.</p>
+							  </div>
+
+							</div><!-- end of accordion-->
+
+
+							<div class="accordion" data-accordion>
+
+							  <div data-control>Must the entire group pay the $19.99 Reservation fee?</div>
+							  <div data-content>
+								<p>Yes. All prices are per person. The Reservation fee secures your spot on the package, and is separate from the package price.</p>
+							  </div>
+
+							</div><!-- end of accordion-->
+
+
+							<div class="accordion" data-accordion>
+
+							  <div data-control>What is included with V.I.P. vs V.V.I.P admission to the Boat Party?</div>
+							  <div data-content>
+								<p>V.I.P. tickets are general admission tickets to the cruise and only cover entrance to the cruise with no food or drinks included. V.V.I.P. includes a speedy admission onto the boat party, delicious food, and an open bar to get you right all while partying on the boat. Our packages include the V.I.P ticket. You can upgrade to the V.V.I.P. ticket for an additional $55 per person. The V.V.I.P. option is SOLD OUT!</p>
+							  </div>
+
+							</div><!-- end of accordion-->
+
+
+							</div><!-- end of accordion group-->
+                        	
+                       
 
 
                         </div><!-- end of tabs3 -->

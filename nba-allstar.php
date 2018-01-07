@@ -30,17 +30,17 @@ $geolocation = array(
 
 $people = array(
 		"diamond"=> array(
-			"Group of 4" 			=>"$790",
-			"Group of 3"			=>"$855",
-			"Group of 2"			=>"$965",
-			"Individual"			=>"$2365"
+			"Group of 4" 			=>"$890",
+			"Group of 3"			=>"$955",
+			"Group of 2"			=>"$1065",
+			"Individual"			=>"$2465"
 		),
 
 		"emerald"=> array(
-			"Group of 4" 			=>"$665",
-			"Group of 3"			=>"$745",
-			"Group of 2"			=>"$845",
-			"Individual"			=>"$1850"
+			"Group of 4" 			=>"$765",
+			"Group of 3"			=>"$845",
+			"Group of 2"			=>"$945",
+			"Individual"			=>"$1950"
 		),
 
 		"options"=>array(
@@ -60,7 +60,7 @@ $package_items = array(
 		"Jam Sessions Tickets"								=> "checked",
 		"Mid-Day Party"										=> "checked",
 		"YOLLO Live City Tour"								=> "checked",
-		"All Star Celebrity Game Tickets"					=> "checked",
+		"Comedy Show Tickets "					=> "checked",
 		"YOLLO Gift Bag"									=> "checked"
 	),
 
@@ -242,7 +242,7 @@ include 'includes/functions.inc.php';
 											<div class="clearfix">
 												<h4>Party Pass Options: </h4>
 
-												<p class="lead">Rookie - $250</p>
+												<p class="lead">Rookie - $350</p>
 												<ul>
 													<li>Friday Night Party</li>
 													<li>Jam Sessions Ticket</li>
@@ -253,7 +253,7 @@ include 'includes/functions.inc.php';
 
 												</ul>
 
-												<p class="lead">Rising Star - $350</p>
+												<p class="lead">Rising Star - $550 - SOLD OUT</p>
 												<ul>										
 													<li>Jam Sessions Ticket</li>
 													<li>YOLLO Live City Tour</li>
@@ -266,7 +266,7 @@ include 'includes/functions.inc.php';
 
 												</ul>
 
-												<p class="lead">All-Star - $450 (best seller)</p>
+												<p class="lead">All-Star - $650 - SOLD OUT (best seller)</p>
 												<ul>
 
 													<li>Friday Night Party (Celebrity Hosted)</li>
@@ -290,46 +290,83 @@ include 'includes/functions.inc.php';
 								<div id="tabs-3">
 
 									<h3>Frequently Asked Questions</h3>
-									<div id="accordion" class="nodisp">
+									
+									<div data-accordion-group>	
+										
+										<div class="accordion open" data-accordion>
 
-											<section>
-													<h2>What is included with the Jam Session Tickets <span></span></h2>
-													<p>Jam Session tickets grant you access to meet and greet with NBA and WNBA players and legends. You can also get basketball tips, free autographs from NBA All Stars, and more. This gives you the opportunity to gain access to the NBA like never before.</p>
-											</section>
+										  <div data-control>What is included with the Jam Session Tickets</div>
+										  <div data-content>
+											<p>Jam Session tickets grant you access to meet and greet with NBA and WNBA players and legends. You can also get basketball tips, free autographs from NBA All Stars, and more. This gives you the opportunity to gain access to the NBA like never before.</p>
+										  </div>
 
-											<section>
-													<h2>When are the payments due? <span></span></h2>
-													<p>The first payment of $125 is due on or before September 20, 2017. The final payment (remaining balance) is due on or before Decmeber 13, 2017.</p>
-											</section>
-
-											<section>
-													<h2>What are Celebrity Party Tickets? <span></span></h2>
-													<p>A celebrity party ticket is a party that will be hosted by some of the biggest names in movie, music, sports, and entertainment.  Past celebrities whom have hosted parties have been the likes of P. Ditty, Young Jezzy, Pooch Hall, Floyd Mayweather, Jamie Foxx, and Kevin Durant. Who knows who will host parties at this annual sporting event that draws thousands from all over the globe.</p>
-											</section>
-
-											<section>
-													<h2>What are Celebrity Game Tickets? <span></span></h2>
-													<p>Celebrity Games tickets allow you to see the biggest stars from movie, music, and the NBA play a friendly game of roundball.</p>
-											</section>
-
-												<section>
-													<h2>I would like to bring my child to the NBA All Star Weekend Games, does he/she need a ticket? <span></span></h2>
-													<p>Children under the age of 2 are admitted free of charge. Children under 2 years of age are not guaranteed a seat and may be required to sit on a parent's/guardian's lap. Children 2 and over must have ticket.</p>
-											</section>							
-
-											<section>
-													<h2>Where is the NBA All Star Weekend in 2018? <span></span></h2>
-													<p>The NBA All Star Weekend is in LOS ANGELES and will be on February 16-18, 2018!</p>
-											</section>
-
-											<section>
-													<h2>What is so special about the NBA All Star Game?  <span></span></h2>
-													<p>Where else do you have the oppurtunity to witness the best basketball players in the world on ONE court. This is it!</p>
-											</section>
+										</div><!-- end of accordion-->
 
 
-									</div><!-- accordion -->
+										<div class="accordion" data-accordion>
 
+										  <div data-control>When are the payments due?</div>
+										  <div data-content>
+											<p>The first payment of $250 is due (3) three days after registration. The final payment (remaining balance) is due on or before February 03, 2018.</p>
+										  </div>
+
+										</div><!-- end of accordion-->
+
+
+										<div class="accordion" data-accordion>
+
+										  <div data-control>What are Celebrity Party Tickets?</div>
+										  <div data-content>
+											<p>A celebrity party ticket is a party that will be hosted by some of the biggest names in movie, music, sports, and entertainment.  Past celebrities whom have hosted parties have been the likes of P. Ditty, Young Jezzy, Pooch Hall, Floyd Mayweather, Jamie Foxx, and Kevin Durant. Who knows who will host parties at this annual sporting event that draws thousands from all over the globe.</p>
+										  </div>
+
+										</div><!-- end of accordion-->
+
+
+										<div class="accordion" data-accordion>
+
+										  <div data-control>What are Celebrity Game Tickets?</div>
+										  <div data-content>
+											<p>Celebrity Games tickets allow you to see the biggest stars from movie, music, and the NBA play a friendly game of roundball.</p>
+										  </div>
+
+										</div><!-- end of accordion-->
+
+
+										<div class="accordion" data-accordion>
+
+										  <div data-control>I would like to bring my child to the NBA All Star Weekend Games, does he/she need a ticket?</div>
+										  <div data-content>
+											<p>Children under the age of 2 are admitted free of charge. Children under 2 years of age are not guaranteed a seat and may be required to sit on a parent's/guardian's lap. Children 2 and over must have ticket.</p>
+										  </div>
+
+										</div><!-- end of accordion-->
+
+
+										<div class="accordion" data-accordion>
+
+										  <div data-control>Where is the NBA All Star Weekend in 2018?</div>
+										  <div data-content>
+											<p>The NBA All Star Weekend is in LOS ANGELES and will be on February 16-18, 2018!</p>
+										  </div>
+
+										</div><!-- end of accordion-->
+
+
+										<div class="accordion" data-accordion>
+
+										  <div data-control>What is so special about the NBA All Star Game?</div>
+										  <div data-content>
+											<p>Where else do you have the oppurtunity to witness the best basketball players in the world on ONE court. This is it!</p>
+										  </div>
+
+										</div><!-- end of accordion-->
+
+
+									</div><!-- end of accordion group-->
+
+	
+										
 								</div> <!-- end of Tab 3 -->
 
 

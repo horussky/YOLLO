@@ -14,6 +14,13 @@ define("EVENT", serialize ($nav = array(
 				  	"link"	=>	"/college-beachfest"
 				  
 			),
+	
+			array(
+					"title"	=>	"Groove Cruise",
+				  	"class"	=>	"groove",
+				  	"link"	=>	"/groove-cruise"
+				  
+			),
 			
 			array(
 					"title"	=>	"Magic City Classic",
@@ -91,6 +98,7 @@ sort($event_nav);
 
 <nav class="pushy pushy-right">
 	<div class="event-nav-mobile pushy-content">
+		<a href="#" class="menu-btn close-x"></a>
 		<h4 class="mobile-nav-title">Our Events</h4>
 		<ul>
 			<?php foreach($event_nav as $links=>$value): ?>

@@ -100,7 +100,7 @@ include 'includes/functions.inc.php';
      </title>
 
      <meta name="description" content="Urban Fiesta 2018 in Jamacia with YOLLO Group Services Inc. Memorial Day Weekend." />
-     <meta name="keywords" content="Urban Fiesta, Urban Fiesta 2017, Trelawny, Jamacia, Rio Bueno, Malia Jamacia, Urban Fiesta 2018" />
+     <meta name="keywords" content="Urban Fiesta, Urban Fiesta 2017, Trelawny, Jamacia, Rio Bueno, Malia Jamacia, Run Away Bay, Urban Fiesta 2018" />
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
      <link href="favicon.ico" rel="icon" type="image/x-icon" />
@@ -295,62 +295,96 @@ include 'includes/functions.inc.php';
 
                                         <div id="tabs-3">
 
-                                             <h3>Frequently Asked Questions</h3>
+                                        	<h3>Frequently Asked Questions</h3>
+                                             
+                                            <div data-accordion-group>	
+										
+												<div class="accordion open" data-accordion>
 
-                                             <div id="accordion" class="nodisp">
+												  <div data-control>When are the payments due?</div>
+												  <div data-content>
+													<p>The first payment of $125 is due January 10, 2018 after registration. The final payment (remaining balance) is due on or before March 13, 2018. If you would like to make payments between due dates that is fine also.</p>
+												  </div>
 
-                                                  <section>
-                                                       <h2>Anything I should know before I arrive? <span></span></h2>
-                                                       <p>Passports are now required for this event. Also, bring another valid form of photo ID, and photocopies of both in case of loss or theft. Lastly, stay in our recommended hotels, you will save yourself a lot of aggravation.</p>
-                                                  </section>
-                                                  
-                                                  <section>
-                                                       <h2>Anything I should know after I arrive?  <span></span></h2>
-                                                       <p>Keep luggage, handbags or backpacks in view at all times. Next, don’t take around large amounts of cash. We recommend bringing plenty of small dollar amounts ($1/$5/$10) for shopping and any gratuity. Additionally, avoid wearing expensive jewelry on road trips or excursions. At the airport, on your return home, you will have to go through customs. Mostly they are looking for wild animals and forbidden fruits.</p>
-                                                  </section>
+												</div><!-- end of accordion-->
 
-                                                  <section>
-                                                       <h2>Is the money the same or do I have to convert? <span></span></h2>
-                                                       <p>In Jamaica they mostly use the Jamaican dollar as currency. It will have to be converted and the exchange rate can vary form day to day. However, in some places, USD is accepted.</p>
-                                                  </section>
 
-                                                  <section>
-                                                       <h2>Where does the shuttle provide transpotation? <span></span></h2>
-                                                       <p>The shuttle provides transportation to events that are not within walking distance to the HOST hotel. The shuttle service starts with the Friday night event and ends with the Sunday night event. Shuttles will not provide transportation to the mall, sightseeing, etc.</p>
-                                                  </section>
+												<div class="accordion" data-accordion>
 
-                                                  <section>
-                                                       <h2>Do I need a rental car? <span></span></h2>
-                                                       <p>Yes, if you would like to go see different parts of the island, go to the mall, etc. No rental car is needed if you booked with us and worried about how you are going to get to the events!  We have several tours and excursion planned that will accommodate you during the weekend.</p>
-                                                  </section>
+												  <div data-control>Is this trip all inclusive?</div>
+												  <div data-content>
+													<p>Yes, while at the hotel, you can eat and drink to your fill.</p>
+												  </div>
 
-                                                  <section>
-                                                       <h2>When are the payments due? <span></span></h2>
-                                                       <p>The first payment of $125 is due November 30, 2017 after registration. The final payment (remaining balance) is due on or before Febuary 08, 2018. If you would like to make payments between due dates that is fine also.</p>
-                                                  </section>
-                                                  
-                                                  <section>
-                                                       <h2>Why did Urban Fiesta leave San Juan, Puerto Rico?  <span></span></h2>
-                                                       <p>The event outgrew the island and most attendees are repeat clients. We wanted to celebrate our 10th year in a new venue and make fresh experiences for our attendees!</p>
-                                                  </section>
-                                                  
-                                                  <section>
-                                                       <h2>What is the airport code?  <span></span></h2>
-                                                       <p>MBJ</p>
-                                                  </section>
-                                                  
-                                                  <section>
-                                                       <h2>Where exactly is Rio Bueno, Braco Village, Jamaica? <span></span></h2>
-                                                       <p>It is located between Montego Bay and Ocho Rios. More specifically, 30 minutes outside of Montego Bay and 40 minutes from Ocho Rios. So this is the PERFECT center of what Jamaica has to offer.</p>
-                                                  </section>
-                                                  
-                                                  <section>
-                                                       <h2>Is this trip all inclusive? <span></span></h2>
-                                                       <p>Yes, while at the hotel, you can eat and drink to your fill.</p>
-                                                  </section>
+												</div><!-- end of accordion-->
 
-                                             </div>
-                                             <!-- accordion -->
+
+
+												<div class="accordion" data-accordion>
+
+												  <div data-control>Anything I should know before I arrive?</div>
+												  <div data-content>
+													<p>Passports are now required for this event. Also, bring another valid form of photo ID, and photocopies of both in case of loss or theft. Lastly, stay in our recommended hotels, you will save yourself a lot of aggravation.</p>
+												  </div>
+
+												</div><!-- end of accordion-->
+
+
+												<div class="accordion" data-accordion>
+
+												  <div data-control>Is the money the same or do I have to convert?</div>
+												  <div data-content>
+													<p>In Jamaica they mostly use the Jamaican dollar as currency. It will have to be converted and the exchange rate can vary form day to day. However, in some places, USD is accepted.</p>
+												  </div>
+
+												</div><!-- end of accordion-->
+
+
+												<div class="accordion" data-accordion>
+
+												  <div data-control>Where does the shuttle provide transpotation?</div>
+												  <div data-content>
+													<p>The shuttle provides transportation to events that are not within walking distance to the HOST hotel. The shuttle service starts with the Friday night event and ends with the Sunday night event. Shuttles will not provide transportation to the mall, sightseeing, etc.</p>
+												  </div>
+
+												</div><!-- end of accordion-->
+
+
+												<div class="accordion" data-accordion>
+
+												  <div data-control>Do I need a rental car?</div>
+												  <div data-content>
+													<p>Yes, if you would like to go see different parts of the island, go to the mall, etc. No rental car is needed if you booked with us and worried about how you are going to get to the events!  We have several tours and excursion planned that will accommodate you during the weekend.</p>
+												  </div>
+
+												</div><!-- end of accordion-->
+
+
+												<div class="accordion" data-accordion>
+
+												  <div data-control>Why did Urban Fiesta leave San Juan, Puerto Rico?</div>
+												  <div data-content>
+													<p>The event outgrew the island and most attendees are repeat clients. We wanted to celebrate our 10th year in a new venue and make fresh experiences for our attendees!</p>
+												  </div>
+
+												</div><!-- end of accordion-->
+
+
+												<div class="accordion" data-accordion>
+
+												  <div data-control>Where exactly is Rio Bueno, Braco Village, Jamaica?</div>
+												  <div data-content>
+													<p>It is located between Montego Bay and Ocho Rios. More specifically, 30 minutes outside of Montego Bay and 40 minutes from Ocho Rios. So this is the PERFECT center of what Jamaica has to offer.</p>
+												  </div>
+
+												</div><!-- end of accordion-->
+
+
+
+
+											</div><!-- end of accordion group-->
+
+                                            
 
                                         </div>
                                         <!-- end of Tab 3 -->

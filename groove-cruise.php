@@ -48,9 +48,12 @@ $people = array(
 $package_items = array(
 	"diamond_items" => array(
 		"Multi-level Paddle Wheel Boat Cruise"						=> "checked",
-		"Multi-Level Music and DJ's"								=> "checked",
-		"Spoke Word Session"										=> "checked",
-		"Live Entertainment"										=> "checked",
+		"Boarding Starts at 6:50 pm"								=> "checked",
+		"Party from at 7:00 pm - 10:00 pm"								=> "checked",
+		"See the NOLA skyline at night"										=> "checked",
+		"Free Giveaways to 4th Annual Grown and Sophiticated Cruise 2018"										=> "checked",
+		"Cruise Control by DJ Dre Smoove, DJ Gorgeous, DJ Oktoba"										=> "checked",
+		"This cruise will have attendees from across the country"										=> "checked",
 	),
 
 	"emerald_items" => array(
@@ -227,37 +230,41 @@ include 'includes/functions.inc.php';
                     <div id="tabs-3">
 
                         <h3>Frequently Asked Questions</h3>
-                        <div id="accordion" class="nodisp">
+                        
+                        <div data-accordion-group>	
+										
+							<div class="accordion open" data-accordion>
 
-                                
-                                <section>
-									<h2>How do I pay for this package? <span></span></h2>
-									<p>Navigate to the Buy Now tab and complete the form. You will receive a welcome letter within 7 business days with all your reservation information.</p>
-                                </section>
-                                
-                                
-                                <section>
-									<h2>After I purchase tickets online how do I receive my tickets? <span></span></h2>
+								<div data-control>After I purchase tickets online how do I receive my tickets?</div>
+								<div data-content>
 									<p>Your tickets are mailed to the address provided during the purchasing process.</p>
-                                </section>
-                                
-                                
-                                <section>
-									<h2>What time is boarding and what time does the boat cruise? <span></span></h2>
+								</div>
+
+							</div><!-- end of accordion-->
+
+
+							<div class="accordion" data-accordion>
+
+								<div data-control>What time is boarding and what time does the boat cruise?</div>
+								<div data-content>
 									<p>Boarding starts at 9:30PM. The boat will not cruise until 10:30PM. Because tickets purchasers are traveling from as far away as Atlanta we want to give everyone a chance to board.</p>
-                                </section>
-                                
-                                
-                                <section>
-									<h2>What is included with VIP admission to the Boat Party? <span></span></h2>
+								</div>
+
+							</div><!-- end of accordion-->
+
+
+							<div class="accordion" data-accordion>
+
+								<div data-control>What is included with VIP admission to the Boat Party?</div>
+								<div data-content>
 									<p>VIP includes a speedy admission onto the boat party, delicious food, and an open bar for the 1st hour of the event to start you off right all while partying on the boat.</p>
-                                </section>
+								</div>
 
-                              
-                               
+							</div><!-- end of accordion-->
 
 
-                        </div><!-- accordion -->
+						</div><!-- end of accordion group-->
+                        
 
            		 </div> <!-- end of Tab 3 -->
 
