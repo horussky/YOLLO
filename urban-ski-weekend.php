@@ -2,7 +2,7 @@
 if(!ob_start("ob_gzhandler")) ob_start();
 $event = array(
 	"title"						=>"Urban Ski Weekend 2018",
-	"subtitle"					=>"Book your package today!",
+	"subtitle"					=>"With Celebrity Host DJ Self of Love and Hip-Hop NY",
 	"location"					=>"Gatlinburg, Tennessee",
 	"date"						=>"February 2 - 5 2018",
 	"img_url"				 	=>"../../images/slides/splash-urban-ski-cta.jpg",

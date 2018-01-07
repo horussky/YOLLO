@@ -1,6 +1,13 @@
 <?php 
 ob_start("ob_gzhandler"); 
 include 'includes/functions.inc.php';
+
+$url = 'http://cockpit-test.local/api/cockpit/authUser?token=0a014d090bf541dc7482939f22841e'; // path to your JSON file
+$data = file_get_contents($url); // put the contents of the file into a variable
+$characters = json_decode($data); // decode the JSON feed
+
+echo $characters[0]->name;
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -15,6 +22,8 @@ include 'includes/functions.inc.php';
 
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
 <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
+
+
 </head> 
 
 <body>
@@ -45,7 +54,9 @@ include 'includes/functions.inc.php';
 
 				<div class="content">
 
-					<h2 class="title">About YOLLO Group Services Inc.</h2>
+					<!-- <h2 class="title">About YOLLO Group Services Inc.</h2> -->
+					
+					<h1>Testing: {{page-title}} </h1>
 
 					<p>In our humble beginnings, YOLLO Group Services provided event packages exclusively for college students, for over 10,000 customers. We have since set our focus to accommodating travelers of all ages. </p>
 
