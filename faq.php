@@ -177,7 +177,7 @@ include 'includes/functions.inc.php';
 
 					  <div data-control>What is the Free Night Promotions?</div>
 					  <div data-content>
-						<p>This is a special offering during a package's Early Bird Special. The guest can choose one additional night outside of the listed stay. For example: 3 days/2 nights + One Free Night; actual vacation stay is 4 days and 3 nights!</p>
+						<p>This is a special offering which is included in some packages. In many cases this is included during a package Early Bird Special. The guest can choose one additional night outside of the listed stay. For example: 3 days/2 nights + One Free Night; actual vacation stay is 4 days and 3 nights!</p>
 					  </div>
 
 					</div><!-- end of accordion-->
@@ -189,7 +189,18 @@ include 'includes/functions.inc.php';
 					  <div data-content>
 						<p>You follow the same procedure as you did for registration. You will select the Partial Payment option under package options. You can then pay one of the default options or create a custom payment. Custom Payments will allow you to pay the remainder of your balance.</p>
 					  </div>
-
+					  
+					  </div><!-- end of accordion-->
+					
+					
+					<div class="accordion" data-accordion>
+					  
+					  <div data-control>How do I make final payments on my account? </div>
+					  <div data-content>
+						<p>You follow the same procedure as you did for registration. You will select the Partial Payment option under package options. You can then select custom payment. Custom Payments will allow you to pay the remainder of your balance.</p>
+					  </div>			  
+					  					  				 				  
+					 
 					</div><!-- end of accordion-->
 					
 					
@@ -341,10 +352,11 @@ include 'includes/functions.inc.php';
 					  <div data-content>
 						<ul>
 							<li>All cancellations must be submitted in writing to our office.</li>
-							<li>If cancelling 60 days or more before event, payment is non-refundable;</li>
+							<li>If cancelling 60 days or more before event, payment is non-refundable, but a 50% in-house credit is created for all payment made minus the registration and first payment</li>
 							<li>In-house credit can be used within one year on a future travel package.</li>
 							<li>Registration Fee and First scheduled payment is non-refundable and non-transferable. No Exceptions.</li>
 							<li>Cancellations less than 60 days prior to departure are non-refundable/non-transferable.</li>
+							<li>Cancellations due to non-payment forfeit all payments.</li>
 						</ul>
 					  </div>
 

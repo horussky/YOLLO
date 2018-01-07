@@ -3,10 +3,10 @@
 	ob_start("ob_gzhandler");
 
 	$event = array(
-		"title"				=>"The Magic City Classic 2017",
+		"title"				=>"The Magic City Classic 2018",
 		"subtitle"			=>"It's the Classsssssic!",
 		"location"			=>"Legion Field | Birmingham, Alabama",
-		"date"				=>"Oct 27-29, 2017",
+		"date"				=>"Oct 26-28, 2018",
 		"img_url"			=>"../../images/slides/splash-mcc-cta.jpg",
 		"img_alt"			=>"Magic City Classic"
 	);
@@ -101,7 +101,7 @@
 
 <title><?php echo $event["title"]?>|<?php echo $phonenumber ?></title>
 <meta name="description" content="YOLLO Group Services is a travel company specializing in offering affordable travel for everyone." />
-<meta name="keywords" content="Magic City Classic 2017, Magic City Classic, HBCU football classic, Alabama A&M football, Alabama State football" />
+<meta name="keywords" content="Magic City Classic 2017, Magic City Classic, Magic City Classic 2018, Birmingham, HBCU Alumni, MCC, MCC 2018, HBCU football classic, Alabama A&M football, Alabama State football" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
@@ -165,7 +165,8 @@
                 	<img src="images/mcc-thumb<?php echo(rand(1,4)); ?>.jpg" width="100%" />
                 </div>
                
-                <p>This is the #1 HBCU Classic in the nation! Over 100,000 fans will attend this annual clash of the titans. The Magic City Classic offers a family environment meant producing new bonds and memories for years to come.</p>
+                <p>This is the #1 HBCU Classic in the nation attracting over 100,000 fans annually! This is an annual clash of the titans. The Magic City Classic offers a family environment that produces new bonds and memories for years to come.</p>
+                <p>In 2017 the Alabama State Hornets came away with the victory as they entered the game as underdogs and not given a change to compete nor win, but as you know in rivalries records mean NOTHING! </p>
                 <p>YOLLO Group Services, Inc. wants to capture these memories by offering keepsake photos at many of our weekend events. Stay tuned to our website for the list of various events where we will be!</p>
             </div>
             <!-- end of tab 1 -->
@@ -250,7 +251,7 @@
 
 					  <div data-control>When are the payments due?</div>
 					  <div data-content>
-						<p>After registration the 1st payment of $50 is due on or before due August 06, 2017. The second and final payment is due September 08, 2017.</p>
+						<p>After registration the 1st payment of $50 is due on or before due March 13, 2018. The second and final payment is due August 14, 2018.</p>
 					  </div>
 
 					</div><!-- end of accordion-->

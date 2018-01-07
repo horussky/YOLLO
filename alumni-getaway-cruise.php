@@ -6,7 +6,7 @@ $event = array(
 	"title"						=>"Alumni Getaway Cruise",
 	"subtitle"					=>"Grab your alumni shirts and book today!",
 	"location"					=>"Cozumel, Mexico",
-	"date"						=>"December 7-11, 2017",
+	"date"						=>"December 6-10, 2018",
 	"img_url"				 	=>"../../images/slides/splash-alumni-cta.jpg",
 	"img_alt"				 	=>"Alumni Getaway Cruise"
 );
@@ -50,7 +50,7 @@ $package_items = array(
 		"4 Day/3 Night Cruise Departing From Port of Mobile"		=> "checked",
 		"All You Can Eat aboard Ship"								=> "checked",
 		"Bust a Gut Comedy Series"									=> "checked",
-		"80's vs 90's Party"										=> "checked",
+		"Glow Party"										=> "checked",
 		"Word Easy Spoken Word Show"								=> "checked",
 		"Alumni Getaway Welcome Reception"							=> "checked",
 		"Rep My Set Party"											=> "checked",
@@ -78,7 +78,7 @@ include 'includes/functions.inc.php';
 
 <title><?php echo $event["title"]?> | <?php echo $phonenumber ?></title>
 <meta name="description" content="YOLLO Group Services is a travel company specializing in offering affordable travel to amazing events for everyone." />
-<meta name="keywords" content="Urban Fantasy 2017, Carnival Cruise, Bahamas, YOLLO Group Services, student travel, bahamas, Cruise Travel packages" />
+<meta name="keywords" content="Urban Fantasy 2017, Urban Fantasy 2018, HBCU ALumni, SWAC, CIAA, MEAC, SIAC, Carnival Cruise, Bahamas, YOLLO Group Services, student travel, bahamas, Cruise Travel packages" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
@@ -286,7 +286,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>When are the payments due?</div>
 							  <div data-content>
-								<p>After registration of $19.99 per person the first payment of $200 is due <strong>by October 31, 2017</strong> . The final payment (remaining balance) is due on or before <strong>November 07, 2017</strong> . If the announced payment dates have passed contact us for our current payment plan.</p>
+								<p>After registration of $19.99 per person the first payment of $125 is due <strong>by February 21, 2018</strong> . The final payment (remaining balance) is due on or before <strong>June 28, 2018</strong> . If the announced payment dates have passed contact us for our current payment plan.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

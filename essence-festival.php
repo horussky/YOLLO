@@ -53,7 +53,7 @@
 		"diamond_items" => array(
 			"Hotel Accommodations (Fri-Sun)"			=> "checked",
 			"One night concert ticket (Lodge Section)"	=> "checked",
-			"All White Mid-Day Boat Cruise "			=> "checked",
+			"All White Boat Cruise "			=> "checked",
 			"Mid-Day Comedy Show (Sunday)"				=> "checked",
 			"Fashion Show (Sunday)"				=> "checked",
 			"Speak Easy Poetry Show (Sunday)"				=> "checked",
@@ -67,7 +67,7 @@
 		"emerald_items" => array(
 			"Hotel Accommodations (Fri-Sun)"			=> "checked",
 			"One night concert ticket (Lodge Section)"	=> "ex",
-			"All White Mid-Day Boat Cruise "			=> "ex",
+			"All White Boat Cruise "			=> "ex",
 			"Mid-Day Comedy Show (Sunday)"				=> "checked",
 			"Fashion Show (Sunday)"				=> "checked",
 			"Speak Easy Poetry Show (Sunday)"				=> "checked",
@@ -284,7 +284,7 @@
 
 							  <div data-control>What are the payment due dates for Essence Packages?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $19.99 per person fee. The first payment of $125 is due on or before November 14, 2017. The final payment (remaining balance) is due on or before February 20, 2018. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by cliocking on the BUY NOW tab above and following the prompts.</p>
+								<p>To reserve a package each group member pays the $19.99 per person fee. The first payment of $125 is due on or before January 14, 2018. The final payment (remaining balance) is due on or before March 13, 2018. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by cliocking on the BUY NOW tab above and following the prompts.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

@@ -48,9 +48,12 @@ $people = array(
 $package_items = array(
 	"diamond_items" => array(
 		"Multi-level Paddle Wheel Boat Cruise"						=> "checked",
-		"Multi-Level Music and DJ's"								=> "checked",
-		"Spoke Word Session"										=> "checked",
-		"Live Entertainment"										=> "checked",
+		"Boarding Starts at 6:50 pm"								=> "checked",
+		"Party from at 7:00 pm - 10:00 pm"								=> "checked",
+		"See the NOLA skyline at night"										=> "checked",
+		"Free Giveaways to 4th Annual Grown and Sophiticated Cruise 2018"										=> "checked",
+		"Cruise Control by DJ Dre Smoove, DJ Gorgeous, DJ Oktoba"										=> "checked",
+		"This cruise will have attendees from across the country"										=> "checked",
 	),
 
 	"emerald_items" => array(

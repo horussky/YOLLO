@@ -261,7 +261,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>What are the payment due dates for Cincinnati Music Festival Packages?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $19.99 per person fee. The first payment of $125 is due on or before <strong>November 15, 2017</strong>. The final payment (remaining balance) is due on or before <strong>February 20, 2018</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
+								<p>To reserve a package each group member pays the $19.99 per person fee. The first payment of $125 is due on or before <strong>January 15, 2018</strong>. The final payment (remaining balance) is due on or before <strong>April 20, 2018</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

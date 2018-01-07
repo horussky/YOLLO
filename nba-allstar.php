@@ -30,17 +30,17 @@ $geolocation = array(
 
 $people = array(
 		"diamond"=> array(
-			"Group of 4" 			=>"$790",
-			"Group of 3"			=>"$855",
-			"Group of 2"			=>"$965",
-			"Individual"			=>"$2365"
+			"Group of 4" 			=>"$890",
+			"Group of 3"			=>"$955",
+			"Group of 2"			=>"$1065",
+			"Individual"			=>"$2465"
 		),
 
 		"emerald"=> array(
-			"Group of 4" 			=>"$665",
-			"Group of 3"			=>"$745",
-			"Group of 2"			=>"$845",
-			"Individual"			=>"$1850"
+			"Group of 4" 			=>"$765",
+			"Group of 3"			=>"$845",
+			"Group of 2"			=>"$945",
+			"Individual"			=>"$1950"
 		),
 
 		"options"=>array(
@@ -60,7 +60,7 @@ $package_items = array(
 		"Jam Sessions Tickets"								=> "checked",
 		"Mid-Day Party"										=> "checked",
 		"YOLLO Live City Tour"								=> "checked",
-		"All Star Celebrity Game Tickets"					=> "checked",
+		"Comedy Show Tickets "					=> "checked",
 		"YOLLO Gift Bag"									=> "checked"
 	),
 
@@ -253,7 +253,7 @@ include 'includes/functions.inc.php';
 
 												</ul>
 
-												<p class="lead">Rising Star - $550</p>
+												<p class="lead">Rising Star - $550 - SOLD OUT</p>
 												<ul>										
 													<li>Jam Sessions Ticket</li>
 													<li>YOLLO Live City Tour</li>
@@ -266,7 +266,7 @@ include 'includes/functions.inc.php';
 
 												</ul>
 
-												<p class="lead">All-Star - $650 (best seller)</p>
+												<p class="lead">All-Star - $650 - SOLD OUT (best seller)</p>
 												<ul>
 
 													<li>Friday Night Party (Celebrity Hosted)</li>
@@ -307,7 +307,7 @@ include 'includes/functions.inc.php';
 
 										  <div data-control>When are the payments due?</div>
 										  <div data-content>
-											<p>The first payment of $125 is due on or before November 15, 2017. The final payment (remaining balance) is due on or before December 27, 2017.</p>
+											<p>The first payment of $250 is due (3) three days after registration. The final payment (remaining balance) is due on or before February 03, 2018.</p>
 										  </div>
 
 										</div><!-- end of accordion-->

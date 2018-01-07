@@ -100,7 +100,7 @@ include 'includes/functions.inc.php';
      </title>
 
      <meta name="description" content="Urban Fiesta 2018 in Jamacia with YOLLO Group Services Inc. Memorial Day Weekend." />
-     <meta name="keywords" content="Urban Fiesta, Urban Fiesta 2017, Trelawny, Jamacia, Rio Bueno, Malia Jamacia, Urban Fiesta 2018" />
+     <meta name="keywords" content="Urban Fiesta, Urban Fiesta 2017, Trelawny, Jamacia, Rio Bueno, Malia Jamacia, Run Away Bay, Urban Fiesta 2018" />
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
      <link href="favicon.ico" rel="icon" type="image/x-icon" />
@@ -303,7 +303,7 @@ include 'includes/functions.inc.php';
 
 												  <div data-control>When are the payments due?</div>
 												  <div data-content>
-													<p>The first payment of $125 is due November 30, 2017 after registration. The final payment (remaining balance) is due on or before Febuary 08, 2018. If you would like to make payments between due dates that is fine also.</p>
+													<p>The first payment of $125 is due January 10, 2018 after registration. The final payment (remaining balance) is due on or before March 13, 2018. If you would like to make payments between due dates that is fine also.</p>
 												  </div>
 
 												</div><!-- end of accordion-->
