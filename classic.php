@@ -108,7 +108,7 @@
 <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
 </head>
-
+	
 <body>
 <div id="wrap">
  
@@ -131,13 +131,13 @@
     
     <div id="right">
       
-       <div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
-					<div class="overlay"></div>
-					<div class="title">
-						<h1><?php echo $event["title"]; ?></h1>
-						<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-						<a href="#tabs-5" class="btn btn-red open-tab" data-tab-index="4">Buy Now</a>
-					</div>
+		<div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
+			<div class="overlay"></div>
+			<div class="title">
+				<h1><?php echo $event["title"]; ?></h1>
+				<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
+				<a href="#tabs-5" class="btn btn-red open-tab" data-tab-index="4">Buy Now</a>
+			</div>
 		</div>
       
       
@@ -148,6 +148,46 @@
         </div>
         
         <div class="colfull">
+        
+        
+        <div id="responsive-tabs">
+			<?php echo $responsive_tabs["overview"]; ?>
+		  <div class="tab">
+			<h1>Tab One Content</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		  </div>
+
+		  <?php echo $responsive_tabs["price"]; ?>
+		  <div class="tab">
+			<h1>Tab Two Content</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		  </div>
+
+		  <?php echo $responsive_tabs["faqs"]; ?>
+		  <div class="tab">
+			<h1>Tab faqs Content</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		  </div>
+		  
+		  <?php echo $responsive_tabs["photos"]; ?>
+		  <div class="tab">
+			<h1>Tab photos Content</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		  </div>
+		  
+		  <?php echo $responsive_tabs["buynow"]; ?>
+		  <div class="tab">
+			<h1>Tab buy Content</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		  </div>
+		  
+		  
+		  
+		</div><!-- end of #responsive-tabs-->
+        
+        
+        
         
           <div id="tabs" class="yollo-tabs nodisp">
             <ul>
@@ -408,9 +448,12 @@
 				thumbnailHoverEffect:'borderLighter'
 
 			});
-
+		
+		
 
 	});
+	
+	
 
 </script> 
 
