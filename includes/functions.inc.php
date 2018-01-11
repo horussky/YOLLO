@@ -63,11 +63,11 @@
 	);
 	
 	$responsive_tabs = array(
-		"overview" => "<input type=\"radio\" name=\"tabs\" id=\"tab-1\" checked=\"checked\"><label for=\"tab-1\">Overview</label>",
-		"price" => "<input type=\"radio\" name=\"tabs\" id=\"tab-2\"><label for=\"tab-2\">Price</label>",
-		"faqs" => "<input type=\"radio\" name=\"tabs\" id=\"tab-3\"><label for=\"tab-3\">FAQs</label>",
-		"photos" => "<input type=\"radio\" name=\"tabs\" id=\"tab-4\"><label for=\"tab-4\">Photos</label>",
-		"buynow"=> "<input type=\"radio\" name=\"tabs\" id=\"tab-5\"><label for=\"tab-5\">Buy Now</label>",
+		"overview" => "<input type=\"radio\" name=\"tabs\" id=\"tab-1\" checked=\"checked\"><label for=\"tab-1\"> <i class=\"fa fa-chevron-circle-right\" aria-hidden=\"true\"></i> Overview</label>",
+		"price" => "<input type=\"radio\" name=\"tabs\" id=\"tab-2\"><label for=\"tab-2\"> <i class=\"fa fa-chevron-circle-right\" aria-hidden=\"true\"></i> Price</label>",
+		"faqs" => "<input type=\"radio\" name=\"tabs\" id=\"tab-3\"><label for=\"tab-3\"><i class=\"fa fa-chevron-circle-right\" aria-hidden=\"true\"></i> FAQs</label>",
+		"photos" => "<input type=\"radio\" name=\"tabs\" id=\"tab-4\"><label for=\"tab-4\"><i class=\"fa fa-chevron-circle-right\" aria-hidden=\"true\"></i> Photos</label>",
+		"buynow"=> "<input type=\"radio\" name=\"tabs\" id=\"tab-5\"><label for=\"tab-5\"><i class=\"fa fa-chevron-circle-right\" aria-hidden=\"true\"></i> Buy Now</label>",
 	);
 
 	$current_url = "$_SERVER[REQUEST_URI]";

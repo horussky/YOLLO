@@ -96,24 +96,31 @@
 	display: flex;
 	flex-wrap: wrap; // make sure it wraps
 	
-	label {
+	> label {
 		order: 1; // Put the labels first
 		display: block;
 		padding: 1rem 2rem;
-		margin-right: 0.2rem;
+		//margin-right: 0.2rem;
 		cursor: pointer;
-		background: #90CAF9;
+		//background: #90CAF9;
 		font-weight: bold;
 		transition: background ease 0.2s;
-	}
+		margin-bottom: 0;
+		color:#888;
+		font-family:"opensans-lite", sans-serif; 
+		
+		&:hover{
+			color:#222;
+		}
+	}   
 	
 	.tab {
 	  order: 99; // Put the tabs last
 	  flex-grow: 1;
 		width: 100%;
 		display: none;
-	  padding: 1rem;
-	  background: #fff;
+	  padding: 2rem 1rem 1rem;
+	  background: #fff;  
 	}
 		
 	input[type="radio"] {
@@ -121,24 +128,67 @@
 	}
 		
 	input[type="radio"]:checked + label {
-		background: #fff;
+		color:#222;
+		border-bottom:3px solid #9e1421;
+		//font-family:"opensans-bold", sans-serif;
+		
 	}
 		
 	input[type="radio"]:checked + label + .tab {
 		display: block;
+		border-top: 1px solid #ccc;
+	}
+		
+	input[type=radio]+label i {
+		display: none;
 	}
 
 
 }
 
 @media (max-width: 768px) {
-  #responsive-tabs .tab,
-  #responsive-tabs label {
-    order: initial;
-  }
-  #responsive-tabs label {
-    width: 100%;
-    margin-right: 0;
-    margin-top: 0.2rem;
-  }
+	#responsive-tabs .tab,
+	#responsive-tabs label {
+		order: initial;
+	}
+	
+	#responsive-tabs > label {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 0;
+		background: #a31523;
+		border-bottom:1px solid #790311;
+		text-transform: uppercase;
+		color: #fff;
+		box-shadow: inset 8px 0px 0px 0px #790311;
+		cursor: pointer;
+		padding: 2rem 2.4rem;
+
+		&:hover{
+			color:#fff;
+			background: #a31523;
+			
+		}
+	}
+	
+	#responsive-tabs input[type=radio]:checked+label{
+		color:#fff; 
+		background: #790311;
+		border-bottom:1px solid #d40b23;
+		box-shadow: inset 8px 0px 0px 0px #d40b23;
+	}
+	
+	#responsive-tabs input[type=radio]+label i {
+		transform: rotate(0deg);
+		margin-right: 1rem;
+		display: inline-block;
+		//float: right;
+	}
+
+
+	#responsive-tabs input[type=radio]:checked+label i {
+		transform: rotate(90deg);
+		//margin-right: 1rem; 
+	}
+
 }

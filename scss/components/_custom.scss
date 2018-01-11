@@ -3,6 +3,14 @@
 .nanogallery_theme_default .nanoGalleryContainer{
 	width:100%!important;
 	height: auto!important;
+	
+	display: -ms-grid;
+	-ms-grid-columns:1fr 5px 1fr 5px 1fr 5px 1fr;
+	
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+	justify-items: center;
 }
 .nanogallery_theme_default .nanoGalleryContainer .nanoGalleryThumbnailContainer {
     
@@ -10,11 +18,13 @@
     position: initial;
     overflow: hidden;
     float: left;
+	border:none; 
 }
 
+
 .nanogallery_theme_default .nanoGalleryContainer .nanoGalleryThumbnailContainer:not(:last-of-type){
-	margin-right:15px;
-	margin-bottom:15px;
+	margin-right:0;
+	margin-bottom:0;
 }
 
 .nanoGalleryThumbnailContainer .subcontainer:hover{opacity:.6;}
