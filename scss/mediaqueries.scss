@@ -406,6 +406,12 @@
 		overflow:inherit;
 	}
 	
+	.nanogallery_theme_default .nanoGalleryContainer{
+
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+
+	}
+	
 	
 
 	/*Price Table*/
@@ -495,7 +501,7 @@
 	
 	
 	
-}
+}//end of 768px
 
 
 
@@ -689,16 +695,28 @@
 	
 	.nanogallery_theme_default .nanoGalleryContainer{
 
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: auto auto auto;
 
 	}
 
 
-}
+}//end of 480px
 
 
 
-@media only screen and (max-width:360px){
+@media only screen and (max-width:425px){
+	
+	.nanogallery_theme_default .nanoGalleryContainer{
+
+		grid-template-columns: auto auto; 
+
+	}
+	
+}//end of 425px for iphone 8plus
+
+
+
+@media only screen and (max-width:375px){
 	
 	
 	
@@ -783,7 +801,10 @@
 	}
 	
 	
-}//end of 360px
+
+	
+	
+}//end of 375px
 
 
 @media (min-width: 360px){	

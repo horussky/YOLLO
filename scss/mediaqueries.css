@@ -239,6 +239,9 @@
   #nanoGallery {
     overflow: inherit; }
 
+  .nanogallery_theme_default .nanoGalleryContainer {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
+
   /*Price Table*/
   .price-table {
     display: block; }
@@ -389,8 +392,11 @@
       width: 80%; }
 
   .nanogallery_theme_default .nanoGalleryContainer {
-    grid-template-columns: 1fr 1fr; } }
-@media only screen and (max-width: 360px) {
+    grid-template-columns: auto auto auto; } }
+@media only screen and (max-width: 425px) {
+  .nanogallery_theme_default .nanoGalleryContainer {
+    grid-template-columns: auto auto; } }
+@media only screen and (max-width: 375px) {
   /*image header*/
   #right .topcontent .title {
     padding: 0 2rem; }

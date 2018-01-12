@@ -106,7 +106,7 @@
 		font-weight: bold;
 		transition: background ease 0.2s;
 		margin-bottom: 0;
-		color:#888;
+		color: #0065a2;
 		font-family:"opensans-lite", sans-serif; 
 		
 		&:hover{
@@ -129,9 +129,13 @@
 		
 	input[type="radio"]:checked + label {
 		color:#222;
-		border-bottom:3px solid #9e1421;
-		//font-family:"opensans-bold", sans-serif;
-		
+		border:1px solid #ccc;
+		border-bottom: 1px solid #fff;
+		background: #fff;
+		margin-bottom: -1px;
+		position: relative;
+		z-index: 9;
+		box-shadow: 0 -3px 0 0 #9e1421;
 	}
 		
 	input[type="radio"]:checked + label + .tab {
@@ -174,6 +178,7 @@
 	#responsive-tabs input[type=radio]:checked+label{
 		color:#fff; 
 		background: #790311;
+		border:none;
 		border-bottom:1px solid #d40b23;
 		box-shadow: inset 8px 0px 0px 0px #d40b23;
 	}
@@ -182,7 +187,6 @@
 		transform: rotate(0deg);
 		margin-right: 1rem;
 		display: inline-block;
-		//float: right;
 	}
 
 

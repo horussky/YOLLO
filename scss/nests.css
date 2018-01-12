@@ -6812,7 +6812,7 @@ form .checkbox {
     font-weight: bold;
     transition: background ease 0.2s;
     margin-bottom: 0;
-    color: #888;
+    color: #0065a2;
     font-family: "opensans-lite", sans-serif; }
     #responsive-tabs > label:hover {
       color: #222; }
@@ -6827,7 +6827,13 @@ form .checkbox {
     display: none; }
   #responsive-tabs input[type="radio"]:checked + label {
     color: #222;
-    border-bottom: 3px solid #9e1421; }
+    border: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
+    background: #fff;
+    margin-bottom: -1px;
+    position: relative;
+    z-index: 9;
+    box-shadow: 0 -3px 0 0 #9e1421; }
   #responsive-tabs input[type="radio"]:checked + label + .tab {
     display: block;
     border-top: 1px solid #ccc; }
@@ -6857,6 +6863,7 @@ form .checkbox {
   #responsive-tabs input[type=radio]:checked + label {
     color: #fff;
     background: #790311;
+    border: none;
     border-bottom: 1px solid #d40b23;
     box-shadow: inset 8px 0px 0px 0px #d40b23; }
 
@@ -7966,20 +7973,17 @@ CUSTOM
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 1rem;
   justify-items: center; }
-
-.nanogallery_theme_default .nanoGalleryContainer .nanoGalleryThumbnailContainer {
-  display: inline-block;
-  position: initial;
-  overflow: hidden;
-  float: left;
-  border: none; }
-
-.nanogallery_theme_default .nanoGalleryContainer .nanoGalleryThumbnailContainer:not(:last-of-type) {
-  margin-right: 0;
-  margin-bottom: 0; }
-
-.nanoGalleryThumbnailContainer .subcontainer:hover {
-  opacity: .6; }
+  .nanogallery_theme_default .nanoGalleryContainer .nanoGalleryThumbnailContainer {
+    display: inline-block;
+    position: initial;
+    overflow: hidden;
+    float: left;
+    border: none; }
+  .nanogallery_theme_default .nanoGalleryContainer .nanoGalleryThumbnailContainer:not(:last-of-type) {
+    margin-right: 0;
+    margin-bottom: 0; }
+  .nanogallery_theme_default .nanoGalleryContainer .nanoGalleryThumbnailContainer .subcontainer:hover {
+    opacity: .6; }
 
 /*Authorize.Net Seal*/
 div.AuthorizeNetSeal {
