@@ -36,9 +36,19 @@ $(document).ready(function () {
 		});
 
 		//open tab for programmatic linking tabs
-		$('.open-tab').click(function() {
+		/*$('.open-tab').click(function() {
     		$('#tabs').tabs("option", "active", $(this).data("tab-index"));
-		});
+		});*/
+	
+	
+		//open tab for programmatic linking tabs
+		$('.open-tab').click(function() {
+			$("#tab-5").prop('checked', true); 
+			
+			$('html, body').animate({
+			  scrollTop: $("label[for^='tab-5']").offset().top
+			}, 500)
+		});  
 	
 		
 		//prettyphoto

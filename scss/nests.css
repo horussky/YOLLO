@@ -984,6 +984,42 @@ hr {
   max-width: 100%;
   height: auto; }
 
+.mt-5 {
+  margin-top: 0.5rem; }
+
+.mt-10 {
+  margin-top: 1rem; }
+
+.mt-20 {
+  margin-top: 2rem; }
+
+.ml-5 {
+  margin-left: 0.5rem; }
+
+.ml-10 {
+  margin-left: 1rem; }
+
+.ml-20 {
+  margin-left: 2rem; }
+
+.mb-5 {
+  margin-bottom: 0.5rem; }
+
+.mb-10 {
+  margin-bottom: 1rem; }
+
+.mb-20 {
+  margin-bottom: 2rem; }
+
+.mr-5 {
+  margin-right: 0.5rem; }
+
+.mr-10 {
+  margin-right: 1rem; }
+
+.mr-20 {
+  margin-right: 2rem; }
+
 .close-x {
   width: 32px;
   height: 32px;
@@ -5692,8 +5728,7 @@ aside .btn {
 
 /*Date Location*/
 .date-location {
-  font-family: "opensans", Arial, sans-serif;
-  font-size: 1.125em;
+  font-size: 1.6rem;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -5705,8 +5740,9 @@ aside .btn {
   padding: 10px; }
 
 .date-location .col:nth-child(1) {
-  background: #a31523;
-  border-left: 5px solid #000; }
+  background: #6f6c6c;
+  border-left: 5px solid #000;
+  font-family: "opensans-bold", Arial, sans-serif; }
 
 .date-location .col:nth-child(1):before {
   font-family: "fontAwesome";
@@ -5715,7 +5751,8 @@ aside .btn {
 
 .date-location .col:nth-child(2) {
   background: #000;
-  flex-grow: 2; }
+  flex-grow: 2;
+  font-family: "opensans-lite", Arial, sans-serif; }
 
 .date-location .col:nth-child(2):before {
   font-family: "fontAwesome";
