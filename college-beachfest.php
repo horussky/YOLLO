@@ -101,7 +101,7 @@
 				<div class="title">
 					<h1><?php echo $event["title"]; ?></h1>
 					<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-					<a href="#tabs-5" class="btn btn-red open-tab" data-tab-index="4">Buy Now</a>
+					<a data-href="#tabs-5" class="btn btn-red open-tab">Buy Now</a>
 				</div>
 			</div>
 
@@ -114,44 +114,32 @@
 
                    <div class="colfull">
 
-                      <div id="tabs" class="yollo-tabs nodisp">
-                        <ul>
-                            <?php
-                                 foreach($tabsdefault as $tabs => $item){
-                                    echo "<li><a href=\"#$tabs\">$item</a></li>";
-                                 };
+                      <div id="responsive-tabs">
+                       
 
-                             ?>
-                             
-                             <li> <a href="#tabs-6" id=""><i class="fa fa-th-list"></i></span> Itinerary</a></li>
-
-                        </ul>
-                        
-                        
-                        <div id="tabs-6">
-                        	<img style="max-width:100%; height:auto;" src="/images/beachfest-2017-event-list.jpg" alt="Itinerary for College Beachfest" />
-                        </div>
-                        
-
-                        <div id="tabs-1">
+                        <?php echo $responsive_tabs["overview"]; ?>
+						<div class="tab" aria-label="overview">
                             <h3>College BeachFest is the new Spring Break destination in Daytona Beach Florida!</h3>
 
                             <p>Daytona Beach will be <strong>LIT</strong> this Spring! YOLLO is taking College BeachFest to new heights, creating the ultimate party experience in 2017. Experience the A1A strip, clubs, the warm beach, and meeting new friends; you will definitely have a fun time!</p>
+                            
 							<p>Daytona, the former host to one of the nation’s hottest Spring Break destinations, will be filled with plenty of students from across the nation, along with appearances by celebrities and socialites.</p>
+							
 							<p>College BeachFest will definitely fill the void for Spring Break attendees who are looking for something new and refreshing. Don't miss out on an opportunity of a lifetime. The dates are set, plans are finalized, and party-goers from across the nation will convene in Daytona Beach for a memorable weekend! You don't want to miss this event! Reserve your package today!</p>
 
 
-                        </div><!-- End of Tab 1-->
+                        </div><!-- ./ overview -->
 
 
 
-                        <div id="tabs-2">
+                        <?php echo $responsive_tabs["price"]; ?>
+						<div class="tab" aria-label="price">
 
 
-													<h3>Hotels</h3>
+								<h3>Hotels</h3>
                                 <div class="hotel-box-container">
 
-									 							<?php if(count($geolocation["hotel1"]) > 1) :?>
+									<?php if(count($geolocation["hotel1"]) > 1) :?>
 
                                     <div class="hotel-box">
                                         <img src="<?php echo $geolocation['hotel1']['img_url']; ?>" />
@@ -195,7 +183,7 @@
                                             <?php endforeach; ?>
 																			</ul>
                                     </li>
-                                    <li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
+                                    <li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
                                   </ul>
                                 </div><!-- price table -->
             										<?php endif; ?>
@@ -216,7 +204,7 @@
                                             <?php endforeach; ?>
 																			</ul>
                                     </li>
-                                    <li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="5">Book Today</a></li>
+                                    <li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
                                   </ul>
                                 </div><!-- price table -->
                             	<?php endif; ?>
@@ -225,10 +213,11 @@
 
 
 
-                        </div><!-- end of tabs 2 -->
+                        </div><!-- ./price -->
 
 
-                       <div id="tabs-3">
+                       <?php echo $responsive_tabs["faqs"]; ?>
+						<div class="tab" aria-label="faqs">
                        		<h3>Frequently Asked Questions</h3>
                        		
                        		<div data-accordion-group>	
@@ -266,16 +255,18 @@
 						   </div><!-- end of accordion group-->
 
 
-                       </div> <!-- End of Tab 3-->
+                       </div> <!-- ./faqs-->
 
 
 
-                       <div id="tabs-4">
+                       <?php echo $responsive_tabs["photos"]; ?>
+						<div class="tab" aria-label="photos">
                         	<div id="nanoGallery"></div>
-                       </div>  <!-- end of tabs 4 -->
+                       </div>  <!-- ./photos -->
 
 
-                       <div id="tabs-5">
+                       <?php echo $responsive_tabs["buynow"]; ?>
+					   <div class="tab" aria-label="buy">
                        		
                             <h3>Buy Now</h3>
 							<p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
@@ -283,11 +274,11 @@
                             <div class="cognito"></div>
 
                         	
-                    	</div>
+                    	</div><!-- ./buynow -->
 
 
 
-                    </div> <!-- End of tabs5-->
+                    </div> <!-- ./responsive tabs -->
 
 
                     </div><!-- End of Tabs-->

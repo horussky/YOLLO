@@ -124,7 +124,7 @@
 					<div class="title">
 						<h1><?php echo $event["title"]; ?></h1>
 						<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-						<a href="#tabs-5" class="btn btn-red open-tab" data-tab-index="4">Buy Now</a>
+						<a data-href="#tabs-5" class="btn btn-red open-tab">Buy Now</a>
 					</div>
 			</div>
 
@@ -138,41 +138,33 @@
                    <div class="colfull">
 
 
-                     <div id="tabs" class="yollo-tabs nodisp">
-                        <ul>
-                            <?php
-                                 foreach($tabsdefault as $tabs => $item){
-                                    echo "<li><a href=\"#$tabs\">$item</a></li>";
-                                 };
+                     <div id="responsive-tabs">
 
-                             ?>
-
-                        </ul>
-
-
-
-                        <div id="tabs-1">
+                        
+                        <?php echo $responsive_tabs["overview"]; ?>
+						<div class="tab" aria-label="overview">
 						<h3>Get ready for Essence Festival 2018</h3>
 
-						<p>The 24th annual Essence Music Festival is an annual mega music event filled with concerts, seminars and celebrities, sponsored by Essence Magazine. The Essence Music Festival summer concert series, will once again be held in New Orleans, Louisiana. In 2017, this event brought in over 470,000 attendees. 2018 promises to bring in an even larger crowd with the planned performers that will be in attendance. Concerts rock the New Orleans Superdome each night and teh variety of parties have been added to highlight the daylight hours! You don't want to miss a minute of the fun in the Big Easy during this exciting time.</p>
+						<p>The 24th annual Essence Music Festival is an annual mega music event filled with concerts, seminars and celebrities, sponsored by Essence Magazine. This summer concert series once again will be held in New Orleans, Louisiana. 2018 promises to bring in the largest crowd this festival has ever seen. Concerts rock the New Orleans Superdome each night and the variety of parties have been added to highlight the daylight hours!</p>
 
 						<h4>The Mid-Day Cruise Party</h4>
 
-						<p>This cruise was such a HUGE success in 2017 that we had to add two cruises to accommodate the demand! The 13th annual Mid-Day Party Boat Cruise will happen on the famous Creole Queen and will be featured with 4 options for you cruising delight! Enjoy a multi-level paddle-wheel boat cruising the Mighty Mississippi River, while listening to the livest Hip-Hop and R&B music. This cruise will be All White preferred, however not required theme while providing the ULTIMATE party experience during Essence!  Please remember that once we sell out, we will not have any more tickets available. So don't procrastinate and miss out on mixing and mingling, or partying like a rock star!</p>
+						<p>This cruise was such a HUGE success in 2017 that we had to add two cruises to accommodate the demand! The 13th annual Mid-Day Party Boat Cruise will happen on the famous Creole Queen and will be featured with 4 options for you cruising delight! Enjoy a multi-level paddle-wheel boat cruising the Mighty Mississippi River, while listening to the livest Hip-Hop and R&B music. This cruise will be "All White" theme preferred, but not required for this event.</p>
 
 						<h4>The Mid-Day Comedy Show</h4>
 						<p>Needless to say, the comedy show was bigger and better than ever! The food was great, drinks were on point, and the jokes had everyone in stitches! If you are in need of some serious laughter, this is the event for you. Last year's headliner Steve Brown had tears in EVERYBODY'S eyes! Don't think we are going to let you down with our 2018 lineup! The 8th annual Comedy Show will happen on July 8th, 2018. Join us to hear some of the funniest comedians to ever hit the main circuit.</p>
 
-						<p>Do the right thing and <a href="#tabs-5" class="open-tab" data-tab-index="4">Book now</a> with YOLLO Group Services Inc. and allow us to give you the best travel experience while in New Orleans!</p>
+						<p>Do the right thing and <a data-href="#tabs-5" class="open-tab">Book now</a> with YOLLO Group Services Inc. and allow us to give you the best travel experience while in New Orleans!</p>
 
 
 
-                        </div> <!-- end of tabs 1 -->
+                        </div> <!-- ./overview -->
 
 
 
 
-                        <div id="tabs-2">
+                        <?php echo $responsive_tabs["price"]; ?>
+						<div class="tab" aria-label="price">
 
 
 								<h3>Hotels</h3>
@@ -222,7 +214,7 @@
 												<?php endforeach; ?>
 											</ul>
 										</li>
-										<li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
+										<li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
 									  </ul>
 									</div><!-- price table -->
 
@@ -240,7 +232,7 @@
 												<?php endforeach; ?>
 											</ul>
 										</li>
-										<li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
+										<li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
 									  </ul>
 									</div><!-- price table -->
                                 
@@ -249,13 +241,14 @@
 
 
 
-                        </div><!-- end of tabs 2 -->
+                        </div><!-- ./price -->
 
 
 
 
 
-                        <div id="tabs-3">
+                        <?php echo $responsive_tabs["faqs"]; ?>
+						<div class="tab" aria-label="faqs">
 					    <h3>Frequently Asked Questions</h3>
                        	
                        	<div data-accordion-group>	
@@ -416,25 +409,27 @@
                        
 
 
-                        </div><!-- end of tabs3 -->
+                        </div><!-- ./faqs -->
 
 
 
 
-                        <div id="tabs-4">
+                        <?php echo $responsive_tabs["photos"]; ?>
+						<div class="tab" aria-label="photos">
 					   	<h3>Photos</h3>
                         		<div id="nanoGallery"></div>
-                        </div>  <!-- end of tabs 5 -->
+                        </div>  <!-- ./photos -->
 
 
 
 
-						<div id="tabs-5">
+						<?php echo $responsive_tabs["buynow"]; ?>
+						<div class="tab" aria-label="buy">
                         	<h3>Buy Now</h3>
 							<p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
                         	<div class="cognito"></div>
 
-                    	</div>
+                    	</div><!-- ./buynow -->
 
 
 

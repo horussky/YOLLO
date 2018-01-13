@@ -5742,7 +5742,8 @@ aside .btn {
 .date-location .col:nth-child(1) {
   background: #6f6c6c;
   border-left: 5px solid #000;
-  font-family: "opensans-bold", Arial, sans-serif; }
+  font-family: "opensans-lite", Arial, sans-serif;
+  text-shadow: 1px 2px 1px #444; }
 
 .date-location .col:nth-child(1):before {
   font-family: "fontAwesome";
@@ -6877,40 +6878,6 @@ form .checkbox {
   #responsive-tabs input[type=radio] + label i {
     display: none; }
 
-@media (max-width: 768px) {
-  #responsive-tabs .tab,
-  #responsive-tabs label {
-    order: initial; }
-
-  #responsive-tabs > label {
-    width: 100%;
-    margin-right: 0;
-    margin-bottom: 0;
-    background: #a31523;
-    border-bottom: 1px solid #790311;
-    text-transform: uppercase;
-    color: #fff;
-    box-shadow: inset 8px 0px 0px 0px #790311;
-    cursor: pointer;
-    padding: 2rem 2.4rem; }
-    #responsive-tabs > label:hover {
-      color: #fff;
-      background: #a31523; }
-
-  #responsive-tabs input[type=radio]:checked + label {
-    color: #fff;
-    background: #790311;
-    border: none;
-    border-bottom: 1px solid #d40b23;
-    box-shadow: inset 8px 0px 0px 0px #d40b23; }
-
-  #responsive-tabs input[type=radio] + label i {
-    transform: rotate(0deg);
-    margin-right: 1rem;
-    display: inline-block; }
-
-  #responsive-tabs input[type=radio]:checked + label i {
-    transform: rotate(90deg); } }
 /*! fancyBox v2.1.4 fancyapps.com | fancyapps.com/fancybox/#license */
 .fancybox-wrap,
 .fancybox-skin,

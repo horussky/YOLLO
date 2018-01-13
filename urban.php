@@ -6,7 +6,7 @@ ob_start("ob_gzhandler");
 $event = array(
 	"title"				=>"Urban Fiesta 2018",
 	"subtitle"			=>"Book your package today!",
-	"location"		   	=>"Rio Bueno, Jamacia",
+	"location"		   	=>"Run Away Bay, Jamaica",
 	"date"				=>"May 25-27, 2018",
 	"img_url"			=>"../../images/slides/splash-urban-fiesta-cta.jpg",
 	"img_alt"			=>"Urban Fiesta"
@@ -142,7 +142,7 @@ include 'includes/functions.inc.php';
 							<div class="title">
 								<h1><?php echo $event["title"]; ?></h1>
 								<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-								<a href="#tabs-5" class="btn btn-red open-tab" data-tab-index="4">Buy Now</a>
+								<a data-href="#tabs-5" class="btn btn-red open-tab">Buy Now</a>
 							</div>
 						</div>
 
@@ -164,12 +164,11 @@ include 'includes/functions.inc.php';
 
                               <div class="colfull">
 
-                                   <div id="tabs" class="yollo-tabs nodisp">
-                                        <ul>
-                                             <?php foreach($tabsdefault as $tabs => $item){echo "<li><a href=\"#$tabs\">$item</a></li>";};?>
-                                        </ul>
+                                   <div id="responsive-tabs">
+                                    
 
-                                        <div id="tabs-1">
+                                        <?php echo $responsive_tabs["overview"]; ?>
+										<div class="tab" aria-label="overview">
 
                                              <h3>Jamaica is the ONLY place to be Memorial Day weekend 2018!</h3>
 
@@ -177,14 +176,11 @@ include 'includes/functions.inc.php';
 
 											 <p>Dust those passports off, secure your package today, and get ready for some major FUN! YOLLO Group Services will see you in Jamaica for Urban Fiesta Weekend 2018!</p>
                                              
-                                        </div>
-                                        <!-- end of tabs 1 -->
+                                        </div><!-- ./overview -->
 
 
-
-
-
-                                        <div id="tabs-2">
+                                        <?php echo $responsive_tabs["price"]; ?>
+										<div class="tab" aria-label="price">
 
                                              <h3>Hotels</h3>
 
@@ -241,7 +237,7 @@ include 'includes/functions.inc.php';
 																   </ul>
 															  </li>
 
-															  <li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
+															  <li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
                                                        </ul>
                                                   </div>
                                                   <!-- price table -->
@@ -268,7 +264,7 @@ include 'includes/functions.inc.php';
 																		</ul>
 																   </li>
 
-																   <li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
+																   <li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
                                                             </ul>
                                                        </div>
                                                        <!-- price table -->
@@ -288,12 +284,12 @@ include 'includes/functions.inc.php';
 														</ul>	
                                                       
 
-                                        </div>
-                                        <!-- end of Tab 2 -->
+                                        </div><!-- ./price -->
 
 
 
-                                        <div id="tabs-3">
+                                        <?php echo $responsive_tabs["faqs"]; ?>
+										<div class="tab" aria-label="faqs">
 
                                         	<h3>Frequently Asked Questions</h3>
                                              
@@ -386,28 +382,26 @@ include 'includes/functions.inc.php';
 
                                             
 
-                                        </div>
-                                        <!-- end of Tab 3 -->
+                                        </div> <!-- ./faqs -->
 
 
-                                        <div id="tabs-4">
+                                        <?php echo $responsive_tabs["photos"]; ?>
+										<div class="tab" aria-label="photos">
                                              <div id="nanoGallery"></div>
-                                        </div>
-                                        <!-- end of tabs 4 -->
+                                        </div> <!-- ./photos -->
 
 
-                                        <div id="tabs-5">
+                                        <?php echo $responsive_tabs["buynow"]; ?>
+										<div class="tab" aria-label="buy">
 
                                             <h3>Buy Now</h3>
                                             <p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
                                             
                                             <div class="cognito"></div>
 
-                                        </div>
-                                        <!-- end of tabs 5 -->
+                                        </div> <!-- ./buynow -->
 
-                                   </div>
-                                   <!-- end of tabs -->
+                                   </div> <!-- ./responsive-tabs -->
 
                               </div>
                               <!-- end of col1 -->

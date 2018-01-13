@@ -48,8 +48,53 @@ $(document).ready(function () {
 			$('html, body').animate({
 			  scrollTop: $("label[for^='tab-5']").offset().top
 			}, 500)
-		});  
+		});
 	
+		//open tab for programmatic linking tabs
+		$('#responsive-tabs input#tab-1').click(function() {
+			
+			$('html, body').animate({
+			  scrollTop: $("label[for^='tab-1']").offset().top
+			}, 500)
+		});
+	
+		//open tab for programmatic linking tabs
+		$('#responsive-tabs input#tab-2').click(function() {
+			
+			$('html, body').animate({
+			  scrollTop: $("label[for^='tab-2']").offset().top
+			}, 500)
+		});
+	
+	
+		//open tab for programmatic linking tabs
+		$('#responsive-tabs input#tab-3').click(function() {
+			
+			$('html, body').animate({
+			  scrollTop: $("label[for^='tab-3']").offset().top
+			}, 500)
+		});
+		
+		//open tab for programmatic linking tabs
+		$('#responsive-tabs input#tab-4').click(function() {
+			
+			$('html, body').animate({
+			  scrollTop: $("label[for^='tab-4']").offset().top
+			}, 500)
+		});
+		
+		
+		//open tab for programmatic linking tabs
+		$('#responsive-tabs input#tab-6').click(function() {
+			
+			$('html, body').animate({
+			  scrollTop: $("label[for^='tab-6']").offset().top
+			}, 500)
+		});
+		
+		
+		
+
 		
 		//prettyphoto
 		$("a[rel^='prettyPhoto']").prettyPhoto({

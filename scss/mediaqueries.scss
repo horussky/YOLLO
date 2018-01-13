@@ -499,6 +499,52 @@
 	}
 	
 	
+	//Responsive Tabs to Accordion
+	#responsive-tabs .tab,
+	#responsive-tabs label {
+		order: initial;
+	}
+	
+	#responsive-tabs > label {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 0;
+		background: #a31523;
+		border-bottom:1px solid #790311;
+		text-transform: uppercase;
+		color: #fff;
+		box-shadow: inset 8px 0px 0px 0px #790311;
+		cursor: pointer;
+		padding: 2rem 2.4rem;
+
+		&:hover{
+			color:#fff;
+			background: #a31523;
+			
+		}
+	}
+	
+	#responsive-tabs input[type=radio]:checked+label{
+		color:#fff; 
+		background: #790311;
+		border:none;
+		border-bottom:1px solid #d40b23;
+		box-shadow: inset 8px 0px 0px 0px #d40b23;
+	}
+	
+	#responsive-tabs input[type=radio]+label i {
+		transform: rotate(0deg);
+		margin-right: 1rem;
+		display: inline-block;
+	}
+
+
+	#responsive-tabs input[type=radio]:checked+label i {
+		transform: rotate(90deg);
+		//margin-right: 1rem; 
+	}
+	
+	
 	
 	
 }//end of 768px
@@ -697,6 +743,11 @@
 
 		grid-template-columns: auto auto auto;
 
+	}
+	
+	.date-location .col:nth-child(1){
+		font-size:1.8rem;
+		border-top: 1px solid #a7a6a6!important;
 	}
 
 

@@ -113,7 +113,7 @@ include 'includes/functions.inc.php';
 				<div class="title">
 					<h1><?php echo $event["title"]; ?></h1>
 					<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-					<a href="#tabs-5" class="btn btn-red open-tab" data-tab-index="4">Buy Now</a>
+					<a data-href="#tabs-5" class="btn btn-red open-tab">Buy Now</a>
 				</div>
 			</div>
         
@@ -130,18 +130,12 @@ include 'includes/functions.inc.php';
         
                 <div class="colfull">
         
-                    <div id="tabs" class="yollo-tabs nodisp">
-                    <ul>
-                             <?php
-                                        foreach($tabnavcruise as $tabs => $item){
-                                             echo "<li><a href=\"#$tabs\">$item</a></li>";
-                                        };
-    
-                                ?>
-                    </ul>
+                    <div id="responsive-tabs">
+                    
 
 
-                    <div id="tabs-1">
+                    <?php echo $responsive_tabs["overview"]; ?>
+					<div class="tab" aria-label="overview">
                         <h3>Alumni Getaway Cruise is going to Cozumel, Mexico!</h3>
 
                         <p>Calling all old, new, and almost alums, this Alumni Getaway Cruise is the weekend vacation for you. We are bringing together HBCU alums from all over the country to rep their university. What better way to meet and mingle than cruising aboard the Carnival Fantasy to the beautiful island of Cozumel, Mexico. Not a product of a HBCU? No worries, this cruise isn't exclusive to only HBCU alumni. Everyone's invited to rep their university on this getaway cruise to Mexico. </p>
@@ -151,10 +145,11 @@ include 'includes/functions.inc.php';
                         <p>Don't believe the hype, Mexico is a very beautiful place to visit. Cozumel has plenty of excursions and shopping areas to explore. If time permits, tour the Mayan ruins or cruise the island and enjoy the scenery. So do not hesitate on this package. Book this great cruise package today!</p>
 
 
-                    </div> <!-- end of tab 1 -->
+                    </div> <!-- ./ overview -->
 
 
-                    <div id="tabs-2">
+                    <?php echo $responsive_tabs["price"]; ?>
+					<div class="tab" aria-label="price">
 
                         <h3>Cruise</h3>
 						<div class="hotel-box-container">
@@ -200,7 +195,7 @@ include 'includes/functions.inc.php';
 											<?php endforeach; ?>
 									</ul>
 								</li>
-								<li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
+								<li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
 							</ul>
 						</div><!-- price table -->
 						<?php endif; ?>
@@ -221,18 +216,19 @@ include 'includes/functions.inc.php';
 											<?php endforeach; ?>
 									</ul>
 								</li>
-								<li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
+								<li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
 							</ul>
 						</div><!-- price table -->
 						<?php endif; ?>
                                 
 						</div><!-- price table container-->
 
-                    </div><!-- end of Tab 2 -->
+                    </div><!-- ./ price -->
 
 
 
-                    <div id="tabs-3">
+                    <?php echo $responsive_tabs["faqs"]; ?>
+					<div class="tab" aria-label="faqs">
 
                         <h3>Frequently Asked Questions</h3>
                         
@@ -363,30 +359,32 @@ include 'includes/functions.inc.php';
 						</div><!-- end of accordion group-->
 
 
-            </div> <!-- end of Tab 3 -->
+            </div> <!-- ./ faqs -->
 
 
 
-            <div id="tabs-4">
+            <?php echo $responsive_tabs["photos"]; ?>
+			<div class="tab" aria-label="photos">
                  <div id="nanoGallery"></div>
-            </div><!-- end of tabs 4 -->
+            </div><!-- ./ photos -->
 
 
-            <div id="tabs-5">
+            <?php echo $responsive_tabs["buynow"]; ?>
+			<div class="tab" aria-label="buy">
+                
+                <h3>Buy Now</h3>
 
                 <div class="pay-form">
-                        <p >Please use the form below to complete your booking for <?php echo $event["title"]?>. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
-
-
-
-                            <div class="cognito"></div>
+                	<p>Please use the form below to complete your booking for <?php echo $event["title"]?>. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
+                	
+                	<div class="cognito"></div>
 
                 </div><!-- end of pay-form -->
 
 
-    </div><!-- end of tabs 5 -->
+    		</div><!-- ./ buy now -->
 
-								</div><!-- end of tabs -->
+								</div><!-- end of responsive-tabs -->
 
 
 

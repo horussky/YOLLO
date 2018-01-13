@@ -207,7 +207,7 @@
 						  <?php endforeach; ?>
 						</ul>
 					  </li>
-					  <li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
+					  <li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
 					</ul>
 					</div>
 					<!-- price table -->
@@ -229,7 +229,7 @@
 						  <?php endforeach; ?>
 						</ul>
 					  </li>
-					  <li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
+					  <li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
 					</ul>
 					</div>
 					<!-- price table --> 

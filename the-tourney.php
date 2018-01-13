@@ -119,7 +119,7 @@ include 'includes/functions.inc.php';
 					<div class="title">
 						<h1><?php echo $event["title"]; ?></h1>
 						<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-						<a href="#tabs-5" class="btn btn-red open-tab" data-tab-index="4">Buy Now</a>
+						<a data-href="#tabs-5" class="btn btn-red open-tab">Buy Now</a>
 					</div>
 				</div>
 
@@ -134,110 +134,103 @@ include 'includes/functions.inc.php';
 
 					<div class="colfull">
 
-							<div id="tabs" class="yollo-tabs nodisp">
-							 <ul>
-									 <?php
-												foreach($tabsdefault as $tabs => $item){
-													 echo "<li><a href=\"#$tabs\">$item</a></li>";
-												};
+							<div id="responsive-tabs">
 
-										?>
+              				<?php echo $responsive_tabs["overview"]; ?>
+							<div class="tab" aria-label="overview">
 
-							 </ul>
+								<h3>Get ready for <?php echo $event["title"]?> in Charlotte, North Carolina. </h3>
 
+								<p>The BIG CIAA tournament is taking over North Carolina again in 2018. YOLLO Group Services is making the Tourney a fun-filled weekend for you to remember. This basketball tournament has become one of the most attended events among HBCU’s in the nation. </p>
+								<p>Fans will get their basketball fix during the day-time, while others enjoy all the night-time events. This means parties galore! You may spot a celebrity or two crashing and/or hosting several of these parties. You cannot go wrong booking with YOLLO Group Services for the Tourney Weekend 2018. </p>
+								<p>If parties and celebrities are what you are looking for this weekend's events are definitely what you want to attend. Make sure you explore our Hotel and Pricing options and reserve your spot today before it's too late! </p>
 
-              <div id="tabs-1">
-
-		              <h3>Get ready for <?php echo $event["title"]?> in Charlotte, North Carolina. </h3>
-
-		              <p>The BIG CIAA tournament is taking over North Carolina again in 2018. YOLLO Group Services is making the Tourney a fun-filled weekend for you to remember. This basketball tournament has become one of the most attended events among HBCU’s in the nation. </p>
-									<p>Fans will get their basketball fix during the day-time, while others enjoy all the night-time events. This means parties galore! You may spot a celebrity or two crashing and/or hosting several of these parties. You cannot go wrong booking with YOLLO Group Services for the Tourney Weekend 2018. </p>
-									<p>If parties and celebrities are what you are looking for this weekend's events are definitely what you want to attend. Make sure you explore our Hotel and Pricing options and reserve your spot today before it's too late! </p>
-
-							</div><!-- end of tab1-->
+							</div><!-- ./overview -->
 
 
-							<div id="tabs-2">
+							<?php echo $responsive_tabs["price"]; ?>
+							<div class="tab" aria-label="price">
 
 								<h3>Hotels</h3>
-											<div class="hotel-box-container">
+								<div class="hotel-box-container">
 
-											<?php if(count($geolocation["hotel1"]) > 1) :?>
+								<?php if(count($geolocation["hotel1"]) > 1) :?>
 
-													<div class="hotel-box">
-															<img src="<?php echo $geolocation['hotel1']['img_url']; ?>" />
-															<div class="hotel-title">
-																	<h3><?php echo $geolocation["hotel1"]["title"]; ?></h3>
-															</div>
-													</div>
+										<div class="hotel-box">
+												<img src="<?php echo $geolocation['hotel1']['img_url']; ?>" />
+												<div class="hotel-title">
+														<h3><?php echo $geolocation["hotel1"]["title"]; ?></h3>
+												</div>
+										</div>
 
-													<?php endif; ?>
-
-													<?php if(count($geolocation["hotel2"]) > 1) :?>
-
-													<div class="hotel-box">
-														 <img src="<?php echo $geolocation['hotel2']['img_url']; ?>" />
-															<div class="hotel-title">
-																	<h3><?php echo $geolocation["hotel2"]["title"]; ?></h3>
-															</div>
-													</div>
-													<?php endif; ?>
-
-
-											</div>
-
-										<hr />
-
-										<h3>Price</h3>
-											
-											<div class="price-table-container">
-
-											<?php if(count($people["diamond"]) > 1) :?>
-											<div class="price-table">
-												<ul class="price">
-													<li class="header">Diamond <span>Package</span></li>
-													<?php foreach($package_items['diamond_items'] as $key=>$value): ?>
-														<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-													<?php endforeach; ?>
-													<li class="people-price">
-														<ul class="priceblock">
-																<?php foreach($people['diamond'] as $key=>$value): ?>
-																	<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
-																	<?php endforeach; ?>
-														</ul>
-													</li>
-													<li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
-												</ul>
-											</div><!-- price table -->
-											<?php endif; ?>
-
-
-
-											<?php if(count($people["emerald"]) > 1) :?>
-											<div class="price-table">
-												<ul class="price">
-													<li class="header">Emerald <span>Package</span></li>
-													<?php foreach($package_items['emerald_items'] as $key=>$value): ?>
-														<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-													<?php endforeach; ?>
-													<li class="people-price">
-														<ul class="priceblock">
-																<?php foreach($people['emerald'] as $key=>$value): ?>
-																	<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
-																	<?php endforeach; ?>
-														</ul>
-													</li>
-													<li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
-												</ul>
-											</div><!-- price table -->
 										<?php endif; ?>
-										
-										</div><!-- price table container-->
 
-								</div><!-- end of Tab 2 -->
+										<?php if(count($geolocation["hotel2"]) > 1) :?>
+
+										<div class="hotel-box">
+											 <img src="<?php echo $geolocation['hotel2']['img_url']; ?>" />
+												<div class="hotel-title">
+														<h3><?php echo $geolocation["hotel2"]["title"]; ?></h3>
+												</div>
+										</div>
+										<?php endif; ?>
 
 
-								<div id="tabs-3">
+								</div>
+
+								<hr />
+
+								<h3>Price</h3>
+
+								<div class="price-table-container">
+
+								<?php if(count($people["diamond"]) > 1) :?>
+								<div class="price-table">
+									<ul class="price">
+										<li class="header">Diamond <span>Package</span></li>
+										<?php foreach($package_items['diamond_items'] as $key=>$value): ?>
+											<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+										<?php endforeach; ?>
+										<li class="people-price">
+											<ul class="priceblock">
+													<?php foreach($people['diamond'] as $key=>$value): ?>
+														<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
+														<?php endforeach; ?>
+											</ul>
+										</li>
+										<li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
+									</ul>
+								</div><!-- price table -->
+								<?php endif; ?>
+
+
+
+								<?php if(count($people["emerald"]) > 1) :?>
+								<div class="price-table">
+									<ul class="price">
+										<li class="header">Emerald <span>Package</span></li>
+										<?php foreach($package_items['emerald_items'] as $key=>$value): ?>
+											<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+										<?php endforeach; ?>
+										<li class="people-price">
+											<ul class="priceblock">
+													<?php foreach($people['emerald'] as $key=>$value): ?>
+														<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
+														<?php endforeach; ?>
+											</ul>
+										</li>
+										<li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
+									</ul>
+								</div><!-- price table -->
+								<?php endif; ?>
+
+								</div><!-- price table container-->
+
+								</div><!-- ./price -->
+
+
+								<?php echo $responsive_tabs["faqs"]; ?>
+								<div class="tab" aria-label="faqs">
 
 									<h3>Frequently Asked Questions</h3>
 									
@@ -279,27 +272,29 @@ include 'includes/functions.inc.php';
 									
 
 
-				        </div> <!-- end of Tab 3 -->
+				        		</div> <!-- ./faqs -->
 
 
 
-								<div id="tabs-4">
+								<?php echo $responsive_tabs["photos"]; ?>
+								<div class="tab" aria-label="photos">
 									 <div id="nanoGallery"></div>
-								</div><!-- end of tabs 4 -->
+								</div><!-- ./photos -->
 
 
 
-								<div id="tabs-5">
+								<?php echo $responsive_tabs["buynow"]; ?>
+								<div class="tab" aria-label="buy">
 
 									<h3>Buy Now</h3>
                                 	<p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
                                 
                                 	<div class="cognito"></div>
 
-				        		</div><!-- end of tabs 5 -->
+				        		</div><!-- ./buynow -->
 
 
-							</div><!-- end of Tabs -->
+							</div><!-- .responsive-tabs  -->
 
 
 

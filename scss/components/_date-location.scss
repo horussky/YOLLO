@@ -11,13 +11,16 @@
 }
 
 .date-location .col{
-	color: #fff; padding:10px;
+	color: #fff; 
+	padding:10px;
 }
 
 .date-location .col:nth-child(1){
 	background:#6f6c6c;
 	border-left: 5px solid #000;
-	font-family:"opensans-bold", Arial, sans-serif; 
+	font-family:"opensans-lite", Arial, sans-serif;
+	text-shadow: 1px 2px 1px #444;
+	
 }
 
 .date-location .col:nth-child(1):before{
@@ -36,4 +39,4 @@
 	font-family:"fontAwesome";
 	content: "\f279";
 	margin-right: 10px;
-}
+} 
