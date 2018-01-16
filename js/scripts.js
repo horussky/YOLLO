@@ -1,46 +1,6 @@
 $(document).ready(function () {
 
 
-	//Jquery Tabs
-		$("#tabs").show();
-		$("#tabs").tabs({
-
-
-		show: function(event, ui) {
-
-            var lastOpenedPanel = $(this).data("lastOpenedPanel");
-
-            if (!$(this).data("topPositionTab")) {
-                $(this).data("topPositionTab", $(ui.panel).position().top);
-            }
-            $(ui.panel).css({zIndex:99}).hide().fadeIn(500);
-
-            if (lastOpenedPanel) {
-                lastOpenedPanel
-                    .toggleClass("ui-tabs-hide")
-                    .css("position", "absolute")
-                    .css("top", $(this).data("topPositionTab") + "px")
-					.css({zIndex:99})
-                    .fadeOut(500, function() {
-                        $(this)
-                        .css("position", "");
-                    });
-
-            }
-
-            //Saving the last tab has been opened
-            $(this).data("lastOpenedPanel", $(ui.panel));
-
-        }
-
-		});
-
-		//open tab for programmatic linking tabs
-		/*$('.open-tab').click(function() {
-    		$('#tabs').tabs("option", "active", $(this).data("tab-index"));
-		});*/
-	
-	
 		//open tab for programmatic linking tabs
 		$('.open-tab').click(function() {
 			$("#tab-5").prop('checked', true); 
