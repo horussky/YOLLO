@@ -4,7 +4,7 @@ ob_start("ob_gzhandler");
 
 
 $event = array(
-	"title"				=>"Urban Fiesta 2018",
+	"title"				=>"Urban Fiesta Weekend 2018",
 	"subtitle"			=>"Book your package today!",
 	"location"		   	=>"Run Away Bay, Jamaica",
 	"date"				=>"May 25-27, 2018",

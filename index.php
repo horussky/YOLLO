@@ -37,11 +37,12 @@
 							<div class="slider">
 								<div class="event-slider">
 									<ul>
+										<li><img src="images/slides/splash-urban-ski.jpg"></li>
+										<li><img src="images/slides/splash-urban-fiesta.jpg"></li>
+										<li><img src="images/slides/splash-essence.jpg"></li>
 										<li><img src="images/slides/splash-groove.jpg"></li>
 										<li><img src="images/slides/splash-mmf.jpg"></li>
-										<li><img src="images/slides/splash-urban-fiesta.jpg"></li>
-										<li><img src="images/slides/splash-urban-ski.jpg"></li>
-										<li><img src="images/slides/splash-essence.jpg"></li>
+										<li><img src="images/slides/splash-instagram.jpg"></li>
 										<li><img src="images/slides/splash-tourney.jpg"></li> 
 										<li><img src="images/slides/splash-nba.jpg"></li>
 										<li><img src="images/slides/splash-facebook.jpg"></li>
@@ -131,6 +132,20 @@
 			
 						<div class="test">
 							<ul>
+								<li>
+									<div class="stars">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+									</div>
+									<p>Hats off to Yollo Group Services! The All White Boat party was 🔥🔥🔥 and it was topped off with awesome seats for the concert.</p>
+									<hr>
+									<p class="author">Demarcus G</p>
+								</li>
+							
+							
 								<li>
 									<div class="stars">
 										<i class="fa fa-star" aria-hidden="true"></i>

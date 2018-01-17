@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
 
-		//open tab for programmatic linking tabs
+		//buy now button on header
 		$('.open-tab').click(function() {
 			$("#tab-5").prop('checked', true); 
 			
@@ -9,15 +9,15 @@ $(document).ready(function () {
 			  scrollTop: $("label[for^='tab-5']").offset().top
 			}, 500);
 		});
-	
+		
+		//scroll to top of tab on click
 		$('#responsive-tabs input').click(function() {
 			
 			$('html, body').animate({
 			  scrollTop: $("label[for^='tab-']").offset().top
 			}, 500);
 		});
-	
-		
+
 
 		
 		//prettyphoto
