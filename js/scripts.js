@@ -1,45 +1,24 @@
 $(document).ready(function () {
 
 
-	//Jquery Tabs
-		$("#tabs").show();
-		$("#tabs").tabs({
-
-
-		show: function(event, ui) {
-
-            var lastOpenedPanel = $(this).data("lastOpenedPanel");
-
-            if (!$(this).data("topPositionTab")) {
-                $(this).data("topPositionTab", $(ui.panel).position().top);
-            }
-            $(ui.panel).css({zIndex:99}).hide().fadeIn(500);
-
-            if (lastOpenedPanel) {
-                lastOpenedPanel
-                    .toggleClass("ui-tabs-hide")
-                    .css("position", "absolute")
-                    .css("top", $(this).data("topPositionTab") + "px")
-					.css({zIndex:99})
-                    .fadeOut(500, function() {
-                        $(this)
-                        .css("position", "");
-                    });
-
-            }
-
-            //Saving the last tab has been opened
-            $(this).data("lastOpenedPanel", $(ui.panel));
-
-        }
-
-		});
-
-		//open tab for programmatic linking tabs
+		//buy now button on header
 		$('.open-tab').click(function() {
-    		$('#tabs').tabs("option", "active", $(this).data("tab-index"));
+			$("#tab-5").prop('checked', true); 
+			
+			$('html, body').animate({
+			  scrollTop: $("label[for^='tab-5']").offset().top
+			}, 500);
 		});
-	
+		
+		//scroll to top of tab on click
+		$('#responsive-tabs input').click(function() {
+			
+			$('html, body').animate({
+			  scrollTop: $("label[for^='tab-']").offset().top
+			}, 500);
+		});
+
+
 		
 		//prettyphoto
 		$("a[rel^='prettyPhoto']").prettyPhoto({

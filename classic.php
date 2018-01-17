@@ -5,7 +5,7 @@
 	$event = array(
 		"title"				=>"The Magic City Classic 2018",
 		"subtitle"			=>"It's the Classsssssic!",
-		"location"			=>"Legion Field | Birmingham, Alabama",
+		"location"			=>"Legion Field | Birmingham, AL",
 		"date"				=>"Oct 26-28, 2018",
 		"img_url"			=>"../../images/slides/splash-mcc-cta.jpg",
 		"img_alt"			=>"Magic City Classic"
@@ -108,7 +108,7 @@
 <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
 </head>
-
+	
 <body>
 <div id="wrap">
  
@@ -131,13 +131,13 @@
     
     <div id="right">
       
-       <div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
-					<div class="overlay"></div>
-					<div class="title">
-						<h1><?php echo $event["title"]; ?></h1>
-						<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-						<a href="#tabs-5" class="btn btn-red open-tab" data-tab-index="4">Buy Now</a>
-					</div>
+		<div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
+			<div class="overlay"></div>
+			<div class="title">
+				<h1><?php echo $event["title"]; ?></h1>
+				<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
+				<a data-href="#tabs-5" class="btn btn-red open-tab"><i class="fa fa-tags fa-flip-horizontal mr-5"></i> Buy Now</a> 
+			</div>
 		</div>
       
       
@@ -149,18 +149,11 @@
         
         <div class="colfull">
         
-          <div id="tabs" class="yollo-tabs nodisp">
-            <ul>
-				  <?php
-    
-                      foreach($tabsdefault as $tabs => $item){
-                         echo "<li><a href=\"#$tabs\">$item</a></li>";
-                      };
-                  ?>
-            </ul>
-            
-            <div id="tabs-1">
-                <h3>It's the CLASSIC!!!</h3>
+        
+        <div id="responsive-tabs">
+			<?php echo $responsive_tabs["overview"]; ?>
+			<div class="tab" aria-label="overview">
+				<h3>It's the CLASSIC!!!</h3>
                 <div style="max-height:300px; overflow:hidden;" class="mediummargin">
                 	<img src="images/mcc-thumb<?php echo(rand(1,4)); ?>.jpg" width="100%" />
                 </div>
@@ -168,81 +161,86 @@
                 <p>This is the #1 HBCU Classic in the nation attracting over 100,000 fans annually! This is an annual clash of the titans. The Magic City Classic offers a family environment that produces new bonds and memories for years to come.</p>
                 <p>In 2017 the Alabama State Hornets came away with the victory as they entered the game as underdogs and not given a change to compete nor win, but as you know in rivalries records mean NOTHING! </p>
                 <p>YOLLO Group Services, Inc. wants to capture these memories by offering keepsake photos at many of our weekend events. Stay tuned to our website for the list of various events where we will be!</p>
-            </div>
-            <!-- end of tab 1 -->
-            
-            <div id="tabs-2">
-              <h3>Hotels</h3>
-              <div class="hotel-box-container">
-                <?php if(count($geolocation["hotel1"]) > 1) :?>
-                <div class="hotel-box"> <img src="<?php echo $geolocation['hotel1']['img_url']; ?>" />
-                  <div class="hotel-title">
-                    <h3><?php echo $geolocation["hotel1"]["title"]; ?></h3>
-                  </div>
-                </div>
-                <?php endif; ?>
-                <?php if(count($geolocation["hotel2"]) > 1) :?>
-                <div class="hotel-box"> <img src="<?php echo $geolocation['hotel2']['img_url']; ?>" />
-                  <div class="hotel-title">
-                    <h3><?php echo $geolocation["hotel2"]["title"]; ?></h3>
-                  </div>
-                </div>
-                <?php endif; ?>
-              </div>
-              <hr />
+			</div><!-- ./ overview -->
+
+	  	
+		  	<?php echo $responsive_tabs["price"]; ?>
+		  	<div class="tab" aria-label="price">
+			
+				<h3>Hotels</h3>
+				<div class="hotel-box-container">
+					<?php if(count($geolocation["hotel1"]) > 1) :?>
+					<div class="hotel-box"> <img src="<?php echo $geolocation['hotel1']['img_url']; ?>" />
+					  <div class="hotel-title">
+						<h3><?php echo $geolocation["hotel1"]["title"]; ?></h3>
+					  </div>
+					</div>
+					<?php endif; ?>
+					<?php if(count($geolocation["hotel2"]) > 1) :?>
+					<div class="hotel-box"> <img src="<?php echo $geolocation['hotel2']['img_url']; ?>" />
+					  <div class="hotel-title">
+						<h3><?php echo $geolocation["hotel2"]["title"]; ?></h3>
+					  </div>
+					</div>
+					<?php endif; ?>
+				</div>
+              	
+              	<hr />
               
-              <h3>Price</h3>
+              	<h3>Price</h3>
               
-              <div class="price-table-container">
-              <div class="price-table">
-                <ul class="price">
-                  <li class="header">Diamond <span>Package</span></li>
-                  <?php foreach($package_items['diamond_items'] as $key=>$value): ?>
-                  <li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-                  <?php endforeach; ?>
-                  <li class="people-price">
-                    <ul class="priceblock">
-                      <?php foreach($people['diamond'] as $key=>$value): ?>
-                      <li><?php echo $key; ?> <span><?php echo $value ?>
-                        <?php if($key != "Individual"):?>
-                        <em>/per person</em>
-                        <?php endif;?>
-                        </span></li>
-                      <?php endforeach; ?>
-                    </ul>
-                  </li>
-                  <li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
-                </ul>
-              </div>
-              <!-- price table -->
-              
-              <div class="price-table">
-                <ul class="price">
-                  <li class="header">Emerald <span>Package</span></li>
-                  <?php foreach($package_items['emerald_items'] as $key=>$value): ?>
-                  <li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-                  <?php endforeach; ?>
-                  <li class="people-price">
-                    <ul class="priceblock">
-                      <?php foreach($people['emerald'] as $key=>$value): ?>
-                      <li><?php echo $key; ?> <span><?php echo $value ?>
-                        <?php if($key != "Individual"):?>
-                        <em>/per person</em>
-                        <?php endif;?>
-                        </span></li>
-                      <?php endforeach; ?>
-                    </ul>
-                  </li>
-                  <li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
-                </ul>
-              </div>
-              <!-- price table --> 
+              	<div class="price-table-container">
+					<div class="price-table">
+					<ul class="price">
+					  <li class="header">Diamond <span>Package</span></li>
+					  <?php foreach($package_items['diamond_items'] as $key=>$value): ?>
+					  <li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+					  <?php endforeach; ?>
+					  <li class="people-price">
+						<ul class="priceblock">
+						  <?php foreach($people['diamond'] as $key=>$value): ?>
+						  <li><?php echo $key; ?> <span><?php echo $value ?>
+							<?php if($key != "Individual"):?>
+							<em>/per person</em>
+							<?php endif;?>
+							</span></li>
+						  <?php endforeach; ?>
+						</ul>
+					  </li>
+					  <li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
+					</ul>
+					</div>
+					<!-- price table -->
+
+					<div class="price-table">
+					<ul class="price">
+					  <li class="header">Emerald <span>Package</span></li>
+					  <?php foreach($package_items['emerald_items'] as $key=>$value): ?>
+					  <li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+					  <?php endforeach; ?>
+					  <li class="people-price">
+						<ul class="priceblock">
+						  <?php foreach($people['emerald'] as $key=>$value): ?>
+						  <li><?php echo $key; ?> <span><?php echo $value ?>
+							<?php if($key != "Individual"):?>
+							<em>/per person</em>
+							<?php endif;?>
+							</span></li>
+						  <?php endforeach; ?>
+						</ul>
+					  </li>
+					  <li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
+					</ul>
+					</div>
+					<!-- price table --> 
 				</div><!-- price table container-->
-              
-            </div>
-            <!-- end of tabs 2 -->
-            
-            <div id="tabs-3">
+			
+		  	</div><!-- ./ price -->
+
+	  	
+		  	<?php echo $responsive_tabs["faqs"]; ?>
+		  	<div class="tab" aria-label="faqs">
+				
 				<h3>Frequently Asked Questions</h3>
              	
              	<div data-accordion-group>	
@@ -328,31 +326,34 @@
 
 
 				</div><!-- end of accordion group-->
-             
-              
-            </div>
-            <!-- end of tabs 3 -->
-            
-            
-            <div id="tabs-4">
-              <h3>Classic Weekend</h3>
-              <div id="nanoGallery"></div>
-            </div>
-            <!-- end of tabs 4 -->
-            
-            
-            <div id="tabs-5">
-             	<h3>Buy Now</h3>
+				
+		  	</div><!-- ./ faqs -->
+		  
+		  
+		  	<?php echo $responsive_tabs["photos"]; ?>
+		  	<div class="tab" aria-label="photos">
+				<h3>Classic Weekend</h3>
+            	<div id="nanoGallery"></div>
+		  	</div><!-- ./ photos -->
+		  
+		  
+		  	<?php echo $responsive_tabs["buynow"]; ?>
+		  	<div class="tab" aria-label="buy">
+				<h3>Buy Now</h3>
                 <p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
                 
                 <div class="cognito"></div>
-            </div>
-            <!-- end of tab 5 --> 
-            
-          </div>
-        </div>
-      </div>
-      <!-- end of content -->
+		  	</div><!-- ./ buy now -->
+		  
+		  
+		  
+		</div><!-- end of #responsive-tabs-->
+        
+        
+ 
+        </div><!-- end of contentfull -->
+        
+      </div><!-- end of content -->
       
       <div class="disclosure">
         <?php include 'includes/package-info-generic.inc.php'; ?>
@@ -408,9 +409,12 @@
 				thumbnailHoverEffect:'borderLighter'
 
 			});
-
+		
+		
 
 	});
+	
+	
 
 </script> 
 

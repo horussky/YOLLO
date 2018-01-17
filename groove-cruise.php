@@ -125,31 +125,28 @@ include 'includes/functions.inc.php';
         
                 <div class="colfull">
         
-                    <div id="tabs" class="yollo-tabs nodisp">
-                    <ul>
-                             <?php
-                                        foreach($tabnavcruise as $tabs => $item){
-                                             echo "<li><a href=\"#$tabs\">$item</a></li>";
-                                        };
-    
-                                ?>
-                    </ul>
+                    <div id="responsive-tabs">
+                    
 
 
-                    <div id="tabs-1">
+                    <?php echo $responsive_tabs["overview"]; ?>
+					<div class="tab" aria-label="overview">
                         <h3>The Groove Cruise in New Orleans</h3>
 
-                        <p>For the previous 12 years we have rocked the Creole Queen in NOLA during Essence Festival weekend YOLLO decided to return after the party with a purpose and party just because! After the successful cruises hosted in Cincinnati, LA, and Daytona we are now taking the party back to NOLA!  Join us as we turn up to the max and the most anticipated party of the weekend in New Orleans! Come party aboard the Creole Queen for an exclusive Riverboat party cruise on the mighty Mississippi. This will be an exciting night of good music, adult drinks, mingling, and fun for everyone onboard. The boat features three (3) party decks, multiple DJ's, and some of the strongest adult beverages you can handle. This event is a MUST ATTEND so purchase your tickets today.</p> 
+						<p>For the previous 12 years we have rocked the Creole Queen in NOLA during Essence Festival weekend YOLLO decided to return after the party with a purpose and party just because! After the successful cruises hosted in Cincinnati, LA, and Daytona we are now taking the party back to NOLA!</p> 
+                      	
+                       	<p> Join us as we turn up to the max and the most anticipated party of the weekend in New Orleans! Come party aboard the Creole Queen for an exclusive Riverboat party cruise on the mighty Mississippi. This will be an exciting night of good music, adult drinks, mingling, and fun for everyone onboard. The boat features three (3) party decks, multiple DJ's, and some of the strongest adult beverages you can handle. This event is a MUST ATTEND so purchase your tickets today.</p> 
                         
-						<p>This cruise WILL SELL OUT quickly, so purchase your tickets today. For questions and tickets call: <strong>(888) 946-9655</strong> or purchase your tickets <a href="#tabs-5" class="open-tab" data-tab-index="4">online now.</a></p>
+						<p>This cruise WILL SELL OUT quickly, so purchase your tickets today. For questions and tickets call: <strong>(888) 946-9655</strong> or purchase your tickets <a data-href="#tabs-5" class="open-tab">online now.</a></p>
                         
 						<p><strong>Tickets:</strong> Gen Adm. $60 | Holding Fee: $19.99</p>
 
 
-                    </div> <!-- end of tab 1 -->
+                    </div> <!-- ./overview -->
 
 
-                    <div id="tabs-2">
+                    <?php echo $responsive_tabs["price"]; ?>
+					<div class="tab" aria-label="price">
 
                         <h3>Cruise</h3>
 						<div class="hotel-box-container">
@@ -195,7 +192,7 @@ include 'includes/functions.inc.php';
 											<?php endforeach; ?>
 									</ul>
 								</li>
-								<li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
+								<li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
 							</ul>
 						</div><!-- price table -->
 						<?php endif; ?>
@@ -216,18 +213,19 @@ include 'includes/functions.inc.php';
 											<?php endforeach; ?>
 									</ul>
 								</li>
-								<li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
+								<li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
 							</ul>
 						</div><!-- price table -->
 						<?php endif; ?>
                                 
 						</div><!-- price table container-->
 
-                    </div><!-- end of Tab 2 -->
+                    </div><!-- ./price -->
 
 
 
-                    <div id="tabs-3">
+                    <?php echo $responsive_tabs["faqs"]; ?>
+					<div class="tab" aria-label="faqs">
 
                         <h3>Frequently Asked Questions</h3>
                         
@@ -266,29 +264,31 @@ include 'includes/functions.inc.php';
 						</div><!-- end of accordion group-->
                         
 
-           		 </div> <!-- end of Tab 3 -->
+           		 </div> <!-- ./faqs -->
 
 
 
-				<div id="tabs-4">
+				<?php echo $responsive_tabs["photos"]; ?>
+				<div class="tab" aria-label="photos">
 					 <div id="nanoGallery"></div>
-				</div><!-- end of tabs 4 -->
+				</div><!-- ./photos -->
 
 
-				<div id="tabs-5">
+				<?php echo $responsive_tabs["buynow"]; ?>
+				<div class="tab" aria-label="buy">
 
 					<div class="pay-form">
-							<p >Please use the form below to complete your booking for <?php echo $event["title"]?>. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
+						<p>Please use the form below to complete your booking for <?php echo $event["title"]?>. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
 
-							<div class="cognito"></div>
+						<div class="cognito"></div>
 
 					</div><!-- end of pay-form -->
 
 
-				</div><!-- end of tabs 5 -->
+				</div><!-- ./buynow -->
     		
 
-			</div><!-- end of tabs -->
+			</div><!-- end of responsive-tabs -->
 
 
 

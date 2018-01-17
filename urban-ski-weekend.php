@@ -2,7 +2,7 @@
 if(!ob_start("ob_gzhandler")) ob_start();
 $event = array(
 	"title"						=>"Urban Ski Weekend 2018",
-	"subtitle"					=>"With Celebrity Host DJ Self of Love and Hip-Hop NY",
+	"subtitle"					=>"Hosted by DJ Self of Love and Hip-Hop NY",
 	"location"					=>"Gatlinburg, Tennessee",
 	"date"						=>"February 2 - 5 2018",
 	"img_url"				 	=>"../../images/slides/splash-urban-ski-cta.jpg",
@@ -11,12 +11,12 @@ $event = array(
 
 $geolocation = array(
 	"hotel1"=> array(
-		"title" 					=> "Music Road Resort",
-		"address"					=> "303 Henderson Chapel Rd",
+		"title" 				=> "Music Road Resort",
+		"address"				=> "303 Henderson Chapel Rd",
 		"location"				=> "Pigeon Forge, TN 37868",
 		"geolocation"			=> "303 Henderson Chapel Rd, Pigeon Forge, TN 37868",
-		"hotel1_soldout"	=> false,
-		"img_url"					=> "https://media-cdn.tripadvisor.com/media/photo-s/04/9d/9d/57/music-road-resort-making.jpg"
+		"hotel1_soldout"		=> false,
+		"img_url"				=> "https://media-cdn.tripadvisor.com/media/photo-s/04/9d/9d/57/music-road-resort-making.jpg"
 	),
 
 	"hotel2"=> array(
@@ -132,7 +132,7 @@ include 'includes/functions.inc.php';
 							<div class="title">
 								<h1><?php echo $event["title"]; ?></h1>
 								<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-								<a href="#tabs-5" class="btn btn-red open-tab" data-tab-index="4">Buy Now</a>
+								<a data-href="#tabs-5" class="btn btn-red open-tab">Buy Now</a>
 							</div>
 						</div>
 
@@ -149,17 +149,11 @@ include 'includes/functions.inc.php';
 
 								<div class="colfull">
 
-										<div id="tabs" class="yollo-tabs nodisp">
-										<ul>
-											<?php
-												foreach($tabsdefault as $tabs => $item){
-													 echo "<li><a href=\"#$tabs\">$item</a></li>";
-												};
-											?>
-										</ul>
+									<div id="responsive-tabs">
 
 
-									<div id="tabs-1">
+									<?php echo $responsive_tabs["overview"]; ?>
+									<div class="tab" aria-label="overview">
 
 										<h3>The best event for first-time skiers</h3>
 
@@ -174,88 +168,90 @@ include 'includes/functions.inc.php';
 										<h4>The Bottom Line</h4>
 										<p>Did we mention this is all going down Super Bowl Weekend. Skiing, parties, comedy, relaxation, good food, and football. What more can you ask for. Look forward to a spectacular weekend in Gatlinburg. Register and book a spot today!</p>
 
-									</div> <!-- end of Overview-->
+									</div> <!-- ./overview -->
 
 
-										<div id="tabs-2">
+									<?php echo $responsive_tabs["price"]; ?>
+									<div class="tab" aria-label="price">
 
 
-												<h3>Hotels</h3>
-												<div class="hotel-box-container">
-													
-														<?php if(count($geolocation["hotel1"]) > 1) :?>
+										<h3>Hotels</h3>
+										<div class="hotel-box-container">
 
-														 <div class="hotel-box">
-																 <img src="<?php echo $geolocation['hotel1']['img_url']; ?>" />
-																 <div class="hotel-title">
-																		 <h3><?php echo $geolocation["hotel1"]["title"]; ?></h3>
-																 </div>
-														 </div>
+											<?php if(count($geolocation["hotel1"]) > 1) :?>
 
-														 <?php endif; ?>
+											 <div class="hotel-box">
+													 <img src="<?php echo $geolocation['hotel1']['img_url']; ?>" />
+													 <div class="hotel-title">
+															 <h3><?php echo $geolocation["hotel1"]["title"]; ?></h3>
+													 </div>
+											 </div>
 
-														 <?php if(count($geolocation["hotel2"]) > 1) :?>
+											 <?php endif; ?>
 
-														 <div class="hotel-box">
-																<img src="<?php echo $geolocation['hotel2']['img_url']; ?>" />
-																 <div class="hotel-title">
-																		 <h3><?php echo $geolocation["hotel2"]["title"]; ?></h3>
-																 </div>
-														 </div>
-														 <?php endif; ?>
+											 <?php if(count($geolocation["hotel2"]) > 1) :?>
 
-												</div><!-- end of hotel box container -->
+											 <div class="hotel-box">
+													<img src="<?php echo $geolocation['hotel2']['img_url']; ?>" />
+													 <div class="hotel-title">
+															 <h3><?php echo $geolocation["hotel2"]["title"]; ?></h3>
+													 </div>
+											 </div>
+											 <?php endif; ?>
 
-												<hr />
+										</div><!-- end of hotel box container -->
 
-												<h3>Price</h3>
-												
-												<div class="price-table-container">
-												<div class="price-table">
-													<ul class="price">
-														<li class="header">Diamond <span>Package</span></li>
-														<?php foreach($package_items['diamond_items'] as $key=>$value): ?>
-															<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-														<?php endforeach; ?>
-														<li class="people-price">
-															<ul class="priceblock">
-																	<?php foreach($people['diamond'] as $key=>$value): ?>
-																		<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
-																		<?php endforeach; ?>
-															</ul>
-														</li>
-														<li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
+										<hr />
+
+										<h3>Price</h3>
+
+										<div class="price-table-container">
+										<div class="price-table">
+											<ul class="price">
+												<li class="header">Diamond <span>Package</span></li>
+												<?php foreach($package_items['diamond_items'] as $key=>$value): ?>
+													<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+												<?php endforeach; ?>
+												<li class="people-price">
+													<ul class="priceblock">
+															<?php foreach($people['diamond'] as $key=>$value): ?>
+																<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
+																<?php endforeach; ?>
 													</ul>
-												</div><!-- price table -->
+												</li>
+												<li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
+											</ul>
+										</div><!-- price table -->
 
 
-												<div class="price-table">
-													<ul class="price">
-														<li class="header">Emerald <span>Package</span></li>
-														<?php foreach($package_items['emerald_items'] as $key=>$value): ?>
-															<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-														<?php endforeach; ?>
-														<li class="people-price">
-															<ul class="priceblock">
-																	<?php foreach($people['emerald'] as $key=>$value): ?>
-																		<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
-																		<?php endforeach; ?>
-															</ul>
-														</li>
-														<li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a></li>
+										<div class="price-table">
+											<ul class="price">
+												<li class="header">Emerald <span>Package</span></li>
+												<?php foreach($package_items['emerald_items'] as $key=>$value): ?>
+													<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+												<?php endforeach; ?>
+												<li class="people-price">
+													<ul class="priceblock">
+															<?php foreach($people['emerald'] as $key=>$value): ?>
+																<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
+																<?php endforeach; ?>
 													</ul>
-												</div><!-- price table -->
-												
-											</div><!-- price table container-->
+												</li>
+												<li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
+											</ul>
+										</div><!-- price table -->
+
+									</div><!-- price table container-->
 
 
 
 
-										</div><!-- end of tabs 2 -->
+								</div><!-- ./price -->
 
 
 
-								<div id="tabs-3">
+								<?php echo $responsive_tabs["faqs"]; ?>
+								<div class="tab" aria-label="faqs">
 
 									<h3>Frequently Asked Questions</h3>
 									
@@ -265,7 +261,16 @@ include 'includes/functions.inc.php';
 
 										  <div data-control>When are the payments due?</div>
 										  <div data-content>
-											<p>Following registration the first payment of $125 is due on or before November 15, 2017. The final payment (remaining balance) is due on or before December 27, 2017.</p>
+											<p>Following registration the first payment of $125 is due on or before December 13, 2017. The final payment (remaining balance) is due on or before January 4, 2017.</p>
+										  </div>
+
+										</div><!-- end of accordion-->
+										
+										<div class="accordion open" data-accordion>
+
+										  <div data-control>Can I pay upon arrival?</div>
+										  <div data-content>
+											<p>Yes, the pay on arrival option is now available. Following registration the first payment of $200 is due on or before December 13, 2017. The final payment (remaining balance) is due on upon arrival in Gatlinburg. This option is only available for our Diamond or Emerald package. Additonally, the only method of payment accepted upon arrival will be CASH. NO EXCEPTIONS! This option also has a $35 fee added to the package price listed.</p>
 										  </div>
 
 										</div><!-- end of accordion-->
@@ -286,7 +291,7 @@ include 'includes/functions.inc.php';
 
 										  <div data-control>What cities will the bus depart from?</div>
 										  <div data-content>
-											<p>Birmingham, Huntsville, and Atlanta! Don't see you city or state listed? Email us and let's see what we can work out!</p>
+											<p>Birmingham and Atlanta! Don't see you city or state listed? Email us and let's see what we can work out!</p>
 										  </div>
 
 										</div><!-- end of accordion-->
@@ -357,28 +362,30 @@ include 'includes/functions.inc.php';
 									
 							
 
-						        </div> <!-- end of Tab 3 -->
+						        </div> <!-- ./faqs -->
 
 
-								<div id="tabs-4">
+								<?php echo $responsive_tabs["photos"]; ?>
+								<div class="tab" aria-label="photos">
 									 <div id="nanoGallery"></div>
-								</div><!-- end of tabs 4 -->
+								</div><!-- ./photos -->
 
 
-								<div id="tabs-5">
+								<?php echo $responsive_tabs["buynow"]; ?>
+								<div class="tab" aria-label="buy">
 									<p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
 									<div class="cognito"></div>
 
 
-								</div><!-- end of tabs 5 -->
+								</div><!-- ./buynow -->
 
 
 
-                </div><!-- end of tabs -->
+                </div><!-- ./responive-tabs -->
 
 
 
-    </div><!-- end of colfull -->
+    	</div><!-- end of colfull -->
 
 
 

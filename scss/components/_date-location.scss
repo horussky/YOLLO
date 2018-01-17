@@ -1,8 +1,8 @@
 /*Date Location*/
 
 .date-location{
-	font-family:"opensans", Arial, sans-serif; 
-	font-size:1.125em;
+	
+	font-size:1.6rem;
 	display:flex;
 	flex-direction:row;
 	width:100%;
@@ -11,12 +11,16 @@
 }
 
 .date-location .col{
-	color: #fff; padding:10px;
+	color: #fff; 
+	padding:10px;
 }
 
 .date-location .col:nth-child(1){
-	background:#a31523;
+	background:#6f6c6c;
 	border-left: 5px solid #000;
+	font-family:"opensans-lite", Arial, sans-serif;
+	text-shadow: 1px 2px 1px #444;
+	
 }
 
 .date-location .col:nth-child(1):before{
@@ -27,11 +31,12 @@
 
 .date-location .col:nth-child(2){
 	background:#000; 
-	flex-grow:2;	
+	flex-grow:2;
+	font-family:"opensans-lite", Arial, sans-serif; 
 }
 
 .date-location .col:nth-child(2):before{
 	font-family:"fontAwesome";
 	content: "\f279";
 	margin-right: 10px;
-}
+} 

@@ -1,23 +1,42 @@
 /*Nano Gallery Overrides*/
 
-.nanogallery_theme_default .nanoGalleryContainer{
-	width:100%!important;
-	height: auto!important;
-}
-.nanogallery_theme_default .nanoGalleryContainer .nanoGalleryThumbnailContainer {
+.nanogallery_theme_default {
+	
+	.nanoGalleryContainer{
+		width:100%!important;
+		height: auto!important;
+
+		display: -ms-grid;
+		-ms-grid-columns:1fr 5px 1fr 5px 1fr 5px 1fr;
+
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-gap: 1rem;
+		justify-items: center;
+		
+		.nanoGalleryThumbnailContainer {
     
-    display: inline-block;
-    position: initial;
-    overflow: hidden;
-    float: left;
-}
+			display: inline-block;
+			position: initial;
+			overflow: hidden;
+			float: left;
+			border:none; 
+		}//end of thumbnail container
+		
+		.nanoGalleryThumbnailContainer:not(:last-of-type){
+			margin-right:0;
+			margin-bottom:0;
+		}
+		
+		.nanoGalleryThumbnailContainer .subcontainer:hover{
+			opacity:.6;
+		}
+		
+		
+	}//end of nano gallery container
+	
+}//end of nano theme default
 
-.nanogallery_theme_default .nanoGalleryContainer .nanoGalleryThumbnailContainer:not(:last-of-type){
-	margin-right:15px;
-	margin-bottom:15px;
-}
-
-.nanoGalleryThumbnailContainer .subcontainer:hover{opacity:.6;}
 
 
 /*Authorize.Net Seal*/

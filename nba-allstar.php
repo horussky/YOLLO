@@ -121,7 +121,7 @@ include 'includes/functions.inc.php';
 					<div class="title">
 						<h1><?php echo $event["title"]; ?></h1>
 						<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-						<a href="#tabs-5" class="btn btn-red open-tab" data-tab-index="4">Buy Now</a>
+						<a data-href="#tabs-5" class="btn btn-red open-tab" >Buy Now</a>
 					</div>
 				</div>
 
@@ -136,18 +136,12 @@ include 'includes/functions.inc.php';
 
 						<div class="colfull">
 
-							<div id="tabs" class="yollo-tabs nodisp">
-								<ul>
-									<?php
-										foreach($tabsdefault as $tabs => $item){
-											 echo "<li><a href=\"#$tabs\">$item</a></li>";
-										};
-									?>
-
-								</ul>
+							<div id="responsive-tabs">
+	
 
 
-								<div id="tabs-1">
+								<?php echo $responsive_tabs["overview"]; ?>
+								<div class="tab" aria-label="overview">
 									<h3><?php echo $event["title"]?></h3>
 
 									<p>In 2018, the the City of Angels, Los Angeles is hosting the 67th  annual NBA All-Star game! With a lively fan base and Hollywood serving as the backdrop, this weekend event is sure to be lit. All-Star Weekend attracts the biggest celebrities around, and most already live in LA. YOLLO has the all-inclusive package to get you face-to-face with these celebrities. From party passes, hotel stay, and the Celebrity game, YOLLO is here for your turn up!  </p>
@@ -155,9 +149,11 @@ include 'includes/functions.inc.php';
 
 									<p>Allow us to give you an exciting travel experience during the NBA All-Star Weekend. Make sure you explore our hotel and pricing options and book with YOLLO Group Services today!</p>
 
-								</div> <!-- end of tab 1 -->
+								</div> <!-- ./ overview -->
 
-								<div id="tabs-2">
+								
+								<?php echo $responsive_tabs["price"]; ?>
+								<div class="tab" aria-label="price">
 
 
 									<h3>Hotels</h3>
@@ -210,7 +206,7 @@ include 'includes/functions.inc.php';
 																		<?php endforeach; ?>
 															</ul>
 														</li>
-														<li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="5">Book Today</a></li>
+														<li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
 													</ul>
 												</section>  
 												<?php endif; ?>
@@ -231,7 +227,7 @@ include 'includes/functions.inc.php';
 																		<?php endforeach; ?>
 															</ul>
 														</li>
-														<li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="5">Book Today</a></li>
+														<li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
 													</ul>
 												</section>
 											<?php endif; ?>
@@ -284,10 +280,11 @@ include 'includes/functions.inc.php';
 
 
 
-								</div><!-- end of Tab 2 -->
+								</div><!-- ./ price -->
 
 
-								<div id="tabs-3">
+								<?php echo $responsive_tabs["faqs"]; ?>
+								<div class="tab" aria-label="faqs">
 
 									<h3>Frequently Asked Questions</h3>
 									
@@ -367,16 +364,18 @@ include 'includes/functions.inc.php';
 
 	
 										
-								</div> <!-- end of Tab 3 -->
+								</div> <!-- ./ faqs -->
 
 
-								<div id="tabs-4">
+								<?php echo $responsive_tabs["photos"]; ?>
+								<div class="tab" aria-label="photos">
 									 <div id="nanoGallery"></div>
-								</div><!-- end of tabs 4 -->
+								</div><!-- ./ photos -->
 
 
 
-								<div id="tabs-5">
+								<?php echo $responsive_tabs["buynow"]; ?>
+								<div class="tab" aria-label="buy">
 
 									<h3>Buy Now</h3>
 									<p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
@@ -384,10 +383,10 @@ include 'includes/functions.inc.php';
 									<div class="cognito"></div>
 
 
-								</div><!-- end of tabs 5 -->
+								</div><!-- ./ buy now -->
 
 
-							</div><!-- end of tabs -->
+							</div><!-- end of #responsive-tabs-->
 
 
 

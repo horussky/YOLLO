@@ -89,3 +89,63 @@
 	padding: 1em;
 	overflow: hidden;
 }
+
+
+//responsive tabs to accordion
+	#responsive-tabs {
+	display: flex;
+	flex-wrap: wrap; // make sure it wraps
+	
+	> label {
+		order: 1; // Put the labels first
+		display: block;
+		padding: 1rem 2rem;
+		//margin-right: 0.2rem;
+		cursor: pointer;
+		//background: #90CAF9;
+		font-weight: bold;
+		transition: background ease 0.2s;
+		margin-bottom: 0;
+		color: #0065a2;
+		font-family:"opensans-lite", sans-serif; 
+		
+		&:hover{
+			color:#222;
+		}
+	}   
+	
+	.tab {
+	  order: 99; // Put the tabs last
+	  flex-grow: 1;
+		width: 100%;
+		display: none;
+	  padding: 2rem 1rem 1rem;
+	  background: #fff;  
+	}
+		
+	input[type="radio"] {
+		display: none;
+	}
+		
+	input[type="radio"]:checked + label {
+		color:#222;
+		border:1px solid #ccc;
+		border-bottom: 1px solid #fff;
+		background: #fff;
+		margin-bottom: -1px;
+		position: relative;
+		z-index: 9;
+		box-shadow: 0 -3px 0 0 #9e1421;
+	}
+		
+	input[type="radio"]:checked + label + .tab {
+		display: block;
+		border-top: 1px solid #ccc;
+	}
+		
+	input[type=radio]+label i {
+		display: none;
+	}
+
+
+}

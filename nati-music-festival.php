@@ -19,7 +19,7 @@ $geolocation = array(
 		"location"			=>"Covington, KY 41011",
 		"geolocation"		=>"600 West 3rd Street, Covington, KY 41011",
 		"hotel1_soldout"    =>false,
-		"img_url"			=>"//www.ihg.com/hotelmedia/repository/hotelimages/CVGRF/WELCM_EXTR_2_E.jpg"
+		"img_url"			=>"//t-ec.bstatic.com/images/hotel/max1024x768/319/31915208.jpg"
 	),
 
 	"hotel2"=> array(
@@ -111,7 +111,7 @@ include 'includes/functions.inc.php';
 					<div class="title">
 						<h1><?php echo $event["title"]; ?></h1>
 						<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-						<a href="#tabs-5" class="btn btn-red open-tab" data-tab-index="4">Buy Now</a>
+						<a data-href="#tabs-5" class="btn btn-red open-tab">Buy Now</a>
 					</div>
 				</div>
 
@@ -119,40 +119,34 @@ include 'includes/functions.inc.php';
 
         <div class="content">
 						
-		        <div class="date-location">
-		            <div class="col"><?php echo $event["date"]; ?></div>
-		            <div class="col"><?php echo $event["location"]; ?></div>
-		        </div>
+			<div class="date-location">
+				<div class="col"><?php echo $event["date"]; ?></div>
+				<div class="col"><?php echo $event["location"]; ?></div>
+			</div>
 
 
-				<div class="colfull">
+			<div class="colfull">
 
-					<div id="tabs" class="yollo-tabs nodisp">
-                         <ul>
-                                 <?php
-									foreach($tabsdefault as $tabs => $item){
-										 echo "<li><a href=\"#$tabs\">$item</a></li>";
-									};
-                                 ?>
-                         </ul>
+				<div id="responsive-tabs">
 
+					<?php echo $responsive_tabs["overview"]; ?>
+					<div class="tab" aria-label="overview">
+						<h3>Get ready for Cincinnati Music Festival</h3>
+						<p>YOLLO is providing you a great event package for the Cincinnati Music Festival. Over the years this event has evolved from being a pure jazz concert, to an event that also includes old school hip-hop and R&amp;B. This year the Cincinnati Music Festival will be held at the state of the art Paul Brown Stadium, home of the Cincinnati Bengal's. Beyond the featured acts, this event provides a great meet and greet or mix and mingle atmosphere.</p>
 
+						<h4>4th Annual Grown and Sophisticated Mid-Day Cruise</h4>
+						<p>The 4th Annual Grown and Sophisticated Mid-Day Cruise will happen on the River Queen and will be another MUST ATTEND event during Cincinnati Music Festival Weekend! Enjoy a multi-level paddle-wheel boat cruising the mighty Ohio River, while listening to the livest Hip-Hop and R&amp;B music. Last years' cruise was Mardi Gras themed, however we are returning to the original format of an All White cruise. The cruise sails from 1:00 pm – 4:00 pm. Please remember that once we sell out, we will not have any more tickets available.<p>
+						
+						<p>YOLLO is looking forward to another terrific festival in 2018, and we hope you join us and be a part of this special summer occasion. Packages are available now, but they won't last long. Don't wait reserve today for $19.99!</p>
 
-                  <div id="tabs-1">
-					<h3>Get ready for Cincinnati Music Festival '18</h3>
-                    <p>YOLLO is taking you to Cincinnati for the Cincinnati Music Festival formerly known as the Macy's Music Festival! Over the years as a result of a number of factors, the event has evolved from that of a musical genre of pure jazz, to one predicated by a musical genre of rhythm and blues.</p>
-					<p>The Cincinnati Music Festival, now held at the Paul Brown Stadium (home of the Cincinnati Bengal's) is a state of the art facility. Outside of the performers on stage, it is an event for those who are looking for a great concert environment while being in a city full of musical history. It is an event to see and to be seen which provides the atmosphere to meet and greet, mix and mingle. Each year, the Cincinnati Music Festival draws a wonderful mix of Old School and the hottest contemporary R&amp;B music performers to its stage. </p>
-
-                  	<h4>4th Annual Grown and Sophisticated Mid-Day Cruise</h4>
-                  	<p>The 4th Annual Grown and Sophisticated Mid-Day Cruise will happen on the River Queen and will be another MUST ATTEND event during Cincinnati Music Festival Weekend! Enjoy a multi-level paddle-wheel boat cruising the mighty Ohio River, while listening to the livest Hip-Hop and R&amp;B music. Come enjoy some great music and network with the grown and sexy festival attendees while enjoying the Cincinnati skyline. Last years' cruise was Mardi Gras themed, however we are returning to the original format of an All White cruise.  Please arrive "dressed to impress" while enjoying the ULTIMATE party experience! The cruise sails from 1:00 pm – 4:00 pm. Please remember that once we sell out, we will not have any more tickets available. So don't procrastinate and miss out on mixing and mingling, or partying like a rock star !<p>
-					<p>YOLLO is looking forward to another terrific festival in 2018, and we hope you join us and be a part of this special summer occasion. Packages are available now, but they won't last long. Don't wait reserve today for $19.99!</p>
-
-                  </div><!-- tabs1 -->
+                  	</div><!-- ./ overview -->
 
 
-                  <div id="tabs-2">
 
-                    <h3>Hotels</h3>
+                  	<?php echo $responsive_tabs["price"]; ?>
+					<div class="tab" aria-label="price">
+
+                    	<h3>Hotels</h3>
                             <div class="hotel-box-container">
                     
                             <?php if(count($geolocation["hotel1"]) > 1) :?>
@@ -199,7 +193,7 @@ include 'includes/functions.inc.php';
                                                     <?php endforeach; ?>
                                         </ul>
                                     </li>
-                                    <li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="5">Book Today</a></li>
+                                    <li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
                                 </ul>
                             </div><!-- price table -->
                             <?php endif; ?>
@@ -220,18 +214,19 @@ include 'includes/functions.inc.php';
                                                     <?php endforeach; ?>
                                         </ul>
                                     </li>
-                                    <li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="5">Book Today</a></li>
+                                    <li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
                                 </ul>
                             </div><!-- price table -->
                         <?php endif; ?>
                         
 					  </div><!-- price table container -->
 
-        			</div><!-- end of Tab 2 -->
+        			</div><!-- ./ price -->
 
 
 
-                    <div id="tabs-3">
+                    <?php echo $responsive_tabs["faqs"]; ?>
+					<div class="tab" aria-label="faqs">
 
                         <h3>Frequently Asked Questions</h3>
                         
@@ -329,25 +324,27 @@ include 'includes/functions.inc.php';
 						</div><!-- end of accordion group-->
 
 
-            		</div> <!-- end of Tab 3 -->
+            		</div><!-- ./ faqs -->
 
 
-                    <div id="tabs-4">
+                    <?php echo $responsive_tabs["photos"]; ?>
+					<div class="tab" aria-label="photos">
                          <div id="nanoGallery"></div>
-                    </div>  <!-- end of tabs 4 -->
+                    </div><!-- ./ photos -->
 
 
-                    <div id="tabs-5">
+                    <?php echo $responsive_tabs["buynow"]; ?>
+					<div class="tab" aria-label="buy">
                         
                         <h3>Buy Now</h3>
                         <p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
                         
                         <div class="cognito"></div>
                         
-                    </div><!-- end of tabs 5 -->
+                    </div><!-- ./ buy now -->
 
 
-			</div><!-- end of tabs -->
+			</div><!-- end of responsive-tabs -->
 
 
     	</div><!-- end of colfull -->
