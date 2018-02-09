@@ -70,6 +70,11 @@ define("EVENT", serialize ($nav = array(
 					"class"	=>	"urban",
 				  	"link"	=>	"/urban"		  	
 			),
+			array(
+				  	"title"	=>	"Day Getaway Cruise",
+					"class"	=>	"day",
+				  	"link"	=>	"/day-getaway-cruise"		  	
+			),
 			/*array(
 					"title"	=>	"Urban Fantasy Cruise",
 				  	"class"	=>	"ufw",

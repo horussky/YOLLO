@@ -28,7 +28,7 @@ $feature_event = array(
 		"date" 		=> "February 16-18, 2018",
 		"end"		=> strtotime("February 18, 2018"),
 		"img" 		=> "images/featured-events/featured-event-nba.jpg",
-		"link" 		=> "/urban-ski-weekend"
+		"link" 		=> "/nba-allstar"
 	),
 	array(
 		"title" 	=> "Party Gras Cruise",
@@ -64,6 +64,13 @@ $feature_event = array(
 		"end"		=> strtotime("February 5, 2018"),
 		"img" 		=> "images/featured-events/featured-event-usw.jpg",
 		"link" 		=> "/urban-ski-weekend"
+	),
+	array(
+		"title" 	=> "Day Getaway Cruise",
+		"date" 		=> "May 5, 2018",
+		"end"		=> strtotime("May 5, 2018"),
+		"img" 		=> "images/featured-events/featured-event-dgc.jpg",
+		"link" 		=> "/day-getaway-cruise"
 	),
 	array(
 		"title" 	=> "Alumni Getaway Cruise",
