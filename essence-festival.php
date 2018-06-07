@@ -33,17 +33,17 @@
 
 	$people = array(
 			"diamond"=> array(
-				"Group of 4" 			=>"$910",
-				"Group of 3"			=>"$975",
-				"Group of 2"			=>"$1140",
-				"Individual"			=>"$1785"
+				"Group of 4" 			=>"$975",
+				"Group of 3"			=>"$1050",
+				"Group of 2"			=>"$1205",
+				"Individual"			=>"$1850"
 			),
 
 			"emerald"=> array(
-				"Group of 4" 			=>"$760",
-				"Group of 3"			=>"$850",
-				"Group of 2"			=>"$995",
-				"Individual"			=>"$1530"
+				"Group of 4" 			=>"$825",
+				"Group of 3"			=>"$915",
+				"Group of 2"			=>"$1060",
+				"Individual"			=>"$1595"
 			),
 
 			"Hotel Only" =>"$1245 (Weekend)"
@@ -53,9 +53,9 @@
 		"diamond_items" => array(
 			"Hotel Accommodations (Fri-Sun)"			=> "checked",
 			"One night concert ticket (Lodge Section)"	=> "checked",
-			"All White Boat Cruise "			=> "checked",
+			"Saturday Night Party "			=> "checked",
 			"Mid-Day Comedy Show (Sunday)"				=> "checked",
-			"Fashion Show (Sunday)"				=> "checked",
+			"Black Film Review (Sunday)"				=> "checked",
 			"Speak Easy Poetry Show (Sunday)"				=> "checked",
 			"Welcome to NOLA party (Friday)"				=> "checked",
 			"Complimentary Additional Night*"			=> "checked",
@@ -67,9 +67,9 @@
 		"emerald_items" => array(
 			"Hotel Accommodations (Fri-Sun)"			=> "checked",
 			"One night concert ticket (Lodge Section)"	=> "ex",
-			"All White Boat Cruise "			=> "ex",
+			"Saturday Night Party "			=> "ex",
 			"Mid-Day Comedy Show (Sunday)"				=> "checked",
-			"Fashion Show (Sunday)"				=> "checked",
+			"Black Film Review (Sunday)"				=> "checked",
 			"Speak Easy Poetry Show (Sunday)"				=> "checked",
 			"Welcome to NOLA party (Friday)"				=> "checked",
 			"Complimentary Additional Night*"			=> "checked",
@@ -149,7 +149,7 @@
 
 						<h4>The Mid-Day Cruise Party</h4>
 
-						<p>This cruise was such a HUGE success in 2017 that we had to add two cruises to accommodate the demand! The 13th annual Mid-Day Party Boat Cruise will happen on the famous Creole Queen and will be featured with 4 options for you cruising delight! Enjoy a multi-level paddle-wheel boat cruising the Mighty Mississippi River, while listening to the livest Hip-Hop and R&B music. This cruise will be "All White" theme preferred, but not required for this event.</p>
+						<p>This cruise was such a HUGE success in 2017 that we had to add two cruises to accommodate the demand! The 13th annual Mid-Day Party Boat Cruise will happen on the famous Creole Queen and will be featured with 5 options for you cruising delight! Enjoy a multi-level paddle-wheel boat cruising the Mighty Mississippi River, while listening to the livest Hip-Hop and R&B music. This cruise will be "All White" theme preferred, but not required for this event.</p>
 
 						<h4>The Mid-Day Comedy Show</h4>
 						<p>Needless to say, the comedy show was bigger and better than ever! The food was great, drinks were on point, and the jokes had everyone in stitches! If you are in need of some serious laughter, this is the event for you. Last year's headliner Steve Brown had tears in EVERYBODY'S eyes! Don't think we are going to let you down with our 2018 lineup! The 8th annual Comedy Show will happen on July 8th, 2018. Join us to hear some of the funniest comedians to ever hit the main circuit.</p>
@@ -277,7 +277,7 @@
 
 							  <div data-control>What are the payment due dates for Essence Packages?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $19.99 per person fee. The first payment of $125 is due on or before January 14, 2018. The final payment (remaining balance) is due on or before March 13, 2018. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by cliocking on the BUY NOW tab above and following the prompts.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $350 per person is due on or before May 29, 2018. The final payment (remaining balance) is due on or before June 15, 2018. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by cliocking on the BUY NOW tab above and following the prompts.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -297,7 +297,7 @@
 
 							  <div data-control>Can I purchase additional concert nights?</div>
 							  <div data-content>
-								<p>Yes, additonal night concert tickets are $150 per night. Just let us know and we can add it to your invoice.</p>
+								<p>Yes, additonal night concert tickets are $185 per night. Just let us know and we can add it to your invoice.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -472,25 +472,6 @@
 <script type="text/javascript">
 
 	$(document).ready(function(){
-
-
-		//form validation
-		$('#paypal_frm').validate({
-			rules: {
-				terms: {required: true},
-				os3: {required: true},
-				os2: {required: true},
-				os5: {required: true}
-			},
-			messages: {
-				terms: "You must agree to terms!",
-				os3: "must add group size",
-				os2: "must add group leader",
-				os5: "must choose a package type"
-
-			}
-  		});
-
 
 		//nano
 		$("#nanoGallery").nanoGallery({

@@ -3,12 +3,12 @@
 ob_start("ob_gzhandler");
 
 $event = array(
-	"title"						=>"Alumni Getaway Cruise",
-	"subtitle"					=>"Grab your alumni shirts and book today!",
+	"title"						=>"Alumni Getaway",
+	"subtitle"					=>"$100 off until June 15th Book Today!",
 	"location"					=>"Cozumel, Mexico",
 	"date"						=>"December 6-10, 2018",
 	"img_url"				 	=>"../../images/slides/splash-alumni-cta.jpg",
-	"img_alt"				 	=>"Alumni Getaway Cruise"
+	"img_alt"				 	=>"Alumni Getaway"
 );
 
 $geolocation = array(
@@ -78,7 +78,7 @@ include 'includes/functions.inc.php';
 
 <title><?php echo $event["title"]?> | <?php echo $phonenumber ?></title>
 <meta name="description" content="YOLLO Group Services is a travel company specializing in offering affordable travel to amazing events for everyone." />
-<meta name="keywords" content="Urban Fantasy 2017, Urban Fantasy 2018, HBCU ALumni, SWAC, CIAA, MEAC, SIAC, Carnival Cruise, Bahamas, YOLLO Group Services, student travel, bahamas, Cruise Travel packages" />
+<meta name="keywords" content="Urban Fantasy 2018, Urban Fantasy 2018, HBCU ALumni, SWAC, CIAA, MEAC, SIAC, Carnival Cruise, Bahamas, YOLLO Group Services, student travel, bahamas, Cruise Travel packages" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
@@ -136,9 +136,9 @@ include 'includes/functions.inc.php';
 
                     <?php echo $responsive_tabs["overview"]; ?>
 					<div class="tab" aria-label="overview">
-                        <h3>Alumni Getaway Cruise is going to Cozumel, Mexico!</h3>
+                        <h3>Alumni Getaway is going to Cozumel, Mexico!</h3>
 
-                        <p>Calling all old, new, and almost alums, this Alumni Getaway Cruise is the weekend vacation for you. We are bringing together HBCU alums from all over the country to rep their university. What better way to meet and mingle than cruising aboard the Carnival Fantasy to the beautiful island of Cozumel, Mexico. Not a product of a HBCU? No worries, this cruise isn't exclusive to only HBCU alumni. Everyone's invited to rep their university on this getaway cruise to Mexico. </p>
+                        <p>Calling all old, new, and almost alums, this Alumni Getaway is the weekend vacation for you. We are bringing together HBCU alums from all over the country to rep their university. What better way to meet and mingle than cruising aboard the Carnival Fantasy to the beautiful island of Cozumel, Mexico. Not a product of a HBCU? No worries, this cruise isn't exclusive to only HBCU alumni. Everyone's invited to rep their university on this getaway cruise to Mexico. </p>
                         
                         <p>While you cruise over the Caribbean, we have plenty of entertainment to keep you occupied. Look forward to comedy shows, a talent show, spades tournament, and more activities. Our DJ's are working the 1's and 2's for a variety of onboard clubs and decks. Our theme night parties, “Greek Life or Nah” and “Rep Your University” will also keep the camaraderie going all weekend.</p> 
                         
@@ -282,7 +282,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>When are the payments due?</div>
 							  <div data-content>
-								<p>After registration of $19.99 per person the first payment of $125 is due <strong>by February 21, 2018</strong> . The final payment (remaining balance) is due on or before <strong>June 28, 2018</strong> . If the announced payment dates have passed contact us for our current payment plan.</p>
+								<p>After registration of $29.99 per person the first payment of $125 is due <strong>by May 20, 2018</strong> . The final payment (remaining balance) is due on or before <strong>August 18, 2018</strong> . If the announced payment dates have passed contact us for our current payment plan.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -419,31 +419,13 @@ include 'includes/functions.inc.php';
 <?php include 'includes/scripts.inc.php'; ?>
 <script type="text/javascript">
 	$(document).ready(function(){
-
-		//form validation
-		$('#paypal_frm').validate({
-			rules: {
-				terms: {required: true},
-				os3: {required: true},
-				os2: {required: true},
-				os5: {required: true}
-			},
-			messages: {
-				os3: "must add group size",
-				os2: "must add leader",
-				os5: "must choose a package type",
-				terms: "You must agree to terms!"
-			}
-  		});
-
-
 			//nano
 			$("#nanoGallery").nanoGallery({
 				kind: 'flickr',
 				userID: '50836209@N03',
 
 				 //uncomment this line to display one specific album:
-			   photoset:'72157660233463388',
+			   photoset:'72157667384081578',
 
 				// uncomment this line to display full photostream (v5.0.0):
 				// photoset:'none',
@@ -464,7 +446,8 @@ include 'includes/functions.inc.php';
 	});
 </script>
 <script src="https://services.cognitoforms.com/s/NiNAkf4LukqBZOHDFOMsiQ"></script>
-                            <script>Cognito.load("forms", { id: "11" });</script>
+<script>Cognito.load("forms", { id: "11" });</script>
 <!--google analytics-->
 <?php include 'includes/analytics.inc.php'; ?>
-</body></html>
+</body>
+</html>

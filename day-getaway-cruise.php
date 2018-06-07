@@ -30,9 +30,9 @@ $geolocation = array(
 $people = array(
 		"diamond"=> array(
 			"Cruise, Live Performances, and Roundtrip Transportation" 			=>"$99",
-			"VIP Cruise and Bus"			=>"$135",
-			//"Group of 2"			=>"$650",
-			//"Individual"			=>"$1100"
+			"Cruise and Live Performances"			=>"$85",
+			"Cruise Only"			=>"$50",
+			"Live Performances Show Only"			=>"$45"
 		),
 
 		"emerald"=> array(
@@ -136,9 +136,12 @@ include 'includes/functions.inc.php';
 
 						<p>Do you need a get away for a day from the hustle of your normal routine? YOLLO has your answer as we present the Day Getaway cruise event! This event will feature a one of a kind charter bus ride to the historic city of Chattanooga and a day full of fun and excitement! This getaway will feature a comedy show, live spoken word and poetry, and a fabulous night cruise on the Tennessee River.</p>
                        	
-                       	<p> Don't wait as this event will fill up fast! Book your event with us and then secure your hotel room by visiting the host property website and enter the code <strong>GETAWAY</strong> for your discounted rate!</p>
+						<p>Don't wait as this event will fill up fast, book this event today. We are also providing hotel accommodations via the Marriott Downtown Chattanooga at a special discounted rate of <strong>$149</strong>. You can <a target="_blank" href="https://goo.gl/VmekGe">secure your hotel room</a> today by visiting the host properties website. </p>
                         
-						<p><strong>Boarding start:</strong> 10:30PM<br> <strong>Party time:</strong> 11PM - 1:30AM</p>
+                        <p><strong>Live show:</strong> 4PM- 7PM</p>
+						<p><strong>Cruise Boarding</strong> 10:30PM<br> 
+						<strong>Party time:</strong> 11PM - 1:30AM</p>
+						<p style="color:dimgrey">*All times are based on Eastern Time Zone.</p>
     
 
                     </div> <!-- ./ overview -->
@@ -229,9 +232,39 @@ include 'includes/functions.inc.php';
                         <h3>Frequently Asked Questions</h3>
                         
                         
-                        <div data-accordion-group>	
+                        <div data-accordion-group>
+                        
+                        	
+                        	<div class="accordion open" data-accordion>
+
+							  <div data-control>What is the official host property for the Day Getaway?</div>
+							  <div data-content>
+								  <p>The host property is the Chattanooga Marriott Downtown. The address is 2 Carter Plaza, Chattanooga, TN 37402. You can <a target="_blank" href="https://goo.gl/VmekGe">book a room at a discounted price</a> of $149 today while supplies last.</p>
+							  </div>
+
+							</div><!-- end of accordion-->
+							
+							<div class="accordion" data-accordion>
+
+							  <div data-control>What time is the bus departing from Birmingham? </div>
+							  <div data-content>
+								  <p>The charter will depart Birmingham at 10 am Saturday May 05, 2018. The charter will leave Chattanooga, TN at 10 am on Sunday, May 06, 2018. Please note the 10 am departure from Chattanooga is Eastern Standard Time. If you haven’t please secure your room at the host property which is the Marriott Chattanooga downtown. Our guest will receive a special rate if you utilize the link on the page.  </p>
+							  </div>
+
+							</div><!-- end of accordion-->
+							
+							
+							<div class="accordion" data-accordion>
+
+							  <div data-control>Why do I have to secure my own hotel accommodations?</div>
+							  <div data-content>
+								  <p>We want to give each individual the choice to secure their own accommodations for this exciting event! However we are providing a great <a target="_blank" href="https://goo.gl/VmekGe">discounted price for booking at the host hotel property</a>. One advantage of booking with the host property is it will grant access to other events for the weekend, such as the meet and greet reception.  </p>
+							  </div>
+
+							</div><!-- end of accordion-->	
+                        				
 										
-							<div class="accordion open" data-accordion>
+							<div class="accordion" data-accordion>
 
 							  <div data-control>Where is the cruise being hosted? </div>
 							  <div data-content>
@@ -245,7 +278,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>Where will the bus depart from?</div>
 							  <div data-content>
-								<p>There will be departures from Birmingham, AL</p>
+								<p>We will depart from Birmingham, Alabama at 10AM May 5th and return at 11AM on May 6th.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -255,7 +288,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>Will refreshments be served on the bus?</div>
 							  <div data-content>
-								<p>YES, margaritas will be on DECK!</p>
+								<p>Yes, margaritas will be on DECK!</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -265,7 +298,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>After I purchase tickets online how do I receive my tickets? </div>
 							  <div data-content>
-								<p>Your tickets are mailed to the address provided during the purchasing process. </p>
+								<p>Your tickets are mailed to the email address provided during the purchasing process. </p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -273,9 +306,21 @@ include 'includes/functions.inc.php';
 
 							<div class="accordion" data-accordion>
 
-							  <div data-control>What time is boarding and what time does the boat cruise?</div>
+							  <div data-control>What time is boarding for the cruise and when does the cruise start?</div>
 							  <div data-content>
-								<p>Boarding starts at 10:30PM. The boat will leave at 11 PM </p>
+								<p>Boarding starts at 10:30PM. The boat will leave at 11PM </p>
+								<p style="color:dimgrey">*All times are based on Eastern Time Zone.</p>
+							  </div>
+
+							</div><!-- end of accordion-->
+							
+							
+							<div class="accordion" data-accordion>
+
+							  <div data-control>What time is the comedy/poetry and live performances show?</div>
+							  <div data-content>
+								<p>The live shows will be from 4PM - 7PM </p>
+								<p style="color:dimgrey">*All times are based on Eastern Time Zone.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -302,9 +347,9 @@ include 'includes/functions.inc.php';
 							
 							<div class="accordion" data-accordion>
 
-							  <div data-control>Do I have to ride the charter bus to attend this event?</div>
+							  <div data-control>Is the evening cruise and comedy/poetry/live performances one combined event?</div>
 							  <div data-content>
-								<p>No, you can purchase tickets only for the cruise.</p>
+								<p>No, you can purchase tickets only for the cruise or live performances. The cruise will begin boarding at 10:30PM while the comedy/poetry/live performances will start at 4PM.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -312,14 +357,14 @@ include 'includes/functions.inc.php';
 							
 							<div class="accordion" data-accordion>
 
-							  <div data-control>Why do I have to secure my own hotel accommodations?</div>
+							  <div data-control>Do I have to ride the charter bus to attend this event?</div>
 							  <div data-content>
-								  <p>Because some of the attendees may not want to stay at the host hotel we have given each individual the choice to secure their own accommodations for this exciting event! It would be wise to secure accommodations at the host property as it will grant you access to other events for the weekend like the meet and greet reception.</p>
+								<p>No, you can purchase tickets only for the cruise or comedy show.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
 							
-							
+			
 
 
 						</div><!-- end of accordion group-->
@@ -351,7 +396,16 @@ include 'includes/functions.inc.php';
                 <!-- end of pay-form -->
                 <?php */ ?>
                 
-                <div id="eventbrite-widget-container-42664826645"></div>
+				
+                
+                <div class="mb-20" id="eventbrite-widget-container-42664826645"></div>
+                
+                <hr class="mt-20" />
+                
+                <h4>Hotel Accommodations</h4>
+                <img style="width:15rem; float:left; margin-right:2rem" src="https://images.trvl-media.com/hotels/1000000/10000/3200/3119/6d204c33_z.jpg" />
+				<p class="mb-10"><strong>Marriott Downtown</strong></p>
+               	<p>For anyone needing hotel accommodations you can  <a target="_blank" href="https://goo.gl/VmekGe">secure your hotel room</a> at a special discounted rate of <strong>$149</strong>.</p>
 
 				
                 

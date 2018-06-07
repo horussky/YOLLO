@@ -321,21 +321,6 @@
 
 	$(document).ready(function(){
 
-		//form validation
-		$('#paypal_frm').validate({
-			rules: {
-				terms: {required: true},
-				os3: {required: true},
-				os2: {required: true},
-				os5: {required: true}
-			},
-			messages: {
-				os3: "must add group size",
-				os2: "must add group leader",
-				os5: "must choose a package type",
-				terms: "You must agree to terms!"
-			}
-  		});
 		
 		//nano
 			$("#nanoGallery").nanoGallery({

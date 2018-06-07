@@ -139,7 +139,7 @@ include 'includes/functions.inc.php';
                         
 						<p>This cruise WILL SELL OUT quickly, so purchase your tickets today. For questions and tickets call: <strong>(888) 946-9655</strong> or purchase your tickets <a data-href="#tabs-5" class="open-tab">online now.</a></p>
                         
-						<p><strong>Tickets:</strong> Gen Adm. $60 | Holding Fee: $19.99</p>
+						<p><strong>Tickets:</strong> Gen Adm. $60 | Holding Fee: $29.99</p>
 
 
                     </div> <!-- ./overview -->
@@ -277,12 +277,14 @@ include 'includes/functions.inc.php';
 				<?php echo $responsive_tabs["buynow"]; ?>
 				<div class="tab" aria-label="buy">
 
-					<div class="pay-form">
+					<!-- <div class="pay-form">
 						<p>Please use the form below to complete your booking for <?php echo $event["title"]?>. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
 
 						<div class="cognito"></div>
 
-					</div><!-- end of pay-form -->
+					</div>end of pay-form -->
+					
+					<div class="mb-20" id="eventbrite-widget-container-41621982470"></div>
 
 
 				</div><!-- ./buynow -->
@@ -354,6 +356,23 @@ include 'includes/functions.inc.php';
 </script>
 <script src="https://services.cognitoforms.com/s/NiNAkf4LukqBZOHDFOMsiQ"></script>
                             <script>Cognito.load("forms", { id: "57" });</script>
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>                            
+<script type="text/javascript">
+	var exampleCallback = function() {
+		console.log('Order complete!');
+	};
+
+	window.EBWidgets.createWidget({
+		// Required
+		widgetType: 'checkout',
+		eventId: '41621982470',
+		iframeContainerId: 'eventbrite-widget-container-41621982470',
+
+		// Optional
+		iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+		onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+	});
+</script>
 <!--google analytics-->
 <?php include 'includes/analytics.inc.php'; ?>
 </body></html>

@@ -4,7 +4,7 @@ ob_start("ob_gzhandler");
 
 
 $event = array(
-	"title"				=>"Urban Fiesta Weekend 2018",
+	"title"				=>"Urban Fiesta 2018",
 	"subtitle"			=>"Book your package today!",
 	"location"		   	=>"Run Away Bay, Jamaica",
 	"date"				=>"May 25-27, 2018",
@@ -40,14 +40,14 @@ $people = array(
 			//"Group of 4" 			=>"$580",
 			"Group of 3"			=>"$1075",
 			"Group of 2"			=>"$1125",
-			"Individual"			=>"$1375"
+			"Individual"			=>"$2375"
 		),
 
 		"emerald"=> array(
 			//"Group of 4" 			=>"$580",
 			"Group of 3"			=>"$825",
 			"Group of 2"			=>"$875",
-			"Individual"			=>"$1075"
+			"Individual"			=>"$1675"
 		),
 
 		"options"=>array(
@@ -299,7 +299,7 @@ include 'includes/functions.inc.php';
 
 												  <div data-control>When are the payments due?</div>
 												  <div data-content>
-													<p>The first payment of $125 is due January 10, 2018 after registration. The final payment (remaining balance) is due on or before March 13, 2018. If you would like to make payments between due dates that is fine also.</p>
+													<p>The first payment of $125 is due March 06, 2018 after registration. The final payment (remaining balance) is due on or before April 06, 2018. If you would like to make payments between due dates that is fine also.</p>
 												  </div>
 
 												</div><!-- end of accordion-->

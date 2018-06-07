@@ -1,10 +1,10 @@
 <?php
 if(!ob_start("ob_gzhandler")) ob_start();
 $event = array(
-	"title"						=>"Urban Ski Weekend 2018",
-	"subtitle"					=>"Hosted by DJ Self of Love and Hip-Hop NY",
+	"title"						=>"Urban Ski Weekend 2019",
+	"subtitle"					=>"Book your package today!",
 	"location"					=>"Gatlinburg, Tennessee",
-	"date"						=>"February 2 - 5 2018",
+	"date"						=>"February 1 - 4 2019",
 	"img_url"				 	=>"../../images/slides/splash-urban-ski-cta.jpg",
 	"img_alt"				 	=>"Urban Ski Weekend"
 );
@@ -53,8 +53,8 @@ $package_items = array(
 		"4 Days / 3 Nights Hotel Accommodations"						=> "checked",
 		"Party Bus Access"												=> "checked",
 		"The Best of the Best Fashion Shows"							=> "checked",
-		"6th Annual Winter White Party"									=> "checked",
-		"6th Annual \"LOL\" Comedy Show"								=> "checked",
+		"7th Annual Winter White Party"									=> "checked",
+		"7th Annual \"LOL\" Comedy Show"								=> "checked",
 		"The Rep Your City Super Bowl Party"							=> "checked",
 		"Freaky Friday PJ Party"										=> "checked",
 		"Access To The Exclusive Super Lounges Each Night"				=> "checked",
@@ -71,8 +71,8 @@ $package_items = array(
 		"4 Days / 3 Nights Hotel Accommodations"						=> "checked",
 		"Party Bus Access"												=> "ex",
 		"The Best of the Best Fashion Shows"							=> "checked",
-		"6th Annual Winter White Party"									=> "checked",
-		"6th Annual \"LOL\" Comedy Show"								=> "checked",
+		"7th Annual Winter White Party"									=> "checked",
+		"7th Annual \"LOL\" Comedy Show"								=> "checked",
 		"The Rep Your City Super Bowl Party"							=> "checked",
 		"Freaky Friday PJ Party"										=> "checked",
 		"Access To The Exclusive Super Lounges Each Night"				=> "checked",
@@ -98,7 +98,7 @@ include 'includes/functions.inc.php';
 
 <title><?php echo $event["title"]?> | <?php echo $phonenumber ?></title>
 <meta name="description" content="We provide all-inclusive arrangements and tickets for Urban Ski Weekend." />
-<meta name="keywords" content="Black Ski Weekend 2018, Urban Ski Weekend 2017,gatlinburg, winter skifest 2017, urban ski, urban ski 2017, urban ski 2018, urban ski weekend 2018, black ski weekend" />
+<meta name="keywords" content="Black Ski Weekend 2019, Urban Ski Weekend 2018,gatlinburg, winter skifest 2018, urban ski, urban ski 2018, urban ski 2019, urban ski weekend 2019, black ski weekend" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
@@ -160,10 +160,10 @@ include 'includes/functions.inc.php';
 										<p>YOLLO Group Services has the ultimate ski-weekend package for you. So you have never been skiing? No problem. Nervous about skiing and falling? No worries at all. There will be hundreds of others just like you at the lodge. You may fall, roll, or make the slopes a slave to your skills. Regardless, you will definitely have a great time at Urban Ski Weekend in Gatlinburg, Tennesee.</p>
 
 										<h4>What else?</h4>
-										<p>Tired of busting your butt on the slopes? You can enjoy many parties and events going on around the mountain. The 2018 edition of Urban Ski Weeekend will be hosted by LHHNY own DJ Self! Don't be surprised to see his celebrity friends drop in and party with us. </p>
+										<p>Tired of busting your butt on the slopes? You can enjoy many parties and events going on around the mountain. The 2018 edition of Urban Ski Weeekend was hosted by LHHNY own DJ Self and Safari! They did not disppoint as they entertained and interacted with the crowd!</p>
 
 										<h4>The packages</h4>
-										<p>Our packages includes hotel stay, party passes, comedy show, breakfast, and plenty of networking oppurtunities. We also have transportation available via one of our exclusive party buses. These buses will be available in Alabama, Tennessee, and Georgia.</p>
+										<p>Our packages includes hotel stay, party passes, comedy show, breakfast, and plenty of networking oppurtunities. We also have transportation available via one of our exclusive party buses. These buses will be available in Alabama and Georgia.</p>
 
 										<h4>The Bottom Line</h4>
 										<p>Did we mention this is all going down Super Bowl Weekend. Skiing, parties, comedy, relaxation, good food, and football. What more can you ask for. Look forward to a spectacular weekend in Gatlinburg. Register and book a spot today!</p>
@@ -261,21 +261,12 @@ include 'includes/functions.inc.php';
 
 										  <div data-control>When are the payments due?</div>
 										  <div data-content>
-											<p>Following registration the first payment of $125 is due on or before December 13, 2017. The final payment (remaining balance) is due on or before January 4, 2017.</p>
+											<p>Following registration the first payment of $125 is due on or before May 05, 2018. The final payment (remaining balance) is due on or before August 21, 2018.</p>
 										  </div>
 
 										</div><!-- end of accordion-->
 										
-										<div class="accordion open" data-accordion>
-
-										  <div data-control>Can I pay upon arrival?</div>
-										  <div data-content>
-											<p>Yes, the pay on arrival option is now available. Following registration the first payment of $200 is due on or before December 13, 2017. The final payment (remaining balance) is due on upon arrival in Gatlinburg. This option is only available for our Diamond or Emerald package. Additonally, the only method of payment accepted upon arrival will be CASH. NO EXCEPTIONS! This option also has a $35 fee added to the package price listed.</p>
-										  </div>
-
-										</div><!-- end of accordion-->
-
-
+										
 										<div class="accordion" data-accordion>
 
 										  <div data-control>What time will the bus depart from Atlanta?</div>

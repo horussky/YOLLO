@@ -42,7 +42,7 @@ $feature_event = array(
 		"date" 		=> "July 21, 2018",
 		"end"		=> strtotime("July 21, 2018"),
 		"img" 		=> "images/featured-events/featured-event-groove-cruise.jpg",
-		"link" 		=> "/groove"
+		"link" 		=> "/groove-cruise"
 	),
 	array(
 		"title" 	=> "Urban Fantasy Cruise",

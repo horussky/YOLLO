@@ -2,29 +2,29 @@
 ob_start("ob_gzhandler");
 
 $event = array(
-	"title"					=>"NBA All-Star Weekend 2018",
+	"title"					=>"All-Star Weekend 2019",
 	"subtitle"				=>"Book your package today!",
-	"location"				=>"Los Angeles, Ca",
-	"date"					=>"February 16 – 18, 2018",
+	"location"				=>"Charlotte, NC",
+	"date"					=>"February 15 – 17, 2019",
 	"img_url"				=>"../../images/slides/splash-nba-cta.jpg",
 );
 
 $geolocation = array(
 
 	"hotel1"=> array(
-		"title" 			=>"Hilton Garden Inn Hollywood",
-		"address"			=>"2005 North Highland Avenue",
-		"location"			=>"Los Angeles, CA 90068",
+		"title" 			=>"Sheraton Charlotte",
+		"address"			=>"555 S. McDowell Street, South Tower",
+		"location"			=>"Charlotte, NC 28204",
 		"hotel1_soldout"	=> false,
-		"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/0b/51/06/3c/hotel-exterior.jpg"
+		"img_url"			=>"//www.charlottefive.com/wp-content/uploads/2016/05/IMG_SheratonABC_1.JPG.JP_2_1_BD214V64_L47744109.jpg"
 	),
 
 	"hotel2"=> array(
-		"title" 			=>"DoubleTree by Hilton Downtown",
-		"address"			=>"120 S Los Angeles St",
-		"location"			=>"Los Angeles, CA 90012",
+		"title" 			=>"LeMeridian Charlotte",
+		"address"			=>"555 S. McDowell Street, North Tower",
+		"location"			=>"Charlotte, NC 28204",
 		"hotel1_soldout"	=> false,
-		"img_url"			=>"https://media-cdn.tripadvisor.com/media/photo-o/0c/df/e5/a4/hotel-exterior.jpg"
+		"img_url"			=>"//t-ec.bstatic.com/images/hotel/max1280x900/848/84804859.jpg"
 	)
 );
 
@@ -56,24 +56,28 @@ $package_items = array(
 	"diamond_items" => array(
 		"Hotel Accommodations (Fri-Sun)"					=> "checked",
 		"Complimentary Night"								=> "checked",
-		"Celebrity Hosted Party Ticket (Saturday)"			=> "checked",
+		"Celebrity Hosted Party Ticket (Friday)"			=> "checked",
+		"Celebrity Hosted Party Ticket (Sunday)"			=> "checked",
 		"Jam Sessions Tickets"								=> "checked",
+		"Rising Star Game Ticket (Friday)"			=> "checked",
 		"Mid-Day Party"										=> "checked",
 		"YOLLO Live City Tour"								=> "checked",
-		"Comedy Show Tickets "					=> "checked",
+		"Lavish Life Yacht Cruise"					=> "checked",
 		"YOLLO Gift Bag"									=> "checked"
 	),
 
 	"emerald_items" => array(
 		"Hotel Accommodations (Fri-Sun)"					=> "checked",
 		"Complimentary Night"								=> "checked",
-		"Celebrity Hosted Party Ticket (Saturday)"			=> "ex",
+		"Celebrity Hosted Party Ticket (Friday)"			=> "ex",
+		"Celebrity Hosted Party Ticket (Sunday)"			=> "checked",
 		"Jam Sessions Tickets"								=> "checked",
+		"Rising Star Game Ticket (Friday)"			=> "ex",
 		"Mid-Day Party"										=> "checked",
-		"YOLLO Live City Tour"								=> "checked",
-		"All Star Celebrity Game Tickets"					=> "ex",
+		"YOLLO Live City Tour"								=> "ex",
+		"Lavish Life Yacht Cruise"					=> "ex",
 		"YOLLO Gift Bag"									=> "checked"
-	),
+			),
 
 	"Hotel Only" =>"$2000/room"
 );
@@ -87,8 +91,8 @@ include 'includes/functions.inc.php';
 <meta charset="utf-8">
 
 <title><?php echo $event["title"]?> | <?php echo $phonenumber ?></title>
-<meta name="description" content="YOLLO Group Services is providing you all-inclusive packages for NBA All-Star Weekend 2018 in Los Angeles." />
-<meta name="keywords" content="NBA All-Star, All-Star game 2018, YOLLO Group Services, NBA All-Star Weekend packages 2018, los angeles, california" />
+<meta name="description" content="YOLLO Group Services is providing you all-inclusive packages for NBA All-Star Weekend 2019 in Charlotte." />
+<meta name="keywords" content="NBA All-Star, All-Star game 2019, YOLLO Group Services, NBA All-Star Weekend packages 2019, Charlotte, North Carolina" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
@@ -143,11 +147,10 @@ include 'includes/functions.inc.php';
 								<?php echo $responsive_tabs["overview"]; ?>
 								<div class="tab" aria-label="overview">
 									<h3><?php echo $event["title"]?></h3>
+									
+                                    <p>In 2019, the Queen City, Charlotte is hosting the 68th annual All-Star game! There will be a lively fanbase hungry to host this exciting weekend. With Charlotte, also known as <em>Party City</em>, serving as the backdrop, this weekend event is sure to be LIT. YOLLO has the all-inclusive package to get you face-to-face with the celebrities that will be in attendance for this weekend. From party passes, hotel stay, and celebrity hosted events, YOLLO is here for your turn up!</p>
 
-									<p>In 2018, the the City of Angels, Los Angeles is hosting the 67th  annual NBA All-Star game! With a lively fan base and Hollywood serving as the backdrop, this weekend event is sure to be lit. All-Star Weekend attracts the biggest celebrities around, and most already live in LA. YOLLO has the all-inclusive package to get you face-to-face with these celebrities. From party passes, hotel stay, and the Celebrity game, YOLLO is here for your turn up!  </p>
-
-
-									<p>Allow us to give you an exciting travel experience during the NBA All-Star Weekend. Make sure you explore our hotel and pricing options and book with YOLLO Group Services today!</p>
+                                    <p>Allow us to give you an exciting travel experience during the All-Star Weekend. Make sure you explore our hotel and pricing options and book with YOLLO Group Services today!</p>
 
 								</div> <!-- ./ overview -->
 
@@ -238,7 +241,7 @@ include 'includes/functions.inc.php';
 											<div class="clearfix">
 												<h4>Party Pass Options: </h4>
 
-												<p class="lead">Rookie - $350</p>
+												<p class="lead">Rookie - $350 </p>
 												<ul>
 													<li>Friday Night Party</li>
 													<li>Jam Sessions Ticket</li>
@@ -249,7 +252,7 @@ include 'includes/functions.inc.php';
 
 												</ul>
 
-												<p class="lead">Rising Star - $550 - SOLD OUT</p>
+												<p class="lead">Rising Star - $550 </p>
 												<ul>										
 													<li>Jam Sessions Ticket</li>
 													<li>YOLLO Live City Tour</li>
@@ -262,7 +265,7 @@ include 'includes/functions.inc.php';
 
 												</ul>
 
-												<p class="lead">All-Star - $650 - SOLD OUT (best seller)</p>
+												<p class="lead">All-Star - $750 - (best seller)</p>
 												<ul>
 
 													<li>Friday Night Party (Celebrity Hosted)</li>
@@ -304,7 +307,7 @@ include 'includes/functions.inc.php';
 
 										  <div data-control>When are the payments due?</div>
 										  <div data-content>
-											<p>The first payment of $250 is due (3) three days after registration. The final payment (remaining balance) is due on or before February 03, 2018.</p>
+											<p>After registration the first payment of $125 is due July 17, 2018. The final payment (remaining balance) is due on or before October 23, 2018.</p>
 										  </div>
 
 										</div><!-- end of accordion-->
@@ -342,9 +345,9 @@ include 'includes/functions.inc.php';
 
 										<div class="accordion" data-accordion>
 
-										  <div data-control>Where is the NBA All Star Weekend in 2018?</div>
+										  <div data-control>Where is the NBA All Star Weekend in 2019?</div>
 										  <div data-content>
-											<p>The NBA All Star Weekend is in LOS ANGELES and will be on February 16-18, 2018!</p>
+											<p>The NBA All Star Weekend is in Charlotte, NC and will be on February 15-17, 2019!</p>
 										  </div>
 
 										</div><!-- end of accordion-->
@@ -399,7 +402,7 @@ include 'includes/functions.inc.php';
 
 			<div class="disclosure">
 			<?php include 'includes/package-info-generic.inc.php'; ?><br/>
-            <strong>Disclaimer</strong> | The terms NBA All-Star, NBA All-Star Weekend, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. We are in no way associated with or authorized by the National Basketball Association and neither this production nor its affiliates have licensed or endorsed us to sell goods and/or services in conjunction with any National Basketball Association productions. The use of any logos, words, trademarks, or photos have been used for descriptive purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.
+            <strong>Disclaimer</strong> | The terms NBA All-Star, NBA All-Star Weekend, NBA, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. We are in no way associated with or authorized by the National Basketball Association and neither this production nor its affiliates have licensed or endorsed us to sell goods and/or services in conjunction with any National Basketball Association productions. The use of any logos, words, trademarks, or photos have been used for descriptive purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.
       </div><!-- end of disclosure -->
 
 

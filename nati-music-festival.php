@@ -137,7 +137,7 @@ include 'includes/functions.inc.php';
 						<h4>4th Annual Grown and Sophisticated Mid-Day Cruise</h4>
 						<p>The 4th Annual Grown and Sophisticated Mid-Day Cruise will happen on the River Queen and will be another MUST ATTEND event during Cincinnati Music Festival Weekend! Enjoy a multi-level paddle-wheel boat cruising the mighty Ohio River, while listening to the livest Hip-Hop and R&amp;B music. Last years' cruise was Mardi Gras themed, however we are returning to the original format of an All White cruise. The cruise sails from 1:00 pm – 4:00 pm. Please remember that once we sell out, we will not have any more tickets available.<p>
 						
-						<p>YOLLO is looking forward to another terrific festival in 2018, and we hope you join us and be a part of this special summer occasion. Packages are available now, but they won't last long. Don't wait reserve today for $19.99!</p>
+						<p>YOLLO is looking forward to another terrific festival in 2018, and we hope you join us and be a part of this special summer occasion. Packages are available now, but they won't last long. Don't wait reserve today for $29.99!</p>
 
                   	</div><!-- ./ overview -->
 
@@ -256,7 +256,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>What are the payment due dates for Cincinnati Music Festival Packages?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $19.99 per person fee. The first payment of $125 is due on or before <strong>January 15, 2018</strong>. The final payment (remaining balance) is due on or before <strong>April 20, 2018</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
+								<p>To reserve a package each group member pays the $19.99 per person fee. The first payment of $125 is due on or before <strong>April 06, 2018</strong>. The final payment (remaining balance) is due on or before <strong>June 05, 2018</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -337,9 +337,13 @@ include 'includes/functions.inc.php';
 					<div class="tab" aria-label="buy">
                         
                         <h3>Buy Now</h3>
+                        <?php /* ?>
                         <p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
                         
                         <div class="cognito"></div>
+                        <?php */ ?>
+                        
+                        <div class="mb-20" id="eventbrite-widget-container-36768963961"></div>
                         
                     </div><!-- ./ buy now -->
 
@@ -401,7 +405,24 @@ include 'includes/functions.inc.php';
 
 	});
 </script>
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 
+<script type="text/javascript">
+	var exampleCallback = function() {
+		console.log('Order complete!');
+	};
+
+	window.EBWidgets.createWidget({
+		// Required
+		widgetType: 'checkout',
+		eventId: '36768963961',
+		iframeContainerId: 'eventbrite-widget-container-36768963961',
+
+		// Optional
+		iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+		onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+	});
+</script>
 <script src="https://services.cognitoforms.com/s/NiNAkf4LukqBZOHDFOMsiQ"></script>
 <script>Cognito.load("forms", { id: "7" });</script>
 
