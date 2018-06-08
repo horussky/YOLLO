@@ -4,10 +4,10 @@ ob_start("ob_gzhandler");
 
 
 $event = array(
-	"title"				=>"Urban Fiesta Weekend 2018",
-	"subtitle"			=>"Book your package today!",
+	"title"				=>"Urban Fiesta 2019",
+	"subtitle"			=>"You DO NOT want to miss this event!",
 	"location"		   	=>"Run Away Bay, Jamaica",
-	"date"				=>"May 25-27, 2018",
+	"date"				=>"May 24-26, 2019",
 	"img_url"			=>"../../images/slides/splash-urban-fiesta-cta.jpg",
 	"img_alt"			=>"Urban Fiesta"
 );
@@ -17,7 +17,7 @@ $event = array(
 $geolocation = array(
 
 	"hotel1"=> array(
-		"title" 			=>"Melia Braco Village",
+		"title" 			=>"TBA",
 		"address"			=>"Rio Bueno District, Rio Bueno, Jamaica",
 		"location"			=>"Trelawny, Jamacia",
 		"geolocation"		=>"Rio Bueno District, Rio Bueno, Jamaica, Trelawny, Jamacia",
@@ -40,14 +40,14 @@ $people = array(
 			//"Group of 4" 			=>"$580",
 			"Group of 3"			=>"$1075",
 			"Group of 2"			=>"$1125",
-			"Individual"			=>"$1375"
+			"Individual"			=>"$2375"
 		),
 
 		"emerald"=> array(
 			//"Group of 4" 			=>"$580",
 			"Group of 3"			=>"$825",
 			"Group of 2"			=>"$875",
-			"Individual"			=>"$1075"
+			"Individual"			=>"$1675"
 		),
 
 		"options"=>array(
@@ -99,8 +99,8 @@ include 'includes/functions.inc.php';
           <?php echo $event["title"]?> | <?php echo $phonenumber ?>
      </title>
 
-     <meta name="description" content="Urban Fiesta 2018 in Jamacia with YOLLO Group Services Inc. Memorial Day Weekend." />
-     <meta name="keywords" content="Urban Fiesta, Urban Fiesta 2017, Trelawny, Jamacia, Rio Bueno, Malia Jamacia, Run Away Bay, Urban Fiesta 2018" />
+     <meta name="description" content="Urban Fiesta 2019 in Jamacia with YOLLO Group Services Inc. Memorial Day Weekend." />
+     <meta name="keywords" content="Urban Fiesta, Urban Fiesta 2019, Trelawny, Jamacia, Rio Bueno, Malia Jamacia, Run Away Bay, Urban Fiesta 2018" />
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
      <link href="favicon.ico" rel="icon" type="image/x-icon" />
@@ -170,11 +170,11 @@ include 'includes/functions.inc.php';
                                         <?php echo $responsive_tabs["overview"]; ?>
 										<div class="tab" aria-label="overview">
 
-                                             <h3>Jamaica is the ONLY place to be Memorial Day weekend 2018!</h3>
+                                             <h3>Jamaica is the ONLY place to be Memorial Day Weekend 2019!</h3>
 
-                                             <p>It's the 10th anniversary for Urban Fiesta and we are making a big and new splash. We are taking you to beautiful Jamaica! Urban Fiesta will be the livest event in Jamaica during Memorial Day weekend. There are plenty of activities to occupy your time from sun up to sun down - excursions, shopping areas, sandy beaches, parties, and the list goes on.<p> 
+                                             <p>If you missed the 2018 edition of Urban Fiesta all we can say is look at the pictures. We took our clients to beautiful Jamaica and they LOVED it! Urban Fiesta 2018 was the livest event in Jamaica host by LHHNY celebrity JuJu during Memorial Day weekend. There are plenty of activities to occupy your time from sun up to sun down - excursions, shopping areas, sandy beaches, parties, zip lining, and the list goes on. Let us remind you this was all on the property!<p> 
 
-											 <p>Dust those passports off, secure your package today, and get ready for some major FUN! YOLLO Group Services will see you in Jamaica for Urban Fiesta Weekend 2018!</p>
+											 <p>Dust those passports off, secure your package today, and get ready for some major FUN! YOLLO Group Services will see you in Jamaica for Urban Fiesta Weekend 2019!</p>
                                              
                                         </div><!-- ./overview -->
 
@@ -276,8 +276,8 @@ include 'includes/functions.inc.php';
                                                        
                                                         <h3>Additional Options</h3>
                                                         <ul>
-															<li>Airport Transportation: $20 ($40 Round trip)</li>
-															<li>Dunn'ss River Falls Excursion: $60pp</li>
+															<li>Airport Transportation: $40 Roundtrip</li>
+															<li>Dunn's River Falls Excursion: $60pp</li>
 															<li>Tour of Ocho Rios: $70pp</li>
 															<li>Tour Of Montego Bay: $70pp</li>
 															<li>Luminous Lagoon: $70pp</li>
@@ -299,7 +299,7 @@ include 'includes/functions.inc.php';
 
 												  <div data-control>When are the payments due?</div>
 												  <div data-content>
-													<p>The first payment of $125 is due January 10, 2018 after registration. The final payment (remaining balance) is due on or before March 13, 2018. If you would like to make payments between due dates that is fine also.</p>
+													<p>The first payment of $125 is due August 09, 2018 after registration. The final payment (remaining balance) is due on or before December 14, 2018. If you would like to make payments between due dates that is fine also.</p>
 												  </div>
 
 												</div><!-- end of accordion-->
@@ -360,7 +360,7 @@ include 'includes/functions.inc.php';
 
 												  <div data-control>Why did Urban Fiesta leave San Juan, Puerto Rico?</div>
 												  <div data-content>
-													<p>The event outgrew the island and most attendees are repeat clients. We wanted to celebrate our 10th year in a new venue and make fresh experiences for our attendees!</p>
+													<p>The event outgrew the island and most attendees are repeat clients. We wanted to celebrate they event with a new destinantion and provide fresh experiences for our attendees!</p>
 												  </div>
 
 												</div><!-- end of accordion-->

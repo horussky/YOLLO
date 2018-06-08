@@ -3,11 +3,11 @@
 ob_start("ob_gzhandler");
 
 $event = array(
-	"title"						=>"Party Gras: Bottles and Beads",
+	"title"						=>"Party Gras V Bottles and Beads 2018",
 	"subtitle"					=>"Come Party For Those BEADS! This event will SELL OUT!",
 	"location"					=>"Chattanooga, TN",
 	"date"						=>"August 11, 2018",
-	"img_url"				 	=>"../../images/slides/splash-partygras-cta.jpg",
+	"img_url"				 	=>"../../images/slides/splash-day-getaway-cta.jpg",
 	"img_alt"				 	=>"Day Getaway Cruise"
 );
 
@@ -49,7 +49,7 @@ $people = array(
 $package_items = array(
 	"diamond_items" => array(
 		"Crowd Control by: DJ Dre Smoove and DJ Dee Money"		=> "checked",
-		"Poets: Georgia Me and Friends"						    => "checked",
+		"Poets: Georgia Me and Friends"						=> "checked",
 		"Comedians: Chris “Set It Off” Jones and Friends"		=> "checked",
 		"Live Performances by: Charles Reed and Friends"		=> "checked",
 		"Free Margaritas while they last"						=> "checked",
@@ -132,16 +132,14 @@ include 'includes/functions.inc.php';
 
                     <?php echo $responsive_tabs["overview"]; ?>
 					<div class="tab" aria-label="overview">
-                        <h3>Party Gras is BACK and in Tennessee</h3>
+                        <h3>Party Gras V is BACK and in Tennessee</h3>
 
-                        <p>After an amazing 2017 party cruise, Party Gras: Bottles and Bead is returning for a fifth installment. Last year we turned it up to the max, but this year we are making everything bigger and better than ever. We are taking this party on the road. Come party aboard the Southern Belle for an exclusive Riverboat cruise with amazing views of Chattanooga, TN.</p> 
-                          
-                        <p>This will be a FULL day of good music, adult drinks, mingling, and fun for everyone attending. The boat features three (3) party decks with multiple DJ's. Live entertainment will feature spoken word artists, comedians, and performances by R&amp;B/Hip Hop artist! FREE margaritas will be on deck at our welcome reception! <strong>This event WILL SELL OUT quickly</strong>, so purchase your tickets today. For questions and tickets call: <strong>(888) 946-9655 </strong> or <strong>(334) 531-5650</strong>, or <a data-href="#tabs-5" class="open-tab">purchase your tickets online now.</a></p>
+						<p>Party Gras V is returning from a successful 2017 party cruise, and ramping up to do it all again. YOLLO presents Bottles and Beads: Party Gras Cruise Part V. After turning up to the max last year, this year we are making everything bigger and better than ever and taking the show on the road! Come party aboard the Southern Belle for an exclusive Riverboat cruise with amazing views of Chattanooga, TN. This will be a FULL day of good music, adult drinks, mingling, and fun for everyone attending. The boat features three (3) party decks with multiple DJ's. Live entertainment will feature spoken word artists, comedians, and performances by R&B/Hip Hop artist! Did we mention we will have free margaritas at our welcome reception! <strong>This event WILL SELL OUT quickly</strong>, so purchase your tickets today. For questions and tickets call: <strong>(888) 946-9655 </strong> or <strong>(334) 531-5650</strong>, or purchase your tickets online now.</p>
                        	
-						<p>Don't wait as this event will fill up fast, book this event today. We are also providing hotel accommodations via the Holiday Inn and Suites Downtown Chattanooga at a special discounted rate of <strong>$119</strong>. You can <a target="_blank" href="https://www.holidayinn.com/redirect?path=hd&brandCode=HI&localeCode=en&regionCode=1&hotelCode=chadt&_PMID=99801505&GPC=YOL&viewfullsite=true">secure your hotel room</a> today by visiting the host properties website. </p>
+						<p>Don't wait as this event will fill up fast, book this event today. We are also providing hotel accommodations via the Holiday Inn and Suites Downtown Chattanooga at a special discounted rate of <strong>$119</strong>. You can <a target="_blank" href="https://goo.gl/VmekGe">secure your hotel room</a> today by visiting the host properties website. </p>
                         
-                        <p><strong>Live show:</strong> 4PM- 7PM<br>
-						<strong>Cruise Boarding:</strong> 10:30PM<br> 
+                        <p><strong>Live show:</strong> 4PM- 7PM</p>
+						<p><strong>Cruise Boarding</strong> 10:30PM<br> 
 						<strong>Party time:</strong> 11PM - 1:30AM</p>
 						<p style="color:dimgrey">*All times are based on Eastern Time Zone.</p>
     
@@ -239,7 +237,7 @@ include 'includes/functions.inc.php';
                         	
                         	<div class="accordion open" data-accordion>
 
-							  <div data-control>What is the official host property for the Party Gras?</div>
+							  <div data-control>What is the official host property for the Day Getaway?</div>
 							  <div data-content>
 								  <p>The host property is the Chattanooga Marriott Downtown. The address is 2 Carter Plaza, Chattanooga, TN 37402. You can <a target="_blank" href="https://goo.gl/VmekGe">book a room at a discounted price</a> of $149 today while supplies last.</p>
 							  </div>
@@ -400,16 +398,14 @@ include 'includes/functions.inc.php';
                 
 				
                 
-                <div class="mb-20" id="eventbrite-widget-container-46136809439"></div>
+                <div class="mb-20" id="eventbrite-widget-container-42664826645"></div>
                 
                 <hr class="mt-20" />
                 
-               
                 <h4>Hotel Accommodations</h4>
-                <img style="width:15rem; float:left; margin-right:2rem" src="https://t-ec.bstatic.com/images/hotel/max1024x768/191/19191223.jpg" />
-				<p class="mb-10"><strong>Holiday Inn & Suites Chattanooga Downtown</strong></p>
-               	<p>For anyone needing hotel accommodations you can  <a target="_blank" href="https://www.holidayinn.com/redirect?path=hd&brandCode=HI&localeCode=en&regionCode=1&hotelCode=chadt&_PMID=99801505&GPC=YOL&viewfullsite=true">secure your hotel room</a> at a special discounted rate of <strong>$119</strong>.</p>
-               
+                <img style="width:15rem; float:left; margin-right:2rem" src="https://images.trvl-media.com/hotels/1000000/10000/3200/3119/6d204c33_z.jpg" />
+				<p class="mb-10"><strong>Marriott Downtown</strong></p>
+               	<p>For anyone needing hotel accommodations you can  <a target="_blank" href="https://goo.gl/VmekGe">secure your hotel room</a> at a special discounted rate of <strong>$119</strong>.</p>
 
 				
                 
@@ -510,8 +506,8 @@ include 'includes/functions.inc.php';
 	window.EBWidgets.createWidget({
 		// Required
 		widgetType: 'checkout',
-		eventId: '46136809439',
-		iframeContainerId: 'eventbrite-widget-container-46136809439',
+		eventId: '42664826645',
+		iframeContainerId: 'eventbrite-widget-container-42664826645',
 
 		// Optional
 		iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided

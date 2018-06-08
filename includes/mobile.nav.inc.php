@@ -34,13 +34,12 @@ define("EVENT", serialize ($nav = array(
 				  	"link"	=>	"/essence-festival"
 				  
 			),
-			/*
 			array(
 					"title"	=>	"Party Gras Cruise",
 				  "class"	=>	"partygras",
 				  "link"	=>	"/partygras"
 				  
-			),*/
+			),
 			array(
 					"title"	=>	"Cincinnati Music Festival",
 				  	"class"	=>	"nati",
@@ -71,6 +70,11 @@ define("EVENT", serialize ($nav = array(
 				  	"link"	=>	"/urban"		  	
 			),
 			/*array(
+				  	"title"	=>	"Day Getaway Cruise",
+					"class"	=>	"day",
+				  	"link"	=>	"/day-getaway-cruise"		  	
+			),
+			array(
 					"title"	=>	"Urban Fantasy Cruise",
 				  	"class"	=>	"ufw",
 				 	"link"	=>	"/urban-fantasy"

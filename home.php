@@ -67,7 +67,6 @@ include 'includes/functions.inc.php';
 
 
          <aside id="social">
-
 		 	<?php include 'includes/twitter.inc.php'; ?>
          </aside>
 

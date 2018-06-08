@@ -2,10 +2,10 @@
 ob_start("ob_gzhandler");
 
 $event = array(
-	"title"					=>"The Tourney Weekend 2018",
+	"title"					=>"The Tourney Weekend 2019",
 	"subtitle"				=>"Book your package today!",
 	"location"				=>"Charlotte, NC",
-	"date"					=>"March 2 - 4, 2018",
+	"date"					=>"February 28 - March 3, 2019",
 	"img_url"				=>"../../images/slides/splash-tourney-cta.jpg",
 	"img_alt"				=>"The Tourney"
 );
@@ -85,7 +85,7 @@ include 'includes/functions.inc.php';
 
 <title><?php echo $event["title"]?> | <?php echo $phonenumber ?></title>
 <meta name="description" content="We can provide you with all inclusive arrangements and tickets for the Tourney." />
-<meta name="keywords" content="The Tourney, CIAA Charlotte, Basketball, CIAA Tournament, CIAA, CIAA Party Passes, ciaa 2018, the tournament, ciaa parties, ciaa party" />
+<meta name="keywords" content="The Tourney, CIAA Charlotte, Basketball, CIAA Tournament, CIAA, CIAA Party Passes, ciaa 2019, the tournament, ciaa parties, ciaa party" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
@@ -141,8 +141,8 @@ include 'includes/functions.inc.php';
 
 								<h3>Get ready for <?php echo $event["title"]?> in Charlotte, North Carolina. </h3>
 
-								<p>The BIG CIAA tournament is taking over North Carolina again in 2018. YOLLO Group Services is making the Tourney a fun-filled weekend for you to remember. This basketball tournament has become one of the most attended events among HBCU’s in the nation. </p>
-								<p>Fans will get their basketball fix during the day-time, while others enjoy all the night-time events. This means parties galore! You may spot a celebrity or two crashing and/or hosting several of these parties. You cannot go wrong booking with YOLLO Group Services for the Tourney Weekend 2018. </p>
+								<p>The BIG CIAA tournament is taking over North Carolina again in 2019. YOLLO Group Services is making the Tourney a fun-filled weekend for you to remember. This basketball tournament has become one of the most attended events among HBCU’s in the nation. </p>
+								<p>Fans will get their basketball fix during the day-time, while others enjoy all the night-time events. This means parties galore! You may spot a celebrity or two crashing and/or hosting several of these parties. You cannot go wrong booking with YOLLO Group Services for the Tourney Weekend 2019. </p>
 								<p>If parties and celebrities are what you are looking for this weekend's events are definitely what you want to attend. Make sure you explore our Hotel and Pricing options and reserve your spot today before it's too late! </p>
 
 							</div><!-- ./overview -->
@@ -240,7 +240,7 @@ include 'includes/functions.inc.php';
 
 										  <div data-control>When are the payments due?</div>
 										  <div data-content>
-											<p>After registration the first payment of $125 is due December 29, 2017. The final payment (remaining balance) is due on or before February 07, 2018.</p>
+											<p>After registration the first payment of $125 is due January 29, 2018. The final payment (remaining balance) is due on or before February 20, 2018.</p>
 										  </div>
 
 										</div><!-- end of accordion-->

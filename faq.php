@@ -221,12 +221,21 @@ include 'includes/functions.inc.php';
 					
 					<h4>Due Dates and Fees</h4>
 					
+					<div class="accordion" data-accordion>
+
+					  <div data-control>When is my due date?</div>
+					  <div data-content>
+						  <p>Due dates are established when you make your initial reservation. They can be found under the FAQ tab on each event page, but they reference new sign ups only. Payment due dates are also included in your welcome packet and confirmed with every payment made on your account. Payment due dates do not change unless an extension is requested (fees apply). Please make payments when due to ensure you don’t incur fees or your reservation being canceled.</p>
+					  </div>
+
+					</div><!-- end of accordion-->
+					
 					
 					<div class="accordion" data-accordion>
 
 					  <div data-control>Can I make payments before my due date?</div>
 					  <div data-content>
-						  <p>Yes. In fact we recommend it. Our payment plans are designed to help you pay over time. If you want to pay more frequent than the established dates that's great.</p>
+						  <p>Yes and we actually encourage you to do so. Our payment plan was established to allow you the freedom to make payments at your convenience. Please make sure you are familiar and make all payments by the payment due dates established at registration.</p>
 					  </div>
 
 					</div><!-- end of accordion-->
@@ -389,6 +398,16 @@ include 'includes/functions.inc.php';
 
 					</div><!-- end of accordion-->
 					
+					
+					<div class="accordion" data-accordion>
+
+					  <div data-control>Should I purchase travelers insurance? </div>
+					  <div data-content>
+						<p>Yes, we STRONGLY recommend you consider purchasing travelers insurance. We offer travelers insurance through AIG and the link is at the bottom of the page. We do not offer refunds and this is a way to protect your travel investment dollars in the event the unexpected happens.<p>
+						<p>Travelers insurance is not required in order to purchase a package.</p>
+					  </div>
+
+					</div><!-- end of accordion-->
 
 					
 					
