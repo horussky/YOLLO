@@ -32,8 +32,8 @@ $feature_event = array(
 	),
 	array(
 		"title" 	=> "Party Gras Cruise",
-		"date" 		=> "August 20, 2016",
-		"end"		=> strtotime("August 20, 2016"),
+		"date" 		=> "August 11, 2018",
+		"end"		=> strtotime("August 11, 2018"),
 		"img" 		=> "images/featured-events/featured-event-pg.jpg",
 		"link" 		=> "/partygras"
 	),

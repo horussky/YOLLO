@@ -282,7 +282,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>When are the payments due?</div>
 							  <div data-content>
-								<p>After registration of $29.99 per person the first payment of $125 is due <strong>by May 20, 2018</strong> . The final payment (remaining balance) is due on or before <strong>August 18, 2018</strong> . If the announced payment dates have passed contact us for our current payment plan.</p>
+								<p>After registration of $29.99 per person the first payment of $125 is due <strong>by July 10, 2018</strong> . The final payment (remaining balance) is due on or before <strong>September 19, 2018</strong> . If the announced payment dates have passed contact us for our current payment plan.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

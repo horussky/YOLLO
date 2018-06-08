@@ -3,10 +3,10 @@
 ob_start("ob_gzhandler");
 
 $event = array(
-	"title"						=>"Day Getaway Cruise",
-	"subtitle"					=>"Looking for a getaway? Book today!",
+	"title"						=>"Party Gras V Bottles and Beads 2018",
+	"subtitle"					=>"Come Party For Those BEADS! This event will SELL OUT!",
 	"location"					=>"Chattanooga, TN",
-	"date"						=>"May 5, 2018",
+	"date"						=>"August 11, 2018",
 	"img_url"				 	=>"../../images/slides/splash-day-getaway-cta.jpg",
 	"img_alt"				 	=>"Day Getaway Cruise"
 );
@@ -30,9 +30,9 @@ $geolocation = array(
 $people = array(
 		"diamond"=> array(
 			"Cruise, Live Performances, and Roundtrip Transportation" 			=>"$99",
-			"Cruise and Live Performances"			=>"$85",
-			"Cruise Only"			=>"$50",
-			"Live Performances Show Only"			=>"$45"
+			"Cruise and Live Performances"			=>"$75",
+			"Cruise Only"			=>"$45",
+			"Live Performances Show Only"			=>"$35"
 		),
 
 		"emerald"=> array(
@@ -40,7 +40,7 @@ $people = array(
 		),
 
 		"options"=>array(
-			"Hotel Only" =>"$1245 (Weekend)"
+			"Hotel Only" =>"$150 (One night)"
 		),
 
 );
@@ -49,7 +49,7 @@ $people = array(
 $package_items = array(
 	"diamond_items" => array(
 		"Crowd Control by: DJ Dre Smoove and DJ Dee Money"		=> "checked",
-		"Poets: J.P. da Poet and Friends"						=> "checked",
+		"Poets: Georgia Me and Friends"						=> "checked",
 		"Comedians: Chris “Set It Off” Jones and Friends"		=> "checked",
 		"Live Performances by: Charles Reed and Friends"		=> "checked",
 		"Free Margaritas while they last"						=> "checked",
@@ -132,11 +132,11 @@ include 'includes/functions.inc.php';
 
                     <?php echo $responsive_tabs["overview"]; ?>
 					<div class="tab" aria-label="overview">
-                        <h3>Day Getaway Cruise in Tennessee</h3>
+                        <h3>Party Gras V is BACK and in Tennessee</h3>
 
-						<p>Do you need a get away for a day from the hustle of your normal routine? YOLLO has your answer as we present the Day Getaway cruise event! This event will feature a one of a kind charter bus ride to the historic city of Chattanooga and a day full of fun and excitement! This getaway will feature a comedy show, live spoken word and poetry, and a fabulous night cruise on the Tennessee River.</p>
+						<p>Party Gras V is returning from a successful 2017 party cruise, and ramping up to do it all again. YOLLO presents Bottles and Beads: Party Gras Cruise Part V. After turning up to the max last year, this year we are making everything bigger and better than ever and taking the show on the road! Come party aboard the Southern Belle for an exclusive Riverboat cruise with amazing views of Chattanooga, TN. This will be a FULL day of good music, adult drinks, mingling, and fun for everyone attending. The boat features three (3) party decks with multiple DJ's. Live entertainment will feature spoken word artists, comedians, and performances by R&B/Hip Hop artist! Did we mention we will have free margaritas at our welcome reception! <strong>This event WILL SELL OUT quickly</strong>, so purchase your tickets today. For questions and tickets call: <strong>(888) 946-9655 </strong> or <strong>(334) 531-5650</strong>, or purchase your tickets online now.</p>
                        	
-						<p>Don't wait as this event will fill up fast, book this event today. We are also providing hotel accommodations via the Marriott Downtown Chattanooga at a special discounted rate of <strong>$149</strong>. You can <a target="_blank" href="https://goo.gl/VmekGe">secure your hotel room</a> today by visiting the host properties website. </p>
+						<p>Don't wait as this event will fill up fast, book this event today. We are also providing hotel accommodations via the Holiday Inn and Suites Downtown Chattanooga at a special discounted rate of <strong>$119</strong>. You can <a target="_blank" href="https://goo.gl/VmekGe">secure your hotel room</a> today by visiting the host properties website. </p>
                         
                         <p><strong>Live show:</strong> 4PM- 7PM</p>
 						<p><strong>Cruise Boarding</strong> 10:30PM<br> 
@@ -405,7 +405,7 @@ include 'includes/functions.inc.php';
                 <h4>Hotel Accommodations</h4>
                 <img style="width:15rem; float:left; margin-right:2rem" src="https://images.trvl-media.com/hotels/1000000/10000/3200/3119/6d204c33_z.jpg" />
 				<p class="mb-10"><strong>Marriott Downtown</strong></p>
-               	<p>For anyone needing hotel accommodations you can  <a target="_blank" href="https://goo.gl/VmekGe">secure your hotel room</a> at a special discounted rate of <strong>$149</strong>.</p>
+               	<p>For anyone needing hotel accommodations you can  <a target="_blank" href="https://goo.gl/VmekGe">secure your hotel room</a> at a special discounted rate of <strong>$119</strong>.</p>
 
 				
                 
@@ -425,7 +425,7 @@ include 'includes/functions.inc.php';
 
 	     		<?php include 'includes/package-info-generic.inc.php'; ?><br/>
 
-	          <strong>Disclaimer</strong> | The term Day Getaway, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. We are in no way associated with or authorized by Carnival Cruises and neither this production nor its affiliates have licensed or endorsed us to sell goods and/or services in conjunction with any Carnival Cruise productions. The use of any logos, words, trademarks, or photos have been used for Descriptive Purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.
+	          <strong>Disclaimer</strong> | The term Party Gras and Bottles and Beads, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. We are in no way associated with or authorized by Southern Belle Riverboat and neither this production nor its affiliates have licensed or endorsed us to sell goods and/or services in conjunction with any Southern Belle Riverboat productions. The use of any logos, words, trademarks, or photos have been used for Descriptive Purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.
 	    </div>
 
 
