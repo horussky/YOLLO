@@ -1,26 +1,26 @@
 <?php
 
 	$event = array(
-		"title"				=>"Essence Music Festival 2018",
-		"subtitle"			=>"Make your own Girl's Trip come true!",
+		"title"				=>"Essence Music Festival 2019",
+		"subtitle"			=>"25th Anniversary of Essence Fest...You Can't Miss This!",
 		"location"			=>"New Orleans, LA",
-		"date"				=>"July 6 - 8, 2018",
-		"img_url"			=>"../../images/slides/splash-essence-cta.jpg",
+		"date"				=>"July 5-7, 2019",
+		"img_url"			=>"../../images/slides/splash-essence-19.jpg",
 		"img_alt"			=>"Essence Festival 2017"
 	);
 
 	$geolocation = array(
 
 		"hotel1"=> array(
-			"title" 			=>"Sheraton New Orleans Hotel",
+			"title" 			=>"Hilton Riverside",
 			"hotel1_soldout"    =>false,
-			"img_url"			=>"//cdn.hotelplanner.com/Common/Images/Hotels/8832_1.jpg"
+			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/06/45/13/7e/hilton-new-orleans-riverside.jpg"
 		),
 
 		"hotel2"=> array(
-			"title" 			=>"Hilton New Orleans",
+			"title" 			=>"Hilton St. Charles",
 			"hotel2_soldout"	=>false,
-			"img_url"			=>"//media-cdn.tripadvisor.com/media/oyster/1180/08/e1/6c/7f/hallways--v8652118.jpg"
+			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/12/35/97/bc/exterior.jpg"
 		),
 		
 		"hotel3"=> array(
@@ -53,7 +53,7 @@
 		"diamond_items" => array(
 			"Hotel Accommodations (Fri-Sun)"			=> "checked",
 			"One night concert ticket (Lodge Section)"	=> "checked",
-			"Saturday Night Party "			=> "checked",
+			"All White Cruise "			=> "checked",
 			"Mid-Day Comedy Show (Sunday)"				=> "checked",
 			"Black Film Review (Sunday)"				=> "checked",
 			"Speak Easy Poetry Show (Sunday)"				=> "checked",
@@ -67,7 +67,7 @@
 		"emerald_items" => array(
 			"Hotel Accommodations (Fri-Sun)"			=> "checked",
 			"One night concert ticket (Lodge Section)"	=> "ex",
-			"Saturday Night Party "			=> "ex",
+			"All White Cruise"			=> "ex",
 			"Mid-Day Comedy Show (Sunday)"				=> "checked",
 			"Black Film Review (Sunday)"				=> "checked",
 			"Speak Easy Poetry Show (Sunday)"				=> "checked",
@@ -143,25 +143,16 @@
                         
                         <?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
-						
-						<h3>Planning ahead for Essence Festival 2019</h3>
-                        <p>With 2018's festival almost here and gone, it's a good time to plan for next years event. You can <a href="/essence-festival-2019.php" title="Essence Festival Weekend 2019">learn more here</a> about our packages for the 25th Anniversary of Essence Festival. We guarantee this is an event you don't want to miss.</p>
-                        
-                            <a class="btn btn-primary" href="/essence-festival-2019.php">View Essence Festival 2019</a>
-						
-						<hr>
-						<h4>Get ready for Essence Festival 2018</h4>
+						<h3>It's been 25 years for Essence Festival</h3>
 
-						<p>The 24th annual Essence Music Festival is an annual mega music event filled with concerts, seminars and celebrities, sponsored by Essence Magazine. This summer concert series once again will be held in New Orleans, Louisiana. 2018 promises to bring in the largest crowd this festival has ever seen. Concerts rock the New Orleans Superdome each night and the variety of parties have been added to highlight the daylight hours!</p>
-						
-                        
+						<p>The 25th annual Essence Music Festival is an annual mega music event filled with concerts, seminars and celebrities, sponsored by Essence Magazine. This summer concert series held in New Orleans, Louisiana will be filled with music and party goers alike! The 2019 edition promises to bring in the BIGGEST performers from past and present while attracting the largest crowd this festival has ever seen. Concerts rock the New Orleans Superdome each night and the variety of parties have been added to highlight the daylight hours!</p>
 
 						<h4>The Mid-Day Cruise Party</h4>
 
-						<p>This cruise was such a HUGE success in 2017 that we had to add two cruises to accommodate the demand! The 13th annual Mid-Day Party Boat Cruise will happen on the famous Creole Queen and will be featured with 5 options for you cruising delight! Enjoy a multi-level paddle-wheel boat cruising the Mighty Mississippi River, while listening to the livest Hip-Hop and R&B music. This cruise will be "All White" theme preferred, but not required for this event.</p>
+						<p>This cruise is the ORIGINAL All-White affair and the one that everyone talks about during Essence weekend! The 14th annual Mid-Day Party Boat Cruise will happen on the famous Creole Queen and will be featured with 5 options for you cruising delight! Enjoy a multi-level paddle-wheel boat cruising the Mighty Mississippi River, while listening to the livest Hip-Hop and R&B music. This cruise will be "All White" theme preferred, but not required for this event.</p>
 
 						<h4>The Mid-Day Comedy Show</h4>
-						<p>Needless to say, the comedy show was bigger and better than ever! The food was great, drinks were on point, and the jokes had everyone in stitches! If you are in need of some serious laughter, this is the event for you. Last year's headliner Steve Brown had tears in EVERYBODY'S eyes! Don't think we are going to let you down with our 2018 lineup! The 8th annual Comedy Show will happen on July 8th, 2018. Join us to hear some of the funniest comedians to ever hit the main circuit.</p>
+						<p>Needless to say, the comedy show was bigger and better than ever! The food was great, drinks were on point, and the jokes had everyone in stitches! If you are in need of some serious laughter, this is the event for you. Our comedians has tears in EVERYBODY'S eyes and leave with a pure satisfaction for laughter! Don't think we are going to let you down with our 2019 lineup! The 9th annual Comedy Show will happen on July 7th, 2019. Join us to hear some of the funniest comedians to ever hit the main circuit.</p>
 
 						<p>Do the right thing and <a data-href="#tabs-5" class="open-tab">Book now</a> with YOLLO Group Services Inc. and allow us to give you the best travel experience while in New Orleans!</p>
 

@@ -7515,6 +7515,9 @@ footer a:hover {
 .nav .home {
   background-position: -200px 0; }
 
+#intro {
+  margin-bottom: 4rem; }
+
 .response,
 .ui-dialog {
   background: #393;
@@ -7532,15 +7535,18 @@ footer a:hover {
   list-style: none;
   overflow: hidden;
   width: 100%;
-  max-height: 350px;
+  max-height: 35rem;
+  height: 35rem;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  margin-bottom: 2rem; }
   .rslides img {
     display: block;
-    height: auto;
+    height: 100%;
     float: left;
     width: 100%;
-    border: 0; }
+    border: 0;
+    object-fit: cover; }
 
 .rslides li {
   -webkit-backface-visibility: hidden;
