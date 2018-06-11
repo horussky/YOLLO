@@ -19,6 +19,7 @@
     display: block;
     height: 3em;
     text-align: left;
+    border-bottom: none;
 }
 
 .event-nav li [class^="hvr-"]:before{
@@ -32,7 +33,7 @@
 			&:hover{
 				color:#fff;
 			}
-		}
+		} 
 }
 
 .event-nav li [class^="hvr-"].active:before,

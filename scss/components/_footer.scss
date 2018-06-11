@@ -30,6 +30,8 @@ footer{
 	a{
 		display: inline-block;
 		overflow: hidden;
+        border-bottom: none;
+      
 	}
 	
 	
@@ -96,6 +98,10 @@ footer{
 				
 				grid-area:event-img;
 				grid-column:1;
+                
+                a:hover{
+                    border-bottom:none;
+                }
 	
 			}
 			
@@ -128,7 +134,7 @@ footer{
 		grid-column:3;
 		
 		*:not(h5, .fa-2x){
-			font-size:1.4rem;
+			font-size:1.4rem; 
 		}
 		
 		ul{
@@ -136,9 +142,15 @@ footer{
 			margin-left:0;
 			padding-left:2.2rem;
 			
-			li{
+			> li{
 				margin-bottom: 1rem
 			}
+            
+            .foot-share-links{
+                a:hover{
+                    border-bottom: none;
+                }
+            }
 			
 			.fa-2x{
 				margin-right: 1rem;
@@ -159,6 +171,8 @@ footer{
 			.fa-snapchat{
 				color:#fffc00;
 			}
+            
+            
 		}
 		
 		

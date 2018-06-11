@@ -51,31 +51,31 @@
 
 	$package_items = array(
 		"diamond_items" => array(
-			"Hotel Accommodations (Fri-Sun)"			=> "checked",
-			"One night concert ticket (Lodge Section)"	=> "checked",
-			"All White Cruise "			=> "checked",
-			"Mid-Day Comedy Show (Sunday)"				=> "checked",
-			"Black Film Review (Sunday)"				=> "checked",
-			"Speak Easy Poetry Show (Sunday)"				=> "checked",
-			"Welcome to NOLA party (Friday)"				=> "checked",
-			"Complimentary Additional Night*"			=> "checked",
-			"Additional nights: $349 plus tax and fees"	=> "checked",
-			"Additional concert nights (Loge Section): $150"	=> "checked",
-			"YOLLO Gift Bag"							=> "checked"
+			"Hotel Accommodations (Fri-Sun)"			        => "checked",
+			"One night concert ticket (Lodge Section)"	        => "checked",
+			"VIP All White Cruise "			                => "checked",
+			"Mid-Day Comedy Show (Sunday)"				        => "checked",
+			"Black Film Review (Sunday)"				        => "checked",
+			"Speak Easy Poetry Show (Sunday)"				    => "checked",
+			"Welcome to NOLA party (Friday)"				    => "checked",
+			"Complimentary Additional Night*"			        => "checked",
+			"Additional nights: $349 plus tax and fees"	        => "checked",
+			"Additional concert nights (Lodge Section): $150"	=> "checked",
+			"YOLLO Gift Bag"							        => "checked"
 		),
 
 		"emerald_items" => array(
-			"Hotel Accommodations (Fri-Sun)"			=> "checked",
-			"One night concert ticket (Lodge Section)"	=> "ex",
-			"All White Cruise"			=> "ex",
-			"Mid-Day Comedy Show (Sunday)"				=> "checked",
-			"Black Film Review (Sunday)"				=> "checked",
-			"Speak Easy Poetry Show (Sunday)"				=> "checked",
-			"Welcome to NOLA party (Friday)"				=> "checked",
-			"Complimentary Additional Night*"			=> "checked",
-			"Additional nights: $349 plus tax and fees"	=> "checked",
-			"Additional concert nights (Loge Section): $150"	=> "checked",
-			"YOLLO Gift Bag"							=> "checked"
+			"Hotel Accommodations (Fri-Sun)"			      => "checked",
+			"One night concert ticket (Lodge Section)"	      => "ex",
+			"VIP All White Cruise"			              => "ex",
+			"Mid-Day Comedy Show (Sunday)"				      => "checked",
+			"Black Film Review (Sunday)"				      => "checked",
+			"Speak Easy Poetry Show (Sunday)"				  => "checked",
+			"Welcome to NOLA party (Friday)"				  => "checked",
+			"Complimentary Additional Night*"			      => "checked",
+			"Additional nights: $349 plus tax and fees"	      => "checked",
+			"Additional concert nights (Lodge Section): $150" => "checked",
+			"YOLLO Gift Bag"							      => "checked"
 		)
 	);
 
@@ -143,18 +143,18 @@
                         
                         <?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
-						<h3>It's been 25 years for Essence Festival</h3>
+						<h3>Join us for the 25th Annual Essence Festival Weekend</h3>
 
-						<p>The 25th annual Essence Music Festival is an annual mega music event filled with concerts, seminars and celebrities, sponsored by Essence Magazine. This summer concert series held in New Orleans, Louisiana will be filled with music and party goers alike! The 2019 edition promises to bring in the BIGGEST performers from past and present while attracting the largest crowd this festival has ever seen. Concerts rock the New Orleans Superdome each night and the variety of parties have been added to highlight the daylight hours!</p>
+                        <p>This year will mark the 25th annual Essence Music Festival. This annual mega event is filled with concerts, seminars and celebrities, all sponsored by Essence Magazine. If you are looking for parties, concerts, party cruise, along with more celebrities than you can handle, then you should <a data-href="#tabs-5" title="book this package" class="open-tab">book with us today!</a> We are the #1 source for Essence Festival Weekend activities in 2019. </p>
 
-						<h4>The Mid-Day Cruise Party</h4>
+						<h4>The Original All-White Mid-Day Cruise Party </h4>
 
-						<p>This cruise is the ORIGINAL All-White affair and the one that everyone talks about during Essence weekend! The 14th annual Mid-Day Party Boat Cruise will happen on the famous Creole Queen and will be featured with 5 options for you cruising delight! Enjoy a multi-level paddle-wheel boat cruising the Mighty Mississippi River, while listening to the livest Hip-Hop and R&B music. This cruise will be "All White" theme preferred, but not required for this event.</p>
+						<p>This is the original All-White cruise party and the event everyone talks about during Essence Fest weekend! This is the 14th annual Mid-Day Cruise Party, happening on the famous Creole Queen and will feature five (5) options for your cruising delight. Enjoy a multi-level boat cruising the Mighty Mississippi River, while listening to the best Hip-Hop and R&mp;B music. The theme is "All White" attire preferred, but not required for this cruise.</p>
 
 						<h4>The Mid-Day Comedy Show</h4>
-						<p>Needless to say, the comedy show was bigger and better than ever! The food was great, drinks were on point, and the jokes had everyone in stitches! If you are in need of some serious laughter, this is the event for you. Our comedians has tears in EVERYBODY'S eyes and leave with a pure satisfaction for laughter! Don't think we are going to let you down with our 2019 lineup! The 9th annual Comedy Show will happen on July 7th, 2019. Join us to hear some of the funniest comedians to ever hit the main circuit.</p>
+						<p>If you are ready to bust a gut, the 9th annual Mid-Day Comedy Show is the event for you. Our comedian's, like years past, will have you in stitches. If you are looking for good food, great drinks, and lots of laugh, this is the event you cannot miss. Don't think we are going to let you down with our 2019 lineup! This Mid-Day Comedy Show will happen Sunday, July 7th, 2019.</p>
 
-						<p>Do the right thing and <a data-href="#tabs-5" class="open-tab">Book now</a> with YOLLO Group Services Inc. and allow us to give you the best travel experience while in New Orleans!</p>
+						<p>Do the right thing and <a data-href="#tabs-5" title="book this package" class="open-tab">Book now</a> with YOLLO Group Services Inc. and allow us to give you the best travel experience while in New Orleans!</p>
 
 
 
@@ -255,7 +255,7 @@
 										
 							<div class="accordion open" data-accordion>
 
-							  <div data-control>Does the price listed take care of hotel reservations for all members in either the Diamond or Emerald package or only one person?</div>
+							  <div data-control>Does the price listed take care of hotel reservations for all members in either package or only one person?</div>
 							  <div data-content>
 								<p>All prices listed are per person. Under the package prices description, all amenities included in your package are per person and includes one (1) room for the group.</p>
 							  </div>
@@ -277,7 +277,7 @@
 
 							  <div data-control>What are the payment due dates for Essence Packages?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $350 per person is due on or before May 29, 2018. The final payment (remaining balance) is due on or before June 15, 2018. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by cliocking on the BUY NOW tab above and following the prompts.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 per person is due on or before July 25, 2018. The final payment (remaining balance) is due on or before December 05, 2018. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -386,7 +386,7 @@
 
 							<div class="accordion" data-accordion>
 
-							  <div data-control>Must the entire group pay the $19.99 Reservation fee?</div>
+							  <div data-control>Must the entire group pay the $29.99 Reservation fee?</div>
 							  <div data-content>
 								<p>Yes. All prices are per person. The Reservation fee secures your spot on the package, and is separate from the package price.</p>
 							  </div>
@@ -398,7 +398,7 @@
 
 							  <div data-control>What is included with V.I.P. vs V.V.I.P admission to the Boat Party?</div>
 							  <div data-content>
-								<p>V.I.P. tickets are general admission tickets to the cruise and only cover entrance to the cruise with no food or drinks included. V.V.I.P. includes a speedy admission onto the boat party, delicious food, and an open bar to get you right all while partying on the boat. Our packages include the V.I.P ticket. You can upgrade to the V.V.I.P. ticket for an additional $55 per person. The V.V.I.P. option is SOLD OUT!</p>
+								<p>V.I.P. tickets are general admission tickets to the cruise and only cover entrance to the cruise with no food or drinks included. V.V.I.P. includes a speedy admission onto the boat party, delicious food, and an open bar to get you right all while partying on the boat. Our packages include the V.I.P ticket. You can upgrade to the V.V.I.P. ticket for an additional $55 per person.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -501,7 +501,7 @@
 </script>
 
 <script src="https://services.cognitoforms.com/s/NiNAkf4LukqBZOHDFOMsiQ"></script>
-<script>Cognito.load("forms", { id: "5" });</script>
+<script>Cognito.load("forms", { id: "58" });</script>
 <!--google analytics-->
 <?php include 'includes/analytics.inc.php'; ?>
 </body></html>

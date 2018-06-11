@@ -36,7 +36,7 @@
 				<li class="foot-email"> <i class="fa-li fa fa-envelope" aria-hidden="true"></i> <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></li>
 				<li class="foot-address"> <i class="fa-li fa fa-map" aria-hidden="true"></i>P.O. Box 240613,<br> Montgomery, AL 36124</li>
 				
-				<li><i class="fa-li fa fa-share" aria-hidden="true"></i>
+				<li class="foot-share-links"><i class="fa-li fa fa-share" aria-hidden="true"></i>
 					<a href="http://www.facebook.com/yollogsinc" target="_blank" title="Become a fan of Yollo Group Services"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a> 
 
 					<a href="https://twitter.com/YOLLOGSINC" target="_blank" title="Follow Yollo Group Services on Twitter"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>

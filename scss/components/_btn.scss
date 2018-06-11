@@ -4,27 +4,27 @@ a.btn {
 }
 
 .btn {
-  display: inline-block;
-  padding: 1em 1.25em;
-  margin-bottom: 1em;
-  font-weight: 400;
-  line-height: 1.42857143;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -ms-touch-action: manipulation;
+    display: inline-block;
+    padding: 1.25rem 2.4rem;
+    margin-bottom: 1.6rem;
+    font-weight: 400;
+    //line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
       touch-action: manipulation;
-  cursor: pointer;
-  -webkit-user-select: none;
+    cursor: pointer;
+    -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  background-image: none;
-  border: 1px solid transparent;
-	border-radius: 4px;
-  font-size:$base-fontsize;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
-  
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size:$base-fontsize;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+    min-width: 14.5rem; 
 	
 	&:hover{
 		transition: box-shadow .35s;
@@ -57,7 +57,7 @@ a.btn {
 .btn.focus {
   color: #333;
   text-decoration: none;
-}
+} 
 .btn:active,
 .btn.active {
   background-image: none;
