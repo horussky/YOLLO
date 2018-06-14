@@ -7623,13 +7623,41 @@ footer a:hover {
       font-weight: 800;
       font-style: italic;
       color: #fff;
-      margin-bottom: 2rem; }
+      margin-bottom: 2rem;
+      -webkit-animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      animation-delay: 1s; }
     #right .topcontent .title .subtitle {
       font-family: 'opensans-lite', sans-serif;
       font-size: 1.4rem;
       color: #fff;
-      margin-bottom: 2rem; }
+      margin-bottom: 2rem;
+      -webkit-animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      animation-delay: 1.5s; }
+    #right .topcontent .title .btn {
+      -webkit-animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      animation-delay: 2s; }
 
+@-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1; } }
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1; } }
 /*! Pushy - v1.1.0 - 2017-1-30
 * Pushy is a responsive off-canvas navigation menu using CSS transforms & transitions.
 * https://github.com/christophery/pushy/
