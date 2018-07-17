@@ -5515,11 +5515,11 @@ aside .btn {
   line-height: 3;
   color: #222;
   text-decoration: none;
+  border-bottom: none;
   text-transform: uppercase;
   display: block;
   height: 3em;
-  text-align: left;
-  border-bottom: none; }
+  text-align: left; }
 
 .event-nav li [class^="hvr-"]:before {
   background: #9E1421; }
@@ -5536,6 +5536,12 @@ aside .btn {
   background: #000; }
 
 /*mobile select at desktop*/
+.pushy-open-right #container #right {
+  margin-top: 0; }
+
+.pushy-open-right #nav-icon {
+  display: none; }
+
 .toggle-panel {
   display: none; }
 

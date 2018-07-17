@@ -15,11 +15,11 @@
     line-height: 3;
     color: $font-color;
     text-decoration: none;
+    border-bottom: none; 
     text-transform: uppercase;
     display: block;
     height: 3em;
-    text-align: left;
-    border-bottom: none;
+    text-align: left; 
 }
 
 .event-nav li [class^="hvr-"]:before{
@@ -47,6 +47,14 @@
 .event-nav-mobile.form-control,
 .scotch-panel{
 	//display:none;
+}
+
+.pushy-open-right #container #right {
+    margin-top: 0;
+}
+
+.pushy-open-right #nav-icon {
+    display: none;
 }
 
 .toggle-panel { display: none; }

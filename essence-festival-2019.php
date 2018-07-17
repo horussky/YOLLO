@@ -36,14 +36,14 @@
 				"Group of 4" 			=>"$975",
 				"Group of 3"			=>"$1050",
 				"Group of 2"			=>"$1205",
-				"Individual"			=>"$1850"
+				"Individual"			=>"$2150"
 			),
 
 			"emerald"=> array(
 				"Group of 4" 			=>"$825",
 				"Group of 3"			=>"$915",
 				"Group of 2"			=>"$1060",
-				"Individual"			=>"$1595"
+				"Individual"			=>"$1795"
 			),
 
 			"Hotel Only" =>"$1245 (Weekend)"
@@ -145,7 +145,7 @@
 						<div class="tab" aria-label="overview">
 						<h3>Join us for the 25th Annual Essence Festival Weekend</h3>
 
-                        <p>This year will mark the 25th annual Essence Music Festival. This annual mega event is filled with concerts, seminars and celebrities, all sponsored by Essence Magazine. If you are looking for parties, concerts, party cruise, along with more celebrities than you can handle, then you should <a data-href="#tabs-5" title="book this package" class="open-tab">book with us today!</a> We are the #1 source for Essence Festival Weekend activities in 2019. </p>
+                        <p>This year will mark the 25th annual Essence Music Festival. This annual mega event is filled with concerts, seminars and celebrities, all sponsored by Essence Magazine. If you are looking for parties, concerts, party cruise, along with more celebrities than you can handle, then you should <a data-href="#tabs-5" class="open-tab">book with us today!</a> We are the #1 source for Essence Festival Weekend activities in 2019. </p>
 
 						<h4>The Original All-White Mid-Day Cruise Party </h4>
 
@@ -154,7 +154,7 @@
 						<h4>The Mid-Day Comedy Show</h4>
 						<p>If you are ready to bust a gut, the 9th annual Mid-Day Comedy Show is the event for you. Our comedian's, like years past, will have you in stitches. If you are looking for good food, great drinks, and lots of laugh, this is the event you cannot miss. Don't think we are going to let you down with our 2019 lineup! This Mid-Day Comedy Show will happen Sunday, July 7th, 2019.</p>
 
-						<p>Do the right thing and <a data-href="#tabs-5" title="book this package" class="open-tab">Book now</a> with YOLLO Group Services Inc. and allow us to give you the best travel experience while in New Orleans!</p>
+						<p>Do the right thing and <a data-href="#tabs-5" class="open-tab">Book now</a> with YOLLO Group Services Inc. and allow us to give you the best travel experience while in New Orleans!</p>
 
 
 
@@ -398,7 +398,7 @@
 
 							  <div data-control>What is included with V.I.P. vs V.V.I.P admission to the Boat Party?</div>
 							  <div data-content>
-								<p>V.I.P. tickets are general admission tickets to the cruise and only cover entrance to the cruise with no food or drinks included. V.V.I.P. includes a speedy admission onto the boat party, delicious food, and an open bar to get you right all while partying on the boat. Our packages include the V.I.P ticket. You can upgrade to the V.V.I.P. ticket for an additional $55 per person.</p>
+								<p>V.I.P. tickets are general admission tickets to the cruise and only cover entrance to the cruise with no food or drinks included. V.V.I.P. includes a speedy admission onto the boat party, delicious food, and an open bar to get you right all while partying on the boat. Our packages include the V.I.P ticket. You can upgrade to the V.V.I.P. ticket for an additional $95 per person.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
