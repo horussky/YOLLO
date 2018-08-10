@@ -12,10 +12,3 @@ data-chrome="nofooter noheader"
 </div>
 
 
-<section>
-	<div style="margin-top:2rem">
-		<a href="https://www.bbb.org/csal/business-reviews/travel-agencies-and-bureaus/yollo-group-services-in-montgomery-al-90038616#sealclick">
-			<img style="border: 0;" src="https://seal-centralalabama.bbb.org/seals/black-seal-96-50-whitetxt-yollogroupservicesinc-90038616.png" />
-		</a>
-	</div>
-</section>

@@ -140,7 +140,7 @@ h5 {
 p {
   font-family: "opensans", san-serif;
   line-height: 1.5;
-  margin-bottom: 1.6rem; }
+  margin-bottom: 2.4rem; }
 
 ul,
 ol {
@@ -370,14 +370,15 @@ html {
 
 * {
   box-sizing: border-box;
-  -webkit-transition: all 0.15s ease;
-  transition: all 0.15s ease; }
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease; }
 
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  transition: all 0.25s ease; }
 
 body {
   font-family: "opensans", Arial, sans-serif;
@@ -391,10 +392,12 @@ body {
 
 a {
   color: #0065a2;
-  text-decoration: underline; }
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 101, 162, 0.25); }
   a:hover {
-    text-decoration: underline;
-    color: #09a2ff; }
+    color: #09a2ff;
+    cursor: pointer;
+    border-bottom: 1px solid #09a2ff; }
 
 a.chev-link:after {
   content: ' ΓÇ║';
@@ -424,7 +427,7 @@ a.chev-link:hover:after {
 /* RIGHT CONTENT */
 #right {
   width: 60%;
-  padding: 20px;
+  padding: 2rem;
   padding-top: 0;
   float: left; }
 
@@ -609,7 +612,7 @@ textarea {
   overflow: auto;
   width: 100%; }
 
-/*input{							width:296px;}*/
+/*input{ width:296px;}*/
 input.email {
   width: 285px; }
 
@@ -865,6 +868,8 @@ h4 .soldout {
     float: left;
     text-align: left;
     display: block; }
+    .header .left .logo a {
+      border-bottom: none; }
     .header .left img {
       max-width: 15rem; }
   .header .right {
@@ -874,27 +879,26 @@ h4 .soldout {
     align-items: flex-end;
     justify-content: flex-end;
     display: flex; }
-
-.header .right ul.top-nav {
-  display: block;
-  float: right;
-  font-size: .9em;
-  text-transform: uppercase;
-  margin-bottom: .75em;
-  list-style: none; }
-
-.header .right .top-nav li {
-  float: left;
-  margin-right: 2rem; }
-  .header .right .top-nav li:last-of-type {
-    margin-right: 0; }
-  .header .right .top-nav li a {
-    text-decoration: none;
-    padding: 1em 0 .5em;
-    color: #333; }
-    .header .right .top-nav li a.active-nav {
-      color: #9E1421;
-      background: #fff; }
+    .header .right ul.top-nav {
+      display: block;
+      float: right;
+      font-size: .9em;
+      text-transform: uppercase;
+      margin-bottom: .75em;
+      list-style: none; }
+    .header .right .top-nav li {
+      float: left;
+      margin-right: 2rem; }
+      .header .right .top-nav li:last-of-type {
+        margin-right: 0; }
+      .header .right .top-nav li a {
+        text-decoration: none;
+        padding: 1em 0 .5em;
+        color: #333;
+        border-bottom: none; }
+        .header .right .top-nav li a.active-nav {
+          color: #9E1421;
+          background: #fff; }
 
 .top-nav .hvr-underline-from-center:before {
   background: #9E1421; }
@@ -918,7 +922,8 @@ h4 .soldout, em.soldout {
 
 #upcoming-events .event a {
   display: block;
-  position: relative; }
+  position: relative;
+  border-bottom: none; }
 
 #upcoming-events .event a:not(.learnmore) {
   background-color: #000;
@@ -5320,10 +5325,9 @@ a.btn {
 
 .btn {
   display: inline-block;
-  padding: 1em 1.25em;
-  margin-bottom: 1em;
+  padding: 1.25rem 2.4rem;
+  margin-bottom: 1.6rem;
   font-weight: 400;
-  line-height: 1.42857143;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -5338,7 +5342,8 @@ a.btn {
   border: 1px solid transparent;
   border-radius: 4px;
   font-size: 1.6rem;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  min-width: 14.5rem; }
   .btn:hover {
     transition: box-shadow .35s;
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
@@ -5510,6 +5515,7 @@ aside .btn {
   line-height: 3;
   color: #222;
   text-decoration: none;
+  border-bottom: none;
   text-transform: uppercase;
   display: block;
   height: 3em;
@@ -5530,6 +5536,12 @@ aside .btn {
   background: #000; }
 
 /*mobile select at desktop*/
+.pushy-open-right #container #right {
+  margin-top: 0; }
+
+.pushy-open-right #nav-icon {
+  display: none; }
+
 .toggle-panel {
   display: none; }
 
@@ -7182,7 +7194,8 @@ footer {
       display: block; } }
   footer a {
     display: inline-block;
-    overflow: hidden; }
+    overflow: hidden;
+    border-bottom: none; }
   footer .footer-grid {
     max-width: 1200px;
     margin: 0 auto;
@@ -7220,6 +7233,8 @@ footer {
         -ms-grid-column: 1;
         grid-area: event-img;
         grid-column: 1; }
+        footer .foot-events .event .event-img a:hover {
+          border-bottom: none; }
       footer .foot-events .event .event-content {
         -ms-grid-area: event-content;
         -ms-grid-column: 3;
@@ -7241,8 +7256,10 @@ footer {
       list-style: none;
       margin-left: 0;
       padding-left: 2.2rem; }
-      footer .foot-contact ul li {
+      footer .foot-contact ul > li {
         margin-bottom: 1rem; }
+      footer .foot-contact ul .foot-share-links a:hover {
+        border-bottom: none; }
       footer .foot-contact ul .fa-2x {
         margin-right: 1rem; }
       footer .foot-contact ul .fa-instagram {
@@ -7515,6 +7532,9 @@ footer a:hover {
 .nav .home {
   background-position: -200px 0; }
 
+#intro {
+  margin-bottom: 4rem; }
+
 .response,
 .ui-dialog {
   background: #393;
@@ -7532,15 +7552,18 @@ footer a:hover {
   list-style: none;
   overflow: hidden;
   width: 100%;
-  max-height: 350px;
+  max-height: 35rem;
+  height: 35rem;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  margin-bottom: 2rem; }
   .rslides img {
     display: block;
-    height: auto;
+    height: 100%;
     float: left;
     width: 100%;
-    border: 0; }
+    border: 0;
+    object-fit: cover; }
 
 .rslides li {
   -webkit-backface-visibility: hidden;
@@ -7606,13 +7629,41 @@ footer a:hover {
       font-weight: 800;
       font-style: italic;
       color: #fff;
-      margin-bottom: 2rem; }
+      margin-bottom: 2rem;
+      -webkit-animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      animation-delay: 1s; }
     #right .topcontent .title .subtitle {
       font-family: 'opensans-lite', sans-serif;
       font-size: 1.4rem;
       color: #fff;
-      margin-bottom: 2rem; }
+      margin-bottom: 2rem;
+      -webkit-animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      animation-delay: 1.5s; }
+    #right .topcontent .title .btn {
+      -webkit-animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      animation-delay: 2s; }
 
+@-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1; } }
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1; } }
 /*! Pushy - v1.1.0 - 2017-1-30
 * Pushy is a responsive off-canvas navigation menu using CSS transforms & transitions.
 * https://github.com/christophery/pushy/

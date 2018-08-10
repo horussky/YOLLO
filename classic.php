@@ -249,7 +249,7 @@
 
 					  <div data-control>When are the payments due?</div>
 					  <div data-content>
-						<p>After registration the 1st payment of $50 is due on or before due June 28, 2018. The second and final payment is due August 29, 2018.</p>
+						<p>After registration the 1st payment of $50 is due on or before due August 28, 2018. The second and final payment is due October 03, 2018.</p>
 					  </div>
 
 					</div><!-- end of accordion-->

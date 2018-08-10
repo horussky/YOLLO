@@ -248,7 +248,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>What time is the bus departing from Birmingham? </div>
 							  <div data-content>
-								  <p>The charter will depart Birmingham at 10 am Saturday May 05, 2018. The charter will leave Chattanooga, TN at 10 am on Sunday, May 06, 2018. Please note the 10 am departure from Chattanooga is Eastern Standard Time. If you haven’t please secure your room at the host property which is the Marriott Chattanooga downtown. Our guest will receive a special rate if you utilize the link on the page.  </p>
+								  <p>The charter will depart Birmingham at 10 am Saturday August 11, 2018. The charter will leave Chattanooga, TN at 10 am on Sunday, August 12, 2018. Please note the 10 am departure from Chattanooga is Eastern Standard Time. If you haven’t please secure your room at the host property which is the Marriott Chattanooga downtown. Our guest will receive a special rate if you utilize the link on the page.  </p>
 							  </div>
 
 							</div><!-- end of accordion-->

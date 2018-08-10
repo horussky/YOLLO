@@ -240,6 +240,7 @@ include 'includes/functions.inc.php';
 
 											<div class="clearfix">
 												<h4>Party Pass Options: </h4>
+                                            <p>These options are not the same and are separate from the all-inclusive options listed above; and are intended for those not in need of hotel accommodations. </p>
 
 												<p class="lead">Rookie - $350 </p>
 												<ul>
@@ -248,7 +249,7 @@ include 'includes/functions.inc.php';
 													<li>YOLLO Live City Tour</li>
 													<li>Comedy Show - acts announced closer to event</li>
 													<li>Saturday Night Party (Celebrity Hosted)</li>
-													<li>Gift Bag</li>
+													
 
 												</ul>
 
@@ -260,12 +261,10 @@ include 'includes/functions.inc.php';
 													<li>Saturday Night Party (Celebrity Hosted)</li>
 													<li>Sunday Night Party</li>
 													<li>All Star Celebrity Game Ticket</li>
-													<li>All Star Pratice Game ticket</li>										
-													<li>Gift Bag</li>
-
+													<li>All Star Practice Game ticket</li>							
 												</ul>
 
-												<p class="lead">All-Star - $750 - (best seller)</p>
+												<p class="lead">All-Star - $750 (best seller)</p>
 												<ul>
 
 													<li>Friday Night Party (Celebrity Hosted)</li>
@@ -275,9 +274,8 @@ include 'includes/functions.inc.php';
 													<li>Saturday Night Party (Celebrity Hosted)</li>
 													<li>Sunday Night Party</li>
 													<li>All Star Celebrity Game Ticket</li>
-													<li>All Star Pratice Game ticket</li>	
-													<li>All Star Rising Star Challenge</li>									
-													<li>Gift Bag</li>
+													<li>All Star Practice Game ticket</li>	
+													<li>All Star Rising Star Challenge</li>								
 												</ul>
 											</div>
 

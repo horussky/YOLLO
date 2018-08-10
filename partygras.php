@@ -29,10 +29,10 @@ $geolocation = array(
 
 $people = array(
 		"diamond"=> array(
-			"Cruise, Live Performances, and Roundtrip Transportation" 			=>"$99",
-			"Cruise and Live Performances"			=>"$75",
-			"Cruise Only"			=>"$45",
-			"Live Performances Show Only"			=>"$35"
+			"Cruise/Live Performances/Transportation" 	=>"$99",
+			"Cruise/Live Performances"			        =>"$75",
+			"Cruise Only"			                    =>"$45",
+			"Live Performances Only"			        =>"$35"
 		),
 
 		"emerald"=> array(
@@ -50,7 +50,7 @@ $package_items = array(
 	"diamond_items" => array(
 		"Crowd Control by: DJ Dre Smoove and DJ Dee Money"		=> "checked",
 		"Poets: Georgia Me and Friends"						    => "checked",
-		"Comedians: Chris “Set It Off” Jones and Friends"		=> "checked",
+		"Comedians: Chris 'Set It Off' Jones and Friends"		=> "checked",
 		"Live Performances by: Charles Reed and Friends"		=> "checked",
 		"Free Margaritas while they last"						=> "checked",
 		"Cruise the Tennessee River"							=> "checked"
@@ -138,7 +138,7 @@ include 'includes/functions.inc.php';
                           
                         <p>This will be a FULL day of good music, adult drinks, mingling, and fun for everyone attending. The boat features three (3) party decks with multiple DJ's. Live entertainment will feature spoken word artists, comedians, and performances by R&amp;B/Hip Hop artist! FREE margaritas will be on deck at our welcome reception! <strong>This event WILL SELL OUT quickly</strong>, so purchase your tickets today. For questions and tickets call: <strong>(888) 946-9655 </strong> or <strong>(334) 531-5650</strong>, or <a data-href="#tabs-5" class="open-tab">purchase your tickets online now.</a></p>
                        	
-						<p>Don't wait as this event will fill up fast, book this event today. We are also providing hotel accommodations via the Holiday Inn and Suites Downtown Chattanooga at a special discounted rate of <strong>$119</strong>. You can <a target="_blank" href="https://www.holidayinn.com/redirect?path=hd&brandCode=HI&localeCode=en&regionCode=1&hotelCode=chadt&_PMID=99801505&GPC=YOL&viewfullsite=true">secure your hotel room</a> today by visiting the host properties website. </p>
+						<p>Don't wait as this event will fill up fast, book this event today. We are also providing hotel accommodations via the Holiday Inn and Suites Downtown Chattanooga at a special discounted rate of <strong>$119</strong>. You can <a target="_blank" href="https://www.holidayinn.com/redirect?path=hd&brandCode=HI&localeCode=en&regionCode=1&hotelCode=CHADT&_PMID=99801505&GPC=YOL&viewfullsite=true">secure your hotel room</a> today by visiting the host properties website. </p>
                         
                         <p><strong>Live show:</strong> 4PM- 7PM<br>
 						<strong>Cruise Boarding:</strong> 10:30PM<br> 
@@ -241,7 +241,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>What is the official host property for the Party Gras?</div>
 							  <div data-content>
-								  <p>The host property is the Chattanooga Marriott Downtown. The address is 2 Carter Plaza, Chattanooga, TN 37402. You can <a target="_blank" href="https://goo.gl/VmekGe">book a room at a discounted price</a> of $149 today while supplies last.</p>
+								  <p>The host property is the Holiday Inn and Suites Downtown Chattanooga. The address is 434 Chestnut Street Chattanooga, TN, 37402. You can <a target="_blank" href="https://www.holidayinn.com/redirect?path=hd&brandCode=HI&localeCode=en&regionCode=1&hotelCode=CHADT&_PMID=99801505&GPC=YOL&viewfullsite=true">book a room at a discounted price</a> of $119 today while supplies last.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -250,7 +250,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>What time is the bus departing from Birmingham? </div>
 							  <div data-content>
-								  <p>The charter will depart Birmingham at 10 am Saturday May 05, 2018. The charter will leave Chattanooga, TN at 10 am on Sunday, May 06, 2018. Please note the 10 am departure from Chattanooga is Eastern Standard Time. If you haven’t please secure your room at the host property which is the Marriott Chattanooga downtown. Our guest will receive a special rate if you utilize the link on the page.  </p>
+								  <p>The charter will depart Birmingham at 10 am Saturday August 11, 2018. The charter will leave Chattanooga, TN at 10 am on Sunday, August 12, 2018. Please note the 10 am departure from Chattanooga is Eastern Standard Time. If you haven’t please secure your room at the host property which is the Holiday Inn and Suites Downtown Chattanooga. Our guest will receive a special rate if you utilize the link on the page.  </p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -260,7 +260,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>Why do I have to secure my own hotel accommodations?</div>
 							  <div data-content>
-								  <p>We want to give each individual the choice to secure their own accommodations for this exciting event! However we are providing a great <a target="_blank" href="https://goo.gl/VmekGe">discounted price for booking at the host hotel property</a>. One advantage of booking with the host property is it will grant access to other events for the weekend, such as the meet and greet reception.  </p>
+								  <p>We want to give each individual the choice to secure their own accommodations for this exciting event! However we are providing a great <a target="_blank" href="https://www.holidayinn.com/redirect?path=hd&brandCode=HI&localeCode=en&regionCode=1&hotelCode=CHADT&_PMID=99801505&GPC=YOL&viewfullsite=true">discounted price for booking at the host hotel property</a>. One advantage of booking with the host property is it will grant access to other events for the weekend, such as the meet and greet reception.  </p>
 							  </div>
 
 							</div><!-- end of accordion-->	
@@ -280,7 +280,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>Where will the bus depart from?</div>
 							  <div data-content>
-								<p>We will depart from Birmingham, Alabama at 10AM May 5th and return at 11AM on May 6th.</p>
+								<p>We will depart from Birmingham, Alabama at 10AM August 11th and depart from Chattanooga at 10M on August 12th.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -408,7 +408,7 @@ include 'includes/functions.inc.php';
                 <h4>Hotel Accommodations</h4>
                 <img style="width:15rem; float:left; margin-right:2rem" src="https://t-ec.bstatic.com/images/hotel/max1024x768/191/19191223.jpg" />
 				<p class="mb-10"><strong>Holiday Inn & Suites Chattanooga Downtown</strong></p>
-               	<p>For anyone needing hotel accommodations you can  <a target="_blank" href="https://www.holidayinn.com/redirect?path=hd&brandCode=HI&localeCode=en&regionCode=1&hotelCode=chadt&_PMID=99801505&GPC=YOL&viewfullsite=true">secure your hotel room</a> at a special discounted rate of <strong>$119</strong>.</p>
+               	<p>For anyone needing hotel accommodations you can  <a target="_blank" href="https://www.holidayinn.com/redirect?path=hd&brandCode=HI&localeCode=en&regionCode=1&hotelCode=CHADT&_PMID=99801505&GPC=YOL&viewfullsite=true">secure your hotel room</a> at a special discounted rate of <strong>$119</strong>. The special rate ends July 11, 2018.</p>
                
 
 				

@@ -46,7 +46,7 @@
 				"Individual"			=>"$1945"
 			),
 
-			"Hotel Only" =>"$2245 (Weekend)"
+			"Hotel Only" =>"$1245 (Weekend)"
 	);
 
 	$package_items = array(
@@ -60,7 +60,7 @@
 			"Welcome to NOLA party (Friday)"				    => "checked",
 			"Complimentary Additional Night*"			        => "checked",
 			"Additional nights: $349 plus tax and fees"	        => "checked",
-			"Additional concert nights (Lodge Section): $175"	=> "checked",
+			"Additional concert nights (Lodge Section): $150"	=> "checked",
 			"YOLLO Gift Bag"							        => "checked"
 		),
 
@@ -74,7 +74,7 @@
 			"Welcome to NOLA party (Friday)"				  => "checked",
 			"Complimentary Additional Night*"			      => "checked",
 			"Additional nights: $349 plus tax and fees"	      => "checked",
-			"Additional concert nights (Lodge Section): $175" => "checked",
+			"Additional concert nights (Lodge Section): $150" => "checked",
 			"YOLLO Gift Bag"							      => "checked"
 		)
 	);
@@ -149,7 +149,7 @@
 
 						<h4>The Original All-White Mid-Day Cruise Party </h4>
 
-						<p>This is the original All-White cruise party and the event everyone talks about during Essence Fest weekend! This is the 14th annual Mid-Day Cruise Party, happening on the famous Creole Queen and will feature five (5) options for your cruising delight. Enjoy a multi-level boat cruising the Mighty Mississippi River, while listening to the best Hip-Hop and R&amp;B music. The theme is "All White" attire preferred, but not required for this cruise.</p>
+						<p>This is the original All-White cruise party and the event everyone talks about during Essence Fest weekend! This is the 14th annual Mid-Day Cruise Party, happening on the famous Creole Queen and will feature five (5) options for your cruising delight. Enjoy a multi-level boat cruising the Mighty Mississippi River, while listening to the best Hip-Hop and R&mp;B music. The theme is "All White" attire preferred, but not required for this cruise.</p>
 
 						<h4>The Mid-Day Comedy Show</h4>
 						<p>If you are ready to bust a gut, the 9th annual Mid-Day Comedy Show is the event for you. Our comedian's, like years past, will have you in stitches. If you are looking for good food, great drinks, and lots of laugh, this is the event you cannot miss. Don't think we are going to let you down with our 2019 lineup! This Mid-Day Comedy Show will happen Sunday, July 7th, 2019.</p>
@@ -277,7 +277,7 @@
 
 							  <div data-control>What are the payment due dates for Essence Packages?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 per person is due on or before August 28, 2018. The final payment (remaining balance) is due on or before January 04, 2019. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 per person is due on or before July 25, 2018. The final payment (remaining balance) is due on or before December 05, 2018. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
