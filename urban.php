@@ -17,9 +17,9 @@ $event = array(
 $geolocation = array(
 
 	"hotel1"=> array(
-		"title" 			=>"TBA",
-		"address"			=>"Rio Bueno District, Rio Bueno, Jamaica",
-		"location"			=>"Trelawny, Jamacia",
+		"title" 			=>"Grand Bahia Principe",
+		"address"			=>"Runaway Bay, Jamaica",
+		"location"			=>"Runaway Bay, Jamacia",
 		"geolocation"		=>"Rio Bueno District, Rio Bueno, Jamaica, Trelawny, Jamacia",
 		"hotel1_soldout"	=> false,
 		"img_url"			=>"https://media-cdn.tripadvisor.com/media/photo-o/0e/ed/13/93/melia-braco-village.jpg"
@@ -51,7 +51,7 @@ $people = array(
 		),
 
 		"options"=>array(
-			"Hotel Only" =>"$1345 (Weekend)"
+			"Hotel Only" =>"$1950 (Weekend)"
 		),
 
 );
@@ -299,7 +299,7 @@ include 'includes/functions.inc.php';
 
 												  <div data-control>When are the payments due?</div>
 												  <div data-content>
-													<p>The first payment of $125 is due August 09, 2018 after registration. The final payment (remaining balance) is due on or before December 14, 2018. If you would like to make payments between due dates that is fine also.</p>
+													<p>The first payment of $125 is due August 09, 2018 after registration. The final payment (remaining balance) is due on or before February 01, 2019. If you would like to make payments between due dates that is fine also.</p>
 												  </div>
 
 												</div><!-- end of accordion-->
@@ -368,7 +368,7 @@ include 'includes/functions.inc.php';
 
 												<div class="accordion" data-accordion>
 
-												  <div data-control>Where exactly is Rio Bueno, Braco Village, Jamaica?</div>
+												  <div data-control>Where exactly is Runaway Bay, Jamaica?</div>
 												  <div data-content>
 													<p>It is located between Montego Bay and Ocho Rios. More specifically, 30 minutes outside of Montego Bay and 40 minutes from Ocho Rios. So this is the PERFECT center of what Jamaica has to offer.</p>
 												  </div>

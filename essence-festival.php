@@ -33,20 +33,20 @@
 
 	$people = array(
 			"diamond"=> array(
-				"Group of 4" 			=>"$975",
-				"Group of 3"			=>"$1050",
-				"Group of 2"			=>"$1205",
-				"Individual"			=>"$2150"
+				"Group of 4" 			=>"$1125",
+				"Group of 3"			=>"$1200",
+				"Group of 2"			=>"$1355",
+				"Individual"			=>"$2300"
 			),
 
 			"emerald"=> array(
-				"Group of 4" 			=>"$825",
-				"Group of 3"			=>"$915",
-				"Group of 2"			=>"$1060",
-				"Individual"			=>"$1795"
+				"Group of 4" 			=>"$975",
+				"Group of 3"			=>"$1065",
+				"Group of 2"			=>"$1210",
+				"Individual"			=>"$1945"
 			),
 
-			"Hotel Only" =>"$1245 (Weekend)"
+			"Hotel Only" =>"$2245 (Weekend)"
 	);
 
 	$package_items = array(
@@ -60,7 +60,7 @@
 			"Welcome to NOLA party (Friday)"				    => "checked",
 			"Complimentary Additional Night*"			        => "checked",
 			"Additional nights: $349 plus tax and fees"	        => "checked",
-			"Additional concert nights (Lodge Section): $150"	=> "checked",
+			"Additional concert nights (Lodge Section): $175"	=> "checked",
 			"YOLLO Gift Bag"							        => "checked"
 		),
 
@@ -74,7 +74,7 @@
 			"Welcome to NOLA party (Friday)"				  => "checked",
 			"Complimentary Additional Night*"			      => "checked",
 			"Additional nights: $349 plus tax and fees"	      => "checked",
-			"Additional concert nights (Lodge Section): $150" => "checked",
+			"Additional concert nights (Lodge Section): $175" => "checked",
 			"YOLLO Gift Bag"							      => "checked"
 		)
 	);
@@ -277,7 +277,7 @@
 
 							  <div data-control>What are the payment due dates for Essence Packages?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 per person is due on or before July 25, 2018. The final payment (remaining balance) is due on or before December 05, 2018. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 per person is due on or before August 28, 2018. The final payment (remaining balance) is due on or before January 04, 2019. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

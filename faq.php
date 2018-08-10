@@ -65,7 +65,7 @@ include 'includes/functions.inc.php';
 					  <div data-control>How do I buy or hold a spot for an event?</div>
 					  <div data-content>
 						<ul>
-							<li>To get started with reserving an event you must first pay the mandatory $19.99 Registration Fee. This will hold your spot for the event. On each event page there is a "buy now" button and a "buy now" tab. Clicking any of them will get you to the payment form for that event.</li>
+							<li>To get started with reserving an event you must first pay the mandatory $29.99 Registration Fee. This will hold your spot for the event. On each event page there is a "buy now" button and a "buy now" tab. Clicking any of them will get you to the payment form for that event.</li>
 							<li>The Registration Fee is non-refundable. It secures your room, transportation, and other amenities of your event package. The Registration Fee is not applied toward your total package price.</li>
 							<li>Make all payments payable to YOLLO Group Services.</li>
 						</ul>
@@ -225,7 +225,7 @@ include 'includes/functions.inc.php';
 
 					  <div data-control>When is my due date?</div>
 					  <div data-content>
-						  <p>Due dates are established when you make your initial reservation. They can be found under the FAQ tab on each event page, but they reference new sign ups only. Payment due dates are also included in your welcome packet and confirmed with every payment made on your account. Payment due dates do not change unless an extension is requested (fees apply). Please make payments when due to ensure you don’t incur fees or your reservation being canceled.</p>
+						  <p>Due dates are established when you make your initial reservation. They can be found under the FAQ tab on each event page, but they reference new sign ups only. Payment due dates are also included in your welcome packet and confirmed with every payment made on your account. Payment due dates do not change unless an extension is requested (fees apply). Please make payments when due to ensure you don’t incur fees or your reservation being cancelled.</p>
 					  </div>
 
 					</div><!-- end of accordion-->

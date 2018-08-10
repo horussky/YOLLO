@@ -33,17 +33,17 @@
 
 	$people = array(
 			"diamond"=> array(
-				"Group of 4" 			=>"$975",
-				"Group of 3"			=>"$1050",
-				"Group of 2"			=>"$1205",
-				"Individual"			=>"$2150"
+				"Group of 4" 			=>"$1125",
+				"Group of 3"			=>"$1200",
+				"Group of 2"			=>"$1355",
+				"Individual"			=>"$2300"
 			),
 
 			"emerald"=> array(
-				"Group of 4" 			=>"$825",
-				"Group of 3"			=>"$915",
-				"Group of 2"			=>"$1060",
-				"Individual"			=>"$1795"
+				"Group of 4" 			=>"$975",
+				"Group of 3"			=>"$1065",
+				"Group of 2"			=>"$1210",
+				"Individual"			=>"$1945"
 			),
 
 			"Hotel Only" =>"$1245 (Weekend)"

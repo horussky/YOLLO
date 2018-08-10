@@ -261,7 +261,7 @@ include 'includes/functions.inc.php';
 
 										  <div data-control>When are the payments due?</div>
 										  <div data-content>
-											<p>Following registration the first payment of $125 is due on or before May 05, 2018. The final payment (remaining balance) is due on or before August 21, 2018.</p>
+											<p>Following registration the first payment of $125 is due on or before August 28, 2018. The final payment (remaining balance) is due on or before January 04, 2019.</p>
 										  </div>
 
 										</div><!-- end of accordion-->
