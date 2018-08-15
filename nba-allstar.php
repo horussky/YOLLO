@@ -15,7 +15,7 @@ $geolocation = array(
 		"title" 			=>"Sheraton Charlotte",
 		"address"			=>"555 S. McDowell Street, South Tower",
 		"location"			=>"Charlotte, NC 28204",
-		"hotel1_soldout"	=> false,
+		"soldout"	        => false,
 		"img_url"			=>"//www.charlottefive.com/wp-content/uploads/2016/05/IMG_SheratonABC_1.JPG.JP_2_1_BD214V64_L47744109.jpg"
 	),
 
@@ -23,7 +23,7 @@ $geolocation = array(
 		"title" 			=>"LeMeridian Charlotte",
 		"address"			=>"555 S. McDowell Street, North Tower",
 		"location"			=>"Charlotte, NC 28204",
-		"hotel1_soldout"	=> false,
+		"soldout"	        => false,
 		"img_url"			=>"//t-ec.bstatic.com/images/hotel/max1280x900/848/84804859.jpg"
 	)
 );
@@ -161,33 +161,23 @@ include 'includes/functions.inc.php';
 
 									<h3>Hotels</h3>
 
-									<div class="hotel-box-container">
+									<?php foreach($geolocation as $hotel) :?>
+                                    <div class="hotel-grid">
+                                        <div class="hg-img">
+                                            <figure style="background:url(<?php echo $hotel['img_url']; ?>); background-size: cover; background-position: center;"></figure>
+                                        </div>
+                                        <div class="hg-body">
+                                            <p class="hg-title"><?php echo $hotel["title"]; ?> 
+                                            <?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
 
-											<?php if(count($geolocation["hotel1"]) > 1) :?>
-
-											<div class="hotel-box">
-													<img src="<?php echo $geolocation['hotel1']['img_url']; ?>" />
-													<div class="hotel-title">
-															<h3><?php echo $geolocation["hotel1"]["title"]; ?></h3>
-													</div>
-											</div>
-
-
-											<?php endif; ?>
-
-											<?php if(count($geolocation["hotel2"]) > 1) :?>
-
-											<div class="hotel-box">
-												 <img src="<?php echo $geolocation['hotel2']['img_url']; ?>" />
-													<div class="hotel-title">
-															<h3><?php echo $geolocation["hotel2"]["title"]; ?></h3>
-													</div>
-											</div>
-
-											<?php endif; ?>
-
-
-									</div>
+                                            <address>
+                                                <i class="fa fa-location-arrow" aria-hidden="true"></i> 
+                                                <a title="<?php echo $hotel["title"]; ?>" target="_blank" href="http://maps.google.com/maps?q=<?php echo $hotel["address"]; ?>+<?php echo $hotel["location"]; ?>"><?php echo $hotel["address"]; ?>,  
+                                                <?php echo $hotel["location"]; ?></a>
+                                            </address>
+                                        </div>
+                                    </div><!-- ./hotel-grid -->
+                                    <?php endforeach; ?>
 
 											<hr />
 

@@ -18,11 +18,10 @@
 			"address"			=>"640 N. Atlantic Avenue",
 			"location"			=>"Daytona Beach, FL 32118",
 			"geolocation"		=>"640 N. Atlantic Avenue, Daytona Beach, FL 32118",
-			"hotel1_soldout"    =>false,
+			"soldout"    =>false,
 			"img_url"			=>"https://images.trvl-media.com/hotels/1000000/20000/11600/11587/11587_63_z.jpg"
 		),
 
-		"hotel2"=> array("")
 	);
 
 	$people = array(
@@ -136,33 +135,28 @@
 						<div class="tab" aria-label="price">
 
 
-								<h3>Hotels</h3>
-                                <div class="hotel-box-container">
-
-									<?php if(count($geolocation["hotel1"]) > 1) :?>
-
-                                    <div class="hotel-box">
-                                        <img src="<?php echo $geolocation['hotel1']['img_url']; ?>" />
-                                        <div class="hotel-title">
-                                            <h3><?php echo $geolocation["hotel1"]["title"]; ?></h3>
-                                        </div>
+				              <h3>Hotels</h3>
+                             
+                              <?php foreach($geolocation as $hotel) :?>
+                                <div class="hotel-grid">
+                                    <div class="hg-img">
+                                        <figure style="background:url(<?php echo $hotel['img_url']; ?>); background-size: cover; background-position: center;"></figure>
                                     </div>
+                                    <div class="hg-body">
+                                        <p class="hg-title"><?php echo $hotel["title"]; ?> 
+                                        <?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
 
-                                    <?php endif; ?>
-
-                                    <?php if(count($geolocation["hotel2"]) > 1) :?>
-
-                                    <div class="hotel-box">
-                                    	 <img src="<?php echo $geolocation['hotel2']['img_url']; ?>" />
-                                        <div class="hotel-title">
-                                            <h3><?php echo $geolocation["hotel2"]["title"]; ?></h3>
-                                        </div>
+                                        <address>
+                                            <i class="fa fa-location-arrow" aria-hidden="true"></i> 
+                                            <a title="<?php echo $hotel["title"]; ?>" target="_blank" href="http://maps.google.com/maps?q=<?php echo $hotel["address"]; ?>+<?php echo $hotel["location"]; ?>"><?php echo $hotel["address"]; ?>,  
+                                            <?php echo $hotel["location"]; ?></a>
+                                        </address>
                                     </div>
-                                    <?php endif; ?>
-
-
-                                </div>
-
+                                </div><!-- ./hotel-grid -->
+                                <?php endforeach; ?>  
+                                
+                                
+                                
                             	<hr />
 
                               <h3>Price</h3>
@@ -186,28 +180,9 @@
                                     <li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
                                   </ul>
                                 </div><!-- price table -->
-            										<?php endif; ?>
+            					<?php endif; ?>
 
 
-
-                                <?php if(count($geolocation["hotel2"]) > 1) :?>
-                                <div class="price-table">
-                                  <ul class="price">
-                                    <li class="header">Emerald <span>Package</span></li>
-                                    <?php foreach($package_items['emerald_items'] as $key=>$value): ?>
-                                    	<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-                                    <?php endforeach; ?>
-                                    <li class="people-price">
-                                    	<ul class="priceblock">
-                                        	<?php foreach($people['emerald'] as $key=>$value): ?>
-                                            <li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
-                                            <?php endforeach; ?>
-																			</ul>
-                                    </li>
-                                    <li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
-                                  </ul>
-                                </div><!-- price table -->
-                            	<?php endif; ?>
                             	
 							</div><!-- price table container-->
 

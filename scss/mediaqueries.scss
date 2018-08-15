@@ -763,6 +763,51 @@
 		grid-template-columns: auto auto; 
 
 	}
+    
+    
+    
+    // Newer Hotel Container
+
+    .hotel-grid{
+        display: grid;
+        grid-template-areas:
+            "hotel-image" 
+            "hotel-body";
+        grid-template-columns: auto;
+        box-shadow: inset 0 -5px 0 0px #9E1421;
+
+
+        /*hotel image*/
+        .hg-img{
+            grid-area: hotel-image;
+
+            figure{
+                height: 16.5rem; 
+            }
+        }
+
+        /*hotel content*/
+        .hg-body{
+            grid-area: hotel-body;
+            padding: 3rem 2rem 4rem;
+
+            .hg-title{
+                text-align: center;
+
+                span.sold{
+                    display: block;
+                }
+            }
+
+            /*Hotel Address*/
+            address{
+                   text-align: center;
+            }
+        }
+
+    }// end of hotel-grid
+    
+    
 	
 }//end of 425px for iphone 8plus
 

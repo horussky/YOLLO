@@ -13,20 +13,26 @@
 
 		"hotel1"=> array(
 			"title" 			=>"Hilton Riverside",
-			"hotel1_soldout"    =>false,
-			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/06/45/13/7e/hilton-new-orleans-riverside.jpg"
+			"soldout"           =>false,
+			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/06/45/13/7e/hilton-new-orleans-riverside.jpg",
+            "address"			=>"2 Poydras St",
+            "location"			=>"New Orleans, LA 70130",
 		),
 
 		"hotel2"=> array(
 			"title" 			=>"Hilton St. Charles",
-			"hotel2_soldout"	=>false,
-			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/12/35/97/bc/exterior.jpg"
+			"soldout"	        =>false,
+			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/12/35/97/bc/exterior.jpg",
+            "address"			=>"333 St Charles Ave",
+            "location"			=>"New Orleans, LA 70130",
 		),
 		
 		"hotel3"=> array(
 			"title" 			=>"Residence Inn Downtown",
-			"hotel3_soldout"	=>false,
-			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-o/06/8c/e3/e4/residence-inn-new-orleans.jpg"
+			"soldout"	        =>false,
+			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-o/06/8c/e3/e4/residence-inn-new-orleans.jpg",
+            "address"			=>"345 St Joseph St",
+            "location"			=>"New Orleans, LA 70130",
 		)
 
 	);
@@ -168,32 +174,24 @@
 
 
 								<h3>Hotels</h3>
-                                <div class="hotel-box-container">
-
-                                    <div class="hotel-box">
-                                        <img src="<?php echo $geolocation['hotel1']['img_url']; ?>" />
-                                        <div class="hotel-title">
-                                            <h3><?php echo $geolocation["hotel1"]["title"]; ?></h3>
-                                        </div>
+                                
+                                <?php foreach($geolocation as $hotel) :?>
+                                <div class="hotel-grid">
+                                    <div class="hg-img">
+                                        <figure style="background:url(<?php echo $hotel['img_url']; ?>); background-size: cover; background-position: center;"></figure>
                                     </div>
+                                    <div class="hg-body">
+                                        <p class="hg-title"><?php echo $hotel["title"]; ?> 
+                                        <?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
 
-                                    <div class="hotel-box">
-                                    	 <img src="<?php echo $geolocation['hotel2']['img_url']; ?>" />
-                                        <div class="hotel-title">
-                                            <h3><?php echo $geolocation["hotel2"]["title"]; ?></h3>
-                                        </div>
+                                        <address>
+                                            <i class="fa fa-location-arrow" aria-hidden="true"></i> 
+                                            <a title="<?php echo $hotel["title"]; ?>" target="_blank" href="http://maps.google.com/maps?q=<?php echo $hotel["address"]; ?>+<?php echo $hotel["location"]; ?>"><?php echo $hotel["address"]; ?>,  
+                                            <?php echo $hotel["location"]; ?></a>
+                                        </address>
                                     </div>
-                                    
-                                    <div class="hotel-box">
-                                    	 <img src="<?php echo $geolocation['hotel3']['img_url']; ?>" />
-                                        <div class="hotel-title">
-                                            <h3><?php echo $geolocation["hotel3"]["title"]; ?></h3>
-                                        </div>
-                                    </div>
-
-
-
-                                </div>
+                                </div><!-- ./hotel-grid -->
+                                <?php endforeach; ?>  
 
                             	<hr />
 
