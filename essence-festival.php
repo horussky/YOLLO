@@ -5,7 +5,7 @@
 		"subtitle"			=>"25th Anniversary of Essence Fest...You Can't Miss This!",
 		"location"			=>"New Orleans, LA",
 		"date"				=>"July 5-7, 2019",
-		"img_url"			=>"../../images/slides/splash-essence-19.jpg",
+		"img_url"			=>"../../images/slides/splash-essence-cta.jpg",
 		"img_alt"			=>"Essence Festival 2017"
 	);
 

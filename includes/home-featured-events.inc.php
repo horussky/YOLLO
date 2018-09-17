@@ -11,22 +11,22 @@ $feature_event = array(
 	),
 	array(
 		"title" 	=> "Essence Festival",
-		"date" 		=> "July 6-8, 2018",
-		"end"		=> strtotime("July 8, 2018"),
+		"date" 		=> "July 5-7, 2019",
+		"end"		=> strtotime("July 7, 2019"),
 		"img" 		=> "images/featured-events/featured-event-efw.jpg",
 		"link" 		=> "/essence-festival"
 	),
 	array(
 		"title" 	=> "Magic City Classic",
-		"date" 		=> "October 26-28 2017",
-		"end"		=> strtotime("October 28, 2017"),
+		"date" 		=> "October 25-27 2019",
+		"end"		=> strtotime("October 27, 2019"),
 		"img" 		=> "images/featured-events/featured-event-mcc.jpg",
 		"link" 		=> "/classic"
 	),
 	array(
 		"title" 	=> "NBA All-Star Weekend",
-		"date" 		=> "February 16-18, 2018",
-		"end"		=> strtotime("February 18, 2018"),
+		"date" 		=> "February 15-17, 2019",
+		"end"		=> strtotime("February 17, 2019"),
 		"img" 		=> "images/featured-events/featured-event-nba.jpg",
 		"link" 		=> "/nba-allstar"
 	),
@@ -53,15 +53,15 @@ $feature_event = array(
 	),
 	array(
 		"title" 	=> "Urban Fiesta",
-		"date" 		=> "May 25-27, 2018",
-		"end"		=> strtotime("May 27, 2018"),
+		"date" 		=> "May 24-26, 2019",
+		"end"		=> strtotime("May 26, 2019"),
 		"img" 		=> "images/featured-events/featured-event-ufw.jpg",
 		"link" 		=> "/urban"
 	),
 	array(
 		"title" 	=> "Urban Ski Weekend",
-		"date" 		=> "February 2-5, 2018",
-		"end"		=> strtotime("February 5, 2018"),
+		"date" 		=> "February 1-4, 2019",
+		"end"		=> strtotime("February 1, 2019"),
 		"img" 		=> "images/featured-events/featured-event-usw.jpg",
 		"link" 		=> "/urban-ski-weekend"
 	),
