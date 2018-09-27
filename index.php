@@ -37,19 +37,28 @@
 							<div class="slider">
 								<div class="event-slider">
 									<ul>
-										<li><img src="images/slides/splash-essence.jpg"></li>
+									    <li><img src="images/slides/splash-urban-ski.jpg"></li>
+									    <li><img src="images/slides/splash-urban-fiesta.jpg"></li>
+										
 										<li><img src="images/slides/splash-partygras.jpg"></li>
-										<li><img src="images/slides/splash-urban-ski.jpg"></li>
-										<li><img src="images/slides/splash-urban-fiesta.jpg"></li>
-										<li><img src="images/slides/splash-groove.jpg"></li>
-										<li><img src="images/slides/splash-mmf.jpg"></li>
+										
+										
+										
+										
 										<li><img src="images/slides/splash-instagram.jpg"></li>
 										<li><img src="images/slides/splash-tourney.jpg"></li> 
 										<li><img src="images/slides/splash-nba.jpg"></li>
+										<li><img src="images/slides/splash-essence.jpg"></li>
 										<li><img src="images/slides/splash-facebook.jpg"></li>
 										
-										<!--<li><img src="images/slides/splash-ufw.jpg"></li>
-										<li><img src="images/slides/splash-mcc.jpg"></li>-->
+										<!-- inactive
+										
+										<li><img src="images/slides/splash-ufw.jpg"></li>
+										<li><img src="images/slides/splash-mcc.jpg"></li>
+										<li><img src="images/slides/splash-groove.jpg"></li>
+										<li><img src="images/slides/splash-mmf.jpg"></li>
+										
+										inactive -->
 									</ul>
 								</div>
 

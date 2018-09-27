@@ -428,7 +428,29 @@
     border-top: 1px solid #a7a6a6 !important; } }
 @media only screen and (max-width: 425px) {
   .nanogallery_theme_default .nanoGalleryContainer {
-    grid-template-columns: auto auto; } }
+    grid-template-columns: auto auto; }
+
+  .hotel-grid {
+    display: grid;
+    grid-template-areas: "hotel-image"  "hotel-body";
+    grid-template-columns: auto;
+    box-shadow: inset 0 -5px 0 0px #9E1421;
+    /*hotel image*/
+    /*hotel content*/ }
+    .hotel-grid .hg-img {
+      grid-area: hotel-image; }
+      .hotel-grid .hg-img figure {
+        height: 16.5rem; }
+    .hotel-grid .hg-body {
+      grid-area: hotel-body;
+      padding: 3rem 2rem 4rem;
+      /*Hotel Address*/ }
+      .hotel-grid .hg-body .hg-title {
+        text-align: center; }
+        .hotel-grid .hg-body .hg-title span.sold {
+          display: block; }
+      .hotel-grid .hg-body address {
+        text-align: center; } }
 @media only screen and (max-width: 375px) {
   /*image header*/
   #right .topcontent .title {

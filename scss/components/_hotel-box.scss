@@ -115,3 +115,57 @@
 .hotel-box h5 {
   font-weight: normal;
 }
+
+
+// Newer Hotel Container
+
+.hotel-grid{
+    display: grid;
+    grid-template-areas:
+        "hotel-image hotel-body";
+    grid-template-columns: 30% 1fr;
+    border: 1px solid #eee;
+    box-shadow: inset -5px 0px 0 0px #9E1421;
+    border-radius: 1px;
+    margin-bottom: 4rem;
+    
+    /*hotel image*/
+    .hg-img{
+        grid-area: hotel-image;
+        
+        figure{
+            height: 100%; 
+        }
+    }
+    
+    /*hotel content*/
+    .hg-body{
+        grid-area: hotel-body;
+        padding: 3rem 2rem 4rem;
+        
+        .hg-title{
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+            
+            span.sold{
+                font-size: 1.2rem;
+                text-transform: uppercase;
+                color:#9E1421;
+            }
+        }
+        
+        /*Hotel Address*/
+        address{
+            color:#666;
+            font-size: 1.4rem;
+            
+            i{
+                color:#9E1421;
+                margin-right:0.5rem;
+            }
+        }
+    }
+    
+}// end of hotel-grid
+

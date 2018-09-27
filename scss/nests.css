@@ -7529,6 +7529,39 @@ footer a:hover {
 .hotel-box h5 {
   font-weight: normal; }
 
+.hotel-grid {
+  display: grid;
+  grid-template-areas: "hotel-image hotel-body";
+  grid-template-columns: 30% 1fr;
+  border: 1px solid #eee;
+  box-shadow: inset -5px 0px 0 0px #9E1421;
+  border-radius: 1px;
+  margin-bottom: 4rem;
+  /*hotel image*/
+  /*hotel content*/ }
+  .hotel-grid .hg-img {
+    grid-area: hotel-image; }
+    .hotel-grid .hg-img figure {
+      height: 100%; }
+  .hotel-grid .hg-body {
+    grid-area: hotel-body;
+    padding: 3rem 2rem 4rem;
+    /*Hotel Address*/ }
+    .hotel-grid .hg-body .hg-title {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      font-weight: 700; }
+      .hotel-grid .hg-body .hg-title span.sold {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        color: #9E1421; }
+    .hotel-grid .hg-body address {
+      color: #666;
+      font-size: 1.4rem; }
+      .hotel-grid .hg-body address i {
+        color: #9E1421;
+        margin-right: 0.5rem; }
+
 .nav .home {
   background-position: -200px 0; }
 

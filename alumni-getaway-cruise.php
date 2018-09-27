@@ -16,14 +16,11 @@ $geolocation = array(
 		"title" 		=>"Fantasy Cruise Ship",
 		"ship"			=>"https://directlinecruises.com/images/carnival_ecstacy_slider1.jpg",
 		"location"		=>"Cozumel, Mexico",
-		"soldout"		=>"false",
+        "address"		=>"South, 201 Water St, Mobile, AL 36602",
+		"soldout"		=>false,
 		"img_url"		=>"https://www.cruisin.me/images/cruise-ships/carnival-cruise-lines/carnival-fantasy.jpg"
 
 	),
-
-	"cruise2"=> array(
-		""
-	)
 
 );
 
@@ -152,28 +149,24 @@ include 'includes/functions.inc.php';
 					<div class="tab" aria-label="price">
 
                         <h3>Cruise</h3>
-						<div class="hotel-box-container">
+						<?php foreach($geolocation as $hotel) :?>
+                        <div class="hotel-grid">
+                            <div class="hg-img">
+                                <figure style="background:url(<?php echo $hotel['img_url']; ?>); background-size: cover; background-position: center;"></figure>
+                            </div>
+                            <div class="hg-body">
+                                <p class="hg-title"><?php echo $hotel["title"]; ?> 
+                                <?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
 
-								<?php if(count($geolocation["cruise1"]) > 1) :?>
-								<div class="hotel-box">
-										<img src="<?php echo $geolocation['cruise1']['img_url']; ?>" />
-										<div class="hotel-title">
-												<h3><?php echo $geolocation["cruise1"]["title"]; ?></h3>
-										</div>
-								</div>
-								<?php endif; ?>
-
-								<?php if(count($geolocation["cruise2"]) > 1) :?>
-								<div class="hotel-box">
-									 <img src="<?php echo $geolocation['cruise2']['img_url']; ?>" />
-										<div class="hotel-title">
-												<h3><?php echo $geolocation["cruise2"]["title"]; ?></h3>
-										</div>
-								</div>
-								<?php endif; ?>
-
-
-						</div><!-- hotel box container -->
+                                <address>
+                                    Departing from:<br>
+                                    <i class="fa fa-location-arrow" aria-hidden="true"></i> 
+                                    <a title="<?php echo $hotel["title"]; ?>" target="_blank" href="http://maps.google.com/maps?q=<?php echo $hotel["address"]; ?>+<?php echo $hotel["location"]; ?>"><?php echo $hotel["address"]; ?>,  
+                                    <?php echo $hotel["location"]; ?></a>
+                                </address>
+                            </div>
+                        </div><!-- ./hotel-grid -->
+                        <?php endforeach; ?>
 
                         <hr />
 
@@ -202,24 +195,6 @@ include 'includes/functions.inc.php';
 
 
 
-						<?php if(count($geolocation["cruise2"]) > 1) :?>
-						<div class="price-table">
-							<ul class="price">
-								<li class="header">Emerald <span>Package</span></li>
-								<?php foreach($package_items['emerald_items'] as $key=>$value): ?>
-									<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-								<?php endforeach; ?>
-								<li class="people-price">
-									<ul class="priceblock">
-										<?php foreach($people['emerald'] as $key=>$value): ?>
-											<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
-											<?php endforeach; ?>
-									</ul>
-								</li>
-								<li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
-							</ul>
-						</div><!-- price table -->
-						<?php endif; ?>
                                 
 						</div><!-- price table container-->
 

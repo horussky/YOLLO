@@ -5,7 +5,7 @@
 		"subtitle"			=>"25th Anniversary of Essence Fest...You Can't Miss This!",
 		"location"			=>"New Orleans, LA",
 		"date"				=>"July 5-7, 2019",
-		"img_url"			=>"../../images/slides/splash-essence-19.jpg",
+		"img_url"			=>"../../images/slides/splash-essence-cta.jpg",
 		"img_alt"			=>"Essence Festival 2017"
 	);
 
@@ -13,21 +13,28 @@
 
 		"hotel1"=> array(
 			"title" 			=>"Hilton Riverside",
-			"hotel1_soldout"    =>false,
-			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/06/45/13/7e/hilton-new-orleans-riverside.jpg"
+			"soldout"           =>false,
+			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/06/45/13/7e/hilton-new-orleans-riverside.jpg",
+            "address"			=>"2 Poydras St",
+            "location"			=>"New Orleans, LA 70130",
 		),
 
 		"hotel2"=> array(
 			"title" 			=>"Hilton St. Charles",
-			"hotel2_soldout"	=>false,
-			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/12/35/97/bc/exterior.jpg"
+			"soldout"	        =>false,
+			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/12/35/97/bc/exterior.jpg",
+            "address"			=>"333 St Charles Ave",
+            "location"			=>"New Orleans, LA 70130",
 		),
 		
 		"hotel3"=> array(
-			"title" 			=>"Residence Inn Downtown",
-			"hotel3_soldout"	=>false,
-			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-o/06/8c/e3/e4/residence-inn-new-orleans.jpg"
+			"title" 			=>"DoubleTree by Hilton",
+			"soldout"	        =>false,
+			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/13/5f/f0/b0/exterior.jpg",
+            "address"			=>"300 Canal Street",
+            "location"			=>"New Orleans, LA 70130",
 		)
+
 
 	);
 
@@ -53,7 +60,7 @@
 		"diamond_items" => array(
 			"Hotel Accommodations (Fri-Sun)"			        => "checked",
 			"One night concert ticket (Lodge Section)"	        => "checked",
-			"VIP All White Cruise "			                => "checked",
+			"VIP All White Cruise "			                    => "checked",
 			"Mid-Day Comedy Show (Sunday)"				        => "checked",
 			"Black Film Review (Sunday)"				        => "checked",
 			"Speak Easy Poetry Show (Sunday)"				    => "checked",
@@ -67,7 +74,7 @@
 		"emerald_items" => array(
 			"Hotel Accommodations (Fri-Sun)"			      => "checked",
 			"One night concert ticket (Lodge Section)"	      => "ex",
-			"VIP All White Cruise"			              => "ex",
+			"VIP All White Cruise"			                  => "ex",
 			"Mid-Day Comedy Show (Sunday)"				      => "checked",
 			"Black Film Review (Sunday)"				      => "checked",
 			"Speak Easy Poetry Show (Sunday)"				  => "checked",
@@ -168,32 +175,24 @@
 
 
 								<h3>Hotels</h3>
-                                <div class="hotel-box-container">
-
-                                    <div class="hotel-box">
-                                        <img src="<?php echo $geolocation['hotel1']['img_url']; ?>" />
-                                        <div class="hotel-title">
-                                            <h3><?php echo $geolocation["hotel1"]["title"]; ?></h3>
-                                        </div>
+                                
+                                <?php foreach($geolocation as $hotel) :?>
+                                <div class="hotel-grid">
+                                    <div class="hg-img">
+                                        <figure style="background:url(<?php echo $hotel['img_url']; ?>); background-size: cover; background-position: center;"></figure>
                                     </div>
+                                    <div class="hg-body">
+                                        <p class="hg-title"><?php echo $hotel["title"]; ?> 
+                                        <?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
 
-                                    <div class="hotel-box">
-                                    	 <img src="<?php echo $geolocation['hotel2']['img_url']; ?>" />
-                                        <div class="hotel-title">
-                                            <h3><?php echo $geolocation["hotel2"]["title"]; ?></h3>
-                                        </div>
+                                        <address>
+                                            <i class="fa fa-location-arrow" aria-hidden="true"></i> 
+                                            <a title="<?php echo $hotel["title"]; ?>" target="_blank" href="http://maps.google.com/maps?q=<?php echo $hotel["address"]; ?>+<?php echo $hotel["location"]; ?>"><?php echo $hotel["address"]; ?>,  
+                                            <?php echo $hotel["location"]; ?></a>
+                                        </address>
                                     </div>
-                                    
-                                    <div class="hotel-box">
-                                    	 <img src="<?php echo $geolocation['hotel3']['img_url']; ?>" />
-                                        <div class="hotel-title">
-                                            <h3><?php echo $geolocation["hotel3"]["title"]; ?></h3>
-                                        </div>
-                                    </div>
-
-
-
-                                </div>
+                                </div><!-- ./hotel-grid -->
+                                <?php endforeach; ?>  
 
                             	<hr />
 
