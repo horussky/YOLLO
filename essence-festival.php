@@ -28,12 +28,13 @@
 		),
 		
 		"hotel3"=> array(
-			"title" 			=>"Residence Inn Downtown",
+			"title" 			=>"DoubleTree by Hilton",
 			"soldout"	        =>false,
-			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-o/06/8c/e3/e4/residence-inn-new-orleans.jpg",
-            "address"			=>"345 St Joseph St",
+			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/13/5f/f0/b0/exterior.jpg",
+            "address"			=>"300 Canal Street",
             "location"			=>"New Orleans, LA 70130",
 		)
+
 
 	);
 
@@ -59,7 +60,7 @@
 		"diamond_items" => array(
 			"Hotel Accommodations (Fri-Sun)"			        => "checked",
 			"One night concert ticket (Lodge Section)"	        => "checked",
-			"VIP All White Cruise "			                => "checked",
+			"VIP All White Cruise "			                    => "checked",
 			"Mid-Day Comedy Show (Sunday)"				        => "checked",
 			"Black Film Review (Sunday)"				        => "checked",
 			"Speak Easy Poetry Show (Sunday)"				    => "checked",
@@ -73,7 +74,7 @@
 		"emerald_items" => array(
 			"Hotel Accommodations (Fri-Sun)"			      => "checked",
 			"One night concert ticket (Lodge Section)"	      => "ex",
-			"VIP All White Cruise"			              => "ex",
+			"VIP All White Cruise"			                  => "ex",
 			"Mid-Day Comedy Show (Sunday)"				      => "checked",
 			"Black Film Review (Sunday)"				      => "checked",
 			"Speak Easy Poetry Show (Sunday)"				  => "checked",
