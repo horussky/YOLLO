@@ -6863,7 +6863,8 @@ form .checkbox {
     transition: background ease 0.2s;
     margin-bottom: 0;
     color: #0065a2;
-    font-family: "opensans-lite", sans-serif; }
+    font-family: "opensans-lite", sans-serif;
+    font-size: 1.8rem; }
     #responsive-tabs > label:hover {
       color: #222; }
   #responsive-tabs .tab {
@@ -7678,6 +7679,19 @@ footer a:hover {
       -webkit-animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation-delay: 2s; }
+  #right .topcontent #event-timer {
+    height: 4rem; }
+    #right .topcontent #event-timer span {
+      display: inline-block;
+      font-size: 2rem;
+      text-align: center;
+      width: 6rem;
+      font-family: "opensans-bold", Arial, sans-serif;
+      color: #fff; }
+      #right .topcontent #event-timer span em {
+        display: block;
+        font-size: 1.2rem;
+        font-family: "opensans", Arial, sans-serif; }
 
 @-webkit-keyframes fade-in-bottom {
   0% {
@@ -7995,19 +8009,22 @@ CUSTOM
 
 [data-accordion] [data-control] {
   position: relative;
-  padding-right: 40px; }
+  padding-right: 40px;
+  box-shadow: 0 3px 0 0 #ccc; }
+  [data-accordion] [data-control]:hover {
+    background: #dedede; }
 
 [data-accordion] > [data-control]:after {
   content: "";
   position: absolute;
   right: 10px;
-  top: 12px;
+  top: 15px;
   font-size: 25px;
   font-weight: 200;
   color: #444;
   height: 15px;
   width: 24px;
-  background: url("../images/down.png") center center no-repeat;
+  background: url("../images/down-black.png") center center no-repeat;
   background-size: 50%; }
 
 [data-accordion].open > [data-control]:after {
@@ -8021,9 +8038,15 @@ CUSTOM
     margin-top: 4rem; }
     [data-accordion-group] h4:first-child {
       margin-top: 0; }
+  [data-accordion-group] .open :after {
+    content: "";
+    background: url("../images/down.png") center center no-repeat;
+    background-size: 50%; }
   [data-accordion-group] .open [data-control] {
     background: #111;
-    font-weight: 700; }
+    font-weight: 700;
+    color: #fff;
+    box-shadow: none; }
   [data-accordion-group] .open [data-content] {
     padding: 2rem 3rem;
     max-height: 100% !important;
@@ -8041,8 +8064,9 @@ CUSTOM
   [data-accordion-group] [data-control] {
     padding: 1.2rem 3rem;
     border-bottom: none;
-    color: #fff;
-    line-height: 1.4; }
+    color: #000;
+    line-height: 1.4;
+    background: #efefef; }
     [data-accordion-group] [data-control]:hover {
       cursor: pointer; }
   [data-accordion-group] [data-content] {

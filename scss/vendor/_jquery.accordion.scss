@@ -31,19 +31,24 @@
 [data-accordion] [data-control] {
     position: relative;
     padding-right: 40px;
+    box-shadow: 0 3px 0 0 #ccc;
+    
+    &:hover{
+        background: #dedede;
+    }
 }
 
 [data-accordion] > [data-control]:after {
     content: "";
     position: absolute;
     right: 10px;
-    top: 12px;
+    top: 15px;
     font-size: 25px;
     font-weight: 200;
     color: #444;
     height: 15px;
     width: 24px;
-    background: url('../images/down.png') center center no-repeat;
+    background: url('../images/down-black.png') center center no-repeat;
     background-size: 50%;
 }
 
@@ -69,10 +74,18 @@
 	} 
 	
 	.open{
+        
+        :after {
+            content: "";
+            background: url('../images/down.png') center center no-repeat;
+            background-size: 50%;
+        }
 
 		[data-control]{
 			background:#111;
 			font-weight:700;
+            color: #fff;
+            box-shadow: none;
 		}
 		
 		[data-content]{
@@ -106,8 +119,9 @@
 	[data-control]{
 		padding: 1.2rem 3rem;
 		border-bottom:none; 
-		color:#fff;
+		color:#000;
 		line-height: 1.4;
+        background:#efefef;
 		
 		&:hover{
 			cursor: pointer;

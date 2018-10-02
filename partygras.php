@@ -7,6 +7,7 @@ $event = array(
 	"subtitle"					=>"Come Party For Those BEADS! This event will SELL OUT!",
 	"location"					=>"Chattanooga, TN",
 	"date"						=>"August 11, 2018",
+    "date_start"				=>"August 11, 2018",
 	"img_url"				 	=>"../../images/slides/splash-partygras-cta.jpg",
 	"img_alt"				 	=>"Day Getaway Cruise"
 );
@@ -102,7 +103,8 @@ include 'includes/functions.inc.php';
 				<div class="title">
 					<h1><?php echo $event["title"]; ?></h1>
 					<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-					<a data-href="#tabs-5" class="btn btn-red open-tab">Buy Now</a>
+					<a data-href="#tabs-5" class="btn btn-red open-tab">Pay or Register Now</a>
+                    <div id="event-timer"></div>
 				</div>
 			</div>
         
@@ -111,8 +113,10 @@ include 'includes/functions.inc.php';
                
         
                 <div class="date-location">
-                        <div class="col"><?php echo $event["date"]; ?></div>
-                        <div class="col"><?php echo $event["location"]; ?></div>
+                    <div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="col">
+                        <?php echo $event["date"]; ?>
+                    </div>
+                    <div class="col"><?php echo $event["location"]; ?></div>
                 </div>
         
         

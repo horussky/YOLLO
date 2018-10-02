@@ -5,6 +5,7 @@
 		"subtitle"			=>"25th Anniversary of Essence Fest...You Can't Miss This!",
 		"location"			=>"New Orleans, LA",
 		"date"				=>"July 5-7, 2019",
+        "date_start"		=>"July 5, 2019",
 		"img_url"			=>"../../images/slides/splash-essence-cta.jpg",
 		"img_alt"			=>"Essence Festival 2017"
 	);
@@ -60,7 +61,7 @@
 		"diamond_items" => array(
 			"Hotel Accommodations (Fri-Sun)"			        => "checked",
 			"One night concert ticket (Lodge Section)"	        => "checked",
-			"VIP All White Cruise "			                    => "checked",
+			"VIP All White Cruise "			                => "checked",
 			"Mid-Day Comedy Show (Sunday)"				        => "checked",
 			"Black Film Review (Sunday)"				        => "checked",
 			"Speak Easy Poetry Show (Sunday)"				    => "checked",
@@ -74,7 +75,7 @@
 		"emerald_items" => array(
 			"Hotel Accommodations (Fri-Sun)"			      => "checked",
 			"One night concert ticket (Lodge Section)"	      => "ex",
-			"VIP All White Cruise"			                  => "ex",
+			"VIP All White Cruise"			              => "ex",
 			"Mid-Day Comedy Show (Sunday)"				      => "checked",
 			"Black Film Review (Sunday)"				      => "checked",
 			"Speak Easy Poetry Show (Sunday)"				  => "checked",
@@ -131,14 +132,17 @@
 					<div class="title">
 						<h1><?php echo $event["title"]; ?></h1>
 						<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-						<a data-href="#tabs-5" class="btn btn-red open-tab">Buy Now</a>
+						<a data-href="#tabs-5" class="btn btn-red open-tab">Pay or Register Now</a>
+					    <div id="event-timer"></div>
 					</div>
 			</div>
 
             <div class="content">
 
                     <div class="date-location">
-                        <div class="col"><?php echo $event["date"]; ?></div>
+                        <div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="col">
+                            <?php echo $event["date"]; ?>
+                        </div>
                         <div class="col"><?php echo $event["location"]; ?></div>
                     </div>
 
@@ -276,7 +280,7 @@
 
 							  <div data-control>What are the payment due dates for Essence Packages?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 per person is due on or before August 28, 2018. The final payment (remaining balance) is due on or before January 04, 2019. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 per person is due on or before October 20, 2018. The final payment (remaining balance) is due on or before February 04, 2019. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

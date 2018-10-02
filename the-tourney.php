@@ -6,6 +6,7 @@ $event = array(
 	"subtitle"				=>"Book your package today!",
 	"location"				=>"Charlotte, NC",
 	"date"					=>"February 28 - March 3, 2019",
+    "date_start"			=>"February 28, 2019",
 	"img_url"				=>"../../images/slides/splash-tourney-cta.jpg",
 	"img_alt"				=>"The Tourney"
 );
@@ -114,7 +115,8 @@ include 'includes/functions.inc.php';
 					<div class="title">
 						<h1><?php echo $event["title"]; ?></h1>
 						<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-						<a data-href="#tabs-5" class="btn btn-red open-tab">Buy Now</a>
+						<a data-href="#tabs-5" class="btn btn-red open-tab">Pay or Register Now</a>
+                        <div id="event-timer"></div>
 					</div>
 				</div>
 
@@ -122,9 +124,11 @@ include 'includes/functions.inc.php';
 			<div class="content">
 
 					<div class="date-location">
-							<div class="col"><?php echo $event["date"]; ?></div>
-							<div class="col"><?php echo $event["location"]; ?></div>
-					</div>
+                        <div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="col">
+                            <?php echo $event["date"]; ?>
+                        </div>
+                        <div class="col"><?php echo $event["location"]; ?></div>
+                    </div>
 
 
 					<div class="colfull">
@@ -229,7 +233,7 @@ include 'includes/functions.inc.php';
 
 										  <div data-control>When are the payments due?</div>
 										  <div data-content>
-											<p>After registration the first payment of $125 is due August 16, 2018. The final payment (remaining balance) is due on or before January 08, 2019.</p>
+											<p>After registration the first payment of $125 is due October 1, 2018. The final payment (remaining balance) is due on or before January 08, 2019.</p>
 										  </div>
 
 										</div><!-- end of accordion-->
