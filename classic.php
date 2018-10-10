@@ -3,7 +3,7 @@
 	ob_start("ob_gzhandler");
 
 	$event = array(
-		"title"				=>"The Magic City Classic 2018",
+		"title"				=>"Classic Weekend 2018",
 		"subtitle"			=>"It's the Classsssssic!",
 		"location"			=>"Legion Field | Birmingham, AL",
 		"date"				=>"Oct 26-28, 2018",
@@ -151,7 +151,7 @@
         <div id="responsive-tabs">
 			<?php echo $responsive_tabs["overview"]; ?>
 			<div class="tab" aria-label="overview">
-				<h3>It's the CLASSIC!!!</h3>
+				<h3>It's Classic Weekend</h3>
                 <div style="max-height:300px; overflow:hidden;" class="mediummargin">
                 	<img src="images/mcc-thumb<?php echo(rand(1,4)); ?>.jpg" width="100%" />
                 </div>

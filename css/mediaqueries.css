@@ -339,7 +339,10 @@
     #right .topcontent .title h1 {
       font-size: 4rem; }
     #right .topcontent .title .btn {
-      width: 70%; }
+      width: 90%;
+      height: 6rem;
+      line-height: 3rem;
+      font-size: 2.3rem; }
 
   .content .date-location {
     text-align: center; }
@@ -447,6 +450,8 @@
       /*Hotel Address*/ }
       .hotel-grid .hg-body .hg-title {
         text-align: center; }
+        .hotel-grid .hg-body .hg-title span.sold {
+          display: block; }
       .hotel-grid .hg-body address {
         text-align: center; } }
 @media only screen and (max-width: 375px) {
