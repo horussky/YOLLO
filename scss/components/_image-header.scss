@@ -56,8 +56,33 @@
 	        animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
             animation-delay: 2s; 
         }
+        
+        #event-timer{
+            -webkit-animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation-delay: 2.5s; 
+        }
 		
-	}
+	}//end of title
+    
+    #event-timer{
+        height: 4rem;
+        
+        span{
+            display: inline-block;
+            font-size: 2rem;
+            text-align: center;
+            width:6rem;
+            font-family:"opensans-bold", Arial, sans-serif;
+            color: #fff;
+            
+            em{
+                display: block;
+                font-size: 1.2rem;
+                font-family:"opensans", Arial, sans-serif;
+            }
+        }
+    } //end of event-timer
 }
 
 

@@ -4,9 +4,10 @@ ob_start("ob_gzhandler");
 
 $event = array(
 	"title"						=>"Alumni Getaway",
-	"subtitle"					=>"$100 off until June 15th Book Today!",
+	"subtitle"					=>"Book Today!",
 	"location"					=>"Cozumel, Mexico",
 	"date"						=>"December 6-10, 2018",
+    "date_start"				=>"December 6, 2018",
 	"img_url"				 	=>"../../images/slides/splash-alumni-cta.jpg",
 	"img_alt"				 	=>"Alumni Getaway"
 );
@@ -110,7 +111,8 @@ include 'includes/functions.inc.php';
 				<div class="title">
 					<h1><?php echo $event["title"]; ?></h1>
 					<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-					<a data-href="#tabs-5" class="btn btn-red open-tab">Buy Now</a>
+					<a data-href="#tabs-5" class="btn btn-red open-tab">Pay or Register Now</a>
+					<div id="event-timer"></div>
 				</div>
 			</div>
         
@@ -119,8 +121,10 @@ include 'includes/functions.inc.php';
                
         
                 <div class="date-location">
-                        <div class="col"><?php echo $event["date"]; ?></div>
-                        <div class="col"><?php echo $event["location"]; ?></div>
+                    <div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="col">
+                        <?php echo $event["date"]; ?>
+                    </div>
+                    <div class="col"><?php echo $event["location"]; ?></div>
                 </div>
         
         
@@ -257,7 +261,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>When are the payments due?</div>
 							  <div data-content>
-								<p>After registration of $29.99 per person the first payment of $125 is due <strong>by August 28, 2018</strong> . The final payment (remaining balance) is due on or before <strong>September 29, 2018</strong> . If the announced payment dates have passed contact us for our current payment plan.</p>
+								<p>$150 is due for registration per person<strong> at sign-up</strong>. The next payment of $200 is due on or before <strong>September 29, 2018</strong> . The final payment (remaining balance) is due on or before <strong>November 14, 2018</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

@@ -2,6 +2,7 @@
 /*Variables*/
 /* http://meyerweb.com/eric/tools/css/reset/ */
 @import url(https://fonts.googleapis.com/css?family=Sansita+One);
+@import url(https://fonts.googleapis.com/css?family=Sansita:800,800i);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
   margin: 0;
@@ -96,12 +97,12 @@ strong, b {
 @font-face {
   font-family: 'opensans-lite';
   src: url("../fonts/opensans-light-webfont.eot");
-  src: url("../fonts/opensans-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-light-webfont.woff") format("woff"), url("../fonts/opensans-light-webfont.ttf") format("truetype"), url("../fonts/opensans-light-webfont.svg#opensans-light") format("svg"); }
+  src: url("../fonts/opensans-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-light-webfont.woff") format("woff"), url("../fonts/opensans-light-webfont.svg#opensans-light") format("svg"), url("../fonts/opensans-light-webfont.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'opensans';
   src: url("../fonts/opensans-regular-webfont.eot");
-  src: url("../fonts/opensans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-regular-webfont.woff") format("woff"), url("../fonts/opensans-regular-webfont.ttf") format("truetype"), url("../fonts/opensans-regular-webfont.svg#opensans-regular") format("svg"); }
+  src: url("../fonts/opensans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-regular-webfont.woff") format("woff"), url("../fonts/opensans-regular-webfont.svg#opensans-regular") format("svg"), url("../fonts/opensans-regular-webfont.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'opensans-bold';
@@ -145,7 +146,7 @@ h5 {
 p {
   font-family: "opensans", san-serif;
   line-height: 1.5;
-  margin-bottom: 1.6rem; }
+  margin-bottom: 2.4rem; }
 
 ul,
 ol {
@@ -376,15 +377,18 @@ html {
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-transition: all 0.15s ease;
-  -o-transition: all 0.15s ease;
-  transition: all 0.15s ease; }
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease; }
 
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease; }
 
 body {
   font-family: "opensans", Arial, sans-serif;
@@ -393,14 +397,18 @@ body {
   font-size: 1.6rem;
   -webkit-transition: all 0.45s ease;
   -o-transition: all 0.45s ease;
-  transition: all 0.45s ease; }
+  transition: all 0.45s ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 a {
   color: #0065a2;
-  text-decoration: underline; }
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 101, 162, 0.25); }
   a:hover {
-    text-decoration: underline;
-    color: #09a2ff; }
+    color: #09a2ff;
+    cursor: pointer;
+    border-bottom: 1px solid #09a2ff; }
 
 a.chev-link:after {
   content: ' ›';
@@ -430,7 +438,7 @@ a.chev-link:hover:after {
 /* RIGHT CONTENT */
 #right {
   width: 60%;
-  padding: 20px;
+  padding: 2rem;
   padding-top: 0;
   float: left; }
 
@@ -443,32 +451,14 @@ a.chev-link:hover:after {
   width: 100%;
   float: left;
   margin-bottom: 20px; }
+  .content .title {
+    margin-top: 0; }
 
 /*Right Main | Left Column*/
 #right .left-col {
   width: 50%;
   float: left;
   padding-right: 20px; }
-
-#right .topcontent {
-  width: 100%;
-  height: 300px;
-  float: left;
-  padding: 0;
-  clear: both;
-  margin-bottom: 10px;
-  overflow: hidden;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center; }
-
-#right .topcontent img {
-  width: 100%; }
 
 .topinfo,
 .left-col .about {
@@ -637,7 +627,7 @@ textarea {
   overflow: auto;
   width: 100%; }
 
-/*input{							width:296px;}*/
+/*input{ width:296px;}*/
 input.email {
   width: 285px; }
 
@@ -767,8 +757,9 @@ li.phone {
   width: 280px; }
 
 .headline {
-  font-family: "Sansita One", cursive, "PT Serif Caption", sans-serif;
-  font-weight: normal;
+  font-family: "Sansita", cursive, "PT Serif Caption", sans-serif;
+  font-weight: 800;
+  font-style: italic;
   font-size: 60px;
   line-height: 1.1;
   text-align: justify;
@@ -887,54 +878,50 @@ h4 .soldout {
   display: block;
   overflow: hidden;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
-
-.header .left {
-  width: 60%;
-  float: left;
-  text-align: left; }
-  .header .left img {
-    max-width: 15rem; }
-
-.header .right {
-  width: 40%;
-  float: left;
-  text-align: right;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-  -ms-flex-align: end;
-  align-items: flex-end;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex; }
-
-.header .right ul.top-nav {
-  display: block;
-  float: right;
-  font-size: .9em;
-  text-transform: uppercase;
-  margin-bottom: .75em;
-  list-style: none; }
-
-.header .right .top-nav li {
-  float: left;
-  margin-right: 2rem; }
-  .header .right .top-nav li:last-of-type {
-    margin-right: 0; }
-  .header .right .top-nav li a {
-    text-decoration: none;
-    padding: 1em 0 .5em;
-    color: #333; }
-    .header .right .top-nav li a.active-nav {
-      color: #9E1421;
-      background: #fff; }
+  .header .left {
+    width: 50%;
+    float: left;
+    text-align: left;
+    display: block; }
+    .header .left .logo a {
+      border-bottom: none; }
+    .header .left img {
+      max-width: 15rem; }
+  .header .right {
+    width: 50%;
+    float: left;
+    text-align: right;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .header .right ul.top-nav {
+      display: block;
+      float: right;
+      font-size: .9em;
+      text-transform: uppercase;
+      margin-bottom: .75em;
+      list-style: none; }
+    .header .right .top-nav li {
+      float: left;
+      margin-right: 2rem; }
+      .header .right .top-nav li:last-of-type {
+        margin-right: 0; }
+      .header .right .top-nav li a {
+        text-decoration: none;
+        padding: 1em 0 .5em;
+        color: #333;
+        border-bottom: none; }
+        .header .right .top-nav li a.active-nav {
+          color: #9E1421;
+          background: #fff; }
 
 .top-nav .hvr-underline-from-center:before {
   background: #9E1421; }
@@ -949,9 +936,7 @@ h4 .soldout, em.soldout {
   text-transform: uppercase; }
 
 .small {
-  display: block;
-  font-size: 0.85em;
-  color: #666; }
+  font-size: 85%; }
 
 /*upcoming events*/
 #upcoming-events h4,
@@ -960,7 +945,8 @@ h4 .soldout, em.soldout {
 
 #upcoming-events .event a {
   display: block;
-  position: relative; }
+  position: relative;
+  border-bottom: none; }
 
 #upcoming-events .event a:not(.learnmore) {
   background-color: #000;
@@ -1029,6 +1015,64 @@ hr {
   max-width: 100%;
   height: auto; }
 
+.mt-5 {
+  margin-top: 0.5rem; }
+
+.mt-10 {
+  margin-top: 1rem; }
+
+.mt-20 {
+  margin-top: 2rem; }
+
+.ml-5 {
+  margin-left: 0.5rem; }
+
+.ml-10 {
+  margin-left: 1rem; }
+
+.ml-20 {
+  margin-left: 2rem; }
+
+.mb-5 {
+  margin-bottom: 0.5rem; }
+
+.mb-10 {
+  margin-bottom: 1rem; }
+
+.mb-20 {
+  margin-bottom: 2rem; }
+
+.mr-5 {
+  margin-right: 0.5rem; }
+
+.mr-10 {
+  margin-right: 1rem; }
+
+.mr-20 {
+  margin-right: 2rem; }
+
+.close-x {
+  width: 32px;
+  height: 32px;
+  opacity: 0.3; }
+  .close-x:hover {
+    opacity: 1; }
+  .close-x:before, .close-x:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333; }
+  .close-x:before {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg); }
+  .close-x:after {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
+
 /*Remove Cognito Logo from Form*/
 .cognito form + div {
   opacity: 0 !important;
@@ -1076,6 +1120,26 @@ hr {
 .col-1 {
   width: 8.33333333%; }
 
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.container {
+  display: block;
+  max-width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+@media only screen and (max-width: 767px) {
+  .container {
+    width: auto;
+    margin-left: 1em;
+    margin-right: 1em; } }
+
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
  * Version: 2.0.2
@@ -1095,8 +1159,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -1121,8 +1185,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -1163,8 +1227,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale; }
@@ -1195,8 +1259,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale; }
@@ -1229,8 +1293,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale; }
@@ -1269,8 +1333,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale; }
@@ -1301,8 +1365,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale; }
@@ -1323,8 +1387,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -1346,8 +1410,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -1369,8 +1433,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -1395,8 +1459,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -1421,8 +1485,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -1450,8 +1514,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -1511,8 +1575,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale; }
@@ -1571,8 +1635,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale; }
@@ -1599,8 +1663,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -1625,8 +1689,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -1654,8 +1718,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -1723,8 +1787,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale; }
@@ -1785,8 +1849,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale; }
@@ -1847,8 +1911,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale; }
@@ -1909,8 +1973,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale; }
@@ -1971,8 +2035,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -2036,8 +2100,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -2101,8 +2165,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale; }
@@ -2139,8 +2203,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale; }
@@ -2225,8 +2289,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale; }
@@ -2248,8 +2312,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -2279,8 +2343,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -2313,8 +2377,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -2368,8 +2432,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -2423,8 +2487,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -2478,8 +2542,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -2533,8 +2597,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -2591,8 +2655,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -2649,8 +2713,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -2707,8 +2771,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -2765,8 +2829,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -2820,8 +2884,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -2875,8 +2939,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -2928,8 +2992,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -2981,8 +3045,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3037,8 +3101,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3093,8 +3157,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3149,8 +3213,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3206,8 +3270,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3220,13 +3284,13 @@ hr {
   -o-transition-property: box-shadow;
   transition-property: box-shadow;
   transition-property: box-shadow, -webkit-box-shadow;
-  -webkit-box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px transparent;
-  box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px transparent;
+  -webkit-box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);
   /* Hack to improve aliasing on mobile/tablet devices */ }
 
 .hvr-border-fade:hover, .hvr-border-fade:focus, .hvr-border-fade:active {
-  -webkit-box-shadow: inset 0 0 0 4px #2098d1, 0 0 1px transparent;
-  box-shadow: inset 0 0 0 4px #2098d1, 0 0 1px transparent;
+  -webkit-box-shadow: inset 0 0 0 4px #2098d1, 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: inset 0 0 0 4px #2098d1, 0 0 1px rgba(0, 0, 0, 0);
   /* Hack to improve aliasing on mobile/tablet devices */ }
 
 /* Hollow */
@@ -3235,8 +3299,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3246,8 +3310,8 @@ hr {
   -webkit-transition-property: background;
   -o-transition-property: background;
   transition-property: background;
-  -webkit-box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px transparent;
-  box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px transparent;
+  -webkit-box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);
   /* Hack to improve aliasing on mobile/tablet devices */ }
 
 .hvr-hollow:hover, .hvr-hollow:focus, .hvr-hollow:active {
@@ -3259,8 +3323,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3307,8 +3371,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3351,8 +3415,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3380,8 +3444,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3414,8 +3478,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3451,8 +3515,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3472,8 +3536,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3508,8 +3572,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3545,8 +3609,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3581,8 +3645,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3617,8 +3681,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3654,8 +3718,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3690,8 +3754,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3731,8 +3795,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3775,8 +3839,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3820,8 +3884,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3845,8 +3909,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3870,8 +3934,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3898,8 +3962,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3923,8 +3987,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3937,13 +4001,13 @@ hr {
   -o-transition-property: box-shadow;
   transition-property: box-shadow;
   transition-property: box-shadow, -webkit-box-shadow;
-  -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.6), 0 0 1px transparent;
-  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.6), 0 0 1px transparent;
+  -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0);
   /* Hack to improve aliasing on mobile/tablet devices */ }
 
 .hvr-box-shadow-inset:hover, .hvr-box-shadow-inset:focus, .hvr-box-shadow-inset:active {
-  -webkit-box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.6), 0 0 1px transparent;
-  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.6), 0 0 1px transparent;
+  -webkit-box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0);
   /* Hack to improve aliasing on mobile/tablet devices */ }
 
 /* Float Shadow */
@@ -3952,8 +4016,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -3978,10 +4042,9 @@ hr {
   height: 10px;
   width: 90%;
   opacity: 0;
-  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
-  background: -webkit-radial-gradient(center ellipse, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
-  background: -o-radial-gradient(center ellipse, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
-  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  background: -o-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
   /* W3C */
   -webkit-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
@@ -4012,8 +4075,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -4039,17 +4102,15 @@ hr {
 
 .hvr-shadow-radial:before {
   bottom: 100%;
-  background: -webkit-radial-gradient(50% 150%, ellipse, rgba(0, 0, 0, 0.6) 0%, transparent 80%);
-  background: -webkit-radial-gradient(50% 150% ellipse, rgba(0, 0, 0, 0.6) 0%, transparent 80%);
-  background: -o-radial-gradient(50% 150% ellipse, rgba(0, 0, 0, 0.6) 0%, transparent 80%);
-  background: radial-gradient(ellipse at 50% 150%, rgba(0, 0, 0, 0.6) 0%, transparent 80%); }
+  background: -webkit-radial-gradient(50% 150%, ellipse, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+  background: -o-radial-gradient(50% 150%, ellipse, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at 50% 150%, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%); }
 
 .hvr-shadow-radial:after {
   top: 100%;
-  background: -webkit-radial-gradient(50% -50%, ellipse, rgba(0, 0, 0, 0.6) 0%, transparent 80%);
-  background: -webkit-radial-gradient(50% -50% ellipse, rgba(0, 0, 0, 0.6) 0%, transparent 80%);
-  background: -o-radial-gradient(50% -50% ellipse, rgba(0, 0, 0, 0.6) 0%, transparent 80%);
-  background: radial-gradient(ellipse at 50% -50%, rgba(0, 0, 0, 0.6) 0%, transparent 80%); }
+  background: -webkit-radial-gradient(50% -50%, ellipse, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+  background: -o-radial-gradient(50% -50%, ellipse, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at 50% -50%, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%); }
 
 .hvr-shadow-radial:hover:before, .hvr-shadow-radial:focus:before, .hvr-shadow-radial:active:before, .hvr-shadow-radial:hover:after, .hvr-shadow-radial:focus:after, .hvr-shadow-radial:active:after {
   opacity: 1; }
@@ -4061,8 +4122,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -4099,8 +4160,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -4137,8 +4198,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -4175,8 +4236,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -4213,8 +4274,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -4264,8 +4325,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -4315,8 +4376,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -4366,8 +4427,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -4418,8 +4479,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -4461,8 +4522,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -4527,8 +4588,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -4581,8 +4642,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -4612,8 +4673,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -4673,8 +4734,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -4715,8 +4776,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -4764,8 +4825,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -4815,8 +4876,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -4851,8 +4912,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -4893,8 +4954,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -4952,8 +5013,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -4998,8 +5059,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -5046,8 +5107,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -5094,8 +5155,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -5152,8 +5213,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -5200,8 +5261,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -5246,8 +5307,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -5289,8 +5350,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -5332,8 +5393,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -5375,8 +5436,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -5450,8 +5511,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -5524,8 +5585,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -5606,8 +5667,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -5682,8 +5743,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -5734,8 +5795,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -5834,8 +5895,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -5871,8 +5932,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -5913,8 +5974,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -5952,8 +6013,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -5991,8 +6052,8 @@ hr {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -6030,10 +6091,9 @@ a.btn {
 
 .btn {
   display: inline-block;
-  padding: 1em 1.25em;
-  margin-bottom: 1em;
+  padding: 1.25rem 2.4rem;
+  margin-bottom: 1.6rem;
   font-weight: 400;
-  line-height: 1.42857143;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -6046,9 +6106,11 @@ a.btn {
   user-select: none;
   background-image: none;
   border: 1px solid transparent;
+  border-radius: 4px;
   font-size: 1.6rem;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  min-width: 14.5rem; }
   .btn:hover {
     -webkit-transition: -webkit-box-shadow .35s;
     transition: -webkit-box-shadow .35s;
@@ -6226,6 +6288,7 @@ aside .btn {
   line-height: 3;
   color: #222;
   text-decoration: none;
+  border-bottom: none;
   text-transform: uppercase;
   display: block;
   height: 3em;
@@ -6246,6 +6309,12 @@ aside .btn {
   background: #000; }
 
 /*mobile select at desktop*/
+.pushy-open-right #container #right {
+  margin-top: 0; }
+
+.pushy-open-right #nav-icon {
+  display: none; }
+
 .toggle-panel {
   display: none; }
 
@@ -6260,6 +6329,14 @@ aside .btn {
   width: 100%;
   margin-bottom: 1em;
   clear: both; }
+  #accordion section :not(h2) {
+    display: none; }
+  #accordion section .active + ul,
+  #accordion section .active + p + ul,
+  #accordion section .active + ul li,
+  #accordion section .active + p + ul li,
+  #accordion section .active + p + p + ul li {
+    display: block; }
 
 #accordion section {
   text-align: left;
@@ -6289,6 +6366,9 @@ aside .btn {
 
 #accordion .active ~ p {
   display: block; }
+
+#accordion .active ~ p strong {
+  display: inline-block; }
 
 #accordion section span {
   position: absolute;
@@ -6339,9 +6419,18 @@ aside .btn {
 
 #accordion ul {
   display: block;
-  list-style: disc outside none; }
+  list-style: none;
+  margin-bottom: 2rem; }
   #accordion ul li {
-    margin-left: 2rem; }
+    margin-left: 0rem;
+    margin-bottom: 1rem;
+    padding-left: 0rem;
+    position: relative; }
+    #accordion ul li:before {
+      content: '\2022';
+      margin-left: -2rem;
+      position: absolute;
+      font-size: 1.6rem; }
 
 /*Pure CSS Accordion*/
 .accordion-container {
@@ -6433,15 +6522,12 @@ aside .btn {
 
 /*Date Location*/
 .date-location {
-  font-family: "opensans", Arial, sans-serif;
-  font-size: 1.125em;
+  font-size: 1.6rem;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
   width: 100%;
@@ -6453,8 +6539,10 @@ aside .btn {
   padding: 10px; }
 
 .date-location .col:nth-child(1) {
-  background: #a31523;
-  border-left: 5px solid #000; }
+  background: #6f6c6c;
+  border-left: 5px solid #000;
+  font-family: "opensans-lite", Arial, sans-serif;
+  text-shadow: 1px 2px 1px #444; }
 
 .date-location .col:nth-child(1):before {
   font-family: "fontAwesome";
@@ -6464,9 +6552,9 @@ aside .btn {
 .date-location .col:nth-child(2) {
   background: #000;
   -webkit-box-flex: 2;
-  -webkit-flex-grow: 2;
   -ms-flex-positive: 2;
-  flex-grow: 2; }
+  flex-grow: 2;
+  font-family: "opensans-lite", Arial, sans-serif; }
 
 .date-location .col:nth-child(2):before {
   font-family: "fontAwesome";
@@ -7563,6 +7651,58 @@ form .checkbox {
   padding: 1em;
   overflow: hidden; }
 
+#responsive-tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  #responsive-tabs > label {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    display: block;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-weight: bold;
+    -webkit-transition: background ease 0.2s;
+    -o-transition: background ease 0.2s;
+    transition: background ease 0.2s;
+    margin-bottom: 0;
+    color: #0065a2;
+    font-family: "opensans-lite", sans-serif;
+    font-size: 1.8rem; }
+    #responsive-tabs > label:hover {
+      color: #222; }
+  #responsive-tabs .tab {
+    -webkit-box-ordinal-group: 100;
+    -ms-flex-order: 99;
+    order: 99;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    width: 100%;
+    display: none;
+    padding: 2rem 1rem 1rem;
+    background: #fff; }
+  #responsive-tabs input[type="radio"] {
+    display: none; }
+  #responsive-tabs input[type="radio"]:checked + label {
+    color: #222;
+    border: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
+    background: #fff;
+    margin-bottom: -1px;
+    position: relative;
+    z-index: 9;
+    -webkit-box-shadow: 0 -3px 0 0 #9e1421;
+    box-shadow: 0 -3px 0 0 #9e1421; }
+  #responsive-tabs input[type="radio"]:checked + label + .tab {
+    display: block;
+    border-top: 1px solid #ccc; }
+  #responsive-tabs input[type=radio] + label i {
+    display: none; }
+
 /*! fancyBox v2.1.4 fancyapps.com | fancyapps.com/fancybox/#license */
 .fancybox-wrap,
 .fancybox-skin,
@@ -7665,7 +7805,7 @@ form .checkbox {
   text-decoration: none;
   background: transparent url("../images/blank.gif");
   /* helps IE */
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   z-index: 8040; }
 
 .fancybox-prev {
@@ -7855,35 +7995,153 @@ form .checkbox {
 /*Flex Sticky Footer*/
 body {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
   height: 100vh; }
 
 #wrap {
   -webkit-box-flex: 1;
-  -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto; }
 
 footer {
-  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   /* 2 */ }
 
 /*Footer Styles*/
 footer {
-  padding: 2rem;
-  width: 100%;
   background: #222;
-  font-size: 1.3rem;
-  overflow: hidden; }
+  width: 100%;
+  padding: 4rem 0; }
+  @supports (display: grid) {
+    footer .footer-grid {
+      display: block; } }
+  footer a {
+    display: inline-block;
+    overflow: hidden;
+    border-bottom: none; }
+  footer .footer-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: -ms-grid;
+    -ms-grid-template-columns: repeat(4, 30rem);
+    -ms-grid-columns: 30rem 2rem 30rem 2rem 30rem 2rem 30rem;
+    display: grid;
+    grid-template-columns: repeat(4, 30rem);
+    grid-gap: 2rem 1.5rem;
+    grid-template-areas: "foot-about foot-events foot-contact foot-sponsor"; }
+  footer .foot-about {
+    -ms-grid-area: foot-about;
+    -ms-grid-column: 1;
+    grid-area: foot-about;
+    grid-column: 1; }
+    footer .foot-about *:not(h5) {
+      font-size: 1.4rem; }
+  footer .foot-events {
+    -ms-grid-area: foot-events;
+    -ms-grid-column: 3;
+    grid-area: foot-events;
+    grid-column: 2; }
+    footer .foot-events .event {
+      display: -ms-grid;
+      -ms-grid-template-areas: "event-img event-content";
+      -ms-grid-columns: 10rem 1rem 1fr;
+      -ms-grid-gap: 0 1.5rem;
+      display: grid;
+      grid-template-areas: "event-img event-content";
+      grid-template-columns: 10rem 1fr;
+      grid-gap: 0 1.5rem;
+      margin-bottom: 2rem; }
+      footer .foot-events .event .event-img {
+        -ms-grid-area: event-img;
+        -ms-grid-column: 1;
+        grid-area: event-img;
+        grid-column: 1; }
+        footer .foot-events .event .event-img a:hover {
+          border-bottom: none; }
+      footer .foot-events .event .event-content {
+        -ms-grid-area: event-content;
+        -ms-grid-column: 3;
+        grid-area: event-content;
+        grid-column: 2; }
+        footer .foot-events .event .event-content * {
+          margin-bottom: 0;
+          font-size: 1.4rem; }
+    footer .foot-events img {
+      width: 9.5rem; }
+  footer .foot-contact {
+    -ms-grid-area: foot-contact;
+    -ms-grid-column: 5;
+    grid-area: foot-contact;
+    grid-column: 3; }
+    footer .foot-contact * {
+      font-size: 1.4rem; }
+    footer .foot-contact ul {
+      list-style: none;
+      margin-left: 0;
+      padding-left: 2.2rem; }
+      footer .foot-contact ul > li {
+        margin-bottom: 1rem; }
+      footer .foot-contact ul .foot-share-links a:hover {
+        border-bottom: none; }
+      footer .foot-contact ul .fa-2x {
+        margin-right: 1rem; }
+      footer .foot-contact ul .fa-instagram {
+        color: #c32aa3; }
+      footer .foot-contact ul .fa-facebook-square {
+        color: #3b5998; }
+      footer .foot-contact ul .fa-twitter-square {
+        color: #00b6f1; }
+      footer .foot-contact ul .fa-snapchat {
+        color: #fffc00; }
+  footer .foot-sponsor {
+    -ms-grid-area: foot-sponsor;
+    -ms-grid-column: 7;
+    grid-area: foot-sponsor;
+    grid-column: 4; }
+    footer .foot-sponsor .sponsors {
+      display: -ms-grid;
+      -ms-grid-columns: 10rem 1rem 10rem;
+      -ms-grid-rows: 1fr;
+      display: grid;
+      grid-template-columns: 33% 33%;
+      grid-gap: 0 1rem; }
+      footer .foot-sponsor .sponsors a {
+        display: inline-block; }
+        footer .foot-sponsor .sponsors a:nth-of-type(1) {
+          -ms-grid-row: 1;
+          -ms-grid-column: 1; }
+        footer .foot-sponsor .sponsors a:nth-of-type(2) {
+          -ms-grid-row: 1;
+          -ms-grid-column: 3; }
+        footer .foot-sponsor .sponsors a:nth-of-type(3) {
+          -ms-grid-row: 2;
+          -ms-grid-column: 1; }
+        footer .foot-sponsor .sponsors a:nth-of-type(4) {
+          -ms-grid-row: 2;
+          -ms-grid-column: 3; }
+        footer .foot-sponsor .sponsors a:nth-of-type(5) {
+          -ms-grid-row: 3;
+          -ms-grid-column: 1; }
+        footer .foot-sponsor .sponsors a:nth-of-type(6) {
+          -ms-grid-row: 3;
+          -ms-grid-column: 3; }
+      footer .foot-sponsor .sponsors img {
+        width: 100%; }
+  footer .foot-copyright {
+    -ms-grid-area: foot-copyright;
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 4;
+    grid-area: foot-copyright;
+    grid-row: 2;
+    grid-column: 2 / span 2;
+    text-align: center; }
 
 footer,
 footer * {
@@ -7902,97 +8160,37 @@ footer a {
 footer a:hover {
   text-decoration: none; }
 
-.foot-wrap {
-  display: block;
+.price-table-container {
+  display: grid;
+  grid-gap: 2rem 2rem;
+  grid-auto-columns: auto;
+  grid-auto-flow: column;
+  display: -ms-grid;
+  -ms-grid-columns: 48% 4% 48%; }
+
+.price-table:first-child {
+  grid-column: 1;
+  -ms-grid-column: 1; }
+
+.price-table:last-child {
+  grid-column: 2;
+  -ms-grid-column: 3; }
+
+.price-table:only-of-type {
+  grid-column: 1;
+  -ms-grid-column: 1; }
+
+.price-table li:not(.header) {
+  text-align: center;
   margin: 0 auto;
-  width: 1200px; }
+  display: block; }
 
-.foot-header {
+.price-table li:last-of-type {
+  padding: 0 2rem; }
+
+.price-table:only-of-type .priceblock li span {
   display: block;
-  margin-bottom: 20px;
-  position: relative; }
-
-.footer-logo {
-  width: 150px; }
-
-.footer-logo img {
-  width: 100%;
-  height: auto;
-  margin-left: -10px; }
-
-.foot-slogan {
-  position: absolute;
-  top: 24px;
-  left: 140px;
-  width: 300px;
-  color: #888888; }
-
-.foot-affiliates {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
-  .foot-affiliates strong {
-    text-transform: uppercase; }
-
-.foot-columns {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  overflow: hidden;
-  margin-bottom: 3rem; }
-
-.foot-columns .foot-col1,
-.foot-columns .foot-col2,
-.foot-columns .foot-col3 {
-  float: left;
-  width: 40rem; }
-
-.foot-columns .foot-col1 p,
-.foot-columns .foot-col2 p,
-.foot-columns .foot-col3 p {
-  font-weight: 700;
-  font-size: 1.6rem; }
-
-.foot-columns .foot-col1,
-.foot-columns .foot-col2 {
-  padding-right: 20px;
-  border-right: 1px solid #555; }
-
-.foot-columns .foot-col2,
-.foot-columns .foot-col3 {
-  padding-left: 20px; }
-
-.foot-col3 a:not(:last-child) {
-  margin-right: 1rem; }
-
-.price-table {
-  float: left;
-  width: 45%;
-  margin-right: 2rem;
-  margin-bottom: 2rem; }
-  .price-table:nth-of-type(1) {
-    float: right;
-    margin-right: 0; }
-  .price-table:only-of-type {
-    float: none;
-    width: 100%; }
-    .price-table:only-of-type li:not(.header) {
-      text-align: center;
-      margin: 0 auto;
-      display: block;
-      padding-left: 20%;
-      padding-right: 20%; }
-    .price-table:only-of-type li:last-of-type {
-      padding: 0 2rem; }
-  .price-table:only-of-type .priceblock li span {
-    display: block;
-    width: 100%; }
+  width: 100%; }
 
 /* Style the list */
 .price-table .price {
@@ -8001,29 +8199,29 @@ footer a:hover {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  margin-left: 0;
   /* Add shadows on hover */
   /* Pricing header */ }
   .price-table .price:hover {
     -webkit-box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2); }
-  .price-table .price .header {
+  .price-table .price > .header {
     text-align: center;
     color: #111;
     font-size: 2rem;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     padding-top: 2rem;
     padding-bottom: 3rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
     text-transform: uppercase;
-    font-weight: 700; }
-    .price-table .price .header span {
+    font-weight: 700;
+    position: relative; }
+    .price-table .price > .header span {
       width: 100%;
       display: block;
       font-size: 1.4rem;
@@ -8037,7 +8235,6 @@ footer a:hover {
   font-size: 1.6rem;
   width: 100%;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   font-weight: 400;
@@ -8045,36 +8242,41 @@ footer a:hover {
   .price-table .price > li .btn {
     margin: 2rem auto;
     padding: 1rem 4rem; }
+  .price-table .price > li.checked, .price-table .price > li.ex {
+    display: block;
+    padding-left: 4rem; }
 
 .price-table .price li.checked:before {
   content: "\f00c";
   font-family: "fontAwesome";
   color: #4CAF50;
-  margin-right: 1rem; }
+  margin-left: -2rem;
+  position: absolute; }
 
 .price-table .price li.ex:before {
   content: "\f00d";
   font-family: "fontAwesome";
   color: #A31523;
-  margin-right: 1.25rem; }
+  margin-left: -2rem;
+  position: absolute; }
 
 .price-table .price > li:nth-child(even) {
   background: #F4F4F4; }
 
 .people-price ul {
   margin-bottom: none;
-  border-bottom: none; }
+  margin-left: 0;
+  border-bottom: none;
+  width: 100%; }
   .people-price ul li {
     margin-left: 0;
     background: none;
     padding: 1rem 2rem;
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
     font-size: 1.4rem;
@@ -8083,21 +8285,20 @@ footer a:hover {
     .people-price ul li span {
       width: 100%;
       font-size: 2rem;
-      font-weight: 700; }
+      font-weight: 700;
+      display: block; }
       .people-price ul li span em {
         font-weight: 700;
         font-size: 1.2rem; }
 
 .hotel-box-container {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-flow: row nowrap;
-  -ms-flex-flow: row nowrap;
-  flex-flow: row nowrap; }
+  display: grid;
+  grid-auto-columns: minmax(25%, 100%);
+  grid-auto-flow: column;
+  grid-gap: 0 2rem;
+  display: -ms-grid;
+  -ms-grid-columns: 48% 4% 48%;
+  margin-bottom: 4rem; }
 
 .hotel-box * {
   -webkit-box-sizing: border-box;
@@ -8105,15 +8306,7 @@ footer a:hover {
 
 .hotel-box {
   position: relative;
-  margin-bottom: 2rem;
   overflow: hidden;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -webkit-flex-basis: 45%;
-  -ms-flex-preferred-size: 45%;
-  flex-basis: 45%;
   color: #ffffff;
   text-align: left;
   font-size: 1.6rem;
@@ -8121,8 +8314,23 @@ footer a:hover {
   background-repeat: no-repeat;
   background-position: center;
   -o-object-fit: cover;
-  object-fit: cover;
-  padding: 1rem; }
+  object-fit: cover; }
+  .hotel-box:first-child {
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+    grid-column: 1;
+    grid-row: 1; }
+  .hotel-box:last-child {
+    -ms-grid-column: 3;
+    -ms-grid-row: 1;
+    grid-column: 2;
+    grid-row: 1; }
+  .hotel-box:only-of-type {
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1;
+    grid-row: 1; }
   .hotel-box:before {
     font-family: "fontAwesome";
     content: "\f236";
@@ -8151,6 +8359,9 @@ footer a:hover {
 
 .hotel-box img {
   vertical-align: top;
+  height: 15rem;
+  max-height: 15rem;
+  width: 100%;
   /*height: 25rem;
   object-fit: cover;*/ }
 
@@ -8168,8 +8379,45 @@ footer a:hover {
 .hotel-box h5 {
   font-weight: normal; }
 
+.hotel-grid {
+  display: grid;
+  grid-template-areas: "hotel-image hotel-body";
+  grid-template-columns: 30% 1fr;
+  border: 1px solid #eee;
+  -webkit-box-shadow: inset -5px 0px 0 0px #9E1421;
+  box-shadow: inset -5px 0px 0 0px #9E1421;
+  border-radius: 1px;
+  margin-bottom: 4rem;
+  /*hotel image*/
+  /*hotel content*/ }
+  .hotel-grid .hg-img {
+    grid-area: hotel-image; }
+    .hotel-grid .hg-img figure {
+      height: 100%; }
+  .hotel-grid .hg-body {
+    grid-area: hotel-body;
+    padding: 3rem 2rem 4rem;
+    /*Hotel Address*/ }
+    .hotel-grid .hg-body .hg-title {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      font-weight: 700; }
+      .hotel-grid .hg-body .hg-title span.sold {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        color: #9E1421; }
+    .hotel-grid .hg-body address {
+      color: #666;
+      font-size: 1.4rem; }
+      .hotel-grid .hg-body address i {
+        color: #9E1421;
+        margin-right: 0.5rem; }
+
 .nav .home {
   background-position: -200px 0; }
+
+#intro {
+  margin-bottom: 4rem; }
 
 .response,
 .ui-dialog {
@@ -8189,15 +8437,19 @@ footer a:hover {
   list-style: none;
   overflow: hidden;
   width: 100%;
-  max-height: 350px;
+  max-height: 35rem;
+  height: 35rem;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  margin-bottom: 2rem; }
   .rslides img {
     display: block;
-    height: auto;
+    height: 100%;
     float: left;
     width: 100%;
-    border: 0; }
+    border: 0;
+    -o-object-fit: cover;
+    object-fit: cover; }
 
 .rslides li {
   -webkit-backface-visibility: hidden;
@@ -8230,6 +8482,84 @@ footer a:hover {
   background: #222;
   padding: 1rem 0;
   overflow: hidden; }
+
+#right .topcontent {
+  width: 100%;
+  min-height: 30rem;
+  padding: 0;
+  margin-bottom: 0;
+  background-position: top center;
+  background-size: cover;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  #right .topcontent .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6; }
+  #right .topcontent .title {
+    text-align: center;
+    line-height: 1;
+    font-weight: 700;
+    -ms-flex-item-align: center;
+    align-self: center;
+    width: 100%;
+    padding: 0 14rem;
+    position: relative;
+    z-index: 99; }
+    #right .topcontent .title h1 {
+      font-family: "Sansita", cursive, "PT Serif Caption", sans-serif;
+      font-size: 4.5rem;
+      font-weight: 800;
+      font-style: italic;
+      color: #fff;
+      margin-bottom: 2rem;
+      -webkit-animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      -webkit-animation-delay: 1s;
+      animation-delay: 1s; }
+    #right .topcontent .title .subtitle {
+      font-family: 'opensans-lite', sans-serif;
+      font-size: 1.4rem;
+      color: #fff;
+      margin-bottom: 2rem;
+      -webkit-animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      -webkit-animation-delay: 1.5s;
+      animation-delay: 1.5s; }
+    #right .topcontent .title .btn {
+      -webkit-animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      -webkit-animation-delay: 2s;
+      animation-delay: 2s; }
+
+@-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1; } }
+
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1; } }
 
 /*! Pushy - v1.1.0 - 2017-1-30
 * Pushy is a responsive off-canvas navigation menu using CSS transforms & transitions.
@@ -8406,6 +8736,31 @@ footer a:hover {
     -ms-transform: translateY(-50%) rotate(90deg);
     transform: translateY(-50%) rotate(90deg); }
 
+/***************************
+CUSTOM
+***************************/
+.pushy-open-right .pushy {
+  position: fixed;
+  z-index: 99999999; }
+  .pushy-open-right .pushy .close-x {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: inline-block;
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    height: 2.4rem; }
+    .pushy-open-right .pushy .close-x:hover {
+      background: transparent; }
+    .pushy-open-right .pushy .close-x:after, .pushy-open-right .pushy .close-x:before {
+      right: .8rem;
+      top: .4rem;
+      margin: 0;
+      height: 2.4rem; }
+
+.pushy-open-right .header {
+  z-index: 1; }
+
 .unslider {
   overflow: auto;
   margin: 0;
@@ -8496,23 +8851,109 @@ footer a:hover {
   width: 1rem;
   height: 1rem; }
 
+/*!
+ * jQuery Accordion 0.0.1
+ * (c) 2014 Victor Fernandez <victor@vctrfrnndz.com>
+ * MIT Licensed.
+ */
+/* Requirements */
+[data-accordion] [data-content] {
+  overflow: hidden;
+  max-height: 0; }
+
+/* Basic Theme */
+[data-accordion] {
+  line-height: 1; }
+
+/*
+[data-control],
+[data-content] > * {
+    border-bottom: 1px solid #888;
+    padding: 10px;
+}*/
+[data-content] [data-accordion] {
+  border: 0;
+  padding: 0; }
+
+[data-accordion] [data-control] {
+  position: relative;
+  padding-right: 40px; }
+
+[data-accordion] > [data-control]:after {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  font-size: 25px;
+  font-weight: 200;
+  color: #444;
+  height: 15px;
+  width: 24px;
+  background: url("../images/down.png") center center no-repeat;
+  background-size: 50%; }
+
+[data-accordion].open > [data-control]:after {
+  -webkit-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg); }
+
+[data-accordion-group] {
+  margin-bottom: 4rem; }
+  [data-accordion-group] h4 {
+    margin-top: 4rem; }
+    [data-accordion-group] h4:first-child {
+      margin-top: 0; }
+  [data-accordion-group] .open [data-control] {
+    background: #111;
+    font-weight: 700; }
+  [data-accordion-group] .open [data-content] {
+    padding: 2rem 3rem;
+    max-height: 100% !important;
+    border: 1px solid #666; }
+    [data-accordion-group] .open [data-content] p {
+      line-height: 1.4; }
+      [data-accordion-group] .open [data-content] p:last-child {
+        margin-bottom: 0; }
+    [data-accordion-group] .open [data-content] ul li, [data-accordion-group] .open [data-content] ol li {
+      margin-bottom: 1rem;
+      line-height: 1.4; }
+  [data-accordion-group] [data-accordion] {
+    margin-bottom: 1rem;
+    background: #666; }
+  [data-accordion-group] [data-control] {
+    padding: 1.2rem 3rem;
+    border-bottom: none;
+    color: #fff;
+    line-height: 1.4; }
+    [data-accordion-group] [data-control]:hover {
+      cursor: pointer; }
+  [data-accordion-group] [data-content] {
+    background: #fff;
+    border: 1px solid transparent;
+    border-top: none;
+    padding: 0 3rem; }
+
 /*Nano Gallery Overrides*/
 .nanogallery_theme_default .nanoGalleryContainer {
   width: 100% !important;
-  height: auto !important; }
-
-.nanogallery_theme_default .nanoGalleryContainer .nanoGalleryThumbnailContainer {
-  display: inline-block;
-  position: initial;
-  overflow: hidden;
-  float: left; }
-
-.nanogallery_theme_default .nanoGalleryContainer .nanoGalleryThumbnailContainer:not(:last-of-type) {
-  margin-right: 15px;
-  margin-bottom: 15px; }
-
-.nanoGalleryThumbnailContainer .subcontainer:hover {
-  opacity: .6; }
+  height: auto !important;
+  display: -ms-grid;
+  -ms-grid-columns: 1fr 5px 1fr 5px 1fr 5px 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  justify-items: center; }
+  .nanogallery_theme_default .nanoGalleryContainer .nanoGalleryThumbnailContainer {
+    display: inline-block;
+    position: initial;
+    overflow: hidden;
+    float: left;
+    border: none; }
+  .nanogallery_theme_default .nanoGalleryContainer .nanoGalleryThumbnailContainer:not(:last-of-type) {
+    margin-right: 0;
+    margin-bottom: 0; }
+  .nanogallery_theme_default .nanoGalleryContainer .nanoGalleryThumbnailContainer .subcontainer:hover {
+    opacity: .6; }
 
 /*Authorize.Net Seal*/
 div.AuthorizeNetSeal {

@@ -8,6 +8,7 @@ $event = array(
 	"subtitle"			=>"You DO NOT want to miss this event!",
 	"location"		   	=>"Run Away Bay, Jamaica",
 	"date"				=>"May 24-26, 2019",
+    "date_start"        =>"May 24, 2019",
 	"img_url"			=>"../../images/slides/splash-urban-fiesta-cta.jpg",
 	"img_alt"			=>"Urban Fiesta"
 );
@@ -135,7 +136,8 @@ include 'includes/functions.inc.php';
 							<div class="title">
 								<h1><?php echo $event["title"]; ?></h1>
 								<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-								<a data-href="#tabs-5" class="btn btn-red open-tab">Buy Now</a>
+								<a data-href="#tabs-5" class="btn btn-red open-tab">Pay or Register Now</a>
+								<div id="event-timer"></div>
 							</div>
 						</div>
 
@@ -144,7 +146,7 @@ include 'includes/functions.inc.php';
 
                               <div class="date-location">
 
-                                   <div class="col">
+                                   <div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="col">
                                         <?php echo $event["date"]; ?>
                                    </div>
 
@@ -158,10 +160,12 @@ include 'includes/functions.inc.php';
                               <div class="colfull">
 
                                    <div id="responsive-tabs">
-                                    
+                        
 
                                         <?php echo $responsive_tabs["overview"]; ?>
 										<div class="tab" aria-label="overview">
+                                             
+                                             
 
                                              <h3>Jamaica is the ONLY place to be Memorial Day Weekend 2019!</h3>
 
@@ -454,6 +458,7 @@ include 'includes/functions.inc.php';
                               thumbnailHoverEffect: 'borderLighter'
 
                          });
+                        
 
                     });
                </script>

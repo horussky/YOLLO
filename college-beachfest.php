@@ -7,6 +7,7 @@
 		"subtitle"				=>"Book your package today!",
 		"location"				=>"Daytona Beach, Florida",
 		"date"					=>"March 31 - April 2, 2017",
+        "date_start"			=>"March 31, 2017",
 		"img_url"				=>"../../images/slides/splash-cbf.jpg",
 		"img_alt"				=>"College Beachfest"
 	);
@@ -18,7 +19,7 @@
 			"address"			=>"640 N. Atlantic Avenue",
 			"location"			=>"Daytona Beach, FL 32118",
 			"geolocation"		=>"640 N. Atlantic Avenue, Daytona Beach, FL 32118",
-			"soldout"    =>false,
+			"soldout"           =>false,
 			"img_url"			=>"https://images.trvl-media.com/hotels/1000000/20000/11600/11587/11587_63_z.jpg"
 		),
 
@@ -100,13 +101,16 @@
 				<div class="title">
 					<h1><?php echo $event["title"]; ?></h1>
 					<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-					<a data-href="#tabs-5" class="btn btn-red open-tab">Buy Now</a>
+					<a data-href="#tabs-5" class="btn btn-red open-tab">Pay or Register Now</a>
+					<div id="event-timer"></div>
 				</div>
 			</div>
 
             <div class="content">
                     <div class="date-location">
-                        <div class="col"><?php echo $event["date"]; ?></div>
+                        <div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="col">
+                            <?php echo $event["date"]; ?>
+                        </div>
                         <div class="col"><?php echo $event["location"]; ?></div>
                     </div>
 

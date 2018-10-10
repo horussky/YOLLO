@@ -14,16 +14,46 @@
 <script src="js/pushy.min.js"></script>
 <script src="js/scripts-min.js"></script>
 <script src="js/jquery.accordion.js"></script>
+<script src="js/jquery.countdown.min.js"></script>
 
 <script>
+    
+    //format date for countdown script
+    //date captured from data attr from PHP variable on page
+    //must be outside jquery function (normal JS)
+    var etime;
+    etime = document.getElementById('event_start');
+    var timeData = etime.getAttribute('data-time');
+    var timeFormatted = new Date(Date.parse(timeData)).toISOString().slice(0,10);
+    
+
+    
 	$(function(){
+        
+        //event timer
+        //must be within jquery function
+        if($("#event-timer").length){
+
+            $("#event-timer").countdown(timeFormatted, function(event) {
+
+                var $this = $(this).html(event.strftime(
+                    ''
+                    + '<span class="timer-week">%w <em>Weeks</em></span>'
+                    + '<span class="timer-day">%D <em>Days</em></span>'
+                    + '<span class="timer-hour">%H <em>Hours</em></span>'
+                    //+ '<span class="timer-mins">%M <em>Mins</em></span>'
+                    //+ '<span class="timer-seconds">%S <em>Sec</em></span>'
+                ));
+           });
+
+        }
+        
 		
 		//accordion
 		$('[data-accordion-group] [data-accordion]').accordion({
     		"transitionSpeed": 400
 		});
-		
-		
+
 	});
 </script>
 

@@ -3,10 +3,11 @@
 	ob_start("ob_gzhandler");
 
 	$event = array(
-		"title"				=>"The Magic City Classic 2018",
+		"title"				=>"Classic Weekend 2018",
 		"subtitle"			=>"It's the Classsssssic!",
 		"location"			=>"Legion Field | Birmingham, AL",
 		"date"				=>"Oct 26-28, 2018",
+        "date_start"		=>"Oct 26, 2018",
 		"img_url"			=>"../../images/slides/splash-mcc-cta.jpg",
 		"img_alt"			=>"Magic City Classic"
 	);
@@ -130,15 +131,18 @@
 			<div class="title">
 				<h1><?php echo $event["title"]; ?></h1>
 				<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-				<a data-href="#tabs-5" class="btn btn-red open-tab"><i class="fa fa-tags fa-flip-horizontal mr-5"></i> Buy Now</a> 
+				<a data-href="#tabs-5" class="btn btn-red open-tab">Pay or Register Now</a>
+                <div id="event-timer"></div>
 			</div>
 		</div>
       
       
       <div class="content">
         <div class="date-location">
-          <div class="col"><?php echo $event["date"]; ?></div>
-          <div class="col"><?php echo $event["location"]; ?></div>
+            <div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="col">
+                <?php echo $event["date"]; ?>
+            </div>
+            <div class="col"><?php echo $event["location"]; ?></div>
         </div>
         
         <div class="colfull">
@@ -147,7 +151,7 @@
         <div id="responsive-tabs">
 			<?php echo $responsive_tabs["overview"]; ?>
 			<div class="tab" aria-label="overview">
-				<h3>It's the CLASSIC!!!</h3>
+				<h3>It's Classic Weekend</h3>
                 <div style="max-height:300px; overflow:hidden;" class="mediummargin">
                 	<img src="images/mcc-thumb<?php echo(rand(1,4)); ?>.jpg" width="100%" />
                 </div>
@@ -248,7 +252,7 @@
 
 					  <div data-control>When are the payments due?</div>
 					  <div data-content>
-						<p>After registration the 1st payment of $50 is due on or before due August 28, 2018. The second and final payment is due October 03, 2018.</p>
+						<p>After registration the 1st payment of $50 is due on or before due September 25, 2018. The second and final payment is due October 16, 2018.</p>
 					  </div>
 
 					</div><!-- end of accordion-->

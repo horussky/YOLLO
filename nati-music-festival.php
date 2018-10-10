@@ -7,6 +7,7 @@ $event = array(
 	"subtitle"				=>"Book your package today!",
 	"location"				=>"Cincinnati, Ohio",
 	"date"					=>"July 27- 29, 2018",
+    "date_start"			=>"July 27, 2018",
 	"img_url"				=>"../../images/slides/splash-mmf-cta.jpg",
 	"img_alt"				=>"Cincinnati Music Festival"
 );
@@ -46,7 +47,7 @@ $package_items = array(
 		"Weekend Concert Tickets"				    => "checked",
 		"Grown and Sophisticated Mid Day Cruise"	=> "checked",
 		"Meet and Greet Mixer"						=> "checked",
-		"R/T Transportation via motorcoach (Birmingham, AL)"			=> "checked",
+		"Transportation via motorcoach (Birmingham, AL)"			=> "checked",
 		"Breakfast Daily"							=> "checked",
 		"Additional Hotel nights $275 per night"	=> "checked",
 		"YOLLO Gift Bag"							=> "checked"
@@ -57,7 +58,7 @@ $package_items = array(
 		"Weekend Concert Tickets"					=> "checked",
 		"Grown and Sophisticated Mid Day Cruise"	=> "checked",
 		"Meet and Greet Mixer"						=> "checked",
-		"R/T Transportation via motorcoach (Birmingham, AL)"			=> "ex",
+		"Transportation via motorcoach (Birmingham, AL)"			=> "ex",
 		"Breakfast Daily"							=> "checked",
 		"Additional Hotel nights $275 per night"	=> "checked",
 		"YOLLO Gift Bag"							=> "checked"
@@ -108,7 +109,8 @@ include 'includes/functions.inc.php';
 					<div class="title">
 						<h1><?php echo $event["title"]; ?></h1>
 						<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-						<a data-href="#tabs-5" class="btn btn-red open-tab">Buy Now</a>
+						<a data-href="#tabs-5" class="btn btn-red open-tab">Pay or Register Now</a>
+					    <div id="event-timer"></div>
 					</div>
 				</div>
 
@@ -117,8 +119,10 @@ include 'includes/functions.inc.php';
         <div class="content">
 						
 			<div class="date-location">
-				<div class="col"><?php echo $event["date"]; ?></div>
-				<div class="col"><?php echo $event["location"]; ?></div>
+				<div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="col">
+                    <?php echo $event["date"]; ?>
+                </div>
+                <div class="col"><?php echo $event["location"]; ?></div>
 			</div>
 
 

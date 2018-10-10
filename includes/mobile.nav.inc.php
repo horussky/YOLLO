@@ -23,7 +23,7 @@ define("EVENT", serialize ($nav = array(
 			),*/
 			
 			array(
-					"title"	=>	"Magic City Classic",
+					"title"	=>	"Classic Weekend",
 				  	"class"	=>	"classic",
 				  	"link"	=>	"/classic"
 				  

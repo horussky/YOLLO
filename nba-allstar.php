@@ -6,6 +6,7 @@ $event = array(
 	"subtitle"				=>"Book your package today!",
 	"location"				=>"Charlotte, NC",
 	"date"					=>"February 15 – 17, 2019",
+    "date_start"            =>"February 15, 2019",
 	"img_url"				=>"../../images/slides/splash-nba-cta.jpg",
 );
 
@@ -59,10 +60,10 @@ $package_items = array(
 		"Celebrity Hosted Party Ticket (Friday)"			=> "checked",
 		"Celebrity Hosted Party Ticket (Sunday)"			=> "checked",
 		"Jam Sessions Tickets"								=> "checked",
-		"Rising Star Game Ticket (Friday)"			=> "checked",
+		"Rising Star Game Ticket (Friday)"			        => "checked",
 		"Mid-Day Party"										=> "checked",
 		"YOLLO Live City Tour"								=> "checked",
-		"Lavish Life Yacht Cruise"					=> "checked",
+		"Lavish Life Yacht Cruise"					        => "checked",
 		"YOLLO Gift Bag"									=> "checked"
 	),
 
@@ -125,7 +126,8 @@ include 'includes/functions.inc.php';
 					<div class="title">
 						<h1><?php echo $event["title"]; ?></h1>
 						<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-						<a data-href="#tabs-5" class="btn btn-red open-tab" >Buy Now</a>
+						<a data-href="#tabs-5" class="btn btn-red open-tab">Pay or Register Now</a>
+						<div id="event-timer"></div>
 					</div>
 				</div>
 
@@ -133,8 +135,10 @@ include 'includes/functions.inc.php';
         <div class="content">
 
 						<div class="date-location">
-								<div class="col"><?php echo $event["date"]; ?></div>
-								<div class="col"><?php echo $event["location"]; ?></div>
+						    <div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="col">
+                                <?php echo $event["date"]; ?>
+                            </div>
+                            <div class="col"><?php echo $event["location"]; ?></div>
 						</div>
 
 
@@ -295,7 +299,7 @@ include 'includes/functions.inc.php';
 
 										  <div data-control>When are the payments due?</div>
 										  <div data-content>
-											<p>After registration the first payment of $125 is due July 17, 2018. The final payment (remaining balance) is due on or before October 23, 2018.</p>
+											<p>After registration the first payment of $125 is due September 23, 2018. The final payment (remaining balance) is due on or before January 04, 2019.</p>
 										  </div>
 
 										</div><!-- end of accordion-->
@@ -436,7 +440,7 @@ include 'includes/functions.inc.php';
 
 				thumbnailHoverEffect:'borderLighter'
 			});
-
+        
 
 	});
 </script>
