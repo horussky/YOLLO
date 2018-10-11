@@ -861,7 +861,6 @@ h4 .soldout {
   width: 100%;
   margin-bottom: 4rem;
   display: block;
-  overflow: hidden;
   display: flex; }
   .header .left {
     width: 50%;
@@ -5504,22 +5503,23 @@ aside .btn {
 .event-nav {
   width: 100%;
   box-sizing: border-box;
-  border-left: 5px solid #9E1421;
-  text-indent: 10px; }
+  text-indent: 10px;
+  padding: 1rem 0; }
   .event-nav li {
     padding: 0;
     display: block; }
 
 .event-nav li a {
-  font-size: .85em;
-  line-height: 3;
+  font-size: 1.4rem;
+  line-height: 1.5;
   color: #222;
   text-decoration: none;
   border-bottom: none;
   text-transform: uppercase;
   display: block;
-  height: 3em;
-  text-align: left; }
+  padding: 1rem 0;
+  text-align: left;
+  margin-right: 0; }
 
 .event-nav li [class^="hvr-"]:before {
   background: #9E1421; }
@@ -5544,6 +5544,27 @@ aside .btn {
 
 .toggle-panel {
   display: none; }
+
+.dropdown {
+  position: relative; }
+  .dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 25rem;
+    box-shadow: 0px 0.8rem 1.6rem 0px rgba(0, 0, 0, 0.2);
+    border-left: 5px solid #9E1421;
+    z-index: 999; }
+    .dropdown .dropdown-content .event-nav li {
+      width: 100%;
+      margin-right: 0; }
+      .dropdown .dropdown-content .event-nav li a {
+        padding: 1.2rem 0; }
+    .dropdown .dropdown-content .event-nav li:hover {
+      cursor: pointer;
+      background: #e6e6e6; }
+  .dropdown:hover .dropdown-content {
+    display: block; }
 
 #accordion * {
   transition: all 0.05s ease; }

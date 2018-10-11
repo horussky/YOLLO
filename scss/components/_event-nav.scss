@@ -1,8 +1,9 @@
 .event-nav{
     width: 100%;
     box-sizing: border-box;
-    border-left: 5px solid $yollo-red;
+    //border-left: 5px solid $yollo-red;
     text-indent: 10px;
+    padding: 1rem 0;
 	
 	li{
 		padding:0;
@@ -11,15 +12,17 @@
 }
 
 .event-nav li a{    
-	font-size: .85em;
-    line-height: 3;
+	font-size: 1.4rem;
+    line-height: 1.5;
     color: $font-color;
     text-decoration: none;
     border-bottom: none; 
     text-transform: uppercase;
     display: block;
-    height: 3em;
-    text-align: left; 
+    //height: 3em;
+    padding: 1rem 0;
+    text-align: left;
+    margin-right:0;
 }
 
 .event-nav li [class^="hvr-"]:before{
@@ -58,3 +61,42 @@
 }
 
 .toggle-panel { display: none; }
+
+
+
+//Dropdown Navigation
+.dropdown {
+    position: relative;
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 25rem;
+        box-shadow: 0px .8rem 1.6rem 0px rgba(0,0,0,0.2);
+        border-left:5px solid $yollo-red;
+        z-index: 999;
+
+        .event-nav li {
+            width: 100%;
+            margin-right: 0; 
+            
+            a{
+                padding: 1.2rem 0;
+            }
+        }
+        
+        .event-nav li:hover{
+            cursor: pointer;
+            background: #e6e6e6; 
+        }
+    }
+    
+    &:hover .dropdown-content {
+        display: block;
+    }
+    
+}
+
+
+
