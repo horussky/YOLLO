@@ -876,7 +876,6 @@ h4 .soldout {
   width: 100%;
   margin-bottom: 4rem;
   display: block;
-  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
@@ -1139,6 +1138,24 @@ hr {
     width: auto;
     margin-left: 1em;
     margin-right: 1em; } }
+
+.row .row {
+  margin: 0 -1.5em; }
+
+.col {
+  padding: 0  1.5em; }
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table; }
+
+@media only screen {
+  .col {
+    float: left;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; } }
 
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
@@ -6277,22 +6294,23 @@ aside .btn {
   width: 100%;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  border-left: 5px solid #9E1421;
-  text-indent: 10px; }
+  text-indent: 10px;
+  padding: 1rem 0; }
   .event-nav li {
     padding: 0;
     display: block; }
 
 .event-nav li a {
-  font-size: .85em;
-  line-height: 3;
+  font-size: 1.4rem;
+  line-height: 1.5;
   color: #222;
   text-decoration: none;
   border-bottom: none;
   text-transform: uppercase;
   display: block;
-  height: 3em;
-  text-align: left; }
+  padding: 1rem 0;
+  text-align: left;
+  margin-right: 0; }
 
 .event-nav li [class^="hvr-"]:before {
   background: #9E1421; }
@@ -6317,6 +6335,28 @@ aside .btn {
 
 .toggle-panel {
   display: none; }
+
+.dropdown {
+  position: relative; }
+  .dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 25rem;
+    -webkit-box-shadow: 0px 0.8rem 1.6rem 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0.8rem 1.6rem 0px rgba(0, 0, 0, 0.2);
+    border-left: 5px solid #9E1421;
+    z-index: 999; }
+    .dropdown .dropdown-content .event-nav li {
+      width: 100%;
+      margin-right: 0; }
+      .dropdown .dropdown-content .event-nav li a {
+        padding: 1.2rem 0; }
+    .dropdown .dropdown-content .event-nav li:hover {
+      cursor: pointer;
+      background: #e6e6e6; }
+  .dropdown:hover .dropdown-content {
+    display: block; }
 
 #accordion * {
   -webkit-transition: all 0.05s ease;
@@ -8540,6 +8580,24 @@ footer a:hover {
       animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       -webkit-animation-delay: 2s;
       animation-delay: 2s; }
+    #right .topcontent .title #event-timer {
+      -webkit-animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      -webkit-animation-delay: 2.5s;
+      animation-delay: 2.5s; }
+  #right .topcontent #event-timer {
+    height: 4rem; }
+    #right .topcontent #event-timer span {
+      display: inline-block;
+      font-size: 2rem;
+      text-align: center;
+      width: 6rem;
+      font-family: "opensans-bold", Arial, sans-serif;
+      color: #fff; }
+      #right .topcontent #event-timer span em {
+        display: block;
+        font-size: 1.2rem;
+        font-family: "opensans", Arial, sans-serif; }
 
 @-webkit-keyframes fade-in-bottom {
   0% {
@@ -8877,19 +8935,23 @@ CUSTOM
 
 [data-accordion] [data-control] {
   position: relative;
-  padding-right: 40px; }
+  padding-right: 40px;
+  -webkit-box-shadow: 0 3px 0 0 #ccc;
+  box-shadow: 0 3px 0 0 #ccc; }
+  [data-accordion] [data-control]:hover {
+    background: #dedede; }
 
 [data-accordion] > [data-control]:after {
   content: "";
   position: absolute;
   right: 10px;
-  top: 12px;
+  top: 15px;
   font-size: 25px;
   font-weight: 200;
   color: #444;
   height: 15px;
   width: 24px;
-  background: url("../images/down.png") center center no-repeat;
+  background: url("../images/down-black.png") center center no-repeat;
   background-size: 50%; }
 
 [data-accordion].open > [data-control]:after {
@@ -8903,9 +8965,16 @@ CUSTOM
     margin-top: 4rem; }
     [data-accordion-group] h4:first-child {
       margin-top: 0; }
+  [data-accordion-group] .open :after {
+    content: "";
+    background: url("../images/down.png") center center no-repeat;
+    background-size: 50%; }
   [data-accordion-group] .open [data-control] {
     background: #111;
-    font-weight: 700; }
+    font-weight: 700;
+    color: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
   [data-accordion-group] .open [data-content] {
     padding: 2rem 3rem;
     max-height: 100% !important;
@@ -8923,8 +8992,9 @@ CUSTOM
   [data-accordion-group] [data-control] {
     padding: 1.2rem 3rem;
     border-bottom: none;
-    color: #fff;
-    line-height: 1.4; }
+    color: #000;
+    line-height: 1.4;
+    background: #efefef; }
     [data-accordion-group] [data-control]:hover {
       cursor: pointer; }
   [data-accordion-group] [data-content] {

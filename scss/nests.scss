@@ -1,3 +1,6 @@
+//Bootstrap
+@import '../scss/vendor/_bootstrap.4.1.scss'; //bootstrap
+
 // Base CSS
 @import '../scss/components/_variables.scss';
 @import '../scss/components/_resets.scss';
@@ -31,6 +34,7 @@
 @import '../scss/vendor/_unslider.scss'; //unslider 
 @import '../scss/vendor/_unslider-dots.scss'; //unslider dots
 @import '../scss/vendor/_jquery.accordion.scss'; //jquery accordion
+
 
 // Custom CSS
 @import '../scss/components/_custom.scss';/* CSS Document */ 

@@ -1,4 +1,4 @@
-#right .topcontent {
+.topcontent { 
 	width: 100%;
 	min-height: 30rem;
 	padding: 0;
@@ -25,9 +25,9 @@
 		font-weight: 700;
 		align-self: center;
 		width: 100%;
-		padding: 0 14rem;
+		padding: 0 12rem;
 		position: relative;
-		z-index: 99;
+		z-index: 99; 
 		
 		h1{
 			font-family:"Sansita", cursive, "PT Serif Caption", sans-serif;
@@ -54,7 +54,12 @@
         .btn{
             -webkit-animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-            animation-delay: 2s; 
+            animation-delay: 2s;
+            color: #fff;
+            
+            &:hover{
+                color:#fff;
+            }
         }
         
         #event-timer{

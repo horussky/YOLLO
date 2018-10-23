@@ -85,9 +85,14 @@
 	}
 	
 	/*image header*/
-	#right .topcontent .title {
-		padding: 0 8rem;
-	}
+    .topcontent{
+        margin-top:10rem;
+        
+        .title {
+		    padding: 0 8rem;
+	    }
+    }
+    
 	
 	
 	/*Event Navigation*/

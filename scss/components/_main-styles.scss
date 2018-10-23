@@ -49,6 +49,7 @@ a{
 			color:$hover-color;
             cursor: pointer;
             border-bottom: 1px solid rgba($hover-color, 1);
+            text-decoration: none; 
 		}
 }
 
@@ -658,6 +659,10 @@ hr {
 	margin-top:2rem;
 }
 
+.mt-40{
+	margin-top:4rem;
+}
+
 .ml-5{
 	margin-left:0.5rem;
 }
@@ -680,6 +685,10 @@ hr {
 
 .mb-20{
 	margin-bottom:2rem;
+}
+
+.mb-40{
+	margin-bottom:4rem;
 }
 
 .mr-5{
@@ -735,79 +744,5 @@ hr {
     padding: 0!important;
 }
 
-//columns
-.col-12 {
-	width: 100%
-}
-
-.col-11 {
-	width: 91.66666667%
-}
-
-.col-10 {
-	width: 83.33333333%
-}
-
-.col-9 {
-	width: 75%
-}
-
-.col-8 {
-	width: 66.66666667%
-}
-
-.col-7 {
-	width: 58.33333333%
-}
-
-.col-6 {
-	width: 50%
-}
-
-.col-5 {
-	width: 41.66666667%
-}
-
-.col-4 {
-	width: 33.33333333%
-}
-
-.col-3 {
-	width: 25%
-}
-
-.col-2 {
-	width: 16.66666667%
-}
-
-.col-1 {
-	width: 8.33333333%
-}
 
 
- 
-//container
-
-.container-fluid{
-	padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-   
-.container{
-	display: block;
-  	max-width: 1200px;
-	padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto; 
-}  
-
-@media only screen and (max-width: 767px) {
-	.container{
-		width:auto;
-		margin-left: 1em;
-		margin-right:1em;
-	}
-}

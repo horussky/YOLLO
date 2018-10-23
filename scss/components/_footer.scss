@@ -132,10 +132,9 @@ footer{
 		
 		grid-area:foot-contact;
 		grid-column:3;
+        
+        font-size:1.4rem;
 		
-		*:not(h5, .fa-2x){
-			font-size:1.4rem; 
-		}
 		
 		ul{
 			list-style: none;
@@ -151,11 +150,12 @@ footer{
                     border-bottom: none;
                 }
             }
+
 			
 			.fa-2x{
-				margin-right: 1rem;
-				
+				margin-right: 1rem;				
 			} 
+            
 			.fa-instagram{
 				color:#c32aa3;
 			}
@@ -175,6 +175,12 @@ footer{
             
 		}
 		
+        *{
+            &:not(h5){
+			    font-size:1.4rem;
+            }
+            
+		}
 		
 		
 		
