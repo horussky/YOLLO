@@ -21,12 +21,12 @@
     //format date for countdown script
     //date captured from data attr from PHP variable on page
     //must be outside jquery function (normal JS)
-    var etime;
-    etime = document.getElementById('event_start');
-    var timeData = etime.getAttribute('data-time');
-    var timeFormatted = new Date(Date.parse(timeData)).toISOString().slice(0,10);
     
-
+    var etime = document.getElementById('event_start');
+    if (etime !== undefined && etime !== null) { 
+        var timeData = etime.getAttribute('data-time');
+        var timeFormatted = new Date(Date.parse(timeData)).toISOString().slice(0,10);
+    }
     
 	$(function(){
         

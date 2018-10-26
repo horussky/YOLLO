@@ -111,27 +111,26 @@
 	<?php include 'includes/mobile.nav.inc.php'; ?>
 	<!--Mobile Nav--> 
  
-    <div class="container">
-        <div class="row">
-            <div class="col-lg">
-                <?php include 'includes/header.inc.php'; ?>
-            </div>
-        </div><!-- end of row-->
-    </div><!-- end of container --> 
-
+  <div id="container">
+    <?php include 'includes/header.inc.php'; ?>
+    <div id="left"> 
+      
+      <!--Nav-->
+      
+      <?php include 'includes/nav.inc.php'; ?>
+      
+      <!--End of Nav--> 
+      
+    </div>
+    <!-- end of left -->
     
-    
-    
-    <div class="container">
-		
-            <div class="row mb-40">
-                <div class="col-lg-8">
-                   
+    <div id="right">
       
 		<div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
 			<div class="overlay"></div>
 			<div class="title">
 				<h1><?php echo $event["title"]; ?></h1>
+				<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
 				<a data-href="#tabs-5" class="btn btn-red open-tab">Pay or Register Now</a>
                 <div id="event-timer"></div>
 			</div>
@@ -146,6 +145,7 @@
             <div class="col"><?php echo $event["location"]; ?></div>
         </div>
         
+        <div class="colfull">
         
         
         <div id="responsive-tabs">
@@ -354,6 +354,7 @@
         
         
  
+        </div><!-- end of contentfull -->
         
       </div><!-- end of content -->
       
@@ -363,26 +364,12 @@
         <strong>Disclaimer</strong> | The terms Magic City Classic, and The Magic City Classic, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. We are in no way associated with or authorized by the Magic City Classic and neither this production nor its affiliates have licensed or endorsed us to sell goods and/or services in conjunction with any Magic City Classic productions. The use of any logos, words, trademarks, or photos have been used for descriptive purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources. </div>
       <!-- end of disclosure --> 
       
-
-                    
-                </div><!-- end of con-->
-
-                <div class="col-lg"> 
-                    <?php include 'includes/twitter.inc.php'; ?>
-                </div><!-- end of col-->
-                
-            </div><!-- end of row-->
-
-        </div> <!-- end of container --> 
-    
-    
-    
-    
-    
-    
+    </div>
     <!--end of right-->
     
-
+    <aside id="social">
+      <?php include 'includes/twitter.inc.php'; ?>
+    </aside>
   </div>
   <!--end of container--> 
   

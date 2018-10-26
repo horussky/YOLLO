@@ -6,8 +6,8 @@ $event = array(
 	"title"						=>"Alumni Getaway",
 	"subtitle"					=>"Book Today!",
 	"location"					=>"Cozumel, Mexico",
-	"date"						=>"December 6-10, 2018",
-    "date_start"				=>"December 6, 2018",
+	"date"						=>"Nov 30 - Dec 5, 2019",
+    "date_start"				=>"November 30, 2019",
 	"img_url"				 	=>"../../images/slides/splash-alumni-cta.jpg",
 	"img_alt"				 	=>"Alumni Getaway"
 );
@@ -144,6 +144,17 @@ include 'includes/functions.inc.php';
                         <p>While you cruise over the Caribbean, we have plenty of entertainment to keep you occupied. Look forward to comedy shows, a talent show, spades tournament, and more activities. Our DJ's are working the 1's and 2's for a variety of onboard clubs and decks. Our theme night parties, “Greek Life or Nah” and “Rep Your University” will also keep the camaraderie going all weekend.</p> 
                         
                         <p>Don't believe the hype, Mexico is a very beautiful place to visit. Cozumel has plenty of excursions and shopping areas to explore. If time permits, tour the Mayan ruins or cruise the island and enjoy the scenery. So do not hesitate on this package. Book this great cruise package today!</p>
+                        
+                        
+                        <h4>Cruise Itinerary</h4>
+
+                        <p><strong>Sat (Depart):</strong>  Mobile, AL 4PM<br>
+						<strong>Sun:</strong> Fun Day At Sea<br> 
+						<strong>Mon:</strong> Yucatan (Progreso), MX  8AM-5PM<br>
+						<strong>Tue:</strong> Cozumel, Mexico, MX  9AM-5PM<br>
+						<strong>Wed:</strong> Fun Day At Sea<br>
+						<strong>Thu (Return):</strong> Mobile, AL 8AM</p>
+						<p style="color:dimgrey">*All times are based on Central Time Zone.</p>
 
 
                     </div> <!-- ./ overview -->
@@ -171,6 +182,16 @@ include 'includes/functions.inc.php';
                             </div>
                         </div><!-- ./hotel-grid -->
                         <?php endforeach; ?>
+                        
+                        <h4>Cruise Itinerary</h4>
+
+                        <p><strong>Sat (Depart):</strong>  Mobile, AL 4PM<br>
+						<strong>Sun:</strong> Fun Day At Sea<br> 
+						<strong>Mon:</strong> Yucatan (Progreso), MX  8AM-5PM<br>
+						<strong>Tue:</strong> Cozumel, Mexico, MX  9AM-5PM<br>
+						<strong>Wed:</strong> Fun Day At Sea<br>
+						<strong>Thu (Return):</strong> Mobile, AL 8AM</p>
+						<p style="color:dimgrey">*All times are based on Central Time Zone.</p>
 
                         <hr />
 

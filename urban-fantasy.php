@@ -1,36 +1,29 @@
 <?php
 ob_start("ob_gzhandler");
+
 $event = array(
-	"title" => "Urban Fantasy 2016",
-	"location" => "Nassau, Bahamas",
-	"date" => "October 28 - 31, 2016",
-	"img_url" => "../../images/slides/splash-ufw.jpg",
-	"img_alt" => "Urban Fantasy"
+	"title"				=>"Urban Fantasy 2019",
+	"subtitle"			=>"An event you cannot miss",
+	"location"		   	=>"Miami, Grand Turks, and Cuba",
+	"date"				=>"Sept 09 - 14, 2019",
+    "date_start"        =>"September 09, 2019",
+	"img_url"			=>"../../images/slides/splash-ufw-cta.jpg",
+	"img_alt"			=>"Urban Fantasy"
 );
 
+
 $geolocation = array(
-
-	"cruise1" => array(
-
-		"title" => "Fantasy Cruise Ship",
-		"ship" => "//directlinecruises.com/images/carnival_ecstacy_slider1.jpg",
-		"location" => "Nassau, Bahamas",
-		"soldout" => "false",
-		"img_url" => "//directlinecruises.com/images/carnival_ecstacy_slider1.jpg"
-
-
+	"cruise1"=> array(
+		"title" 		=>"Carnival Sensation",
+		"ship"          =>"//s.krfb.de/library/original/aussenansicht.61wqmlou.jpg",
+		"soldout"		=> false,
+		"img_url"		=>"//s.krfb.de/library/original/aussenansicht.61wqmlou.jpg",
+        "address"		=>"1015 North America Way",
+        "location"		=>"Miami, Fl",
 
 	),
 
-
-	"cruise2" => array(
-
-		""
-
-	)
-
 );
-
 
 
 $people = array(
@@ -41,13 +34,6 @@ $people = array(
 		"Group of 2" => "$670",
 		"Individual" => "$1265"
 	),
-
-
-
-	"emerald" => array(
-		""
-	),
-
 
 
 	"options" => array(
@@ -61,13 +47,13 @@ $package_items = array(
 
 	"diamond_items" => array(
 
-		"4 Day/3 Night Cruise Departing From Miami, Florida" => "checked",
-		"All You Can Eat All Weekend Long" => "checked",
-		"Free Non-Motor Excursions Access" => "checked",
-		"Open Bar Captains \"Fantasy\" Reception" => "checked",
-		"Transportation To Events from Ship & Back" => "checked",
-		"10 Hours of Open Bar for Weekend" => "checked",
-		"YOLLO Gift Bag" => "checked"
+		"4 Day/3 Night Cruise Departing From Miami, Florida"  => "checked",
+		"All You Can Eat All Weekend Long"                    => "checked",
+		"Free Non-Motor Excursions Access"                    => "checked",
+		"Open Bar Captains \"Fantasy\" Reception"             => "checked",
+		"Transportation To Events from Ship & Back"           => "checked",
+		"10 Hours of Open Bar for Weekend"                    => "checked",
+		"YOLLO Gift Bag"                                      => "checked"
 	),
 
 
@@ -121,438 +107,244 @@ include 'includes/functions.inc.php';
 
 			<?php include 'includes/header.inc.php'; ?>
 
+
 			<!--Left Content-->
-
-			<div id="left">
-				<!--Nav-->
-				<?php include 'includes/nav.inc.php'; ?>
-				<!--End of Nav-->
-			</div>
-
+            <div id="left">
+                <!--Nav-->
+                <?php include 'includes/nav.inc.php'; ?>
+                <!--End of Nav-->
+            </div>
 
 
 			<!--Right Content-->
 
 			<div id="right">
 
-				<div class="topcontent">
-					<img src="<?php echo $event["img_url"]; ?>" alt="<?php echo $event["img_alt"]; ?>">
-				</div>
+				<div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
+                    <div class="overlay"></div>
+                    <div class="title">
+                        <h1><?php echo $event["title"]; ?></h1>
+                        <p class="subtitle"><?php echo $event["subtitle"]; ?></p>
+                        <a data-href="#tabs-5" class="btn btn-red open-tab">Pay or Register Now</a>
+                        <div id="event-timer"></div>
+                    </div>
+                </div>
 
 
 				<div class="content">
 
-					<h2 class="title">
-						<?php echo $event["title"]; ?>
-					</h2>
 
 					<div class="date-location">
 
-						<div class="col">
-							<?php echo $event["date"]; ?>
-						</div>
+                       <div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="col">
+                            <?php echo $event["date"]; ?>
+                       </div>
 
-						<div class="col">
-							<?php echo $event["location"]; ?>
-						</div>
+                       <div class="col">
+                            <?php echo $event["location"]; ?>
+                       </div>
 
-					</div>
-
-
-
-
+                    </div>
+					
+					
 					<div class="colfull">
+        
+                    <div id="responsive-tabs">
+                    
 
-						<div id="tabs" class="yollo-tabs nodisp">
 
-							<ul>
-								<?php foreach ($tabnavcruise as $tabs => $item) {
-									echo "<li><a href=\"#$tabs\">$item</a></li>";
-								};?>
+                    <?php echo $responsive_tabs["overview"]; ?>
+					<div class="tab" aria-label="overview">
+                        <h3>An Urban Fantasy from Grand Turks to Cuba!</h3>
+						
+                        <p>Endulge in the larger-than-life culture of Miami, Grand Turks and Cuba, while exploring their historic attractions on this Urban Fantasy cruise. You will cruise aboard the Carnival Sensation, a highly rated cruise ship  that is filled with top notch amenities. Once reaching your destinations, enjoy exploring or fill your day with shore excursions.</p>
+                       				
+                        <p>Urban Fantasy was created to offer a cruise experience that welcomes and actively includes African Americans. If you’re seeking great networking opportunities, or to mix and mingle, maybe meeting new friends is your thing, or just cruising this is your event! Prices listed include all of your cabin accommodations, taxes, all meals (including 24 hour room service) juice, coffee, and tea, and ALL Urban Fantasy Events both on and off the boat! </p>
+                        
+                        
+                        <h4>Cruise Itinerary</h4>
+
+                        <p><strong>Mon (Depart):</strong>  Miami, FL 4PM<br>
+						<strong>Tue:</strong> Fun Day At Sea<br> 
+						<strong>Wed:</strong> Grand Turk, 8AM-5PM<br>
+						<strong>Thu:</strong> Fun Day At Sea<br>
+						<strong>Fri:</strong> Havana, Cuba	7AM-5PM<br>
+						<strong>Sat (Return):</strong> Miami, FL 8AM</p>
+						<p style="color:dimgrey">*All times are based on Eastern Time Zone.</p>
+						
+
+                    </div> <!-- ./ overview -->
+
+
+                    <?php echo $responsive_tabs["price"]; ?>
+					<div class="tab" aria-label="price">
+
+                        <h3>Cruise</h3>
+						
+                        <?php foreach($geolocation as $hotel) :?>
+                        <div class="hotel-grid">
+                            <div class="hg-img">
+                                <figure style="background:url(<?php echo $hotel['img_url']; ?>); background-size: cover; background-position: center;"></figure>
+                            </div>
+                            <div class="hg-body">
+                                <p class="hg-title"><?php echo $hotel["title"]; ?> 
+                                <?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
+
+                                <address>
+                                    Departing from:<br>
+                                    <i class="fa fa-location-arrow" aria-hidden="true"></i> 
+                                    <a title="<?php echo $hotel["title"]; ?>" target="_blank" href="http://maps.google.com/maps?q=<?php echo $hotel["address"]; ?>+<?php echo $hotel["location"]; ?>"><?php echo $hotel["address"]; ?>,  
+                                    <?php echo $hotel["location"]; ?></a>
+                                </address>
+                            </div>
+                        </div><!-- ./hotel-grid -->
+                        <?php endforeach; ?>
+                        
+                        <h4>Cruise Itinerary</h4>
+
+                        <p><strong>Mon (Depart):</strong>  Miami, FL 4PM<br>
+						<strong>Tue:</strong> Fun Day At Sea<br> 
+						<strong>Wed:</strong> Grand Turk, 8AM-5PM<br>
+						<strong>Thu:</strong> Fun Day At Sea<br>
+						<strong>Fri:</strong> Havana, Cuba	7AM-5PM<br>
+						<strong>Sat (Return):</strong> Miami, FL 8AM</p>
+						<p style="color:dimgrey">*All times are based on Eastern Time Zone.</p>
+                       
+                        <hr />
+
+                        <h3>Price</h3>
+                                    
+						<div class="price-table-container">
+
+						<?php if(count($geolocation["cruise1"]) > 1) :?>
+						<div class="price-table">
+							<ul class="price">
+								<li class="header">Diamond <span>Package</span></li>
+								<?php foreach($package_items['diamond_items'] as $key=>$value): ?>
+									<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+								<?php endforeach; ?>
+								<li class="people-price">
+									<ul class="priceblock">
+										<?php foreach($people['diamond'] as $key=>$value): ?>
+											<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
+											<?php endforeach; ?>
+									</ul>
+								</li>
+								<li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
 							</ul>
-
-
-							<div id="tabs-1">
-
-								<h3>Urban Fantasy Weekend in the Bahamas!</h3>
-								
-								<p>Urban Fantasy was created to offer a cruise experience that welcomes and actively includes African Americans. If you’re seeking great networking opportunities, or to mix and mingle, maybe meeting new friends is your thing, or just cruising this is your event! This all inclusive cruise aboard Carnival’s Ecstasy is designed for the ultimate party along with ports that will host our spectacular on shore events!</p>
-
-								<p>Prices listed include all of your cabin accommodations, taxes, all meals (including 24 hour room service) juice, coffee, and tea, and ALL Urban Fantasy Events both on and off the boat! Urban Fantasy attendees are going to be treated to the finest music, entertainment, accommodations and service in the world! Additionally, they will be a part of endless activities, private beach parties, comedy shows, sports tournaments, theme night celebrations, and a whole lot more. Reserve your spot today for the best cabin selection!</p>
-
-							</div>
-							<!-- end of tab 1 -->
-
-
-
-
-
-							<div id="tabs-2">
-
-								<h3>Cruise</h3>
-
-								<div class="hotel-box-container">
-
-									<?php if(count($geolocation["cruise1"]) > 1) :?>
-
-									<div class="hotel-box">
-										<img src="<?php echo $geolocation['cruise1']['img_url']; ?>"/>
-										<div class="hotel-title">
-											<h3><?php echo $geolocation["cruise1"]["title"]; ?></h3>
-										</div>
-									</div>
-
-									<?php endif; ?>
-
-
-
-									<?php if(count($geolocation["cruise2"]) > 1) :?>
-
-									<div class="hotel-box">
-										<img src="<?php echo $geolocation['cruise2']['img_url']; ?>"/>
-										<div class="hotel-title">
-											<h3><?php echo $geolocation["cruise2"]["title"]; ?></h3>
-										</div>
-									</div>
-
-									<?php endif; ?>
-
-
-								</div>
-								<!-- hotel box container -->
-
-								<hr/>
-
-								<h3>Price</h3>
-								
-								<div class="price-table-container">
-
-								<?php if(count($geolocation["cruise1"]) > 1) :?>
-
-								<div class="price-table">
-
-									<ul class="price">
-
-										<li class="header">Diamond <span>Package</span>
-										</li>
-
-										<?php foreach($package_items['diamond_items'] as $key=>$value): ?>
-
-										<li class="<?php echo $value; ?>">
-											<?php echo $key; ?>
-										</li>
-
-										<?php endforeach; ?>
-
-										<li class="people-price">
-
-											<ul class="priceblock">
-
-												<?php foreach($people['diamond'] as $key=>$value): ?>
-
-												<li>
-													<?php echo $key; ?>
-													<span>
-														<?php echo $value ?>
-														<?php if($key != "Individual"):?><em>/per person</em>
-														<?php endif;?>
-													</span>
-												</li>
-
-												<?php endforeach; ?>
-
-											</ul>
-
-										</li>
-
-										<li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a>
-										</li>
-
-									</ul>
-
-								</div>
-								<!-- price table -->
-
-								<?php endif; ?>
-
-
-
-								<?php if(count($geolocation["cruise2"]) > 1) :?>
-
-								<div class="price-table">
-
-									<ul class="price">
-
-										<li class="header">Emerald <span>Package</span>
-										</li>
-
-										<?php foreach($package_items['emerald_items'] as $key=>$value): ?>
-
-										<li class="<?php echo $value; ?>">
-											<?php echo $key; ?>
-										</li>
-
-										<?php endforeach; ?>
-
-										<li class="people-price">
-
-											<ul class="priceblock">
-
-												<?php foreach($people['emerald'] as $key=>$value): ?>
-
-												<li>
-													<?php echo $key; ?>
-													<span>
-														<?php echo $value ?>
-														<?php if($key != "Individual"):?><em>/per person</em>
-														<?php endif;?>
-													</span>
-												</li>
-
-												<?php endforeach; ?>
-
-											</ul>
-
-										</li>
-
-										<li><a href="#tabs-5" class="btn btn-success open-tab" data-tab-index="4">Book Today</a>
-										</li>
-
-									</ul>
-
-								</div>
-								<!-- price table -->
-
-								<?php endif; ?>
-
-								</div><!-- price table container-->
-
-							</div>
-							<!-- end of Tab 2 -->
-
-
-
-							<div id="tabs-3">
-
-								<h3>Frequently Asked Questions</h3>
-
-								<div id="accordion" class="nodisp">
-
-									<section>
-										<h2>Do I need a Passport? <span></span></h2>
-
-										<p>A passport is not required to go on the cruise if you are a United States citizen and departing from a US port. If you DO NOT have a passport, you can board with a birth certificate issued by the department of vital statistics and your driver’s license.</p>
-									</section>
-
-
-									<section>
-										<h2>What are some things you suggest I buy for this trip? <span></span></h2>
-
-										<p>Relaxed casual wear, motion sickness medicine (just in case), swim wear, sun block lotion/spray, deet bug spray, and a sexy classy white outfit.</p>
-									</section>
-
-
-									<section>
-										<h2>How do I pay for this package? <span></span></h2>
+						</div><!-- price table -->
+						<?php endif; ?>
+
+                                
+						</div><!-- price table container-->
+                    
+                    
+                    
+                        
+
+                    </div><!-- ./ price -->
+
+
+
+                    <?php echo $responsive_tabs["faqs"]; ?>
+					<div class="tab" aria-label="faqs">
+
+                        <h3>Frequently Asked Questions</h3>
+                        
+                        
+                        <div data-accordion-group>
+                        
+                        	
+                        	<div class="accordion open" data-accordion>
+
+							  <div data-control>Do I need a Passport?</div>
+							  <div data-content>
+								  <p>A passport is not required to go on the cruise if you are a United States citizen and departing from a US port. If you DO NOT have a passport, you can board with a birth certificate issued by the department of vital statistics and your driver’s license.</p>
+							  </div>
+
+							</div><!-- end of accordion-->
+							
+							<div class="accordion" data-accordion>
+
+							  <div data-control>What are some things you suggest I buy for this trip? </div>
+							  <div data-content>
+								  <p>Relaxed casual wear, motion sickness medicine (just in case), swim wear, sun block lotion/spray, deet bug spray, and a sexy classy white outfit.</p>
+							  </div>
+
+							</div><!-- end of accordion-->
+							
+							
+							<div class="accordion" data-accordion>
+
+							  <div data-control>How do I pay for this package?</div>
+							  <div data-content>
+								  <p>Navigate to the Buy Now tab and complete the form. You will receive a welcome letter within 7 business days with all your reservation information.</p>
+							  </div>
+
+							</div><!-- end of accordion-->	
+                        				
 										
-										<p>Navigate to the Buy Now tab and complete the form. You will receive a welcome letter within 7 business days with all your reservation information.</p>
-									</section>
+							<div class="accordion" data-accordion>
 
+							  <div data-control>When are the payments due? </div>
+							  <div data-content>
+								<p>After registration the first payment of $125 is due <strong>May 4, 2019</strong> . The final payment (remaining balance) is due on or before <strong>July 5, 2019</strong> . If you the announced payment dates have passed contact us for our current payment plan.</p>
+							  </div>
 
-									<section>
-										<h2>When are the payments due? <span></span></h2>
+							</div><!-- end of accordion-->
 
-										<p>After registration the first payment of $125 is due <strong>May 4, 2016</strong> . The final payment (remaining balance) is due on or before <strong>July 5, 2016</strong> . If you the announced payment dates have passed contact us for our current payment plan.</p>
-									</section>
 
+							<div class="accordion" data-accordion>
 
-									<section>
-										<h2>Are there any other charges associated with the cruise? <span></span></h2>
+							  <div data-control>Are there any other charges associated with the cruise?</div>
+							  <div data-content>
+								<p>Yes, clients are responsible for paying cabin gratuities. The standard charge is $11.25 per day, but you may want to leave more depending on your service. Sometimes gratuity is added to your final bill, so check with the cruiseline front desk on the ship before coming back to Miami.</p>
+							  </div>
 
-										<p>Yes, clients are responsible for paying cabin gratuities. The standard charge is $11.25 per day, but you may want to leave more depending on your service. Sometimes gratuity is added to your final bill, so check with the cruiseline front desk on the ship before coming back to Miami.</p>
-									</section>
+							</div><!-- end of accordion-->
 
 
-									<section>
-										<h2>What port are we departing from and what time do I need to be there? <span></span></h2>
+							<div class="accordion" data-accordion>
 
-										<p>The Carnival Ecstasy sails from the Port of Miami. We suggest arriving no later than 2:30 pm.</p>
-									</section>
+							  <div data-control>What port are we departing from and what time do I need to be there?</div>
+							  <div data-content>
+								<p>The Carnival Sensation sails from the Port of Miami. We suggest arriving no later than 2PM.</p>
+							  </div>
 
-								</div>
-								<!-- accordion -->
+							</div><!-- end of accordion-->
 
-							</div>
-							<!-- end of Tab 3 -->
 
+							
+						</div><!-- end of accordion group-->
 
 
+            </div> <!-- ./ faqs -->
 
-							<div id="tabs-4">
-								<div id="nanoGallery"></div>
-							</div>
-							<!-- end of tabs 4 -->
 
+			<?php /* ?>
+            <?php echo $responsive_tabs["photos"]; ?>
+			<div class="tab" aria-label="photos">
+                 <div id="nanoGallery"></div>
+            </div><!-- ./ photos -->
+			<?php */ ?>
 
+            <?php echo $responsive_tabs["buynow"]; ?>
+			<div class="tab" aria-label="buy">
 
+                <h3>Buy Now</h3>
+                <p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
 
+                <div class="cognito"></div>
 
-							<div id="tabs-5">
+            </div> <!-- ./buynow -->
 
-								<div class="pay-form">
+								</div><!-- end of responsive-tabs -->
 
-									<p>Please use the form below to complete your booking for
-										<?php echo $event["title"]?>. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a>
-									</p>
 
 
+					</div><!-- end of colfull -->
 
-									<form action="https://www.paypal.com/cgi-bin/webscr" method="post" id='paypal_frm'>
 
-										<input type="hidden" name="cmd" value="_s-xclick">
-
-										<input type="hidden" name="hosted_button_id" value="NRJTGWMRHL478">
-
-
-										<div class="form-col">
-
-											<input type="hidden" name="on0" value="Package Selection">
-
-											<label>Package Selection</label>
-
-											<select name="os0" id="paypal_select" class="form-control">
-
-												<optgroup label="Package Reservation Fee">
-
-													<option value="Inside Cabin Registration">Register: Inside Cabin $19.99 </option>
-
-													<option value="Outside Cabin Registration">Register: Outside Cabin $19.99</option>
-
-													<option value="General Registration">General Registration $19.99</option>
-
-												</optgroup>
-
-
-
-												<optgroup label="First Payment">
-
-													<option value="Fantasy 1st Payment">First Payment $125</option>
-
-												</optgroup>
-
-												<optgroup label="Partial Payments">
-
-													<option value="Partial Pay 100">Partial Pay: $100</option>
-
-													<option value="Partial Pay 150">Partial Pay: $150</option>
-
-													<option value="Partial Pay 200">Partial Pay: $200</option>
-
-												</optgroup>
-
-											</select>
-
-										</div>
-
-
-
-										<div class="form-col">
-
-											<input type="hidden" name="on1" value="Package Type">
-
-											<label>Package Type</label>
-
-											<select name="os1" class="form-control">
-
-												<option value="Diamond">Diamond </option>
-
-											</select>
-
-										</div>
-
-
-
-										<div class="form-col">
-
-											<input type="hidden" name="on2" value="Group Leader Name">
-
-											<label for="os2">* Group Leader Name</label>
-
-											<input id="os2" class="group form-control" type="text" name="os2" maxlength="60">
-
-										</div>
-
-
-
-										<div class="form-col">
-
-											<input type="hidden" name="on3" value="Group Size">
-
-											<label for="os3">* Number of people in group?</label>
-
-											<input data-required="true" name="os3" type="text" class="group-size form-control" id="os3" size="2" maxlength="2">
-
-										</div>
-
-
-
-										<div class="form-col">
-
-											<input type="hidden" name="on4" value="Referral">
-
-											<label for="os4">Referral Code</label>
-
-											<input name="os4" type="text" class="group form-control" id="os4" size="10" maxlength="10">
-
-										</div>
-
-
-
-
-
-										<div class="checkbox">
-
-											<input name="terms" type="checkbox" value="agree" id="terms">
-
-											<label for="terms">
-
-												<p>* Check below for
-
-													<a class="terms-box fancybox.ajax" href="/includes/termsofagreement.inc.php">Terms</a>
-
-												</p>
-
-											</label>
-
-										</div>
-
-
-
-
-
-										<input type="hidden" name="currency_code" value="USD">
-
-										<input class="btn btn-success" type="submit" border="0" name="submit" value="Complete Booking">
-
-
-
-										<p class="small"><strong>Important:</strong> You will be redirected to PayPal's website to securely complete your payment.Rates are quoted in US dollars.</p>
-
-
-
-									</form>
-
-								</div>
-								<!-- end of pay-form -->
-
-							</div>
-							<!-- end of tabs 5 -->
-
-						</div>
-						<!-- end of tabs -->
-
-					</div>
-					<!-- end of colfull -->
 
 
 					<div class="disclosure">
@@ -606,46 +398,6 @@ include 'includes/functions.inc.php';
 		$( document ).ready( function () {
 
 
-
-			//form validation
-
-			$( '#paypal_frm' ).validate( {
-
-				rules: {
-
-					terms: {
-						required: true
-					},
-
-					os3: {
-						required: true
-					},
-
-					os2: {
-						required: true
-					},
-
-					os5: {
-						required: true
-					}
-
-				},
-
-				messages: {
-
-					os3: "must add group size",
-
-					os2: "must add leader",
-
-					os5: "must choose a package type",
-
-					terms: "You must agree to terms!"
-
-				}
-
-			} );
-
-
 			//nano
 			$( "#nanoGallery" ).nanoGallery( {
 				kind: 'flickr',
@@ -668,6 +420,9 @@ include 'includes/functions.inc.php';
 
 		});
 	</script>
+   
+    <script src="https://services.cognitoforms.com/s/NiNAkf4LukqBZOHDFOMsiQ"></script>
+	<script>Cognito.load("forms", { id: "59" });</script>
 
 	<!--google analytics-->
 	<?php include 'includes/analytics.inc.php'; ?>

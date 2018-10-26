@@ -131,7 +131,7 @@ include 'includes/functions.inc.php';
 
 
 
-                         <div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
+                        <div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
 							<div class="overlay"></div>
 							<div class="title">
 								<h1><?php echo $event["title"]; ?></h1>
@@ -286,7 +286,7 @@ include 'includes/functions.inc.php';
 
 												  <div data-control>When are the payments due?</div>
 												  <div data-content>
-													<p>The first payment of $125 is due August 09, 2018 after registration. The final payment (remaining balance) is due on or before February 01, 2019. If you would like to make payments between due dates that is fine also.</p>
+													<p>The first payment of $125 is due November 14, 2018 after registration. The final payment (remaining balance) is due on or before February 01, 2019. If you would like to make payments between due dates that is fine also.</p>
 												  </div>
 
 												</div><!-- end of accordion-->

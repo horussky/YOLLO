@@ -46,8 +46,8 @@ $feature_event = array(
 	),
 	array(
 		"title" 	=> "Urban Fantasy Cruise",
-		"date" 		=> "October 28-31, 2016",
-		"end"		=> strtotime("October 31, 2016"),
+		"date" 		=> "September 9-14, 2019",
+		"end"		=> strtotime("September 14, 2019"),
 		"img" 		=> "images/featured-events/featured-event-ufc.jpg",
 		"link" 		=> "/urban-fantasy"
 	),

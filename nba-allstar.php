@@ -31,17 +31,17 @@ $geolocation = array(
 
 $people = array(
 		"diamond"=> array(
-			"Group of 4" 			=>"$890",
-			"Group of 3"			=>"$955",
-			"Group of 2"			=>"$1065",
-			"Individual"			=>"$2465"
+			"Group of 4" 			=>"$990",
+			"Group of 3"			=>"$1055",
+			"Group of 2"			=>"$1165",
+			"Individual"			=>"$2565"
 		),
 
 		"emerald"=> array(
-			"Group of 4" 			=>"$765",
-			"Group of 3"			=>"$845",
-			"Group of 2"			=>"$945",
-			"Individual"			=>"$1950"
+			"Group of 4" 			=>"$865",
+			"Group of 3"			=>"$945",
+			"Group of 2"			=>"$1045",
+			"Individual"			=>"$2050"
 		),
 
 		"options"=>array(
@@ -236,7 +236,7 @@ include 'includes/functions.inc.php';
 												<h4>Party Pass Options: </h4>
                                             <p>These options are not the same and are separate from the all-inclusive options listed above; and are intended for those not in need of hotel accommodations. </p>
 
-												<p class="lead">Rookie - $350 </p>
+												<p class="lead">Rookie - $450 </p>
 												<ul>
 													<li>Friday Night Party</li>
 													<li>Jam Sessions Ticket</li>
@@ -247,7 +247,7 @@ include 'includes/functions.inc.php';
 
 												</ul>
 
-												<p class="lead">Rising Star - $550 </p>
+												<p class="lead">Rising Star - $650 </p>
 												<ul>										
 													<li>Jam Sessions Ticket</li>
 													<li>YOLLO Live City Tour</li>
@@ -258,7 +258,7 @@ include 'includes/functions.inc.php';
 													<li>All Star Practice Game ticket</li>							
 												</ul>
 
-												<p class="lead">All-Star - $750 (best seller)</p>
+												<p class="lead">All-Star - $850 (best seller)</p>
 												<ul>
 
 													<li>Friday Night Party (Celebrity Hosted)</li>
@@ -299,7 +299,7 @@ include 'includes/functions.inc.php';
 
 										  <div data-control>When are the payments due?</div>
 										  <div data-content>
-											<p>After registration the first payment of $125 is due September 23, 2018. The final payment (remaining balance) is due on or before January 04, 2019.</p>
+											<p>After registration the first payment of $125 is due November 14, 2018. The final payment (remaining balance) is due on or before January 04, 2019.</p>
 										  </div>
 
 										</div><!-- end of accordion-->

@@ -354,7 +354,8 @@
 
   #right .content .date-location {
     font-size: 1.4rem;
-    flex-direction: column; }
+    flex-direction: column;
+    display: block; }
     #right .content .date-location .col:nth-child(1) {
       border: none; }
 

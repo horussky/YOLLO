@@ -603,6 +603,7 @@
 	#right .content .date-location {
     	font-size: 1.4rem;
     	flex-direction: column;
+        display: block;
 
 		.col:nth-child(1) {
 			border:none;
