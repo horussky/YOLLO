@@ -321,12 +321,12 @@ include 'includes/functions.inc.php';
             </div> <!-- ./ faqs -->
 
 
-			<?php /* ?>
+			
             <?php echo $responsive_tabs["photos"]; ?>
 			<div class="tab" aria-label="photos">
                  <div id="nanoGallery"></div>
             </div><!-- ./ photos -->
-			<?php */ ?>
+			
 
             <?php echo $responsive_tabs["buynow"]; ?>
 			<div class="tab" aria-label="buy">
