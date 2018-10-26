@@ -5,7 +5,7 @@ $active = "active-nav";
 //array for top links
 $top_links = array(
     'home'      =>  'Home',
-    'events'    =>  'Events',
+    //'events'    =>  'Events',
     'about'     =>  'About Us', 
     'faq'       =>  'FAQs', 
     'contact'   =>  'Contact', 
