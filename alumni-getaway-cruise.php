@@ -45,17 +45,17 @@ $people = array(
 
 $package_items = array(
 	"diamond_items" => array(
-		"4 Day/3 Night Cruise Departing From Port of Mobile"		=> "checked",
+		"5 Day/4 Night Cruise Departing From Port of Mobile"		=> "checked",
 		"All You Can Eat aboard Ship"								=> "checked",
-		"Bust a Gut Comedy Series"									=> "checked",
-		"Glow Party"										=> "checked",
-		"Word Easy Spoken Word Show"								=> "checked",
-		"Alumni Getaway Welcome Reception"							=> "checked",
-		"Rep My Set Party"											=> "checked",
+		"Bust a Gut Alumni Getaway Comedy Series"									=> "checked",
+		"Welcome to the 80's Glow Party"										=> "checked",
+		"Word Easy Private Spoken Word Show"								=> "checked",
+		"Alumni Getaway Private Welcome Reception"							=> "checked",
+		"Alumni Getaway Exclusive Kangol and Shelltoes Party"											=> "checked",
 		"Alumni Getaway Beach Retreat"								=> "checked",
 		"Alumni Getaway Ocean Blue Fun and Sexy Party"				=> "checked",
 		"Farewell Party"											=> "checked",
-		"Black Film Review"											=> "checked",
+		"Alumni Getaway Private Black Film Review"											=> "checked",
 		"YOLLO Gift Bag"											=> "checked"
 	),
 

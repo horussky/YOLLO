@@ -299,7 +299,7 @@ include 'includes/functions.inc.php';
 
 										  <div data-control>When are the payments due?</div>
 										  <div data-content>
-											<p>After registration the first payment of $125 is due November 14, 2018. The final payment (remaining balance) is due on or before January 04, 2019.</p>
+											<p>After registration the first payment of $125 is due December 30, 2018. The final payment (remaining balance) is due on or before January 14, 2019.</p>
 										  </div>
 
 										</div><!-- end of accordion-->
@@ -372,13 +372,48 @@ include 'includes/functions.inc.php';
 								<?php echo $responsive_tabs["buynow"]; ?>
 								<div class="tab" aria-label="buy">
 
-									<h3>Buy Now</h3>
+									<h3>Buy Package</h3>
 									<p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
 
 									<div class="cognito"></div>
 
 
 								</div><!-- ./ buy now -->
+                                
+                                
+                                
+                                <input type="radio" name="tabs" id="tab-6">
+                                <label for="tab-6"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Buy Cruise</label>
+                                <div class="tab" aria-label="buy cruise">
+                                    <h3>Lavish Life All Black Yacht Party</h3>
+                                    <p>February 16, 2019</p>
+
+                                    <img style="width:50%" src="https://cdn.evbuc.com/eventlogos/75965891/photogrid1540043645747.jpg" alt="…">
+                                    
+                                    
+                                    <h5>Cruise #1</h5>
+                                    <ul>
+                                        <li>Boarding: 11:45 AM</li>
+                                        <li>Party time: 12 PM - 3 PM </li>
+                                        <li>Light buffet served during cruise</li>
+                                        <li>Cash bar</li>
+                                        <li>General Admission $75</li>
+                                    </ul>
+                                    
+                                    <h5>Cruise #2</h5>
+                                    <ul>
+                                        <li>Boarding: 7:45 PM</li>
+                                        <li>Party time: 8 PM - 11 PM</li>
+                                        <li>Light buffet served during cruise</li>
+                                        <li>Cash bar</li>
+                                        <li>General Admission $75</li>
+                                    </ul>
+
+                                    <a href="https://www.eventbrite.com/e/2019-all-star-lavish-life-all-black-yacht-party-tickets-51615616699?ref=ebtnebtckt" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=51615616699" alt="Eventbrite - 2019 ALL STAR LAVISH LIFE ALL BLACK YACHT PARTY" /></a>
+                                </div><!-- ./ buy cruise -->
+                                
+                                
+                                
 
 
 							</div><!-- end of #responsive-tabs-->
@@ -448,6 +483,26 @@ include 'includes/functions.inc.php';
 <script src="https://services.cognitoforms.com/s/NiNAkf4LukqBZOHDFOMsiQ"></script>
 <script>Cognito.load("forms", { id: "9" });</script>
 
+    
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+<!--<script type="text/javascript">
+	var exampleCallback = function() {
+		console.log('Order complete!');
+	};
+
+	window.EBWidgets.createWidget({
+		// Required
+		widgetType: 'checkout',
+		eventId: '51615616699',
+		iframeContainerId: 'eventbrite-widget-container-51615616699',
+
+		// Optional
+		iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+		onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+	});
+</script>-->
+    
 <!--google analytics-->
 <?php include 'includes/analytics.inc.php'; ?>
 </body></html>

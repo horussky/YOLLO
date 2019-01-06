@@ -6,8 +6,8 @@ $event = array(
 	"title"						=>"Party Gras: Bottles and Beads",
 	"subtitle"					=>"Come Party For Those BEADS! This event will SELL OUT!",
 	"location"					=>"Chattanooga, TN",
-	"date"						=>"August 11, 2018",
-    "date_start"				=>"August 11, 2018",
+	"date"						=>"August 10, 2019",
+    "date_start"				=>"August 10, 2019",
 	"img_url"				 	=>"../../images/slides/splash-partygras-cta.jpg",
 	"img_alt"				 	=>"Day Getaway Cruise"
 );
@@ -42,11 +42,11 @@ $people = array(
 
 $package_items = array(
 	"diamond_items" => array(
-		"Crowd Control by: DJ Dre Smoove and DJ Dee Money"		=> "checked",
+		"Crowd Control by: DJ Dre Smoove"		=> "checked",
 		"Poets: Georgia Me and Friends"						    => "checked",
 		"Comedians: Chris 'Set It Off' Jones and Friends"		=> "checked",
-		"Live Performances by: Charles Reed and Friends"		=> "checked",
-		"Free Margaritas while they last"						=> "checked",
+		"Live Performances by: TBA"		=> "checked",
+		"Meet and Greet with Free Margaritas while they last"						=> "checked",
 		"Cruise the Tennessee River"							=> "checked"
 		
 	),
@@ -131,15 +131,15 @@ include 'includes/functions.inc.php';
 					<div class="tab" aria-label="overview">
                         <h3>Party Gras is BACK and in Tennessee</h3>
 
-                        <p>After an amazing 2017 party cruise, Party Gras: Bottles and Bead is returning for a fifth installment. Last year we turned it up to the max, but this year we are making everything bigger and better than ever. We are taking this party on the road. Come party aboard the Southern Belle for an exclusive Riverboat cruise with amazing views of Chattanooga, TN.</p> 
+                        <p>After an amazing 2017 party cruise, Party Gras: Bottles and Bead is returning for a sixth installment. Last year we turned it up to the max, but this year we are making everything bigger and better than ever. We are taking this party on the road. Come party aboard the Southern Belle for an exclusive Riverboat cruise with amazing views of Chattanooga, TN.</p> 
                           
-                        <p>This will be a FULL day of good music, adult drinks, mingling, and fun for everyone attending. The boat features three (3) party decks with multiple DJ's. Live entertainment will feature spoken word artists, comedians, and performances by R&amp;B/Hip Hop artist! FREE margaritas will be on deck at our welcome reception! <strong>This event WILL SELL OUT quickly</strong>, so purchase your tickets today. For questions and tickets call: <strong>(888) 946-9655 </strong> or <strong>(334) 531-5650</strong>, or <a data-href="#tabs-5" class="open-tab">purchase your tickets online now.</a></p>
+                        <p>This will be a FULL day of good music, adult drinks, mingling, and fun for everyone attending. The boat features three (3) party decks with multiple DJ's. Live entertainment will feature spoken word artists, comedians, and performances by R&amp;B/Hip Hop artist! FREE margaritas will be on deck at our welcome reception! <strong>This event WILL SELL OUT quickly</strong>, so purchase your tickets today. For questions and tickets call: <strong>(888) 946-9655 </strong> or <a data-href="#tabs-5" class="open-tab">purchase your tickets online now.</a></p>
                        	
-						<p>Don't wait as this event will fill up fast, book this event today. We are also providing hotel accommodations via the Holiday Inn and Suites Downtown Chattanooga at a special discounted rate of <strong>$119</strong>. You can <a target="_blank" href="https://www.holidayinn.com/redirect?path=hd&brandCode=HI&localeCode=en&regionCode=1&hotelCode=CHADT&_PMID=99801505&GPC=YOL&viewfullsite=true">secure your hotel room</a> today by visiting the host properties website. </p>
+						<p>Don't wait as this event will fill up fast, book this event today. We are also providing hotel accommodations via the Holiday Inn and Suites Downtown Chattanooga at a special discounted rate of <strong>$129</strong>. You can <a target="_blank" href="https://www.holidayinn.com/redirect?path=hd&brandCode=HI&localeCode=en&regionCode=1&hotelCode=CHADT&_PMID=99801505&GPC=YOL&viewfullsite=true">secure your hotel room</a> today by visiting the host properties website. </p>
                         
-                        <p><strong>Live show:</strong> 4PM- 7PM<br>
+                        <p><strong>Live show:</strong> 2PM- 5PM<br>
 						<strong>Cruise Boarding:</strong> 10:30PM<br> 
-						<strong>Party time:</strong> 11PM - 1:30AM</p>
+						<strong>Party time:</strong> 11PM - 1:00AM</p>
 						<p style="color:dimgrey">*All times are based on Eastern Time Zone.</p>
     
 
@@ -224,7 +224,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>What time is the bus departing from Birmingham? </div>
 							  <div data-content>
-								  <p>The charter will depart Birmingham at 10 am Saturday August 11, 2018. The charter will leave Chattanooga, TN at 10 am on Sunday, August 12, 2018. Please note the 10 am departure from Chattanooga is Eastern Standard Time. If you haven’t please secure your room at the host property which is the Holiday Inn and Suites Downtown Chattanooga. Our guest will receive a special rate if you utilize the link on the page.  </p>
+								  <p>The charter will depart Birmingham at 9 am Saturday August 10, 2019. The charter will leave Chattanooga, TN at 10 am on Sunday, August 11, 2019. Please note the 10 am departure from Chattanooga is Eastern Standard Time. If you haven’t please secure your room at the host property which is the Holiday Inn and Suites Downtown Chattanooga. Our guest will receive a special rate if you utilize the link on the page.  </p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -382,7 +382,7 @@ include 'includes/functions.inc.php';
                 <h4>Hotel Accommodations</h4>
                 <img style="width:15rem; float:left; margin-right:2rem" src="https://t-ec.bstatic.com/images/hotel/max1024x768/191/19191223.jpg" />
 				<p class="mb-10"><strong>Holiday Inn & Suites Chattanooga Downtown</strong></p>
-               	<p>For anyone needing hotel accommodations you can  <a target="_blank" href="https://www.holidayinn.com/redirect?path=hd&brandCode=HI&localeCode=en&regionCode=1&hotelCode=CHADT&_PMID=99801505&GPC=YOL&viewfullsite=true">secure your hotel room</a> at a special discounted rate of <strong>$119</strong>. The special rate ends July 11, 2018.</p>
+               	<p>For anyone needing hotel accommodations you can  <a target="_blank" href="https://www.holidayinn.com/redirect?path=hd&brandCode=HI&localeCode=en&regionCode=1&hotelCode=CHADT&_PMID=99801505&GPC=YOL&viewfullsite=true">secure your hotel room</a> at a special discounted rate of <strong>$129</strong>. The special rate ends July 04, 2019.</p>
                
 
 				

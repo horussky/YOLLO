@@ -159,7 +159,7 @@ include 'includes/functions.inc.php';
 										<p>YOLLO Group Services has the ultimate ski-weekend package for you. So you have never been skiing? No problem. Nervous about skiing and falling? No worries at all. There will be hundreds of others just like you at the lodge. You may fall, roll, or make the slopes a slave to your skills. Regardless, you will definitely have a great time at Urban Ski Weekend in Gatlinburg, Tennesee.</p>
 
 										<h4>What else?</h4>
-										<p>Tired of busting your butt on the slopes? You can enjoy many parties and events going on around the mountain. The 2018 edition of Urban Ski Weeekend was hosted by LHHNY own DJ Self and Safari! They did not disppoint as they entertained and interacted with the crowd!</p>
+										<p>Tired of busting your butt on the slopes? You can enjoy many parties and events going on around the mountain. The 2018 edition of Urban Ski Weeekend was hosted by LHHNY own DJ Self and Safari! They did not disppoint as they entertained and interacted with the crowd! In 2019 we are bringing back crowd favorite and party rocker LHHNY own DJ Self! The ladies love a touch of R&B royaltie at Urban Ski so we are bringing Pleasure P and friends to entertain the crowd and rock the stage with us as well!</p>
 
 										<h4>The packages</h4>
 										<p>Our packages includes hotel stay, party passes, comedy show, breakfast, and plenty of networking oppurtunities. We also have transportation available via one of our exclusive party buses. These buses will be available in Alabama and Georgia.</p>
@@ -255,7 +255,7 @@ include 'includes/functions.inc.php';
 
 										  <div data-control>When are the payments due?</div>
 										  <div data-content>
-											<p>Following registration the first payment of $125 is due on or before November 13, 2018. The final payment (remaining balance) is due on or before January 04, 2019.</p>
+											<p>Following registration the first payment of $125 is due on or before December 29, 2018. The final payment (remaining balance) is due on or before January 14, 2019. Another popular option is pay $250 today and the rest on arrival. This pay on arrival option has a $35 fee added to the final balance due on arrival. If you select the pay on arrival option and pay early the fee associated will still apply.</p>
 										  </div>
 
 										</div><!-- end of accordion-->
@@ -263,9 +263,9 @@ include 'includes/functions.inc.php';
 										
 										<div class="accordion" data-accordion>
 
-										  <div data-control>What time will the bus depart from Atlanta?</div>
+										  <div data-control>What time will the bus depart from Knoxville, TN?</div>
 										  <div data-content>
-											<p>The bus will depart Atlanta at 1pm (EST) on Friday and return to Atlanta Monday at 4 pm (EST).</p>
+											<p>The bus will depart Knoxville at 1pm (EST) on Friday and return to Knoxville Monday at 4 pm (EST).</p>
 										  </div>
 
 										</div><!-- end of accordion-->
@@ -276,7 +276,7 @@ include 'includes/functions.inc.php';
 
 										  <div data-control>What cities will the bus depart from?</div>
 										  <div data-content>
-											<p>Birmingham and Atlanta! Don't see you city or state listed? Email us and let's see what we can work out!</p>
+											<p>Knoxville, TN only! Don't see you city or state listed? Email us and let's see what we can work out!</p>
 										  </div>
 
 										</div><!-- end of accordion-->

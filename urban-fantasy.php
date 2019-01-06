@@ -29,10 +29,10 @@ $geolocation = array(
 $people = array(
 
 	"diamond" => array(
-		"Group of 4" => "$450",
-		"Group of 3" => "$515",
-		"Group of 2" => "$670",
-		"Individual" => "$1265"
+		"Group of 4" => "$575",
+		"Group of 3" => "$700",
+		"Group of 2" => "$770",
+		"Individual" => "$1125"
 	),
 
 
@@ -47,12 +47,16 @@ $package_items = array(
 
 	"diamond_items" => array(
 
-		"4 Day/3 Night Cruise Departing From Miami, Florida"  => "checked",
+		"5 Day/4 Night Cruise Departing From Miami, Florida"  => "checked",
 		"All You Can Eat All Weekend Long"                    => "checked",
-		"Free Non-Motor Excursions Access"                    => "checked",
+		"Cuban Nights Party - Break out your LINEN or FESTIVE colors theme night"                    => "checked",
+		"Grown and Sophisticated - Theme party (dress to impress night) All You Can Drink First Hour"             => "checked",
+		"The All-Stars Of Comedy Private Show "           => "checked",
+		"The Speak Easy Live Private Concert "                    => "checked",
 		"Open Bar Captains \"Fantasy\" Reception"             => "checked",
-		"Transportation To Events from Ship & Back"           => "checked",
-		"10 Hours of Open Bar for Weekend"                    => "checked",
+		"The Black Film Fest Private Screening"           => "checked",
+		"Urban Fantasy Private Welcome Reception 
+All You Can Drink"                    => "checked",
 		"YOLLO Gift Bag"                                      => "checked"
 	),
 
@@ -288,7 +292,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>When are the payments due? </div>
 							  <div data-content>
-								<p>After registration the first payment of $125 is due <strong>May 4, 2019</strong> . The final payment (remaining balance) is due on or before <strong>July 5, 2019</strong> . If you the announced payment dates have passed contact us for our current payment plan.</p>
+								<p>After registration the first payment of $125 is due <strong>February 04, 2019</strong> . The final payment (remaining balance) is due on or before <strong>June 5, 2019</strong> . If you the announced payment dates have passed contact us for our current payment plan.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
