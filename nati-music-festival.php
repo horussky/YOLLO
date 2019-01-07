@@ -3,11 +3,11 @@
 ob_start("ob_gzhandler");
 
 $event = array(
-	"title"					=>"Cincinnati Music Festival 2018",
+	"title"					=>"Cincinnati Music Festival 2019",
 	"subtitle"				=>"Book your package today!",
 	"location"				=>"Cincinnati, Ohio",
-	"date"					=>"July 27- 29, 2018",
-    "date_start"			=>"July 27, 2018",
+	"date"					=>"July 26- 28, 2019",
+    "date_start"			=>"July 26, 2019",
 	"img_url"				=>"../../images/slides/splash-mmf-cta.jpg",
 	"img_alt"				=>"Cincinnati Music Festival"
 );
@@ -135,10 +135,10 @@ include 'includes/functions.inc.php';
 						<h3>Get ready for Cincinnati Music Festival</h3>
 						<p>YOLLO is providing you a great event package for the Cincinnati Music Festival. Over the years this event has evolved from being a pure jazz concert, to an event that also includes old school hip-hop and R&amp;B. This year the Cincinnati Music Festival will be held at the state of the art Paul Brown Stadium, home of the Cincinnati Bengal's. Beyond the featured acts, this event provides a great meet and greet or mix and mingle atmosphere.</p>
 
-						<h4>4th Annual Grown and Sophisticated Mid-Day Cruise</h4>
-						<p>The 4th Annual Grown and Sophisticated Mid-Day Cruise will happen on the River Queen and will be another MUST ATTEND event during Cincinnati Music Festival Weekend! Enjoy a multi-level paddle-wheel boat cruising the mighty Ohio River, while listening to the livest Hip-Hop and R&amp;B music. Last years' cruise was Mardi Gras themed, however we are returning to the original format of an All White cruise. The cruise sails from 1:00 pm – 4:00 pm. Please remember that once we sell out, we will not have any more tickets available.<p>
+						<h4>5th Annual Grown and Sophisticated Mid-Day Cruise</h4>
+						<p>The 5th Annual Grown and Sophisticated Mid-Day Cruise will happen on the River Queen and will be another MUST ATTEND event during Cincinnati Music Festival Weekend! Enjoy a multi-level paddle-wheel boat cruising the mighty Ohio River, while listening to the livest Hip-Hop and R&amp;B music. Last years' cruise was Mardi Gras themed, however we are returning to the original format of an All White cruise. The cruise sails from 1:30 pm – 5:00 pm. Please remember that once we sell out, we will not have any more tickets available.<p>
 						
-						<p>YOLLO is looking forward to another terrific festival in 2018, and we hope you join us and be a part of this special summer occasion. Packages are available now, but they won't last long. Don't wait reserve today for $29.99!</p>
+						<p>YOLLO is looking forward to another terrific festival in 2019, and we hope you join us and be a part of this special summer occasion. Packages are available now, but they won't last long. Don't wait reserve today for $29.99!</p>
 
                   	</div><!-- ./ overview -->
 
@@ -250,7 +250,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>What are the payment due dates for Cincinnati Music Festival Packages?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $19.99 per person fee. The first payment of $125 is due on or before <strong>April 06, 2018</strong>. The final payment (remaining balance) is due on or before <strong>June 05, 2018</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 is due on or before <strong>February 06, 2019</strong>. The final payment (remaining balance) is due on or before <strong>May 05, 2019</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -299,7 +299,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>What time does the cruise start and how much does it cost?</div>
 							  <div data-content>
-								<p>The cruise will sail from 1:30 pm - 4:00 pm, however boarding begins at 1:00 pm. The cost of the cruise is $40 for General Admission and $95 for VIP. VIP grants no line waiting entrance, Open bar, and light food during the cruise.</p>
+								<p>The cruise will sail from 1:30 pm - 5:00 pm, however boarding begins at 1:00 pm. The cost of the cruise is $50 for General Admission and $95 for VIP. For a limited time there are Early Bird tickets available at $40 for General Admission and $85 VIP.  VIP grants no line waiting entrance, Open bar, and light food during the cruise.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
