@@ -10,6 +10,13 @@ $feature_event = array(
 		"link" 		=> "/nati-music-festival"
 	),
 	array(
+		"title" 	=> "Black Beach Weekend Cruise",
+		"date" 		=> "April 13, 2019",
+		"end"		=> strtotime("April 13, 2019"),
+		"img" 		=> "images/featured-events/featured-event-bbw.jpg",
+		"link" 		=> "/black-beach"
+	),
+	array(
 		"title" 	=> "Essence Festival",
 		"date" 		=> "July 5-7, 2019",
 		"end"		=> strtotime("July 7, 2019"),

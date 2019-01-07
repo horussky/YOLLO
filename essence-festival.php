@@ -68,7 +68,7 @@
 			"Welcome to NOLA party (Friday)"				    => "checked",
 			"Complimentary Additional Night*"			        => "checked",
 			"Additional nights: $349 plus tax and fees"	        => "checked",
-			"Additional concert nights (Lodge Section): $175"	=> "checked",
+			"Additional concert nights (Loge Section): $175"	=> "checked",
 			"YOLLO Gift Bag"							        => "checked"
 		),
 
@@ -82,7 +82,7 @@
 			"Welcome to NOLA party (Friday)"				  => "checked",
 			"Complimentary Additional Night*"			      => "checked",
 			"Additional nights: $349 plus tax and fees"	      => "checked",
-			"Additional concert nights (Lodge Section): $175" => "checked",
+			"Additional concert nights (Loge Section): $175" => "checked",
 			"YOLLO Gift Bag"							      => "checked"
 		)
 	);

@@ -9,6 +9,12 @@ define("EVENT", serialize ($nav = array(
 			),
 	
 			array(
+					"title"	=>	"Black Beach Weekend Cruise",
+				  	"class"	=>	"bbw",
+				  	"link"	=>	"/black-beach"
+				  
+			),
+			array(
 					"title"	=>	"College BeachFest",
 				  	"class"	=>	"cbf",
 				  	"link"	=>	"/college-beachfest"

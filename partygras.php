@@ -135,7 +135,7 @@ include 'includes/functions.inc.php';
                           
                         <p>This will be a FULL day of good music, adult drinks, mingling, and fun for everyone attending. The boat features three (3) party decks with multiple DJ's. Live entertainment will feature spoken word artists, comedians, and performances by R&amp;B/Hip Hop artist! FREE margaritas will be on deck at our welcome reception! <strong>This event WILL SELL OUT quickly</strong>, so purchase your tickets today. For questions and tickets call: <strong>(888) 946-9655 </strong> or <a data-href="#tabs-5" class="open-tab">purchase your tickets online now.</a></p>
                        	
-						<p>Don't wait as this event will fill up fast, book this event today. We are also providing hotel accommodations via the Holiday Inn and Suites Downtown Chattanooga at a special discounted rate of <strong>$129</strong>. You can <a target="_blank" href="https://www.holidayinn.com/redirect?path=hd&brandCode=HI&localeCode=en&regionCode=1&hotelCode=CHADT&_PMID=99801505&GPC=YOL&viewfullsite=true">secure your hotel room</a> today by visiting the host properties website. </p>
+						<p>Don't wait as this event will fill up fast, book this event today. We are also providing hotel accommodations via the Holiday Inn and Suites Downtown Chattanooga at a special discounted rate of <strong>$129</strong>. You can <a target="_blank" href="https://www.holidayinn.com/redirect?path=rates&brandCode=HI&localeCode=en&regionCode=1&hotelCode=CHADT&checkInDate=10&checkInMonthYear=072019&checkOutDate=12&checkOutMonthYear=072019&_PMID=99801505&GPC=PG2&viewfullsite=true">secure your hotel room</a> today by visiting the host properties website. </p>
                         
                         <p><strong>Live show:</strong> 2PM- 5PM<br>
 						<strong>Cruise Boarding:</strong> 10:30PM<br> 
@@ -215,7 +215,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>What is the official host property for the Party Gras?</div>
 							  <div data-content>
-								  <p>The host property is the Holiday Inn and Suites Downtown Chattanooga. The address is 434 Chestnut Street Chattanooga, TN, 37402. You can <a target="_blank" href="https://www.holidayinn.com/redirect?path=hd&brandCode=HI&localeCode=en&regionCode=1&hotelCode=CHADT&_PMID=99801505&GPC=YOL&viewfullsite=true">book a room at a discounted price</a> of $119 today while supplies last.</p>
+								  <p>The host property is the Holiday Inn and Suites Downtown Chattanooga. The address is 434 Chestnut Street Chattanooga, TN, 37402. You can <a target="_blank" href="https://www.holidayinn.com/redirect?path=rates&brandCode=HI&localeCode=en&regionCode=1&hotelCode=CHADT&checkInDate=10&checkInMonthYear=072019&checkOutDate=12&checkOutMonthYear=072019&_PMID=99801505&GPC=PG2&viewfullsite=true">book a room at a discounted price</a> of $119 today while supplies last.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -234,7 +234,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>Why do I have to secure my own hotel accommodations?</div>
 							  <div data-content>
-								  <p>We want to give each individual the choice to secure their own accommodations for this exciting event! However we are providing a great <a target="_blank" href="https://www.holidayinn.com/redirect?path=hd&brandCode=HI&localeCode=en&regionCode=1&hotelCode=CHADT&_PMID=99801505&GPC=YOL&viewfullsite=true">discounted price for booking at the host hotel property</a>. One advantage of booking with the host property is it will grant access to other events for the weekend, such as the meet and greet reception.  </p>
+								  <p>We want to give each individual the choice to secure their own accommodations for this exciting event! However we are providing a great <a target="_blank" href="https://www.holidayinn.com/redirect?path=rates&brandCode=HI&localeCode=en&regionCode=1&hotelCode=CHADT&checkInDate=10&checkInMonthYear=072019&checkOutDate=12&checkOutMonthYear=072019&_PMID=99801505&GPC=PG2&viewfullsite=true">discounted price for booking at the host hotel property</a>. One advantage of booking with the host property is it will grant access to other events for the weekend, such as the meet and greet reception.  </p>
 							  </div>
 
 							</div><!-- end of accordion-->	
@@ -374,7 +374,7 @@ include 'includes/functions.inc.php';
                 
 				
                 
-                <div class="mb-20" id="eventbrite-widget-container-46136809439"></div>
+                <div class="mb-20" id="eventbrite-widget-container-53987279406"></div>
                 
                 <hr class="mt-20" />
                 
@@ -382,7 +382,7 @@ include 'includes/functions.inc.php';
                 <h4>Hotel Accommodations</h4>
                 <img style="width:15rem; float:left; margin-right:2rem" src="https://t-ec.bstatic.com/images/hotel/max1024x768/191/19191223.jpg" />
 				<p class="mb-10"><strong>Holiday Inn & Suites Chattanooga Downtown</strong></p>
-               	<p>For anyone needing hotel accommodations you can  <a target="_blank" href="https://www.holidayinn.com/redirect?path=hd&brandCode=HI&localeCode=en&regionCode=1&hotelCode=CHADT&_PMID=99801505&GPC=YOL&viewfullsite=true">secure your hotel room</a> at a special discounted rate of <strong>$129</strong>. The special rate ends July 04, 2019.</p>
+               	<p>For anyone needing hotel accommodations you can  <a target="_blank" href="https://www.holidayinn.com/redirect?path=rates&brandCode=HI&localeCode=en&regionCode=1&hotelCode=CHADT&checkInDate=10&checkInMonthYear=072019&checkOutDate=12&checkOutMonthYear=072019&_PMID=99801505&GPC=PG2&viewfullsite=true">secure your hotel room</a> at a special discounted rate of <strong>$129</strong>. The special rate ends July 04, 2019.</p>
                
 
 				
@@ -484,8 +484,8 @@ include 'includes/functions.inc.php';
 	window.EBWidgets.createWidget({
 		// Required
 		widgetType: 'checkout',
-		eventId: '46136809439',
-		iframeContainerId: 'eventbrite-widget-container-46136809439',
+		eventId: '53987279406',
+		iframeContainerId: 'eventbrite-widget-container-53987279406',
 
 		// Optional
 		iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
