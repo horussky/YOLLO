@@ -330,16 +330,25 @@ include 'includes/functions.inc.php';
                     <?php echo $responsive_tabs["buynow"]; ?>
 					<div class="tab" aria-label="buy">
                         
-                        <h3>Buy Now</h3>
-                        <?php /* ?>
+                        <h3>Buy Package Now</h3>
+                        
                         <p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
                         
                         <div class="cognito"></div>
-                        <?php */ ?>
                         
-                        <div class="mb-20" id="eventbrite-widget-container-36768963961"></div>
+                        
+                        
                         
                     </div><!-- ./ buy now -->
+
+					<input type="radio" name="tabs" id="tab-6"><label for="tab-6"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Cruise</label>					<div class="tab" aria-label="buy">
+                        
+                        <h3>Buy Cruise Now</h3>
+                                                
+                        <div class="mb-20" id="eventbrite-widget-container-51615503360"></div>
+                        
+                    </div><!-- ./ buy now -->
+
 
 
 			</div><!-- end of responsive-tabs -->
@@ -409,8 +418,8 @@ include 'includes/functions.inc.php';
 	window.EBWidgets.createWidget({
 		// Required
 		widgetType: 'checkout',
-		eventId: '36768963961',
-		iframeContainerId: 'eventbrite-widget-container-36768963961',
+		eventId: '51615503360',
+		iframeContainerId: 'eventbrite-widget-container-51615503360',
 
 		// Optional
 		iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
