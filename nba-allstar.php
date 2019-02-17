@@ -381,7 +381,7 @@ include 'includes/functions.inc.php';
 								</div><!-- ./ buy now -->
                                 
                                 
-                                
+                                <?php /* ?>
                                 <input type="radio" name="tabs" id="tab-6">
                                 <label for="tab-6"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Buy Cruise</label>
                                 <div class="tab" aria-label="buy cruise">
@@ -412,7 +412,7 @@ include 'includes/functions.inc.php';
                                     <a href="https://www.eventbrite.com/e/2019-all-star-lavish-life-all-black-yacht-party-tickets-51615616699?ref=ebtnebtckt" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=51615616699" alt="Eventbrite - 2019 ALL STAR LAVISH LIFE ALL BLACK YACHT PARTY" /></a>
                                 </div><!-- ./ buy cruise -->
                                 
-                                
+                                <?php */ ?>
                                 
 
 

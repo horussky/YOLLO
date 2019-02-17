@@ -1,11 +1,11 @@
 <?php
 if(!ob_start("ob_gzhandler")) ob_start();
 $event = array(
-	"title"						=>"Urban Ski Weekend 2019",
-	"subtitle"					=>"Book your package today!",
+	"title"						=>"Urban Ski Weekend 2020",
+	"subtitle"					=>"Early Bird $100 of until April 1, 2019!",
 	"location"					=>"Gatlinburg, Tennessee",
-	"date"						=>"February 1 - 4 2019",
-    "date_start"                =>"February 1, 2019",
+	"date"						=>"January 31 - February 3, 2020",
+    "date_start"                =>"January 31, 2020",
 	"img_url"				 	=>"../../images/slides/splash-urban-ski-cta.jpg",
 	"img_alt"				 	=>"Urban Ski Weekend"
 );
@@ -94,7 +94,7 @@ include 'includes/functions.inc.php';
 
 <title><?php echo $event["title"]?> | <?php echo $phonenumber ?></title>
 <meta name="description" content="We provide all-inclusive arrangements and tickets for Urban Ski Weekend." />
-<meta name="keywords" content="Black Ski Weekend 2019, Urban Ski Weekend 2018,gatlinburg, winter skifest 2018, urban ski, urban ski 2018, urban ski 2019, urban ski weekend 2019, black ski weekend" />
+<meta name="keywords" content="Black Ski Weekend 2020, Urban Ski Weekend 2020,gatlinburg, winter skifest 2020, urban ski, urban ski 2020, urban ski 2019, urban ski weekend 2019, black ski weekend" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
@@ -156,16 +156,16 @@ include 'includes/functions.inc.php';
 
 										<h3>The best event for first-time skiers</h3>
 
-										<p>YOLLO Group Services has the ultimate ski-weekend package for you. So you have never been skiing? No problem. Nervous about skiing and falling? No worries at all. There will be hundreds of others just like you at the lodge. You may fall, roll, or make the slopes a slave to your skills. Regardless, you will definitely have a great time at Urban Ski Weekend in Gatlinburg, Tennesee.</p>
+										<p>YOLLO Group Services has the ultimate ski-weekend package for you. So you have never been skiing? No problem. Nervous about skiing and falling? No worries at all. There will be hundreds of others just like you at the lodge. You may fall, roll, or find out your skills make you a natural on the slopes! Regardless, you will definitely have a great time at Urban Ski Weekend in Gatlinburg, Tennesee.</p>
 
 										<h4>What else?</h4>
-										<p>Tired of busting your butt on the slopes? You can enjoy many parties and events going on around the mountain. The 2018 edition of Urban Ski Weeekend was hosted by LHHNY own DJ Self and Safari! They did not disppoint as they entertained and interacted with the crowd! In 2019 we are bringing back crowd favorite and party rocker LHHNY own DJ Self! The ladies love a touch of R&B royaltie at Urban Ski so we are bringing Pleasure P and friends to entertain the crowd and rock the stage with us as well!</p>
+										<p>Tired of busting your butt on the slopes? You can enjoy many parties and events going on around the mountain. The 2019 edition of Urban Ski Weeekend was hosted by LHHNY own DJ Self and R&B sensation Pleasure P! They did not disppoint as they entertained and interacted with the crowd! In 2020 you know we are going to bring someone who loves Urban Ski Weekend guest as much as we do! The ladies love our celebrity royalty at Urban Ski so guys this will definitely be the place for you to mingle!</p>
 
 										<h4>The packages</h4>
 										<p>Our packages includes hotel stay, party passes, comedy show, breakfast, and plenty of networking oppurtunities. We also have transportation available via one of our exclusive party buses. These buses will be available in Alabama and Georgia.</p>
 
 										<h4>The Bottom Line</h4>
-										<p>Did we mention this is all going down Super Bowl Weekend. Skiing, parties, comedy, relaxation, good food, and football. What more can you ask for. Look forward to a spectacular weekend in Gatlinburg. Register and book a spot today!</p>
+										<p>Did we mention this is all going down Super Bowl Weekend. Skiing, parties, comedy, relaxation, good food, and did we mention the HUGE Superbowl party. What more can you ask for. Look forward to a spectacular weekend in Gatlinburg. Register and book a spot today!</p>
 
 									</div> <!-- ./overview -->
 
@@ -255,7 +255,7 @@ include 'includes/functions.inc.php';
 
 										  <div data-control>When are the payments due?</div>
 										  <div data-content>
-											<p>Following registration the first payment of $125 is due on or before December 29, 2018. The final payment (remaining balance) is due on or before January 14, 2019. Another popular option is pay $250 today and the rest on arrival. This pay on arrival option has a $35 fee added to the final balance due on arrival. If you select the pay on arrival option and pay early the fee associated will still apply.</p>
+											<p>Following registration the first payment of $125 is due on or before April 15, 2019. The final payment (remaining balance) is due on or before October 15, 2019. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 										  </div>
 
 										</div><!-- end of accordion-->

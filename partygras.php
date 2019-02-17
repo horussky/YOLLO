@@ -131,7 +131,7 @@ include 'includes/functions.inc.php';
 					<div class="tab" aria-label="overview">
                         <h3>Party Gras is BACK and in Tennessee</h3>
 
-                        <p>After an amazing 2017 party cruise, Party Gras: Bottles and Bead is returning for a sixth installment. Last year we turned it up to the max, but this year we are making everything bigger and better than ever. We are taking this party on the road. Come party aboard the Southern Belle for an exclusive Riverboat cruise with amazing views of Chattanooga, TN.</p> 
+                        <p>After an amazing 2018 party cruise, Party Gras: Bottles and Bead is returning for a sixth installment. Last year we turned it up to the max, but this year we are making everything bigger and better than ever. We are taking this party on the road. Come party aboard the Southern Belle for an exclusive Riverboat cruise with amazing views of Chattanooga, TN.</p> 
                           
                         <p>This will be a FULL day of good music, adult drinks, mingling, and fun for everyone attending. The boat features three (3) party decks with multiple DJ's. Live entertainment will feature spoken word artists, comedians, and performances by R&amp;B/Hip Hop artist! FREE margaritas will be on deck at our welcome reception! <strong>This event WILL SELL OUT quickly</strong>, so purchase your tickets today. For questions and tickets call: <strong>(888) 946-9655 </strong> or <a data-href="#tabs-5" class="open-tab">purchase your tickets online now.</a></p>
                        	
@@ -215,7 +215,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>What is the official host property for the Party Gras?</div>
 							  <div data-content>
-								  <p>The host property is the Holiday Inn and Suites Downtown Chattanooga. The address is 434 Chestnut Street Chattanooga, TN, 37402. You can <a target="_blank" href="https://www.holidayinn.com/redirect?path=rates&brandCode=HI&localeCode=en&regionCode=1&hotelCode=CHADT&checkInDate=10&checkInMonthYear=072019&checkOutDate=12&checkOutMonthYear=072019&_PMID=99801505&GPC=PG2&viewfullsite=true">book a room at a discounted price</a> of $119 today while supplies last.</p>
+								  <p>The host property is the Holiday Inn and Suites Downtown Chattanooga. The address is 434 Chestnut Street Chattanooga, TN, 37402. You can <a target="_blank" href="https://www.holidayinn.com/redirect?path=rates&brandCode=HI&localeCode=en&regionCode=1&hotelCode=CHADT&checkInDate=10&checkInMonthYear=072019&checkOutDate=12&checkOutMonthYear=072019&_PMID=99801505&GPC=PG2&viewfullsite=true">book a room at a discounted price</a> of $129 today while supplies last.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

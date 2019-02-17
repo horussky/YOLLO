@@ -68,7 +68,7 @@
 			"Welcome to NOLA party (Friday)"				    => "checked",
 			"Complimentary Additional Night*"			        => "checked",
 			"Additional nights: $349 plus tax and fees"	        => "checked",
-			"Additional concert nights (Loge Section): $175"	=> "checked",
+			"Additional concert nights (Loge Section): $185"	=> "checked",
 			"YOLLO Gift Bag"							        => "checked"
 		),
 
@@ -82,7 +82,7 @@
 			"Welcome to NOLA party (Friday)"				  => "checked",
 			"Complimentary Additional Night*"			      => "checked",
 			"Additional nights: $349 plus tax and fees"	      => "checked",
-			"Additional concert nights (Loge Section): $175" => "checked",
+			"Additional concert nights (Loge Section): $185" => "checked",
 			"YOLLO Gift Bag"							      => "checked"
 		)
 	);
@@ -280,7 +280,7 @@
 
 							  <div data-control>What are the payment due dates for Essence Packages?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 per person is due on or before January 10, 2019. The final payment (remaining balance) is due on or before April 01, 2019. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 per person is due on or before February 14, 2019. The final payment (remaining balance) is due on or before April 10, 2019. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
