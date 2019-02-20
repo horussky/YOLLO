@@ -2,31 +2,24 @@
 ob_start("ob_gzhandler");
 
 $event = array(
-	"title"					=>"All-Star Weekend 2019",
-	"subtitle"				=>"Book your package today!",
-	"location"				=>"Charlotte, NC",
-	"date"					=>"February 15 – 17, 2019",
-    "date_start"            =>"February 15, 2019",
+	"title"					=>"All-Star Weekend 2020",
+	"subtitle"			=>"Book your package today!",
+	"location"			=>"Chicago, IL",
+	"date"					=>"February 14-17, 2020",
+  "date_start"    =>"February 14, 2020",
 	"img_url"				=>"../../images/slides/splash-nba-cta.jpg",
 );
 
 $geolocation = array(
-
+ 
 	"hotel1"=> array(
-		"title" 			=>"Sheraton Charlotte",
-		"address"			=>"555 S. McDowell Street, South Tower",
-		"location"			=>"Charlotte, NC 28204",
-		"soldout"	        => false,
-		"img_url"			=>"//www.charlottefive.com/wp-content/uploads/2016/05/IMG_SheratonABC_1.JPG.JP_2_1_BD214V64_L47744109.jpg"
-	),
-
-	"hotel2"=> array(
-		"title" 			=>"LeMeridian Charlotte",
-		"address"			=>"555 S. McDowell Street, North Tower",
-		"location"			=>"Charlotte, NC 28204",
-		"soldout"	        => false,
-		"img_url"			=>"//t-ec.bstatic.com/images/hotel/max1280x900/848/84804859.jpg"
+		"title" 			=>"Claridge House",
+		"address"			=>"1244 N Dearborn Pkwy",
+		"location"		=>"Chicago, IL 60610",
+		"soldout"	    => false,
+		"img_url"			=>"//images.trvl-media.com/hotels/1000000/30000/22700/22684/682b49ef_z.jpg"
 	)
+
 );
 
 $people = array(
@@ -45,39 +38,37 @@ $people = array(
 		),
 
 		"options"=>array(
-			"Celebrity Game" 		=> "$200",
-			"Practice Game" 		=> "$150",
+			"Celebrity Game" 							=> "$200",
+			"Practice Game" 							=> "$150",
 			"Rising Star Challenge Game" 	=> "$100",
-			"Jam Session" 			=> "$50",
-			"Hotel Only"			=> "$2000/room"
+			"Jam Session" 								=> "$50",
+			"Hotel Only"									=> "$2000/room"
 		),
 
 );
 $package_items = array(
 	"diamond_items" => array(
 		"Hotel Accommodations (Fri-Sun)"					=> "checked",
-		"Complimentary Night"								=> "checked",
-		"Celebrity Hosted Party Ticket (Friday)"			=> "checked",
-		"Celebrity Hosted Party Ticket (Sunday)"			=> "checked",
-		"Jam Sessions Tickets"								=> "checked",
-		"Rising Star Game Ticket (Friday)"			        => "checked",
-		"Mid-Day Party"										=> "checked",
-		"YOLLO Live City Tour"								=> "checked",
-		"Lavish Life Yacht Cruise"					        => "checked",
-		"YOLLO Gift Bag"									=> "checked"
+		"Complimentary Night"											=> "checked",
+		"Celebrity Hosted Party Ticket (Friday)"	=> "checked",
+		"Celebrity Hosted Party Ticket (Sunday)"	=> "checked",
+		"Jam Sessions Tickets"										=> "checked",
+		"Celebrity Game Ticket"										=> "checked",
+		"Mid-Day Party"														=> "checked",
+		"YOLLO Live City Tour"										=> "checked",
+		"YOLLO Gift Bag"													=> "checked"
 	),
 
 	"emerald_items" => array(
 		"Hotel Accommodations (Fri-Sun)"					=> "checked",
-		"Complimentary Night"								=> "checked",
-		"Celebrity Hosted Party Ticket (Friday)"			=> "ex",
-		"Celebrity Hosted Party Ticket (Sunday)"			=> "checked",
-		"Jam Sessions Tickets"								=> "checked",
-		"Rising Star Game Ticket (Friday)"			=> "ex",
-		"Mid-Day Party"										=> "checked",
-		"YOLLO Live City Tour"								=> "ex",
-		"Lavish Life Yacht Cruise"					=> "ex",
-		"YOLLO Gift Bag"									=> "checked"
+		"Complimentary Night"											=> "checked",
+		"Celebrity Hosted Party Ticket (Friday)"	=> "ex",
+		"Celebrity Hosted Party Ticket (Sunday)"	=> "checked",
+		"Jam Sessions Tickets"										=> "checked",
+		"Celebrity Game Ticket"										=> "checked",
+		"Mid-Day Party"														=> "checked",
+		"YOLLO Live City Tour"										=> "ex",
+		"YOLLO Gift Bag"													=> "checked"
 			),
 
 	"Hotel Only" =>"$2000/room"
@@ -92,8 +83,8 @@ include 'includes/functions.inc.php';
 <meta charset="utf-8">
 
 <title><?php echo $event["title"]?> | <?php echo $phonenumber ?></title>
-<meta name="description" content="YOLLO Group Services is providing you all-inclusive packages for NBA All-Star Weekend 2019 in Charlotte." />
-<meta name="keywords" content="NBA All-Star, All-Star game 2019, YOLLO Group Services, NBA All-Star Weekend packages 2019, Charlotte, North Carolina" />
+<meta name="description" content="YOLLO Group Services is providing you all-inclusive packages for NBA All-Star Weekend 2020 in Chicago." />
+<meta name="keywords" content="NBA All-Star, All-Star game 2020, YOLLO Group Services, NBA All-Star Weekend packages 2020, Chicago" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
@@ -122,23 +113,23 @@ include 'includes/functions.inc.php';
 				<div id="right">
 
 				<div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
-					<div class="overlay"></div>
-					<div class="title">
-						<h1><?php echo $event["title"]; ?></h1>
-						<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-						<a data-href="#tabs-5" class="btn btn-red open-tab">Pay or Register Now</a>
-						<div id="event-timer"></div>
-					</div>
-				</div>
+                    <div class="overlay"></div>
+                    <div class="title">
+                        <h1><?php echo $event["title"]; ?></h1>
+                        <p class="subtitle"><?php echo $event["subtitle"]; ?></p>
+                        <a data-href="#tabs-5" class="btn btn-red open-tab">Pay or Register Now</a>
+                        <div id="event-timer"></div>
+                    </div>
+                </div>
 
 
         <div class="content">
 
 						<div class="date-location">
 						    <div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="col">
-                                <?php echo $event["date"]; ?>
-                            </div>
-                            <div class="col"><?php echo $event["location"]; ?></div>
+										<?php echo $event["date"]; ?>
+								</div>
+								<div class="col"><?php echo $event["location"]; ?></div>
 						</div>
 
 
@@ -152,9 +143,9 @@ include 'includes/functions.inc.php';
 								<div class="tab" aria-label="overview">
 									<h3><?php echo $event["title"]?></h3>
 									
-                                    <p>In 2019, the Queen City, Charlotte is hosting the 68th annual All-Star game! There will be a lively fanbase hungry to host this exciting weekend. With Charlotte, also known as <em>Party City</em>, serving as the backdrop, this weekend event is sure to be LIT. YOLLO has the all-inclusive package to get you face-to-face with the celebrities that will be in attendance for this weekend. From party passes, hotel stay, and celebrity hosted events, YOLLO is here for your turn up!</p>
+									<p>In 2020, the Windy City of Chicago will host the 69th annual All-Star game. After a 30 year hiatus from the event, All-Star Weekend in Chi-town is sure to be all anyone can ask for. This event attracts a lot of  big celebrities and many of them host many of the festivities. YOLLO has the all-inclusive package to get you face-to-face with these celebrities. From party passes, hotel stay, and celebrity hosted events, YOLLO is here for your turn up!</p>
 
-                                    <p>Allow us to give you an exciting travel experience during the All-Star Weekend. Make sure you explore our hotel and pricing options and book with YOLLO Group Services today!</p>
+									<p>Allow us to give you an exciting travel experience during the All-Star Weekend. Make sure you explore our hotel and pricing options and book with YOLLO Group Services today!</p>
 
 								</div> <!-- ./ overview -->
 
@@ -166,30 +157,30 @@ include 'includes/functions.inc.php';
 									<h3>Hotels</h3>
 
 									<?php foreach($geolocation as $hotel) :?>
-                                    <div class="hotel-grid">
-                                        <div class="hg-img">
-                                            <figure style="background:url(<?php echo $hotel['img_url']; ?>); background-size: cover; background-position: center;"></figure>
-                                        </div>
-                                        <div class="hg-body">
-                                            <p class="hg-title"><?php echo $hotel["title"]; ?> 
-                                            <?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
+									<div class="hotel-grid">
+											<div class="hg-img">
+													<figure style="background:url(<?php echo $hotel['img_url']; ?>); background-size: cover; background-position: center;"></figure>
+											</div>
+											<div class="hg-body">
+													<p class="hg-title"><?php echo $hotel["title"]; ?> 
+													<?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
 
-                                            <address>
-                                                <i class="fa fa-location-arrow" aria-hidden="true"></i> 
-                                                <a title="<?php echo $hotel["title"]; ?>" target="_blank" href="http://maps.google.com/maps?q=<?php echo $hotel["address"]; ?>+<?php echo $hotel["location"]; ?>"><?php echo $hotel["address"]; ?>,  
-                                                <?php echo $hotel["location"]; ?></a>
-                                            </address>
-                                        </div>
-                                    </div><!-- ./hotel-grid -->
-                                    <?php endforeach; ?>
+													<address>
+															<i class="fa fa-location-arrow" aria-hidden="true"></i> 
+															<a title="<?php echo $hotel["title"]; ?>" target="_blank" href="http://maps.google.com/maps?q=<?php echo $hotel["address"]; ?>+<?php echo $hotel["location"]; ?>"><?php echo $hotel["address"]; ?>,  
+															<?php echo $hotel["location"]; ?></a>
+													</address>
+											</div>
+										</div><!-- ./hotel-grid -->
+									<?php endforeach; ?>
 
-											<hr />
+										<hr />
 
-											<h3>Price</h3>
+										<h3>Price</h3>
 												
 												<div class="price-table-container">
 
-												<?php if(count($geolocation["hotel1"]) > 1) :?>
+												<?php if(isset($geolocation["hotel1"])) :?>
 												<section class="price-table">
 													<ul class="price">
 														<li class="header">Diamond <span>Package</span></li>
@@ -210,7 +201,7 @@ include 'includes/functions.inc.php';
 
 
 
-												<?php if(count($geolocation["hotel2"]) > 1) :?>
+												<?php if(isset($geolocation["hotel2"])) :?>
 												<section class="price-table">
 													<ul class="price">
 														<li class="header">Emerald <span>Package</span></li>
@@ -234,7 +225,7 @@ include 'includes/functions.inc.php';
 
 											<div class="clearfix">
 												<h4>Party Pass Options: </h4>
-                                            <p>These options are not the same and are separate from the all-inclusive options listed above; and are intended for those not in need of hotel accommodations. </p>
+												<p>These options are not the same and are separate from the all-inclusive options listed above; and are intended for those not in need of hotel accommodations. </p>
 
 												<p class="lead">Rookie - $450 </p>
 												<ul>
@@ -243,8 +234,6 @@ include 'includes/functions.inc.php';
 													<li>YOLLO Live City Tour</li>
 													<li>Comedy Show - acts announced closer to event</li>
 													<li>Saturday Night Party (Celebrity Hosted)</li>
-													
-
 												</ul>
 
 												<p class="lead">Rising Star - $650 </p>
@@ -273,8 +262,6 @@ include 'includes/functions.inc.php';
 												</ul>
 											</div>
 
-
-
 								</div><!-- ./ price -->
 
 
@@ -299,17 +286,7 @@ include 'includes/functions.inc.php';
 
 										  <div data-control>When are the payments due?</div>
 										  <div data-content>
-											<p>After registration the first payment of $125 is due December 30, 2018. The final payment (remaining balance) is due on or before January 14, 2019.</p>
-										  </div>
-
-										</div><!-- end of accordion-->
-
-
-										<div class="accordion" data-accordion>
-
-										  <div data-control>What are Celebrity Party Tickets?</div>
-										  <div data-content>
-											<p>A celebrity party ticket is a party that will be hosted by some of the biggest names in movie, music, sports, and entertainment.  Past celebrities whom have hosted parties have been the likes of P. Ditty, Young Jezzy, Pooch Hall, Floyd Mayweather, Jamie Foxx, and Kevin Durant. Who knows who will host parties at this annual sporting event that draws thousands from all over the globe.</p>
+											<p>After registration the first payment of $125 is due December 30, 2019. The final payment (remaining balance) is due on or before January 14, 2020.</p>
 										  </div>
 
 										</div><!-- end of accordion-->
@@ -319,7 +296,7 @@ include 'includes/functions.inc.php';
 
 										  <div data-control>What are Celebrity Game Tickets?</div>
 										  <div data-content>
-											<p>Celebrity Games tickets allow you to see the biggest stars from movie, music, and the NBA play a friendly game of roundball.</p>
+											<p>The celebrity game tickets give you access to the annual basketball game that features retired NBA players, WNBA players, actors, musicians and athletes from sports other than basketball. Past celebrities whom have hosted parties have been the likes of P. Diddy, Young Jezzy, Floyd Mayweather, Jamie Foxx and Kevin Hart.</p>
 										  </div>
 
 										</div><!-- end of accordion-->
@@ -334,25 +311,6 @@ include 'includes/functions.inc.php';
 
 										</div><!-- end of accordion-->
 
-
-										<div class="accordion" data-accordion>
-
-										  <div data-control>Where is the NBA All Star Weekend in 2019?</div>
-										  <div data-content>
-											<p>The NBA All Star Weekend is in Charlotte, NC and will be on February 15-17, 2019!</p>
-										  </div>
-
-										</div><!-- end of accordion-->
-
-
-										<div class="accordion" data-accordion>
-
-										  <div data-control>What is so special about the NBA All Star Game?</div>
-										  <div data-content>
-											<p>Where else do you have the oppurtunity to witness the best basketball players in the world on ONE court. This is it!</p>
-										  </div>
-
-										</div><!-- end of accordion-->
 
 
 									</div><!-- end of accordion group-->
@@ -485,23 +443,6 @@ include 'includes/functions.inc.php';
 
     
 <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-
-<!--<script type="text/javascript">
-	var exampleCallback = function() {
-		console.log('Order complete!');
-	};
-
-	window.EBWidgets.createWidget({
-		// Required
-		widgetType: 'checkout',
-		eventId: '51615616699',
-		iframeContainerId: 'eventbrite-widget-container-51615616699',
-
-		// Optional
-		iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-		onOrderComplete: exampleCallback  // Method called when an order has successfully completed
-	});
-</script>-->
     
 <!--google analytics-->
 <?php include 'includes/analytics.inc.php'; ?>
