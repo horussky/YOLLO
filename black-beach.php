@@ -4,7 +4,7 @@ ob_start("ob_gzhandler");
 
 $event = array(
 	"title"						=>"Daytox Party Cruise",
-	"subtitle"					=>"During Black Beach Weekend",
+	"subtitle"					=>"Black Beach Weekend 2019",
 	"location"					=>"Biloxi, MS",
 	"date"						=>"April 13, 2019",
     "date_start"                =>"April 13, 2019",

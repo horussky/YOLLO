@@ -1,7 +1,6 @@
 /*Date Location*/
 
 .date-location{
-	
 	font-size:1.6rem;
 	display:flex;
 	flex-direction:row;
@@ -13,6 +12,7 @@
 .date-location .col{
 	color: #fff; 
 	padding:10px;
+	flex-basis: auto;
 }
 
 .date-location .col:nth-child(1){
@@ -27,7 +27,7 @@
 	font-family:"fontAwesome";
 	content: "\f073";
 	margin-right: 10px;
-}
+} 
 
 .date-location .col:nth-child(2){
 	background:#000; 

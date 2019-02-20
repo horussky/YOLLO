@@ -44,7 +44,7 @@
                     //+ '<span class="timer-mins">%M <em>Mins</em></span>'
                     //+ '<span class="timer-seconds">%S <em>Sec</em></span>'
                 ));
-           });
+            });
 
         }
         

@@ -76,8 +76,8 @@ include 'includes/functions.inc.php';
 <meta charset="utf-8">
 
 <title><?php echo $event["title"]?> | <?php echo $phonenumber ?></title>
-<meta name="description" content="YOLLO Group Services will provide you with all-inclusive arrangements and tickets for Cincinnati Music Festival 2017." />
-<meta name="keywords" content="grown and sophisticated cruise, macy's music festival party boat cruise, Cincinnati jazz festival cruise tickets, Cincinnati Music Festival 2018, Cincinnati Music Festival cruise, Cincinnati Music Festival tickets" />
+<meta name="description" content="YOLLO Group Services will provide you with all-inclusive arrangements and tickets for Cincinnati Music Festival 2019." />
+<meta name="keywords" content="grown and sophisticated cruise, macy's music festival party boat cruise, Cincinnati jazz festival cruise tickets, Cincinnati Music Festival 2019, Cincinnati Music Festival cruise, Cincinnati Music Festival tickets" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
@@ -250,7 +250,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>What are the payment due dates for Cincinnati Music Festival Packages?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 is due on or before <strong>February 06, 2019</strong>. The final payment (remaining balance) is due on or before <strong>May 05, 2019</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 is due on or before <strong>February 28, 2019</strong>. The final payment (remaining balance) is due on or before <strong>May 15, 2019</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -330,16 +330,25 @@ include 'includes/functions.inc.php';
                     <?php echo $responsive_tabs["buynow"]; ?>
 					<div class="tab" aria-label="buy">
                         
-                        <h3>Buy Now</h3>
-                        <?php /* ?>
+                        <h3>Buy Package Now</h3>
+                        
                         <p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
                         
                         <div class="cognito"></div>
-                        <?php */ ?>
                         
-                        <div class="mb-20" id="eventbrite-widget-container-36768963961"></div>
+                        
+                        
                         
                     </div><!-- ./ buy now -->
+
+					<input type="radio" name="tabs" id="tab-6"><label for="tab-6"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Cruise</label>					<div class="tab" aria-label="buy">
+                        
+                        <h3>Buy Cruise Now</h3>
+                                                
+                        <div class="mb-20" id="eventbrite-widget-container-51615503360"></div>
+                        
+                    </div><!-- ./ buy now -->
+
 
 
 			</div><!-- end of responsive-tabs -->
@@ -409,8 +418,8 @@ include 'includes/functions.inc.php';
 	window.EBWidgets.createWidget({
 		// Required
 		widgetType: 'checkout',
-		eventId: '36768963961',
-		iframeContainerId: 'eventbrite-widget-container-36768963961',
+		eventId: '51615503360',
+		iframeContainerId: 'eventbrite-widget-container-51615503360',
 
 		// Optional
 		iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided

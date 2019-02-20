@@ -32,8 +32,8 @@ $feature_event = array(
 	),
 	array(
 		"title" 	=> "NBA All-Star Weekend",
-		"date" 		=> "February 14-16, 2020",
-		"end"		=> strtotime("February 16, 2020"),
+		"date" 		=> "February 15-17, 2019",
+		"end"		=> strtotime("February 17, 2019"),
 		"img" 		=> "images/featured-events/featured-event-nba.jpg",
 		"link" 		=> "/nba-allstar"
 	),
