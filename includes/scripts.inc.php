@@ -1,10 +1,8 @@
-<!-- Load JQuery 
-<script src="js/jquery-2.2.4.js"></script>-->
-<script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+<!-- Load JQuery -->
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-<!--<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>-->
 <script src="js/jquery-ui.min.js"></script>
 
 <!-- Load Other Scripts -->
@@ -56,6 +54,37 @@
 
 	});
 </script>
+
+
+<script>
+//es6 
+const navHeader = document.querySelector('.header');
+
+// Get the offset position of the navbar
+const sticky = navHeader.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function yolloStickyNav() {
+  if (window.pageYOffset > sticky) {
+    navHeader.classList.add("nav--sticky");
+  } else {
+    navHeader.classList.remove("nav--sticky");
+  }
+}
+  
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {
+  yolloStickyNav()
+};
+
+//const headerHeight = $('.header').height() + 'px';
+//$('.container').css('margin-top', headerHeight);
+
+console.log(sticky);
+console.log(navHeader);
+
+</script>
+
 
 
 <!-- Schema Org Social Media Markup | Helps with SEO-->

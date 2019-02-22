@@ -409,6 +409,9 @@ include 'includes/functions.inc.php';
 <!-- Global Scripts -->
 <?php include 'includes/scripts.inc.php'; ?>
 <script type="text/javascript">
+
+
+
 	$(document).ready(function(){
 
 			//nano
