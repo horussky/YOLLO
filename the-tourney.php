@@ -2,11 +2,11 @@
 ob_start("ob_gzhandler");
 
 $event = array(
-	"title"					=>"The Tourney Weekend 2019",
+	"title"					=>"The Tourney Weekend 2020",
 	"subtitle"				=>"Book your package today!",
 	"location"				=>"Charlotte, NC",
-	"date"					=>"February 28 - March 3, 2019",
-    "date_start"			=>"February 28, 2019",
+	"date"					=>"February 27 - March 1, 2020",
+    "date_start"			=>"February 27, 2020",
 	"img_url"				=>"../../images/slides/splash-tourney-cta.jpg",
 	"img_alt"				=>"The Tourney"
 );
@@ -14,8 +14,8 @@ $event = array(
 $geolocation = array(
 
 	"hotel1"=> array(
-		"title" 				=>"Sheraton Charlotte",
-		"address"				=>"555 S. McDowell Street",
+		"title" 				=>"Fairfield Inn and Suites Uptown ",
+		"address"				=>"201 S McDowell St",
 		"location"				=>"Charlotte, North Carolina 28204",
 		"soldout"		        =>false,
 		"img_url"				=>"https://media-cdn.tripadvisor.com/media/photo-o/06/b6/ba/bb/exterior.jpg"
@@ -81,7 +81,7 @@ include 'includes/functions.inc.php';
 
 <title><?php echo $event["title"]?> | <?php echo $phonenumber ?></title>
 <meta name="description" content="We can provide you with all inclusive arrangements and tickets for the Tourney." />
-<meta name="keywords" content="The Tourney, CIAA Charlotte, Basketball, CIAA Tournament, CIAA, CIAA Party Passes, ciaa 2019, the tournament, ciaa parties, ciaa party" />
+<meta name="keywords" content="The Tourney, CIAA Charlotte, Basketball, CIAA Tournament, CIAA, CIAA Party Passes, ciaa 2019,CIAA 2020, the tournament, ciaa parties, ciaa party" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
@@ -140,8 +140,8 @@ include 'includes/functions.inc.php';
 
 								<h3>Get ready for <?php echo $event["title"]?> in Charlotte, North Carolina. </h3>
 
-								<p>The BIG CIAA tournament is taking over North Carolina again in 2019. YOLLO Group Services is making the Tourney a fun-filled weekend for you to remember. This basketball tournament has become one of the most attended events among HBCU’s in the nation. </p>
-								<p>Fans will get their basketball fix during the day-time, while others enjoy all the night-time events. This means parties galore! You may spot a celebrity or two crashing and/or hosting several of these parties. You cannot go wrong booking with YOLLO Group Services for the Tourney Weekend 2019. </p>
+								<p>The BIG CIAA tournament is taking over North Carolina one last time in 2020.Charlotte has been an awesome host city for the past 13 years and 2020 will be BIGGER than ever! YOLLO Group Services is making the Tourney a fun-filled weekend for you to remember. This basketball tournament has become one of the most attended events among HBCU’s in the nation. </p>
+								<p>Fans will get their basketball fix during the day-time, while others enjoy all the night-time events. This means parties galore! You may spot a celebrity or two crashing and/or hosting several of these parties. You cannot go wrong booking with YOLLO Group Services for the Tourney Weekend 2020. </p>
 								<p>If parties and celebrities are what you are looking for this weekend's events are definitely what you want to attend. Make sure you explore our Hotel and Pricing options and reserve your spot today before it's too late! </p>
 
 							</div><!-- ./overview -->
@@ -233,7 +233,7 @@ include 'includes/functions.inc.php';
 
 										  <div data-control>When are the payments due?</div>
 										  <div data-content>
-											<p>After registration the first payment of $125 is due November 14, 2018. The final payment (remaining balance) is due on or before January 08, 2019.</p>
+											<p>After registration the first payment of $125 is due June 13, 2018. The final payment (remaining balance) is due on or before October 08, 2019.</p>
 										  </div>
 
 										</div><!-- end of accordion-->

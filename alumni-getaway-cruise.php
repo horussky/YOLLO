@@ -282,7 +282,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>When are the payments due?</div>
 							  <div data-content>
-								<p>$150 is due for registration per person<strong> at sign-up</strong>. The next payment of $200 is due on or before <strong>September 29, 2018</strong> . The final payment (remaining balance) is due on or before <strong>November 14, 2018</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
+								<p>$150 is due for registration per person<strong> at sign-up</strong>. The next payment of $200 is due on or before <strong>April 15, 2019</strong> . The final payment (remaining balance) is due on or before <strong>September 02, 2019</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -292,7 +292,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>Are there any other charges associated with the cruise?</div>
 							  <div data-content>
-								<p>Yes, clients are responsible for paying cabin gratuities. The standard charge is $11.25 per day, but you may want to leave more depending on your service. Sometimes gratuity is added to your final bill, so check with the cruiseline front desk on the ship before returning back to Mobile.</p>
+								<p>Yes, clients are responsible for paying cabin gratuities. The standard charge is $13.99 per day, but you may want to leave more depending on your service. Sometimes gratuity is added to your final bill, so check with the cruiseline front desk on the ship before returning back to Mobile.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

@@ -46,7 +46,7 @@ $people = array(
 $package_items = array(
 	"diamond_items" => array(
 		"Crowd Control by: DJ Dre Smoove"		=> "checked",
-		"Twerk Contest"							=> "checked",
+		" Bikini Contest"							=> "checked",
 		"Cruise the Gulf"						=> "checked"
 		
 	),
@@ -131,7 +131,7 @@ include 'includes/functions.inc.php';
 
 						<p>Biloxi will be LIT this Spring because YOLLO is taking over Black Beach Weekend with the Daytox Party Cruise! This event is the Drip of Drop edition, the an ultimate party cruise experience. This cruise will be so LIT we are cruising twice the same day to accommodate the crowds.</p>
 							
-						<p>Ladies come ready to win those dollars, because we will be hosting a twerk contest paying out $400! Come partake in 26 miles of beach, vendors, drinks, special guests, and the livest one-of-a-kind cruise on the Gulf Coast during Black Beach Weekend.</p>
+						<p>Ladies come dressed to impress and win those dollars, because we will be hosting a bikini contest paying out $400! Come partake in 26 miles of beach, vendors, drinks, special guests, and the livest one-of-a-kind cruise on the Gulf Coast during Black Beach Weekend.</p>
                        	
 						<p>Don't wait to get your tickets because both cruises will fill up fast. You will sail with the livest from across the country. This boat is located at 173 Beach Blvd, Biloxi, MS 39530. Please pay attention to the cruise time you selected.</p>
 						
@@ -141,7 +141,7 @@ include 'includes/functions.inc.php';
 							<li>Cruise Times: 12PM - 2PM</li>
 						</ul>
 				
-						<p class="mb-10"><strong>Cruise #2: Twerk Part 2</strong></p>
+						<p class="mb-10"><strong>Cruise #2: GET LIT Part 2</strong></p>
 						<ul>
 							<li>Boarding: 3:45PM</li>
 							<li>Cruise Times: 4PM - 6PM</li>
@@ -302,7 +302,7 @@ include 'includes/functions.inc.php';
 									<li>Cruise Times: 12PM - 2PM</li>
 								</ul>
 
-								<p class="mb-10"><strong>Cruise #2: Twerk Part 2</strong></p>
+								<p class="mb-10"><strong>Cruise #2: GET LIT Part 2</strong></p>
 								<ul>
 									<li>Boarding: 3:45PM</li>
 									<li>Cruise Times: 4PM - 6PM</li>
@@ -326,7 +326,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>What form of entertainment will be provided during the cruise?</div>
 							  <div data-content>
-								<p>The cruise will feature DJ Dre Smooth on the 1's and 2's and a Twerk Contest totaling to $400 prize money.</p>
+								<p>The cruise will feature DJ Dre Smooth on the 1's and 2's and a bikini Contest totaling to $400 prize money.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

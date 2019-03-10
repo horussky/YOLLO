@@ -254,7 +254,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>Where will the bus depart from?</div>
 							  <div data-content>
-								<p>We will depart from Birmingham, Alabama at 10AM August 11th and depart from Chattanooga at 10M on August 12th.</p>
+								<p>We will depart from Birmingham, Alabama at 10AM August 10th and depart from Chattanooga at 10M on August 11th.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -295,7 +295,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>What time is the comedy/poetry and live performances show?</div>
 							  <div data-content>
-								<p>The live shows will be from 4PM - 7PM </p>
+								<p>The live shows will be from 2PM - 5PM </p>
 								<p style="color:dimgrey">*All times are based on Eastern Time Zone.</p>
 							  </div>
 
@@ -325,7 +325,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>Is the evening cruise and comedy/poetry/live performances one combined event?</div>
 							  <div data-content>
-								<p>No, you can purchase tickets only for the cruise or live performances. The cruise will begin boarding at 10:30PM while the comedy/poetry/live performances will start at 4PM.</p>
+								<p>No, you can purchase tickets only for the cruise or live performances. The cruise will begin boarding at 10:30PM while the comedy/poetry/live performances will start at 2PM.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

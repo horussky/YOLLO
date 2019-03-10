@@ -3,7 +3,7 @@ ob_start("ob_gzhandler");
 
 $event = array(
 	"title"				=>"Urban Fantasy 2019",
-	"subtitle"			=>"An event you cannot miss",
+	"subtitle"			=>"Passport is REQUIRED for this cruise",
 	"location"		   	=>"Miami, Grand Turks, and Cuba",
 	"date"				=>"Sept 09 - 14, 2019",
     "date_start"        =>"September 09, 2019",
@@ -89,7 +89,7 @@ include 'includes/functions.inc.php';
 	</title>
 
 	<meta name="description" content="YOLLO Group Services is a travel company specializing in offering affordable travel to amazing events for everyone."/>
-	<meta name="keywords" content="Urban Fantasy 2016, Carnival Cruise, Bahamas, YOLLO Group Services, student travel, bahamas, Cruise Travel packages"/>
+	<meta name="keywords" content="Urban Fantasy 2019, Carnival Cruise, Bahamas, YOLLO Group Services, student travel, bahamas, Cruise Travel packages"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE"/>
 	<link href="favicon.ico" rel="icon" type="image/x-icon"/>
@@ -263,7 +263,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>Do I need a Passport?</div>
 							  <div data-content>
-								  <p>A passport is not required to go on the cruise if you are a United States citizen and departing from a US port. If you DO NOT have a passport, you can board with a birth certificate issued by the department of vital statistics and your driver’s license.</p>
+								  <p>Yes, a passport is required to go on the cruise. If you DO NOT have a passport please visit the your local Post Office for more information on obtaining one.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -292,7 +292,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>When are the payments due? </div>
 							  <div data-content>
-								<p>After registration the first payment of $125 is due <strong>February 04, 2019</strong> . The final payment (remaining balance) is due on or before <strong>June 5, 2019</strong> . If you the announced payment dates have passed contact us for our current payment plan.</p>
+								<p>After registration the first payment of $125 is due <strong>March 06, 2019</strong> . The final payment (remaining balance) is due on or before <strong>June 20, 2019</strong> . If you the announced payment dates have passed contact us for our current payment plan.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -302,7 +302,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>Are there any other charges associated with the cruise?</div>
 							  <div data-content>
-								<p>Yes, clients are responsible for paying cabin gratuities. The standard charge is $11.25 per day, but you may want to leave more depending on your service. Sometimes gratuity is added to your final bill, so check with the cruiseline front desk on the ship before coming back to Miami.</p>
+								<p>Yes, clients are responsible for paying cabin gratuities. The standard charge is $13.99 per day, but you may want to leave more depending on your service. Sometimes gratuity is added to your final bill, so check with the cruiseline front desk on the ship before coming back to Miami.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
