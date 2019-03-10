@@ -63,12 +63,14 @@ const navHeader = document.querySelector('.header');
 // Get the offset position of the navbar
 const sticky = navHeader.offsetTop;
 
+const stickyContainer = navHeader.closest(".container-fluid");
+
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function yolloStickyNav() {
   if (window.pageYOffset > sticky) {
-    navHeader.classList.add("nav--sticky");
+    stickyContainer.classList.add("nav--sticky");
   } else {
-    navHeader.classList.remove("nav--sticky");
+    stickyContainer.classList.remove("nav--sticky");
   }
 }
   
