@@ -3,11 +3,11 @@
 	ob_start("ob_gzhandler");
 
 	$event = array(
-		"title"				=>"Classic Weekend 2018",
+		"title"				=>"Classic Weekend 2019",
 		"subtitle"			=>"It's the Classsssssic!",
 		"location"			=>"Legion Field | Birmingham, AL",
-		"date"				=>"Oct 26-28, 2018",
-        "date_start"		=>"Oct 26, 2018",
+		"date"				=>"Oct 25-27, 2019",
+        "date_start"		=>"Oct 26, 2019",
 		"img_url"			=>"../../images/slides/splash-mcc-cta.jpg",
 		"img_alt"			=>"Magic City Classic"
 	);
@@ -19,8 +19,8 @@
 		"hotel1"=> array(
 
 			"title" 			=>"La Quinta Inn & Suites",
-			"address"			=>"60 State Farm Pkwy",
-			"location"			=>"Homewood, AL 35209",
+			"address"			=>"1207 Boots Blvd",
+			"location"			=>"Fultondale, AL 35068",
 			"soldout"           => false,
 			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/08/65/86/02/la-quinta-inn-suites.jpg"
 
@@ -156,9 +156,9 @@
                 	<img src="images/mcc-thumb<?php echo(rand(1,4)); ?>.jpg" width="100%" />
                 </div>
                
-                <p>This is the #1 HBCU Classic in the nation attracting over 100,000 fans annually! This is an annual clash of the titans. The Magic City Classic offers a family environment that produces new bonds and memories for years to come.</p>
-                <p>In 2017 the Alabama State Hornets came away with the victory as they entered the game as underdogs and not given a change to compete nor win, but as you know in rivalries records mean NOTHING! </p>
-                <p>YOLLO Group Services, Inc. wants to capture these memories by offering keepsake photos at many of our weekend events. Stay tuned to our website for the list of various events where we will be!</p>
+                <p>This is the #1 HBCU football Classic in the nation attracting over 100,000 fans annually! This is an annual clash of the titans. The Magic City Classic offers a family environment that produces new bonds and memories for years to come.</p>
+                <p>In 2018 the Alabama A&M Bulldogs came away with the victory as they entered the game as favorites and delivered a decisive win for the Bulldog faithful as well as the MOST important part of the this historic rivalry….BRAGGING rights for the next 365 days! </p>
+                <p>YOLLO Group Services, Inc. wants to provide your travel package for this historic and exciting weekend. Lock in your package today as space is limited and our packages go fast.</p>
 			</div><!-- ./ overview -->
 
 	  	
@@ -252,7 +252,7 @@
 
 					  <div data-control>When are the payments due?</div>
 					  <div data-content>
-						<p>After registration the 1st payment of $50 is due on or before due September 25, 2018. The second and final payment is due October 16, 2018.</p>
+						<p>After registration the 1st payment of $50 is due on or before due June 16, 2019. The second and final payment is due August 01, 2019.</p>
 					  </div>
 
 					</div><!-- end of accordion-->
@@ -282,7 +282,7 @@
 
 					  <div data-control>Which team is the home team?</div>
 					  <div data-content>
-						<p> Home team honors alternate each year between Alabama State and Alabama A&amp;M.  Alabama State will be the home team for 2017! Regardless of home team, ASU bench is always on the east side and AAMU is on the west side of the stadium.</p>
+						<p> Home team honors alternate each year between Alabama State and Alabama A&amp;M.  Alabama State will be the home team for 2019! Regardless of home team, ASU bench is always on the east side and AAMU is on the west side of the stadium.</p>
 					  </div>
 
 					</div><!-- end of accordion-->
@@ -319,7 +319,7 @@
 
 					<div class="accordion" data-accordion>
 
-					  <div data-control>Must the entire group pay the $19.99 reservation fee?</div>
+					  <div data-control>Must the entire group pay the $29.99 reservation fee?</div>
 					  <div data-content>
 						<p>Yes. All prices are per person. The reservation fee secures your spot on the package, and is independent from the package price.</p>
 					  </div>
