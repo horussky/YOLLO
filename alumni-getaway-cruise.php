@@ -3,23 +3,23 @@
 ob_start("ob_gzhandler");
 
 $event = array(
-	"title"						=>"Alumni Getaway",
-	"subtitle"					=>"Reserve by April 1 and save $100 per person!",
-	"location"					=>"Cozumel, Mexico",
-	"date"						=>"Nov 30 - Dec 5, 2019",
-    "date_start"				=>"November 30, 2019",
-	"img_url"				 	=>"../../images/slides/splash-alumni-cta.jpg",
-	"img_alt"				 	=>"Alumni Getaway"
+	"title"						=> "Alumni Getaway",
+	"subtitle"				=> "Reserve by April 1 and save $100 per person!",
+	"location"				=> "Cozumel, Mexico",
+	"date"						=> "Nov 30 - Dec 5, 2019",
+  "date_start"			=> "November 30, 2019",
+	"img_url"				 	=> "../../images/slides/splash-alumni-cta.jpg",
+	"img_alt"				 	=> "Alumni Getaway"
 );
 
 $geolocation = array(
 	"cruise1"=> array(
-		"title" 		=>"Fantasy Cruise Ship",
-		"ship"			=>"https://directlinecruises.com/images/carnival_ecstacy_slider1.jpg",
-		"location"		=>"Cozumel, Mexico",
-        "address"		=>"South, 201 Water St, Mobile, AL 36602",
-		"soldout"		=>false,
-		"img_url"		=>"https://www.cruisin.me/images/cruise-ships/carnival-cruise-lines/carnival-fantasy.jpg"
+		"title" 			=> "Fantasy Cruise Ship",
+		"ship"				=> "https://directlinecruises.com/images/carnival_ecstacy_slider1.jpg",
+		"location"		=> "Cozumel, Mexico",
+    "address"			=> "South, 201 Water St, Mobile, AL 36602",
+		"soldout"			=> false,
+		"img_url"			=> "https://www.cruisin.me/images/cruise-ships/carnival-cruise-lines/carnival-fantasy.jpg"
 
 	),
 
@@ -27,10 +27,10 @@ $geolocation = array(
 
 $people = array(
 		"diamond"=> array(
-			"Group of 4" 			=>"$550",
-			"Group of 3"			=>"$615",
-			"Group of 2"			=>"$750",
-			"Individual"			=>"$1185"
+			"Group of 4" 			=> "$550",
+			"Group of 3"			=> "$615",
+			"Group of 2"			=> "$750",
+			"Individual"			=> "$1185"
 		),
 
 		"emerald"=> array(
@@ -38,7 +38,7 @@ $people = array(
 		),
 
 		"options"=>array(
-			"Hotel Only" =>"$1245 (Weekend)"
+			"Hotel Only" => "$1245 (Weekend)"
 		),
 
 );
@@ -54,7 +54,7 @@ $package_items = array(
 		"Alumni Getaway Exclusive Kangol and Shelltoes Party"											=> "checked",
 		"Alumni Getaway Beach Retreat"								=> "checked",
 		"Alumni Getaway Ocean Blue Fun and Sexy Party"				=> "checked",
-				"Farewell Party"											=> "checked",
+		"Farewell Party"											=> "checked",
 		"Alumni Getaway Private Black Film Review"											=> "checked",
 		"YOLLO Gift Bag"											=> "checked"
 	),
@@ -136,7 +136,7 @@ include 'includes/functions.inc.php';
 
 
                     <?php echo $responsive_tabs["overview"]; ?>
-					<div class="tab" aria-label="overview">
+										<div class="tab" aria-label="overview">
                         <h3>Alumni Getaway is going to Cozumel, Mexico!</h3>
 
                         <p>Calling all old, new, and almost alums, this Alumni Getaway is the weekend vacation for you. We are bringing together HBCU alums from all over the country to rep their university. What better way to meet and mingle than cruising aboard the Carnival Fantasy to the beautiful island of Cozumel, Mexico. Not a product of a HBCU? No worries, this cruise isn't exclusive to only HBCU alumni. Everyone's invited to rep their university on this getaway cruise to Mexico. </p>
@@ -149,74 +149,74 @@ include 'includes/functions.inc.php';
                         <h4>Cruise Itinerary</h4>
 
                         <p><strong>Sat (Depart):</strong>  Mobile, AL 4PM<br>
-						<strong>Sun:</strong> Fun Day At Sea<br> 
-						<strong>Mon:</strong> Yucatan (Progreso), MX  8AM-5PM<br>
-						<strong>Tue:</strong> Cozumel, Mexico, MX  9AM-5PM<br>
-						<strong>Wed:</strong> Fun Day At Sea<br>
-						<strong>Thu (Return):</strong> Mobile, AL 8AM</p>
-						<p style="color:dimgrey">*All times are based on Central Time Zone.</p>
+												<strong>Sun:</strong> Fun Day At Sea<br> 
+												<strong>Mon:</strong> Yucatan (Progreso), MX  8AM-5PM<br>
+												<strong>Tue:</strong> Cozumel, Mexico, MX  9AM-5PM<br>
+												<strong>Wed:</strong> Fun Day At Sea<br>
+												<strong>Thu (Return):</strong> Mobile, AL 8AM</p>
+												<p style="color:dimgrey">*All times are based on Central Time Zone.</p>
 
 
                     </div> <!-- ./ overview -->
 
 
                     <?php echo $responsive_tabs["price"]; ?>
-					<div class="tab" aria-label="price">
+										<div class="tab" aria-label="price">
 
-                        <h3>Cruise</h3>
-						<?php foreach($geolocation as $hotel) :?>
-                        <div class="hotel-grid">
-                            <div class="hg-img">
-                                <figure style="background:url(<?php echo $hotel['img_url']; ?>); background-size: cover; background-position: center;"></figure>
-                            </div>
-                            <div class="hg-body">
-                                <p class="hg-title"><?php echo $hotel["title"]; ?> 
-                                <?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
+                    	<h3>Cruise</h3>
+											<?php foreach($geolocation as $hotel) :?>
+												<div class="hotel-grid">
+														<div class="hg-img">
+																<figure style="background:url(<?php echo $hotel['img_url']; ?>); background-size: cover; background-position: center;"></figure>
+														</div>
+														<div class="hg-body">
+																<p class="hg-title"><?php echo $hotel["title"]; ?> 
+																<?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
 
-                                <address>
-                                    Departing from:<br>
-                                    <i class="fa fa-location-arrow" aria-hidden="true"></i> 
-                                    <a title="<?php echo $hotel["title"]; ?>" target="_blank" href="http://maps.google.com/maps?q=<?php echo $hotel["address"]; ?>+<?php echo $hotel["location"]; ?>"><?php echo $hotel["address"]; ?>,  
-                                    <?php echo $hotel["location"]; ?></a>
-                                </address>
-                            </div>
-                        </div><!-- ./hotel-grid -->
-                        <?php endforeach; ?>
+																<address>
+																		Departing from:<br>
+																		<i class="fa fa-location-arrow" aria-hidden="true"></i> 
+																		<a title="<?php echo $hotel["title"]; ?>" target="_blank" href="http://maps.google.com/maps?q=<?php echo $hotel["address"]; ?>+<?php echo $hotel["location"]; ?>"><?php echo $hotel["address"]; ?>,  
+																		<?php echo $hotel["location"]; ?></a>
+																</address>
+														</div>
+												</div><!-- ./hotel-grid -->
+                      <?php endforeach; ?>
                         
-                        <h4>Cruise Itinerary</h4>
+                      <h4>Cruise Itinerary</h4>
 
-                        <p><strong>Sat (Depart):</strong>  Mobile, AL 4PM<br>
-						<strong>Sun:</strong> Fun Day At Sea<br> 
-						<strong>Mon:</strong> Yucatan (Progreso), MX  8AM-5PM<br>
-						<strong>Tue:</strong> Cozumel, Mexico, MX  9AM-5PM<br>
-						<strong>Wed:</strong> Fun Day At Sea<br>
-						<strong>Thu (Return):</strong> Mobile, AL 8AM</p>
-						<p style="color:dimgrey">*All times are based on Central Time Zone.</p>
+                      <p><strong>Sat (Depart):</strong>  Mobile, AL 4PM<br>
+											<strong>Sun:</strong> Fun Day At Sea<br> 
+											<strong>Mon:</strong> Yucatan (Progreso), MX  8AM-5PM<br>
+											<strong>Tue:</strong> Cozumel, Mexico, MX  9AM-5PM<br>
+											<strong>Wed:</strong> Fun Day At Sea<br>
+											<strong>Thu (Return):</strong> Mobile, AL 8AM</p>
+											<p style="color:dimgrey">*All times are based on Central Time Zone.</p>
 
-                        <hr />
+                      <hr />
 
-                        <h3>Price</h3>
+                      <h3>Price</h3>
                                     
-						<div class="price-table-container">
+											<div class="price-table-container">
 
-						<?php if(count($geolocation["cruise1"]) > 1) :?>
-						<div class="price-table">
-							<ul class="price">
-								<li class="header">Diamond <span>Package</span></li>
-								<?php foreach($package_items['diamond_items'] as $key=>$value): ?>
-									<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-								<?php endforeach; ?>
-								<li class="people-price">
-									<ul class="priceblock">
-										<?php foreach($people['diamond'] as $key=>$value): ?>
-											<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
-											<?php endforeach; ?>
-									</ul>
-								</li>
-								<li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
-							</ul>
-						</div><!-- price table -->
-						<?php endif; ?>
+											<?php if(count($geolocation["cruise1"]) > 1) :?>
+											<div class="price-table">
+												<ul class="price">
+													<li class="header">Diamond <span>Package</span></li>
+													<?php foreach($package_items['diamond_items'] as $key=>$value): ?>
+														<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+													<?php endforeach; ?>
+													<li class="people-price">
+														<ul class="priceblock">
+															<?php foreach($people['diamond'] as $key=>$value): ?>
+																<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
+																<?php endforeach; ?>
+														</ul>
+													</li>
+													<li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
+												</ul>
+											</div><!-- price table -->
+											<?php endif; ?>
 
 
 
@@ -266,6 +266,27 @@ include 'includes/functions.inc.php';
 							  </div>
 
 							</div><!-- end of accordion-->
+							
+							
+							<div class="accordion" data-accordion>
+
+								<div data-control>Is there a charge for sodas on the cruise? </div>
+								<div data-content>
+								<p>Yes, beverages at the bar will require purchasing. However, there is an unlimited soda program provided by Carnival called Bottomless Bubbles. Pay one flat price for fountain soda and juice all cruise long. Prices are per day with an automatic 18% gratuity added at time of purchase of the program. Children 17 years and younger are $5.95 USD per day. Adults are $8.50 USD per day. For more information please visit <a href="https://help.carnival.com/app/answers/detail/a_id/3836/~/bottomless-bubbles-%28unlimited-soda-program" target="_blank"> Carnival Cruise FAQs</a></p>
+								</div>
+
+							</div><!-- end of accordion-->
+
+							<div class="accordion" data-accordion>
+
+								<div data-control>Is there an open bar or Bottomless Bubbles for alcohol on the ship? </div>
+								<div data-content>
+								<p>Yes, there is an option called CHEERS, but it's limited to 15 drinks per day. CHEERS is an all-inclusive beverage program that allows guests to enjoy a wide range of alcoholic and non-alcoholic beverages by paying a flat daily rate. The cost prior to your cruise is $51.95 USD per person, per day plus 18% gratuity. If you decide you want the program once on board, you can sign up for CHEERS at a bar the cost is $56.95 USD per person, per day plus 18% gratuity. For more information please visit <a href="https://help.carnival.com/app/answers/detail/a_id/1106" target="_blank"> Carnival Cruise FAQs</a></p>  
+								</div>
+
+							</div><!-- end of accordion-->
+
+
 
 
 							<div class="accordion" data-accordion>
@@ -364,25 +385,25 @@ include 'includes/functions.inc.php';
 
 
             <?php echo $responsive_tabs["photos"]; ?>
-			<div class="tab" aria-label="photos">
-                 <div id="nanoGallery"></div>
-            </div><!-- ./ photos -->
+						<div class="tab" aria-label="photos">
+								<div id="nanoGallery"></div>
+						</div><!-- ./ photos -->
 
 
             <?php echo $responsive_tabs["buynow"]; ?>
-			<div class="tab" aria-label="buy">
-                
-                <h3>Buy Now</h3>
+						<div class="tab" aria-label="buy">
+											
+											<h3>Buy Now</h3>
 
-                <div class="pay-form">
-                	<p>Please use the form below to complete your booking for <?php echo $event["title"]?>. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
-                	
-                	<div class="cognito"></div>
+											<div class="pay-form">
+												<p>Please use the form below to complete your booking for <?php echo $event["title"]?>. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
+												
+												<div class="cognito"></div>
 
-                </div><!-- end of pay-form -->
+											</div><!-- end of pay-form -->
 
 
-    		</div><!-- ./ buy now -->
+							</div><!-- ./ buy now -->
 
 								</div><!-- end of responsive-tabs -->
 
