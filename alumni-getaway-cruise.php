@@ -4,7 +4,7 @@ ob_start("ob_gzhandler");
 
 $event = array(
 	"title"						=>"Alumni Getaway",
-	"subtitle"					=>"Book Today!",
+	"subtitle"					=>"Reserve by April 1 and save $100 per person!",
 	"location"					=>"Cozumel, Mexico",
 	"date"						=>"Nov 30 - Dec 5, 2019",
     "date_start"				=>"November 30, 2019",
@@ -27,10 +27,10 @@ $geolocation = array(
 
 $people = array(
 		"diamond"=> array(
-			"Group of 4" 			=>"$450",
-			"Group of 3"			=>"$515",
-			"Group of 2"			=>"$650",
-			"Individual"			=>"$1100"
+			"Group of 4" 			=>"$550",
+			"Group of 3"			=>"$615",
+			"Group of 2"			=>"$750",
+			"Individual"			=>"$1185"
 		),
 
 		"emerald"=> array(
@@ -48,13 +48,13 @@ $package_items = array(
 		"5 Day/4 Night Cruise Departing From Port of Mobile"		=> "checked",
 		"All You Can Eat aboard Ship"								=> "checked",
 		"Bust a Gut Alumni Getaway Comedy Series"									=> "checked",
-		"Welcome to the 80's Glow Party"										=> "checked",
+		"Alumni Getaway Private Mardi Gras themed Glow Party"										=> "checked",
 		"Word Easy Private Spoken Word Show"								=> "checked",
 		"Alumni Getaway Private Welcome Reception"							=> "checked",
 		"Alumni Getaway Exclusive Kangol and Shelltoes Party"											=> "checked",
 		"Alumni Getaway Beach Retreat"								=> "checked",
 		"Alumni Getaway Ocean Blue Fun and Sexy Party"				=> "checked",
-		"Farewell Party"											=> "checked",
+				"Farewell Party"											=> "checked",
 		"Alumni Getaway Private Black Film Review"											=> "checked",
 		"YOLLO Gift Bag"											=> "checked"
 	),
@@ -282,7 +282,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>When are the payments due?</div>
 							  <div data-content>
-								<p>$150 is due for registration per person<strong> at sign-up</strong>. The next payment of $200 is due on or before <strong>April 15, 2019</strong> . The final payment (remaining balance) is due on or before <strong>September 02, 2019</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
+								<p>$29.99 is due for registration per person<strong> at sign-up</strong>. The next payment of $200 is due on or before <strong>April 15, 2019</strong> . The final payment (remaining balance) is due on or before <strong>September 02, 2019</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -302,7 +302,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>What port are we departing from and what time do I need to be there?</div>
 							  <div data-content>
-								<p>The Carnival Fantasy sails from the Port of Mobile. We suggest arriving no later than 2:30 PM.</p>
+								<p>The Carnival Fantasy sails from the Port of Mobile. We suggest arriving no later than 2:00 PM.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
