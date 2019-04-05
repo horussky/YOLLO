@@ -246,79 +246,98 @@ include 'includes/functions.inc.php';
                     
                         
 
-                    </div><!-- ./ price -->
+            </div><!-- ./ price -->
 
 
 
-                    <?php echo $responsive_tabs["faqs"]; ?>
+          <?php echo $responsive_tabs["faqs"]; ?>
 					<div class="tab" aria-label="faqs">
 
-                        <h3>Frequently Asked Questions</h3>
+          	<h3>Frequently Asked Questions</h3>
                         
                         
-                        <div data-accordion-group>
-                        
-                        	
-                        	<div class="accordion open" data-accordion>
+						<div data-accordion-group>
+						
+							
+							<div class="accordion open" data-accordion>
 
-							  <div data-control>Do I need a Passport?</div>
-							  <div data-content>
-								  <p>Yes, a passport is required to go on the cruise. If you DO NOT have a passport please visit the your local Post Office for more information on obtaining one.</p>
-							  </div>
+								<div data-control>Do I need a Passport?</div>
+								<div data-content>
+									<p>Yes, a passport is required to go on the cruise. If you DO NOT have a passport please visit the your local Post Office for more information on obtaining one.</p>
+								</div>
 
 							</div><!-- end of accordion-->
-							
+	
 							<div class="accordion" data-accordion>
 
-							  <div data-control>What are some things you suggest I buy for this trip? </div>
-							  <div data-content>
-								  <p>Relaxed casual wear, motion sickness medicine (just in case), swim wear, sun block lotion/spray, deet bug spray, and a sexy classy white outfit.</p>
-							  </div>
+								<div data-control>What are some things you suggest I buy for this trip? </div>
+								<div data-content>
+									<p>Relaxed casual wear, motion sickness medicine (just in case), swim wear, sun block lotion/spray, deet bug spray, and a sexy classy white outfit.</p>
+								</div>
 
 							</div><!-- end of accordion-->
-							
-							
+	
+
 							<div class="accordion" data-accordion>
 
-							  <div data-control>How do I pay for this package?</div>
-							  <div data-content>
-								  <p>Navigate to the Buy Now tab and complete the form. You will receive a welcome letter within 7 business days with all your reservation information.</p>
-							  </div>
+								<div data-control>Is there a charge for sodas on the cruise? </div>
+								<div data-content>
+								<p>Yes, beverages at the bar will require purchasing. However, there is an unlimited soda program provided by Carnival called Bottomless Bubbles. Pay one flat price for fountain soda and juice all cruise long. Prices are per day with an automatic 18% gratuity added at time of purchase of the program. Children 17 years and younger are $5.95 USD per day. Adults are $8.50 USD per day. For more information please visit <a href="https://help.carnival.com/app/answers/detail/a_id/3836/~/bottomless-bubbles-%28unlimited-soda-program" target="_blank"> Carnival Cruise FAQs</a></p>
+								</div>
+
+							</div><!-- end of accordion-->
+
+							<div class="accordion" data-accordion>
+
+								<div data-control>Is there an open bar or Bottomless Bubbles for alcohol on the ship? </div>
+								<div data-content>
+								<p>Yes, there is an option called CHEERS, but it's limited to 15 drinks per day. CHEERS is an all-inclusive beverage program that allows guests to enjoy a wide range of alcoholic and non-alcoholic beverages by paying a flat daily rate. The cost prior to your cruise is $51.95 USD per person, per day plus 18% gratuity. If you decide you want the program once on board, you can sign up for CHEERS at a bar the cost is $56.95 USD per person, per day plus 18% gratuity. For more information please visit <a href="https://help.carnival.com/app/answers/detail/a_id/1106" target="_blank"> Carnival Cruise FAQs</a></p>  
+								</div>
+
+							</div><!-- end of accordion-->
+
+
+							<div class="accordion" data-accordion>
+
+								<div data-control>How do I pay for this package?</div>
+								<div data-content>
+									<p>Navigate to the Buy Now tab and complete the form. You will receive a welcome letter within 7 business days with all your reservation information.</p>
+								</div>
 
 							</div><!-- end of accordion-->	
-                        				
 										
+				
 							<div class="accordion" data-accordion>
 
-							  <div data-control>When are the payments due? </div>
-							  <div data-content>
+								<div data-control>When are the payments due? </div>
+								<div data-content>
 								<p>After registration the first payment of $125 is due <strong>March 06, 2019</strong> . The final payment (remaining balance) is due on or before <strong>June 20, 2019</strong> . If you the announced payment dates have passed contact us for our current payment plan.</p>
-							  </div>
+								</div>
 
 							</div><!-- end of accordion-->
 
 
 							<div class="accordion" data-accordion>
 
-							  <div data-control>Are there any other charges associated with the cruise?</div>
-							  <div data-content>
+								<div data-control>Are there any other charges associated with the cruise?</div>
+								<div data-content>
 								<p>Yes, clients are responsible for paying cabin gratuities. The standard charge is $13.99 per day, but you may want to leave more depending on your service. Sometimes gratuity is added to your final bill, so check with the cruiseline front desk on the ship before coming back to Miami.</p>
-							  </div>
+								</div>
 
 							</div><!-- end of accordion-->
 
 
 							<div class="accordion" data-accordion>
 
-							  <div data-control>What port are we departing from and what time do I need to be there?</div>
-							  <div data-content>
+								<div data-control>What port are we departing from and what time do I need to be there?</div>
+								<div data-content>
 								<p>The Carnival Sensation sails from the Port of Miami. We suggest arriving no later than 2PM.</p>
-							  </div>
+								</div>
 
 							</div><!-- end of accordion-->
 
 
-							
+	
 						</div><!-- end of accordion group-->
 
 
