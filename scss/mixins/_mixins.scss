@@ -35,9 +35,9 @@
 
 /* Single property */
 //must use px units to calculate font size
-html {
+/*html {
   @include interpolate(font-size, 480px, 1024px, 18px, 16px);
-}
+}*/
 
 p {
   @include interpolate((font-size), 480px, 1024px, 18px, 16px);
