@@ -165,16 +165,43 @@ include 'includes/functions.inc.php';
                        				
                         <p>Urban Fantasy was created to offer a cruise experience that welcomes and actively includes African Americans. If you’re seeking great networking opportunities, or to mix and mingle, maybe meeting new friends is your thing, or just cruising this is your event! Prices listed include all of your cabin accommodations, taxes, all meals (including 24 hour room service) juice, coffee, and tea, and ALL Urban Fantasy Events both on and off the boat! </p>
                         
-                        
-                        <h4>Cruise Itinerary</h4>
 
-                        <p><strong>Mon (Depart):</strong>  Miami, FL 4PM<br>
-						<strong>Tue:</strong> Fun Day At Sea<br> 
-						<strong>Wed:</strong> Grand Turk, 8AM-5PM<br>
-						<strong>Thu:</strong> Fun Day At Sea<br>
-						<strong>Fri:</strong> Havana, Cuba	7AM-5PM<br>
-						<strong>Sat (Return):</strong> Miami, FL 8AM</p>
-						<p style="color:dimgrey">*All times are based on Eastern Time Zone.</p>
+
+						<table class="itinerary">
+							<caption>Cruise Itinerary</caption>
+							<tbody>
+								<tr>
+									<td>Monday</td>
+									<td>Departure: Miami, Fl 4PM</td>
+								</tr>
+								<tr>
+									<td>Tuesday</td>
+									<td>Fun Day At Sea</td>
+								</tr>
+								<tr>
+									<td>Wednesday</td>
+									<td>Grand Turk, 8AM-5PM</td>
+								</tr>
+								<tr>
+									<td>Thursday</td>
+									<td>Fun Day At Sea</td>
+								</tr>
+								<tr>
+									<td>Friday</td>
+									<td>Havana, Cuba	7AM-5PM</td>
+								</tr>
+								<tr>
+									<td>Saturday</td>
+									<td>Return: Miami, FL 8AM</td>
+								</tr> 
+							
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="2">*All times are based on Eastern Time Zone.</td>
+								</tr>
+							</tfoot>
+						</table>
 						
 
                     </div> <!-- ./ overview -->
