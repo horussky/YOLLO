@@ -36,7 +36,7 @@ include 'includes/functions.inc.php';
             <section id="intro">
             <?php /* ?><div class="rslides"></div><?php */?>
 
-            <p class="headline" style="text-align: left; font-size: 5.6rem">Our name is our motto. You Only Live Life Once!</p>
+            <p class="headline">Our name is our motto. You Only Live Life Once!</p>
 						
             <p>YOLLO Group Services is one of the leading full-service travel companies located in the Southeastern region. We offer our clients great all-inclusive travel packages, and fun and festive experiences at the best destinations around the world.  <a title="read more about YOLLO Group Services" href="about.php"> Learn more about YOLLO.</a> or view some of our upcoming events below.</p>
             </section>

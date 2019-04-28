@@ -231,15 +231,41 @@ include 'includes/functions.inc.php';
                         </div><!-- ./hotel-grid -->
                         <?php endforeach; ?>
                         
-                        <h4>Cruise Itinerary</h4>
-
-                        <p><strong>Mon (Depart):</strong>  Miami, FL 4PM<br>
-						<strong>Tue:</strong> Fun Day At Sea<br> 
-						<strong>Wed:</strong> Grand Turk, 8AM-5PM<br>
-						<strong>Thu:</strong> Fun Day At Sea<br>
-						<strong>Fri:</strong> Havana, Cuba	7AM-5PM<br>
-						<strong>Sat (Return):</strong> Miami, FL 8AM</p>
-						<p style="color:dimgrey">*All times are based on Eastern Time Zone.</p>
+                        <table class="itinerary">
+							<caption>Cruise Itinerary</caption>
+							<tbody>
+								<tr>
+									<td>Monday</td>
+									<td>Departure: Miami, Fl 4PM</td>
+								</tr>
+								<tr>
+									<td>Tuesday</td>
+									<td>Fun Day At Sea</td>
+								</tr>
+								<tr>
+									<td>Wednesday</td>
+									<td>Grand Turk, 8AM-5PM</td>
+								</tr>
+								<tr>
+									<td>Thursday</td>
+									<td>Fun Day At Sea</td>
+								</tr>
+								<tr>
+									<td>Friday</td>
+									<td>Havana, Cuba	7AM-5PM</td>
+								</tr>
+								<tr>
+									<td>Saturday</td>
+									<td>Return: Miami, FL 8AM</td>
+								</tr> 
+							
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="2">*All times are based on Eastern Time Zone.</td>
+								</tr>
+							</tfoot>
+						</table>
                        
                         <hr />
 
