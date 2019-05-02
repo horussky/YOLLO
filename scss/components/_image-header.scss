@@ -30,15 +30,16 @@
 		z-index: 99; 
 		
 		h1{
-			font-family:"Sansita", cursive, "PT Serif Caption", sans-serif;
-			font-size: 4.5rem;
-			font-weight: 800;
-			font-style: italic;
+			font-family:"Merriweather","Sansita","PT Serif Caption", sans-serif;
+			font-size: 4rem;
+      letter-spacing: -1px;
+			font-weight: 900;
+			//font-style: italic;
 			color:#fff;
 			margin-bottom: 2rem;
-            -webkit-animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-            animation-delay: 1s;
+      -webkit-animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+      animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+      animation-delay: 1s;
 		}
 		
 		.subtitle{
