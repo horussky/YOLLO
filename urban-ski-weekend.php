@@ -5,7 +5,7 @@ if(!ob_start("ob_gzhandler")) ob_start();
 $event = array(
 
 	"title"					=>"Urban Ski Weekend 2020",
-	"subtitle"			=>"Early Bird $100 of until April 1, 2019!",
+	"subtitle"			=>"Early Bird $100 pp of until June 1, 2019!",
 	"location"			=>"Gatlinburg, Tennessee",
 	"date"					=>"Jan 31 - Feb 3, 2020",
   "date_start"    =>"January 31, 2020",
@@ -393,7 +393,21 @@ include 'includes/functions.inc.php';
 
 										  <div data-content>
 
-											<p>Following registration the first payment of $125 is due on or before April 15, 2019. The final payment (remaining balance) is due on or before October 15, 2019. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+											<p>Following registration the first payment of $125 is due on or before Ju1y 17, 2019. The final payment (remaining balance) is due on or before October 15, 2019. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+
+										  </div>
+
+</div><!-- end of accordion-->
+
+										<div class="accordion" data-accordion>
+
+
+
+										  <div data-control>Is the ski excursion included in with the package?</div>
+
+										  <div data-content>
+
+											<p>No, it's not included in the package, but can be purchased once you arrive at the resort. The cost of the ski excursion is $95.</p>
 
 										  </div>
 
@@ -401,9 +415,9 @@ include 'includes/functions.inc.php';
 
 										</div><!-- end of accordion-->
 
-										
 
-										
+
+
 
 										<div class="accordion" data-accordion>
 
@@ -419,11 +433,25 @@ include 'includes/functions.inc.php';
 
 
 
+</div><!-- end of accordion-->
+
+
+
+
+                                       <div class="accordion" data-accordion>
+
+
+
+										  <div data-control>What time will the bus depart from Birmingham, AL?</div>
+
+										  <div data-content>
+
+											<p>The bus will depart Birmingham at 1pm (CT) on Friday and return to Birmingham Monday at 4 pm (CT).</p>
+
+										  </div>
+
+
 										</div><!-- end of accordion-->
-
-
-
-
 
 
 
@@ -442,8 +470,6 @@ include 'includes/functions.inc.php';
 
 
 										</div><!-- end of accordion-->
-
-
 
 
 

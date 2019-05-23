@@ -3,7 +3,7 @@ ob_start("ob_gzhandler");
 
 $event = array(
 	"title"					=>"The Tourney Weekend 2020",
-	"subtitle"				=>"Book your package today!",
+	"subtitle"				=>"Charlotte Grand Finale! It will be BIG!",
 	"location"				=>"Charlotte, NC",
 	"date"					=>"February 27 - March 1, 2020",
     "date_start"			=>"February 27, 2020",

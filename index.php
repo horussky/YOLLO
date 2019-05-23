@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>YOLLO Group Services | Contact us today at 888.9GO.YOLLO </title>
+    <title>YOLLO Group Services. We provide fun and affordable all-inclusive packages. </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="kOTF00jD1h-y1D-FbPleHrCN6vETPoBmtCFu7-in-KE" />
     <meta name="Description" content="YOLLO Group Services Inc. is a travel company committed to offering affordable all-inclusive travel packages for everyone." />
@@ -39,10 +39,11 @@
 									<ul>
 										<li><img src="images/slides/splash-nba.jpg"></li>
 										<li><img src="images/slides/splash-essence.jpg"></li>
+										<li><img src="images/slides/splash-gsc.jpg"></li>
+										<li><img src="images/slides/splash-partygras.jpg"></li>
+										<li><img src="images/slides/splash-ufw.jpg"></li>
 										<li><img src="images/slides/splash-urban-fiesta.jpg"></li>
 									    <li><img src="images/slides/splash-urban-ski.jpg"></li>
-									    <li><img src="images/slides/splash-ufw.jpg"></li>
-										<li><img src="images/slides/splash-partygras.jpg"></li>
 										<li><img src="images/slides/splash-instagram.jpg"></li>
 										<li><img src="images/slides/splash-tourney.jpg"></li> 
 										<li><img src="images/slides/splash-facebook.jpg"></li>
