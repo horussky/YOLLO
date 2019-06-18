@@ -3,9 +3,9 @@ ob_start("ob_gzhandler");
 
 $event = array(
 	"title"					=>"All-Star Weekend 2020",
-	"subtitle"			=>"Book your package today!",
+	"subtitle"			=>"Here we come Windy City! Lock in your package TODAY!",
 	"location"			=>"Chicago, IL",
-	"date"					=>"February 14-17, 2020",
+	"date"					=>"February 14-16, 2020",
   "date_start"    =>"February 14, 2020",
 	"img_url"				=>"../../images/slides/splash-nba-cta.jpg",
 );
@@ -18,6 +18,13 @@ $geolocation = array(
 		"location"		=>"Chicago, IL 60610",
 		"soldout"	    => false,
 		"img_url"			=>"//images.trvl-media.com/hotels/1000000/30000/22700/22684/682b49ef_z.jpg"
+	),
+  "hotel2"=> array(
+		"title" 			=>"Hampton Inn Chicago Downtown/Magnificent Mile",
+		"address"			=>"160 E Huron Street",
+		"location"		=>"Chicago, IL 60611",
+		"soldout"	    => false,
+		"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/06/b0/08/fb/magnificent-mile.jpg"
 	)
 
 );
@@ -50,24 +57,26 @@ $package_items = array(
 	"diamond_items" => array(
 		"Hotel Accommodations (Fri-Sun)"					=> "checked",
 		"Complimentary Night"											=> "checked",
+		"Complimentary Breakfast (Hampton Inn Only)"											=> "checked",
 		"Celebrity Hosted Party Ticket (Friday)"	=> "checked",
 		"Celebrity Hosted Party Ticket (Sunday)"	=> "checked",
 		"Jam Sessions Tickets"										=> "checked",
 		"Celebrity Game Ticket"										=> "checked",
 		"Mid-Day Party"														=> "checked",
-		"YOLLO Live City Tour"										=> "checked",
+		"Lavish Life Yacht Cruise"										=> "checked",
 		"YOLLO Gift Bag"													=> "checked"
 	),
 
 	"emerald_items" => array(
 		"Hotel Accommodations (Fri-Sun)"					=> "checked",
 		"Complimentary Night"											=> "checked",
+		"Complimentary Breakfast (Hampton Inn Only)"											=> "checked",
 		"Celebrity Hosted Party Ticket (Friday)"	=> "ex",
 		"Celebrity Hosted Party Ticket (Sunday)"	=> "checked",
 		"Jam Sessions Tickets"										=> "checked",
 		"Celebrity Game Ticket"										=> "checked",
 		"Mid-Day Party"														=> "checked",
-		"YOLLO Live City Tour"										=> "ex",
+		"Lavish Life Yacht Cruise"										=> "ex",
 		"YOLLO Gift Bag"													=> "checked"
 			),
 
@@ -91,7 +100,11 @@ include 'includes/functions.inc.php';
 <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
 </head>
-
+<style>
+.cognito.c-payment .c-payment-field {
+    padding: 12px!important;
+}  
+</style>
 <body>
 <div id="wrap">
    
@@ -231,7 +244,7 @@ include 'includes/functions.inc.php';
 												<ul>
 													<li>Friday Night Party</li>
 													<li>Jam Sessions Ticket</li>
-													<li>YOLLO Live City Tour</li>
+													<li>Colors and Cocktails</li>
 													<li>Comedy Show - acts announced closer to event</li>
 													<li>Saturday Night Party (Celebrity Hosted)</li>
 												</ul>
@@ -239,7 +252,7 @@ include 'includes/functions.inc.php';
 												<p class="lead">Rising Star - $650 </p>
 												<ul>										
 													<li>Jam Sessions Ticket</li>
-													<li>YOLLO Live City Tour</li>
+													<li>Colors and Cocktails</li>
 													<li>Comedy Show - acts announced closer to event</li>
 													<li>Saturday Night Party (Celebrity Hosted)</li>
 													<li>Sunday Night Party</li>
@@ -252,7 +265,7 @@ include 'includes/functions.inc.php';
 
 													<li>Friday Night Party (Celebrity Hosted)</li>
 													<li>Jam Sessions Ticket</li>
-													<li>YOLLO Live City Tour</li>
+													<li>Colors and Cocktails</li>
 													<li>Comedy Show - acts announced closer to event</li>
 													<li>Saturday Night Party (Celebrity Hosted)</li>
 													<li>Sunday Night Party</li>
@@ -286,7 +299,36 @@ include 'includes/functions.inc.php';
 
 										  <div data-control>When are the payments due?</div>
 										  <div data-content>
-											<p>After registration the first payment of $125 is due December 30, 2019. The final payment (remaining balance) is due on or before January 14, 2020.</p>
+											<p>After registration the first payment of $125 is due July 13, 2019. The final payment (remaining balance) is due on or before November 05, 2019.</p>
+										  </div>
+
+										</div><!-- end of accordion-->
+
+
+										<div class="accordion" data-accordion>
+
+										  <div data-control>Who won the All- Star game the last time it was hosted in Chicago?</div>
+										  <div data-content>
+											<p>The game was hosted in Chicago in 1988. The game final score was East 138 vs West 133. Michael Jordon was the MVP of the game.</p>
+										  </div>
+
+										</div><!-- end of accordion-->
+
+										<div class="accordion" data-accordion>
+
+										  <div data-control>When is the NBA All-Star Game?</div>
+										  <div data-content>
+											<p>NBA All-Star Weekend 2020 will take place in Chicago, IL on Feb. 14-1, 2020.</p>
+										  </div>
+
+										</div><!-- end of accordion-->
+
+
+										<div class="accordion" data-accordion>
+
+										  <div data-control>How are All-Stars selected?</div>
+										  <div data-content>
+											<p>The starting lineups are selected each year by fans around the world, who can vote online at nba.com, the NBA app and on social media. The reserves are selected by NBA head coaches. If a player is unable to play due to injury, his replacement is selected by NBA Commissioner Adam Silver. If a team has a starter who's unable to play, the head coach of that All-Star team will select his replacement from his bench (including any Commissioner-appointed players).</p>
 										  </div>
 
 										</div><!-- end of accordion-->
