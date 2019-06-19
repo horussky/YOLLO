@@ -1,5 +1,9 @@
 <?php
 
+    ob_start("ob_gzhandler");
+    include 'includes/functions.inc.php';
+    include 'includes/meta.config.inc.php';
+
 	$event = array(
 		"title"				=>"Essence Music Festival 2019",
 		"subtitle"			=>"25th Anniversary of Essence Fest...You Can't Miss This!",
@@ -52,9 +56,8 @@
 				"Group of 3"			=>"$1105",
 				"Group of 2"			=>"$1210",
 				"Individual"			=>"$1945"
-			),
+			)
 
-			"Hotel Only" =>"$2245 (Weekend)"
 	);
 
 	$package_items = array(
@@ -87,23 +90,20 @@
 		)
 	);
 
-	include 'includes/functions.inc.php';
-
-
 ?>
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-
-<title><?php echo $event["title"]?> | <?php echo $phonenumber ?></title>
-<meta name="description" content="" />
-<meta name="keywords" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-<link href="favicon.ico" rel="icon" type="image/x-icon" />
-<link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
-<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <title><?php echo $metas['essence']['title']; ?></title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="<?php echo $metas['essence']['desc']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['essence']['keywords']; ?>" />
+    <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
+    <link href="<?php echo $metas['essence']['canonical']; ?>" rel="canonical" />
+    <meta name="author" content="YOLLO Group Services" />
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 
 </head>
 <body>

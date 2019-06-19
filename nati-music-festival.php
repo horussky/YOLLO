@@ -1,6 +1,8 @@
 <?php
 
 ob_start("ob_gzhandler");
+include 'includes/functions.inc.php';
+include 'includes/meta.config.inc.php';
 
 $event = array(
 	"title"					=>"Cincinnati Music Festival 2019",
@@ -67,22 +69,22 @@ $package_items = array(
 	"Hotel Only" =>"$850/per person"
 );
 
-include 'includes/functions.inc.php';
+
 
 ?>
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-
-<title><?php echo $event["title"]?> | <?php echo $phonenumber ?></title>
-<meta name="description" content="YOLLO Group Services will provide you with all-inclusive arrangements and tickets for Cincinnati Music Festival 2019." />
-<meta name="keywords" content="grown and sophisticated cruise, macy's music festival party boat cruise, Cincinnati jazz festival cruise tickets, Cincinnati Music Festival 2019, Cincinnati Music Festival cruise, Cincinnati Music Festival tickets" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-<link href="favicon.ico" rel="icon" type="image/x-icon" />
-<link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
-<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <title><?php echo $metas['nati']['title']; ?></title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="<?php echo $metas['nati']['desc']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['nati']['keywords']; ?>" />
+    <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
+    <link href="<?php echo $metas['nati']['canonical']; ?>" rel="canonical" />
+    <meta name="author" content="YOLLO Group Services" />
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="wrap">
@@ -299,7 +301,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>What time does the cruise start and how much does it cost?</div>
 							  <div data-content>
-								<p>The cruise will sail from 1:30 pm - 5:00 pm, however boarding begins at 1:00 pm. The cost of the cruise is $50 for General Admission and $95 for VIP. For a limited time there are Early Bird tickets available at $40 for General Admission and $85 VIP.  VIP grants no line waiting entrance, Open bar, and light food during the cruise.</p>
+								<p>The cruise will sail from 2:00 pm - 5:00 pm, however boarding begins at 2:00 pm. The cost of the cruise is $50 for General Admission and $95 for VIP. For a limited time there are Early Bird tickets available at $40 for General Admission and $85 VIP.  VIP grants no line waiting entrance, Open bar, and light food during the cruise.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

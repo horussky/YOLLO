@@ -1,6 +1,8 @@
 <?php
 
 ob_start("ob_gzhandler");
+include 'includes/functions.inc.php';
+include 'includes/meta.config.inc.php';
 
 $event = array(
 	"title"						=>"Daytox Party Cruise",
@@ -53,27 +55,25 @@ $package_items = array(
 
 	"emerald_items" => array(
 		""
-	),
+	)
 
-	"Hotel Only" =>""
 );
 
-include 'includes/functions.inc.php';
 
 ?>
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-
-<title><?php echo $event["title"]?> | <?php echo $phonenumber ?></title>
-<meta name="description" content="YOLLO Group Services is a travel company specializing in offering affordable travel to amazing events for everyone." />
-<meta name="keywords" content="Day Getaway, YOLLO Group Services, student travel, Tennessee, Cruise Travel packages" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-<link href="favicon.ico" rel="icon" type="image/x-icon" />
-<link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
-<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <title><?php echo $metas['blackbeach']['title']; ?></title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="<?php echo $metas['blackbeach']['desc']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['blackbeach']['keywords']; ?>" />
+    <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
+    <link href="<?php echo $metas['blackbeach']['canonical']; ?>" rel="canonical" />
+    <meta name="author" content="YOLLO Group Services" />
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -131,7 +131,7 @@ include 'includes/functions.inc.php';
 
 						<p>Biloxi will be LIT this Spring because YOLLO is taking over Black Beach Weekend with the Daytox Party Cruise! This event is the Drip of Drop edition, the an ultimate party cruise experience. This cruise will be so LIT we are cruising twice the same day to accommodate the crowds.</p>
 							
-						<p>Ladies come dressed to impress and win those dollars, because we will be hosting a bikini contest paying out $400! Come partake in 26 miles of beach, vendors, drinks, special guests, and the livest one-of-a-kind cruise on the Gulf Coast during Black Beach Weekend.</p>
+						<p>Ladies and gentlemen come dressed to impress and ready for a LIT event as we will be giving away $400 in cash prizes! Come partake in 26 miles of beach, vendors, drinks, special guests, and the livest one-of-a-kind cruise on the Gulf Coast during Black Beach Weekend.</p>
                        	
 						<p>Don't wait to get your tickets because both cruises will fill up fast. You will sail with the livest from across the country. This boat is located at 173 Beach Blvd, Biloxi, MS 39530. Please pay attention to the cruise time you selected.</p>
 						
@@ -326,7 +326,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>What form of entertainment will be provided during the cruise?</div>
 							  <div data-content>
-								<p>The cruise will feature DJ Dre Smooth on the 1's and 2's and a bikini Contest totaling to $400 prize money.</p>
+								<p>The cruise will feature DJ Dre Smooth on the 1's and 2's and various contest totaling to $400 prize money.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

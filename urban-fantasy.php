@@ -1,5 +1,7 @@
 <?php
 ob_start("ob_gzhandler");
+include 'includes/functions.inc.php';
+include 'includes/meta.config.inc.php';
 
 $event = array(
 	"title"				=>"Urban Fantasy 2019",
@@ -38,7 +40,7 @@ $people = array(
 
 	"options" => array(
 		"Hotel Only" => "$1245 (Weekend)"
-	),
+	)
 
 );
 
@@ -64,15 +66,10 @@ All You Can Drink"                    => "checked",
 
 	"emerald_items" => array(
 		""
-	),
-
-	"Hotel Only" => "$1245 (Weekend)"
+	)
 
 );
 
-
-
-include 'includes/functions.inc.php';
 ?>
 
 <!doctype html>
@@ -80,22 +77,16 @@ include 'includes/functions.inc.php';
 <html lang="en">
 
 <head>
-
 	<meta charset="utf-8">
-
-	<title>
-		<?php echo $event["title"]?> |
-		<?php echo $phonenumber ?>
-	</title>
-
-	<meta name="description" content="YOLLO Group Services is a travel company specializing in offering affordable travel to amazing events for everyone."/>
-	<meta name="keywords" content="Urban Fantasy 2019, Carnival Cruise, Bahamas, YOLLO Group Services, student travel, bahamas, Cruise Travel packages"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE"/>
-	<link href="favicon.ico" rel="icon" type="image/x-icon"/>
-	<link href="css/global.css" rel="stylesheet" type="text/css"/>
-	<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css"/>
-
+    <title><?php echo $metas['urbanfantasy']['title']; ?></title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="<?php echo $metas['urbanfantasy']['desc']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['urbanfantasy']['keywords']; ?>" />
+    <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
+    <link href="<?php echo $metas['urbanfantasy']['canonical']; ?>" rel="canonical" />
+    <meta name="author" content="YOLLO Group Services" />
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 
 <body>

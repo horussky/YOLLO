@@ -1,6 +1,8 @@
 <?php
 
 	ob_start("ob_gzhandler");
+    include 'includes/functions.inc.php';
+    include 'includes/meta.config.inc.php';
 
 	$event = array(
 		"title"					=>"The Official College Beachfest",
@@ -55,23 +57,23 @@
 		)
 	);
 
-	include 'includes/functions.inc.php';
+	
 
 
 ?>
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-
-<title><?php echo $event["title"]?> | <?php echo $phonenumber ?></title>
-<meta name="description" content="The official College Beachfest in Daytona Beach, Florida." />
-<meta name="keywords" content="College, Beachfest, Daytona, Florida, YOLLO" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-<link href="favicon.ico" rel="icon" type="image/x-icon" />
-<link href="css/global.css" rel="stylesheet" type="text/css" />
-<link href="css/prettyPhoto.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <title><?php echo $metas['collegebeachfest']['title']; ?></title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="<?php echo $metas['collegebeachfest']['desc']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['collegebeachfest']['keywords']; ?>" />
+    <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
+    <link href="<?php echo $metas['collegebeachfest']['canonical']; ?>" rel="canonical" />
+    <meta name="author" content="YOLLO Group Services" />
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 
 </head>
 <body>

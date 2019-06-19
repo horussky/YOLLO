@@ -1,30 +1,32 @@
 <?php
 ob_start("ob_gzhandler");
+include 'includes/functions.inc.php';
+include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"					=>"All-Star Weekend 2020",
+	"title"				=>"All-Star Weekend 2020",
 	"subtitle"			=>"Here we come Windy City! Lock in your package TODAY!",
 	"location"			=>"Chicago, IL",
-	"date"					=>"February 14-16, 2020",
-  "date_start"    =>"February 14, 2020",
-	"img_url"				=>"../../images/slides/splash-nba-cta.jpg",
+	"date"				=>"February 14-16, 2020",
+    "date_start"        =>"February 14, 2020",
+	"img_url"			=>"../../images/slides/splash-nba-cta.jpg",
 );
 
 $geolocation = array(
  
 	"hotel1"=> array(
-		"title" 			=>"Claridge House",
-		"address"			=>"1244 N Dearborn Pkwy",
+		"title" 		=>"Claridge House",
+		"address"		=>"1244 N Dearborn Pkwy",
 		"location"		=>"Chicago, IL 60610",
 		"soldout"	    => false,
-		"img_url"			=>"//images.trvl-media.com/hotels/1000000/30000/22700/22684/682b49ef_z.jpg"
+		"img_url"		=>"//images.trvl-media.com/hotels/1000000/30000/22700/22684/682b49ef_z.jpg"
 	),
-  "hotel2"=> array(
-		"title" 			=>"Hampton Inn Chicago Downtown/Magnificent Mile",
-		"address"			=>"160 E Huron Street",
+    "hotel2"=> array(
+		"title" 		=>"Hampton Inn Chicago Downtown/Magnificent Mile",
+		"address"		=>"160 E Huron Street",
 		"location"		=>"Chicago, IL 60611",
 		"soldout"	    => false,
-		"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/06/b0/08/fb/magnificent-mile.jpg"
+		"img_url"		=>"//media-cdn.tripadvisor.com/media/photo-s/06/b0/08/fb/magnificent-mile.jpg"
 	)
 
 );
@@ -83,28 +85,22 @@ $package_items = array(
 	"Hotel Only" =>"$2000/room"
 );
 
-include 'includes/functions.inc.php';
 
 ?>
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-
-<title><?php echo $event["title"]?> | <?php echo $phonenumber ?></title>
-<meta name="description" content="YOLLO Group Services is providing you all-inclusive packages for NBA All-Star Weekend 2020 in Chicago." />
-<meta name="keywords" content="NBA All-Star, All-Star game 2020, YOLLO Group Services, NBA All-Star Weekend packages 2020, Chicago" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-<link href="favicon.ico" rel="icon" type="image/x-icon" />
-<link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
-<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <title><?php echo $metas['nba']['title']; ?></title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="<?php echo $metas['nba']['desc']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['nba']['keywords']; ?>" />
+    <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
+    <link href="<?php echo $metas['nba']['canonical']; ?>" rel="canonical" />
+    <meta name="author" content="YOLLO Group Services" />
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
-<style>
-.cognito.c-payment .c-payment-field {
-    padding: 12px!important;
-}  
-</style>
 <body>
 <div id="wrap">
    

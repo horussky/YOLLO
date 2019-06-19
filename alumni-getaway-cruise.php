@@ -1,23 +1,24 @@
 <?php
-
 ob_start("ob_gzhandler");
+include 'includes/functions.inc.php';
+include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"						=> "Alumni Getaway",
+	"title"					=> "Alumni Getaway",
 	"subtitle"				=> "The LIVEST party at SEA! Lock in your cabin TODAY!",
 	"location"				=> "Cozumel, Mexico",
-	"date"						=> "Nov 30 - Dec 5, 2019",
-  "date_start"			=> "November 30, 2019",
-	"img_url"				 	=> "../../images/slides/splash-alumni-cta.jpg",
-	"img_alt"				 	=> "Alumni Getaway"
+	"date"					=> "Nov 30 - Dec 5, 2019",
+    "date_start"			=> "November 30, 2019",
+	"img_url"				=> "../../images/slides/splash-alumni-cta.jpg",
+	"img_alt"				=> "Alumni Getaway"
 );
 
 $geolocation = array(
 	"cruise1"=> array(
 		"title" 			=> "Fantasy Cruise Ship",
 		"ship"				=> "https://directlinecruises.com/images/carnival_ecstacy_slider1.jpg",
-		"location"		=> "Cozumel, Mexico",
-    "address"			=> "South, 201 Water St, Mobile, AL 36602",
+		"location"		    => "Cozumel, Mexico",
+    "address"			    => "South, 201 Water St, Mobile, AL 36602",
 		"soldout"			=> false,
 		"img_url"			=> "https://www.cruisin.me/images/cruise-ships/carnival-cruise-lines/carnival-fantasy.jpg"
 
@@ -66,22 +67,21 @@ $package_items = array(
 	"Hotel Only" =>""
 );
 
-include 'includes/functions.inc.php';
 
 ?>
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-
-<title><?php echo $event["title"]?> | <?php echo $phonenumber ?></title>
-<meta name="description" content="YOLLO Group Services is a travel company specializing in offering affordable travel to amazing events for everyone." />
-<meta name="keywords" content="Urban Fantasy 2019, Urban Fantasy 2018, HBCU ALumni, SWAC, CIAA, MEAC, SIAC, Carnival Cruise, Bahamas, YOLLO Group Services, student travel, bahamas, Cruise Travel packages, HBCU cruise, Alumni Cruise 2019, Mexico cruise" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-<link href="favicon.ico" rel="icon" type="image/x-icon" />
-<link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
-<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <title><?php echo $metas['alumni']['title']; ?></title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="<?php echo $metas['alumni']['desc']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['alumni']['keywords']; ?>" />
+    <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
+    <link href="<?php echo $metas['alumni']['canonical']; ?>" rel="canonical" />
+    <meta name="author" content="YOLLO Group Services" />
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -136,7 +136,7 @@ include 'includes/functions.inc.php';
 
 
                     <?php echo $responsive_tabs["overview"]; ?>
-										<div class="tab" aria-label="overview">
+						<div class="tab" aria-label="overview">
                         <h3>Alumni Getaway is going to Cozumel, Mexico!</h3>
 
                         <p>Calling all old, new, and almost alums, this Alumni Getaway is the weekend vacation for you. We are bringing together HBCU alums from all over the country to rep their university. What better way to meet and mingle than cruising aboard the Carnival Fantasy to the beautiful island of Cozumel, Mexico. Not a product of a HBCU? No worries, this cruise isn't exclusive to only HBCU alumni. Everyone's invited to rep their university on this getaway cruise to Mexico. </p>

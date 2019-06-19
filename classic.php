@@ -1,6 +1,8 @@
 <?php
 
 	ob_start("ob_gzhandler");
+    include 'includes/functions.inc.php';
+    include 'includes/meta.config.inc.php';
 
 	$event = array(
 		"title"				=>"Classic Weekend 2019",
@@ -41,8 +43,6 @@
 
 			),
 
-
-
 			"emerald"=> array(
 
 				"Group of 4" 			=>"$145",
@@ -50,10 +50,7 @@
 				"Group of 2"			=>"$200",
 				"Individual"			=>"$315"
 
-			),
-
-			"Hotel Only" =>"$245 (Weekend)"
-
+			)
 	);
 
 
@@ -70,8 +67,6 @@
 
 		),
 
-
-
 		"emerald_items" => array(
 
 			"Hotel Accommodations (Fri-Sun)"		=> "checked",
@@ -84,24 +79,22 @@
 
 	);
 
-	include 'includes/functions.inc.php';
-
 ?>
 
 <!doctype html>
 
 <html lang="en">
 <head>
-<meta charset="utf-8">
-
-<title><?php echo $event["title"]?>|<?php echo $phonenumber ?></title>
-<meta name="description" content="YOLLO Group Services is a travel company specializing in offering affordable travel for everyone." />
-<meta name="keywords" content="Magic City Classic 2017, Magic City Classic, Magic City Classic 2018, Birmingham, HBCU Alumni, MCC, MCC 2018, HBCU football classic, Alabama A&M football, Alabama State football" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-<link href="favicon.ico" rel="icon" type="image/x-icon" />
-<link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
-<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <title><?php echo $metas['mcc']['title']; ?></title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="<?php echo $metas['mcc']['desc']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['mcc']['keywords']; ?>" />
+    <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
+    <link href="<?php echo $metas['mcc']['canonical']; ?>" rel="canonical" />
+    <meta name="author" content="YOLLO Group Services" />
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 	
 <body>

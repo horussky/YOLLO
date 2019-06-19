@@ -63,7 +63,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width">
 <meta name="Description" content="If you are looking to be apart of this annual event, we can provide you with all inclusive arrangements and tickets for Essence Festival Weekend." />
-<meta name="Keywords" content="macy's music festival 2014, macy's music festival 2015,macy's music festival 2016, Cincinnati jazz festival, essence festival, Cincinnati jazz festival 2015, black concerts, black celebrities, contemporary african american music, Cincinnati jazz festival parties, mid day party cruise, mid day all white cruise, mid day party cruise 2015, mid day all white cruise 2015, mid day all white cruise 2015, VIP on the River, macy's music festival cruise, macy's music festival party boat cruise, Cincinnati jazz festival cruise tickets, Cincinnati Music Festival 2015, Cincinnati Music Festival cruise,Cincinnati Music Festival tickets" />
+<meta name="Keywords" content="macy's music festival 2019, macy's music festival 2015,macy's music festival 2019, Cincinnati jazz festival, essence festival, Cincinnati jazz festival 2019, black concerts, black celebrities, contemporary african american music, Cincinnati jazz festival parties, mid day party cruise, mid day all white cruise, mid day party cruise 2019, mid day all white cruise 2019, mid day all white cruise 2019, VIP on the River, macy's music festival cruise, macy's music festival party boat cruise, Cincinnati jazz festival cruise tickets, Cincinnati Music Festival 2019, Cincinnati Music Festival cruise,Cincinnati Music Festival tickets" />
 <meta name="robots" content="ALL" />
 <meta name="author" content="Yollo Group Services" />
 <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
@@ -82,7 +82,6 @@
 #galleria{width:800px; height:500px;}
 
 </style>
-
 </head>
 <body>
 <div id="wrap">

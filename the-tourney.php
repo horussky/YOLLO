@@ -1,5 +1,7 @@
 <?php
 ob_start("ob_gzhandler");
+include 'includes/functions.inc.php';
+include 'includes/meta.config.inc.php';
 
 $event = array(
 	"title"					=>"The Tourney Weekend 2020",
@@ -65,28 +67,26 @@ $package_items = array(
 		"Saturday After Hours Party"					=> "checked",
 		"One Bottle of Ciroc per group"					=> "checked",
 		"YOLLO Gift Bag"								=> "checked"
-	),
+	)
 
-	"Hotel Only" =>"$915/weekend"
 );
 
-include 'includes/functions.inc.php';
 
 ?>
 
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-
-<title><?php echo $event["title"]?> | <?php echo $phonenumber ?></title>
-<meta name="description" content="We can provide you with all inclusive arrangements and tickets for the Tourney." />
-<meta name="keywords" content="The Tourney, CIAA Charlotte, Basketball, CIAA Tournament, CIAA, CIAA Party Passes, ciaa 2019,CIAA 2020, the tournament, ciaa parties, ciaa party" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-<link href="favicon.ico" rel="icon" type="image/x-icon" />
-<link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
-<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <title><?php echo $metas['tourney']['title']; ?></title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="<?php echo $metas['tourney']['desc']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['tourney']['keywords']; ?>" />
+    <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
+    <link href="<?php echo $metas['tourney']['canonical']; ?>" rel="canonical" />
+    <meta name="author" content="YOLLO Group Services" />
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 <body>
 

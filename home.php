@@ -1,14 +1,18 @@
 <?php
 include 'includes/functions.inc.php';
+include 'includes/meta.config.inc.php';
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>YOLLO Group Services | Home </title>
 <meta charset="utf-8">
+<title><?php echo $metas['home']['title']; ?></title>
 <meta name="viewport" content="width=device-width">
-<meta name="Description" content="YOLLO Group Services Inc. is one of the leading full-service event concierge company in the Southern Region." />
-<meta name="Keywords" content="YOLLO Group Services, Alumni Getaway Cruise, Urban Fiesta, NBA All-Star Weekend, Mardi Gras, Urban Ski Weekend, Black Ski Weekend, Urban Fantasy, Magic City Classic, Essence Festival, Cincinnati Music Festival, College Beach Festival" />
+<meta name="description" content="<?php echo $metas['home']['desc']; ?>" />
+<meta name="keywords" content="<?php echo $metas['home']['keywords']; ?>" />
+<meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
+<link href="<?php echo $metas['home']['canonical']; ?>" rel="canonical" />
 <meta name="author" content="YOLLO Group Services" />
 
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
