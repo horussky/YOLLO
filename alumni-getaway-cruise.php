@@ -1,23 +1,24 @@
 <?php
-
 ob_start("ob_gzhandler");
+include 'includes/functions.inc.php';
+include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"						=> "Alumni Getaway",
-	"subtitle"				=> "Reserve by April 1 and save $100 per person!",
-	"location"				=> "Cozumel, Mexico",
-	"date"						=> "Nov 30 - Dec 5, 2019",
-  "date_start"			=> "November 30, 2019",
-	"img_url"				 	=> "../../images/slides/splash-alumni-cta.jpg",
-	"img_alt"				 	=> "Alumni Getaway"
+	"title"					=> "Alumni Getaway",
+	"subtitle"				=> "The LIVEST party at SEA! Lock in your cabin TODAY!",
+	"location"				=> "Cozumel and Yucatan, Mexico",
+	"date"					=> "Nov 30 - Dec 5, 2019",
+    "date_start"			=> "November 30, 2019",
+	"img_url"				=> "../../images/slides/splash-alumni-cta.jpg",
+	"img_alt"				=> "Alumni Getaway"
 );
 
 $geolocation = array(
 	"cruise1"=> array(
 		"title" 			=> "Fantasy Cruise Ship",
 		"ship"				=> "https://directlinecruises.com/images/carnival_ecstacy_slider1.jpg",
-		"location"		=> "Cozumel, Mexico",
-    "address"			=> "South, 201 Water St, Mobile, AL 36602",
+		"location"		    => "Cozumel, Mexico",
+    "address"			    => "South, 201 Water St, Mobile, AL 36602",
 		"soldout"			=> false,
 		"img_url"			=> "https://www.cruisin.me/images/cruise-ships/carnival-cruise-lines/carnival-fantasy.jpg"
 
@@ -66,22 +67,21 @@ $package_items = array(
 	"Hotel Only" =>""
 );
 
-include 'includes/functions.inc.php';
 
 ?>
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-
-<title><?php echo $event["title"]?> | <?php echo $phonenumber ?></title>
-<meta name="description" content="YOLLO Group Services is a travel company specializing in offering affordable travel to amazing events for everyone." />
-<meta name="keywords" content="Urban Fantasy 2018, Urban Fantasy 2018, HBCU ALumni, SWAC, CIAA, MEAC, SIAC, Carnival Cruise, Bahamas, YOLLO Group Services, student travel, bahamas, Cruise Travel packages" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-<link href="favicon.ico" rel="icon" type="image/x-icon" />
-<link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
-<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <title><?php echo $metas['alumni']['title']; ?></title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="<?php echo $metas['alumni']['desc']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['alumni']['keywords']; ?>" />
+    <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
+    <link href="<?php echo $metas['alumni']['canonical']; ?>" rel="canonical" />
+    <meta name="author" content="YOLLO Group Services" />
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -98,9 +98,9 @@ include 'includes/functions.inc.php';
         
             <!--Left Content-->
             <div id="left">
-                    <!--Nav-->
-                    <?php include 'includes/nav.inc.php'; ?>
-                    <!--End of Nav-->
+                <!--Nav-->
+                <?php include 'includes/nav.inc.php'; ?>
+                <!--End of Nav-->
             </div>
         
             <!--Right Content-->
@@ -136,25 +136,50 @@ include 'includes/functions.inc.php';
 
 
                     <?php echo $responsive_tabs["overview"]; ?>
-										<div class="tab" aria-label="overview">
-                        <h3>Alumni Getaway is going to Cozumel, Mexico!</h3>
+						<div class="tab" aria-label="overview">
+                        <h3>Alumni Getaway is going to Cozumel and Yucatan, Mexico!</h3>
 
                         <p>Calling all old, new, and almost alums, this Alumni Getaway is the weekend vacation for you. We are bringing together HBCU alums from all over the country to rep their university. What better way to meet and mingle than cruising aboard the Carnival Fantasy to the beautiful island of Cozumel, Mexico. Not a product of a HBCU? No worries, this cruise isn't exclusive to only HBCU alumni. Everyone's invited to rep their university on this getaway cruise to Mexico. </p>
                         
-                        <p>While you cruise over the Caribbean, we have plenty of entertainment to keep you occupied. Look forward to comedy shows, a talent show, spades tournament, and more activities. Our DJ's are working the 1's and 2's for a variety of onboard clubs and decks. Our theme night parties, “Greek Life or Nah” and “Rep Your University” will also keep the camaraderie going all weekend.</p> 
+                        <p>While you cruise over the Caribbean, we have plenty of entertainment to keep you occupied. Look forward to comedy shows, a talent show, spades tournament, and more activities. Our DJ's are working the 1's and 2's for a variety of onboard clubs and decks. Our theme night parties, “Kangol and Shelltoes Party” and “Ocean Blue Fun and Sexy Party” will also keep the camaraderie going all weekend.</p> 
                         
-                        <p>Don't believe the hype, Mexico is a very beautiful place to visit. Cozumel has plenty of excursions and shopping areas to explore. If time permits, tour the Mayan ruins or cruise the island and enjoy the scenery. So do not hesitate on this package. Book this great cruise package today!</p>
+                        <p>Don't believe the hype, Mexico is a very beautiful place to visit. Cozumel and Yucatan has plenty of excursions and shopping areas to explore. If time permits, tour the Mayan ruins or cruise the island and enjoy the scenery. So do not hesitate on this package. Book this great cruise package today!</p>
                         
-                        
-                        <h4>Cruise Itinerary</h4>
-
-                        <p><strong>Sat (Depart):</strong>  Mobile, AL 4PM<br>
-												<strong>Sun:</strong> Fun Day At Sea<br> 
-												<strong>Mon:</strong> Yucatan (Progreso), MX  8AM-5PM<br>
-												<strong>Tue:</strong> Cozumel, Mexico, MX  9AM-5PM<br>
-												<strong>Wed:</strong> Fun Day At Sea<br>
-												<strong>Thu (Return):</strong> Mobile, AL 8AM</p>
-												<p style="color:dimgrey">*All times are based on Central Time Zone.</p>
+                        <table class="itinerary">
+                            <caption>Cruise Itinerary</caption>
+                            <tbody>
+                                <tr>
+                                    <td>Saturday</td>
+                                    <td>Departure: Mobile, AL 4PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Sunday</td>
+                                    <td>Fun Day At Sea</td>
+                                </tr>
+                                <tr>
+                                    <td>Monday</td>
+                                    <td>Yucatan, Mexico 8AM-5PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Tuesday</td>
+                                    <td>Cozumel, Mexico 9AM-5PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Wednesday</td>
+                                    <td>Fun Day At Sea</td>
+                                </tr>
+                                <tr>
+                                    <td>Thursday</td>
+                                    <td>Return: Mobile, AL 8AM</td>
+                                </tr> 
+                            
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="2">*All times are based on Central Time Zone.</td>
+                                </tr>
+                            </tfoot>
+                        </table>
 
 
                     </div> <!-- ./ overview -->
@@ -164,59 +189,85 @@ include 'includes/functions.inc.php';
 										<div class="tab" aria-label="price">
 
                     	<h3>Cruise</h3>
-											<?php foreach($geolocation as $hotel) :?>
-												<div class="hotel-grid">
-														<div class="hg-img">
-																<figure style="background:url(<?php echo $hotel['img_url']; ?>); background-size: cover; background-position: center;"></figure>
-														</div>
-														<div class="hg-body">
-																<p class="hg-title"><?php echo $hotel["title"]; ?> 
-																<?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
+                        <?php foreach($geolocation as $hotel) :?>
+                            <div class="hotel-grid">
+                                    <div class="hg-img">
+                                        <figure style="background:url(<?php echo $hotel['img_url']; ?>); background-size: cover; background-position: center;"></figure>
+                                    </div>
+                                    <div class="hg-body">
+                                        <p class="hg-title"><?php echo $hotel["title"]; ?> 
+                                        <?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
 
-																<address>
-																		Departing from:<br>
-																		<i class="fa fa-location-arrow" aria-hidden="true"></i> 
-																		<a title="<?php echo $hotel["title"]; ?>" target="_blank" href="http://maps.google.com/maps?q=<?php echo $hotel["address"]; ?>+<?php echo $hotel["location"]; ?>"><?php echo $hotel["address"]; ?>,  
-																		<?php echo $hotel["location"]; ?></a>
-																</address>
-														</div>
-												</div><!-- ./hotel-grid -->
-                      <?php endforeach; ?>
+                                        <address>
+                                            Departing from:<br>
+                                            <i class="fa fa-location-arrow" aria-hidden="true"></i> 
+                                            <a title="<?php echo $hotel["title"]; ?>" target="_blank" href="http://maps.google.com/maps?q=<?php echo $hotel["address"]; ?>+<?php echo $hotel["location"]; ?>"><?php echo $hotel["address"]; ?>,  
+                                            <?php echo $hotel["location"]; ?></a>
+                                        </address>
+                                    </div>
+                            </div><!-- ./hotel-grid -->
+                        <?php endforeach; ?>
                         
-                      <h4>Cruise Itinerary</h4>
-
-                      <p><strong>Sat (Depart):</strong>  Mobile, AL 4PM<br>
-											<strong>Sun:</strong> Fun Day At Sea<br> 
-											<strong>Mon:</strong> Yucatan (Progreso), MX  8AM-5PM<br>
-											<strong>Tue:</strong> Cozumel, Mexico, MX  9AM-5PM<br>
-											<strong>Wed:</strong> Fun Day At Sea<br>
-											<strong>Thu (Return):</strong> Mobile, AL 8AM</p>
-											<p style="color:dimgrey">*All times are based on Central Time Zone.</p>
+                        <table class="itinerary"> 
+                            <caption>Cruise Itinerary</caption>
+                            <tbody>
+                                <tr>
+                                    <td>Saturday</td>
+                                    <td>Departure: Mobile, AL 4PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Sunday</td>
+                                    <td>Fun Day At Sea</td>
+                                </tr>
+                                <tr>
+                                    <td>Monday</td>
+                                    <td>Yucatan, Mexico 8AM-5PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Tuesday</td>
+                                    <td>Cozumel, Mexico 9AM-5PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Wednesday</td>
+                                    <td>Fun Day At Sea</td>
+                                </tr>
+                                <tr>
+                                    <td>Thursday</td>
+                                    <td>Return: Mobile, AL 8AM</td>
+                                </tr> 
+                            
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="2">*All times are based on Central Time Zone.</td>
+                                </tr>
+                            </tfoot>
+                        </table>
 
                       <hr />
 
-                      <h3>Price</h3>
+                        <h3>Price</h3>
                                     
-											<div class="price-table-container">
+                        <div class="price-table-container">
 
-											<?php if(count($geolocation["cruise1"]) > 1) :?>
-											<div class="price-table">
-												<ul class="price">
-													<li class="header">Diamond <span>Package</span></li>
-													<?php foreach($package_items['diamond_items'] as $key=>$value): ?>
-														<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-													<?php endforeach; ?>
-													<li class="people-price">
-														<ul class="priceblock">
-															<?php foreach($people['diamond'] as $key=>$value): ?>
-																<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
-																<?php endforeach; ?>
-														</ul>
-													</li>
-													<li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
-												</ul>
-											</div><!-- price table -->
-											<?php endif; ?>
+                        <?php if(count($geolocation["cruise1"]) > 1) :?>
+                        <div class="price-table">
+                            <ul class="price">
+                                <li class="header">Diamond <span>Package</span></li>
+                                <?php foreach($package_items['diamond_items'] as $key=>$value): ?>
+                                    <li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+                                <?php endforeach; ?>
+                                <li class="people-price">
+                                    <ul class="priceblock">
+                                        <?php foreach($people['diamond'] as $key=>$value): ?>
+                                            <li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
+                                            <?php endforeach; ?>
+                                    </ul>
+                                </li>
+                                <li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
+                            </ul>
+                        </div><!-- price table -->
+                        <?php endif; ?>
 
 
 
@@ -303,7 +354,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>When are the payments due?</div>
 							  <div data-content>
-								<p>$29.99 is due for registration per person<strong> at sign-up</strong>. The next payment of $200 is due on or before <strong>April 15, 2019</strong> . The final payment (remaining balance) is due on or before <strong>September 02, 2019</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
+								<p>$200 is due for registration per person<strong> at sign-up</strong>. The next payment of $100 is due on or before <strong>October 15, 2019</strong> . The final payment (remaining balance) is due on or before <strong>November 01, 2019</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

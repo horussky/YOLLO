@@ -1,13 +1,15 @@
 <?php
 
 ob_start("ob_gzhandler");
+include 'includes/functions.inc.php';
+include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"					=>"Cincinnati Music Festival 2019",
+	"title"					=>"Cincinnati Music Festival 2020",
 	"subtitle"				=>"Book your package today!",
 	"location"				=>"Cincinnati, Ohio",
-	"date"					=>"July 26- 28, 2019",
-    "date_start"			=>"July 26, 2019",
+	"date"					=>"July 24-26, 2020",
+    "date_start"			=>"July 24, 2020",
 	"img_url"				=>"../../images/slides/splash-mmf-cta.jpg",
 	"img_alt"				=>"Cincinnati Music Festival"
 );
@@ -67,22 +69,22 @@ $package_items = array(
 	"Hotel Only" =>"$850/per person"
 );
 
-include 'includes/functions.inc.php';
+
 
 ?>
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-
-<title><?php echo $event["title"]?> | <?php echo $phonenumber ?></title>
-<meta name="description" content="YOLLO Group Services will provide you with all-inclusive arrangements and tickets for Cincinnati Music Festival 2019." />
-<meta name="keywords" content="grown and sophisticated cruise, macy's music festival party boat cruise, Cincinnati jazz festival cruise tickets, Cincinnati Music Festival 2019, Cincinnati Music Festival cruise, Cincinnati Music Festival tickets" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-<link href="favicon.ico" rel="icon" type="image/x-icon" />
-<link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
-<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <title><?php echo $metas['nati']['title']; ?></title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="<?php echo $metas['nati']['desc']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['nati']['keywords']; ?>" />
+    <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
+    <link href="<?php echo $metas['nati']['canonical']; ?>" rel="canonical" />
+    <meta name="author" content="YOLLO Group Services" />
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="wrap">
@@ -135,10 +137,10 @@ include 'includes/functions.inc.php';
 						<h3>Get ready for Cincinnati Music Festival</h3>
 						<p>YOLLO is providing you a great event package for the Cincinnati Music Festival. Over the years this event has evolved from being a pure jazz concert, to an event that also includes old school hip-hop and R&amp;B. This year the Cincinnati Music Festival will be held at the state of the art Paul Brown Stadium, home of the Cincinnati Bengal's. Beyond the featured acts, this event provides a great meet and greet or mix and mingle atmosphere.</p>
 
-						<h4>5th Annual Grown and Sophisticated Mid-Day Cruise</h4>
-						<p>The 5th Annual Grown and Sophisticated Mid-Day Cruise will happen on the River Queen and will be another MUST ATTEND event during Cincinnati Music Festival Weekend! Enjoy a multi-level paddle-wheel boat cruising the mighty Ohio River, while listening to the livest Hip-Hop and R&amp;B music. Last years' cruise was Mardi Gras themed, however we are returning to the original format of an All White cruise. The cruise sails from 1:30 pm – 5:00 pm. Please remember that once we sell out, we will not have any more tickets available.<p>
+						<h4>6th Annual Grown and Sophisticated Mid-Day Cruise</h4>
+						<p>The 6th Annual Grown and Sophisticated Mid-Day Cruise will happen on the River Queen and will be another MUST ATTEND event during Cincinnati Music Festival Weekend! Enjoy a multi-level paddle-wheel boat cruising the mighty Ohio River, while listening to the livest Hip-Hop and R&amp;B music. Last years' cruise was Mardi Gras themed, however we are returning to the original format of an All White cruise. The cruise sails from 2:00 pm – 5:00 pm. Please remember that once we sell out, we will not have any more tickets available.<p>
 						
-						<p>YOLLO is looking forward to another terrific festival in 2019, and we hope you join us and be a part of this special summer occasion. Packages are available now, but they won't last long. Don't wait reserve today for $29.99!</p>
+						<p>YOLLO is looking forward to another terrific festival in 2020, and we hope you join us and be a part of this special summer occasion. Packages are available now, but they won't last long. Don't wait reserve today for $29.99!</p>
 
                   	</div><!-- ./ overview -->
 
@@ -250,7 +252,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>What are the payment due dates for Cincinnati Music Festival Packages?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 is due on or before <strong>February 28, 2019</strong>. The final payment (remaining balance) is due on or before <strong>May 15, 2019</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 is due on or before <strong>September 30, 2019</strong>. The final payment (remaining balance) is due on or before <strong>January 22, 2020</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -299,7 +301,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>What time does the cruise start and how much does it cost?</div>
 							  <div data-content>
-								<p>The cruise will sail from 1:30 pm - 5:00 pm, however boarding begins at 1:00 pm. The cost of the cruise is $50 for General Admission and $95 for VIP. For a limited time there are Early Bird tickets available at $40 for General Admission and $85 VIP.  VIP grants no line waiting entrance, Open bar, and light food during the cruise.</p>
+								<p>The cruise will sail from 2:45 pm - 5:00 pm, however boarding begins at 2:00 pm. The cost of the cruise is $50 for General Admission and $95 for VIP. For a limited time there are Early Bird tickets available at $40 for General Admission and $85 VIP.  VIP grants no line waiting entrance, Open bar, and light food during the cruise.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -345,7 +347,7 @@ include 'includes/functions.inc.php';
                         
                         <h3>Buy Cruise Now</h3>
                                                 
-                        <div class="mb-20" id="eventbrite-widget-container-51615503360"></div>
+                        <div class="mb-20" id="eventbrite-widget-container-66817682487"></div>
                         
                     </div><!-- ./ buy now -->
 
@@ -418,8 +420,8 @@ include 'includes/functions.inc.php';
 	window.EBWidgets.createWidget({
 		// Required
 		widgetType: 'checkout',
-		eventId: '51615503360',
-		iframeContainerId: 'eventbrite-widget-container-51615503360',
+		eventId: '66817682487',
+		iframeContainerId: 'eventbrite-widget-container-66817682487',
 
 		// Optional
 		iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided

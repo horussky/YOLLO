@@ -1,13 +1,15 @@
 <?php
 
 	ob_start("ob_gzhandler");
+    include 'includes/functions.inc.php';
+    include 'includes/meta.config.inc.php';
 
 	$event = array(
 		"title"					=>"The Official College Beachfest",
 		"subtitle"				=>"Book your package today!",
-		"location"				=>"Daytona Beach, Florida",
-		"date"					=>"March 31 - April 2, 2017",
-        "date_start"			=>"March 31, 2017",
+		"location"				=>"Somewhere in the Caribbean",
+		"date"					=>"Dates Coming Soon",
+        "date_start"			=>"March 01, 2020",
 		"img_url"				=>"../../images/slides/splash-cbf.jpg",
 		"img_alt"				=>"College Beachfest"
 	);
@@ -55,23 +57,23 @@
 		)
 	);
 
-	include 'includes/functions.inc.php';
+	
 
 
 ?>
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-
-<title><?php echo $event["title"]?> | <?php echo $phonenumber ?></title>
-<meta name="description" content="The official College Beachfest in Daytona Beach, Florida." />
-<meta name="keywords" content="College, Beachfest, Daytona, Florida, YOLLO" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-<link href="favicon.ico" rel="icon" type="image/x-icon" />
-<link href="css/global.css" rel="stylesheet" type="text/css" />
-<link href="css/prettyPhoto.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <title><?php echo $metas['collegebeachfest']['title']; ?></title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="<?php echo $metas['collegebeachfest']['desc']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['collegebeachfest']['keywords']; ?>" />
+    <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
+    <link href="<?php echo $metas['collegebeachfest']['canonical']; ?>" rel="canonical" />
+    <meta name="author" content="YOLLO Group Services" />
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 
 </head>
 <body>
@@ -122,13 +124,13 @@
 
                         <?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
-                            <h3>College BeachFest is the new Spring Break destination in Daytona Beach Florida!</h3>
+                            <h3>College BeachFest is the new Spring Break destination for college students worldwide!</h3>
 
-                            <p>Daytona Beach will be <strong>LIT</strong> this Spring! YOLLO is taking College BeachFest to new heights, creating the ultimate party experience in 2017. Experience the A1A strip, clubs, the warm beach, and meeting new friends; you will definitely have a fun time!</p>
+                            <p>We are taking this exciting event off american shores and it will be <strong>LIT</strong> this Spring! YOLLO is taking College BeachFest to new heights, creating the ultimate party experience in 2020. Experience your spring break abroad this spring hitting new clubs, warm beaches, and meeting new friends from across teh country; you will definitely have a fun time!</p>
                             
-							<p>Daytona, the former host to one of the nation’s hottest Spring Break destinations, will be filled with plenty of students from across the nation, along with appearances by celebrities and socialites.</p>
+							<p>College Beachfest has outgrown our host city of Daytona, whuch has been the former host to one of the nation’s hottest Spring Break destinations filled with plenty of students from across the nation, however we are going to LEVEL UP Spring Break in 2020 along with appearances by celebrities and socialites.</p>
 							
-							<p>College BeachFest will definitely fill the void for Spring Break attendees who are looking for something new and refreshing. Don't miss out on an opportunity of a lifetime. The dates are set, plans are finalized, and party-goers from across the nation will convene in Daytona Beach for a memorable weekend! You don't want to miss this event! Reserve your package today!</p>
+							<p>College BeachFest will definitely fill the void for Spring Break attendees who are looking for something new and refreshing. Don't miss out on an opportunity of a lifetime. The dates will be announced soon, plans are being finalized, and party-goers from across the nation will meet up at College Beachfest for a memorable weekend! You don't want to miss this event! Reserve your package today!</p>
 
 
                         </div><!-- ./ overview -->
@@ -205,7 +207,7 @@
 
 								  <div data-control>When are the payments due?</div>
 								  <div data-content>
-									<p>After registration the 1st payment is due on or before due February 09, 2017. The second and final payment is due March 06, 2017.</p>
+									<p>After registration the 1st payment of $125 is due on or before due September 15, 2019. The second payment of 350 is due December 10, 2019. The final payment and remaining balance is due January 15, 2020.</p>
 								  </div>
 
 								</div><!-- end of accordion-->

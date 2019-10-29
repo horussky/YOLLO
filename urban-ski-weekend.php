@@ -1,19 +1,19 @@
 <?php
 
 if(!ob_start("ob_gzhandler")) ob_start();
+include 'includes/functions.inc.php';
+include 'includes/meta.config.inc.php';
 
 $event = array(
 
-	"title"					=>"Urban Ski Weekend 2020",
-	"subtitle"			=>"Early Bird $100 of until April 1, 2019!",
+	"title"				=>"Urban Ski Weekend 2020",
+	"subtitle"			=>"Ski is Optional, Party is Mandatory!",
 	"location"			=>"Gatlinburg, Tennessee",
-	"date"					=>"Jan 31 - Feb 3, 2020",
-  "date_start"    =>"January 31, 2020",
-	"img_url"				=>"../../images/slides/splash-urban-ski-cta.jpg",
-	"img_alt"				=>"Urban Ski Weekend"
+	"date"				=>"Jan 31 - Feb 3, 2020",
+    "date_start"        =>"January 31, 2020",
+	"img_url"			=>"../../images/slides/splash-urban-ski-cta.jpg",
+	"img_alt"			=>"Urban Ski Weekend"
 );
-
-
 
 $geolocation = array(
 
@@ -74,7 +74,7 @@ $package_items = array(
 		"Access To The 80's & 90's Old School Lounge"				=> "checked",
 		"Tickets To All Additionally Added Events"					=> "checked",
 		"Breakfast Daily"																		=> "checked",
-		"YOLLO Gift Bag"																		=> "checked"
+		"YOLLO Swag Bag"																		=> "checked"
 	),
 
 
@@ -95,13 +95,10 @@ $package_items = array(
 		"Access To The 80's & 90's Old School Lounge"				=> "checked",
 		"Tickets To All Additionally Added Events"					=> "checked",
 		"Breakfast Daily"																		=> "checked",
-		"YOLLO Gift Bag"																		=> "checked"
+		"YOLLO Swag Bag"																		=> "checked"
 	)
 
 );
-
-
-include 'includes/functions.inc.php';
 
 ?>
 
@@ -110,16 +107,16 @@ include 'includes/functions.inc.php';
 <html lang="en">
 
 <head>
-
-<meta charset="utf-8">
-<title><?php echo $event["title"]?> | <?php echo $phonenumber ?></title>
-<meta name="description" content="We provide all-inclusive arrangements and tickets for Urban Ski Weekend." />
-<meta name="keywords" content="Black Ski Weekend 2020, Urban Ski Weekend 2020,gatlinburg, winter skifest 2020, urban ski, urban ski 2020, urban ski 2019, urban ski weekend 2019, black ski weekend" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-<link href="favicon.ico" rel="icon" type="image/x-icon" />
-<link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
-<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <title><?php echo $metas['urbanski']['title']; ?></title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="<?php echo $metas['urbanski']['desc']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['urbanski']['keywords']; ?>" />
+    <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
+    <link href="<?php echo $metas['urbanski']['canonical']; ?>" rel="canonical" />
+    <meta name="author" content="YOLLO Group Services" />
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -127,8 +124,6 @@ include 'includes/functions.inc.php';
 
 
 <div id="wrap">
-
-    
 
     <!--Mobile Nav-->
 
@@ -140,54 +135,33 @@ include 'includes/functions.inc.php';
 
     <div id="container">
 
-
-
 						<?php include 'includes/header.inc.php'; ?>
-
-
 
 						<!--Left Content-->
 
 						<div id="left">
-
 								<!--Nav-->
-
 								<?php include 'includes/nav.inc.php'; ?>
-
 								<!--End of Nav-->
-
 						</div>
-
-
 
 						<!--Right Content-->
 
 						<div id="right">
 
-
-
 						<div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
-
 							<div class="overlay"></div>
-
 							<div class="title">
-
 								<h1><?php echo $event["title"]; ?></h1>
-
 								<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-
 								<a data-href="#tabs-5" class="btn btn-red open-tab">Pay or Register Now</a>
-
 								<div id="event-timer"></div>
-
 							</div>
-
 						</div>
 
 
 
 						<div class="content">
-
 								<div class="date-location">
 									<div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="col">
 											<?php echo $event["date"]; ?>
@@ -197,13 +171,9 @@ include 'includes/functions.inc.php';
 
 
 								<div class="colfull">
-
 									<div id="responsive-tabs">
-
 									<?php echo $responsive_tabs["overview"]; ?>
-
 									<div class="tab" aria-label="overview">
-
 										<h3>The best event for first-time skiers</h3>
 
 										<p>YOLLO Group Services has the ultimate ski-weekend package for you. So you have never been skiing? No problem. Nervous about skiing and falling? No worries at all. There will be hundreds of others just like you at the lodge. You may fall, roll, or find out your skills make you a natural on the slopes! Regardless, you will definitely have a great time at Urban Ski Weekend in Gatlinburg, Tennesee.</p>
@@ -220,38 +190,25 @@ include 'includes/functions.inc.php';
 
 										<p>Did we mention this is all going down Super Bowl Weekend. Skiing, parties, comedy, relaxation, good food, and did we mention the HUGE Superbowl party. What more can you ask for. Look forward to a spectacular weekend in Gatlinburg. Register and book a spot today!</p>
 
-
-
 									</div> <!-- ./overview -->
-
-
-
 
 
 									<?php echo $responsive_tabs["price"]; ?>
 
 									<div class="tab" aria-label="price">
 
-
 										<h3>Hotels</h3>
 
 										<?php foreach($geolocation as $hotel) :?>
-
 												<div class="hotel-grid">
-
 														<div class="hg-img">
-
 																<figure style="background:url(<?php echo $hotel['img_url']; ?>); background-size: cover; background-position: center;"></figure>
-
 														</div>
 
 														<div class="hg-body">
-
 																<p class="hg-title"><?php echo $hotel["title"]; ?> 
 
 																<?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
-
-
 
 																<address>
 
@@ -269,26 +226,16 @@ include 'includes/functions.inc.php';
 
 												<?php endforeach; ?>
 
-										
-
-
-
 										<hr />
-
 
 
 										<h3>Price</h3>
 
-
-
 										<div class="price-table-container">
-
 										<div class="price-table">
-
 											<ul class="price">
 
 												<li class="header">Diamond <span>Package</span></li>
-
 												<?php foreach($package_items['diamond_items'] as $key=>$value): ?>
 
 													<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
@@ -314,9 +261,6 @@ include 'includes/functions.inc.php';
 											</ul>
 
 										</div><!-- price table -->
-
-
-
 
 
 										<div class="price-table">
@@ -357,43 +301,38 @@ include 'includes/functions.inc.php';
 
 
 
-
-
-
-
-
-
 								</div><!-- ./price -->
-
-
-
-
-
 
 
 								<?php echo $responsive_tabs["faqs"]; ?>
 
 								<div class="tab" aria-label="faqs">
 
-
-
 									<h3>Frequently Asked Questions</h3>
-
-									
 
 									<div data-accordion-group>	
 
-										
-
 										<div class="accordion open" data-accordion>
-
-
 
 										  <div data-control>When are the payments due?</div>
 
 										  <div data-content>
 
-											<p>Following registration the first payment of $125 is due on or before April 15, 2019. The final payment (remaining balance) is due on or before October 15, 2019. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+											<p>Following registration the first payment of $125 is due on or before November 10, 2019.  The second payment of $100 is due on or before December 15, 2019. The final payment (remaining balance) is due on or before January 6, 2020. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+
+										  </div>
+
+</div><!-- end of accordion-->
+
+										<div class="accordion" data-accordion>
+
+
+
+										  <div data-control>Is the ski excursion included in with the package?</div>
+
+										  <div data-content>
+
+											<p>No, it's not included in the package, but can be purchased once you arrive at the resort. The cost of the ski excursion is $95.</p>
 
 										  </div>
 
@@ -401,9 +340,6 @@ include 'includes/functions.inc.php';
 
 										</div><!-- end of accordion-->
 
-										
-
-										
 
 										<div class="accordion" data-accordion>
 
@@ -416,20 +352,19 @@ include 'includes/functions.inc.php';
 											<p>The bus will depart Knoxville at 1pm (EST) on Friday and return to Knoxville Monday at 4 pm (EST).</p>
 
 										  </div>
+</div><!-- end of accordion-->
 
+                                       <div class="accordion" data-accordion>
+										  <div data-control>What time will the bus depart from Birmingham, AL?</div>
 
+										  <div data-content>
 
+											<p>The bus will depart Birmingham at 1pm (CT) on Friday and return to Birmingham Monday at 4 pm (CT).</p>
+
+										  </div>
 										</div><!-- end of accordion-->
 
-
-
-
-
-
-
 										<div class="accordion" data-accordion>
-
-
 
 										  <div data-control>What cities will the bus depart from?</div>
 
@@ -439,13 +374,7 @@ include 'includes/functions.inc.php';
 
 										  </div>
 
-
-
 										</div><!-- end of accordion-->
-
-
-
-
 
 										<div class="accordion" data-accordion>
 
@@ -459,18 +388,10 @@ include 'includes/functions.inc.php';
 
 										  </div>
 
-
-
 										</div><!-- end of accordion-->
 
 
-
-
-
 										<div class="accordion" data-accordion>
-
-
-
 										  <div data-control>Does this trip include any transportation?</div>
 
 										  <div data-content>
@@ -479,12 +400,7 @@ include 'includes/functions.inc.php';
 
 										  </div>
 
-
-
 										</div><!-- end of accordion-->
-
-
-
 
 
 										<div class="accordion" data-accordion>
@@ -499,12 +415,7 @@ include 'includes/functions.inc.php';
 
 										  </div>
 
-
-
 										</div><!-- end of accordion-->
-
-
-
 
 
 										<div class="accordion" data-accordion>
@@ -524,12 +435,7 @@ include 'includes/functions.inc.php';
 										</div><!-- end of accordion-->
 
 
-
-
-
 										<div class="accordion" data-accordion>
-
-
 
 										  <div data-control>Do I need any extra money?</div>
 
@@ -543,11 +449,7 @@ include 'includes/functions.inc.php';
 
 										</div><!-- end of accordion-->
 
-
-
 										<div class="accordion" data-accordion>
-
-
 
 										  <div data-control>Can I bring my children on this trip?</div>
 
@@ -557,30 +459,12 @@ include 'includes/functions.inc.php';
 
 										  </div>
 
-
-
 										</div><!-- end of accordion-->
-
-
-
-
-
-
-
-
 
 									</div><!-- end of accordion group-->
 
-									
-
-							
-
-
-
+								
 						        </div> <!-- ./faqs -->
-
-
-
 
 
 								<?php echo $responsive_tabs["photos"]; ?>
@@ -592,9 +476,6 @@ include 'includes/functions.inc.php';
 								</div><!-- ./photos -->
 
 
-
-
-
 								<?php echo $responsive_tabs["buynow"]; ?>
 
 								<div class="tab" aria-label="buy">
@@ -604,45 +485,14 @@ include 'includes/functions.inc.php';
 									<div class="cognito"></div>
 
 
-
-
-
 								</div><!-- ./buynow -->
 
-
-
-
-
-
-
                 </div><!-- ./responive-tabs -->
-
-
-
-
-
-
 
     	</div><!-- end of colfull -->
 
 
-
-
-
-
-
-
-
-
-
       </div><!--end of content-->
-
-
-
-
-
-
-
 
 
     <div class="disclosure">
@@ -656,11 +506,6 @@ include 'includes/functions.inc.php';
         <strong>Disclaimer</strong> | The term Urban Ski, Urban Ski Weekend, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. The use of any logos, words, trademarks, or photos have been used for Descriptive Purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.
 
    </div>
-
-
-
-
-
 
 
       </div><!--end of right-->
@@ -695,21 +540,9 @@ include 'includes/functions.inc.php';
 
 
 
-
-
-
-
-
-
 <script type="text/javascript">
 
 	$(document).ready(function(){
-
-
-
-
-
-
 
 			//nano
 
@@ -719,51 +552,29 @@ include 'includes/functions.inc.php';
 
 				userID: '50836209@N03',
 
-
-
 				 //uncomment this line to display one specific album:
 
 			   photoset:'72157662464262434',
-
-
 
 				// uncomment this line to display full photostream (v5.0.0):
 
 				// photoset:'none',
 
 
-
 				thumbnailWidth: 115,
-
 				thumbnailHeight: 'auto',
-
 				thumbnailAlignment: 'left',
-
 				thumbnailLabel: {
-
 					display:false,
-
 					displayDescription: false,
-
 					position: 'overImageOnBottom'
 
 				},
-
-
-
 				thumbnailHoverEffect:'borderLighter'
 
 			});
 
-            
-
-
-
 	});
-
-
-
-
 
 </script>
 
@@ -771,15 +582,10 @@ include 'includes/functions.inc.php';
 
 <script>Cognito.load("forms", { id: "33" });</script>
 
-
-
 <!--google analytics-->
 
 <?php include 'includes/analytics.inc.php'; ?>
 
-	
-
 <?php ob_end_flush();?>
-
 </body></html>
 

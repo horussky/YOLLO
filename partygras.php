@@ -1,13 +1,15 @@
 <?php
 
 ob_start("ob_gzhandler");
+include 'includes/functions.inc.php';
+include 'includes/meta.config.inc.php';
 
 $event = array(
 	"title"						=>"Party Gras: Bottles and Beads",
-	"subtitle"					=>"Come Party For Those BEADS! This event will SELL OUT!",
+	"subtitle"					=>"Come Party For Those BEADS!",
 	"location"					=>"Chattanooga, TN",
-	"date"						=>"August 10, 2019",
-    "date_start"				=>"August 10, 2019",
+	"date"						=>"October 12, 2019",
+    "date_start"				=>"October 12, 2019",
 	"img_url"				 	=>"../../images/slides/splash-partygras-cta.jpg",
 	"img_alt"				 	=>"Day Getaway Cruise"
 );
@@ -21,7 +23,7 @@ $geolocation = array(
         "address"		=>"1620, 151 Riverfront Pkwy",
         "location"		=>"Chattanooga, TN 37402",
 
-	),
+	)
 
 );
 
@@ -44,8 +46,8 @@ $package_items = array(
 	"diamond_items" => array(
 		"Crowd Control by: DJ Dre Smoove"		=> "checked",
 		"Poets: Georgia Me and Friends"						    => "checked",
-		"Comedians: Chris 'Set It Off' Jones and Friends"		=> "checked",
-		"Live Performances by: TBA"		=> "checked",
+		"Comedians: Bennie Mac and Friends"		=> "checked",
+		"Live Performances by: R&B Artist Charles Reed and Friends"		=> "checked",
 		"Meet and Greet with Free Margaritas while they last"						=> "checked",
 		"Cruise the Tennessee River"							=> "checked"
 		
@@ -58,22 +60,22 @@ $package_items = array(
 	"Hotel Only" =>""
 );
 
-include 'includes/functions.inc.php';
+
 
 ?>
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-
-<title><?php echo $event["title"]?> | <?php echo $phonenumber ?></title>
-<meta name="description" content="YOLLO Group Services is a travel company specializing in offering affordable travel to amazing events for everyone." />
-<meta name="keywords" content="Day Getaway, YOLLO Group Services, student travel, Tennessee, Cruise Travel packages" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-<link href="favicon.ico" rel="icon" type="image/x-icon" />
-<link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
-<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <title><?php echo $metas['partygras']['title']; ?></title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="<?php echo $metas['partygras']['desc']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['partygras']['keywords']; ?>" />
+    <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
+    <link href="<?php echo $metas['partygras']['canonical']; ?>" rel="canonical" />
+    <meta name="author" content="YOLLO Group Services" />
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -135,7 +137,7 @@ include 'includes/functions.inc.php';
                           
                         <p>This will be a FULL day of good music, adult drinks, mingling, and fun for everyone attending. The boat features three (3) party decks with multiple DJ's. Live entertainment will feature spoken word artists, comedians, and performances by R&amp;B/Hip Hop artist! FREE margaritas will be on deck at our welcome reception! <strong>This event WILL SELL OUT quickly</strong>, so purchase your tickets today. For questions and tickets call: <strong>(888) 946-9655 </strong> or <a data-href="#tabs-5" class="open-tab">purchase your tickets online now.</a></p>
                        	
-						<p>Don't wait as this event will fill up fast, book this event today. We are also providing hotel accommodations via the Holiday Inn and Suites Downtown Chattanooga at a special discounted rate of <strong>$129</strong>. You can <a target="_blank" href="https://www.holidayinn.com/redirect?path=rates&brandCode=HI&localeCode=en&regionCode=1&hotelCode=CHADT&checkInDate=10&checkInMonthYear=072019&checkOutDate=12&checkOutMonthYear=072019&_PMID=99801505&GPC=PG2&viewfullsite=true">secure your hotel room</a> today by visiting the host properties website. </p>
+						<p>Don't wait as this event will fill up fast, book this event today. We are also providing hotel accommodations via the Holiday Inn and Suites Downtown Chattanooga at a special discounted rate of <strong>$129</strong>. You can <a target="_blank" href="https://www.ihg.com/holidayinn/hotels/us/en/chattanooga/chadt/hoteldetail?fromRedirect=true&qSrt=sBR&qIta=99801505&icdv=99801505&qSlH=CHADT&qGrpCd=PG2&setPMCookies=true&qDest=434%20Chestnut%20Street,%20Chattanooga,%20TN,%20US&srb_u=1">secure your hotel room</a> today by visiting the host properties website. </p>
                         
                         <p><strong>Live show:</strong> 2PM- 5PM<br>
 						<strong>Cruise Boarding:</strong> 10:30PM<br> 
@@ -215,7 +217,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>What is the official host property for the Party Gras?</div>
 							  <div data-content>
-								  <p>The host property is the Holiday Inn and Suites Downtown Chattanooga. The address is 434 Chestnut Street Chattanooga, TN, 37402. You can <a target="_blank" href="https://www.holidayinn.com/redirect?path=rates&brandCode=HI&localeCode=en&regionCode=1&hotelCode=CHADT&checkInDate=10&checkInMonthYear=072019&checkOutDate=12&checkOutMonthYear=072019&_PMID=99801505&GPC=PG2&viewfullsite=true">book a room at a discounted price</a> of $129 today while supplies last.</p>
+								  <p>The host property is the Holiday Inn and Suites Downtown Chattanooga. The address is 434 Chestnut Street Chattanooga, TN, 37402. You can <a target="_blank" href="https://www.ihg.com/holidayinn/hotels/us/en/chattanooga/chadt/hoteldetail?fromRedirect=true&qSrt=sBR&qIta=99801505&icdv=99801505&qSlH=CHADT&qGrpCd=PG2&setPMCookies=true&qDest=434%20Chestnut%20Street,%20Chattanooga,%20TN,%20US&srb_u=1">book a room at a discounted price</a> of $129 today while roooms are available.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -224,7 +226,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>What time is the bus departing from Birmingham? </div>
 							  <div data-content>
-								  <p>The charter will depart Birmingham at 9 am Saturday August 10, 2019. The charter will leave Chattanooga, TN at 10 am on Sunday, August 11, 2019. Please note the 10 am departure from Chattanooga is Eastern Standard Time. If you haven’t please secure your room at the host property which is the Holiday Inn and Suites Downtown Chattanooga. Our guest will receive a special rate if you utilize the link on the page.  </p>
+								  <p>The charter will depart Birmingham at 9 am Saturday October 12, 2019. The charter will leave Chattanooga, TN at 10 am on Sunday, October 13, 2019. Please note the 10 am departure from Chattanooga is Eastern Standard Time. If you haven’t please secure your room at the host property which is the Holiday Inn and Suites Downtown Chattanooga. Our guest will receive a special rate if you utilize the link on the page. If you travel via the bus YOU will need to reserve a room because the bus does not leav until the next morning.  </p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -234,7 +236,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>Why do I have to secure my own hotel accommodations?</div>
 							  <div data-content>
-								  <p>We want to give each individual the choice to secure their own accommodations for this exciting event! However we are providing a great <a target="_blank" href="https://www.holidayinn.com/redirect?path=rates&brandCode=HI&localeCode=en&regionCode=1&hotelCode=CHADT&checkInDate=10&checkInMonthYear=072019&checkOutDate=12&checkOutMonthYear=072019&_PMID=99801505&GPC=PG2&viewfullsite=true">discounted price for booking at the host hotel property</a>. One advantage of booking with the host property is it will grant access to other events for the weekend, such as the meet and greet reception.  </p>
+								  <p>We want to give each individual the choice to secure their own accommodations for this exciting event! However we are providing a great <a target="_blank" href="https://www.ihg.com/holidayinn/hotels/us/en/chattanooga/chadt/hoteldetail?fromRedirect=true&qSrt=sBR&qIta=99801505&icdv=99801505&qSlH=CHADT&qGrpCd=PG2&setPMCookies=true&qDest=434%20Chestnut%20Street,%20Chattanooga,%20TN,%20US&srb_u=1">discounted price for booking at the host hotel property</a>. One advantage of booking with the host property is it will grant access to other events for the weekend, such as the meet and greet reception.  </p>
 							  </div>
 
 							</div><!-- end of accordion-->	
@@ -254,7 +256,7 @@ include 'includes/functions.inc.php';
 
 							  <div data-control>Where will the bus depart from?</div>
 							  <div data-content>
-								<p>We will depart from Birmingham, Alabama at 10AM August 10th and depart from Chattanooga at 10M on August 11th.</p>
+								<p>We will depart from Birmingham, Alabama at 10AM October 12th and depart from Chattanooga at 10AM on October 13th.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -381,8 +383,8 @@ include 'includes/functions.inc.php';
                
                 <h4>Hotel Accommodations</h4>
                 <img style="width:15rem; float:left; margin-right:2rem" src="https://t-ec.bstatic.com/images/hotel/max1024x768/191/19191223.jpg" />
-				<p class="mb-10"><strong>Holiday Inn & Suites Chattanooga Downtown</strong></p>
-               	<p>For anyone needing hotel accommodations you can  <a target="_blank" href="https://www.holidayinn.com/redirect?path=rates&brandCode=HI&localeCode=en&regionCode=1&hotelCode=CHADT&checkInDate=10&checkInMonthYear=072019&checkOutDate=12&checkOutMonthYear=072019&_PMID=99801505&GPC=PG2&viewfullsite=true">secure your hotel room</a> at a special discounted rate of <strong>$129</strong>. The special rate ends July 04, 2019.</p>
+				<p class="mb-10"><strong>Holiday Inn &amp; Suites Chattanooga Downtown</strong></p>
+               	<p>For anyone needing hotel accommodations you can  <a target="_blank" href="https://www.ihg.com/holidayinn/hotels/us/en/chattanooga/chadt/hoteldetail?fromRedirect=true&qSrt=sBR&qIta=99801505&icdv=99801505&qSlH=CHADT&qGrpCd=PG2&setPMCookies=true&qDest=434%20Chestnut%20Street,%20Chattanooga,%20TN,%20US&srb_u=1">secure your hotel room</a> at a special discounted rate of <strong>$129</strong>. The special rate ends September 15, 2019.</p>
                
 
 				

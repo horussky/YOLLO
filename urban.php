@@ -1,14 +1,15 @@
 <?php
 
 ob_start("ob_gzhandler");
-
+include 'includes/functions.inc.php';
+include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"				=>"Urban Fiesta 2019",
+	"title"				=>"Urban Fiesta 2020",
 	"subtitle"			=>"You DO NOT want to miss this event!",
-	"location"		   	=>"Run Away Bay, Jamaica",
-	"date"				=>"May 24-26, 2019",
-    "date_start"        =>"May 24, 2019",
+	"location"		   	=>"Montego Bay, Jamaica",
+	"date"				=>"May 22-25, 2020",
+    "date_start"        =>"May 22, 2020",
 	"img_url"			=>"../../images/slides/splash-urban-fiesta-cta.jpg",
 	"img_alt"			=>"Urban Fiesta"
 );
@@ -18,11 +19,11 @@ $event = array(
 $geolocation = array(
 
 	"hotel1"=> array(
-		"title" 			=>"Grand Bahia Principe",
-		"address"			=>"Salt Coppers",
+		"title" 			=>"Hotel Riu Montego Bay",
+		"address"			=>"Mahoe Bay. Rose Hall Ironshore P.O.",
 		"location"			=>"Runaway Bay, Jamaica",
 		"soldout"	        => false,
-		"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-o/0e/ed/13/93/melia-braco-village.jpg"
+		"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-o/09/5a/1c/db/hotel-riu-montego-bay.jpg"
 	),
 
 );
@@ -57,50 +58,49 @@ $package_items = array(
 		"Upgraded Hotel Accommodations - Oceanfront View/ Upgraded Liquor Options All Weekend"					=> "checked",
 		"Hotel Accommodations (3 days/2 nights)"		=> "checked",
 		"Welcoming Reception"							=> "checked",
+		"Complimentary Night Stay"				=> "checked",
 		"All-Access Event Weekend Passes"				=> "checked",
 		"Unlimited Drinks on-site all weekend"			=> "checked",
 		"Complimentary Room Mini Bar Restocked Daily"			=> "checked",
 		"Unlimited Dining on-site all weekend"			=> "checked",
 		"FREE Guest Room Mini Bar Restocked Daily"		=> "checked",
 		"Add'l Night - $350/plus tax and resort fees"	=> "checked",
-		"YOLLO Gift Bag"								=> "checked"
+		"YOLLO Swag Bag"								=> "checked"
 	),
 
 	"emerald_items" => array(
 		"Upgraded Hotel Accommodations - Oceanfront View/ Upgraded Liquor Options All Weekend"					=> "ex",
 		"Hotel Accommodations (3 days/2 nights)"		=> "checked",
 		"Welcoming Reception"							=> "checked",
+		"Complimentary Night Stay"				=> "checked",
 		"All-Access Event Weekend Passes"				=> "checked",
 		"Unlimited Drinks on-site all weekend"			=> "checked",
 		"Complimentary Room Mini Bar Restocked Daily"			=> "checked",
 		"Unlimited Dining on-site all weekend"			=> "checked",
 		"FREE Guest Room Mini Bar Restocked Daily"		=> "checked",
 		"Add'l Night - $350/plus tax and resort fees"	=> "checked",
-		"YOLLO Gift Bag"								=> "checked"
+		"YOLLO Swag Bag"								=> "checked"
 	)
 	
 	
 );
 
-include 'includes/functions.inc.php';
+
+
 ?>
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-
-     <meta charset="utf-8">
-     <title>
-          <?php echo $event["title"]?> | <?php echo $phonenumber ?>
-     </title>
-
-     <meta name="description" content="Urban Fiesta 2019 in Jamacia with YOLLO Group Services Inc. Memorial Day Weekend." />
-     <meta name="keywords" content="Urban Fiesta, Urban Fiesta 2019, Trelawny, Jamacia, Rio Bueno, Malia Jamacia, Run Away Bay, Urban Fiesta 2018" />
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-     <link href="favicon.ico" rel="icon" type="image/x-icon" />
-     <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
-     <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
-
+    <meta charset="utf-8">
+    <title><?php echo $metas['urbanfiesta']['title']; ?></title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="<?php echo $metas['urbanfiesta']['desc']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['urbanfiesta']['keywords']; ?>" />
+    <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
+    <link href="<?php echo $metas['urbanfiesta']['canonical']; ?>" rel="canonical" />
+    <meta name="author" content="YOLLO Group Services" />
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 
 
@@ -167,11 +167,11 @@ include 'includes/functions.inc.php';
                                              
                                              
 
-                                             <h3>Jamaica is the ONLY place to be Memorial Day Weekend 2019!</h3>
+                                             <h3>Jamaica is the ONLY place to be Memorial Day Weekend 2020!</h3>
 
-                                             <p>If you missed the 2018 edition of Urban Fiesta all we can say is look at the pictures. We took our clients to beautiful Jamaica and they LOVED it! Urban Fiesta 2018 was the livest event in Jamaica host by LHHNY celebrity JuJu during Memorial Day weekend. There are plenty of activities to occupy your time from sun up to sun down - excursions, shopping areas, sandy beaches, parties, zip lining, and the list goes on. Let us remind you this was all on the property!<p> 
+                                             <p>If you missed the 2019 edition of Urban Fiesta all we can say is look at the pictures. We took our clients to beautiful Jamaica and they LOVED it! Urban Fiesta 2019 was the livest event in Jamaica host by LHHNY celebrity Safari during Memorial Day weekend. There are plenty of activities to occupy your time from sun up to sun down - excursions, shopping areas, sandy beaches, parties, zip lining, and the list goes on. Let us remind you this was all on the property!<p> 
 
-											 <p>Dust those passports off, secure your package today, and get ready for some major FUN! YOLLO Group Services will see you in Jamaica for Urban Fiesta Weekend 2019!</p>
+											 <p>Dust those passports off, secure your package today, and get ready for some major FUN! YOLLO Group Services will see you in Jamaica for Urban Fiesta Weekend 2020!</p>
                                              
                                         </div><!-- ./overview -->
 
@@ -286,7 +286,7 @@ include 'includes/functions.inc.php';
 
 												  <div data-control>When are the payments due?</div>
 												  <div data-content>
-													<p>The first payment of $125 is due March 12, 2019 after registration. The final payment (remaining balance) is due on or before April 15, 2019. If you would like to make payments between due dates that is fine also.</p>
+													<p>The first payment of $125 is due November 1, 2020 after registration. The final payment (remaining balance) is due on or before January 20, 2020. If you would like to make payments between due dates that is fine also.</p>
 												  </div>
 
 												</div><!-- end of accordion-->
@@ -398,7 +398,6 @@ include 'includes/functions.inc.php';
                               <div class="disclosure">
 
                                    <?php include 'includes/package-info-generic.inc.php'; ?>
-                                        <br/>
                                         <strong>Disclaimer</strong> | The terms Urban Fiesta, and Urban Fiesta Weekend, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. The use of any logos, words, trademarks, or photos have been used for descriptive purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.
 
                               </div>

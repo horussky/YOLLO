@@ -1,13 +1,15 @@
 <?php
 
 	ob_start("ob_gzhandler");
+    include 'includes/functions.inc.php';
+    include 'includes/meta.config.inc.php';
 
 	$event = array(
-		"title"				=>"Classic Weekend 2019",
+		"title"				=>"Classic Weekend 2020",
 		"subtitle"			=>"It's the Classsssssic!",
 		"location"			=>"Legion Field | Birmingham, AL",
-		"date"				=>"Oct 25-27, 2019",
-        "date_start"		=>"Oct 26, 2019",
+		"date"				=>"Oct 30 - Nov. 1, 2020",
+        "date_start"		=>"Oct 31, 2020",
 		"img_url"			=>"../../images/slides/splash-mcc-cta.jpg",
 		"img_alt"			=>"Magic City Classic"
 	);
@@ -41,8 +43,6 @@
 
 			),
 
-
-
 			"emerald"=> array(
 
 				"Group of 4" 			=>"$145",
@@ -50,10 +50,7 @@
 				"Group of 2"			=>"$200",
 				"Individual"			=>"$315"
 
-			),
-
-			"Hotel Only" =>"$245 (Weekend)"
-
+			)
 	);
 
 
@@ -70,8 +67,6 @@
 
 		),
 
-
-
 		"emerald_items" => array(
 
 			"Hotel Accommodations (Fri-Sun)"		=> "checked",
@@ -84,24 +79,22 @@
 
 	);
 
-	include 'includes/functions.inc.php';
-
 ?>
 
 <!doctype html>
 
 <html lang="en">
 <head>
-<meta charset="utf-8">
-
-<title><?php echo $event["title"]?>|<?php echo $phonenumber ?></title>
-<meta name="description" content="YOLLO Group Services is a travel company specializing in offering affordable travel for everyone." />
-<meta name="keywords" content="Magic City Classic 2017, Magic City Classic, Magic City Classic 2018, Birmingham, HBCU Alumni, MCC, MCC 2018, HBCU football classic, Alabama A&M football, Alabama State football" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-<link href="favicon.ico" rel="icon" type="image/x-icon" />
-<link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
-<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <title><?php echo $metas['mcc']['title']; ?></title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="<?php echo $metas['mcc']['desc']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['mcc']['keywords']; ?>" />
+    <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
+    <link href="<?php echo $metas['mcc']['canonical']; ?>" rel="canonical" />
+    <meta name="author" content="YOLLO Group Services" />
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 	
 <body>
@@ -157,7 +150,7 @@
                 </div>
                
                 <p>This is the #1 HBCU football Classic in the nation attracting over 100,000 fans annually! This is an annual clash of the titans. The Magic City Classic offers a family environment that produces new bonds and memories for years to come.</p>
-                <p>In 2018 the Alabama A&M Bulldogs came away with the victory as they entered the game as favorites and delivered a decisive win for the Bulldog faithful as well as the MOST important part of the this historic rivalry….BRAGGING rights for the next 365 days! </p>
+                <p>In 2019 the Alabama A&M Bulldogs came away with the victory as they entered the game as favorites and delivered a decisive win for the Bulldog faithful as well as the MOST important part of the this historic rivalry….BRAGGING rights for the next 365 days! </p>
                 <p>YOLLO Group Services, Inc. wants to provide your travel package for this historic and exciting weekend. Lock in your package today as space is limited and our packages go fast.</p>
 			</div><!-- ./ overview -->
 
@@ -252,7 +245,7 @@
 
 					  <div data-control>When are the payments due?</div>
 					  <div data-content>
-						<p>After registration the 1st payment of $50 is due on or before due June 16, 2019. The second and final payment is due August 01, 2019.</p>
+						<p>After registration the 1st payment of $50 is due on or before due March 10, 2020. The second and final payment is due July 22, 2019.</p>
 					  </div>
 
 					</div><!-- end of accordion-->
@@ -282,7 +275,7 @@
 
 					  <div data-control>Which team is the home team?</div>
 					  <div data-content>
-						<p> Home team honors alternate each year between Alabama State and Alabama A&amp;M.  Alabama State will be the home team for 2019! Regardless of home team, ASU bench is always on the east side and AAMU is on the west side of the stadium.</p>
+						<p> Home team honors alternate each year between Alabama State and Alabama A&M.  Alabama A&M will be the home team for 2020! Regardless of home team, ASU bench is always on the east side and AAMU is on the west side of the stadium.</p>
 					  </div>
 
 					</div><!-- end of accordion-->

@@ -1,11 +1,15 @@
 <?php
 
+    ob_start("ob_gzhandler");
+    include 'includes/functions.inc.php';
+    include 'includes/meta.config.inc.php';
+
 	$event = array(
-		"title"				=>"Essence Music Festival 2019",
-		"subtitle"			=>"25th Anniversary of Essence Fest...You Can't Miss This!",
+		"title"				=>"Essence Music Festival 2020",
+		"subtitle"			=>"$100 off until July 31, 2019",
 		"location"			=>"New Orleans, LA",
-		"date"				=>"July 5-7, 2019",
-        "date_start"		=>"July 5, 2019",
+		"date"				=>"July 3-5, 2020",
+        "date_start"		=>"July 3, 2020",
 		"img_url"			=>"../../images/slides/splash-essence-cta.jpg",
 		"img_alt"			=>"Essence Festival 2017"
 	);
@@ -21,12 +25,12 @@
 		),
 
 		"hotel2"=> array(
-			"title" 			=>"Hilton St. Charles",
+			"title" 			=>"Sheraton New Orleans Hotel",
 			"soldout"	        =>false,
-			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/12/35/97/bc/exterior.jpg",
-            "address"			=>"333 St Charles Ave",
+			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/10/0b/10/bf/sheraton-new-orleans.jpg",
+            "address"			=>"500 Canal St",
             "location"			=>"New Orleans, LA 70130",
-		),
+		)/*,
 		
 		"hotel3"=> array(
 			"title" 			=>"DoubleTree by Hilton",
@@ -34,7 +38,7 @@
 			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/13/5f/f0/b0/exterior.jpg",
             "address"			=>"300 Canal Street",
             "location"			=>"New Orleans, LA 70130",
-		)
+		)*/
 
 
 	);
@@ -52,16 +56,16 @@
 				"Group of 3"			=>"$1105",
 				"Group of 2"			=>"$1210",
 				"Individual"			=>"$1945"
-			),
+			)
 
-			"Hotel Only" =>"$2245 (Weekend)"
 	);
 
 	$package_items = array(
 		"diamond_items" => array(
 			"Hotel Accommodations (Fri-Sun)"			        => "checked",
-			"One night concert ticket (Lodge Section)"	        => "checked",
-			"All White Mardi Gras Mansion Party "			                => "checked",
+			"One night concert ticket (Loge Section)"	        => "checked",
+			"All White Party Cruise "			                => "checked",
+			"R/T airport transfer "			                => "checked",
 			"Mid-Day Comedy Show (Sunday)"				        => "checked",
 			"Black Film Review (Sunday)"				        => "checked",
 			"Speak Easy Poetry Show (Sunday)"				    => "checked",
@@ -69,13 +73,14 @@
 			"Complimentary Additional Night*"			        => "checked",
 			"Additional nights: $349 plus tax and fees"	        => "checked",
 			"Additional concert nights (Loge Section): $185"	=> "checked",
-			"YOLLO Gift Bag"							        => "checked"
+			"YOLLO Swag Bag"							        => "checked"
 		),
 
 		"emerald_items" => array(
 			"Hotel Accommodations (Fri-Sun)"			      => "checked",
-			"One night concert ticket (Lodge Section)"	      => "ex",
-			"All White Mardi Gras Mansion Party "			              => "ex",
+			"One night concert ticket (Loge Section)"	      => "ex",
+			"All White Party Cruise "			              => "ex",
+			"R/T Airport Transfer "			                => "checked",
 			"Mid-Day Comedy Show (Sunday)"				      => "checked",
 			"Black Film Review (Sunday)"				      => "checked",
 			"Speak Easy Poetry Show (Sunday)"				  => "checked",
@@ -83,27 +88,24 @@
 			"Complimentary Additional Night*"			      => "checked",
 			"Additional nights: $349 plus tax and fees"	      => "checked",
 			"Additional concert nights (Loge Section): $185" => "checked",
-			"YOLLO Gift Bag"							      => "checked"
+			"YOLLO Swag Bag"							      => "checked"
 		)
 	);
-
-	include 'includes/functions.inc.php';
-
 
 ?>
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-
-<title><?php echo $event["title"]?> | <?php echo $phonenumber ?></title>
-<meta name="description" content="" />
-<meta name="keywords" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-<link href="favicon.ico" rel="icon" type="image/x-icon" />
-<link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
-<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <title><?php echo $metas['essence']['title']; ?></title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="<?php echo $metas['essence']['desc']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['essence']['keywords']; ?>" />
+    <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
+    <link href="<?php echo $metas['essence']['canonical']; ?>" rel="canonical" />
+    <meta name="author" content="YOLLO Group Services" />
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 
 </head>
 <body>
@@ -154,16 +156,16 @@
                         
                         <?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
-						<h3>Join us for the 25th Annual Essence Festival Weekend</h3>
+						<h3>Join us for the 26th Annual Essence Festival Weekend</h3>
 
-                        <p>This year will mark the 25th annual Essence Music Festival. This annual mega event is filled with concerts, seminars and celebrities, all sponsored by Essence Magazine. If you are looking for parties, concerts, party cruise, along with more celebrities than you can handle, then you should <a data-href="#tabs-5" class="open-tab">book with us today!</a> We are the #1 source for Essence Festival Weekend activities in 2019. </p>
+                        <p>It's amazing but this year will mark the 26th annual Essence Music Festival. This annual mega event is filled with concerts, seminars and celebrities, all sponsored by Essence Magazine. If you are looking for parties, concerts, party cruise, along with more celebrities than you can handle, then you should <a data-href="#tabs-5" class="open-tab">book with us today!</a> We are the #1 source for Essence Festival Weekend activities in 2020. </p>
 
 						<h4>The Original All-White Mid-Day Cruise Party </h4>
 
-						<p>This is the original All-White cruise party and the event everyone talks about during Essence Fest weekend! This is the 14th annual Mid-Day Cruise Party, happening on the famous Creole Queen and will feature five (5) options for your cruising delight. Enjoy a multi-level boat cruising the Mighty Mississippi River, while listening to the best Hip-Hop and R&amp;B music. The theme is "All White" attire preferred, but not required for this cruise.</p>
+						<p>This is the original All-White cruise party and the event everyone talks about during Essence Fest weekend! This is the 15th annual Mid-Day Cruise Party, happening on the famous Creole Queen for your cruising delight. Enjoy a multi-level boat cruising the Mighty Mississippi River, while listening to the best Hip-Hop and R&amp;B music. The theme is "All White" attire preferred, but not required for this cruise.</p>
 
 						<h4>The Mid-Day Comedy Show</h4>
-						<p>If you are ready to bust a gut, the 9th annual Mid-Day Comedy Show is the event for you. Our comedian's, like years past, will have you in stitches. If you are looking for good food, great drinks, and lots of laugh, this is the event you cannot miss. Don't think we are going to let you down with our 2019 lineup! This Mid-Day Comedy Show will happen Sunday, July 7th, 2019.</p>
+						<p>If you are ready to bust a gut, the 9th annual Mid-Day Comedy Show is the event for you. Our comedian's, like years past, will have you in stitches. If you are looking for good food, great drinks, and lots of laugh, this is the event you cannot miss. Don't think we are going to let you down with our 2020 lineup! </p>
 
 						<p>Do the right thing and <a data-href="#tabs-5" class="open-tab">Book now</a> with YOLLO Group Services Inc. and allow us to give you the best travel experience while in New Orleans!</p>
 
@@ -273,6 +275,16 @@
 								<p>After Essence releases the performer’s lineup we send an email notifying everyone of the daily lineups. Each person in the group has the freedom to choose which night they would like to attend. In the event we don’t hear from anyone in the group we will secure Saturday night tickets for the group or group members whom haven’t confirmed their concert night.</p>
 							  </div>
 
+	                       </div><!-- end of accordion-->
+
+
+							<div class="accordion" data-accordion>
+
+							  <div data-control>Where are the concert tickets located in the Superdome? </div>
+							  <div data-content>
+								<p>The tickets provided in your package are in the Loge section. This section is in the middle of the Superdome. You can upgrade your seat and get closer for a fee. Please ask an associate for more details.</p>
+							  </div>
+
 							</div><!-- end of accordion-->
 
 
@@ -280,7 +292,7 @@
 
 							  <div data-control>What are the payment due dates for Essence Packages?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $250 per person is due on or before  April 1, 2019. The second payment of $350 per person is due on or before May 1, 2019. The final payment (remaining balance) is due on or before June 01, 2019. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 per person is due on or before  October 18, 2019. The second payment of $250 per person is due on or before December 1, 2019. The final payment (remaining balance) is due on or before January 22, 2020. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

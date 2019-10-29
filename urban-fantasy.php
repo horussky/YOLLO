@@ -1,10 +1,12 @@
 <?php
 ob_start("ob_gzhandler");
+include 'includes/functions.inc.php';
+include 'includes/meta.config.inc.php';
 
 $event = array(
 	"title"				=>"Urban Fantasy 2019",
-	"subtitle"			=>"Passport is REQUIRED for this cruise",
-	"location"		   	=>"Miami, Grand Turks, and Cuba",
+	"subtitle"			=>"This will be an awesome cruise",
+	"location"		   	=>"Grand Turks, Princess Cays and Nassau",
 	"date"				=>"Sept 09 - 14, 2019",
     "date_start"        =>"September 09, 2019",
 	"img_url"			=>"../../images/slides/splash-ufw-cta.jpg",
@@ -38,7 +40,7 @@ $people = array(
 
 	"options" => array(
 		"Hotel Only" => "$1245 (Weekend)"
-	),
+	)
 
 );
 
@@ -57,22 +59,17 @@ $package_items = array(
 		"The Black Film Fest Private Screening"           => "checked",
 		"Urban Fantasy Private Welcome Reception 
 All You Can Drink"                    => "checked",
-		"YOLLO Gift Bag"                                      => "checked"
+		"YOLLO Swag Bag"                                      => "checked"
 	),
 
 
 
 	"emerald_items" => array(
 		""
-	),
-
-	"Hotel Only" => "$1245 (Weekend)"
+	)
 
 );
 
-
-
-include 'includes/functions.inc.php';
 ?>
 
 <!doctype html>
@@ -80,22 +77,16 @@ include 'includes/functions.inc.php';
 <html lang="en">
 
 <head>
-
 	<meta charset="utf-8">
-
-	<title>
-		<?php echo $event["title"]?> |
-		<?php echo $phonenumber ?>
-	</title>
-
-	<meta name="description" content="YOLLO Group Services is a travel company specializing in offering affordable travel to amazing events for everyone."/>
-	<meta name="keywords" content="Urban Fantasy 2019, Carnival Cruise, Bahamas, YOLLO Group Services, student travel, bahamas, Cruise Travel packages"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE"/>
-	<link href="favicon.ico" rel="icon" type="image/x-icon"/>
-	<link href="css/global.css" rel="stylesheet" type="text/css"/>
-	<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css"/>
-
+    <title><?php echo $metas['urbanfantasy']['title']; ?></title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="<?php echo $metas['urbanfantasy']['desc']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['urbanfantasy']['keywords']; ?>" />
+    <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
+    <link href="<?php echo $metas['urbanfantasy']['canonical']; ?>" rel="canonical" />
+    <meta name="author" content="YOLLO Group Services" />
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -161,7 +152,7 @@ include 'includes/functions.inc.php';
 					<div class="tab" aria-label="overview">
                         <h3>An Urban Fantasy from Grand Turks to Cuba!</h3>
 						
-                        <p>Endulge in the larger-than-life culture of Miami, Grand Turks and Cuba, while exploring their historic attractions on this Urban Fantasy cruise. You will cruise aboard the Carnival Sensation, a highly rated cruise ship  that is filled with top notch amenities. Once reaching your destinations, enjoy exploring or fill your day with shore excursions.</p>
+                        <p>Endulge in the larger-than-life culture of Miami, Grand Turks, Nassau, and Princess Cays, while exploring their historic attractions on this Urban Fantasy cruise. You will cruise aboard the Carnival Sensation, a highly rated cruise ship  that is filled with top notch amenities. Once reaching your destinations, enjoy exploring or fill your day with shore excursions.</p>
                        				
                         <p>Urban Fantasy was created to offer a cruise experience that welcomes and actively includes African Americans. If you’re seeking great networking opportunities, or to mix and mingle, maybe meeting new friends is your thing, or just cruising this is your event! Prices listed include all of your cabin accommodations, taxes, all meals (including 24 hour room service) juice, coffee, and tea, and ALL Urban Fantasy Events both on and off the boat! </p>
                         
@@ -180,15 +171,15 @@ include 'includes/functions.inc.php';
 								</tr>
 								<tr>
 									<td>Wednesday</td>
-									<td>Grand Turk, 8AM-5PM</td>
+									<td>Grand Turk, 7AM-2:30PM</td>
 								</tr>
 								<tr>
 									<td>Thursday</td>
-									<td>Fun Day At Sea</td>
+									<td>Princess Cays, The Bahamas, 9:30AM-6:30PM</td>
 								</tr>
 								<tr>
 									<td>Friday</td>
-									<td>Havana, Cuba	7AM-5PM</td>
+									<td>Nassau, The Bahamas	7AM-5PM</td>
 								</tr>
 								<tr>
 									<td>Saturday</td>
@@ -244,15 +235,15 @@ include 'includes/functions.inc.php';
 								</tr>
 								<tr>
 									<td>Wednesday</td>
-									<td>Grand Turk, 8AM-5PM</td>
+									<td>Grand Turk, 7AM-2:30PM</td>
 								</tr>
 								<tr>
 									<td>Thursday</td>
-									<td>Fun Day At Sea</td>
+									<td>Princess Cays, The Bahamas, 9:30AM-6:30PM</td>
 								</tr>
 								<tr>
 									<td>Friday</td>
-									<td>Havana, Cuba	7AM-5PM</td>
+									<td>Nassau, The Bahamas	7AM-5PM</td>
 								</tr>
 								<tr>
 									<td>Saturday</td>

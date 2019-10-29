@@ -4,8 +4,8 @@ $feature_event = array(
 
 	array(
 		"title" 	=> "Cincinnati Music Festival",
-		"date" 		=> "July 27-29, 2018",
-		"end"		=> strtotime("July 29, 2018"),
+		"date" 		=> "July 26-28, 2019",
+		"end"		=> strtotime("July 28, 2019"),
 		"img" 		=> "images/featured-events/featured-event-cmf.jpg",
 		"link" 		=> "/nati-music-festival"
 	),
@@ -39,8 +39,8 @@ $feature_event = array(
 	),
 	array(
 		"title" 	=> "Party Gras Cruise",
-		"date" 		=> "August 11, 2018",
-		"end"		=> strtotime("August 11, 2018"),
+		"date" 		=> "October 12, 2019",
+		"end"		=> strtotime("October 13, 2019"),
 		"img" 		=> "images/featured-events/featured-event-pg.jpg",
 		"link" 		=> "/partygras"
 	),

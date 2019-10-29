@@ -50,7 +50,7 @@
 		
 		//accordion
 		$('[data-accordion-group] [data-accordion]').accordion({
-    		"transitionSpeed": 400
+    		"transitionSpeed": 0
 		});
 
 	});
