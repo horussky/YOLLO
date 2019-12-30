@@ -5,10 +5,10 @@ include 'includes/meta.config.inc.php';
 
 $event = array(
 	"title"					=> "Alumni Getaway 2020",
-	"subtitle"				=> "The LIVEST party at SEA! Lock in your cabin TODAY!",
+	"subtitle"				=> "The LIVEST Alumni party at SEA! Lock in your cabin TODAY!",
 	"location"				=> "Jamaica and Caymon Islands",
-	"date"					=> "Dec 12 - 17 2020",
-    "date_start"			=> "December 12, 2020",
+	"date"					=> "Dec 7 - 12 2020",
+    "date_start"			=> "December 7, 2020",
 	"img_url"				=> "../../images/slides/splash-alumni-cta.jpg",
 	"img_alt"				=> "Alumni Getaway"
 );
@@ -18,7 +18,7 @@ $geolocation = array(
 		"title" 			=> "Carnival Sunrise",
 		"ship"				=> "https://i0.wp.com/thepointsguy.com/wp-content/uploads/2019/05/20190528_Carnival-Sunrise_GSloan-24.jpg",
 		"location"		    => "Ft. Lauderdale, Fl",
-    "address"			    => "South, 201 Water St, Mobile, AL 36602",
+    "address"			    => "1850 Eller Dr, Fort Lauderdale, FL 33316",
 		"soldout"			=> false,
 		"img_url"			=> "https://i0.wp.com/thepointsguy.com/wp-content/uploads/2019/05/20190528_Carnival-Sunrise_GSloan-24.jpg"
 
@@ -28,10 +28,10 @@ $geolocation = array(
 
 $people = array(
 		"diamond"=> array(
-			"Group of 4" 			=> "$550",
-			"Group of 3"			=> "$615",
+			"Group of 4" 			=> "$475",
+			"Group of 3"			=> "$600",
 			"Group of 2"			=> "$750",
-			"Individual"			=> "$1185"
+			"Individual"			=> "$1375"
 		),
 
 		"emerald"=> array(
@@ -46,16 +46,17 @@ $people = array(
 
 $package_items = array(
 	"diamond_items" => array(
-		"5 Day/4 Night Cruise Departing From Port of Mobile"		=> "checked",
+		"5 Day/4 Night Cruise Departing From Port of Ft. Lauderdale"		=> "checked",
 		"All You Can Eat aboard Ship"								=> "checked",
 		"Bust a Gut Alumni Getaway Comedy Series"					=> "checked",
-		"Alumni Getaway Private Mardi Gras themed Glow Party"		=> "checked",
+		"Alumni Getaway Private Rep Your Decade Party"		=> "checked",
 		"Word Easy Private Spoken Word Show"						=> "checked",
 		"Alumni Getaway Private Welcome Reception"					=> "checked",
+		"Alumni Getaway Private Meet and Greet Social"					=> "checked",
 		"Alumni Getaway Exclusive Kangol and Shelltoes Party"		=> "checked",
 		"Alumni Getaway Beach Retreat"								=> "checked",
 		"Alumni Getaway Ocean Blue Fun and Sexy Party"				=> "checked",
-		"Farewell Party"											=> "checked",
+		"Alumni Getaway Farewell Party"											=> "checked",
 		"Alumni Getaway Private Black Film Review"					=> "checked",
 		"YOLLO Gift Bag"											=> "checked"
 	),
@@ -233,7 +234,7 @@ $package_items = array(
                                 </tr>
                                 <tr>
                                     <td>Saturday</td>
-                                    <td>Return: Ft Lauderdale, FL 8AM</td>
+                                    <td>Return: Ft. Lauderdale, FL 8AM</td>
                                 </tr> 
                             
                             </tbody>
@@ -288,10 +289,10 @@ $package_items = array(
 										
 							<div class="accordion open" data-accordion>
 
-							  <div data-control>Do I need a Passport?</div>
+							  <div data-control>Does the price listed take care of cruise reservations for all members or only one person?</div>
 							  <div data-content>
-								<p>Yes.</p>
-								<p>If you are planning to get a Passport before the trip, make sure you give yourself ample time before the cruise to purchase. It normally takes 6 to 8 weeks, however you can request to experdite for faster processing time. There is a extra fee applied to expedited requests. Check your local USPS for more information on requesting a passport. </p>
+								
+								<p>All prices listed are per person. Under the package prices description, all amenities included in your package are per person and includes one (1) cabin for the group.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -304,13 +305,13 @@ $package_items = array(
 								<p>Here are a some suggested items to consider:</p>
 									
 								<ul>
-									<li>Light and Casual clothing. Linen and breathable cotton is best. Mexico is hot!</li>
+									<li>Light and Casual clothing. Linen and breathable cotton is best. Jamaica and the Grand Caymon is hot!</li>
 									<li>Swimming trunks and bikini's</li>
 									<li>Sun Block and Lotions</li>
 									<li>Bug Repellant with DEET</li>
 									<li>Medicines such as: Motion Sickness/Nausea (Dramamine), Tylenol/Advil, and Pepto Bismal/Imodium</li>
 									<li>Light Walking Shoes and Sandals</li>
-									<li>White party outfit</li>
+									<li>Ocean Blue party outfit</li>
 									<li>A night formal dinner outfit</li>
 								</ul>
 								
@@ -354,7 +355,7 @@ $package_items = array(
 
 							  <div data-control>When are the payments due?</div>
 							  <div data-content>
-								<p>$200 is due for registration per person<strong> at sign-up</strong>. The next payment of $100 is due on or before <strong>October 10 , 2020</strong> . The final payment (remaining balance) is due on or before <strong>October 20, 2020</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee <strong> at sign-up</strong>. The first payment of <strong>$125</strong> per person is due on or before  <strong>February 02, 2019</strong. The second payment of $200 is due on or before <strong>April 10, 2020</strong>. The final payment (remaining balance) is due on or before <strong>July 20, 2020</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -364,7 +365,7 @@ $package_items = array(
 
 							  <div data-control>Are there any other charges associated with the cruise?</div>
 							  <div data-content>
-								<p>Yes, clients are responsible for paying cabin gratuities. The standard charge is $13.99 per day, but you may want to leave more depending on your service. Sometimes gratuity is added to your final bill, so check with the cruiseline front desk on the ship before returning back to Mobile.</p>
+								<p>Yes, clients are responsible for paying cabin gratuities. The standard charge is $13.99 per day, but you may want to leave more depending on your service. In most cases gratuity is added to your final bill, so check with the cruiseline front desk on the ship before returning back to Ft. Lauderdale.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -382,14 +383,32 @@ $package_items = array(
 							
 							<div class="accordion" data-accordion>
 
-							  <div data-control>I do not speak Spanish, will this be a problem?</div>
+							  <div data-control>Must the entire group pay the $29.99 Reservation fee?</div>
 							  <div data-content>
-								<p>No. Though everyone may not speak English, most tourist parts of Mexico do speak or understand rudimentary English. Knowing some Spanish will definitely help, however, Cozumel is a large tourist island, and many of the shop owners and cab drivers are Bilingual. We recommend downloading the <a href="https://translator.microsoft.com/apps/" target="_blank">Microsoft Translate app</a> on your smartphone. It can translate Spanish to English and vice versa, translate words from images/signs/etc, and listen to conversation and translate in real-time. It's an app for both Android and iOS phones. </p>
+								<p>Yes. All prices are per person. The Reservation fee secures your spot on the package, and is separate from the package price. </p>
 							  </div>
 
 							</div><!-- end of accordion-->
 							
-						
+							<div class="accordion" data-accordion>
+
+							  <div data-control>How do I make my first payment?</div>
+							  <div data-content>
+								<p>You follow the same procedure as you did for registration. You will select the First Payment option under package options. </p>
+
+							  </div>
+
+							</div><!-- end of accordion-->
+
+
+							<div class="accordion" data-accordion>
+
+							  <div data-control>How do I make additional payments on my account? </div>
+							  <div data-content>
+								<p>You follow the same procedure as you did for registration. You will select the Partial Payment option under package options.</p>
+							  </div>
+
+							</div><!-- end of accordion-->
 
 
 						</div><!-- end of accordion group-->

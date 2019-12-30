@@ -33,17 +33,17 @@ $people = array(
 
 		"diamond"=> array(
 
-			"Group of 4" 			=>"$515",
-			"Group of 3"			=>"$545",
-			"Group of 2"			=>"$575",
-			"Individual"			=>"$725"
+			"Group of 4" 			=>"$565",
+			"Group of 3"			=>"$595",
+			"Group of 2"			=>"$650",
+			"Individual"			=>"$775"
 		),
 
 		"emerald"=> array(
-			"Group of 4" 			=>"$375",
-			"Group of 3"			=>"$405",
-			"Group of 2"			=>"$450",
-			"Individual"			=>"$580"
+			"Group of 4" 			=>"$475",
+			"Group of 3"			=>"$505",
+			"Group of 2"			=>"$550",
+			"Individual"			=>"$680"
 		),
 
 		"options"=>array(
@@ -180,11 +180,11 @@ $package_items = array(
 
 										<h4>What else?</h4>
 
-										<p>Tired of busting your butt on the slopes? You can enjoy many parties and events going on around the mountain. The 2019 edition of Urban Ski Weeekend was hosted by LHHNY own DJ Self and R&B sensation Pleasure P! They did not disppoint as they entertained and interacted with the crowd! In 2020 you know we are going to bring someone who loves Urban Ski Weekend guest as much as we do! The ladies love our celebrity royalty at Urban Ski so guys this will definitely be the place for you to mingle!</p>
+										<p>Tired of busting your butt on the slopes? You can enjoy many parties and events going on around the mountain. The 2019 edition of Urban Ski Weekend was hosted by LHHNY own DJ Self and R&B sensation Pleasure P! They did not disppoint as they entertained and interacted with the crowd! In 2020 we are bringing back LHHNY DJ Self with actress/singer and star of the hit show Power Naturi Naughton! If you ever had questions on which ski weekend has the POWER well here you go! The ladies love our celebrity royalty at Urban Ski so guys this will definitely be the place for you to mingle!</p>
 
 										<h4>The packages</h4>
 
-										<p>Our packages includes hotel stay, party passes, comedy show, breakfast, and plenty of networking oppurtunities. We also have transportation available via one of our exclusive party buses. These buses will be available in Alabama and Georgia.</p>
+										<p>Our packages includes hotel stay, party passes, comedy show, breakfast, and plenty of networking oppurtunities. We also have transportation available via one of our exclusive party buses. These buses will be available in Alabama and Tennessee.</p>
 
 										<h4>The Bottom Line</h4>
 
@@ -318,7 +318,7 @@ $package_items = array(
 
 										  <div data-content>
 
-											<p>Following registration the first payment of $125 is due on or before November 10, 2019.  The second payment of $100 is due on or before December 15, 2019. The final payment (remaining balance) is due on or before January 6, 2020. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+											<p>Following registration the first payment of $125 is due on or before December 27, 2019.  The second payment of $100 is due on or before January 08, 2019. The final payment (remaining balance) is due on or before January 17, 2020. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 
 										  </div>
 
@@ -355,11 +355,11 @@ $package_items = array(
 </div><!-- end of accordion-->
 
                                        <div class="accordion" data-accordion>
-										  <div data-control>What time will the bus depart from Birmingham, AL?</div>
+										  <div data-control>What time will the bus depart from Birmingham, AL? (This bus is SOLD OUT)</div>
 
 										  <div data-content>
 
-											<p>The bus will depart Birmingham at 1pm (CT) on Friday and return to Birmingham Monday at 4 pm (CT).</p>
+											<p>The bus will depart Birmingham at 1pm (CT) on Friday and return to Birmingham Monday at 4 pm (CT). (This bus is SOLD OUT)</p>
 
 										  </div>
 										</div><!-- end of accordion-->
