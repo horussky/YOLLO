@@ -58,45 +58,7 @@ include 'includes/functions.inc.php';
 
 
 
-                <div class="forminfo">
-
-                    <h5>General Contact Info</h5>
-
-                    <ul class="list-unstyled">
-
-                        <li><i class="fa fa-envelope" aria-hidden="true"></i> onelife@goyollo.com</li>
-                        <li><i class="fa fa-phone-square" aria-hidden="true"></i> (888) 946-9655</li>
-                        <li><i class="fa fa-phone-square" aria-hidden="true"></i> (888) 946-9655 (fax)</li>
-
-                    </ul>
-
-                    <hr />
-
-
-
-                    <h5>Follow Us</h5>
-
-                    <a href="http://www.facebook.com/yollogsinc" target="_blank" title="Become a fan of Yollo Group Services"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a> 
-
-                    <a href="https://twitter.com/YOLLOGSINC" target="_blank" title="Follow Yollo Group Services on Twitter"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
-
-					<a href="https://instagram.com/yollogsinc" target="_blank" title="Follow YOLLO Group Services on Instagram"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
-
-                    <br clear="all" /> <hr />
-
-                    <h5>Hours of Operation</h5>
-
-                    <ul>
-                        <li>Mon-Fri (9am- 6pm)</li>
-                        <li>Sat (10am - 2pm)</li>
-                        <li>Sun (Closed)</li>
-                    </ul><hr />
-
-                    <h5>Payment Center</h5>
-                    <p>Customer Service &amp; Relations<br />
-                    P.O. Box 240613<br />
-                    Montgomery, AL 36124</p>
-                </div>
+                
 
          </div><!--end of content-->
 
