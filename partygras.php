@@ -8,8 +8,8 @@ $event = array(
 	"title"						=>"Party Gras: Bottles and Beads",
 	"subtitle"					=>"Come Party For Those BEADS!",
 	"location"					=>"Chattanooga, TN",
-	"date"						=>"October 12, 2019",
-    "date_start"				=>"October 12, 2019",
+	"date"						=>"August 15, 2020",
+    "date_start"				=>"August 15, 2020",
 	"img_url"				 	=>"../../images/slides/splash-partygras-cta.jpg",
 	"img_alt"				 	=>"Day Getaway Cruise"
 );
@@ -45,9 +45,9 @@ $people = array(
 $package_items = array(
 	"diamond_items" => array(
 		"Crowd Control by: DJ Dre Smoove"		=> "checked",
-		"Poets: Georgia Me and Friends"						    => "checked",
-		"Comedians: Bennie Mac and Friends"		=> "checked",
-		"Live Performances by: R&B Artist Charles Reed and Friends"		=> "checked",
+		"Poets: TBA"						    => "checked",
+		"Comedians: TBA"		=> "checked",
+		"Live Performances by: TBA"		=> "checked",
 		"Meet and Greet with Free Margaritas while they last"						=> "checked",
 		"Cruise the Tennessee River"							=> "checked"
 		
@@ -133,7 +133,7 @@ $package_items = array(
 					<div class="tab" aria-label="overview">
                         <h3>Party Gras is BACK and in Tennessee</h3>
 
-                        <p>After an amazing 2018 party cruise, Party Gras: Bottles and Bead is returning for a sixth installment. Last year we turned it up to the max, but this year we are making everything bigger and better than ever. We are taking this party on the road. Come party aboard the Southern Belle for an exclusive Riverboat cruise with amazing views of Chattanooga, TN.</p> 
+                        <p>After an amazing 2019 party cruise, Party Gras: Bottles and Bead is returning for a seventh installment. Last year we turned it up to the max, but this year we are making everything bigger and better than ever. We are taking this party on the road. Come party aboard the Southern Belle for an exclusive Riverboat cruise with amazing views of Chattanooga, TN.</p> 
                           
                         <p>This will be a FULL day of good music, adult drinks, mingling, and fun for everyone attending. The boat features three (3) party decks with multiple DJ's. Live entertainment will feature spoken word artists, comedians, and performances by R&amp;B/Hip Hop artist! FREE margaritas will be on deck at our welcome reception! <strong>This event WILL SELL OUT quickly</strong>, so purchase your tickets today. For questions and tickets call: <strong>(888) 946-9655 </strong> or <a data-href="#tabs-5" class="open-tab">purchase your tickets online now.</a></p>
                        	

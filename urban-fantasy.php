@@ -4,11 +4,11 @@ include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"				=>"Urban Fantasy 2019",
-	"subtitle"			=>"This will be an awesome cruise",
-	"location"		   	=>"Grand Turks, Princess Cays and Nassau",
-	"date"				=>"Sept 09 - 14, 2019",
-    "date_start"        =>"September 09, 2019",
+	"title"				=>"Urban Fantasy 2020",
+	"subtitle"			=>"This cruise will be EPIC",
+	"location"		   	=>"Cozumel, MX",
+	"date"				=>"August 20 - 24, 2020",
+    "date_start"        =>"August 20, 2020",
 	"img_url"			=>"../../images/slides/splash-ufw-cta.jpg",
 	"img_alt"			=>"Urban Fantasy"
 );
@@ -16,12 +16,12 @@ $event = array(
 
 $geolocation = array(
 	"cruise1"=> array(
-		"title" 		=>"Carnival Sensation",
+		"title" 		=>"Carnival Valor",
 		"ship"          =>"//s.krfb.de/library/original/aussenansicht.61wqmlou.jpg",
 		"soldout"		=> false,
 		"img_url"		=>"//s.krfb.de/library/original/aussenansicht.61wqmlou.jpg",
-        "address"		=>"1015 North America Way",
-        "location"		=>"Miami, Fl",
+        "address"		=>"1350 Port of New Orleans Pl",
+        "location"		=>"New Orleans, LA",
 
 	),
 
@@ -49,7 +49,7 @@ $package_items = array(
 
 	"diamond_items" => array(
 
-		"5 Day/4 Night Cruise Departing From Miami, Florida"  => "checked",
+		"4 Day/3 Night Cruise Departing From New Orleans, LA"  => "checked",
 		"All You Can Eat All Weekend Long"                    => "checked",
 		"Cuban Nights Party - Break out your LINEN or FESTIVE colors theme night"                    => "checked",
 		"Grown and Sophisticated - Theme party (dress to impress night) All You Can Drink First Hour"             => "checked",
@@ -58,7 +58,7 @@ $package_items = array(
 		"Open Bar Captains \"Fantasy\" Reception"             => "checked",
 		"The Black Film Fest Private Screening"           => "checked",
 		"Urban Fantasy Private Welcome Reception 
-All You Can Drink"                    => "checked",
+"                    => "checked",
 		"YOLLO Swag Bag"                                      => "checked"
 	),
 
@@ -150,9 +150,9 @@ All You Can Drink"                    => "checked",
 
                     <?php echo $responsive_tabs["overview"]; ?>
 					<div class="tab" aria-label="overview">
-                        <h3>An Urban Fantasy from Grand Turks to Cuba!</h3>
+                        <h3>An Urban Fantasy from New Orleans to Cozumel!</h3>
 						
-                        <p>Endulge in the larger-than-life culture of Miami, Grand Turks, Nassau, and Princess Cays, while exploring their historic attractions on this Urban Fantasy cruise. You will cruise aboard the Carnival Sensation, a highly rated cruise ship  that is filled with top notch amenities. Once reaching your destinations, enjoy exploring or fill your day with shore excursions.</p>
+                        <p>Endulge in the larger-than-life culture of New Orleans and Cozumel, while exploring their historic attractions on this Urban Fantasy cruise. You will cruise aboard the Carnival Valor, a highly rated cruise ship  that is filled with top notch amenities. Once reaching your destinations, enjoy exploring or fill your day with shore excursions.</p>
                        				
                         <p>Urban Fantasy was created to offer a cruise experience that welcomes and actively includes African Americans. If you’re seeking great networking opportunities, or to mix and mingle, maybe meeting new friends is your thing, or just cruising this is your event! Prices listed include all of your cabin accommodations, taxes, all meals (including 24 hour room service) juice, coffee, and tea, and ALL Urban Fantasy Events both on and off the boat! </p>
                         
@@ -162,34 +162,30 @@ All You Can Drink"                    => "checked",
 							<caption>Cruise Itinerary</caption>
 							<tbody>
 								<tr>
-									<td>Monday</td>
-									<td>Departure: Miami, Fl 4PM</td>
-								</tr>
-								<tr>
-									<td>Tuesday</td>
-									<td>Fun Day At Sea</td>
-								</tr>
-								<tr>
-									<td>Wednesday</td>
-									<td>Grand Turk, 7AM-2:30PM</td>
-								</tr>
-								<tr>
 									<td>Thursday</td>
-									<td>Princess Cays, The Bahamas, 9:30AM-6:30PM</td>
+									<td>Departure: New Orleans, LA 3:30PM</td>
 								</tr>
 								<tr>
 									<td>Friday</td>
-									<td>Nassau, The Bahamas	7AM-5PM</td>
+									<td>Fun Day At Sea</td>
 								</tr>
 								<tr>
 									<td>Saturday</td>
-									<td>Return: Miami, FL 8AM</td>
-								</tr> 
-							
+									<td>Cozumel, MX 8:00AM-4:00PM</td>
+								</tr>
+								<tr>
+									<td>Sunday</td>
+									<td>Fun Day at Sea</td>
+								</tr>
+								<tr>
+									<td>Monday</td>
+									<td>Return: New Orleans,LA	8:00AM</td>
+								</tr>
+								
 							</tbody>
 							<tfoot>
 								<tr>
-									<td colspan="2">*All times are based on Eastern Time Zone.</td>
+									<td colspan="2">*All times are based on Central Time Zone.</td>
 								</tr>
 							</tfoot>
 						</table>
@@ -226,34 +222,30 @@ All You Can Drink"                    => "checked",
 							<caption>Cruise Itinerary</caption>
 							<tbody>
 								<tr>
-									<td>Monday</td>
-									<td>Departure: Miami, Fl 4PM</td>
-								</tr>
-								<tr>
-									<td>Tuesday</td>
-									<td>Fun Day At Sea</td>
-								</tr>
-								<tr>
-									<td>Wednesday</td>
-									<td>Grand Turk, 7AM-2:30PM</td>
-								</tr>
-								<tr>
 									<td>Thursday</td>
-									<td>Princess Cays, The Bahamas, 9:30AM-6:30PM</td>
+									<td>Departure: New Orleans, LA 3:30PM</td>
 								</tr>
 								<tr>
 									<td>Friday</td>
-									<td>Nassau, The Bahamas	7AM-5PM</td>
+									<td>Fun Day At Sea</td>
 								</tr>
 								<tr>
 									<td>Saturday</td>
-									<td>Return: Miami, FL 8AM</td>
-								</tr> 
-							
+									<td>Cozumel, MX 8:00AM-4:00PM</td>
+								</tr>
+								<tr>
+									<td>Sunday</td>
+									<td>Fun Day at Sea</td>
+								</tr>
+								<tr>
+									<td>Monday</td>
+									<td>Return: New Orleans, LA	8:00AM</td>
+								</tr>
+								
 							</tbody>
 							<tfoot>
 								<tr>
-									<td colspan="2">*All times are based on Eastern Time Zone.</td>
+									<td colspan="2">*All times are based on Central Time Zone.</td>
 								</tr>
 							</tfoot>
 						</table>
@@ -307,7 +299,7 @@ All You Can Drink"                    => "checked",
 
 								<div data-control>Do I need a Passport?</div>
 								<div data-content>
-									<p>Yes, a passport is required to go on the cruise. If you DO NOT have a passport please visit the your local Post Office for more information on obtaining one.</p>
+									<p>No, a passport is not required to go on the cruise. If you DO NOT have a passport please visit the your local Post Office for more information on obtaining one.</p>
 								</div>
 
 							</div><!-- end of accordion-->
@@ -355,7 +347,7 @@ All You Can Drink"                    => "checked",
 
 								<div data-control>When are the payments due? </div>
 								<div data-content>
-								<p>After registration the first payment of $125 is due <strong>March 06, 2019</strong> . The final payment (remaining balance) is due on or before <strong>June 20, 2019</strong> . If you the announced payment dates have passed contact us for our current payment plan.</p>
+								<p>After registration the first payment of $125 is due <strong>February 02, 2020</strong>. The second payment of $150 is due <strong>April 10, 2020</strong>. The final payment (remaining balance) is due on or before <strong>June 01, 2020</strong> . If you the announced payment dates have passed contact us for our current payment plan. All prices and payments due are per person.</p>
 								</div>
 
 							</div><!-- end of accordion-->
@@ -375,7 +367,7 @@ All You Can Drink"                    => "checked",
 
 								<div data-control>What port are we departing from and what time do I need to be there?</div>
 								<div data-content>
-								<p>The Carnival Sensation sails from the Port of Miami. We suggest arriving no later than 2PM.</p>
+								<p>The Carnival Valor sails from the Port of New Orleans. We suggest arriving no later than 2PM.</p>
 								</div>
 
 							</div><!-- end of accordion-->

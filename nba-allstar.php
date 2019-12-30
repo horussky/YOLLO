@@ -256,7 +256,7 @@ $package_items = array(
 													<li>All Star Practice Game ticket</li>							
 												</ul>
 
-												<p class="lead">All-Star - $850 (best seller)</p>
+												<p class="lead">All-Star - $850 (best seller)- SOLD OUT</p>
 												<ul>
 
 													<li>Friday Night Party (Celebrity Hosted)</li>
@@ -295,7 +295,7 @@ $package_items = array(
 
 										  <div data-control>When are the payments due?</div>
 										  <div data-content>
-											<p>After registration the first payment of $125 is due September 08, 2019. The final payment (remaining balance) is due on or before December 04, 2019.</p>
+											<p>After registration the first payment of $125 is due November 15, 2019. The final payment (remaining balance) is due on or before December 28, 2019.</p>
 										  </div>
 
 										</div><!-- end of accordion-->

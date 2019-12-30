@@ -7,6 +7,12 @@ define("EVENT", serialize ($nav = array(
 				  	"link"	=>	"/alumni-getaway-cruise"
 				  
 			),
+
+			array(
+				"title"	=>	"Alumni Getaway Cruise 2020",
+				  "class"	=>	"alumni",
+				  "link"	=>	"/alumni-getaway-cruise-2020"
+			),
 	
 			array(
 					"title"	=>	"Black Beach Weekend Cruise",
