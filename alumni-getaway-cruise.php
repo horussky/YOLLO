@@ -4,23 +4,23 @@ include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"					=> "Alumni Getaway",
-	"subtitle"				=> "The LIVEST party at SEA! Lock in your cabin TODAY!",
-	"location"				=> "Cozumel and Yucatan, Mexico",
-	"date"					=> "Nov 30 - Dec 5, 2019",
-    "date_start"			=> "November 30, 2019",
+	"title"					=> "Alumni Getaway 2020",
+	"subtitle"				=> "The LIVEST Alumni party at SEA! Lock in your cabin TODAY!",
+	"location"				=> "Jamaica and Caymon Islands",
+	"date"					=> "Dec 7 - 12 2020",
+    "date_start"			=> "December 7, 2020",
 	"img_url"				=> "../../images/slides/splash-alumni-cta.jpg",
 	"img_alt"				=> "Alumni Getaway"
 );
 
 $geolocation = array(
 	"cruise1"=> array(
-		"title" 			=> "Fantasy Cruise Ship",
-		"ship"				=> "https://directlinecruises.com/images/carnival_ecstacy_slider1.jpg",
-		"location"		    => "Cozumel, Mexico",
-    "address"			    => "South, 201 Water St, Mobile, AL 36602",
+		"title" 			=> "Carnival Sunrise",
+		"ship"				=> "https://i0.wp.com/thepointsguy.com/wp-content/uploads/2019/05/20190528_Carnival-Sunrise_GSloan-24.jpg",
+		"location"		    => "Ft. Lauderdale, Fl",
+        "address"			=> "1850 Eller Dr, Fort Lauderdale, FL 33316",
 		"soldout"			=> false,
-		"img_url"			=> "https://www.cruisin.me/images/cruise-ships/carnival-cruise-lines/carnival-fantasy.jpg"
+		"img_url"			=> "https://i0.wp.com/thepointsguy.com/wp-content/uploads/2019/05/20190528_Carnival-Sunrise_GSloan-24.jpg"
 
 	),
 
@@ -28,10 +28,10 @@ $geolocation = array(
 
 $people = array(
 		"diamond"=> array(
-			"Group of 4" 			=> "$550",
-			"Group of 3"			=> "$615",
+			"Group of 4" 			=> "$475",
+			"Group of 3"			=> "$600",
 			"Group of 2"			=> "$750",
-			"Individual"			=> "$1185"
+			"Individual"			=> "$1375"
 		),
 
 		"emerald"=> array(
@@ -46,17 +46,18 @@ $people = array(
 
 $package_items = array(
 	"diamond_items" => array(
-		"5 Day/4 Night Cruise Departing From Port of Mobile"		=> "checked",
+		"5 Day/4 Night Cruise Departing From Port of Ft. Lauderdale"		=> "checked",
 		"All You Can Eat aboard Ship"								=> "checked",
-		"Bust a Gut Alumni Getaway Comedy Series"									=> "checked",
-		"Alumni Getaway Private Mardi Gras themed Glow Party"										=> "checked",
-		"Word Easy Private Spoken Word Show"								=> "checked",
-		"Alumni Getaway Private Welcome Reception"							=> "checked",
-		"Alumni Getaway Exclusive Kangol and Shelltoes Party"											=> "checked",
+		"Bust a Gut Alumni Getaway Comedy Series"					=> "checked",
+		"Alumni Getaway Private Rep Your Decade Party"		=> "checked",
+		"Word Easy Private Spoken Word Show"						=> "checked",
+		"Alumni Getaway Private Welcome Reception"					=> "checked",
+		"Alumni Getaway Private Meet and Greet Social"					=> "checked",
+		"Alumni Getaway Exclusive Kangol and Shelltoes Party"		=> "checked",
 		"Alumni Getaway Beach Retreat"								=> "checked",
 		"Alumni Getaway Ocean Blue Fun and Sexy Party"				=> "checked",
-		"Farewell Party"											=> "checked",
-		"Alumni Getaway Private Black Film Review"											=> "checked",
+		"Alumni Getaway Farewell Party"											=> "checked",
+		"Alumni Getaway Private Black Film Review"					=> "checked",
 		"YOLLO Gift Bag"											=> "checked"
 	),
 
@@ -137,40 +138,40 @@ $package_items = array(
 
                     <?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
-                        <h3>Alumni Getaway is going to Cozumel and Yucatan, Mexico!</h3>
+                        <h3>Alumni Getaway is going to Ocho Rios, Jamaica and Grand Caymon, Caymon Islands!</h3>
 
-                        <p>Calling all old, new, and almost alums, this Alumni Getaway is the weekend vacation for you. We are bringing together HBCU alums from all over the country to rep their university. What better way to meet and mingle than cruising aboard the Carnival Fantasy to the beautiful island of Cozumel, Mexico. Not a product of a HBCU? No worries, this cruise isn't exclusive to only HBCU alumni. Everyone's invited to rep their university on this getaway cruise to Mexico. </p>
+                        <p>Calling all old, new, and almost alums, this Alumni Getaway is the "catch-up" vacation for you. We are bringing together HBCU alums from all over the country to rep their university. There's no better way to meet and mingle than cruising aboard the Carnival Sunrise. We're taking you to the beautiful island of Grand Cayman and  Ocho Rios, Jamaica! Not a product of an HBCU? No worries, this cruise isn't exclusive to only HBCU alumni. Everyone is welcome to rep their university on this exotic getaway cruise.</p>
                         
-                        <p>While you cruise over the Caribbean, we have plenty of entertainment to keep you occupied. Look forward to comedy shows, a talent show, spades tournament, and more activities. Our DJ's are working the 1's and 2's for a variety of onboard clubs and decks. Our theme night parties, “Kangol and Shelltoes Party” and “Ocean Blue Fun and Sexy Party” will also keep the camaraderie going all weekend.</p> 
+                        <p>While cruising over the Caribbean, we have much to keep you occupied. You should look forward to comedy shows, a talent show, spades tournament, and more. Our DJ's are working the 1's and 2's for a variety of onboard clubs and decks. Our theme parties, “Kangol and Shelltoes” and “Ocean Blue Fun and Sexy” will also keep the camaraderie going all weekend.</p> 
                         
-                        <p>Don't believe the hype, Mexico is a very beautiful place to visit. Cozumel and Yucatan has plenty of excursions and shopping areas to explore. If time permits, tour the Mayan ruins or cruise the island and enjoy the scenery. So do not hesitate on this package. Book this great cruise package today!</p>
+                        <p>Do not hesitate on this package. Book this great cruise package today!</p>
                         
                         <table class="itinerary">
                             <caption>Cruise Itinerary</caption>
                             <tbody>
                                 <tr>
-                                    <td>Saturday</td>
-                                    <td>Departure: Mobile, AL 4PM</td>
-                                </tr>
-                                <tr>
-                                    <td>Sunday</td>
-                                    <td>Fun Day At Sea</td>
-                                </tr>
-                                <tr>
                                     <td>Monday</td>
-                                    <td>Yucatan, Mexico 8AM-5PM</td>
+                                    <td>Departure: Ft Lauderdale, FL 3:30PM</td>
                                 </tr>
                                 <tr>
                                     <td>Tuesday</td>
-                                    <td>Cozumel, Mexico 9AM-5PM</td>
-                                </tr>
-                                <tr>
-                                    <td>Wednesday</td>
                                     <td>Fun Day At Sea</td>
                                 </tr>
                                 <tr>
+                                    <td>Wednesday</td>
+                                    <td>Ocho Rios, Jamaica 10AM-5PM</td>
+                                </tr>
+                                <tr>
                                     <td>Thursday</td>
-                                    <td>Return: Mobile, AL 8AM</td>
+                                    <td>Grand Cayman, Cayman Islands 9AM-4:30PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Friday</td>
+                                    <td>Fun Day At Sea</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday</td>
+                                    <td>Return: Ft Lauderdale, FL 8AM</td>
                                 </tr> 
                             
                             </tbody>
@@ -208,32 +209,32 @@ $package_items = array(
                             </div><!-- ./hotel-grid -->
                         <?php endforeach; ?>
                         
-                        <table class="itinerary"> 
+                        <table class="itinerary">
                             <caption>Cruise Itinerary</caption>
                             <tbody>
                                 <tr>
-                                    <td>Saturday</td>
-                                    <td>Departure: Mobile, AL 4PM</td>
-                                </tr>
-                                <tr>
-                                    <td>Sunday</td>
-                                    <td>Fun Day At Sea</td>
-                                </tr>
-                                <tr>
                                     <td>Monday</td>
-                                    <td>Yucatan, Mexico 8AM-5PM</td>
+                                    <td>Departure: Ft Lauderdale, FL 3:30PM</td>
                                 </tr>
                                 <tr>
                                     <td>Tuesday</td>
-                                    <td>Cozumel, Mexico 9AM-5PM</td>
-                                </tr>
-                                <tr>
-                                    <td>Wednesday</td>
                                     <td>Fun Day At Sea</td>
                                 </tr>
                                 <tr>
+                                    <td>Wednesday</td>
+                                    <td>Ocho Rios, Jamaica 10AM-5PM</td>
+                                </tr>
+                                <tr>
                                     <td>Thursday</td>
-                                    <td>Return: Mobile, AL 8AM</td>
+                                    <td>Grand Cayman, Cayman Islands 9AM-4:30PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Friday</td>
+                                    <td>Fun Day At Sea</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday</td>
+                                    <td>Return: Ft. Lauderdale, FL 8AM</td>
                                 </tr> 
                             
                             </tbody>
@@ -288,10 +289,10 @@ $package_items = array(
 										
 							<div class="accordion open" data-accordion>
 
-							  <div data-control>Do I need a Passport?</div>
+							  <div data-control>Does the price listed take care of cruise reservations for all members or only one person?</div>
 							  <div data-content>
-								<p>It is not required for US citizens and departing from a US port, but it's recommended to bring. We recommend if you DO NOT have a passport, to bring a birth certificate issued by the department of vital statistics and your driver’s license for boarding.</p>
-								<p>If you are planning to get a Passport before the trip, make sure you give yourself ample time before the cruise to purchase. It normally takes 6 to 8 weeks, however you can request to experdite for faster processing time. There is a extra fee applied to expedited requests. Check your local USPS for more information on requesting a passport. </p>
+								
+								<p>All prices listed are per person. Under the package prices description, all amenities included in your package are per person and includes one (1) cabin for the group.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -304,13 +305,13 @@ $package_items = array(
 								<p>Here are a some suggested items to consider:</p>
 									
 								<ul>
-									<li>Light and Casual clothing. Linen and breathable cotton is best. Mexico is hot!</li>
+									<li>Light and Casual clothing. Linen and breathable cotton is best. Jamaica and the Grand Caymon is hot!</li>
 									<li>Swimming trunks and bikini's</li>
 									<li>Sun Block and Lotions</li>
 									<li>Bug Repellant with DEET</li>
 									<li>Medicines such as: Motion Sickness/Nausea (Dramamine), Tylenol/Advil, and Pepto Bismal/Imodium</li>
 									<li>Light Walking Shoes and Sandals</li>
-									<li>White party outfit</li>
+									<li>Ocean Blue party outfit</li>
 									<li>A night formal dinner outfit</li>
 								</ul>
 								
@@ -354,7 +355,7 @@ $package_items = array(
 
 							  <div data-control>When are the payments due?</div>
 							  <div data-content>
-								<p>$200 is due for registration per person<strong> at sign-up</strong>. The next payment of $100 is due on or before <strong>November 10 , 2019</strong> . The final payment (remaining balance) is due on or before <strong>November 20, 2019</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee <strong> at sign-up</strong>. The first payment of <strong>$125</strong> per person is due on or before  <strong>February 02, 2019</strong. The second payment of $200 is due on or before <strong>April 10, 2020</strong>. The final payment (remaining balance) is due on or before <strong>July 20, 2020</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -364,7 +365,7 @@ $package_items = array(
 
 							  <div data-control>Are there any other charges associated with the cruise?</div>
 							  <div data-content>
-								<p>Yes, clients are responsible for paying cabin gratuities. The standard charge is $13.99 per day, but you may want to leave more depending on your service. Sometimes gratuity is added to your final bill, so check with the cruiseline front desk on the ship before returning back to Mobile.</p>
+								<p>Yes, clients are responsible for paying cabin gratuities. The standard charge is $13.99 per day, but you may want to leave more depending on your service. In most cases gratuity is added to your final bill, so check with the cruiseline front desk on the ship before returning back to Ft. Lauderdale.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -374,7 +375,27 @@ $package_items = array(
 
 							  <div data-control>What port are we departing from and what time do I need to be there?</div>
 							  <div data-content>
-								<p>The Carnival Fantasy sails from the Port of Mobile. We suggest arriving no later than 2:00 PM.</p>
+								<p>The Carnival Sunrise sails from Fort Lauderdale. We suggest arriving no later than 2:00 PM.</p>
+							  </div>
+
+							</div><!-- end of accordion-->
+
+							
+							<div class="accordion" data-accordion>
+
+							  <div data-control>Must the entire group pay the $29.99 Reservation fee?</div>
+							  <div data-content>
+								<p>Yes. All prices are per person. The Reservation fee secures your spot on the package, and is separate from the package price. </p>
+							  </div>
+
+							</div><!-- end of accordion-->
+							
+							<div class="accordion" data-accordion>
+
+							  <div data-control>How do I make my first payment?</div>
+							  <div data-content>
+								<p>You follow the same procedure as you did for registration. You will select the First Payment option under package options. </p>
+
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -382,47 +403,9 @@ $package_items = array(
 
 							<div class="accordion" data-accordion>
 
-							  <div data-control>What type of currency do I need in Cozumel?</div>
+							  <div data-control>How do I make additional payments on my account? </div>
 							  <div data-content>
-								<p>In Cozumel you may use USD or the Mexican Peso. Be aware, rates for the MX Peso vary shop to shop. We suggest downloading a Currency app to have at least a ball park amount of what things cost in Cozumel. </p>
-							  </div>
-
-							</div><!-- end of accordion-->
-							
-							<div class="accordion" data-accordion>
-
-							  <div data-control>I do not speak Spanish, will this be a problem?</div>
-							  <div data-content>
-								<p>No. Though everyone may not speak English, most tourist parts of Mexico do speak or understand rudimentary English. Knowing some Spanish will definitely help, however, Cozumel is a large tourist island, and many of the shop owners and cab drivers are Bilingual. We recommend downloading the <a href="https://translator.microsoft.com/apps/" target="_blank">Microsoft Translate app</a> on your smartphone. It can translate Spanish to English and vice versa, translate words from images/signs/etc, and listen to conversation and translate in real-time. It's an app for both Android and iOS phones. </p>
-							  </div>
-
-							</div><!-- end of accordion-->
-							
-							
-							<div class="accordion" data-accordion>
-
-							  <div data-control>Are there anything to be aware of while on the island?</div>
-							  <div data-content>
-								<ul>
-									<li>Make sure you visit multiple shops before buying anything. Cozumel has many shops on the island and many of them sell the exact same items or similiar. Make sure you are getting the best price and quality for your money.</li>
-									<li>Don't venture too far from the port. Many of the big name shops are closer to the main strip.</li>
-									<li>If buying tequila, we highly recommend buying the local brands. You are in Mexico, so engulf the culture. Yes, you can probably get Patron for much cheaper there than in the States, but you may be missing out on one of Mexico's best products. Many shops do free tastings for their liquor. Even if you don't buy, you can get a good buzz without spending a dime.</li>
-								</ul>
-							  </div>
-
-							</div><!-- end of accordion-->
-							
-							
-							<div class="accordion" data-accordion>
-
-							  <div data-control>I want to buy liquor, any recommendations?</div>
-							  <div data-content>
-								<ul>
-									<li>Buy local tequila!</li>
-									<li>Tequila come in different qualities. White/Silver, Gold, Resposado, Anejo, Extra Anejo. The latter two being the most aged and smoothest.</li>  
-									<li>We recommend finding a good Anejo [AN-YE-HO] (3 years aged) or Extra Anejo (3+ years aged) sipping Tequila; (most look and taste like a brandy). The older the Tequila, the smoother and sweeter the taste. Once you taste one of these fine spirits, you may throw out all your Patron's at home. Some brands to ask for: Cava de Oro, Adictivo, Milagro. Anejo tequila are more premium in price, but the taste is well worth the cost. </li>
-									<li>Outside of sipping tequila, there are some liqueur and creams you may be interested in such as: Sheridan coffee liqueur, and Almond flavored tequila.</li>
-								</ul>
+								<p>You follow the same procedure as you did for registration. You will select the Partial Payment option under package options.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -435,32 +418,32 @@ $package_items = array(
 
 
 
-            <?php echo $responsive_tabs["photos"]; ?>
+                    <?php echo $responsive_tabs["photos"]; ?>
 						<div class="tab" aria-label="photos">
 								<div id="nanoGallery"></div>
 						</div><!-- ./ photos -->
 
 
-            <?php echo $responsive_tabs["buynow"]; ?>
+                    <?php echo $responsive_tabs["buynow"]; ?>
 						<div class="tab" aria-label="buy">
 											
-											<h3>Buy Now</h3>
+                            <h3>Buy Now</h3>
 
-											<div class="pay-form">
-												<p>Please use the form below to complete your booking for <?php echo $event["title"]?>. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
-												
-												<div class="cognito"></div>
+                            <div class="pay-form">
+                                <p>Please use the form below to complete your booking for <?php echo $event["title"]?>. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
+                                
+                                <div class="cognito"></div>
 
-											</div><!-- end of pay-form -->
-
-
-							</div><!-- ./ buy now -->
-
-								</div><!-- end of responsive-tabs -->
+                            </div><!-- end of pay-form -->
 
 
+						</div><!-- ./ buy now -->
 
-							</div><!-- end of colfull -->
+			    </div><!-- end of responsive-tabs -->
+
+
+
+			</div><!-- end of colfull -->
 
 
 	     <div class="disclosure">
@@ -518,7 +501,7 @@ $package_items = array(
 	});
 </script>
 <script src="https://services.cognitoforms.com/s/NiNAkf4LukqBZOHDFOMsiQ"></script>
-<script>Cognito.load("forms", { id: "11" });</script>
+<script>Cognito.load("forms", { id: "60" });</script>
 <!--google analytics-->
 <?php include 'includes/analytics.inc.php'; ?>
 </body>
