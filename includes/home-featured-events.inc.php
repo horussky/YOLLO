@@ -10,13 +10,6 @@ $feature_event = array(
 		"link" 		=> "/nati-music-festival"
 	),
 	array(
-		"title" 	=> "Black Beach Weekend Cruise",
-		"date" 		=> "April 4, 2020",
-		"end"		=> strtotime("April 4, 2020"),
-		"img" 		=> "images/featured-events/featured-event-bbw.jpg",
-		"link" 		=> "/black-beach"
-	),
-	array(
 		"title" 	=> "Essence Festival",
 		"date" 		=> "July 3-5, 2020",
 		"end"		=> strtotime("July 5, 2020"),
@@ -59,7 +52,7 @@ $feature_event = array(
 		"link" 		=> "/urban-fantasy"
 	),
 	array(
-		"title" 	=> "Urban Fiesta",
+		"title" 	=> "Urban Fiesta Weekend",
 		"date" 		=> "May 22-25, 2020",
 		"end"		=> strtotime("May 26, 2020"),
 		"img" 		=> "images/featured-events/featured-event-ufw.jpg",

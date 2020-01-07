@@ -240,7 +240,7 @@ $package_items = array(
 
                                     </div><!-- end of accordion-->
 
-
+                     
 
                                     <div class="accordion" data-accordion>
 
