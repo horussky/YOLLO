@@ -10,7 +10,7 @@
             "title"     => "About YOLLO Group Services",
             "desc"      => "We are YOLLO Group Services and we provide all-inclusive travel packages.",
             "keywords"  => "YOLLO, All-Inclusive, Cruise, Party Boat, Essence, NBA All-Star, Urban Fiesta",
-            "canonical" => "https://www.goyollo.com/home"
+            "canonical" => "https://www.goyollo.com/about"
         ),
         "alumni" => array(
             "title"     => "Alumni Getaway Cruise in Mexico",

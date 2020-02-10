@@ -1,6 +1,7 @@
 <?php 
 ob_start("ob_gzhandler"); 
 include 'includes/functions.inc.php';
+include 'includes/meta.config.inc.php';
 
 ?>
 <!doctype html>
@@ -8,12 +9,13 @@ include 'includes/functions.inc.php';
 
 <head>
 <meta charset="utf-8">
-<title>About YOLLO Group Services </title>
-<meta name="description" content="YOLLO Group Services, Inc. We create travel packages for all ages." />
-<meta name="keywords" content="About YOLLO Group Services Inc." />
+<title><?php echo $metas['about']['title']; ?></title>
+
+<meta name="description" content="<?php echo $metas['about']['desc']; ?>" />
+<meta name="keywords" content="<?php echo $metas['about']['keywords']; ?>" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-
+<link href="<?php echo $metas['about']['canonical']; ?>" rel="canonical" />
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
 <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 

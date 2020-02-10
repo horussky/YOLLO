@@ -17,10 +17,10 @@ $event = array(
 $geolocation = array(
 
 	"hotel1"=> array(
-		"title" 			=>"Holiday Inn Cincinnati Riverfront",
-		"address"			=>"600 West 3rd Street",
-		"location"			=>"Covington, KY 41011",
-		"geolocation"		=>"600 West 3rd Street, Covington, KY 41011",
+		"title" 			=>"Comfort Suites Newport - Cincinnati Riverfront",
+		"address"			=>"420 Riverboat Row",
+		"location"			=>"Newport, KY 41071",
+		"geolocation"		=>"420 Riverboat Row, Newport, KY 41071",
 		"soldout"           =>false,
 		"img_url"			=>"//t-ec.bstatic.com/images/hotel/max1024x768/319/31915208.jpg"
 	),
@@ -252,7 +252,7 @@ $package_items = array(
 
 							  <div data-control>What are the payment due dates for Cincinnati Music Festival Packages?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 is due on or before <strong>September 30, 2019</strong>. The final payment (remaining balance) is due on or before <strong>January 22, 2020</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 is due on or before <strong>February 20, 2020</strong>. The final payment (remaining balance) is due on or before <strong>May 23, 2020</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -272,7 +272,7 @@ $package_items = array(
 
 							  <div data-control>Where will we be staying that weekend?</div>
 							  <div data-content>
-								<p>The Holiday Inn Cincinnati Riverfront has been selected as the host hotel for this wonderful event!</p>
+								<p>The Comfort Suites Newport - Cincinnati Riverfront has been selected as the host hotel for this wonderful event!</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -391,7 +391,7 @@ $package_items = array(
 				userID: '50836209@N03',
 
 				 //uncomment this line to display one specific album:
-			   photoset:'72157657872517631',
+			   photoset:'72157712606706052',
 
 				// uncomment this line to display full photostream (v5.0.0):
 				// photoset:'none',

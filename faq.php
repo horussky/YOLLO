@@ -106,8 +106,9 @@ include 'includes/functions.inc.php';
 					  <div data-content>
 						<ul>
 							<li>Credit Card (Visa, MasterCard, American Express, and Discover) </li>
-							<li>Personal Check (not accepted for final payment); Make all checks out to YOLLO Group Services.</li>
-							<li>Money Order or Cashiers Check </li>
+							<li>Cashiers Check (not accepted for final payment); Make all checks payable to YOLLO Group Services.</li>
+							<li>Money Order Make all payments payable to YOLLO Group Services.</li>
+							<li>Personal checks are NOT accepted</li>
 						</ul>
 						<p>For credit card payments, you can use our payment form for the event under the "Buy Now" tab, otherwise please provide a copy of valid state or government issued ID, and a copy of the front and back of the credit card. This method of payment incurs a 4% processing fee. You will be contacted to verify information before card is processed.</p>
 					  </div>
@@ -119,11 +120,20 @@ include 'includes/functions.inc.php';
 
 					  <div data-control>When will I receive my party passes and other amenities?</div>
 					  <div data-content>
-							<p>Party passes and/or other tangible items for your event are received during hotel check-in. In most cases we hand out passes as soon as you arrive to the event. Specific instructions will be included in your confirmation letter.</p>
+							<p>Party passes and/or other tangible items for your event are received during hotel check-in. In most cases we hand out passes as soon as you arrive to the event. Specific instructions will be included in your final confirmation letter.</p>
 					  </div>
 
 					</div><!-- end of accordion-->
 					
+					
+					<div class="accordion" data-accordion>
+
+					  <div data-control>What is the final confirmation letter? </div>
+					  <div data-content>
+							<p>This letter will have all the information related to your travel package. It is emailed 30 days prior to your travel date. Itineraries are sent to each client 15 days before the event via email. This gives the client a complete overview of the travel package purchased.</p>
+					  </div>
+
+					</div><!-- end of accordion-->
 					
 					<div class="accordion" data-accordion>
 
@@ -150,7 +160,7 @@ include 'includes/functions.inc.php';
 					  <div data-control>How do I confirm my event package?</div>
 					  <div data-content>
 						<ul>
-							<li>You will be mailed your itinerary via USPS. </li>
+							<li>You will be mailed your invoice via USPS. </li>
 							<li>You should receive it within 7 days, after reserving your package.</li>
 							<li>You may also call <a href="tel:888-946-9655">(888) 946-9655</a> and speak with a rep who can confirm your package. </li>
 						</ul>
@@ -165,7 +175,6 @@ include 'includes/functions.inc.php';
 					  <div data-content>
 						<ul>
 							<li>Your state-issued ID.</li>
-							<li>The credit card(s) used to make payments on your package, including gift cards, debit, and expired cards. We simply have to see the physical card.</li>
 							<li>Your confirmation letter.</li>
 						</ul>
 					  </div>
@@ -257,12 +266,12 @@ include 'includes/functions.inc.php';
 					  <div data-control>What fees can incur that doesn't go toward my package price?</div>
 					  <div data-content>
 						<ul>
-							<li>Registration Fee: $19.99</li>
+							<li>Registration Fee: $29.99</li>
 							<li>Late Fee: $35</li>
 							<li>Extension Fee: $25</li>
 							<li>Reinstatement Fee: $75</li>
 							<li>Chargeback Fee: $100</li>
-							<li>Reservation Name Change Fee: $50</li>
+							<li>Reservation Name Change Fee: $75</li>
 							<li>Electronic Processing Fee: 4% of Amount</li>
 						</ul>
 					  </div>
@@ -361,11 +370,13 @@ include 'includes/functions.inc.php';
 					  <div data-content>
 						<ul>
 							<li>All cancellations must be submitted in writing to our office.</li>
-							<li>If cancelling 60 days or more before event, payment is non-refundable, but a 50% in-house credit is created for all payment made minus the registration and first payment</li>
+							<li>Unless otherwise specified in writing, all deposits and subsequent payments are non-refundable.</li>
+							<li>Cancellations that are not a result of YOLLO Group Services (i.e. Act of God or any other event or circumstance beyond our control) will be issued an in-house credit</li>
 							<li>In-house credit can be used within one year on a future travel package.</li>
 							<li>Registration Fee and First scheduled payment is non-refundable and non-transferable. No Exceptions.</li>
-							<li>Cancellations less than 60 days prior to departure are non-refundable/non-transferable.</li>
+							<li>Cancellations of any kind will not result in a refund</li>
 							<li>Cancellations due to non-payment forfeit all payments.</li>
+							<li>60 days or more before event, payment is non-refundable, but client will receive an in-house credit for fifty percent of payments made that can be used within one year on a future travel package. Less than 60 days prior to event, payments are nonrefundable and non-transferable. </li>
 						</ul>
 					  </div>
 
@@ -378,7 +389,7 @@ include 'includes/functions.inc.php';
 					  <div data-content>
 						<ol>
 							<li>A price adjustment will incur on the remaining group members. Your final payment will be made based on the number of people still attending.</li>
-							<li>You are allowed to replace any member of the group that cancels; new members will need to pay the Registration Fee.</li>
+							<li>You are allowed to replace any member of the group that cancels; new members will need to pay the Registration Fee and Reservation Name Change Fee.</li>
 						</ol>
 						
 						  <p>There are no contracts. You have the option to walk away and we hope to see you at our next event!</p>
@@ -398,6 +409,15 @@ include 'includes/functions.inc.php';
 
 					</div><!-- end of accordion-->
 					
+					
+					<div class="accordion" data-accordion>
+
+					  <div data-control>Do you provide refunds?</div>
+					  <div data-content>
+						<p>No, we do not provide refunds nor do we transfer money. Each client is required to accept our Terms and Conditions before reservation is accepted. To protect your investment, each and every client is encouraged to purchase travel insurance.<p>
+					   </div>
+
+					</div><!-- end of accordion-->
 					
 					<div class="accordion" data-accordion>
 

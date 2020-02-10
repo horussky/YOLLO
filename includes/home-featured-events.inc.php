@@ -4,29 +4,22 @@ $feature_event = array(
 
 	array(
 		"title" 	=> "Cincinnati Music Festival",
-		"date" 		=> "July 26-28, 2019",
-		"end"		=> strtotime("July 28, 2019"),
+		"date" 		=> "July 24-26, 2020",
+		"end"		=> strtotime("July 26, 2020"),
 		"img" 		=> "images/featured-events/featured-event-cmf.jpg",
 		"link" 		=> "/nati-music-festival"
 	),
 	array(
-		"title" 	=> "Black Beach Weekend Cruise",
-		"date" 		=> "April 13, 2019",
-		"end"		=> strtotime("April 13, 2019"),
-		"img" 		=> "images/featured-events/featured-event-bbw.jpg",
-		"link" 		=> "/black-beach"
-	),
-	array(
 		"title" 	=> "Essence Festival",
-		"date" 		=> "July 5-7, 2019",
-		"end"		=> strtotime("July 7, 2019"),
+		"date" 		=> "July 3-5, 2020",
+		"end"		=> strtotime("July 5, 2020"),
 		"img" 		=> "images/featured-events/featured-event-efw.jpg",
 		"link" 		=> "/essence-festival"
 	),
 	array(
 		"title" 	=> "Magic City Classic",
-		"date" 		=> "October 25-27 2019",
-		"end"		=> strtotime("October 27, 2019"),
+		"date" 		=> "Oct 30 - Nov 1 2020",
+		"end"		=> strtotime("October 27, 2020"),
 		"img" 		=> "images/featured-events/featured-event-mcc.jpg",
 		"link" 		=> "/classic"
 	),
@@ -53,22 +46,22 @@ $feature_event = array(
 	),
 	array(
 		"title" 	=> "Urban Fantasy Cruise",
-		"date" 		=> "September 9-14, 2019",
-		"end"		=> strtotime("September 14, 2019"),
+		"date" 		=> "September 7-12, 2020",
+		"end"		=> strtotime("September 12, 2020"),
 		"img" 		=> "images/featured-events/featured-event-ufc.jpg",
 		"link" 		=> "/urban-fantasy"
 	),
 	array(
-		"title" 	=> "Urban Fiesta",
-		"date" 		=> "May 24-26, 2019",
-		"end"		=> strtotime("May 26, 2019"),
+		"title" 	=> "Urban Fiesta Weekend",
+		"date" 		=> "May 22-25, 2020",
+		"end"		=> strtotime("May 26, 2020"),
 		"img" 		=> "images/featured-events/featured-event-ufw.jpg",
 		"link" 		=> "/urban"
 	),
 	array(
 		"title" 	=> "Urban Ski Weekend",
-		"date" 		=> "February 1-4, 2019",
-		"end"		=> strtotime("February 1, 2019"),
+		"date" 		=> "Jan 31 - Feb 3, 2020",
+		"end"		=> strtotime("February 3, 2020"),
 		"img" 		=> "images/featured-events/featured-event-usw.jpg",
 		"link" 		=> "/urban-ski-weekend"
 	),
@@ -81,8 +74,8 @@ $feature_event = array(
 	),
 	array(
 		"title" 	=> "Alumni Getaway Cruise",
-		"date" 		=> "December 6-10, 2018",
-		"end"		=> strtotime("December 10 ,2018"),
+		"date" 		=> "Nov 30 - Dec 5, 2019",
+		"end"		=> strtotime("December 5 ,2019"),
 		"img" 		=> "images/featured-events/featured-event-agc.jpg",
 		"link" 		=> "/alumni-getaway-cruise"
 	)

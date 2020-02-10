@@ -18,7 +18,7 @@ $geolocation = array(
 		"title" 			=> "Carnival Sunrise",
 		"ship"				=> "https://i0.wp.com/thepointsguy.com/wp-content/uploads/2019/05/20190528_Carnival-Sunrise_GSloan-24.jpg",
 		"location"		    => "Ft. Lauderdale, Fl",
-        "address"			=> "1850 Eller Dr, Fort Lauderdale, FL 33316",
+    "address"			    => "1850 Eller Dr, Fort Lauderdale, FL 33316",
 		"soldout"			=> false,
 		"img_url"			=> "https://i0.wp.com/thepointsguy.com/wp-content/uploads/2019/05/20190528_Carnival-Sunrise_GSloan-24.jpg"
 
@@ -30,7 +30,7 @@ $people = array(
 		"diamond"=> array(
 			"Group of 4" 			=> "$650",
 			"Group of 3"			=> "$750",
-			"Group of 2"			=> "$925",
+			"Group of 2"			=> "$875",
 			"Individual"			=> "$1450"
 		),
 
@@ -355,7 +355,7 @@ $package_items = array(
 
 							  <div data-control>When are the payments due?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee <strong> at sign-up</strong>. The first payment of <strong>$125</strong> per person is due on or before  <strong>February 29, 2020</strong. The second payment of $200 is due on or before <strong>April 27, 2020</strong>. The final payment (remaining balance) is due on or before <strong>July 20, 2020</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee <strong> at sign-up</strong>. The first payment of <strong>$125</strong> per person is due on or before  <strong>March 02, 2020</strong. The second payment of $200 is due on or before <strong>May 15, 2020</strong>. The final payment (remaining balance) is due on or before <strong>July 20, 2020</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -418,32 +418,32 @@ $package_items = array(
 
 
 
-                    <?php echo $responsive_tabs["photos"]; ?>
+            <?php echo $responsive_tabs["photos"]; ?>
 						<div class="tab" aria-label="photos">
 								<div id="nanoGallery"></div>
 						</div><!-- ./ photos -->
 
 
-                    <?php echo $responsive_tabs["buynow"]; ?>
+            <?php echo $responsive_tabs["buynow"]; ?>
 						<div class="tab" aria-label="buy">
 											
-                            <h3>Buy Now</h3>
+											<h3>Buy Now</h3>
 
-                            <div class="pay-form">
-                                <p>Please use the form below to complete your booking for <?php echo $event["title"]?>. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
-                                
-                                <div class="cognito"></div>
+											<div class="pay-form">
+												<p>Please use the form below to complete your booking for <?php echo $event["title"]?>. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
+												
+												<div class="cognito"></div>
 
-                            </div><!-- end of pay-form -->
-
-
-						</div><!-- ./ buy now -->
-
-			    </div><!-- end of responsive-tabs -->
+											</div><!-- end of pay-form -->
 
 
+							</div><!-- ./ buy now -->
 
-			</div><!-- end of colfull -->
+								</div><!-- end of responsive-tabs -->
+
+
+
+							</div><!-- end of colfull -->
 
 
 	     <div class="disclosure">

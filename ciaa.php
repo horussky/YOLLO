@@ -195,15 +195,15 @@
                             <?php /* FAQs */ ?>
                   
                             <ul>
-                                <li><strong>When are the payments due?</strong> After registration the first payment of $125 is due <strong>June 20, 2016</strong>. The final payment (remaining balance) is due on or before <strong>September 14, 2016</strong>.</li>
+                                <li><strong>When are the payments due?</strong> After registration the first payment of $125 is due <strong>January 15, 2020</strong>. The final payment (remaining balance) is due on or before <strong>February 02, 2020</strong>.</li>
                                  
                                  
                                 <li><strong>Can I make payments before my due date?</strong>  Absolutely! Our payment plans are designed to help you pay over time. If you want to pay more frequent than the established dates that's great.</li>
                                 
-                                <li><strong>How do I lock in the prices and amenities advertised today?</strong> It only takes $19.99 to lock in your spot today! It's that simple!</li>
+                                <li><strong>How do I lock in the prices and amenities advertised today?</strong> It only takes $29.99 to lock in your spot today! It's that simple!</li>
     
                                 
-                                <li><strong>Must the entire group pay the $19.99 Reservation fee?</strong>
+                                <li><strong>Must the entire group pay the $29.99 Reservation fee?</strong>
                                 Yes. All prices are per person. The reservation fee secures your spot on the package, and is independent from the package price.</li>
                                 
                                 <li><strong> Does the price take care of hotel reservation for all 4 members in either package or only one person?</strong> All prices listed are per person. Under the package prices description, all amenities included in your package is what's included per person.  That means the group will share one room, but receive individual party passes and other amenities included in the package. 

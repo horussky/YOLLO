@@ -1,21 +1,21 @@
 <?php
 	//tab navigation on event pages
 	function tabNav(){
-						echo '<li><a href="#tabs-1"><i class="fa fa-file-text-o"></i> Overview</a></li>';
-                        echo '<li><a href="#tabs-2"><i class="fa fa-h-square"></i> Hotel</a></li>';
-                        echo '<li><a href="#tabs-3"><i class="fa fa-usd"></i> Prices</a></li>';
-                        echo '<li><a $nodisp href="#tabs-4"><i class="fa fa-commenting"></i> FAQs</a></li>';
+		echo '<li><a href="#tabs-1"><i class="fa fa-file-text-o"></i> Overview</a></li>';
+		echo '<li><a href="#tabs-2"><i class="fa fa-h-square"></i> Hotel</a></li>';
+		echo '<li><a href="#tabs-3"><i class="fa fa-usd"></i> Prices</a></li>';
+		echo '<li><a $nodisp href="#tabs-4"><i class="fa fa-commenting"></i> FAQs</a></li>';
 	}
 
 	function cruiseNav(){
-						echo '<li><a href="#tabs-1"><i class="fa fa-file-text-o"></i> Overview</a></li>';
-                        echo '<li><a href="#tabs-2"><i class="fa fa-ship"></i> Ship</a></li>';
-                        echo '<li><a href="#tabs-3"><i class="fa fa-usd"></i> Prices</a></li>';
-                        echo '<li><a href="#tabs-4"><i class="fa fa-commenting"></i> FAQs</a></li>';
+		echo '<li><a href="#tabs-1"><i class="fa fa-file-text-o"></i> Overview</a></li>';
+		echo '<li><a href="#tabs-2"><i class="fa fa-ship"></i> Ship</a></li>';
+		echo '<li><a href="#tabs-3"><i class="fa fa-usd"></i> Prices</a></li>';
+		echo '<li><a href="#tabs-4"><i class="fa fa-commenting"></i> FAQs</a></li>';
 	}
 
 	function  phoneNumber(){
-						echo 'Contact us at (888) 946-9655';
+		echo 'Contact us at (888) 946-9655';
 	}
 
 	function tabsDefault(){
@@ -75,7 +75,4 @@
 include("home-featured-events.inc.php");
 $now = strtotime("now");
 date_default_timezone_set('America/Chicago');
-
-
-
 ?>
