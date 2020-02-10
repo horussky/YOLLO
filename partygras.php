@@ -382,9 +382,9 @@ $package_items = array(
                 
                
                 <h4>Hotel Accommodations</h4>
-                <img style="width:15rem; float:left; margin-right:2rem" src="https://t-ec.bstatic.com/images/hotel/max1024x768/191/19191223.jpg" />
+                <img style="width:15rem; float:left; margin-right:2rem" src="https://ihg.scene7.com/is/image/ihg/holiday-inn-hotel-and-suites-chattanooga-4241629144-2x1?wid=2400&hei=1200&qlt=85,0&resMode=sharp2&op_usm=1.75,0.9,2,0&qlt=85,0&resMode=sharp2&op_usm=1.75,0.9,2,0" />
 				<p class="mb-10"><strong>Holiday Inn &amp; Suites Chattanooga Downtown</strong></p>
-               	<p>For anyone needing hotel accommodations you can  <a target="_blank" href="https://www.ihg.com/holidayinn/hotels/us/en/chattanooga/chadt/hoteldetail?fromRedirect=true&qSrt=sBR&qIta=99801505&icdv=99801505&qSlH=CHADT&qGrpCd=PG2&setPMCookies=true&qDest=434%20Chestnut%20Street,%20Chattanooga,%20TN,%20US&srb_u=1">secure your hotel room</a> at a special discounted rate of <strong>$129</strong>. The special rate ends September 15, 2019.</p>
+               	<p>For anyone needing hotel accommodations you can  <a target="_blank" href="https://www.ihg.com/holidayinn/hotels/us/en/find-hotels/hotel/rooms?qDest=434%20Chestnut%20Street,%20Chattanooga,%20TN,%20US&qCiMy=72020&qCiD=15&qCoMy=72020&qCoD=16&qAdlt=1&qChld=0&qRms=1&qRtP=6CBARC&qIta=99801505&qGrpCd=YOL&qSlH=CHADT&qAkamaiCC=US&qSrt=sBR&qBrs=re.ic.in.vn.cp.vx.hi.ex.rs.cv.sb.cw.ma.ul.ki.va.ii.&qAAR=6CBARC&qWch=0&qSmP=1&setPMCookies=true&qRad=30&qRdU=mi&srb_u=1&qSHBrC=HI&icdv=99801505">secure your hotel room</a> at a special discounted rate of <strong>$129</strong>. The special rate ends September 15, 2019.</p>
                
 
 				

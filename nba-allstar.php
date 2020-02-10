@@ -21,13 +21,13 @@ $geolocation = array(
 		"soldout"	    => false,
 		"img_url"		=>"//images.trvl-media.com/hotels/1000000/30000/22700/22684/682b49ef_z.jpg"
 	),
-    "hotel2"=> array(
+    /*"hotel2"=> array(
 		"title" 		=>"Hampton Inn Chicago Downtown/Magnificent Mile",
 		"address"		=>"160 E Huron Street",
 		"location"		=>"Chicago, IL 60611",
 		"soldout"	    => false,
 		"img_url"		=>"//media-cdn.tripadvisor.com/media/photo-s/06/b0/08/fb/magnificent-mile.jpg"
-	)
+	)*/
 
 );
 
@@ -152,6 +152,9 @@ $package_items = array(
                         
                         <p>In 2020, the Windy City of Chicago will host the 69th annual All-Star game. After a 30 year hiatus from the event, All-Star Weekend in Chi-town is sure to be all anyone can ask for. This event attracts a lot of  big celebrities and many of them host many of the festivities. YOLLO has the all-inclusive package to get you face-to-face with these celebrities. From party passes, hotel stay, and celebrity hosted events, YOLLO is here for your turn up!</p>
 
+<h4>Lavish Life Yacht Party Cruise</h4>
+						<p>This annual All Black All–Star event was so LIVE during NBA All Star Charlotte half the tickets were sold for Chicago during the first week of sales!  The Lavish Life Yacht Party is happening aboard the Anita Dee II Yacht during NBA All Star Weekend Chicago! This luxurious yacht will serve as the host for the LIVEST and GROWNEST party during NBA All Star Chicago!  Enjoy a multi-level climate controlled yacht, while listening to the livest Hip-Hop and R&B music from Chicago’s own DJ Sean Mac and YOLLO #1 party rocker DJ Dre Smoove! Our ALL BLACK themed cruise is a HUGE hit among attendees, but it's not required to attend the cruise. The cruise sails from 3:00 pm – 6:00 pm. Please remember that once we sell out, we will not have any more tickets available.<p>
+
                         <p>Allow us to give you an exciting travel experience during the All-Star Weekend. Make sure you explore our hotel and pricing options and book with YOLLO Group Services today!</p>
 
                     </div> <!-- ./ overview -->
@@ -243,7 +246,7 @@ $package_items = array(
                                         <li>Saturday Night Party (Celebrity Hosted)</li>
                                     </ul>
 
-                                    <p class="lead">Rising Star - $650 </p>
+                                    <p class="lead">Rising Star - $650 - SOLD OUT </p>
                                     <ul>										
                                         <li>Jam Sessions Ticket</li>
                                         <li>Colors and Cocktails</li>
@@ -281,9 +284,9 @@ $package_items = array(
                             
                             <div class="accordion open" data-accordion>
 
-                                <div data-control>What is included with the Jam Session Tickets</div>
+                                <div data-control>What is included with the NBA Crossover formerly Jam Session Tickets</div>
                                 <div data-content>
-                                <p>Jam Session tickets grant you access to meet and greet with NBA and WNBA players and legends. You can also get basketball tips, free autographs from NBA All Stars, and more. This gives you the opportunity to gain access to the NBA like never before.</p>
+                                <p>NBA Crossover formerly known as Jam Session  is a global event and brand that highlights all aspects of culture that surround the NBA – art, music, fashion and technology. NBA players and legends will be making appearances during the event. It provides fans who are attending this event with an opportunity to come out and experience part of NBA All-Star.</p>
                                 </div>
 
                             </div><!-- end of accordion-->
@@ -291,13 +294,22 @@ $package_items = array(
 
                             <div class="accordion" data-accordion>
 
+                                <div data-control>What should I expect at theNBA All-Star Practice & Media Day presented by AT&T?</div>
+                                <div data-content>
+                                <p>This unique, behind-the-scenes event is your opportunity to see the NBA’s biggest stars interviewed by media from around the world. Fans can then watch the entire NBA All-Star Game squad train for Sunday’s showcase.</p>
+                                </div>
+
+                            </div><!-- end of accordion-->
+
+
+<div class="accordion" data-accordion>
+
                                 <div data-control>When are the payments due?</div>
                                 <div data-content>
                                 <p>After registration the first payment of $250 is due seven days after registration. The final payment (remaining balance) is due on or before January 20, 2020.</p>
                                 </div>
 
                             </div><!-- end of accordion-->
-
 
                             <div class="accordion" data-accordion>
 
@@ -312,7 +324,7 @@ $package_items = array(
 
                                 <div data-control>When is the NBA All-Star Game?</div>
                                 <div data-content>
-                                <p>NBA All-Star Weekend 2020 will take place in Chicago, IL on Feb. 14-1, 2020.</p>
+                                <p>NBA All-Star Weekend 2020 will take place in Chicago, IL on Feb. 14, 2020.</p>
                                 </div>
 
                             </div><!-- end of accordion-->
@@ -332,7 +344,9 @@ $package_items = array(
 
                                 <div data-control>What are Celebrity Game Tickets?</div>
                                 <div data-content>
-                                <p>The celebrity game tickets give you access to the annual basketball game that features retired NBA players, WNBA players, actors, musicians and athletes from sports other than basketball. Past celebrities whom have hosted parties have been the likes of P. Diddy, Young Jezzy, Floyd Mayweather, Jamie Foxx and Kevin Hart.</p>
+                                <p>The celebrity game tickets give you access to the annual basketball game that features retired NBA players, WNBA players, actors, musicians and athletes from sports other than basketball. Past celebrities whom have hosted parties have been the likes of P. Diddy, Young Jezzy, Floyd Mayweather, Jamie Foxx and Kevin Hart. The NBA All-Star Celebrity Game presented by Ruffles is an exhibition featuring musicians, actors,
+comedians, as well as WNBA players and NBA Legends.
+6:00 PM on Friday, February 14th, at Wintrust Arena (200 E Cermak Road). Doors open at 4:00 PM.</p>
                                 </div>
 
                             </div><!-- end of accordion-->
