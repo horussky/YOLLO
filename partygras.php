@@ -137,7 +137,7 @@ $package_items = array(
                           
                         <p>This will be a FULL day of good music, adult drinks, mingling, and fun for everyone attending. The boat features three (3) party decks with multiple DJ's. Live entertainment will feature spoken word artists, comedians, and performances by R&amp;B/Hip Hop artist! FREE margaritas will be on deck at our welcome reception! <strong>This event WILL SELL OUT quickly</strong>, so purchase your tickets today. For questions and tickets call: <strong>(888) 946-9655 </strong> or <a data-href="#tabs-5" class="open-tab">purchase your tickets online now.</a></p>
                        	
-						<p>Don't wait as this event will fill up fast, book this event today. We are also providing hotel accommodations via the Holiday Inn and Suites Downtown Chattanooga at a special discounted rate of <strong>$129</strong>. You can <a target="_blank" href="https://www.ihg.com/holidayinn/hotels/us/en/chattanooga/chadt/hoteldetail?fromRedirect=true&qSrt=sBR&qIta=99801505&icdv=99801505&qSlH=CHADT&qGrpCd=PG2&setPMCookies=true&qDest=434%20Chestnut%20Street,%20Chattanooga,%20TN,%20US&srb_u=1">secure your hotel room</a> today by visiting the host properties website. </p>
+						<p>Don't wait as this event will fill up fast, book this event today. We are also providing hotel accommodations via the Holiday Inn and Suites Downtown Chattanooga at a special discounted rate of <strong>$139</strong>. You can <a target="_blank" href="https://www.ihg.com/holidayinn/hotels/us/en/find-hotels/hotel/rooms?qDest=434%20Chestnut%20Street,%20Chattanooga,%20TN,%20US&qCiMy=72020&qCiD=15&qCoMy=72020&qCoD=16&qAdlt=1&qChld=0&qRms=1&qRtP=6CBARC&qIta=99801505&qGrpCd=YOL&qSlH=CHADT&qAkamaiCC=US&qSrt=sBR&qBrs=re.ic.in.vn.cp.vx.hi.ex.rs.cv.sb.cw.ma.ul.ki.va.ii.&qAAR=6CBARC&qWch=0&qSmP=1&setPMCookies=true&qRad=30&qRdU=mi&srb_u=1&qSHBrC=HI&icdv=99801505">secure your hotel room</a> today by visiting the host properties website. </p>
                         
                         <p><strong>Live show:</strong> 2PM- 5PM<br>
 						<strong>Cruise Boarding:</strong> 10:30PM<br> 
@@ -217,7 +217,7 @@ $package_items = array(
 
 							  <div data-control>What is the official host property for the Party Gras?</div>
 							  <div data-content>
-								  <p>The host property is the Holiday Inn and Suites Downtown Chattanooga. The address is 434 Chestnut Street Chattanooga, TN, 37402. You can <a target="_blank" href="https://www.ihg.com/holidayinn/hotels/us/en/chattanooga/chadt/hoteldetail?fromRedirect=true&qSrt=sBR&qIta=99801505&icdv=99801505&qSlH=CHADT&qGrpCd=PG2&setPMCookies=true&qDest=434%20Chestnut%20Street,%20Chattanooga,%20TN,%20US&srb_u=1">book a room at a discounted price</a> of $129 today while roooms are available.</p>
+								  <p>The host property is the Holiday Inn and Suites Downtown Chattanooga. The address is 434 Chestnut Street Chattanooga, TN, 37402. You can <a target="_blank" href="https://www.ihg.com/holidayinn/hotels/us/en/find-hotels/hotel/rooms?qDest=434%20Chestnut%20Street,%20Chattanooga,%20TN,%20US&qCiMy=72020&qCiD=15&qCoMy=72020&qCoD=16&qAdlt=1&qChld=0&qRms=1&qRtP=6CBARC&qIta=99801505&qGrpCd=YOL&qSlH=CHADT&qAkamaiCC=US&qSrt=sBR&qBrs=re.ic.in.vn.cp.vx.hi.ex.rs.cv.sb.cw.ma.ul.ki.va.ii.&qAAR=6CBARC&qWch=0&qSmP=1&setPMCookies=true&qRad=30&qRdU=mi&srb_u=1&qSHBrC=HI&icdv=99801505">book a room at a discounted price</a> of $139 today while roooms are available.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -226,7 +226,7 @@ $package_items = array(
 
 							  <div data-control>What time is the bus departing from Birmingham? </div>
 							  <div data-content>
-								  <p>The charter will depart Birmingham at 9 am Saturday October 12, 2019. The charter will leave Chattanooga, TN at 10 am on Sunday, October 13, 2019. Please note the 10 am departure from Chattanooga is Eastern Standard Time. If you haven’t please secure your room at the host property which is the Holiday Inn and Suites Downtown Chattanooga. Our guest will receive a special rate if you utilize the link on the page. If you travel via the bus YOU will need to reserve a room because the bus does not leav until the next morning.  </p>
+								  <p>The charter will depart Birmingham at 9 am Saturday August 15, 2020. The charter will leave Chattanooga, TN at 10 am on Sunday, August 16, 2020. Please note the 10 am departure from Chattanooga is Eastern Standard Time. If you haven’t please secure your room at the host property which is the Holiday Inn and Suites Downtown Chattanooga. Our guest will receive a special rate if you utilize the link on the page. If you travel via the bus YOU will need to reserve a room because the bus does not leave until the next morning.  </p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -236,7 +236,7 @@ $package_items = array(
 
 							  <div data-control>Why do I have to secure my own hotel accommodations?</div>
 							  <div data-content>
-								  <p>We want to give each individual the choice to secure their own accommodations for this exciting event! However we are providing a great <a target="_blank" href="https://www.ihg.com/holidayinn/hotels/us/en/chattanooga/chadt/hoteldetail?fromRedirect=true&qSrt=sBR&qIta=99801505&icdv=99801505&qSlH=CHADT&qGrpCd=PG2&setPMCookies=true&qDest=434%20Chestnut%20Street,%20Chattanooga,%20TN,%20US&srb_u=1">discounted price for booking at the host hotel property</a>. One advantage of booking with the host property is it will grant access to other events for the weekend, such as the meet and greet reception.  </p>
+								  <p>We want to give each individual the choice to secure their own accommodations for this exciting event! However we are providing a great <a target="_blank" href="https://www.ihg.com/holidayinn/hotels/us/en/find-hotels/hotel/rooms?qDest=434%20Chestnut%20Street,%20Chattanooga,%20TN,%20US&qCiMy=72020&qCiD=15&qCoMy=72020&qCoD=16&qAdlt=1&qChld=0&qRms=1&qRtP=6CBARC&qIta=99801505&qGrpCd=YOL&qSlH=CHADT&qAkamaiCC=US&qSrt=sBR&qBrs=re.ic.in.vn.cp.vx.hi.ex.rs.cv.sb.cw.ma.ul.ki.va.ii.&qAAR=6CBARC&qWch=0&qSmP=1&setPMCookies=true&qRad=30&qRdU=mi&srb_u=1&qSHBrC=HI&icdv=99801505">discounted price for booking at the host hotel property</a>. One advantage of booking with the host property is it will grant access to other events for the weekend, such as the meet and greet reception. Also, this is the lowest rate in downtown Chattanooga anywhere!</p>
 							  </div>
 
 							</div><!-- end of accordion-->	
@@ -256,7 +256,7 @@ $package_items = array(
 
 							  <div data-control>Where will the bus depart from?</div>
 							  <div data-content>
-								<p>We will depart from Birmingham, Alabama at 10AM October 12th and depart from Chattanooga at 10AM on October 13th.</p>
+								<p>We will depart from Birmingham, Alabama at 9 AM August 15th and depart from Chattanooga at 10AM on August 16th.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -384,7 +384,7 @@ $package_items = array(
                 <h4>Hotel Accommodations</h4>
                 <img style="width:15rem; float:left; margin-right:2rem" src="https://ihg.scene7.com/is/image/ihg/holiday-inn-hotel-and-suites-chattanooga-4241629144-2x1?wid=2400&hei=1200&qlt=85,0&resMode=sharp2&op_usm=1.75,0.9,2,0&qlt=85,0&resMode=sharp2&op_usm=1.75,0.9,2,0" />
 				<p class="mb-10"><strong>Holiday Inn &amp; Suites Chattanooga Downtown</strong></p>
-               	<p>For anyone needing hotel accommodations you can  <a target="_blank" href="https://www.ihg.com/holidayinn/hotels/us/en/find-hotels/hotel/rooms?qDest=434%20Chestnut%20Street,%20Chattanooga,%20TN,%20US&qCiMy=72020&qCiD=15&qCoMy=72020&qCoD=16&qAdlt=1&qChld=0&qRms=1&qRtP=6CBARC&qIta=99801505&qGrpCd=YOL&qSlH=CHADT&qAkamaiCC=US&qSrt=sBR&qBrs=re.ic.in.vn.cp.vx.hi.ex.rs.cv.sb.cw.ma.ul.ki.va.ii.&qAAR=6CBARC&qWch=0&qSmP=1&setPMCookies=true&qRad=30&qRdU=mi&srb_u=1&qSHBrC=HI&icdv=99801505">secure your hotel room</a> at a special discounted rate of <strong>$129</strong>. The special rate ends September 15, 2019.</p>
+               	<p>For anyone needing hotel accommodations you can  <a target="_blank" href="https://www.ihg.com/holidayinn/hotels/us/en/find-hotels/hotel/rooms?qDest=434%20Chestnut%20Street,%20Chattanooga,%20TN,%20US&qCiMy=72020&qCiD=15&qCoMy=72020&qCoD=16&qAdlt=1&qChld=0&qRms=1&qRtP=6CBARC&qIta=99801505&qGrpCd=YOL&qSlH=CHADT&qAkamaiCC=US&qSrt=sBR&qBrs=re.ic.in.vn.cp.vx.hi.ex.rs.cv.sb.cw.ma.ul.ki.va.ii.&qAAR=6CBARC&qWch=0&qSmP=1&setPMCookies=true&qRad=30&qRdU=mi&srb_u=1&qSHBrC=HI&icdv=99801505">secure your hotel room</a> at a special discounted rate of <strong>$139</strong>. The special rate ends June 15, 2020 or when the room block is full.</p>
                
 
 				

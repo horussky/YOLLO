@@ -50,8 +50,8 @@
         ),
         "nba" => array(
             "title"     => "NBA All-Star Weekend",
-            "desc"      => "YOLLO is providing all-inclusive packages for NBA All-Star Weekend 2020 in Chicago.",
-            "keywords"  => "NBA All-Star, NBA All-Star Weekend packages 2020, Chicago",
+            "desc"      => "YOLLO is providing all-inclusive packages for NBA All-Star Weekend 2021 in Indianapolis.",
+            "keywords"  => "NBA All-Star, NBA All-Star Weekend packages 2021, Indianapolis",
             "canonical" => "https://www.goyollo.com/nba-allstar"
         ),
         "partygras" => array(
@@ -66,11 +66,23 @@
             "keywords"  => "CIAA, College Basketball, Charlotte, North Carolina, YOLLO",
             "canonical" => "https://www.goyollo.com/the-tourney"
         ),
-        "urbanfantasy" => array(
+        "urbanfantasy"  => array(
             "title"     => "Urban Fantasy Cruise",
             "desc"      => "An Urban Fantasy from Grand Turks to Cuba!",
             "keywords"  => "Urban Fantasy, Grand Turks, Cuba, YOLLO",
             "canonical" => "https://www.goyollo.com/urban-fantasy"
+        ),
+        "springfling"   => array(
+            "title"     => "Spring Fling Music Festival",
+            "desc"      => "The ultimate blues music festival",
+            "keywords"  => "Spring Fling, Spring Break, Mobile, YOLLO",
+            "canonical" => "https://www.goyollo.com/spring-fling-festival"
+        ),
+        "springbreakaway" => array(
+            "title"     => "Spring Breakaway Cruise",
+            "desc"      => "A Spring Getaway to Cozumel Mexico",
+            "keywords"  => "Spring Breakaway, Spring Break, Cozumel, Mexican Cruise, YOLLO",
+            "canonical" => "https://www.goyollo.com/spring-breakaway-cruise"
         ),
         "urbanfiesta" => array(
             "title"     => "Urban Fiesta in Jamaica",

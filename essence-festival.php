@@ -5,11 +5,11 @@
     include 'includes/meta.config.inc.php';
 
 	$event = array(
-		"title"				=>"Essence Music Festival 2020",
+		"title"				=>"Essence Music Festival 2021",
 		"subtitle"			=>"The BEST girls or guys getaway trip!",
 		"location"			=>"New Orleans, LA",
-		"date"				=>"July 3-5, 2020",
-        "date_start"		=>"July 3, 2020",
+		"date"				=>"July 2-4, 2021",
+        "date_start"		=>"July 2, 2021",
 		"img_url"			=>"../../images/slides/splash-essence-cta.jpg",
 		"img_alt"			=>"Essence Festival 2017"
 	);
@@ -156,16 +156,16 @@
                         
                         <?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
-						<h3>Join us for the 26th Annual Essence Festival Weekend</h3>
+						<h3>Join us for the 27th Annual Essence Festival Weekend</h3>
 
-                        <p>It's amazing but this year will mark the 26th annual Essence Music Festival. This annual mega event is filled with concerts, seminars and celebrities, all sponsored by Essence Magazine. If you are looking for parties, concerts, party cruise, along with more celebrities than you can handle, then you should <a data-href="#tabs-5" class="open-tab">book with us today!</a> We are the #1 source for Essence Festival Weekend activities in 2020. </p>
+                        <p>It's amazing but this year will mark the 27th annual Essence Music Festival. This annual mega event is filled with concerts, seminars and celebrities, all sponsored by Essence Magazine. If you are looking for parties, concerts, party cruise, along with more celebrities than you can handle, then you should <a data-href="#tabs-5" class="open-tab">book with us today!</a> We are the #1 source for Essence Festival Weekend activities in 2021. </p>
 
 						<h4>The Original All-White Mid-Day Cruise Party </h4>
 
-						<p>This is the original All-White cruise party and the event everyone talks about during Essence Fest weekend! This is the 15th annual Mid-Day Cruise Party, happening on the famous Creole Queen for your cruising delight. Enjoy a multi-level boat cruising the Mighty Mississippi River, while listening to the best Hip-Hop and R&amp;B music. The theme is "All White" attire preferred, but not required for this cruise.</p>
+						<p>This is the original All-White cruise party and the event everyone talks about during Essence Fest weekend! This is the 16th annual Mid-Day Cruise Party, happening on the famous Creole Queen for your cruising delight. Enjoy a multi-level boat cruising the Mighty Mississippi River, while listening to the best Hip-Hop and R&amp;B music. The theme is "All White" attire preferred, but not required for this cruise.</p>
 
 						<h4>The Mid-Day Comedy Show</h4>
-						<p>If you are ready to bust a gut, the 9th annual Mid-Day Comedy Show is the event for you. Our comedian's, like years past, will have you in stitches. If you are looking for good food, great drinks, and lots of laugh, this is the event you cannot miss. Don't think we are going to let you down with our 2020 lineup! </p>
+						<p>If you are ready to bust a gut, the 9th annual Mid-Day Comedy Show is the event for you. Our comedian's, like years past, will have you in stitches. If you are looking for good food, great drinks, and lots of laugh, this is the event you cannot miss. Don't think we are going to let you down with our 2021 lineup! </p>
 
 						<p>Do the right thing and <a data-href="#tabs-5" class="open-tab">Book now</a> with YOLLO Group Services Inc. and allow us to give you the best travel experience while in New Orleans!</p>
 
@@ -292,7 +292,7 @@
 
 							  <div data-control>What are the payment due dates for Essence Packages?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 per person is due on or before  February 5, 2020. The second payment of $250 per person is due on or before February 20, 2020. The final payment (remaining balance) is due on or before March 15, 2020. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 per person is due on or before  February 26, 2020. The second payment of $250 per person is due on or before March 10, 2020. The final payment (remaining balance) is due on or before April 1, 2020. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

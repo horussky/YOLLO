@@ -4,46 +4,46 @@ include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"				=>"All-Star Weekend 2020",
-	"subtitle"			=>"Here we come Windy City! Lock in your package TODAY!",
-	"location"			=>"Chicago, IL",
-	"date"				=>"February 14-16, 2020",
-    "date_start"        =>"February 14, 2020",
+	"title"				=>"All-Star Weekend 2021",
+	"subtitle"			=>"Here we come Circle City! Save $100 off until June 1st!",
+	"location"			=>"Indianapolis, IN",
+	"date"				=>"February 12-14, 2021",
+    "date_start"        =>"February 12, 2021",
 	"img_url"			=>"../../images/slides/splash-nba-cta.jpg",
 );
 
 $geolocation = array(
  
 	"hotel1"=> array(
-		"title" 		=>"Claridge House",
-		"address"		=>"1244 N Dearborn Pkwy",
-		"location"		=>"Chicago, IL 60610",
+		"title" 		=>"Candlewood Suites NW",
+		"address"		=>"7455 Woodland Dr",
+		"location"		=>"Indianapolis, IN 46278",
 		"soldout"	    => false,
-		"img_url"		=>"//images.trvl-media.com/hotels/1000000/30000/22700/22684/682b49ef_z.jpg"
+		"img_url"		=>"//media-cdn.tripadvisor.com/media/photo-s/17/d7/03/29/guest-room.jpg"
 	),
-    /*"hotel2"=> array(
-		"title" 		=>"Hampton Inn Chicago Downtown/Magnificent Mile",
-		"address"		=>"160 E Huron Street",
-		"location"		=>"Chicago, IL 60611",
+    "hotel2"=> array(
+		"title" 		=>"Indianapolis Marriott East",
+		"address"		=>"7202 East 21st St",
+		"location"		=>"Indianapolis, IN 46219",
 		"soldout"	    => false,
-		"img_url"		=>"//media-cdn.tripadvisor.com/media/photo-s/06/b0/08/fb/magnificent-mile.jpg"
-	)*/
+		"img_url"		=>"//cache.marriott.com/marriottassets/marriott/INDDT/inddt-pool-3602-hor-feat.jpg"
+	)
 
 );
 
 $people = array(
 		"diamond"=> array(
-			"Group of 4" 			=>"$990",
-			"Group of 3"			=>"$1055",
-			"Group of 2"			=>"$1165",
-			"Individual"			=>"$2565"
+			"Group of 4" 			=>"$2,690",
+			"Group of 3"			=>"$2,855",
+			"Group of 2"			=>"$2,965",
+			"Individual"			=>"$3,665"
 		),
 
 		"emerald"=> array(
-			"Group of 4" 			=>"$865",
-			"Group of 3"			=>"$945",
-			"Group of 2"			=>"$1045",
-			"Individual"			=>"$2050"
+			"Group of 4" 			=>"$890",
+			"Group of 3"			=>"$1,055",
+			"Group of 2"			=>"$1,165",
+			"Individual"			=>"$1,865"
 		),
 
 		"options"=>array(
@@ -59,26 +59,30 @@ $package_items = array(
     "diamond_items" => array(
         "Hotel Accommodations (Fri-Sun)"                    => "checked",
         "Complimentary Night"                               => "checked",
-        "Complimentary Breakfast (Hampton Inn Only)"        => "checked",
+        "My Black Is Beauiful Film Review"                  => "checked",
         "Celebrity Hosted Party Ticket (Friday)"            => "checked",
         "Celebrity Hosted Party Ticket (Sunday)"            => "checked",
-        "Jam Sessions Tickets"                              => "checked",
+        "NBA Crossover Tickets"                             => "checked",
+       "Slam Dunk Contest Ticket (Saturday)"                => "checked",
+        "Three Point Contest Ticket (Saturday)"             => "checked",
+        "Skills Challenge Ticket (Saturday)"                => "checked",
         "Celebrity Game Ticket"                             => "checked",
         "Mid-Day Party"                                     => "checked",
-        "Lavish Life Yacht Cruise"                          => "checked",
         "YOLLO Gift Bag"                                    => "checked"
     ),
 
 	"emerald_items" => array(
 		"Hotel Accommodations (Fri-Sun)"					=> "checked",
 		"Complimentary Night"								=> "checked",
-		"Complimentary Breakfast (Hampton Inn Only)"		=> "checked",
+		"My Black Is Beauiful Film Review"		            => "checked",
 		"Celebrity Hosted Party Ticket (Friday)"	        => "ex",
 		"Celebrity Hosted Party Ticket (Sunday)"	        => "checked",
-		"Jam Sessions Tickets"								=> "checked",
-		"Celebrity Game Ticket"								=> "checked",
+		"NBA Crossover Tickets"								=> "checked",
+		"Slam Dunk Contest Ticket (Saturday)"               => "ex",
+        "Three Point Contest Ticket (Saturday)"             => "ex",
+        "Skills Challenge Ticket"                           => "ex",
+		"Celebrity Game Ticket"								=> "ex",
 		"Mid-Day Party"										=> "checked",
-		"Lavish Life Yacht Cruise"						    => "ex",
 		"YOLLO Gift Bag"									=> "checked"
 			),
 
@@ -149,11 +153,13 @@ $package_items = array(
                     <?php echo $responsive_tabs["overview"]; ?>
                     <div class="tab" aria-label="overview">
                         <h3><?php echo $event["title"]?></h3>
-                        
-                        <p>In 2020, the Windy City of Chicago will host the 69th annual All-Star game. After a 30 year hiatus from the event, All-Star Weekend in Chi-town is sure to be all anyone can ask for. This event attracts a lot of  big celebrities and many of them host many of the festivities. YOLLO has the all-inclusive package to get you face-to-face with these celebrities. From party passes, hotel stay, and celebrity hosted events, YOLLO is here for your turn up!</p>
 
-<h4>Lavish Life Yacht Party Cruise</h4>
-						<p>This annual All Black All–Star event was so LIVE during NBA All Star Charlotte half the tickets were sold for Chicago during the first week of sales!  The Lavish Life Yacht Party is happening aboard the Anita Dee II Yacht during NBA All Star Weekend Chicago! This luxurious yacht will serve as the host for the LIVEST and GROWNEST party during NBA All Star Chicago!  Enjoy a multi-level climate controlled yacht, while listening to the livest Hip-Hop and R&B music from Chicago’s own DJ Sean Mac and YOLLO #1 party rocker DJ Dre Smoove! Our ALL BLACK themed cruise is a HUGE hit among attendees, but it's not required to attend the cruise. The cruise sails from 3:00 pm – 6:00 pm. Please remember that once we sell out, we will not have any more tickets available.<p>
+                        <p>YOLLO is taking you to the Circle City in 2021. Yes, Indianapolis will host the 70th annual All-Star game after a 36-year hiatus. This three-day weekend event attracts lots of celebrities. Most of these celebs host some of the hottest parties in the city. </p>
+
+                        <p>YOLLO has an all-inclusive package to get you face-to-face with these celebrities. From party passes, hotel stay, and celebrity-hosted events, YOLLO is here for your turn up!</p>
+
+                        <h4>Party with YOLLO during All Star Weekend</h4>
+						<p>This annual event brings out the BEST of the BEST and the parties are just as GREAT! Events cover the city all weekend long and YOLLO puts you in the LIVEST paries and events throughout the weekend.  One of our fan favorite events is our Colors and Cocktails event! Last years' tribute to Kobe Byrant painting was a HUGE hit and in 2021 it will be even better! Please remember that once we sell out, we will not have any more tickets available. Lock in your package today for only 29.99 and enjoy our convenient payment plan.<p>
 
                         <p>Allow us to give you an exciting travel experience during the All-Star Weekend. Make sure you explore our hotel and pricing options and book with YOLLO Group Services today!</p>
 
@@ -237,18 +243,18 @@ $package_items = array(
                                     <h4>Party Pass Options: </h4>
                                     <p>These options are not the same and are separate from the all-inclusive options listed above; and are intended for those not in need of hotel accommodations. </p>
 
-                                    <p class="lead">Rookie - $450 </p>
+                                    <p class="lead">Rookie - $550 </p>
                                     <ul>
                                         <li>Friday Night Party</li>
-                                        <li>Jam Sessions Ticket</li>
+                                        <li>NBA Crossover Ticket</li>
                                         <li>Colors and Cocktails</li>
                                         <li>Comedy Show - acts announced closer to event</li>
                                         <li>Saturday Night Party (Celebrity Hosted)</li>
                                     </ul>
 
-                                    <p class="lead">Rising Star - $650 - SOLD OUT </p>
+                                    <p class="lead">Rising Star - $750 </p>
                                     <ul>										
-                                        <li>Jam Sessions Ticket</li>
+                                        <li>NBA Crossover Ticket</li>
                                         <li>Colors and Cocktails</li>
                                         <li>Comedy Show - acts announced closer to event</li>
                                         <li>Saturday Night Party (Celebrity Hosted)</li>
@@ -257,11 +263,11 @@ $package_items = array(
                                         <li>All Star Practice Game ticket</li>							
                                     </ul>
 
-                                    <p class="lead">All-Star - $850 (best seller)- SOLD OUT</p>
+                                    <p class="lead">All-Star - $950 (best seller)</p>
                                     <ul>
 
                                         <li>Friday Night Party (Celebrity Hosted)</li>
-                                        <li>Jam Sessions Ticket</li>
+                                        <li>NBA Crossover Ticket</li>
                                         <li>Colors and Cocktails</li>
                                         <li>Comedy Show - acts announced closer to event</li>
                                         <li>Saturday Night Party (Celebrity Hosted)</li>
@@ -306,16 +312,16 @@ $package_items = array(
 
                                 <div data-control>When are the payments due?</div>
                                 <div data-content>
-                                <p>After registration the first payment of $250 is due seven days after registration. The final payment (remaining balance) is due on or before January 20, 2020.</p>
+                                <p>After registration the first payment of $125 is due June 15, 2020.  The second payment of $250 is due August 10, 2020. The final payment (remaining balance) is due on or before November 10, 2020.</p>
                                 </div>
 
                             </div><!-- end of accordion-->
 
                             <div class="accordion" data-accordion>
 
-                                <div data-control>Who won the All- Star game the last time it was hosted in Chicago?</div>
+                                <div data-control>Who won the All- Star game the last time it was hosted in Indianapolis?</div>
                                 <div data-content>
-                                <p>The game was hosted in Chicago in 1988. The game final score was East 138 vs West 133. Michael Jordon was the MVP of the game.</p>
+                                <p>The game was hosted in the Hoosier Dome. The game final score was East 129 vs West 140. Ralph Sampson was the MVP of the game.</p>
                                 </div>
 
                             </div><!-- end of accordion-->
@@ -324,7 +330,7 @@ $package_items = array(
 
                                 <div data-control>When is the NBA All-Star Game?</div>
                                 <div data-content>
-                                <p>NBA All-Star Weekend 2020 will take place in Chicago, IL on Feb. 14, 2020.</p>
+                                <p>NBA All-Star Weekend 2021 weekend will start on Feb. 12, 2021 in Indianapolis, IN. The game will be played on Feb. 14, 2021 at Bankers Life Fieldhouse. </p>
                                 </div>
 
                             </div><!-- end of accordion-->
@@ -345,8 +351,8 @@ $package_items = array(
                                 <div data-control>What are Celebrity Game Tickets?</div>
                                 <div data-content>
                                 <p>The celebrity game tickets give you access to the annual basketball game that features retired NBA players, WNBA players, actors, musicians and athletes from sports other than basketball. Past celebrities whom have hosted parties have been the likes of P. Diddy, Young Jezzy, Floyd Mayweather, Jamie Foxx and Kevin Hart. The NBA All-Star Celebrity Game presented by Ruffles is an exhibition featuring musicians, actors,
-comedians, as well as WNBA players and NBA Legends.
-6:00 PM on Friday, February 14th, at Wintrust Arena (200 E Cermak Road). Doors open at 4:00 PM.</p>
+comedians, as well as WNBA players and NBA Legends.</p>
+
                                 </div>
 
                             </div><!-- end of accordion-->
@@ -387,7 +393,7 @@ comedians, as well as WNBA players and NBA Legends.
 
 
                     </div><!-- ./ buy now -->
-                    
+                    <?php /* ?>
                     <input type="radio" name="tabs" id="tab-6"><label for="tab-6"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Cruise</label>
                     <div class="tab" aria-label="buy">
                         <h3>Buy Cruise Now</h3>
@@ -395,7 +401,7 @@ comedians, as well as WNBA players and NBA Legends.
                     </div><!-- ./ buy now -->
                     
                     
-                    <?php /* ?>
+                    
                     <input type="radio" name="tabs" id="tab-6">
                     <label for="tab-6"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Buy Cruise</label>
                     <div class="tab" aria-label="buy cruise">
