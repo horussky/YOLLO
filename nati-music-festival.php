@@ -5,11 +5,11 @@ include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"					=>"Cincinnati Music Festival 2020",
+	"title"					=>"Cincinnati Music Festival 2021",
 	"subtitle"				=>"Book your package today!",
 	"location"				=>"Cincinnati, Ohio",
-	"date"					=>"July 24-26, 2020",
-    "date_start"			=>"July 24, 2020",
+	"date"					=>"July 23-25, 2021",
+    "date_start"			=>"July 23, 2021",
 	"img_url"				=>"../../images/slides/splash-mmf-cta.jpg",
 	"img_alt"				=>"Cincinnati Music Festival"
 );
@@ -252,7 +252,7 @@ $package_items = array(
 
 							  <div data-control>What are the payment due dates for Cincinnati Music Festival Packages?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 is due on or before <strong>February 20, 2020</strong>. The final payment (remaining balance) is due on or before <strong>May 23, 2020</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 is due on or before <strong>August 25, 2020</strong>. The final payment (remaining balance) is due on or before <strong>January 23, 2021</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

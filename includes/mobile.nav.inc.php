@@ -2,25 +2,25 @@
 
 define("EVENT", serialize ($nav = array(
 			array(
-					"title"	=>	"Alumni Getaway Cruise",
-				  	"class"	=>	"alumni",
-				  	"link"	=>	"/alumni-getaway-cruise"
+				"title"	=>	"Alumni Getaway Cruise",
+				"class"	=>	"alumni",
+				"link"	=>	"/alumni-getaway-cruise"
 				  
 			),
 			array(
-					"title"	=>	"Black Beach Weekend Cruise",
-				  	"class"	=>	"bbw",
-				  	"link"	=>	"/black-beach"
+				"title"	=>	"Black Beach Weekend Cruise",
+				"class"	=>	"bbw",
+				"link"	=>	"/black-beach"
 				  
 			),
-			array(
-					"title"	=>	"College BeachFest",
-				  	"class"	=>	"cbf",
-				  	"link"	=>	"/college-beachfest"
+			/*array(
+				"title"	=>	"College BeachFest",
+				"class"	=>	"cbf",
+				"link"	=>	"/college-beachfest"
 				  
 			),
 	
-			/*array(
+			array(
 					"title"	=>	"Groove Cruise",
 				  	"class"	=>	"groove",
 				  	"link"	=>	"/groove-cruise"
@@ -28,39 +28,39 @@ define("EVENT", serialize ($nav = array(
 			),*/
 			
 			array(
-					"title"	=>	"Classic Weekend",
-				  	"class"	=>	"classic",
-				  	"link"	=>	"/classic"
+				"title"	=>	"Classic Weekend",
+				"class"	=>	"classic",
+				"link"	=>	"/classic"
 				  
 			),
 			array(
-					"title"	=>	"Essence Festival",
-				  	"class"	=>	"essence",
-				  	"link"	=>	"/essence-festival"
+				"title"	=>	"Essence Festival",
+				"class"	=>	"essence",
+				"link"	=>	"/essence-festival"
 				  
 			),
 			array(
 				"title"	=>	"Party Gras Cruise",
-				  "class"	=>	"partygras",
-				  "link"	=>	"/partygras"
+				"class"	=>	"partygras",
+				"link"	=>	"/partygras"
 				  
 			),
 			array(
-					"title"	=>	"Cincinnati Music Festival",
-				  	"class"	=>	"nati",
-				  	"link"	=>	"/nati-music-festival"
+				"title"	=>	"Cincinnati Music Festival",
+				"class"	=>	"nati",
+				"link"	=>	"/nati-music-festival"
 				  
 			),
 			array(
-					"title"	=>	"All-Star Weekend",
-				  	"class"	=>	"nba",
-				  	"link"	=>	"/nba-allstar"
+				"title"	=>	"All-Star Weekend",
+				"class"	=>	"nba",
+				"link"	=>	"/nba-allstar"
 				  
 			),
 			array(
-					"title"	=>	"The Tourney",
-				  	"class"	=>	"tourney",
-				  	"link"	=>	"/the-tourney"
+				"title"	=>	"CIAA Tourney",
+				"class"	=>	"tourney",
+				"link"	=>	"/the-tourney"
 				  
 			),
 			/*array(
@@ -85,19 +85,30 @@ define("EVENT", serialize ($nav = array(
 				 	"class"	=>	"urc",
 				  	"link"	=>	"/urban-reunion"
 				  
-			),*/
-            array(
-					"title"	=>	"Urban Fantasy Cruise",
-				  	"class"	=>	"ufw",
-				 	"link"	=>	"/urban-fantasy"
-				  
 			),
-			array(
-					"title"	=>	"Urban Ski Weekend",
-					"class"	=>	"bsw",
-				  	"link"	=>	"/urban-ski-weekend"
+            array(
+				"title"	=>	"Urban Fantasy Cruise",
+				"class"	=>	"ufw",
+				"link"	=>	"/urban-fantasy"
 				  
-			)))
+			),*/
+			array(
+				"title"	=>	"Urban Ski Weekend",
+				"class"	=>	"bsw",
+				"link"	=>	"/urban-ski-weekend"
+				  
+            ),
+            array(
+                "title"	=>	"Spring Fling Festival",
+                "class"	=>	"sff",
+                "link"	=>	"/spring-fling-festival"
+            ),
+            array(
+                "title"	=>	"Spring Breakway Cruise",
+                "class"	=>	"sbc",
+                "link"	=>	"/spring-breakaway-cruise"
+            )
+        ))
 
 );
 

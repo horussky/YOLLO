@@ -8,8 +8,8 @@ $event = array(
 	"title"				=>"Urban Fiesta 2020",
 	"subtitle"			=>"You DO NOT want to miss this event!",
 	"location"		   	=>"Montego Bay, Jamaica",
-	"date"				=>"May 22-25, 2020",
-    "date_start"        =>"May 22, 2020",
+	"date"				=>"September 4 - 7, 2020",
+    "date_start"        =>"September 4, 2020",
 	"img_url"			=>"../../images/slides/splash-urban-fiesta-cta.jpg",
 	"img_alt"			=>"Urban Fiesta"
 );
@@ -167,7 +167,7 @@ $package_items = array(
                                              
                                              
 
-                                             <h3>Jamaica is the ONLY place to be Memorial Day Weekend 2020!</h3>
+                                             <h3>Jamaica is the ONLY place to be Labor Day Weekend 2020!</h3>
 
                                              <p>If you missed the 2019 edition of Urban Fiesta all we can say is look at the pictures. We took our clients to beautiful Jamaica and they LOVED it! Urban Fiesta 2019 was the livest event in Jamaica host by LHHNY celebrity Safari during Memorial Day weekend. There are plenty of activities to occupy your time from sun up to sun down - excursions, shopping areas, sandy beaches, parties, zip lining, and the list goes on. Let us remind you this was all on the property!<p> 
 
@@ -286,7 +286,7 @@ $package_items = array(
 
 												  <div data-control>When are the payments due?</div>
 												  <div data-content>
-													<p>The first payment of $125 is due January 14, 2020 after registration. The final payment (remaining balance) is due on or before March 05, 2020. If you would like to make payments between due dates that is fine also.</p>
+													<p>The first payment of $125 is due June 15, 2020 after registration. The final payment (remaining balance) is due on or before August 1, 2020. If you would like to make payments between due dates that is fine also.</p>
 												  </div>
 
 												</div><!-- end of accordion-->
@@ -355,9 +355,9 @@ $package_items = array(
 
 												<div class="accordion" data-accordion>
 
-												  <div data-control>Where exactly is Runaway Bay, Jamaica?</div>
+												  <div data-control>Where exactly is Montego Bay, Jamaica?</div>
 												  <div data-content>
-													<p>It is located between Montego Bay and Ocho Rios. More specifically, 30 minutes outside of Montego Bay and 40 minutes from Ocho Rios. So this is the PERFECT center of what Jamaica has to offer.</p>
+													<p>Montego Bay, the capital of Saint James Parish on Jamaica’s north coast, is a major cruise ship port with numerous beach resorts and golf courses outside its commercial core.</p>
 												  </div>
 
 												</div><!-- end of accordion-->

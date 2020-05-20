@@ -7,7 +7,7 @@ include 'includes/meta.config.inc.php';
 $event = array(
 
 	"title"				=>"Urban Ski Weekend 2021",
-	"subtitle"			=>"Early Bird gets $100 off until March 15th!",
+	"subtitle"			=>"Early Bird gets $100 off until May 15th!",
 	"location"			=>"Gatlinburg, Tennessee",
 	"date"				=>"Feb 5 -7, 2021",
     "date_start"        =>"February 5, 2021",
@@ -63,8 +63,8 @@ $package_items = array(
 		"4 Days / 3 Nights Hotel Accommodations"						=> "checked",
 		"Party Bus Access"																	=> "checked",
 		"The Best of the Best Fashion Shows"								=> "checked",
-		"7th Annual Winter White Party"											=> "checked",
-		"7th Annual \"LOL\" Comedy Show"										=> "checked",
+		"10th Annual Winter White Party"											=> "checked",
+		"10th Annual \"LOL\" Comedy Show"										=> "checked",
 		"The Rep Your City Super Bowl Party"								=> "checked",
 		"Freaky Friday PJ Party"														=> "checked",
 		"Access To The Exclusive Super Lounges Each Night"	=> "checked",
@@ -84,8 +84,8 @@ $package_items = array(
 		"4 Days / 3 Nights Hotel Accommodations"						=> "checked",
 		"Party Bus Access"																	=> "ex",
 		"The Best of the Best Fashion Shows"								=> "checked",
-		"7th Annual Winter White Party"											=> "checked",
-		"7th Annual \"LOL\" Comedy Show"										=> "checked",
+		"10th Annual Winter White Party"											=> "checked",
+		"10th Annual \"LOL\" Comedy Show"										=> "checked",
 		"The Rep Your City Super Bowl Party"								=> "checked",
 		"Freaky Friday PJ Party"														=> "checked",
 		"Access To The Exclusive Super Lounges Each Night"	=> "checked",
@@ -318,7 +318,7 @@ $package_items = array(
 
 										  <div data-content>
 
-											<p>Following registration the first payment of $125 is due on or before April 15, 2020.  The second payment of $100 is due on or before August 08, 2020. The final payment (remaining balance) is due on or before November 10, 2020. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+											<p>Following registration the first payment of $125 is due on or before June 01, 2020.  The second payment of $100 is due on or before August 08, 2020. The final payment (remaining balance) is due on or before November 10, 2020. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 
 										  </div>
 

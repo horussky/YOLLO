@@ -71,6 +71,13 @@ $feature_event = array(
 		"end"		=> strtotime("May 5, 2018"),
 		"img" 		=> "images/featured-events/featured-event-dgc.jpg",
 		"link" 		=> "/day-getaway-cruise"
+    ),
+    array(
+		"title" 	=> "Spring Fling Music Fest",
+		"date" 		=> "May 30, 2020",
+		"end"		=> strtotime("May 30, 2020"),
+		"img" 		=> "images/featured-events/featured-event-springfling.jpg",
+		"link" 		=> "/spring-fling-festival"
 	),
 	array(
 		"title" 	=> "Alumni Getaway Cruise",

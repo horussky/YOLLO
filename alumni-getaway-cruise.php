@@ -6,7 +6,7 @@ include 'includes/meta.config.inc.php';
 $event = array(
 	"title"					=> "Alumni Getaway 2020",
 	"subtitle"				=> "The LIVEST Alumni party at SEA! Lock in your cabin TODAY!",
-	"location"				=> "Jamaica and Caymon Islands",
+	"location"				=> "Jamaica and Cayman Islands",
 	"date"					=> "Dec 7 - 12 2020",
     "date_start"			=> "December 7, 2020",
 	"img_url"				=> "../../images/slides/splash-alumni-cta.jpg",
@@ -58,6 +58,7 @@ $package_items = array(
 		"Alumni Getaway Ocean Blue Fun and Sexy Party"				=> "checked",
 		"Alumni Getaway Farewell Party"											=> "checked",
 		"Alumni Getaway Private Black Film Review"					=> "checked",
+		"Inaugural Alumni Getaway Greek Stroll"					=> "checked",
 		"YOLLO Gift Bag"											=> "checked"
 	),
 
@@ -355,7 +356,7 @@ $package_items = array(
 
 							  <div data-control>When are the payments due?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee <strong> at sign-up</strong>. The first payment of <strong>$125</strong> per person is due on or before  <strong>February 29, 2020</strong. The second payment of $200 is due on or before <strong>April 27, 2020</strong>. The final payment (remaining balance) is due on or before <strong>July 20, 2020</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee <strong> at sign-up</strong>. The first payment of <strong>$125</strong> per person is due on or before  <strong>March 30, 2020</strong>. The second payment of $200 is due on or before <strong>May 10, 2020</strong>. The final payment (remaining balance) is due on or before <strong>July 20, 2020</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
