@@ -1,5 +1,4 @@
-<div style="width:100%; text-align:center;" ><iframe  src="https://www.eventbrite.com/countdown-widget?eid=91275943805" frameborder="0" height="433" width="195" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true"></iframe></div>
-    
+
 <div class="tweet">
 <!--<h4><span class="fa fa-twitter" aria-hidden="true"></span> @yollogsinc</h4>-->
 <img src="../images/twitter-header.png" width="100%" />
