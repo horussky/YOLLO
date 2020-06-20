@@ -12,6 +12,12 @@
 
 
 @media only screen and (max-width : 991px) {
+
+    .container #right{
+        margin-top: 10rem;
+        width: 100%;
+    }
+
 	#container{
 		//removes event navigation at desktop
 		#left{
@@ -170,7 +176,7 @@
 	  position: absolute;
 	  top:0;
 	  right: 2rem;
-	  margin: 3rem auto;
+	  margin: 3rem auto auto;
 	  -webkit-transform: rotate(0deg);
 	  -moz-transform: rotate(0deg);
 	  -o-transform: rotate(0deg);
@@ -312,7 +318,9 @@
 }//end of 768 and 1024px
 
 @media only screen and (max-width:768px){
-	
+    
+    
+
 	#container{
 		
 		#left{
