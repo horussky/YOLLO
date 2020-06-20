@@ -31,7 +31,13 @@ include 'includes/meta.config.inc.php';
 	<!--Mobile Nav-->   
 
 
-    <?php include 'includes/header__inc.php'; ?>
+        <div class="container">
+    	    <div class="row">
+                <div class="col">
+                    <?php include 'includes/header.inc.php'; ?>
+                </div>
+            </div><!-- end of row-->
+        </div><!-- end of container --> 
 
 
 		<!--Right Content-->
