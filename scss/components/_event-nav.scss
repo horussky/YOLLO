@@ -30,8 +30,7 @@
 }
 
 .event-nav .active{
-    background:#111;
-    color: #fff;
+	background:#eee;
 		a{
 			font-weight:700;
 			&:hover{
@@ -42,7 +41,7 @@
 
 .event-nav li [class^="hvr-"].active:before,
 .event-nav .active:hover:before{
-	background:#111;
+	background:#000;
 }
 
 

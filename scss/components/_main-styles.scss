@@ -14,7 +14,7 @@
 html {
   font-size: 62.5%;
 }
- 
+
 * {
 	box-sizing: border-box;
 	
@@ -36,10 +36,7 @@ body{
 	-webkit-transition: all 0.45s ease;
   	transition: all 0.45s ease;
 	-webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-size: cover;
-    background: linear-gradient(0deg, rgba(239, 239, 239, 1) 70%, rgba(239, 239, 239, 0.8) 100%), url(/images/bg-travel-pattern.png);
-    background-color: #efefef;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 a{
@@ -309,6 +306,7 @@ label {
 
 label input {
     display: inline;
+    width: auto;
     margin: 0 0 5px;
     vertical-align: text-top;
 }
@@ -397,7 +395,7 @@ li.phone{ 						height:24px; padding-left: 40px; background: transparent url(../
 .modal-overlay { 				position: fixed; top: 0; right: 0; bottom: 0; left: 0; height: 100%; width: 100%; margin: 0; padding: 0;
 								background: #131313; opacity: .85; filter: alpha(opacity=85); z-index: 101;}
 .modal-window { 				position: fixed; top: 50%; left: 50%; z-index: 102; background: #fff;
-								border: solid 8px #000; border-radius: 8px;}
+								border: solid 8px #000; -moz-border-radius: 8px; -webkit-border-radius: 8px;}
 .close-window { 				position: absolute; width: 47px; height: 47px; right: -23px; top: -23px;
 								background: transparent url(/images/close-button.png) no-repeat scroll right top;
 								text-indent: -99999px; overflow: hidden; cursor: pointer;}
@@ -474,7 +472,7 @@ h4 .soldout{
 
 .header{
 	width:100%;
-	//margin-bottom:4rem;
+	margin-bottom:4rem;
 	display: block;
 	//overflow:hidden;
 	display:flex;
@@ -498,7 +496,7 @@ h4 .soldout{
 		width: 50%;
 		float:left;
 		text-align:right;
-        align-items: center;
+		align-items: flex-end;
 		justify-content: flex-end;
 		display: flex;
         
@@ -507,7 +505,7 @@ h4 .soldout{
             float:right; 
             font-size:.9em; 
             text-transform:uppercase; 
-            margin-bottom: 0; 
+            margin-bottom: .75em; 
             list-style: none;
         }
         
@@ -527,7 +525,7 @@ h4 .soldout{
 
                 &.active-nav{
                     color:#9E1421;
-                    //background:#fff;
+                    background:#fff;
                 }
 
             }
@@ -651,7 +649,62 @@ hr {
 	height: auto;
 }
 
+//margin classes
+.mt-5{
+	margin-top:0.5rem;
+}
 
+.mt-10{
+	margin-top:1rem;
+}
+
+.mt-20{
+	margin-top:2rem;
+}
+
+.mt-40{
+	margin-top:4rem;
+}
+
+.ml-5{
+	margin-left:0.5rem;
+}
+
+.ml-10{
+	margin-left:1rem;
+}
+
+.ml-20{
+	margin-left:2rem;
+}
+
+.mb-5{
+	margin-bottom:0.5rem;
+}
+
+.mb-10{
+	margin-bottom:1rem;
+}
+
+.mb-20{
+	margin-bottom:2rem;
+}
+
+.mb-40{
+	margin-bottom:4rem;
+}
+
+.mr-5{
+	margin-right:0.5rem;
+}
+
+.mr-10{
+	margin-right:1rem;
+}
+
+.mr-20{
+	margin-right:2rem;
+}
 
 .close-x{
   width: 32px;
