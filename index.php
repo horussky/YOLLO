@@ -37,6 +37,7 @@
 							<div class="slider">
 								<div class="event-slider">
 									<ul>
+                                        <li><img src="images/slides/splash-gob.jpg"></li>
                                         <li><img src="images/slides/splash-urban-ski.jpg"></li>
                                         <li><img src="images/slides/splash-essence.jpg"></li>
                                         <li><img src="images/slides/splash-alumni.jpg"></li>

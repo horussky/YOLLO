@@ -107,6 +107,11 @@ define("EVENT", serialize ($nav = array(
                 "title"	=>	"Spring Breakway Cruise",
                 "class"	=>	"sbc",
                 "link"	=>	"/spring-breakaway-cruise"
+            ),
+            array(
+                "title"	=>	"Get on the Bus",
+                "class"	=>	"gob",
+                "link"	=>	"/get-on-the-bus"
             )
         ))
 
