@@ -76,3 +76,4 @@ include("home-featured-events.inc.php");
 $now = strtotime("now");
 date_default_timezone_set('America/Chicago');
 ?>
+

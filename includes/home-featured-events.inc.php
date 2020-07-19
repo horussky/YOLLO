@@ -4,15 +4,15 @@ $feature_event = array(
 
 	array(
 		"title" 	=> "Cincinnati Music Festival",
-		"date" 		=> "July 24-26, 2020",
-		"end"		=> strtotime("July 26, 2020"),
+		"date" 		=> "July 24-26, 2021",
+		"end"		=> strtotime("July 26, 2021"),
 		"img" 		=> "images/featured-events/featured-event-cmf.jpg",
 		"link" 		=> "/nati-music-festival"
 	),
 	array(
 		"title" 	=> "Essence Festival",
-		"date" 		=> "July 3-5, 2020",
-		"end"		=> strtotime("July 5, 2020"),
+		"date" 		=> "July 3-5, 2021",
+		"end"		=> strtotime("July 5, 2021"),
 		"img" 		=> "images/featured-events/featured-event-efw.jpg",
 		"link" 		=> "/essence-festival"
 	),
@@ -82,9 +82,16 @@ $feature_event = array(
 	array(
 		"title" 	=> "Alumni Getaway Cruise",
 		"date" 		=> "Nov 30 - Dec 5, 2019",
-		"end"		=> strtotime("December 5 ,2019"),
+		"end"		=> strtotime("December 5, 2019"),
 		"img" 		=> "images/featured-events/featured-event-agc.jpg",
 		"link" 		=> "/alumni-getaway-cruise"
+    ),
+    array(
+		"title" 	=> "Get on the Bus",
+		"date" 		=> "Aug 27-29, 2020",
+		"end"		=> strtotime("August 29, 2020"),
+		"img" 		=> "images/featured-events/featured-event-gob.jpg",
+		"link" 		=> "/get-on-the-bus"
 	)
 
 );
