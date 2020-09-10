@@ -36,11 +36,11 @@ include 'includes/meta.config.inc.php';
       <div id="right">
             
             <section id="intro">
-            <?php /* ?><div class="rslides"></div><?php */?>
+                <?php /* ?><div class="rslides"></div><?php */?>
 
-            <p class="headline">Our name is our motto. You Only Live Life Once!</p>
-						
-            <p>YOLLO Group Services is one of the leading full-service travel companies located in the Southeastern region. We offer our clients great all-inclusive travel packages, and fun and festive experiences at the best destinations around the world.  <a title="read more about YOLLO Group Services" href="about.php"> Learn more about YOLLO.</a> or view some of our upcoming events below.</p>
+                <p class="headline">Our name is our motto. You Only Live Life Once!</p>
+                            
+                <p>YOLLO Group Services is one of the leading full-service travel companies located in the Southeastern region. We offer our clients great all-inclusive travel packages, and fun and festive experiences at the best destinations around the world.  <a title="read more about YOLLO Group Services" href="about.php"> Learn more about YOLLO.</a> or view some of our upcoming events below.</p>
             </section>
            
             <section id="upcoming-events" style="overflow:hidden">
@@ -61,9 +61,9 @@ include 'includes/meta.config.inc.php';
 				</div>
             </section>
 
-            <div class="disclosure"><br/>
+            <div class="disclosure">
             	<strong>Disclaimer</strong> | All associated graphics and/or logos demonstrated or referred to by YOLLO Group Services on this website are registered trademarks of their respective owners, and are used herein for factual and illustrative purposes only. Links are provided for your convenience and do not constitute an endorsement. Third party sites are not within our control and may not have the same privacy, security or accessibility standards. Third parties are solely responsible for the content and availability of their sites.
-      			</div><!-- end of disclosure -->
+      		</div><!-- end of disclosure -->
 
      	</div><!--end of right-->
 
