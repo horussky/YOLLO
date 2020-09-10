@@ -4,23 +4,23 @@ include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"					=> "Alumni Getaway 2020",
+	"title"					=> "Alumni Getaway 2021",
 	"subtitle"				=> "The LIVEST Alumni party at SEA! Lock in your cabin TODAY!",
-	"location"				=> "Jamaica and Cayman Islands",
-	"date"					=> "Dec 7 - 12 2020",
-    "date_start"			=> "December 7, 2020",
+	"location"				=> "Amber Cove, Dominican Republic",
+	"date"					=> "Dec 6 - 11 2021",
+    "date_start"			=> "December 6, 2021",
 	"img_url"				=> "../../images/slides/splash-alumni-cta.jpg",
 	"img_alt"				=> "Alumni Getaway"
 );
 
 $geolocation = array(
 	"cruise1"=> array(
-		"title" 			=> "Carnival Sunrise",
-		"ship"				=> "https://i0.wp.com/thepointsguy.com/wp-content/uploads/2019/05/20190528_Carnival-Sunrise_GSloan-24.jpg",
+		"title" 			=> "Carnival Elation",
+		"ship"				=> "hhttps://media-cdn.tripadvisor.com/media/photo-s/18/10/5d/4f/carnival-elation-at-grand.jpg",
 		"location"		    => "Ft. Lauderdale, Fl",
         "address"			=> "1850 Eller Dr, Fort Lauderdale, FL 33316",
 		"soldout"			=> false,
-		"img_url"			=> "https://i0.wp.com/thepointsguy.com/wp-content/uploads/2019/05/20190528_Carnival-Sunrise_GSloan-24.jpg"
+		"img_url"			=> "https://media-cdn.tripadvisor.com/media/photo-s/18/10/5d/4f/carnival-elation-at-grand.jpg"
 
 	),
 
@@ -29,9 +29,9 @@ $geolocation = array(
 $people = array(
 		"diamond"=> array(
 			"Group of 4" 			=> "$650",
-			"Group of 3"			=> "$750",
-			"Group of 2"			=> "$925",
-			"Individual"			=> "$1450"
+			"Group of 3"			=> "$775",
+			"Group of 2"			=> "$950",
+			"Individual"			=> "$2,075"
 		),
 
 		"emerald"=> array(
@@ -46,20 +46,20 @@ $people = array(
 
 $package_items = array(
 	"diamond_items" => array(
-		"5 Day/4 Night Cruise Departing From Port of Ft. Lauderdale"		=> "checked",
-		"All You Can Eat aboard Ship"								=> "checked",
-		"Bust a Gut Alumni Getaway Comedy Series"					=> "checked",
-		"Alumni Getaway Private Rep Your Decade Party"		=> "checked",
-		"Word Easy Private Spoken Word Show"						=> "checked",
-		"Alumni Getaway Private Welcome Reception"					=> "checked",
-		"Alumni Getaway Private Meet and Greet Social"					=> "checked",
-		"Alumni Getaway Exclusive Kangol and Shelltoes Party"		=> "checked",
-		"Alumni Getaway Beach Retreat"								=> "checked",
-		"Alumni Getaway Ocean Blue Fun and Sexy Party"				=> "checked",
-		"Alumni Getaway Farewell Party"											=> "checked",
-		"Alumni Getaway Private Black Film Review"					=> "checked",
-		"Inaugural Alumni Getaway Greek Stroll"					=> "checked",
-		"YOLLO Gift Bag"											=> "checked"
+		"5 Day/4 Night Cruise Departing From Port Canaveral (Orlando), FL"	=> "checked",
+		"All You Can Eat aboard Ship"								        => "checked",
+		"Bust a Gut Alumni Getaway Comedy Series"					        => "checked",
+		"Alumni Getaway Private 80's vs 90's Decade Party"		            => "checked",
+		"Word Easy Private Spoken Word Show"						        => "checked",
+		"Alumni Getaway Private Welcome Reception"					        => "checked",
+		"Alumni Getaway Private Meet and Greet Social"					    => "checked",
+		"Alumni Getaway Exclusive Kangol and Shelltoes Party"		        => "checked",
+		"Alumni Getaway Beach Retreat"								        => "checked",
+		"Alumni Getaway Ocean Blue Fun and Sexy Party"				        => "checked",
+		"Alumni Getaway Farewell Party"									    => "checked",
+		"Alumni Getaway Private Black Film Review"					        => "checked",
+		"Inaugural Alumni Getaway Greek Stroll"					            => "checked",
+		"YOLLO Gift Bag"											        => "checked"
 	),
 
 	"emerald_items" => array(
@@ -75,12 +75,12 @@ $package_items = array(
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title><?php echo $metas['alumni']['title']; ?></title>
+    <title><?php echo $metas['alumni21']['title']; ?></title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="<?php echo $metas['alumni']['desc']; ?>" />
-    <meta name="keywords" content="<?php echo $metas['alumni']['keywords']; ?>" />
+    <meta name="description" content="<?php echo $metas['alumni21']['desc']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['alumni21']['keywords']; ?>" />
     <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-    <link href="<?php echo $metas['alumni']['canonical']; ?>" rel="canonical" />
+    <link href="<?php echo $metas['alumni21']['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
     <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
@@ -139,20 +139,20 @@ $package_items = array(
 
                     <?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
-                        <h3>Alumni Getaway is going to Ocho Rios, Jamaica and Grand Caymon, Caymon Islands!</h3>
+                        <h3>Alumni Getaway is going to Amber Cove, Dominican Republic!</h3>
 
-                        <p>Calling all old, new, and almost alums, this Alumni Getaway is the "catch-up" vacation for you. We are bringing together HBCU alums from all over the country to rep their university. There's no better way to meet and mingle than cruising aboard the Carnival Sunrise. We're taking you to the beautiful island of Grand Cayman and  Ocho Rios, Jamaica! Not a product of an HBCU? No worries, this cruise isn't exclusive to only HBCU alumni. Everyone is welcome to rep their university on this exotic getaway cruise.</p>
+                        <p>Calling all alums, this Alumni Getaway cruise is the "catch-up" vacation for you. We are bringing together HBCU alums from all over the country to represent their university. There's no better way to meet and mingle than cruising aboard the Carnival Sunrise. We're taking you to the beautiful island of Amber Cove! Not a product of an HBCU? No worries, this cruise isn't exclusive to only HBCU alumni. Everyone is welcome to rep their university on this exotic getaway cruise.</p>
                         
                         <p>While cruising over the Caribbean, we have much to keep you occupied. You should look forward to comedy shows, a talent show, spades tournament, and more. Our DJ's are working the 1's and 2's for a variety of onboard clubs and decks. Our theme parties, “Kangol and Shelltoes” and “Ocean Blue Fun and Sexy” will also keep the camaraderie going all weekend.</p> 
                         
-                        <p>Do not hesitate on this package. Book this great cruise package today!</p>
+                        <p>Do not hesitate on this package. Book this great cruise package today! If you are still interested in Alumni Getaway 2020, <a href="/alumni-getaway-cruise-2020" target="_blank">please visit the event page to book</a>. But spaces are running out fast.</p>
                         
                         <table class="itinerary">
                             <caption>Cruise Itinerary</caption>
                             <tbody>
                                 <tr>
                                     <td>Monday</td>
-                                    <td>Departure: Ft Lauderdale, FL 3:30PM</td>
+                                    <td>Departure: Port Canaveral (Orlando), FL 3:30PM</td>
                                 </tr>
                                 <tr>
                                     <td>Tuesday</td>
@@ -160,11 +160,11 @@ $package_items = array(
                                 </tr>
                                 <tr>
                                     <td>Wednesday</td>
-                                    <td>Ocho Rios, Jamaica 10AM-5PM</td>
+                                    <td>Amber Cover 10:30AM-6:30PM</td>
                                 </tr>
                                 <tr>
                                     <td>Thursday</td>
-                                    <td>Grand Cayman, Cayman Islands 9AM-4:30PM</td>
+                                    <td>Grand Turks 8AM-4PM</td>
                                 </tr>
                                 <tr>
                                     <td>Friday</td>
@@ -172,13 +172,13 @@ $package_items = array(
                                 </tr>
                                 <tr>
                                     <td>Saturday</td>
-                                    <td>Return: Ft Lauderdale, FL 8AM</td>
+                                    <td>Return: Port Canaveral (Orlando), FL 8AM</td>
                                 </tr> 
                             
                             </tbody>
                             <tfoot>
                                 <tr>
-                                    <td colspan="2">*All times are based on Central Time Zone.</td>
+                                    <td colspan="2">*All times are based on Eastern Time Zone.</td>
                                 </tr>
                             </tfoot>
                         </table>
@@ -188,7 +188,7 @@ $package_items = array(
 
 
                     <?php echo $responsive_tabs["price"]; ?>
-										<div class="tab" aria-label="price">
+						<div class="tab" aria-label="price">
 
                     	<h3>Cruise</h3>
                         <?php foreach($geolocation as $hotel) :?>
@@ -215,7 +215,7 @@ $package_items = array(
                             <tbody>
                                 <tr>
                                     <td>Monday</td>
-                                    <td>Departure: Ft Lauderdale, FL 3:30PM</td>
+                                    <td>Departure: Port Canaveral (Orlando), FL 3:30PM</td>
                                 </tr>
                                 <tr>
                                     <td>Tuesday</td>
@@ -223,11 +223,11 @@ $package_items = array(
                                 </tr>
                                 <tr>
                                     <td>Wednesday</td>
-                                    <td>Ocho Rios, Jamaica 10AM-5PM</td>
+                                    <td>Amber Cover 10:30AM-6:30PM</td>
                                 </tr>
                                 <tr>
                                     <td>Thursday</td>
-                                    <td>Grand Cayman, Cayman Islands 9AM-4:30PM</td>
+                                    <td>Grand Turks 8AM-4PM</td>
                                 </tr>
                                 <tr>
                                     <td>Friday</td>
@@ -235,13 +235,13 @@ $package_items = array(
                                 </tr>
                                 <tr>
                                     <td>Saturday</td>
-                                    <td>Return: Ft. Lauderdale, FL 8AM</td>
+                                    <td>Return: Port Canaveral (Orlando), FL 8AM</td>
                                 </tr> 
                             
                             </tbody>
                             <tfoot>
                                 <tr>
-                                    <td colspan="2">*All times are based on Central Time Zone.</td>
+                                    <td colspan="2">*All times are based on Eastern Time Zone.</td>
                                 </tr>
                             </tfoot>
                         </table>
@@ -356,7 +356,7 @@ $package_items = array(
 
 							  <div data-control>When are the payments due?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee <strong> at sign-up</strong>. The first payment of <strong>$125</strong> per person is due on or before  <strong>March 30, 2020</strong>. The second payment of $200 is due on or before <strong>May 10, 2020</strong>. The final payment (remaining balance) is due on or before <strong>July 20, 2020</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee <strong> at sign-up</strong>. The first payment of <strong>$125</strong> per person is due on or before  <strong>August 28, 2020</strong>. The second payment of $200 is due on or before <strong>January 10, 2021</strong>. The final payment (remaining balance) is due on or before <strong>March 1, 2021</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -376,7 +376,7 @@ $package_items = array(
 
 							  <div data-control>What port are we departing from and what time do I need to be there?</div>
 							  <div data-content>
-								<p>The Carnival Sunrise sails from Fort Lauderdale. We suggest arriving no later than 2:00 PM.</p>
+								<p>The Carnival Elation sails from Port Canaveral (Orlando), FL. We suggest arriving no later than 2:00 PM.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -502,7 +502,7 @@ $package_items = array(
 	});
 </script>
 <script src="https://services.cognitoforms.com/s/NiNAkf4LukqBZOHDFOMsiQ"></script>
-<script>Cognito.load("forms", { id: "60" });</script>
+<script>Cognito.load("forms", { id: "62" });</script>
 <!--google analytics-->
 <?php include 'includes/analytics.inc.php'; ?>
 </body>

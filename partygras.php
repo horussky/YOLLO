@@ -6,7 +6,7 @@ include 'includes/meta.config.inc.php';
 
 $event = array(
 	"title"						=>"Party Gras: Bottles and Beads",
-	"subtitle"					=>"Come Party For Those BEADS!",
+	"subtitle"					=>"More than an event, it's an EXPERIENCE!",
 	"location"					=>"Chattanooga, TN",
 	"date"						=>"August 15, 2020",
     "date_start"				=>"August 15, 2020",
