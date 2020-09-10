@@ -235,7 +235,7 @@ $package_items = array(
                             <div data-control>When are the payments due?</div>
 
                             <div data-content>
-                            <p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 per person is due 7 days after sign-up. The second payment of $150 per person is due on or before July 15, 2020. The final payment (remaining balance) is due on or before August 1, 2020. Click the "Buy Now" tab to make purchase.</p>
+                            <p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $200 per person is due 5 days after sign-up.  The final payment (remaining balance) is due on or before August 13, 2020. Click the "Buy Now" tab to make purchase.</p>
 
                             </div>
                         </div><!-- end of accordion-->

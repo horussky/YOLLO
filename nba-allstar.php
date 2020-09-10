@@ -7,7 +7,7 @@ $event = array(
 	"title"				=>"All-Star Weekend 2021",
 	"subtitle"			=>"Here we come Circle City! Save $100 off until June 1st!",
 	"location"			=>"Indianapolis, IN",
-	"date"				=>"February 12-14, 2021",
+	"date"				=>"Postponed",
     "date_start"        =>"February 12, 2021",
 	"img_url"			=>"../../images/slides/splash-nba-cta.jpg",
 );
@@ -312,7 +312,7 @@ $package_items = array(
 
                                 <div data-control>When are the payments due?</div>
                                 <div data-content>
-                                <p>After registration the first payment of $125 is due June 15, 2020.  The second payment of $250 is due August 10, 2020. The final payment (remaining balance) is due on or before November 10, 2020.</p>
+                                <p>After registration the first payment of $125 is due October 10, 2020.  The second payment of $250 is due November 15, 2020. The final payment (remaining balance) is due on or before December 18, 2020.</p>
                                 </div>
 
                             </div><!-- end of accordion-->

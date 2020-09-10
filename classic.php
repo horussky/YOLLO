@@ -5,11 +5,11 @@
     include 'includes/meta.config.inc.php';
 
 	$event = array(
-		"title"				=>"Classic Weekend 2020",
+		"title"				=>"Classic Weekend 2021",
 		"subtitle"			=>"It's the Classsssssic!",
 		"location"			=>"Legion Field | Birmingham, AL",
-		"date"				=>"Oct 30 - Nov. 1, 2020",
-        "date_start"		=>"Oct 31, 2020",
+		"date"				=>"April 16 - 18, 2021",
+        "date_start"		=>"April 17, 2021",
 		"img_url"			=>"../../images/slides/splash-mcc-cta.jpg",
 		"img_alt"			=>"Magic City Classic"
 	);
@@ -149,7 +149,8 @@
                 	<img src="images/mcc-thumb<?php echo(rand(1,4)); ?>.jpg" width="100%" />
                 </div>
                
-                <p>This is the #1 HBCU football Classic in the nation attracting over 100,000 fans annually! This is an annual clash of the titans. The Magic City Classic offers a family environment that produces new bonds and memories for years to come.</p>
+                <p>This is the #1 HBCU football Classic in the nation attracting over 100,000 fans annually! The Magic City Classic offers a family environment that produces new bonds and memories for years to come.</p>
+                <p>This annual clash of the titans was delayed in 2020 due to COVID-19 so they have decided to have this exciting game TWICE in one year! This means possible bragging rights for one school TWICE in the same year</p>
                 <p>In 2019 the Alabama A&M Bulldogs came away with the victory as they entered the game as favorites and delivered a decisive win for the Bulldog faithful as well as the MOST important part of the this historic rivalry….BRAGGING rights for the next 365 days! </p>
                 <p>YOLLO Group Services, Inc. wants to provide your travel package for this historic and exciting weekend. Lock in your package today as space is limited and our packages go fast.</p>
 			</div><!-- ./ overview -->
@@ -245,7 +246,7 @@
 
 					  <div data-control>When are the payments due?</div>
 					  <div data-content>
-						<p>After registration the 1st payment of $50 is due on or before due March 10, 2020. The second and final payment is due July 22, 2019.</p>
+						<p>After registration the 1st payment of $50 is due on or before due November 01, 2020. The second and final payment is due February 05, 2020.</p>
 					  </div>
 
 					</div><!-- end of accordion-->

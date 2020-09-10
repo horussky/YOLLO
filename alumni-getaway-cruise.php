@@ -5,7 +5,7 @@ include 'includes/meta.config.inc.php';
 
 $event = array(
 	"title"					=> "Alumni Getaway 2021",
-	"subtitle"				=> "The LIVEST Alumni party at SEA! Lock in your cabin TODAY!",
+	"subtitle"				=> "The LIVEST Alumni party at SEA! Save $100 per person until November 1, 2020!",
 	"location"				=> "Amber Cove, Dominican Republic",
 	"date"					=> "Dec 6 - 11 2021",
     "date_start"			=> "December 6, 2021",
@@ -46,10 +46,10 @@ $people = array(
 
 $package_items = array(
 	"diamond_items" => array(
-		"5 Day/4 Night Cruise Departing From Port Canaveral (Orlando), FL"	=> "checked",
+		"5 Day/4 Night Cruise Departing From Port Canaveral (Orlando), FL"		=> "checked",
 		"All You Can Eat aboard Ship"								        => "checked",
 		"Bust a Gut Alumni Getaway Comedy Series"					        => "checked",
-		"Alumni Getaway Private 80's vs 90's Decade Party"		            => "checked",
+		"Alumni Getaway Private 80's vs 90's Decade Party"		                => "checked",
 		"Word Easy Private Spoken Word Show"						        => "checked",
 		"Alumni Getaway Private Welcome Reception"					        => "checked",
 		"Alumni Getaway Private Meet and Greet Social"					    => "checked",
@@ -356,7 +356,7 @@ $package_items = array(
 
 							  <div data-control>When are the payments due?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee <strong> at sign-up</strong>. The first payment of <strong>$125</strong> per person is due on or before  <strong>August 28, 2020</strong>. The second payment of $200 is due on or before <strong>January 10, 2021</strong>. The final payment (remaining balance) is due on or before <strong>March 1, 2021</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee <strong> at sign-up</strong>. The first payment of <strong>$125</strong> per person is due on or before  <strong>October 28, 2020</strong>. The second payment of $200 is due on or before <strong>January 10, 2021</strong>. The final payment (remaining balance) is due on or before <strong>March 1, 2021</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

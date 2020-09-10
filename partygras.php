@@ -8,8 +8,8 @@ $event = array(
 	"title"						=>"Party Gras: Bottles and Beads",
 	"subtitle"					=>"More than an event, it's an EXPERIENCE!",
 	"location"					=>"Chattanooga, TN",
-	"date"						=>"August 15, 2020",
-    "date_start"				=>"August 15, 2020",
+	"date"						=>"August 14, 2021",
+    "date_start"				=>"August 11, 2021",
 	"img_url"				 	=>"../../images/slides/splash-partygras-cta.jpg",
 	"img_alt"				 	=>"Day Getaway Cruise"
 );
@@ -133,15 +133,15 @@ $package_items = array(
 					<div class="tab" aria-label="overview">
                         <h3>Party Gras is BACK and in Tennessee</h3>
 
-                        <p>After an amazing 2019 party cruise, Party Gras: Bottles and Bead is returning for a seventh installment. Last year we turned it up to the max, but this year we are making everything bigger and better than ever. We are taking this party on the road. Come party aboard the Southern Belle for an exclusive Riverboat cruise with amazing views of Chattanooga, TN.</p> 
+                        <p>After COVID-19 postponed what would have been an amazing 2019 party cruise, Party Gras: Bottles and Bead is returning for an eighth installment. Previous years have been turned it up to the max, but for the 2021 edition we are making everything bigger and better than ever. Come party aboard the Southern Belle for an exclusive Riverboat cruise with amazing views of Chattanooga, TN. We have also made the live performances an inclusive but separate event which makes the event BIGGER than ever!</p> 
                           
                         <p>This will be a FULL day of good music, adult drinks, mingling, and fun for everyone attending. The boat features three (3) party decks with multiple DJ's. Live entertainment will feature spoken word artists, comedians, and performances by R&amp;B/Hip Hop artist! FREE margaritas will be on deck at our welcome reception! <strong>This event WILL SELL OUT quickly</strong>, so purchase your tickets today. For questions and tickets call: <strong>(888) 946-9655 </strong> or <a data-href="#tabs-5" class="open-tab">purchase your tickets online now.</a></p>
                        	
 						<p>Don't wait as this event will fill up fast, book this event today. We are also providing hotel accommodations via the Holiday Inn and Suites Downtown Chattanooga at a special discounted rate of <strong>$139</strong>. You can <a target="_blank" href="https://www.ihg.com/holidayinn/hotels/us/en/find-hotels/hotel/rooms?qDest=434%20Chestnut%20Street,%20Chattanooga,%20TN,%20US&qCiMy=72020&qCiD=15&qCoMy=72020&qCoD=16&qAdlt=1&qChld=0&qRms=1&qRtP=6CBARC&qIta=99801505&qGrpCd=YOL&qSlH=CHADT&qAkamaiCC=US&qSrt=sBR&qBrs=re.ic.in.vn.cp.vx.hi.ex.rs.cv.sb.cw.ma.ul.ki.va.ii.&qAAR=6CBARC&qWch=0&qSmP=1&setPMCookies=true&qRad=30&qRdU=mi&srb_u=1&qSHBrC=HI&icdv=99801505">secure your hotel room</a> today by visiting the host properties website. </p>
                         
                         <p><strong>Live show:</strong> 2PM- 5PM<br>
-						<strong>Cruise Boarding:</strong> 10:30PM<br> 
-						<strong>Party time:</strong> 11PM - 1:00AM</p>
+						<strong>Cruise Boarding:</strong> 10:00PM<br> 
+						<strong>Party time:</strong> 10:30PM - 1:00AM</p>
 						<p style="color:dimgrey">*All times are based on Eastern Time Zone.</p>
     
 
@@ -226,7 +226,7 @@ $package_items = array(
 
 							  <div data-control>What time is the bus departing from Birmingham? </div>
 							  <div data-content>
-								  <p>The charter will depart Birmingham at 9 am Saturday August 15, 2020. The charter will leave Chattanooga, TN at 10 am on Sunday, August 16, 2020. Please note the 10 am departure from Chattanooga is Eastern Standard Time. If you haven’t please secure your room at the host property which is the Holiday Inn and Suites Downtown Chattanooga. Our guest will receive a special rate if you utilize the link on the page. If you travel via the bus YOU will need to reserve a room because the bus does not leave until the next morning.  </p>
+								  <p>The charter will depart Birmingham at 9 am Saturday August 14, 2021. The charter will leave Chattanooga, TN at 10 am on Sunday, August 15, 2021. Please note the 10 am departure from Chattanooga is Eastern Standard Time. If you haven’t please secure your room at the host property which is the Holiday Inn and Suites Downtown Chattanooga. Our guest will receive a special rate if you utilize the link on the page. If you travel via the bus YOU will need to reserve a room because the bus does not leave until the next morning.  </p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -256,7 +256,7 @@ $package_items = array(
 
 							  <div data-control>Where will the bus depart from?</div>
 							  <div data-content>
-								<p>We will depart from Birmingham, Alabama at 9 AM August 15th and depart from Chattanooga at 10AM on August 16th.</p>
+								<p>We will depart from Birmingham, Alabama at 9 AM August 14th and depart from Chattanooga at 10AM on August 15th.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -286,7 +286,7 @@ $package_items = array(
 
 							  <div data-control>What time is boarding for the cruise and when does the cruise start?</div>
 							  <div data-content>
-								<p>Boarding starts at 10:30PM. The boat will leave at 11PM </p>
+								<p>Boarding starts at 10:00PM. The boat will leave at 10:30PM </p>
 								<p style="color:dimgrey">*All times are based on Eastern Time Zone.</p>
 							  </div>
 
@@ -327,7 +327,7 @@ $package_items = array(
 
 							  <div data-control>Is the evening cruise and comedy/poetry/live performances one combined event?</div>
 							  <div data-content>
-								<p>No, you can purchase tickets only for the cruise or live performances. The cruise will begin boarding at 10:30PM while the comedy/poetry/live performances will start at 2PM.</p>
+								<p>No, you can purchase tickets only for the cruise or live performances. The cruise will begin boarding at 10:00PM while the comedy/poetry/live performances will start at 2PM.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
