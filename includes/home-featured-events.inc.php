@@ -46,8 +46,8 @@ $feature_event = array(
 	),
 	array(
 		"title" 	=> "Urban Fantasy Cruise",
-		"date" 		=> "September 7-12, 2020",
-		"end"		=> strtotime("September 12, 2020"),
+		"date" 		=> "September 4-5, 2020",
+		"end"		=> strtotime("September 05, 2020"),
 		"img" 		=> "images/featured-events/featured-event-ufc.jpg",
 		"link" 		=> "/urban-fantasy"
 	),
@@ -98,7 +98,7 @@ $feature_event = array(
 		"date" 		=> "Feb 23-27, 2021",
 		"end"		=> strtotime("February 27, 2021"),
 		"img" 		=> "images/featured-events/featured-event-tourney.jpg",
-		,
+    ),
     array(
 		"title" 	=> "Spring Breakaway",
 		"date" 		=> "March 25-29, 2021",
