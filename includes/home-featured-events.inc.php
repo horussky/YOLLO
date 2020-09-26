@@ -4,22 +4,22 @@ $feature_event = array(
 
 	array(
 		"title" 	=> "Cincinnati Music Festival",
-		"date" 		=> "July 24-26, 2021",
-		"end"		=> strtotime("July 26, 2021"),
+		"date" 		=> "July 23-25, 2021",
+		"end"		=> strtotime("July 25, 2021"),
 		"img" 		=> "images/featured-events/featured-event-cmf.jpg",
 		"link" 		=> "/nati-music-festival"
 	),
 	array(
 		"title" 	=> "Essence Festival",
-		"date" 		=> "July 3-5, 2021",
-		"end"		=> strtotime("July 5, 2021"),
+		"date" 		=> "July 2-4, 2021",
+		"end"		=> strtotime("July 4, 2021"),
 		"img" 		=> "images/featured-events/featured-event-efw.jpg",
 		"link" 		=> "/essence-festival"
 	),
 	array(
 		"title" 	=> "Magic City Classic",
-		"date" 		=> "Oct 30 - Nov 1 2020",
-		"end"		=> strtotime("October 27, 2020"),
+		"date" 		=> "April 16 - 18, 2021",
+		"end"		=> strtotime("April 18, 2020"),
 		"img" 		=> "images/featured-events/featured-event-mcc.jpg",
 		"link" 		=> "/classic"
 	),
@@ -32,8 +32,8 @@ $feature_event = array(
 	),
 	array(
 		"title" 	=> "Party Gras Cruise",
-		"date" 		=> "October 12, 2019",
-		"end"		=> strtotime("October 13, 2019"),
+		"date" 		=> "August 14, 2021",
+		"end"		=> strtotime("August 14, 2021"),
 		"img" 		=> "images/featured-events/featured-event-pg.jpg",
 		"link" 		=> "/partygras"
 	),
@@ -46,8 +46,8 @@ $feature_event = array(
 	),
 	array(
 		"title" 	=> "Urban Fantasy Cruise",
-		"date" 		=> "September 7-12, 2020",
-		"end"		=> strtotime("September 12, 2020"),
+		"date" 		=> "September 4-5, 2020",
+		"end"		=> strtotime("September 05, 2020"),
 		"img" 		=> "images/featured-events/featured-event-ufc.jpg",
 		"link" 		=> "/urban-fantasy"
 	),
@@ -60,8 +60,8 @@ $feature_event = array(
 	),
 	array(
 		"title" 	=> "Urban Ski Weekend",
-		"date" 		=> "Jan 31 - Feb 3, 2020",
-		"end"		=> strtotime("February 3, 2020"),
+		"date" 		=> "Feb 5-7, 2021",
+		"end"		=> strtotime("February 7, 2021"),
 		"img" 		=> "images/featured-events/featured-event-usw.jpg",
 		"link" 		=> "/urban-ski-weekend"
 	),
@@ -81,8 +81,8 @@ $feature_event = array(
 	),
 	array(
 		"title" 	=> "Alumni Getaway Cruise",
-		"date" 		=> "Nov 30 - Dec 5, 2019",
-		"end"		=> strtotime("December 5, 2019"),
+		"date" 		=> "Dec 6-11, 2021",
+		"end"		=> strtotime("December 11, 2021"),
 		"img" 		=> "images/featured-events/featured-event-agc.jpg",
 		"link" 		=> "/alumni-getaway-cruise"
     ),
@@ -92,6 +92,19 @@ $feature_event = array(
 		"end"		=> strtotime("August 29, 2020"),
 		"img" 		=> "images/featured-events/featured-event-gob.jpg",
 		"link" 		=> "/get-on-the-bus"
+    ),
+    array(
+		"title" 	=> "CIAA Weekend",
+		"date" 		=> "Feb 23-27, 2021",
+		"end"		=> strtotime("February 27, 2021"),
+		"img" 		=> "images/featured-events/featured-event-tourney.jpg",
+    ),
+    array(
+		"title" 	=> "Spring Breakaway",
+		"date" 		=> "March 25-29, 2021",
+		"end"		=> strtotime("March 29, 2021"),
+		"img" 		=> "images/featured-events/featured-event-sba.jpg",
+		"link" 		=> "/spring-breakaway-cruise"
 	)
 
 );

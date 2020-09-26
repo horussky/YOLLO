@@ -4,11 +4,11 @@ include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
 $event = array(
-    "title"                    => "The Tourney Weekend 2020",
-    "subtitle"                => "Charlotte Grand Finale! It will be BIG!",
-    "location"                => "Charlotte, NC",
-    "date"                    => "February 27 - March 1, 2020",
-    "date_start"            => "February 27, 2020",
+    "title"                    => "The Tourney Weekend 2021",
+    "subtitle"                => "B-More Here We COME! It will be BIG!",
+    "location"                => "Baltimore, MD",
+    "date"                    => "February 23 - 27, 2021",
+    "date_start"            => "February 23, 2021",
     "img_url"                => "../../images/slides/splash-tourney-cta.jpg",
     "img_alt"                => "The Tourney"
 );
@@ -140,10 +140,10 @@ $package_items = array(
                             <?php echo $responsive_tabs["overview"]; ?>
                             <div class="tab" aria-label="overview">
 
-                                <h3>Get ready for <?php echo $event["title"] ?> in Charlotte, North Carolina. </h3>
+                                <h3>Get ready for <?php echo $event["title"] ?> in Baltimore, MD. </h3>
 
-                                <p>The BIG CIAA tournament is taking over North Carolina one last time in 2020.Charlotte has been an awesome host city for the past 13 years and 2020 will be BIGGER than ever! YOLLO Group Services is making the Tourney a fun-filled weekend for you to remember. This basketball tournament has become one of the most attended events among HBCU’s in the nation. </p>
-                                <p>Fans will get their basketball fix during the day-time, while others enjoy all the night-time events. This means parties galore! You may spot a celebrity or two crashing and/or hosting several of these parties. You cannot go wrong booking with YOLLO Group Services for the Tourney Weekend 2020. </p>
+                                <p>The CIAA tournament is taking it's talants furthur North to Baltimore in 2021. Baltimore will definitely bring new energy to this already exciting event and the Baltimore’s nightlife is a PERFECT match for the attendees of this event! YOLLO Group Services is making the Tourney a fun-filled weekend for you to remember. This basketball tournament has become one of the most attended events among HBCU’s in the nation. </p>
+                                <p>Fans will get their basketball fix during the day-time, while others enjoy all the night-time events. This means parties galore! You may spot a celebrity or two crashing and/or hosting several of these parties. You cannot go wrong booking with YOLLO Group Services for the Tourney Weekend 2021. </p>
                                 <p>If parties and celebrities are what you are looking for this weekend's events are definitely what you want to attend. Make sure you explore our Hotel and Pricing options and reserve your spot today before it's too late! </p>
 
                             </div><!-- ./overview -->
@@ -235,7 +235,7 @@ $package_items = array(
 
                                         <div data-control>When are the payments due?</div>
                                         <div data-content>
-                                            <p>After registration the first payment of $125 is due January 10 , 2020. The final payment (remaining balance) is due on or before February 02, 2020.</p>
+                                            <p>After registration the first payment of $125 is due October 15 , 2020. The final payment (remaining balance) is due on or before December 02, 2020.</p>
                                         </div>
 
                                     </div><!-- end of accordion-->

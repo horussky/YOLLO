@@ -9,8 +9,8 @@ $event = array(
 	"title"				=>"Get On The Bus",
 	"subtitle"			=>"Commitment March on Washington",
 	"location"			=>"Washington DC",
-	"date"				=>"August 27 - 29, 2020",
-    "date_start"        =>"August 27, 2020",
+	"date"				=>"August 27 - 29, 2021",
+    "date_start"        =>"August 27, 2021",
 	"img_url"			=>"../../images/slides/splash-gob-cta.jpg",
 	"img_alt"			=>"Get on the bus"
 );
@@ -126,9 +126,9 @@ $package_items = array(
                     <div id="responsive-tabs">
                     <?php echo $responsive_tabs["overview"]; ?>
                     <div class="tab" aria-label="overview">
-                        <h3>The 57th anniversary of the historic March on Washington</h3>
+                        <h3>The 58th anniversary of the historic March on Washington</h3>
 
-                        <p>YOLLO wants you to Get on the Bus to Washington DC. On August 28, a Commitment March, the 57th anniversary of the March on Washington, will take place at the nation's capital. The very place where Martin Luther King Jr. delivered his famous “I Have a Dream” speech. The greatness of August 1963 is upon us again, and we want you to be a part of history. This march will embrace love, peace, and equality for all. Join us and GET ON THE BUS for this historical march on Washington!</p> 
+                        <p>YOLLO wants you to Get on the Bus to Washington DC. On August 28, a Commitment March, the 58th anniversary of the March on Washington, will take place at the nation's capital. The very place where Martin Luther King Jr. delivered his famous “I Have a Dream” speech. The greatness of August 1963 is upon us again, and we want you to be a part of history. This march will embrace love, peace, and equality for all. Join us and GET ON THE BUS for this historical march on Washington!</p> 
 
                         <p>Enjoy a luxury charter to DC, the march, and daily breakfast. Space is limited and tickets will sell out fast, so <a href="#" data-href="#tabs-5" class="open-tab">book now!</a></p>
 
@@ -235,7 +235,7 @@ $package_items = array(
                             <div data-control>When are the payments due?</div>
 
                             <div data-content>
-                            <p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 per person is due 7 days after sign-up. The second payment of $150 per person is due on or before July 15, 2020. The final payment (remaining balance) is due on or before August 1, 2020. Click the "Buy Now" tab to make purchase.</p>
+                            <p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $100 per person is due November 15, 2021.  The second payment of $100 is due March 10, 2021. The final payment (remaining balance) is due on or before June 1, 2021. Click the "Buy Now" tab to make purchase.</p>
 
                             </div>
                         </div><!-- end of accordion-->

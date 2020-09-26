@@ -13,7 +13,13 @@
             "canonical" => "https://www.goyollo.com/about"
         ),
         "alumni" => array(
-            "title"     => "Alumni Getaway Cruise in Mexico",
+            "title"     => "Alumni Getaway Cruise to Jamaica",
+            "desc"      => "YOLLO is taking you on an Alumni Cruise",
+            "keywords"  => "Alumni Cruise, HBCU ALumni, SWAC, CIAA, MEAC, SIAC, Carnival Cruise, Bahamas, HBCU Cruise, Mexico cruise",
+            "canonical" => "https://www.goyollo.com/alumni-getaway-cruise"
+        ),
+        "alumni21" => array(
+            "title"     => "Alumni Getaway Cruise to Amber Cove",
             "desc"      => "YOLLO is taking you on an Alumni Cruise",
             "keywords"  => "Alumni Cruise, HBCU ALumni, SWAC, CIAA, MEAC, SIAC, Carnival Cruise, Bahamas, HBCU Cruise, Mexico cruise",
             "canonical" => "https://www.goyollo.com/alumni-getaway-cruise"
