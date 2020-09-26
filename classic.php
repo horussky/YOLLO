@@ -21,8 +21,8 @@
 		"hotel1"=> array(
 
 			"title" 			=>"La Quinta Inn & Suites",
-			"address"			=>"1207 Boots Blvd",
-			"location"			=>"Fultondale, AL 35068",
+			"address"			=>"60 State Farm Pkwy",
+			"location"			=>"Homewood, AL 35209",
 			"soldout"           => false,
 			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/08/65/86/02/la-quinta-inn-suites.jpg"
 
@@ -150,7 +150,7 @@
                 </div>
                
                 <p>This is the #1 HBCU football Classic in the nation attracting over 100,000 fans annually! The Magic City Classic offers a family environment that produces new bonds and memories for years to come.</p>
-                <p>This annual clash of the titans was delayed in 2020 due to COVID-19 so they have decided to have this exciting game TWICE in one year! This means possible bragging rights for one school TWICE in the same year</p>
+                <p>This annual clash of the titans was delayed in 2020 due to COVID-19 so they have decided to have this exciting game TWICE in one year! This means possible bragging rights for one school TWICE in the same year.</p>
                 <p>In 2019 the Alabama A&M Bulldogs came away with the victory as they entered the game as favorites and delivered a decisive win for the Bulldog faithful as well as the MOST important part of the this historic rivalry….BRAGGING rights for the next 365 days! </p>
                 <p>YOLLO Group Services, Inc. wants to provide your travel package for this historic and exciting weekend. Lock in your package today as space is limited and our packages go fast.</p>
 			</div><!-- ./ overview -->

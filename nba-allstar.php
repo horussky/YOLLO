@@ -5,7 +5,7 @@ include 'includes/meta.config.inc.php';
 
 $event = array(
 	"title"				=>"All-Star Weekend 2021",
-	"subtitle"			=>"Here we come Circle City! Save $100 off until June 1st!",
+	"subtitle"			=>"Here we come Circle City!",
 	"location"			=>"Indianapolis, IN",
 	"date"				=>"Postponed",
     "date_start"        =>"February 12, 2021",

@@ -5,7 +5,7 @@ include 'includes/meta.config.inc.php';
 
 $event = array(
 	"title"					=> "Alumni Getaway 2021",
-	"subtitle"				=> "The LIVEST Alumni party at SEA! Save $100 per person until November 1, 2020!",
+	"subtitle"				=> "The LIVEST Alumni party at SEA! Save $100 per person until October 1, 2020!",
 	"location"				=> "Amber Cove, Dominican Republic",
 	"date"					=> "Dec 6 - 11 2021",
     "date_start"			=> "December 6, 2021",
@@ -141,7 +141,7 @@ $package_items = array(
 						<div class="tab" aria-label="overview">
                         <h3>Alumni Getaway is going to Amber Cove, Dominican Republic!</h3>
 
-                        <p>Calling all alums, this Alumni Getaway cruise is the "catch-up" vacation for you. We are bringing together HBCU alums from all over the country to represent their university. There's no better way to meet and mingle than cruising aboard the Carnival Sunrise. We're taking you to the beautiful island of Amber Cove! Not a product of an HBCU? No worries, this cruise isn't exclusive to only HBCU alumni. Everyone is welcome to rep their university on this exotic getaway cruise.</p>
+                        <p>Calling all alums, this Alumni Getaway cruise is the "catch-up" vacation for you. We are bringing together HBCU alums from all over the country to represent their university. There's no better way to meet and mingle than cruising aboard the Carnival Elation. We're taking you to the beautiful island of Amber Cove! Not a product of an HBCU? No worries, this cruise isn't exclusive to only HBCU alumni. Everyone is welcome to rep their university on this exotic getaway cruise.</p>
                         
                         <p>While cruising over the Caribbean, we have much to keep you occupied. You should look forward to comedy shows, a talent show, spades tournament, and more. Our DJ's are working the 1's and 2's for a variety of onboard clubs and decks. Our theme parties, “Kangol and Shelltoes” and “Ocean Blue Fun and Sexy” will also keep the camaraderie going all weekend.</p> 
                         

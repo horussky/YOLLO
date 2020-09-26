@@ -272,7 +272,7 @@ $package_items = array(
 
 							  <div data-control>Where will we be staying that weekend?</div>
 							  <div data-content>
-								<p>You will two options for 2021. The Comfort Suites Newport - Cincinnati Riverfront and the Holiday Inn Cincinnati Riverfront have been selected as the host hotel for this wonderful event!</p>
+								<p>You will two options for 2021. The Holiday Inn Cincinnati Riverfront has been selected as the host property for this wonderful event! The Comfort Suites Newport - Cincinnati  will be our over flow property once the host property is sold out and trust us it will sell out. Lock in your reservation today. </p>
 							  </div>
 
 							</div><!-- end of accordion-->

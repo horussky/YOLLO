@@ -140,7 +140,7 @@ $package_items = array(
                             <?php echo $responsive_tabs["overview"]; ?>
                             <div class="tab" aria-label="overview">
 
-                                <h3>Get ready for <?php echo $event["title"] ?> in Baltmore, MD. </h3>
+                                <h3>Get ready for <?php echo $event["title"] ?> in Baltimore, MD. </h3>
 
                                 <p>The CIAA tournament is taking it's talants furthur North to Baltimore in 2021. Baltimore will definitely bring new energy to this already exciting event and the Baltimore’s nightlife is a PERFECT match for the attendees of this event! YOLLO Group Services is making the Tourney a fun-filled weekend for you to remember. This basketball tournament has become one of the most attended events among HBCU’s in the nation. </p>
                                 <p>Fans will get their basketball fix during the day-time, while others enjoy all the night-time events. This means parties galore! You may spot a celebrity or two crashing and/or hosting several of these parties. You cannot go wrong booking with YOLLO Group Services for the Tourney Weekend 2021. </p>
