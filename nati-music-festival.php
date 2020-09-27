@@ -22,9 +22,17 @@ $geolocation = array(
 		"location"			=>"Newport, KY 41071",
 		"geolocation"		=>"420 Riverboat Row, Newport, KY 41071",
 		"soldout"           =>false,
-		"img_url"			=>"//t-ec.bstatic.com/images/hotel/max1024x768/319/31915208.jpg"
+		"img_url"			=>"https://media-cdn.tripadvisor.com/media/photo-o/03/51/42/96/comfort-suites.jpg"
+    ),
+    
+    "hotel2"=> array(
+		"title" 			=>"Holiday Inn Cincinnati-Riverfront",
+		"address"			=>"600 W 3rd Street",
+		"location"			=>"Covington, KY 41011",
+		"geolocation"		=>"600 W 3rd Street, Covington, KY 41011",
+		"soldout"           =>false,
+		"img_url"			=>"https://cincinnatiusa.com/sites/default/files/styles/Array/public/hotels/H1FAHH43.JPG"
 	),
-
 );
 
 $people = array(
@@ -343,12 +351,11 @@ $package_items = array(
                         
                     </div><!-- ./ buy now -->
 
-					<input type="radio" name="tabs" id="tab-6"><label for="tab-6"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Cruise</label>					<div class="tab" aria-label="buy">
-                        
-                        <h3>Buy Cruise Now</h3>
-                                                
-                        <div class="mb-20" id="eventbrite-widget-container-66817682487"></div>
-                        
+                    <input type="radio" name="tabs" id="tab-6"><label for="tab-6"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Cruise</label>
+                    
+                    <div class="tab" aria-label="buy">
+                        <h3>Buy Cruise Now</h3>   
+                        <div class="mb-20" id="eventbrite-widget-container-112362900460"></div>
                     </div><!-- ./ buy now -->
 
 
@@ -420,8 +427,8 @@ $package_items = array(
 	window.EBWidgets.createWidget({
 		// Required
 		widgetType: 'checkout',
-		eventId: '66817682487',
-		iframeContainerId: 'eventbrite-widget-container-66817682487',
+		eventId: '112362900460',
+		iframeContainerId: 'eventbrite-widget-container-112362900460',
 
 		// Optional
 		iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
