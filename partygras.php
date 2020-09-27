@@ -376,7 +376,7 @@ $package_items = array(
                 
 				
                 
-                <div class="mb-20" id="eventbrite-widget-container-53987279406"></div>
+                <div class="mb-20" id="eventbrite-widget-container-116182026569"></div>
                 
                 <hr class="mt-20" />
                 
@@ -486,8 +486,8 @@ $package_items = array(
 	window.EBWidgets.createWidget({
 		// Required
 		widgetType: 'checkout',
-		eventId: '53987279406',
-		iframeContainerId: 'eventbrite-widget-container-53987279406',
+		eventId: '116182026569',
+		iframeContainerId: 'eventbrite-widget-container-116182026569',
 
 		// Optional
 		iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
