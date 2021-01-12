@@ -4,27 +4,27 @@ include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"				=>"All-Star Weekend 2021",
-	"subtitle"			=>"Here we come Circle City!",
-	"location"			=>"Indianapolis, IN",
-	"date"				=>"Postponed",
-    "date_start"        =>"February 12, 2021",
+	"title"				=>"All-Star Weekend 2022",
+	"subtitle"			=>"The HOME of Labron James!",
+	"location"			=>"Cleveland, OH",
+	"date"				=>"February 18, 2022",
+    "date_start"        =>"February 18, 2022",
 	"img_url"			=>"../../images/slides/splash-nba-cta.jpg",
 );
 
 $geolocation = array(
  
 	"hotel1"=> array(
-		"title" 		=>"Candlewood Suites NW",
-		"address"		=>"7455 Woodland Dr",
-		"location"		=>"Indianapolis, IN 46278",
+		"title" 		=>"Hampton Inn Cleveland-Downtown",
+		"address"		=>"1460 E 9th Street",
+		"location"		=>"Cleveland, OH 44114",
 		"soldout"	    => false,
 		"img_url"		=>"//media-cdn.tripadvisor.com/media/photo-s/17/d7/03/29/guest-room.jpg"
 	),
     "hotel2"=> array(
-		"title" 		=>"Indianapolis Marriott East",
-		"address"		=>"7202 East 21st St",
-		"location"		=>"Indianapolis, IN 46219",
+		"title" 		=>"Hilton Garden Inn Cleveland Downtown",
+		"address"		=>"1100 Carnegie Ave",
+		"location"		=>"Cleveland, OH 44115",
 		"soldout"	    => false,
 		"img_url"		=>"//cache.marriott.com/marriottassets/marriott/INDDT/inddt-pool-3602-hor-feat.jpg"
 	)
@@ -154,12 +154,12 @@ $package_items = array(
                     <div class="tab" aria-label="overview">
                         <h3><?php echo $event["title"]?></h3>
 
-                        <p>YOLLO is taking you to the Circle City in 2021. Yes, Indianapolis will host the 70th annual All-Star game after a 36-year hiatus. This three-day weekend event attracts lots of celebrities. Most of these celebs host some of the hottest parties in the city. </p>
+                        <p>YOLLO is taking you to the home of Labron James in 2022. Yes, Cleveland will host the 71st annual All-Star game after a 25-year hiatus. This three-day weekend event attracts lots of celebrities. Most of these celebs host some of the hottest parties in the city. </p>
 
                         <p>YOLLO has an all-inclusive package to get you face-to-face with these celebrities. From party passes, hotel stay, and celebrity-hosted events, YOLLO is here for your turn up!</p>
 
                         <h4>Party with YOLLO during All Star Weekend</h4>
-						<p>This annual event brings out the BEST of the BEST and the parties are just as GREAT! Events cover the city all weekend long and YOLLO puts you in the LIVEST paries and events throughout the weekend.  One of our fan favorite events is our Colors and Cocktails event! Last years' tribute to Kobe Byrant painting was a HUGE hit and in 2021 it will be even better! Please remember that once we sell out, we will not have any more tickets available. Lock in your package today for only 29.99 and enjoy our convenient payment plan.<p>
+						<p>This annual event brings out the BEST of the BEST and the parties are just as GREAT! Events cover the city all weekend long and YOLLO puts you in the LIVEST paries and events throughout the weekend.  One of our fan favorite events is our Colors and Cocktails event! Last years' tribute to Kobe Byrant painting was a HUGE hit and in 2022 it will be even better! Please remember that once we sell out, we will not have any more tickets available. Lock in your package today for only 29.99 and enjoy our convenient payment plan.<p>
 
                         <p>Allow us to give you an exciting travel experience during the All-Star Weekend. Make sure you explore our hotel and pricing options and book with YOLLO Group Services today!</p>
 
@@ -312,16 +312,16 @@ $package_items = array(
 
                                 <div data-control>When are the payments due?</div>
                                 <div data-content>
-                                <p>After registration the first payment of $125 is due October 10, 2020.  The second payment of $250 is due November 15, 2020. The final payment (remaining balance) is due on or before December 18, 2020.</p>
+                                <p>After registration the first payment of $125 is due February 10, 2021.  The second payment of $250 is due July 15, 2021. The final payment (remaining balance) is due on or before September 10, 2021.</p>
                                 </div>
 
                             </div><!-- end of accordion-->
 
                             <div class="accordion" data-accordion>
 
-                                <div data-control>Who won the All- Star game the last time it was hosted in Indianapolis?</div>
+                                <div data-control>Who won the All- Star game the last time it was hosted in Cleveland?</div>
                                 <div data-content>
-                                <p>The game was hosted in the Hoosier Dome. The game final score was East 129 vs West 140. Ralph Sampson was the MVP of the game.</p>
+                                <p>The game was hosted in Gund Arena. The game final score was East 132 vs West 120.  Glen Rice of the Charlotte Hornets was the MVP of the game.</p>
                                 </div>
 
                             </div><!-- end of accordion-->
@@ -330,7 +330,7 @@ $package_items = array(
 
                                 <div data-control>When is the NBA All-Star Game?</div>
                                 <div data-content>
-                                <p>NBA All-Star Weekend 2021 weekend will start on Feb. 12, 2021 in Indianapolis, IN. The game will be played on Feb. 14, 2021 at Bankers Life Fieldhouse. </p>
+                                <p>NBA All-Star Weekend 2022 weekend will start on February 18, 2022 in Cleveland, OH. The game will be played on February 20, 2022 at Rocket Mortgage FieldHouse. </p>
                                 </div>
 
                             </div><!-- end of accordion-->

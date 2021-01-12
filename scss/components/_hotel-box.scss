@@ -169,3 +169,22 @@
     
 }// end of hotel-grid
 
+//Host Styles for Hotel Grid
+.hotel-grid--host {
+    position: relative;
+}
+
+.hotel-grid--host:after {
+    content: "Host Property";
+    position: absolute;
+    background: #9E1421;
+    color: white;
+    font-weight: 600;
+    padding: 5px 10px;
+    right: 0;
+    top: -28px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+

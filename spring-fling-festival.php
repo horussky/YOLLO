@@ -290,7 +290,7 @@ $package_items = array(
                     <p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
                     <?php /* ?><div class="cognito"></div><?php */ ?>
 
-                    <div class="mb-20" id="eventbrite-widget-container-91275943805"></div>
+                    <div class="mb-20" id="eventbrite-widget-container-122806352105"></div>
                 
                     <hr class="mt-20" />
 
@@ -366,8 +366,8 @@ $package_items = array(
 	window.EBWidgets.createWidget({
 		// Required
 		widgetType: 'checkout',
-		eventId: '91275943805',
-		iframeContainerId: 'eventbrite-widget-container-91275943805',
+		eventId: '122806352105',
+		iframeContainerId: 'eventbrite-widget-container-122806352105',
 
 		// Optional
 		iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided

@@ -17,22 +17,25 @@ $event = array(
 $geolocation = array(
 
 	"hotel1"=> array(
-		"title" 			=>"Comfort Suites Newport - Cincinnati Riverfront",
-		"address"			=>"420 Riverboat Row",
-		"location"			=>"Newport, KY 41071",
-		"geolocation"		=>"420 Riverboat Row, Newport, KY 41071",
-		"soldout"           =>false,
-		"img_url"			=>"https://media-cdn.tripadvisor.com/media/photo-o/03/51/42/96/comfort-suites.jpg"
-    ),
-    
-    "hotel2"=> array(
 		"title" 			=>"Holiday Inn Cincinnati-Riverfront",
 		"address"			=>"600 W 3rd Street",
 		"location"			=>"Covington, KY 41011",
 		"geolocation"		=>"600 W 3rd Street, Covington, KY 41011",
 		"soldout"           =>false,
-		"img_url"			=>"https://cincinnatiusa.com/sites/default/files/styles/Array/public/hotels/H1FAHH43.JPG"
-	),
+        "img_url"			=>"https://cincinnatiusa.com/sites/default/files/styles/Array/public/hotels/H1FAHH43.JPG",
+        "host"              =>true
+    ),
+    "hotel2"=> array(
+		"title" 			=>"Comfort Suites Newport - Cincinnati Riverfront",
+		"address"			=>"420 Riverboat Row",
+		"location"			=>"Newport, KY 41071",
+		"geolocation"		=>"420 Riverboat Row, Newport, KY 41071",
+		"soldout"           =>false,
+        "img_url"			=>"https://media-cdn.tripadvisor.com/media/photo-o/03/51/42/96/comfort-suites.jpg",
+        "host"              =>false
+    ),
+    
+    
 );
 
 $people = array(
@@ -160,7 +163,7 @@ $package_items = array(
                     	<h3>Hotels</h3>
                         
                         <?php foreach($geolocation as $hotel) :?>
-                        <div class="hotel-grid">
+                        <div class="hotel-grid <?php if($hotel['host'] == true) :?>hotel-grid--host<?php endif; ?>">
                             <div class="hg-img">
                                 <figure style="background:url(<?php echo $hotel['img_url']; ?>); background-size: cover; background-position: center;"></figure>
                             </div>
@@ -260,7 +263,7 @@ $package_items = array(
 
 							  <div data-control>What are the payment due dates for Cincinnati Music Festival Packages?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 is due on or before <strong>October 25, 2020</strong>. The second payment of $150 is due on or before <strong>January 23, 2021</strong>.The final payment (remaining balance) is due on or before <strong>March 20, 2021</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 is due on or before <strong>December 15, 2020</strong>. The second payment of $150 is due on or before <strong>February 15, 2021</strong>.The final payment (remaining balance) is due on or before <strong>April 20, 2021</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
