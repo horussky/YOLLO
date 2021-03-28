@@ -15815,6 +15815,8 @@ footer {
     grid-area: foot-contact;
     grid-column: 3;
     font-size: 1.4rem; }
+    footer .foot-contact .foot-share-links a i {
+      font-size: 2rem; }
     footer .foot-contact ul {
       list-style: none;
       margin-left: 0;
