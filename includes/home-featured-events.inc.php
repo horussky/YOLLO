@@ -4,8 +4,8 @@ $feature_event = array(
 
 	array(
 		"title" 	=> "Cincinnati Music Festival",
-		"date" 		=> "July 23-25, 2021",
-		"end"		=> strtotime("July 25, 2021"),
+		"date" 		=> "July 22-24, 2022",
+		"end"		=> strtotime("July 24, 2021"),
 		"img" 		=> "images/featured-events/featured-event-cmf.jpg",
 		"link" 		=> "/nati-music-festival"
 	),

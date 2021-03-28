@@ -14006,6 +14006,9 @@ aside .btn {
 .pushy-open-right #nav-icon {
   display: none; }
 
+.pushy {
+  visibility: hidden; }
+
 .toggle-panel {
   display: none; }
 
@@ -16811,6 +16814,8 @@ div.AuthorizeNetSeal * {
     display: none; } }
 
 @media only screen and (max-width: 991px) {
+  .pushy {
+    visibility: unset; }
   #container #left {
     display: none; }
   #container #right {

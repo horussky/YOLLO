@@ -286,7 +286,7 @@ $package_items = array(
 
 												  <div data-control>When are the payments due?</div>
 												  <div data-content>
-													<p>After registration the first payment of $125 is due January 15, 2021 after registration. The second payment of $200 is due by February 15, 2021. The final payment (remaining balance) is due on or before March 15, 2021. If you would like to make payments between due dates that is fine also.</p>
+													<p>After registration the first payment of $125 is due February 20, 2021 after registration. The second payment of $200 is due by March 15, 2021. The final payment (remaining balance) is due on or before April 15, 2021. If you would like to make payments between due dates that is fine also.</p>
 												  </div>
 
 												</div><!-- end of accordion-->

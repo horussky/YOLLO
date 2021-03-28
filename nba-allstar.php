@@ -5,7 +5,7 @@ include 'includes/meta.config.inc.php';
 
 $event = array(
 	"title"				=>"All-Star Weekend 2022",
-	"subtitle"			=>"The HOME of Labron James!",
+	"subtitle"			=>"The HOME of Lebron James!",
 	"location"			=>"Cleveland, OH",
 	"date"				=>"February 18, 2022",
     "date_start"        =>"February 18, 2022",
@@ -19,15 +19,15 @@ $geolocation = array(
 		"address"		=>"1460 E 9th Street",
 		"location"		=>"Cleveland, OH 44114",
 		"soldout"	    => false,
-		"img_url"		=>"//media-cdn.tripadvisor.com/media/photo-s/17/d7/03/29/guest-room.jpg"
-	),
+		"img_url"		=>"//media-cdn.tripadvisor.com/media/photo-o/0c/b0/75/e6/hampton-inn-cleveland.jpg"
+	)/*,
     "hotel2"=> array(
 		"title" 		=>"Hilton Garden Inn Cleveland Downtown",
 		"address"		=>"1100 Carnegie Ave",
 		"location"		=>"Cleveland, OH 44115",
 		"soldout"	    => false,
-		"img_url"		=>"//cache.marriott.com/marriottassets/marriott/INDDT/inddt-pool-3602-hor-feat.jpg"
-	)
+		"img_url"		=>"//media-cdn.tripadvisor.com/media/photo-m/1280/1a/0a/5b/b8/exterior.jpg"
+	)*/
 
 );
 

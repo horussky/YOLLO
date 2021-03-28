@@ -12,6 +12,10 @@
 
 
 @media only screen and (max-width : 991px) {
+    .pushy{
+        visibility: unset;
+    }
+
 	#container{
 		//removes event navigation at desktop
 		#left{

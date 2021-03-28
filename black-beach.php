@@ -6,10 +6,10 @@ include 'includes/meta.config.inc.php';
 
 $event = array(
 	"title"						=>"Daytox Party Cruise",
-	"subtitle"					=>"Black Beach Weekend 2020",
+	"subtitle"					=>"Black Beach Weekend 2021",
 	"location"					=>"Biloxi, MS",
-	"date"						=>"April 4, 2020",
-    "date_start"                =>"April 4, 2020",
+	"date"						=>"April 28, 2021",
+    "date_start"                =>"April 28, 2021",
 	"img_url"				 	=>"../../images/slides/splash-bbw-cta.jpg",
 	"img_alt"				 	=>"Daytox Party Cruise"
 );
@@ -31,7 +31,7 @@ $people = array(
 		"diamond"=> array(
 			"Early Bird Tickets" 		=>"$25",
 			"General Admission"			=>"$40",
-			"Day of Tickets"			=>"$65",
+			"Day of Tickets"			=>"$55",
 		),
 
 		"emerald"=> array(
@@ -48,7 +48,7 @@ $people = array(
 $package_items = array(
 	"diamond_items" => array(
 		"Crowd Control by: DJ Dre Smoove"		=> "checked",
-		" Bikini Contest"							=> "checked",
+		" $500 DRIP Contest"							=> "checked",
 		"Cruise the Gulf"						=> "checked"
 		
 	),
@@ -131,27 +131,27 @@ $package_items = array(
 
 						<p>Biloxi will be LIT this Spring because YOLLO is taking over Black Beach Weekend with the Daytox Party Cruise! This event is the Drip of Drop edition, the an ultimate party cruise experience. This cruise will be so LIT we are cruising twice the same day to accommodate the crowds.</p>
 							
-						<p>Ladies and gentlemen come dressed to impress and ready for a LIT event as we will be giving away $400 in cash prizes! Come partake in 26 miles of beach, vendors, drinks, special guests, and the livest one-of-a-kind cruise on the Gulf Coast during Black Beach Weekend.</p>
+						<p>Ladies and gentlemen come dressed to impress and ready for a LIT event as we will be giving away over $1000 in cash and prizes! Come partake in 26 miles of beach, vendors, drinks, special guests, and the livest one-of-a-kind cruise on the Gulf Coast during Black Beach Weekend.</p>
                        	
 						<p>Don't wait to get your tickets because both cruises will fill up fast. You will sail with the livest from across the country. This boat is located at 173 Beach Blvd, Biloxi, MS 39530. Please pay attention to the cruise time you selected.</p>
 						
 						<p class="mb-10"><strong>Cruise #1: Mid-Day</strong></p>
 						<ul>
-							<li>Boarding: 3:45PM</li>
-							<li>Cruise Times: 4PM - 6PM</li>
+							<li>Boarding: 11:30PM</li>
+							<li>Cruise Times: 12PM - 2PM</li>
 						</ul>
 				
 						<p class="mb-10"><strong>GET LIT Part 2</strong></p>
 						<ul>
-							<li>Boarding: TBA</li>
-							<li>Cruise Times: TBA</li>
+							<li>Boarding: 3:30PM</li>
+							<li>Cruise Times: 4PM - 6PM</li>
 						</ul>
 						
 						<p class="mb-10"><strong>Tickets</strong></p>
 						<ul>
 							<li>Early Bird Tickets: $25</li>
 							<li>General Admission: $40</li>
-							<li>Day of Tickets: $65</li>
+							<li>Day of Tickets: $55</li>
 						</ul>
 
 						<p style="color:dimgrey">*All times are based on Central Time Zone.</p>
@@ -298,14 +298,14 @@ $package_items = array(
 							  <div data-content>
 								<p class="mb-10"><strong>Cruise #1: Mid-Day</strong></p>
 								<ul>
-									<li>Boarding: 3:45PM</li>
-									<li>Cruise Time: 4PM - 6PM</li>
+									<li>Boarding: 11:30AM</li>
+									<li>Cruise Time: 12PM - 2PM</li>
 								</ul>
 
 								<p class="mb-10"><strong>GET LIT Part 2</strong></p>
 								<ul>
-									<li>Boarding: TBA</li>
-									<li>Party Time: TBA</li>
+									<li>Boarding: 3:30PM</li>
+									<li>Party Time: 4PM-6PM/li>
 								</ul>
 							  </div>
 
@@ -326,7 +326,7 @@ $package_items = array(
 
 							  <div data-control>What form of entertainment will be provided during the cruise?</div>
 							  <div data-content>
-								<p>The cruise will feature DJ Dre Smooth on the 1's and 2's and various contest totaling to $400 prize money.</p>
+								<p>The cruise will feature DJ Dre Smoove on the 1's and 2's and various contest totaling over $1000 in prizes.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
