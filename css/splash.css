@@ -8830,6 +8830,12 @@ hr {
   font-size: 1.6rem !important;
   padding: 0 !important; }
 
+/*Fix help text in Cognito*/
+.cognito .c-helptext p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #333; }
+
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
  * Version: 2.0.2
@@ -15946,6 +15952,14 @@ footer a:hover {
   .price-table .price:hover {
     -webkit-box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2); }
+  .price-table .price .btn {
+    color: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+    .price-table .price .btn:hover {
+      color: #fff;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
   .price-table .price > .header {
     text-align: center;
     color: #111;
