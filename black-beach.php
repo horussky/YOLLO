@@ -8,8 +8,8 @@ $event = array(
 	"title"						=>"Daytox Party Cruise",
 	"subtitle"					=>"Black Beach Weekend 2021",
 	"location"					=>"Biloxi, MS",
-	"date"						=>"April 28, 2021",
-    "date_start"                =>"April 28, 2021",
+	"date"						=>"August 28, 2021",
+    "date_start"                =>"August 28, 2021",
 	"img_url"				 	=>"../../images/slides/splash-bbw-cta.jpg",
 	"img_alt"				 	=>"Daytox Party Cruise"
 );
@@ -30,8 +30,8 @@ $geolocation = array(
 $people = array(
 		"diamond"=> array(
 			"Early Bird Tickets" 		=>"$25",
-			"General Admission"			=>"$40",
-			"Day of Tickets"			=>"$55",
+			"General Admission"			=>"$55",
+			"Day of Tickets"			=>"$65",
 		),
 
 		"emerald"=> array(
@@ -122,14 +122,12 @@ $package_items = array(
                 <div class="colfull">
         
                     <div id="responsive-tabs">
-                    
-
 
                     <?php echo $responsive_tabs["overview"]; ?>
 					<div class="tab" aria-label="overview">
                         <h3>Daytox Party Cruise during Black Beach Weekend in Biloxi, MS</h3>
 
-						<p>Biloxi will be LIT this Spring because YOLLO is taking over Black Beach Weekend with the Daytox Party Cruise! This event is the Drip of Drop edition, the an ultimate party cruise experience. This cruise will be so LIT we are cruising twice the same day to accommodate the crowds.</p>
+						<p>Biloxi will be LIT this summer because YOLLO is adding to the excitement of Black Beach Weekend with the Daytox Party Cruise! This event is the Drip or Drop edition, the ultimate party cruise experience. This cruise will be so LIT we are cruising twice the same day to accommodate the crowds.</p>
 							
 						<p>Ladies and gentlemen come dressed to impress and ready for a LIT event as we will be giving away over $1000 in cash and prizes! Come partake in 26 miles of beach, vendors, drinks, special guests, and the livest one-of-a-kind cruise on the Gulf Coast during Black Beach Weekend.</p>
                        	
@@ -150,8 +148,8 @@ $package_items = array(
 						<p class="mb-10"><strong>Tickets</strong></p>
 						<ul>
 							<li>Early Bird Tickets: $25</li>
-							<li>General Admission: $40</li>
-							<li>Day of Tickets: $55</li>
+							<li>General Admission: $55</li>
+							<li>Day of Tickets: $65</li>
 						</ul>
 
 						<p style="color:dimgrey">*All times are based on Central Time Zone.</p>

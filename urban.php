@@ -5,11 +5,11 @@ include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"				=>"Urban Fiesta 2021",
+	"title"				=>"Urban Fiesta 2022",
 	"subtitle"			=>"You DO NOT want to miss this event!",
 	"location"		   	=>"Montego Bay, Jamaica",
-	"date"				=>"May 28 - 31, 2021",
-    "date_start"        =>"May 28, 2021",
+	"date"				=>"May 27 - 30, 2022",
+    "date_start"        =>"May 27, 2022",
 	"img_url"			=>"../../images/slides/splash-urban-fiesta-cta.jpg",
 	"img_alt"			=>"Urban Fiesta"
 );
@@ -32,17 +32,17 @@ $geolocation = array(
 $people = array(
 
 		"diamond"=> array(
-			//"Group of 4" 			=>"$580",
-			"Group of 3"			=>"$1075",
-			"Group of 2"			=>"$1125",
-			"Individual"			=>"$2375"
+			//"Group of 4" 			=>"$680",
+			"Group of 3"			=>"$1175",
+			"Group of 2"			=>"$1225",
+			"Individual"			=>"$2475"
 		),
 
 		"emerald"=> array(
 			//"Group of 4" 			=>"$580",
-			"Group of 3"			=>"$825",
-			"Group of 2"			=>"$875",
-			"Individual"			=>"$1675"
+			"Group of 3"			=>"$925",
+			"Group of 2"			=>"$975",
+			"Individual"			=>"$1775"
 		),
 
 		"options"=>array(
@@ -167,11 +167,11 @@ $package_items = array(
                                              
                                              
 
-                                             <h3>Jamaica is the ONLY place to be Memorial Day Weekend 2021!</h3>
+                                             <h3>Jamaica is the ONLY place to be Memorial Day Weekend 2022!</h3>
 
-                                             <p>If you missed the 2020 edition of Urban Fiesta all we can say is look at the pictures and say damn COVID-19. When we took our clients to beautiful Jamaica and they LOVED it! Urban Fiesta 2019 was the livest event in Jamaica whihc was hosted by LHHNY celebrity Safari during Memorial Day weekend. There are plenty of activities to occupy your time from sun up to sun down - excursions, shopping areas, sandy beaches, parties, zip lining, and the list goes on. Let us remind you this was all on the property!<p> 
+                                             <p>If you missed the 2021 edition of Urban Fiesta all we can say is look at the pictures and make plans now to attend in 2022. With COVID-19 protocols in place we safely managed an event that was FUN, SAFE, and simply pur our clients LOVED it! Urban Fiesta 2021 was the livest event in Jamaica which was hosted by LHHNY celebrity Safari and others during Memorial Day weekend. There are plenty of activities to occupy your time from sun up to sun down - excursions, shopping areas, sandy beaches, parties, zip lining, and the list goes on. Let us remind you this was all on the property!<p> 
 
-											 <p>Dust those passports off, secure your package today, and get ready for some major FUN! YOLLO Group Services will see you in Jamaica for Urban Fiesta Weekend 2021!</p>
+											 <p>Dust those passports off, secure your package today, and get ready for some major FUN! YOLLO Group Services will see you in Jamaica for Urban Fiesta Weekend 2022!</p>
                                              
                                         </div><!-- ./overview -->
 
@@ -263,7 +263,7 @@ $package_items = array(
                                                        
                                                         <h3>Additional Options</h3>
                                                         <ul>
-															<li>Airport Transportation: $40 Roundtrip</li>
+															<li>Airport Transportation: $60 Roundtrip</li>
 															<li>Dunn's River Falls Excursion: $60pp</li>
 															<li>Tour of Ocho Rios: $70pp</li>
 															<li>Tour Of Montego Bay: $70pp</li>
@@ -286,7 +286,7 @@ $package_items = array(
 
 												  <div data-control>When are the payments due?</div>
 												  <div data-content>
-													<p>After registration the first payment of $125 is due February 20, 2021 after registration. The second payment of $200 is due by March 15, 2021. The final payment (remaining balance) is due on or before April 15, 2021. If you would like to make payments between due dates that is fine also.</p>
+													<p>After registration the first payment of $125 is due July 20, 2021 after registration. The second payment of $200 is due by September 15, 2021. The final payment (remaining balance) is due on or before December 15, 2021. If you would like to make payments between due dates that is fine also.</p>
 												  </div>
 
 												</div><!-- end of accordion-->
@@ -317,7 +317,7 @@ $package_items = array(
 
 												  <div data-control>Is the money the same or do I have to convert?</div>
 												  <div data-content>
-													<p>In Jamaica they mostly use the Jamaican dollar as currency. It will have to be converted and the exchange rate can vary form day to day. However, in some places, USD is accepted.</p>
+													<p>In Jamaica they mostly use the Jamaican dollar as currency. It will have to be converted and the exchange rate can vary form day to day. However, in some places, USD is accepted and preferred.</p>
 												  </div>
 
 												</div><!-- end of accordion-->
@@ -347,7 +347,7 @@ $package_items = array(
 
 												  <div data-control>Why did Urban Fiesta leave San Juan, Puerto Rico?</div>
 												  <div data-content>
-													<p>The event outgrew the island and most attendees are repeat clients. We wanted to celebrate they event with a new destinantion and provide fresh experiences for our attendees!</p>
+													<p>The event outgrew the island and most attendees are repeat clients. We wanted to celebrate the event with a new destinantion and provide fresh experiences for our attendees!</p>
 												  </div>
 
 												</div><!-- end of accordion-->

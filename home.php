@@ -1,6 +1,12 @@
 <?php
 include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
+
+//curl_setopt($curl, CURLOPT_URL, 'http://localhost:1337/homepage');
+
+//$str = file_get_contents('http://localhost:1337/homepage');
+//$json = json_decode($str, true); 
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -36,7 +42,8 @@ include 'includes/meta.config.inc.php';
       <div id="right">
             
             <section id="intro">
-                <?php /* ?><div class="rslides"></div><?php */?>
+                <?php /* ?><div class="rslides"></div>
+                <?php echo $json["homepage__description"]; ?><?php */?>
 
                 <p class="headline">Our name is our motto. You Only Live Life Once!</p>
                             

@@ -5,28 +5,28 @@ $feature_event = array(
 	array(
 		"title" 	=> "Cincinnati Music Festival",
 		"date" 		=> "July 22-24, 2022",
-		"end"		=> strtotime("July 24, 2021"),
+		"end"		=> strtotime("July 24, 2022"),
 		"img" 		=> "images/featured-events/featured-event-cmf.jpg",
 		"link" 		=> "/nati-music-festival"
 	),
 	array(
 		"title" 	=> "Essence Festival",
-		"date" 		=> "July 2-4, 2021",
-		"end"		=> strtotime("July 4, 2021"),
+		"date" 		=> "July 1-3, 2022",
+		"end"		=> strtotime("July 3, 2022"),
 		"img" 		=> "images/featured-events/featured-event-efw.jpg",
 		"link" 		=> "/essence-festival"
 	),
 	array(
 		"title" 	=> "Magic City Classic",
-		"date" 		=> "April 16 - 18, 2021",
-		"end"		=> strtotime("April 18, 2020"),
+		"date" 		=> "October 29 - 31, 2021",
+		"end"		=> strtotime("October 31, 2021"),
 		"img" 		=> "images/featured-events/featured-event-mcc.jpg",
 		"link" 		=> "/classic"
 	),
 	array(
 		"title" 	=> "NBA All-Star Weekend",
-		"date" 		=> "February 14-16, 2020",
-		"end"		=> strtotime("February 16, 2020"),
+		"date" 		=> "February 18, 2022",
+		"end"		=> strtotime("February 18, 2022"),
 		"img" 		=> "images/featured-events/featured-event-nba.jpg",
 		"link" 		=> "/nba-allstar"
 	),
@@ -53,15 +53,15 @@ $feature_event = array(
 	),
 	array(
 		"title" 	=> "Urban Fiesta Weekend",
-		"date" 		=> "May 22-25, 2020",
-		"end"		=> strtotime("May 26, 2020"),
+		"date" 		=> "May 27-30, 2022",
+		"end"		=> strtotime("May 30, 2022"),
 		"img" 		=> "images/featured-events/featured-event-ufw.jpg",
 		"link" 		=> "/urban"
 	),
 	array(
 		"title" 	=> "Urban Ski Weekend",
-		"date" 		=> "Feb 5-7, 2021",
-		"end"		=> strtotime("February 7, 2021"),
+		"date" 		=> "Feb 4-6, 2022",
+		"end"		=> strtotime("February 6, 2022"),
 		"img" 		=> "images/featured-events/featured-event-usw.jpg",
 		"link" 		=> "/urban-ski-weekend"
 	),
@@ -95,8 +95,8 @@ $feature_event = array(
     ),
     array(
 		"title" 	=> "CIAA Weekend",
-		"date" 		=> "Feb 23-27, 2021",
-		"end"		=> strtotime("February 27, 2021"),
+		"date" 		=> "Feb 24-27, 2022",
+		"end"		=> strtotime("February 27, 2022"),
 		"img" 		=> "images/featured-events/featured-event-tourney.jpg",
     ),
     array(
@@ -105,6 +105,13 @@ $feature_event = array(
 		"end"		=> strtotime("March 29, 2021"),
 		"img" 		=> "images/featured-events/featured-event-sba.jpg",
 		"link" 		=> "/spring-breakaway-cruise"
+	),
+    array(
+		"title" 	=> "Black Beach Weekend Cruise",
+		"date" 		=> "August 28, 2021",
+		"end"		=> strtotime("August 28, 2021"),
+		"img" 		=> "images/featured-events/featured-event-bbw.jpg",
+		"link" 		=> "/black-beach"
 	)
 
 );

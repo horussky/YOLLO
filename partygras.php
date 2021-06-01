@@ -9,7 +9,7 @@ $event = array(
 	"subtitle"					=>"More than an event, it's an EXPERIENCE!",
 	"location"					=>"Chattanooga, TN",
 	"date"						=>"August 14, 2021",
-    "date_start"				=>"August 11, 2021",
+    "date_start"				=>"August 14, 2021",
 	"img_url"				 	=>"../../images/slides/splash-partygras-cta.jpg",
 	"img_alt"				 	=>"Day Getaway Cruise"
 );
@@ -29,14 +29,15 @@ $geolocation = array(
 
 $people = array(
 		"diamond"=> array(
-			"Cruise/Live Performances/Transportation" 	=>"$99",
-			"Cruise/Live Performances"			        =>"$75",
-			"Cruise Only"			                    =>"$45",
-			"Live Performances Only"			        =>"$35"
+			"Cruise/Live Performances/Cocktails and Colors/Transportation" 	=>"$275",
+			"Cruise/Live Performances/Cocktails and Colors"			        =>"$150",
+			"Cruise Only"			                    =>"$60",
+			"Cocktails and Colors"			                    =>"$45",
+			"Live Performances Only"			        =>"$60"
 		),
 
 		"options"=>array(
-			"Hotel Only" =>"$150 (One night)"
+			"Hotel Only" =>"$200 (One night)"
 		),
 
 );
@@ -48,9 +49,9 @@ $package_items = array(
         "Poets: Georgia Me and Friends 2p-5p"                   => "checked",
         "Comedians: TBA"                                        => "checked",
         "Live Performances by: TBA"                             => "checked",
-        "Meet and Greet with Free Margaritas while they last"   => "checked",
-        "Cocktails and Colors Experience"                       => "checked",
-        "Cruise the Tennessee River 10:30p -1:30a"			    => "checked"
+        "Meet and Greet with bottomless margaritas"   => "checked",
+        "Cocktails and Colors Experiencewith bottomless mimosas"                       => "checked",
+        "8th annual Party Gras: Bottles and Beads Cruise 10:30p -1:30a"			    => "checked"
 		
 	),
 
@@ -134,15 +135,18 @@ $package_items = array(
 					<div class="tab" aria-label="overview">
                         <h3>Party Gras is BACK and in Tennessee</h3>
 
-                        <p>After COVID-19 postponed what would have been an amazing 2020 party cruise, Party Gras: Bottles and Bead is returning for an eighth installment. Previous years have been turned it up to the max, but for the 2021 edition we are making everything bigger and better than ever. Come party aboard the Southern Belle for an exclusive Riverboat cruise with amazing views of Chattanooga, TN. We have also made the live performances an inclusive but separate event which makes the event BIGGER than ever!</p> 
+                        <p>After COVID-19 postponed what would have been an amazing 2020 party cruise, Party Gras: Bottles and Bead is returning for an eighth installment. Previous years have been turned up to the max, but for the 2021 edition we are making everything bigger and better than ever. Come party aboard the Southern Belle for an exclusive Riverboat cruise with amazing views of Chattanooga, TN. We have also made the live performances an inclusive but separate event which makes the event BIGGER than ever!</p> 
                           
                         <p>This will be a FULL day of good music, adult drinks, mingling, and fun for everyone attending. The boat features three (3) party decks with multiple DJ's. Live entertainment will feature spoken word artists, comedians, and performances by R&amp;B/Hip Hop artist! FREE margaritas will be on deck at our welcome reception! <strong>This event WILL SELL OUT quickly</strong>, so purchase your tickets today. For questions and tickets call: <strong>(888) 946-9655 </strong> or <a data-href="#tabs-5" class="open-tab">purchase your tickets online now.</a></p>
                        	
 						<p>Don't wait as this event will fill up fast, book this event today. We are also providing hotel accommodations via the Holiday Inn and Suites Downtown Chattanooga at a special discounted rate of <strong>$139</strong>. You can <a target="_blank" href="https://www.ihg.com/holidayinn/hotels/us/en/find-hotels/hotel/rooms?qDest=434%20Chestnut%20St,%20Chattanooga,%20TN%2037402,%20USA&qCiMy=72021&qCiD=13&qCoMy=72021&qCoD=15&qAdlt=1&qChld=0&qRms=1&qRtP=6CBARC&qIta=99801505&qGrpCd=PGY&qSlH=CHADT&qAkamaiCC=US&qSrt=sBR&qBrs=re.ic.in.vn.cp.vx.hi.ex.rs.cv.sb.cw.ma.ul.ki.va.ii.sp.nd.ct.sx&qAAR=6CBARC&qWch=0&qSmP=1&setPMCookies=true&qRad=30&qRdU=mi&srb_u=1&qSHBrC=HI&icdv=99801505">secure your hotel room</a> today by visiting the host properties website. </p>
                         
-                        <p><strong>Live show:</strong> 2PM- 5PM<br>
+                        
+                        <p><strong>Cocktails and Colors:</strong> 10:30AM - 1PM<br>
+                        <p><strong>Comedy/Poetry/Live Performances:</strong> 2PM- 5PM<br>
+                        <p><strong>Meet and Greet:</strong> 6PM - 8PM<br>
 						<strong>Cruise Boarding:</strong> 10:00PM<br> 
-						<strong>Party time:</strong> 10:30PM - 1:00AM</p>
+						<strong>Cruise Party time:</strong> 10:30PM - 1:00AM</p>
 						<p style="color:dimgrey">*All times are based on Eastern Time Zone.</p>
     
 
@@ -277,7 +281,7 @@ $package_items = array(
 
 							  <div data-control>After I purchase tickets online how do I receive my tickets? </div>
 							  <div data-content>
-								<p>Your tickets are mailed to the email address provided during the purchasing process. </p>
+								<p>Your tickets are sent directly to the email address provided during the purchasing process. </p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -314,6 +318,15 @@ $package_items = array(
 
 							</div><!-- end of accordion-->
 
+							<div class="accordion" data-accordion>
+
+							  <div data-control>What time is will Colors and Cocktails start? Also, what kind of event is this?</div>
+							  <div data-content>
+							<p>Colors and Cocktails will be from 10:30AM - 1PM. This event will allow participants to paint and sip bottomless mimosas. The format follows Sip and Paint titled events.  </p>
+								<p style="color:dimgrey">*All times are based on Eastern Time Zone.</p>
+							  </div>
+
+							</div><!-- end of accordion-->
 
 							<div class="accordion" data-accordion>
 
@@ -326,9 +339,10 @@ $package_items = array(
 							
 							<div class="accordion" data-accordion>
 
-							  <div data-control>Is the evening cruise and comedy/poetry/live performances one combined event?</div>
+							  <div data-control>Are all events one combined event?</div>
 							  <div data-content>
-								<p>No, you can purchase tickets only for the cruise or live performances. The cruise will begin boarding at 10:00PM while the comedy/poetry/live performances will start at 2PM.</p>
+								<p>No, you can purchase tickets only for the cruise, colors and cocktails or variety show. The cruise will begin boarding at 10:00PM while the variety show will start at 2PM. Colors and Cocktails will start at 10: 30 am.</p>
+								<p style="color:dimgrey">*All times are based on Eastern Time Zone.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -338,7 +352,7 @@ $package_items = array(
 
 							  <div data-control>Do I have to ride the charter bus to attend this event?</div>
 							  <div data-content>
-								<p>No, you can purchase tickets only for the cruise or comedy show.</p>
+								<p>No, you can purchase tickets only for the each event or the all inclusive ticket for all events.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

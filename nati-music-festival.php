@@ -9,7 +9,7 @@ $event = array(
 	"subtitle"				=>"Book your package today!",
 	"location"				=>"Cincinnati, Ohio",
     "date"					=>"July 22-24, 2022",
-    "date_start"            =>"July 22, 2022",
+    "date_start"            => "July 22, 2022",
 	"img_url"				=>"../../images/slides/splash-mmf-cta.jpg",
 	"img_alt"				=>"Cincinnati Music Festival"
 );
@@ -39,17 +39,17 @@ $geolocation = array(
 
 $people = array(
     "diamond"=> array(
+        "Group of 4" 			=>"$665",
+        "Group of 3"			=>"$700",
+        "Group of 2"			=>"$770",
+        "Individual"			=>"$975"
+    ),
+
+    "emerald"=> array(
         "Group of 4" 			=>"$565",
         "Group of 3"			=>"$600",
         "Group of 2"			=>"$670",
         "Individual"			=>"$875"
-    ),
-
-    "emerald"=> array(
-        "Group of 4" 			=>"$465",
-        "Group of 3"			=>"$500",
-        "Group of 2"			=>"$570",
-        "Individual"			=>"$775"
     )
 
 );
