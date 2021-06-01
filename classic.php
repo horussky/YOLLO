@@ -8,8 +8,8 @@
 		"title"				=>"Classic Weekend 2021",
 		"subtitle"			=>"It's the Classsssssic!",
 		"location"			=>"Legion Field | Birmingham, AL",
-		"date"				=>"April 16 - 18, 2021",
-        "date_start"		=>"April 17, 2021",
+		"date"				=>"October 29 - 31, 2021",
+        "date_start"		=>"October 29, 2021",
 		"img_url"			=>"../../images/slides/splash-mcc-cta.jpg",
 		"img_alt"			=>"Magic City Classic"
 	);
@@ -21,8 +21,8 @@
 		"hotel1"=> array(
 
 			"title" 			=>"La Quinta Inn & Suites",
-			"address"			=>"60 State Farm Pkwy",
-			"location"			=>"Homewood, AL 35209",
+			"address"			=>"1207 Boots Blvd",
+			"location"			=>"Fultondale, Alabama 35068",
 			"soldout"           => false,
 			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/08/65/86/02/la-quinta-inn-suites.jpg"
 
@@ -36,19 +36,19 @@
 
 			"diamond"=> array(
 
-				"Group of 4" 			=>"$185",
-				"Group of 3"			=>"$205",
-				"Group of 2"			=>"$230",
-				"Individual"			=>"$350"
+				"Group of 4" 			=>"$285",
+				"Group of 3"			=>"$305",
+				"Group of 2"			=>"$330",
+				"Individual"			=>"$450"
 
 			),
 
 			"emerald"=> array(
 
-				"Group of 4" 			=>"$145",
-				"Group of 3"			=>"$185",
-				"Group of 2"			=>"$200",
-				"Individual"			=>"$315"
+				"Group of 4" 			=>"$245",
+				"Group of 3"			=>"$285",
+				"Group of 2"			=>"$300",
+				"Individual"			=>"$415"
 
 			)
 	);
@@ -151,7 +151,7 @@
                
                 <p>This is the #1 HBCU football Classic in the nation attracting over 100,000 fans annually! The Magic City Classic offers a family environment that produces new bonds and memories for years to come.</p>
                 <p>This annual clash of the titans was delayed in 2020 due to COVID-19 so they have decided to have this exciting game TWICE in one year! This means possible bragging rights for one school TWICE in the same year.</p>
-                <p>In 2019 the Alabama A&M Bulldogs came away with the victory as they entered the game as favorites and delivered a decisive win for the Bulldog faithful as well as the MOST important part of the this historic rivalry….BRAGGING rights for the next 365 days! </p>
+                <p>During the spring editon of this exciting football classic  the Alabama A&M Bulldogs came away with the victory as they entered the game as favorites and delivered a decisive win for the Bulldog faithful as well as the MOST important part of the this historic rivalry which is retaining BRAGGING rights until October 2021! </p>
                 <p>YOLLO Group Services, Inc. wants to provide your travel package for this historic and exciting weekend. Lock in your package today as space is limited and our packages go fast.</p>
 			</div><!-- ./ overview -->
 
@@ -246,7 +246,7 @@
 
 					  <div data-control>When are the payments due?</div>
 					  <div data-content>
-						<p>After registration the 1st payment of $50 is due on or before due November 01, 2020. The second and final payment is due February 05, 2020.</p>
+						<p>After registration the 1st payment of $50 is due on or before due June 20, 2021. The second and final payment is due September 03, 2021.</p>
 					  </div>
 
 					</div><!-- end of accordion-->
@@ -276,7 +276,7 @@
 
 					  <div data-control>Which team is the home team?</div>
 					  <div data-content>
-						<p> Home team honors alternate each year between Alabama State and Alabama A&M.  Alabama A&M will be the home team for 2020! Regardless of home team, ASU bench is always on the east side and AAMU is on the west side of the stadium.</p>
+						<p> Home team honors alternate each year between Alabama State and Alabama A&M.  Alabama State will be the home team for 2021! Regardless of home team, ASU bench is always on the east side and AAMU is on the west side of the stadium.</p>
 					  </div>
 
 					</div><!-- end of accordion-->

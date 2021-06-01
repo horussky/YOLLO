@@ -6,11 +6,11 @@ include 'includes/meta.config.inc.php';
 
 $event = array(
 
-	"title"				=>"Urban Ski Weekend 2021",
+	"title"				=>"Urban Ski Weekend 2022",
 	"subtitle"			=>"To Ski is OPTIONAL. To Party is MANDATORY!!",
 	"location"			=>"Gatlinburg, Tennessee",
-	"date"				=>"Feb 5 -7, 2021",
-    "date_start"        =>"February 5, 2021",
+	"date"				=>"Feb 4 -6, 2022",
+    "date_start"        =>"February 4, 2022",
 	"img_url"			=>"../../images/slides/splash-urban-ski-cta.jpg",
 	"img_alt"			=>"Urban Ski Weekend"
 );
@@ -33,17 +33,17 @@ $people = array(
 
 		"diamond"=> array(
 
-			"Group of 4" 			=>"$565",
-			"Group of 3"			=>"$595",
-			"Group of 2"			=>"$650",
-			"Individual"			=>"$775"
+			"Group of 4" 			=>"$665",
+			"Group of 3"			=>"$695",
+			"Group of 2"			=>"$750",
+			"Individual"			=>"$875"
 		),
 
 		"emerald"=> array(
-			"Group of 4" 			=>"$475",
-			"Group of 3"			=>"$505",
-			"Group of 2"			=>"$550",
-			"Individual"			=>"$680"
+			"Group of 4" 			=>"$575",
+			"Group of 3"			=>"$605",
+			"Group of 2"			=>"$650",
+			"Individual"			=>"$780"
 		),
 
 		"options"=>array(
@@ -73,8 +73,7 @@ $package_items = array(
 		"Access To The Caribbean Lounge"										=> "checked",
 		"Access To The 80's & 90's Old School Lounge"				=> "checked",
 		"Tickets To All Additionally Added Events"					=> "checked",
-		"Breakfast Daily"																		=> "checked",
-		"YOLLO Swag Bag"																		=> "checked"
+				"YOLLO Swag Bag"																		=> "checked"
 	),
 
 
@@ -94,8 +93,7 @@ $package_items = array(
 		"Access To The Caribbean Lounge"										=> "checked",
 		"Access To The 80's & 90's Old School Lounge"				=> "checked",
 		"Tickets To All Additionally Added Events"					=> "checked",
-		"Breakfast Daily"																		=> "checked",
-		"YOLLO Swag Bag"																		=> "checked"
+				"YOLLO Swag Bag"																		=> "checked"
 	)
 
 );
@@ -180,11 +178,11 @@ $package_items = array(
 
 										<h4>What else?</h4>
 
-										<p>Tired of busting your butt on the slopes? You can enjoy many parties and events going on around the mountain. The 2020 edition of Urban Ski Weekend was hosted by LHHNY own DJ Self, Jamal Woolard, and the female cast of LHHATL! They did not disppoint as they entertained and interacted with the crowd! In 2021 it will be the 10 year anniversary of this awesome event and we have some BIG surprises for our guests! If you ever had questions on which ski weekend has the POWER well here you go! The ladies love our celebrity royalty at Urban Ski so guys this will definitely be the place for you to mingle!</p>
+										<p>Tired of busting your butt on the slopes? You can enjoy many parties and events going on around the mountain. The 2021 edition of Urban Ski Weekend was hosted by LHHNY own DJ Self, DJ Luke Nasty, and R&B sensation Lloyd! They did not disppoint as they entertained and interacted with the crowd! In 2022 it will be the 11 year anniversary of this awesome event and we will have LHHNY own DJ Self returning for crowd control! You know this is the only event that celebs frequent annually so you do not want to miss out on who you might see! If you ever had questions on which ski weekend has the POWER well here you go! The ladies love our celebrity royalty at Urban Ski so guys this will definitely be the place for you to mingle!</p>
 
 										<h4>The packages</h4>
 
-										<p>Our packages includes hotel stay, party passes, comedy show, breakfast, and plenty of networking oppurtunities. We also have transportation available via one of our exclusive party buses. These buses will be available in Alabama and Tennessee.</p>
+										<p>Our packages includes hotel stay, party passes, comedy show, and plenty of networking oppurtunities. We also have transportation available via one of our exclusive party buses. These buses will be available in Alabama and Tennessee.</p>
 
 										<h4>The Bottom Line</h4>
 
@@ -318,7 +316,7 @@ $package_items = array(
 
 										  <div data-content>
 
-											<p>Following registration the first payment of $125 is due on or before October 15, 2020.  The second payment of $100 is due on or before November 15, 2020. The final payment (remaining balance) is due on or before December 15, 2020. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+											<p>Following registration the first payment of $125 is due on or before June 20, 2021.  The second payment of $150 is due on or before August 20, 2021. The final payment (remaining balance) is due on or before October 20, 2021. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 
 										  </div>
 
@@ -350,6 +348,19 @@ $package_items = array(
 										  <div data-content>
 
 											<p>The bus will depart Knoxville at 1pm (EST) on Friday and return to Knoxville Monday at 4 pm (EST).</p>
+
+										  </div>
+</div><!-- end of accordion-->
+
+<div class="accordion" data-accordion>
+
+
+
+										  <div data-control>If I'm traveling by airplane what airport should I fly into?</div>
+
+										  <div data-content>
+
+											<p>Knoxville, TN is the closest city and you should fly into McGhee Tyson Airport (TYS). Knoxville is 45 minutes from Gatlingburg.</p>
 
 										  </div>
 </div><!-- end of accordion-->

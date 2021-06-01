@@ -9,12 +9,10 @@
     <meta name="Description" content="YOLLO Group Services Inc. is a travel company committed to offering affordable all-inclusive travel packages for everyone." />
 	<meta name="Keywords" content="YOLLO Group Services, travel packages, all-inclusive, Urban Fantasy Cruise, Urban Fiesta Weekend, Essence Festival, NBA All-Star Weekend, Urban Ski Weekend, Magic City Classic, Travel Services, Black College Reunion, BCR, HBCU Football" />
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/splash.css" rel="stylesheet" />
+    <link href="css/splash.css?v=<?php $t=time(); echo $t; ?>" rel="stylesheet" />
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
 </head>
 
-
-</head>
 <body>
 
 
@@ -37,24 +35,28 @@
 							<div class="slider">
 								<div class="event-slider">
 									<ul>
-                                        <li><img src="images/slides/splash-gob.jpg"></li>
-                                        <li><img src="images/slides/splash-urban-ski.jpg"></li>
+                                        
+                                        <li><img src="images/slides/splash-mcc.jpg"></li>
                                         <li><img src="images/slides/splash-essence.jpg"></li>
+                                        <li><img src="images/slides/splash-urban-ski.jpg"></li>
                                         <li><img src="images/slides/splash-alumni.jpg"></li>
-										<li><img src="images/slides/splash-nba.jpg"></li>
+                                        <li><img src="images/slides/splash-nba.jpg"></li>
+                                        <li><img src="images/slides/splash-gsc.jpg"></li>
+                                        <li><img src="images/slides/splash-follow.jpg"></li>
+                                        <li><img src="images/slides/splash-talk-tues.jpg"></li>
+                                        
+                                        <li><img src="images/slides/splash-partygras.jpg"></li>
+                                        
+                                        <li><img src="images/slides/splash-urban-fiesta.jpg"></li>
+                                        
 										
-										<li><img src="images/slides/splash-urban-fiesta.jpg"></li>
-									    
-									   
 										
+										
+                                        <!-- inactive
+                                        <li><img src="images/slides/splash-tourney.jpg"></li> 
 										<li><img src="images/slides/splash-instagram.jpg"></li>
-										<li><img src="images/slides/splash-tourney.jpg"></li> 
-										<li><img src="images/slides/splash-facebook.jpg"></li>
+										<li><img src="images/slides/splash-gob.jpg"></li>
 										
-										<!-- inactive
-										
-										<li><img src="images/slides/splash-partygras.jpg"></li>
-										<li><img src="images/slides/splash-mcc.jpg"></li>
 										<li><img src="images/slides/splash-groove.jpg"></li>
 										<li><img src="images/slides/splash-mmf.jpg"></li>
 										 <li><img src="images/slides/splash-ufw.jpg"></li>
@@ -77,11 +79,7 @@
 							</div>
 						</div>
 				</div>
-				
-				
-			
-			
-			
+
 			</div><!-- /.col -->
 		</div><!-- /.row -->
 	</div><!-- /.container -->
@@ -93,7 +91,7 @@
 	<div class="container">
 	
 		<div class="row">
-			<div class="col-12-md largemargin"><h2 class="text-center">Why Choose Us?</h2></div>
+			<div class="col-md-12 largemargin"><h2 class="text-center">Why Choose Us?</h2></div>
 		</div>
 	
 		<div class="row">
@@ -115,8 +113,6 @@
 					<h3>Quality Service</h3>
 					<p>Any events, all-inclusive or hosted, will always have a company liaison on site to assist with any customer needs and questions.</p>
 				</div><!-- ./col -->
-				
-		
 
 		</div><!-- /.row -->
 	
@@ -131,7 +127,7 @@
 	<div class="container">
 	
 		<div class="row">
-			<div class="col-12-md largemargin text-center">
+			<div class="col-md-12 largemargin text-center">
 				<h2>Testimonials</h2>
 			</div>
 		</div>
@@ -150,7 +146,7 @@
 										<i class="fa fa-star" aria-hidden="true"></i>
 										<i class="fa fa-star" aria-hidden="true"></i>
 									</div>
-									<p>Hats off to Yollo Group Services! The All White Boat party was 🔥🔥🔥 and it was topped off with awesome seats for the concert.</p>
+									<p>Hats off to YOLLO Group Services! The All White Boat party was 🔥🔥🔥 and it was topped off with awesome seats for the concert.</p>
 									<hr>
 									<p class="author">Demarcus G</p>
 								</li>
@@ -238,7 +234,6 @@ $top_links = array('home' => 'Home', 'about'=>'About Us', 'faq'=>'FAQs', 'contac
 							</a>
 						</li>
 					<?php endforeach; ?>
-						
 				</ul>
 				<p class="text-center">&copy; <?php date_default_timezone_set("America/Chicago"); echo date("Y") ?> YOLLO Group Services, Inc. All Rights Reserved.</p>
 			</div>

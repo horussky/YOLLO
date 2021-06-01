@@ -124,7 +124,7 @@ footer{
 			width:9.5rem;
 		}
 	
-	}
+    }
 	
 	.foot-contact{
 		-ms-grid-area:foot-contact;
@@ -134,6 +134,10 @@ footer{
 		grid-column:3;
         
         font-size:1.4rem;
+
+        .foot-share-links a i {
+            font-size: 2rem;
+        }
 		
 		
 		ul{

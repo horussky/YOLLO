@@ -16,14 +16,12 @@ $event = array(
 $geolocation = array(
 
     "hotel1" => array(
-        "title"                 => "Fairfield Inn and Suites Uptown ",
-        "address"                => "201 S McDowell St",
-        "location"                => "Charlotte, North Carolina 28204",
+        "title"                  => "Crowne Plaza Baltimore",
+        "address"                => "105 West Fayette Street",
+        "location"               => "Baltimore, MD 21201",
         "soldout"                => false,
-        "img_url"                => "https://media-cdn.tripadvisor.com/media/photo-o/06/b6/ba/bb/exterior.jpg"
+        "img_url"                => "https://media-cdn.tripadvisor.com/media/photo-m/1280/17/8d/34/5d/exterior.jpg"
     ),
-
-
 );
 
 $people = array(

@@ -1,15 +1,15 @@
 <?php
 
-ob_start("ob_gzhandler");
+if (!ob_start("ob_gzhandler")) ob_start();
 include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"					=>"Cincinnati Music Festival 2021",
+	"title"					=>"Cincinnati Music Festival 2022",
 	"subtitle"				=>"Book your package today!",
 	"location"				=>"Cincinnati, Ohio",
-	"date"					=>"July 23-25, 2021",
-    "date_start"			=>"July 23, 2021",
+    "date"					=>"July 22-24, 2022",
+    "date_start"            => "July 22, 2022",
 	"img_url"				=>"../../images/slides/splash-mmf-cta.jpg",
 	"img_alt"				=>"Cincinnati Music Festival"
 );
@@ -17,30 +17,40 @@ $event = array(
 $geolocation = array(
 
 	"hotel1"=> array(
+		"title" 			=>"Holiday Inn Cincinnati-Riverfront",
+		"address"			=>"600 W 3rd Street",
+		"location"			=>"Covington, KY 41011",
+		"geolocation"		=>"600 W 3rd Street, Covington, KY 41011",
+		"soldout"           =>false,
+        "img_url"			=>"https://cincinnatiusa.com/sites/default/files/styles/Array/public/hotels/H1FAHH43.JPG",
+        "host"              =>true
+    ),
+    "hotel2"=> array(
 		"title" 			=>"Comfort Suites Newport - Cincinnati Riverfront",
 		"address"			=>"420 Riverboat Row",
 		"location"			=>"Newport, KY 41071",
 		"geolocation"		=>"420 Riverboat Row, Newport, KY 41071",
 		"soldout"           =>false,
-		"img_url"			=>"//t-ec.bstatic.com/images/hotel/max1024x768/319/31915208.jpg"
-	),
-
+        "img_url"			=>"https://media-cdn.tripadvisor.com/media/photo-o/03/51/42/96/comfort-suites.jpg",
+        "host"              =>false
+    )
+    
 );
 
 $people = array(
-		"diamond"=> array(
-			"Group of 4" 			=>"$565",
-			"Group of 3"			=>"$600",
-			"Group of 2"			=>"$670",
-			"Individual"			=>"$875"
-		),
+    "diamond"=> array(
+        "Group of 4" 			=>"$665",
+        "Group of 3"			=>"$700",
+        "Group of 2"			=>"$770",
+        "Individual"			=>"$975"
+    ),
 
-		"emerald"=> array(
-			"Group of 4" 			=>"$465",
-			"Group of 3"			=>"$500",
-			"Group of 2"			=>"$570",
-			"Individual"			=>"$775"
-		)
+    "emerald"=> array(
+        "Group of 4" 			=>"$565",
+        "Group of 3"			=>"$600",
+        "Group of 2"			=>"$670",
+        "Individual"			=>"$875"
+    )
 
 );
 $package_items = array(
@@ -68,8 +78,6 @@ $package_items = array(
 
 	"Hotel Only" =>"$850/per person"
 );
-
-
 
 ?>
 <!doctype html>
@@ -106,260 +114,250 @@ $package_items = array(
 				<!--Right Content-->
 				<div id="right">
 
-				 <div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
-					<div class="overlay"></div>
-					<div class="title">
-						<h1><?php echo $event["title"]; ?></h1>
-						<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-						<a data-href="#tabs-5" class="btn btn-red open-tab">Pay or Register Now</a>
-					    <div id="event-timer"></div>
-					</div>
-				</div>
+                    <div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
+                        <div class="overlay"></div>
+                        <div class="title">
+                            <h1><?php echo $event["title"]; ?></h1>
+                            <p class="subtitle"><?php echo $event["subtitle"]; ?></p>
+                            <a data-href="#tabs-5" class="btn btn-red open-tab">Pay or Register Now</a>
+                            <div id="event-timer"></div>
+                        </div>
+                    </div>
+
+                <div class="content">
+                                
+                    <div class="date-location">
+                        <div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="col">
+                            <?php echo $event["date"]; ?>
+                        </div>
+                        <div class="col"><?php echo $event["location"]; ?></div>
+                    </div>
+
+
+                    <div class="colfull">
+
+                        <div id="responsive-tabs">
+
+                            <?php echo $responsive_tabs["overview"]; ?>
+                            <div class="tab" aria-label="overview">
+                                <h3>Get ready for Cincinnati Music Festival</h3>
+                                <p>YOLLO is providing you a great event package for the Cincinnati Music Festival. Over the years this event has evolved from being a pure jazz concert, to an event that also includes old school hip-hop and R&amp;B. This year the Cincinnati Music Festival will be held at the state of the art Paul Brown Stadium, home of the Cincinnati Bengal's. Beyond the featured acts, this event provides a great meet and greet or mix and mingle atmosphere.</p>
+
+                                <h4>7th Annual Grown and Sophisticated Mid-Day Cruise</h4>
+                                <p>The 7th Annual Grown and Sophisticated Mid-Day Cruise will happen on the River Queen and will be another MUST ATTEND event during Cincinnati Music Festival Weekend! Enjoy a multi-level paddle-wheel boat cruising the mighty Ohio River, while listening to the livest Hip-Hop and R&amp;B music. Last years' cruise was Mardi Gras themed, however we are returning to the original format of an All White cruise. The cruise sails from 1:00 pm – 4:00 pm. Please remember that once we sell out, we will not have any more tickets available.<p>
+                                
+                                <p>YOLLO is looking forward to another terrific festival in 2022, and we hope you join us and be a part of this special summer occasion. Packages are available now, but they won't last long. Don't wait reserve today for $29.99!</p>
+
+                            </div><!-- ./ overview -->
 
 
 
-        <div class="content">
-						
-			<div class="date-location">
-				<div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="col">
-                    <?php echo $event["date"]; ?>
-                </div>
-                <div class="col"><?php echo $event["location"]; ?></div>
-			</div>
+                            <?php echo $responsive_tabs["price"]; ?>
+                            <div class="tab" aria-label="price">
 
+                                <h3>Hotels</h3>
+                                
+                                <?php foreach($geolocation as $hotel) :?>
+                                <div class="hotel-grid <?php if($hotel['host'] == true) :?>hotel-grid--host<?php endif; ?>">
+                                    <div class="hg-img">
+                                        <figure style="background:url(<?php echo $hotel['img_url']; ?>); background-size: cover; background-position: center;"></figure>
+                                    </div>
+                                    <div class="hg-body">
+                                        <p class="hg-title"><?php echo $hotel["title"]; ?> 
+                                        <?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
 
-			<div class="colfull">
-
-				<div id="responsive-tabs">
-
-					<?php echo $responsive_tabs["overview"]; ?>
-					<div class="tab" aria-label="overview">
-						<h3>Get ready for Cincinnati Music Festival</h3>
-						<p>YOLLO is providing you a great event package for the Cincinnati Music Festival. Over the years this event has evolved from being a pure jazz concert, to an event that also includes old school hip-hop and R&amp;B. This year the Cincinnati Music Festival will be held at the state of the art Paul Brown Stadium, home of the Cincinnati Bengal's. Beyond the featured acts, this event provides a great meet and greet or mix and mingle atmosphere.</p>
-
-						<h4>7th Annual Grown and Sophisticated Mid-Day Cruise</h4>
-						<p>The 7th Annual Grown and Sophisticated Mid-Day Cruise will happen on the River Queen and will be another MUST ATTEND event during Cincinnati Music Festival Weekend! Enjoy a multi-level paddle-wheel boat cruising the mighty Ohio River, while listening to the livest Hip-Hop and R&amp;B music. Last years' cruise was Mardi Gras themed, however we are returning to the original format of an All White cruise. The cruise sails from 1:00 pm – 4:00 pm. Please remember that once we sell out, we will not have any more tickets available.<p>
-						
-						<p>YOLLO is looking forward to another terrific festival in 2021, and we hope you join us and be a part of this special summer occasion. Packages are available now, but they won't last long. Don't wait reserve today for $29.99!</p>
-
-                  	</div><!-- ./ overview -->
-
-
-
-                  	<?php echo $responsive_tabs["price"]; ?>
-					<div class="tab" aria-label="price">
-
-                    	<h3>Hotels</h3>
-                        
-                        <?php foreach($geolocation as $hotel) :?>
-                        <div class="hotel-grid">
-                            <div class="hg-img">
-                                <figure style="background:url(<?php echo $hotel['img_url']; ?>); background-size: cover; background-position: center;"></figure>
-                            </div>
-                            <div class="hg-body">
-                                <p class="hg-title"><?php echo $hotel["title"]; ?> 
-                                <?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
-
-                                <address>
-                                    <i class="fa fa-location-arrow" aria-hidden="true"></i> 
-                                    <a title="<?php echo $hotel["title"]; ?>" target="_blank" href="http://maps.google.com/maps?q=<?php echo $hotel["address"]; ?>+<?php echo $hotel["location"]; ?>"><?php echo $hotel["address"]; ?>,  
-                                    <?php echo $hotel["location"]; ?></a>
-                                </address>
-                            </div>
-                        </div><!-- ./hotel-grid -->
-                        <?php endforeach; ?>
-                    
-                        <hr />
-                    
-                        <h3>Price</h3>
-                        
-                        	<div class="price-table-container">
-                    
-                            <?php if(count($geolocation["hotel1"]) > 1) :?>
-                            <div class="price-table">
-                                <ul class="price">
-                                    <li class="header">Diamond <span>Package</span></li>
-                                    <?php foreach($package_items['diamond_items'] as $key=>$value): ?>
-                                        <li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-                                    <?php endforeach; ?>
-                                    <li class="people-price">
-                                        <ul class="priceblock">
-                                                <?php foreach($people['diamond'] as $key=>$value): ?>
-                                                    <li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
-                                                    <?php endforeach; ?>
+                                        <address>
+                                            <i class="fa fa-location-arrow" aria-hidden="true"></i> 
+                                            <a title="<?php echo $hotel["title"]; ?>" target="_blank" href="http://maps.google.com/maps?q=<?php echo $hotel["address"]; ?>+<?php echo $hotel["location"]; ?>"><?php echo $hotel["address"]; ?>,  
+                                            <?php echo $hotel["location"]; ?></a>
+                                        </address>
+                                    </div>
+                                </div><!-- ./hotel-grid -->
+                                <?php endforeach; ?>
+                            
+                                <hr />
+                            
+                                <h3>Price</h3>
+                                
+                                    <div class="price-table-container">
+                            
+                                    <?php if(count($geolocation["hotel1"]) > 1) :?>
+                                    <div class="price-table">
+                                        <ul class="price">
+                                            <li class="header">Diamond <span>Package</span></li>
+                                            <?php foreach($package_items['diamond_items'] as $key=>$value): ?>
+                                                <li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+                                            <?php endforeach; ?>
+                                            <li class="people-price">
+                                                <ul class="priceblock">
+                                                        <?php foreach($people['diamond'] as $key=>$value): ?>
+                                                            <li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
+                                                            <?php endforeach; ?>
+                                                </ul>
+                                            </li>
+                                            <li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
                                         </ul>
-                                    </li>
-                                    <li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
-                                </ul>
-                            </div><!-- price table -->
-                            <?php endif; ?>
-                    
-                    
-                    
-                            <?php if(count($geolocation["hotel1"]) > 1) :?>
-                            <div class="price-table">
-                                <ul class="price">
-                                    <li class="header">Emerald <span>Package</span></li>
-                                    <?php foreach($package_items['emerald_items'] as $key=>$value): ?>
-                                        <li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-                                    <?php endforeach; ?>
-                                    <li class="people-price">
-                                        <ul class="priceblock">
-                                                <?php foreach($people['emerald'] as $key=>$value): ?>
-                                                    <li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
-                                                    <?php endforeach; ?>
+                                    </div><!-- price table -->
+                                    <?php endif; ?>
+                            
+                            
+                            
+                                    <?php if(count($geolocation["hotel1"]) > 1) :?>
+                                    <div class="price-table">
+                                        <ul class="price">
+                                            <li class="header">Emerald <span>Package</span></li>
+                                            <?php foreach($package_items['emerald_items'] as $key=>$value): ?>
+                                                <li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+                                            <?php endforeach; ?>
+                                            <li class="people-price">
+                                                <ul class="priceblock">
+                                                        <?php foreach($people['emerald'] as $key=>$value): ?>
+                                                            <li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
+                                                            <?php endforeach; ?>
+                                                </ul>
+                                            </li>
+                                            <li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
                                         </ul>
-                                    </li>
-                                    <li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
-                                </ul>
-                            </div><!-- price table -->
-                        <?php endif; ?>
-                        
-					  </div><!-- price table container -->
+                                    </div><!-- price table -->
+                                <?php endif; ?>
+                                
+                            </div><!-- price table container -->
 
-        			</div><!-- ./ price -->
+                            </div><!-- ./ price -->
 
 
 
-                    <?php echo $responsive_tabs["faqs"]; ?>
-					<div class="tab" aria-label="faqs">
+                            <?php echo $responsive_tabs["faqs"]; ?>
+                            <div class="tab" aria-label="faqs">
 
-                        <h3>Frequently Asked Questions</h3>
-                        
-                        <div data-accordion-group>	
-										
-							<div class="accordion open" data-accordion>
-
-							  <div data-control>Does the price listed take care of hotel reservations for all members in either the Diamond or Emerald package or only one person?</div>
-							  <div data-content>
-								<p>All prices listed are per person. Under the package prices description, all amenities included in your package are per person and includes one (1) room for the group.</p>
-							  </div>
-
-							</div><!-- end of accordion-->
-							
-							
-							<div class="accordion" data-accordion>
-
-							  <div data-control>How many concert tickets are included in the package for my group?</div>
-							  <div data-content>
-								<p>The package includes tickets for both nights of the concerts! That's right you get to attend both nights and its all included in the package price. If you don't plan on attending both nights you can give away or sell the additional night ticket.</p>
-							  </div>
-
-							</div><!-- end of accordion-->
-							
-							
-							<div class="accordion" data-accordion>
-
-							  <div data-control>What are the payment due dates for Cincinnati Music Festival Packages?</div>
-							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 is due on or before <strong>October 25, 2020</strong>. The second payment of $150 is due on or before <strong>January 23, 2021</strong>.The final payment (remaining balance) is due on or before <strong>March 20, 2021</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
-							  </div>
-
-							</div><!-- end of accordion-->
-							
-							
-							<div class="accordion" data-accordion>
-
-							  <div data-control>What cities will the bus depart from?</div>
-							  <div data-content>
-								<p>Montgomery, Birmingham, and Huntsville, AL! Don't see you city or state listed? Email us and let's see what we can work out!</p>
-							  </div>
-
-							</div><!-- end of accordion-->
-							
-							
-							<div class="accordion" data-accordion>
-
-							  <div data-control>Where will we be staying that weekend?</div>
-							  <div data-content>
-								<p>You will two options for 2021. The Holiday Inn Cincinnati Riverfront has been selected as the host property for this wonderful event! The Comfort Suites Newport - Cincinnati  will be our over flow property once the host property is sold out and trust us it will sell out. Lock in your reservation today. </p>
-							  </div>
-
-							</div><!-- end of accordion-->
-							
-							
-							<div class="accordion" data-accordion>
-
-							  <div data-control>Where is the cruise being held?</div>
-							  <div data-content>
-								<p>The cruise is being hosted on the River Queen Riverboat. The cruise is located at BB Riverboats, 101 Riverboat Row, Newport, KY 41071</p>
-							  </div>
-
-							</div><!-- end of accordion-->
-							
-							<div class="accordion" data-accordion>
-
-							  <div data-control>Can I purchase tickets to the cruise independent of the hotel package deal?</div>
-							  <div data-content>
-								<p>Yes! Just follow the same booking procedures as you would if booking the hotel package.</p>
-							  </div>
-
-							</div><!-- end of accordion-->
-							
-							
-							<div class="accordion" data-accordion>
-
-							  <div data-control>What time does the cruise start and how much does it cost?</div>
-							  <div data-content>
-								<p>The cruise will sail from 1:30 pm - 4:00 pm, however boarding begins at 1:00 pm. The cost of the cruise is $50 for General Admission and $95 for VIP. For a limited time there are Early Bird tickets available at $40 for General Admission and $85 VIP.  VIP grants no line waiting entrance, Open bar, and light food during the cruise.</p>
-							  </div>
-
-							</div><!-- end of accordion-->
-							
-							
-							<div class="accordion" data-accordion>
-
-							  <div data-control>Does the price take care of hotel reservation for all 4 members in either Diamond or Emerald package or only one person?</div>
-							  <div data-content>
-								<p>All prices listed are per person. Under the package prices description, all amenities included in your package is what's included per person.</p>
-							  </div>
-
-							</div><!-- end of accordion-->
-							
-							
-						</div><!-- end of accordion group-->
-
-
-            		</div><!-- ./ faqs -->
-
-
-                    <?php echo $responsive_tabs["photos"]; ?>
-					<div class="tab" aria-label="photos">
-                         <div id="nanoGallery"></div>
-                    </div><!-- ./ photos -->
-
-
-                    <?php echo $responsive_tabs["buynow"]; ?>
-					<div class="tab" aria-label="buy">
-                        
-                        <h3>Buy Package Now</h3>
-                        
-                        <p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
-                        
-                        <div class="cognito"></div>
-                        
-                        
-                        
-                        
-                    </div><!-- ./ buy now -->
-
-					<input type="radio" name="tabs" id="tab-6"><label for="tab-6"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Cruise</label>					<div class="tab" aria-label="buy">
-                        
-                        <h3>Buy Cruise Now</h3>
+                                <h3>Frequently Asked Questions</h3>
+                                
+                                <div data-accordion-group>	
                                                 
-                        <div class="mb-20" id="eventbrite-widget-container-66817682487"></div>
-                        
-                    </div><!-- ./ buy now -->
+                                    <div class="accordion open" data-accordion>
+
+                                    <div data-control>Does the price listed take care of hotel reservations for all members in either the Diamond or Emerald package or only one person?</div>
+                                    <div data-content>
+                                        <p>All prices listed are per person. Under the package prices description, all amenities included in your package are per person and includes one (1) room for the group.</p>
+                                    </div>
+
+                                    </div><!-- end of accordion-->
+                                    
+                                    
+                                    <div class="accordion" data-accordion>
+
+                                    <div data-control>How many concert tickets are included in the package for my group?</div>
+                                    <div data-content>
+                                        <p>The package includes tickets for both nights of the concerts! That's right you get to attend both nights and its all included in the package price. If you don't plan on attending both nights you can give away or sell the additional night ticket.</p>
+                                    </div>
+
+                                    </div><!-- end of accordion-->
+                                    
+                                    
+                                    <div class="accordion" data-accordion>
+
+                                    <div data-control>What are the payment due dates for Cincinnati Music Festival Packages?</div>
+                                    <div data-content>
+                                        <p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 is due on or before <strong>July 20, 2021</strong>. The second payment of $150 is due on or before <strong>October 15, 2021</strong>.The final payment (remaining balance) is due on or before <strong>January 15, 2022</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
+                                    </div>
+
+                                    </div><!-- end of accordion-->
+                                    
+                                    
+                                    <div class="accordion" data-accordion>
+
+                                    <div data-control>What cities will the bus depart from?</div>
+                                    <div data-content>
+                                        <p>Montgomery, Birmingham, and Huntsville, AL! Don't see you city or state listed? Email us and let's see what we can work out!</p>
+                                    </div>
+
+                                    </div><!-- end of accordion-->
+                                    
+                                    
+                                    <div class="accordion" data-accordion>
+
+                                    <div data-control>Where will we be staying that weekend?</div>
+                                    <div data-content>
+                                        <p>You will two options for 2022. The Holiday Inn Cincinnati Riverfront has been selected as the host property for this wonderful event! The Comfort Suites Newport - Cincinnati  will be our over flow property once the host property is sold out and trust us it will sell out. Lock in your reservation today. </p>
+                                    </div>
+
+                                    </div><!-- end of accordion-->
+                                    
+                                    
+                                    <div class="accordion" data-accordion>
+
+                                    <div data-control>Where is the cruise being held?</div>
+                                    <div data-content>
+                                        <p>The cruise is being hosted on the River Queen Riverboat. The cruise is located at BB Riverboats, 101 Riverboat Row, Newport, KY 41071</p>
+                                    </div>
+
+                                    </div><!-- end of accordion-->
+                                    
+                                    <div class="accordion" data-accordion>
+
+                                    <div data-control>Can I purchase tickets to the cruise independent of the hotel package deal?</div>
+                                    <div data-content>
+                                        <p>Yes! Just follow the same booking procedures as you would if booking the hotel package.</p>
+                                    </div>
+
+                                    </div><!-- end of accordion-->
+                                    
+                                    
+                                    <div class="accordion" data-accordion>
+
+                                    <div data-control>What time does the cruise start and how much does it cost?</div>
+                                    <div data-content>
+                                        <p>The cruise will sail from 1:30 pm - 4:00 pm, however boarding begins at 1:00 pm. The cost of the cruise is $50 for General Admission and $95 for VIP. For a limited time there are Early Bird tickets available at $40 for General Admission and $85 VIP.  VIP grants no line waiting entrance, Open bar, and light food during the cruise.</p>
+                                    </div>
+
+                                    </div><!-- end of accordion-->
+                                    
+                                    
+                                    <div class="accordion" data-accordion>
+
+                                    <div data-control>Does the price take care of hotel reservation for all 4 members in either Diamond or Emerald package or only one person?</div>
+                                    <div data-content>
+                                        <p>All prices listed are per person. Under the package prices description, all amenities included in your package is what's included per person.</p>
+                                    </div>
+
+                                    </div><!-- end of accordion-->
+                                    
+                                    
+                                </div><!-- end of accordion group-->
 
 
-
-			</div><!-- end of responsive-tabs -->
-
-
-    	</div><!-- end of colfull -->
+                            </div><!-- ./ faqs -->
 
 
-	</div><!--end of content-->
+                            <?php echo $responsive_tabs["photos"]; ?>
+                            <div class="tab" aria-label="photos">
+                                <div id="nanoGallery"></div>
+                            </div><!-- ./ photos -->
+
+
+                            <?php echo $responsive_tabs["buynow"]; ?>
+                            <div class="tab" aria-label="buy">
+                                
+                                <h3>Buy Package Now</h3>
+                                
+                                <p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
+                                
+                                <div class="cognito"></div>
+                                
+                            </div><!-- ./ buy now -->
+
+                            <input type="radio" name="tabs" id="tab-6"><label for="tab-6"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Cruise</label>
+                            
+                            <div class="tab" aria-label="buy">
+                                <h3>Buy Cruise Now</h3>   
+                                <div class="mb-20" id="eventbrite-widget-container-112362900460"></div>
+                            </div><!-- ./ buy now -->
+
+                    </div><!-- end of responsive-tabs -->
+
+                </div><!-- end of colfull -->
+
+            </div><!--end of content-->
     
     
     <div class="disclosure">
@@ -373,8 +371,6 @@ $package_items = array(
       <?php include 'includes/twitter.inc.php'; ?>
       </aside>
 
-
-
     </div><!--end of container-->
 </div><!-- end of wrap -->
 <!-- Footer  -->
@@ -385,28 +381,28 @@ $package_items = array(
 <script type="text/javascript">
 	$(function(){
 
-			//nano
-			$("#nanoGallery").nanoGallery({
-				kind: 'flickr',
-				userID: '50836209@N03',
+        //nano
+        $("#nanoGallery").nanoGallery({
+            kind: 'flickr',
+            userID: '50836209@N03',
 
-				 //uncomment this line to display one specific album:
-			   photoset:'72157712606706052',
+                //uncomment this line to display one specific album:
+            photoset:'72157712606706052',
 
-				// uncomment this line to display full photostream (v5.0.0):
-				// photoset:'none',
+            // uncomment this line to display full photostream (v5.0.0):
+            // photoset:'none',
 
-				thumbnailWidth: 115,
-				thumbnailHeight: 'auto',
-				thumbnailAlignment: 'left',
-				thumbnailLabel: {
-					display:false,
-					displayDescription: false,
-					position: 'overImageOnBottom'
-				},
+            thumbnailWidth: 115,
+            thumbnailHeight: 'auto',
+            thumbnailAlignment: 'left',
+            thumbnailLabel: {
+                display:false,
+                displayDescription: false,
+                position: 'overImageOnBottom'
+            },
 
-				thumbnailHoverEffect:'borderLighter'
-			});
+            thumbnailHoverEffect:'borderLighter'
+        });
 
 	});
 </script>
@@ -420,8 +416,8 @@ $package_items = array(
 	window.EBWidgets.createWidget({
 		// Required
 		widgetType: 'checkout',
-		eventId: '66817682487',
-		iframeContainerId: 'eventbrite-widget-container-66817682487',
+		eventId: '112362900460',
+		iframeContainerId: 'eventbrite-widget-container-112362900460',
 
 		// Optional
 		iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided

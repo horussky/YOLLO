@@ -1,6 +1,12 @@
 <?php
 include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
+
+//curl_setopt($curl, CURLOPT_URL, 'http://localhost:1337/homepage');
+
+//$str = file_get_contents('http://localhost:1337/homepage');
+//$json = json_decode($str, true); 
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -36,11 +42,12 @@ include 'includes/meta.config.inc.php';
       <div id="right">
             
             <section id="intro">
-                <?php /* ?><div class="rslides"></div><?php */?>
+                <?php /* ?><div class="rslides"></div>
+                <?php echo $json["homepage__description"]; ?><?php */?>
 
                 <p class="headline">Our name is our motto. You Only Live Life Once!</p>
                             
-                <p>YOLLO Group Services is one of the leading full-service travel companies located in the Southeastern region. We offer our clients great all-inclusive travel packages, and fun and festive experiences at the best destinations around the world.  <a title="read more about YOLLO Group Services" href="about.php"> Learn more about YOLLO.</a> or view some of our upcoming events below.</p>
+                <p>YOLLO Group Services is one of the leading full-service travel companies located in the Southeastern region. We offer our clients great all-inclusive travel packages, and fun and festive experiences at the best destinations around the world. Learn more <a title="read more about YOLLO" href="about.php">about YOLLO</a> or view some of our upcoming events below.</p>
             </section>
            
             <section id="upcoming-events" style="overflow:hidden">

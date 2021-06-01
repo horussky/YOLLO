@@ -352,7 +352,7 @@ include 'includes/functions.inc.php';
 					-->
 					
 					
-					<h4>Refunds and Cancellations</h4>
+					<h4><a id="refund"></a>Refunds and Cancellations</h4>
 					
 					<div class="accordion" data-accordion>
 

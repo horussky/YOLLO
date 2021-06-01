@@ -28,10 +28,10 @@ $geolocation = array(
 
 $people = array(
 		"diamond"=> array(
-			"Group of 4" 			=> "$650",
-			"Group of 3"			=> "$775",
-			"Group of 2"			=> "$950",
-			"Individual"			=> "$2,075"
+			"Group of 4" 			=> "$ SOLDOUT",
+			"Group of 3"			=> "$875",
+			"Group of 2"			=> "$955",
+			"Individual"			=> "$1350"
 		),
 
 		"emerald"=> array(
@@ -145,7 +145,7 @@ $package_items = array(
                         
                         <p>While cruising over the Caribbean, we have much to keep you occupied. You should look forward to comedy shows, a talent show, spades tournament, and more. Our DJ's are working the 1's and 2's for a variety of onboard clubs and decks. Our theme parties, “Kangol and Shelltoes” and “Ocean Blue Fun and Sexy” will also keep the camaraderie going all weekend.</p> 
                         
-                        <p>Do not hesitate on this package. Book this great cruise package today! If you are still interested in Alumni Getaway 2020, <a href="/alumni-getaway-cruise-2020" target="_blank">please visit the event page to book</a>. But spaces are running out fast.</p>
+                        <p>Do not hesitate on this package. Book this great cruise package today! Spaces will fill up quick for this exciting event so make sure you sign up TODAY!</p>
                         
                         <table class="itinerary">
                             <caption>Cruise Itinerary</caption>
@@ -356,7 +356,7 @@ $package_items = array(
 
 							  <div data-control>When are the payments due?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee <strong> at sign-up</strong>. The first payment of <strong>$125</strong> per person is due on or before  <strong>October 28, 2020</strong>. The second payment of $200 is due on or before <strong>January 10, 2021</strong>. The final payment (remaining balance) is due on or before <strong>March 1, 2021</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee <strong> at sign-up</strong>. The first payment of <strong>$125</strong> per person is due on or before  <strong>June 05, 2021</strong>. The second payment of $200 is due on or before <strong>July 07, 2021</strong>. The final payment (remaining balance) is due on or before <strong>August 09, 2021</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
