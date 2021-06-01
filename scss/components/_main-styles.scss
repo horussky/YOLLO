@@ -798,4 +798,23 @@ hr {
     color: #333;
 } 
 
+/*Remove Event Page Social Aside*/
+
+#event-pg{
+
+    aside#social{
+        display: none;
+    }
+
+    #left{
+        width: 25%;
+    }
+
+    #right{
+        width: 75%;
+        padding-right: 0;
+    }
+
+}
+
 

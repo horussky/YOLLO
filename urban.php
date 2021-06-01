@@ -72,10 +72,10 @@ $package_items = array(
 		"Upgraded Hotel Accommodations - Oceanfront View/ Upgraded Liquor Options All Weekend"					=> "ex",
 		"Hotel Accommodations (3 days/2 nights)"		=> "checked",
 		"Welcoming Reception"							=> "checked",
-		"Complimentary Night Stay"				=> "checked",
+		"Complimentary Night Stay"				        => "checked",
 		"All-Access Event Weekend Passes"				=> "checked",
 		"Unlimited Drinks on-site all weekend"			=> "checked",
-		"Complimentary Room Mini Bar Restocked Daily"			=> "checked",
+		"Complimentary Room Mini Bar Restocked Daily"   => "checked",
 		"Unlimited Dining on-site all weekend"			=> "checked",
 		"FREE Guest Room Mini Bar Restocked Daily"		=> "checked",
 		"Add'l Night - $350/plus tax and resort fees"	=> "checked",
@@ -103,9 +103,7 @@ $package_items = array(
     <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 
-
-
-<body>
+<body id="event-pg">
      <div id="wrap">
           
           

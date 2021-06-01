@@ -8836,6 +8836,17 @@ hr {
   line-height: 1.5;
   color: #333; }
 
+/*Remove Event Page Social Aside*/
+#event-pg aside#social {
+  display: none; }
+
+#event-pg #left {
+  width: 25%; }
+
+#event-pg #right {
+  width: 75%;
+  padding-right: 0; }
+
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
  * Version: 2.0.2

@@ -21,7 +21,7 @@ include 'includes/functions.inc.php';
 
 </head>
 
-<body>
+<body id="event-pg">
 
 <div id="wrap">
     

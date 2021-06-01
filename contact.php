@@ -19,11 +19,7 @@ include 'includes/functions.inc.php';
 <style>
 	.content{display:none;}
 </style>
-<body>
-
-
-
-
+<body id="event-pg">
 
 <div id="wrap">
     

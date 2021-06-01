@@ -97,7 +97,7 @@
     <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 	
-<body>
+<body id="event-pg">
 <div id="wrap">
  
 	<!--Mobile Nav-->

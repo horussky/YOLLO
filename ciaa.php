@@ -50,7 +50,7 @@
 </style>
 
 </head>
-<body>
+<body id="event-pg">
 <div id="wrap">
     <div id="container">
    	 	<?php include 'includes/header.inc.php'; ?>
