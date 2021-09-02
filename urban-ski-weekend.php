@@ -20,14 +20,12 @@ $geolocation = array(
 	"hotel1"=> array(
 		"title" 				=> "Music Road Resort",
 		"address"				=> "303 Henderson Chapel Rd",
-		"location"			=> "Pigeon Forge, TN 37868",
-		"soldout"		    => false,
+		"location"			    => "Pigeon Forge, TN 37868",
+		"soldout"		        => false,
 		"img_url"				=> "//media-cdn.tripadvisor.com/media/photo-s/04/9d/9d/57/music-road-resort-making.jpg"
 	),
 
 );
-
-
 
 $people = array(
 
@@ -51,49 +49,45 @@ $people = array(
 			"Ski Excursions" 	=> "$100"
 		),
 
-
-
 );
-
-
 
 $package_items = array(
 
 	"diamond_items" => array(
-		"4 Days / 3 Nights Hotel Accommodations"						=> "checked",
-		"Party Bus Access"																	=> "checked",
-		"The Best of the Best Fashion Shows"								=> "checked",
-		"10th Annual Winter White Party"											=> "checked",
-		"10th Annual \"LOL\" Comedy Show"										=> "checked",
-		"The Rep Your City Super Bowl Party"								=> "checked",
-		"Freaky Friday PJ Party"														=> "checked",
-		"Access To The Exclusive Super Lounges Each Night"	=> "checked",
-		"Access To The Love Jones Poets Corner Lounge"			=> "checked",
+		"4 Days / 3 Nights Hotel Accommodations"        => "checked",
+		"Party Bus Access"						        => "checked",
+		"The Best of the Best Fashion Shows"            => "checked",
+		"10th Annual Winter White Party"		        => "checked",
+		"10th Annual \"LOL\" Comedy Show"		        => "checked",
+		"The Rep Your City Super Bowl Party"		    => "checked",
+		"Freaky Friday PJ Party"						=> "checked",
+		"Access To The Exclusive Super Lounges Each Night"	    => "checked",
+		"Access To The Love Jones Poets Corner Lounge"		    => "checked",
 		"The \"Mid-Night Mountain\" Indoor Pool Party"			=> "checked",
-		"Access To The Caribbean Lounge"										=> "checked",
-		"Access To The 80's & 90's Old School Lounge"				=> "checked",
-		"Tickets To All Additionally Added Events"					=> "checked",
-				"YOLLO Swag Bag"																		=> "checked"
+		"Access To The Caribbean Lounge"					    => "checked",
+		"Access To The 80's & 90's Old School Lounge"		    => "checked",
+		"Tickets To All Additionally Added Events"			    => "checked",
+		"YOLLO Swag Bag"							    => "checked"
 	),
 
 
 
 	"emerald_items" => array(
 
-		"4 Days / 3 Nights Hotel Accommodations"						=> "checked",
-		"Party Bus Access"																	=> "ex",
-		"The Best of the Best Fashion Shows"								=> "checked",
-		"10th Annual Winter White Party"											=> "checked",
-		"10th Annual \"LOL\" Comedy Show"										=> "checked",
-		"The Rep Your City Super Bowl Party"								=> "checked",
-		"Freaky Friday PJ Party"														=> "checked",
-		"Access To The Exclusive Super Lounges Each Night"	=> "checked",
+		"4 Days / 3 Nights Hotel Accommodations"    => "checked",
+		"Party Bus Access"						    => "ex",
+		"The Best of the Best Fashion Shows"	    => "checked",
+		"10th Annual Winter White Party"		    => "checked",
+		"10th Annual \"LOL\" Comedy Show"		    => "checked",
+		"The Rep Your City Super Bowl Party"	    => "checked",
+		"Freaky Friday PJ Party"				    => "checked",
+		"Access To The Exclusive Super Lounges Each Night"	    => "checked",
 		"Access To The Love Jones Poets Corner Lounge"			=> "checked",
 		"The \"Mid-Night Mountain\" Indoor Pool Party"			=> "checked",
-		"Access To The Caribbean Lounge"										=> "checked",
+		"Access To The Caribbean Lounge"				        => "checked",
 		"Access To The 80's & 90's Old School Lounge"				=> "checked",
 		"Tickets To All Additionally Added Events"					=> "checked",
-				"YOLLO Swag Bag"																		=> "checked"
+		"YOLLO Swag Bag"							    => "checked"
 	)
 
 );
@@ -113,12 +107,12 @@ $package_items = array(
     <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
     <link href="<?php echo $metas['urbanski']['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
+    <meta property="fb:pages" content="117420764961518" />
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
     <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 
 <body id="event-pg">
-
 
 
 <div id="wrap">
@@ -316,7 +310,7 @@ $package_items = array(
 
 										  <div data-content>
 
-											<p>Following registration the first payment of $125 is due on or before June 20, 2021.  The second payment of $150 is due on or before August 20, 2021. The final payment (remaining balance) is due on or before October 20, 2021. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+											<p>Following registration the first payment of $125 is due on or before August 15, 2021.  The second payment of $150 is due on or before September 20, 2021. The final payment (remaining balance) is due on or before November 20, 2021. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 
 										  </div>
 

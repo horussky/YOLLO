@@ -49,20 +49,17 @@ $package_items = array(
 
 	"diamond_items" => array(
 
-		"4 Day/3 Night Cruise Departing From New Orleans, LA"  => "checked",
-		"All You Can Eat All Weekend Long"                    => "checked",
-		"Cuban Nights Party - Break out your LINEN or FESTIVE colors theme night"                    => "checked",
-		"Grown and Sophisticated - Theme party (dress to impress night) All You Can Drink First Hour"             => "checked",
-		"The All-Stars Of Comedy Private Show "           => "checked",
-		"The Speak Easy Live Private Concert "                    => "checked",
-		"Open Bar Captains \"Fantasy\" Reception"             => "checked",
-		"The Black Film Fest Private Screening"           => "checked",
-		"Urban Fantasy Private Welcome Reception 
-"                    => "checked",
-		"YOLLO Swag Bag"                                      => "checked"
+		"4 Day/3 Night Cruise"                  => "checked",
+		"All You Can Eat All Weekend Long"      => "checked",
+		"Cuban Nights Party"                    => "checked",
+		"Grown and Sophisticated"               => "checked",
+		"The All-Stars Of Comedy Private Show"  => "checked",
+		"The Speak Easy Live Private Concert"   => "checked",
+		"Open Bar Captains \"Fantasy\" Reception"   => "checked",
+		"The Black Film Fest Private Screening"     => "checked",
+		"Urban Fantasy Private Welcome Reception"   => "checked",
+		"YOLLO Swag Bag"                            => "checked"
 	),
-
-
 
 	"emerald_items" => array(
 		""
@@ -85,6 +82,7 @@ $package_items = array(
     <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
     <link href="<?php echo $metas['urbanfantasy']['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
+    <meta property="fb:pages" content="117420764961518" />
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
     <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>

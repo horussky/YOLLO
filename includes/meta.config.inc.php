@@ -62,8 +62,8 @@
         ),
         "partygras" => array(
             "title"     => "Party Gras: Bottles and Beads",
-            "desc"      => "Party Gras is BACK and in Tennessee",
-            "keywords"  => "Party Gras, Bottles and Beads, Chattanooga, Tennessee, Cruise, YOLLO",
+            "desc"      => "Party Gras is BACK and in Tennessee with Celebrity guest DJ Traci Steele",
+            "keywords"  => "Party Gras, DJ Traci Steele, Bonita Jalane, Georgia Me and Friends, Big Kenney, Mario Tory, Bottles and Beads, Chattanooga, Tennessee, Cruise, YOLLO",
             "canonical" => "https://www.goyollo.com/partygras"
         ),
         "tourney" => array(
