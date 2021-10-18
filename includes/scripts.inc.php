@@ -5,7 +5,7 @@
   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
   crossorigin="anonymous"></script>
 <script src="js/jquery-ui.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
 <!-- Load Other Scripts -->
 <script src="js/jquery.fancybox.js"></script>
 <script src="js/jquery.prettyPhoto.js"></script>

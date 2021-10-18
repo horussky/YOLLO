@@ -15,15 +15,12 @@ include 'includes/functions.inc.php';
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
 <link href="css/global.css" rel="stylesheet" type="text/css" />
 <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+<meta property="fb:pages" content="117420764961518" />
 </head>
 <style>
 	.content{display:none;}
 </style>
-<body>
-
-
-
-
+<body id="event-pg">
 
 <div id="wrap">
     

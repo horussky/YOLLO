@@ -4,11 +4,11 @@ include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
 $event = array(
-    "title"                    => "The Tourney Weekend 2021",
+    "title"                    => "The Tourney Weekend 2022",
     "subtitle"                => "B-More Here We COME! It will be BIG!",
     "location"                => "Baltimore, MD",
-    "date"                    => "February 23 - 27, 2021",
-    "date_start"            => "February 23, 2021",
+    "date"                    => "February 24 - 27, 2022",
+    "date_start"            => "February 25, 2022",
     "img_url"                => "../../images/slides/splash-tourney-cta.jpg",
     "img_alt"                => "The Tourney"
 );
@@ -26,17 +26,17 @@ $geolocation = array(
 
 $people = array(
     "diamond" => array(
-        "Group of 4"             => "$405",
-        "Group of 3"            => "$480",
-        "Group of 2"            => "$590",
-        "Individual"            => "$1200"
+        "Group of 4"             => "$505",
+        "Group of 3"            => "$580",
+        "Group of 2"            => "$690",
+        "Individual"            => "$1300"
     ),
 
     "emerald" => array(
-        "Group of 4"             => "$350",
-        "Group of 3"            => "$410",
-        "Group of 2"            => "$535",
-        "Individual"            => "$960"
+        "Group of 4"             => "$450",
+        "Group of 3"            => "$510",
+        "Group of 2"            => "$635",
+        "Individual"            => "$1060"
     ),
 
     "options" => array(
@@ -84,11 +84,12 @@ $package_items = array(
     <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
     <link href="<?php echo $metas['tourney']['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
+    <meta property="fb:pages" content="117420764961518" />
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
     <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
+<body id="event-pg">
 
     <div id="wrap">
 
@@ -140,9 +141,9 @@ $package_items = array(
 
                                 <h3>Get ready for <?php echo $event["title"] ?> in Baltimore, MD. </h3>
 
-                                <p>The CIAA tournament is taking it's talants furthur North to Baltimore in 2021. Baltimore will definitely bring new energy to this already exciting event and the Baltimore’s nightlife is a PERFECT match for the attendees of this event! YOLLO Group Services is making the Tourney a fun-filled weekend for you to remember. This basketball tournament has become one of the most attended events among HBCU’s in the nation. </p>
-                                <p>Fans will get their basketball fix during the day-time, while others enjoy all the night-time events. This means parties galore! You may spot a celebrity or two crashing and/or hosting several of these parties. You cannot go wrong booking with YOLLO Group Services for the Tourney Weekend 2021. </p>
-                                <p>If parties and celebrities are what you are looking for this weekend's events are definitely what you want to attend. Make sure you explore our Hotel and Pricing options and reserve your spot today before it's too late! </p>
+                                <p>After kicking COVID-19 to the curb the CIAA tournament is taking it's talants furthur North to Baltimore in 2022. Baltimore will definitely bring new energy to this already exciting event and the Baltimore’s nightlife is a PERFECT match for the attendees of this event! YOLLO Group Services is making the Tourney a fun-filled weekend for you to remember. This basketball tournament has become one of the most attended events among HBCU’s in the nation. </p>
+                                <p>Fans will get their basketball fix during the day-time, while others enjoy all the night-time events. This means parties galore! You may spot a celebrity or two crashing and/or hosting several of these parties. You cannot go wrong booking with YOLLO Group Services for the Tourney Weekend 2022. </p>
+                                <p>If parties and celebrities are what you are looking for this weekend's events are definitely what you want to attend. Make sure you explore our Hotel and Pricing options and reserve your package today before it's too late! </p>
 
                             </div><!-- ./overview -->
 
@@ -233,7 +234,7 @@ $package_items = array(
 
                                         <div data-control>When are the payments due?</div>
                                         <div data-content>
-                                            <p>After registration the first payment of $125 is due October 15 , 2020. The final payment (remaining balance) is due on or before December 02, 2020.</p>
+                                            <p>After registration the first payment of $125 is due July 15, 2021. The second payment of $100 is due September 15, 2021  The final payment (remaining balance) is due on or before December 10, 2021.</p>
                                         </div>
 
                                     </div><!-- end of accordion-->

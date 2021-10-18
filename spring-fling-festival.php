@@ -6,13 +6,13 @@ include 'includes/meta.config.inc.php';
 
 $event = array(
 
-	"title"				=>"Spring Fling Festival 2020",
+	"title"				=>"Spring Fling Festival 2022",
 	"subtitle"			=>"The ultimate mature music lover day trip",
 	"location"			=>"Mobile, Al",
-	"date"				=>"May 30, 2020",
-    "date_start"        =>"May 30, 2020",
+	"date"				=>"April 2, 2022",
+    "date_start"        =>"April 2, 2022",
 	"img_url"			=>"../../images/slides/splash-spring-bling-cta.jpg",
-	"img_alt"			=>"Spring Bling Music Festival"
+	"img_alt"			=>"Spring Fling Music Festival"
 );
 
 $geolocation = array(
@@ -69,13 +69,12 @@ $package_items = array(
     <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
     <link href="<?php echo $metas['springfling']['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
+    <meta property="fb:pages" content="117420764961518" />
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
     <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
-
-
+<body id="event-pg">
 
 <div id="wrap">
 

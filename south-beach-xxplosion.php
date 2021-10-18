@@ -75,7 +75,8 @@
 <meta name="Description" content="Yollo Group Services is taking you to Miami, Florida for South Beach Xxplosion. Buy a package today." />
 <meta name="Keywords" content="xxplosion, south beach, beach party passes, beachfest in miami, miami, florida" />
 <meta name="robots" content="ALL" />
-<meta name="author" content="Yollo Group Services" />
+<meta name="author" content="YOLLO Group Services" />
+<meta property="fb:pages" content="117420764961518" />
 <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
 
 <link href="favicon.ico" rel="icon" type="image/x-icon" />

@@ -81,11 +81,12 @@ $package_items = array(
     <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
     <link href="<?php echo $metas['springbreakaway']['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
+    <meta property="fb:pages" content="117420764961518" />
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
     <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
+<body id="event-pg">
 
 	<div id="wrap">
 	

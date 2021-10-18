@@ -91,10 +91,11 @@ $package_items = array(
     <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
     <link href="<?php echo $metas['nati']['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
+    <meta property="fb:pages" content="117420764961518" />
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
     <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body id="event-pg">
 <div id="wrap">
    
     <!--Mobile Nav-->
@@ -258,7 +259,7 @@ $package_items = array(
 
                                     <div data-control>What are the payment due dates for Cincinnati Music Festival Packages?</div>
                                     <div data-content>
-                                        <p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 is due on or before <strong>July 20, 2021</strong>. The second payment of $150 is due on or before <strong>October 15, 2021</strong>.The final payment (remaining balance) is due on or before <strong>January 15, 2022</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
+                                        <p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 is due on or before <strong>October 10, 2021</strong>. The second payment of $150 is due on or before <strong>December 10, 2021</strong>.The final payment (remaining balance) is due on or before <strong>February 1, 2022</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
                                     </div>
 
                                     </div><!-- end of accordion-->

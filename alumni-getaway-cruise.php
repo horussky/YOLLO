@@ -82,11 +82,12 @@ $package_items = array(
     <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
     <link href="<?php echo $metas['alumni21']['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
+    <meta property="fb:pages" content="117420764961518" />
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
     <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
+<body id="event-pg">
 
 <div id="wrap">
     
@@ -356,7 +357,7 @@ $package_items = array(
 
 							  <div data-control>When are the payments due?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee <strong> at sign-up</strong>. The first payment of <strong>$125</strong> per person is due on or before  <strong>June 05, 2021</strong>. The second payment of $200 is due on or before <strong>July 07, 2021</strong>. The final payment (remaining balance) is due on or before <strong>August 09, 2021</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee <strong> at sign-up</strong>. The first payment of <strong>$125</strong> per person is due on or before  <strong>July 29, 2021</strong>. The second payment of $200 is due on or before <strong>August 20, 2021</strong>. The final payment (remaining balance) is due on or before <strong>September 20, 2021</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

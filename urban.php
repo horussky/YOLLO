@@ -14,8 +14,6 @@ $event = array(
 	"img_alt"			=>"Urban Fiesta"
 );
 
-
-
 $geolocation = array(
 
 	"hotel1"=> array(
@@ -27,7 +25,6 @@ $geolocation = array(
 	),
 
 );
-
 
 $people = array(
 
@@ -51,17 +48,17 @@ $people = array(
 
 );
 
-
 $package_items = array(
 
 	"diamond_items" => array(
-		"Upgraded Hotel Accommodations - Oceanfront View/ Upgraded Liquor Options All Weekend"					=> "checked",
+		"Upgraded Accommodations - Oceanfront View"     => "checked",
+        "Upgraded Liquor Options All Weekend"           => "checked",
 		"Hotel Accommodations (3 days/2 nights)"		=> "checked",
 		"Welcoming Reception"							=> "checked",
-		"Complimentary Night Stay"				=> "checked",
+		"Complimentary Night Stay"				        => "checked",
 		"All-Access Event Weekend Passes"				=> "checked",
 		"Unlimited Drinks on-site all weekend"			=> "checked",
-		"Complimentary Room Mini Bar Restocked Daily"			=> "checked",
+		"Complimentary Room Mini Bar Restocked Daily"	=> "checked",
 		"Unlimited Dining on-site all weekend"			=> "checked",
 		"FREE Guest Room Mini Bar Restocked Daily"		=> "checked",
 		"Add'l Night - $350/plus tax and resort fees"	=> "checked",
@@ -69,13 +66,14 @@ $package_items = array(
 	),
 
 	"emerald_items" => array(
-		"Upgraded Hotel Accommodations - Oceanfront View/ Upgraded Liquor Options All Weekend"					=> "ex",
+		"Upgraded Accommodations - Oceanfront View"     => "ex",
+        "Upgraded Liquor Options All Weekend"           => "ex",
 		"Hotel Accommodations (3 days/2 nights)"		=> "checked",
 		"Welcoming Reception"							=> "checked",
-		"Complimentary Night Stay"				=> "checked",
+		"Complimentary Night Stay"				        => "checked",
 		"All-Access Event Weekend Passes"				=> "checked",
 		"Unlimited Drinks on-site all weekend"			=> "checked",
-		"Complimentary Room Mini Bar Restocked Daily"			=> "checked",
+		"Complimentary Room Mini Bar Restocked Daily"   => "checked",
 		"Unlimited Dining on-site all weekend"			=> "checked",
 		"FREE Guest Room Mini Bar Restocked Daily"		=> "checked",
 		"Add'l Night - $350/plus tax and resort fees"	=> "checked",
@@ -84,9 +82,6 @@ $package_items = array(
 	
 	
 );
-
-
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -97,15 +92,14 @@ $package_items = array(
     <meta name="description" content="<?php echo $metas['urbanfiesta']['desc']; ?>" />
     <meta name="keywords" content="<?php echo $metas['urbanfiesta']['keywords']; ?>" />
     <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
+    <meta property="fb:pages" content="117420764961518" />
     <link href="<?php echo $metas['urbanfiesta']['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
     <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 
-
-
-<body>
+<body id="event-pg">
      <div id="wrap">
           
           
@@ -124,12 +118,8 @@ $package_items = array(
 						<!--End of Nav-->
                     </div>
 
-
-
                     <!--Right Content-->
                     <div id="right">
-
-
 
                          <div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
 							<div class="overlay"></div>

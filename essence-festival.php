@@ -65,7 +65,6 @@
 			"Hotel Accommodations (Fri-Sun)"			        => "checked",
 			"One night concert ticket (Loge Section)"	        => "checked",
 			"All White Party Cruise "			                => "checked",
-			"R/T airport transfer "			                => "checked",
 			"Mid-Day Comedy Show (Sunday)"				        => "checked",
 			"Black Film Review (Sunday)"				        => "checked",
 			"Speak Easy Poetry Show (Sunday)"				    => "checked",
@@ -80,7 +79,6 @@
 			"Hotel Accommodations (Fri-Sun)"			      => "checked",
 			"One night concert ticket (Loge Section)"	      => "ex",
 			"All White Party Cruise "			              => "ex",
-			"R/T Airport Transfer "			                => "checked",
 			"Mid-Day Comedy Show (Sunday)"				      => "checked",
 			"Black Film Review (Sunday)"				      => "checked",
 			"Speak Easy Poetry Show (Sunday)"				  => "checked",
@@ -104,11 +102,12 @@
     <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
     <link href="<?php echo $metas['essence']['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
+    <meta property="fb:pages" content="117420764961518" />
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
     <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 
 </head>
-<body>
+<body id="event-pg">
 
 <div id="wrap">
     
@@ -292,7 +291,7 @@
 
 							  <div data-control>What are the payment due dates for Essence Packages?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 per person is due on or before July 01, 2021. The second payment of $250 per person is due on or before September 10, 2021. The final payment (remaining balance) is due on or before December 10, 2021. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 per person is due on or before October 16, 2021. The second payment of $250 per person is due on or before December 10, 2021. The final payment (remaining balance) is due on or before February 1, 2022. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
