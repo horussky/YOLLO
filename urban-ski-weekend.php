@@ -57,8 +57,8 @@ $package_items = array(
 		"4 Days / 3 Nights Hotel Accommodations"        => "checked",
 		"Party Bus Access"						        => "checked",
 		"The Best of the Best Fashion Shows"            => "checked",
-		"10th Annual Winter White Party"		        => "checked",
-		"10th Annual \"LOL\" Comedy Show"		        => "checked",
+		"11th Annual Winter White Party"		        => "checked",
+		"11th Annual \"LOL\" Comedy Show"		        => "checked",
 		"The Rep Your City Super Bowl Party"		    => "checked",
 		"Freaky Friday PJ Party"						=> "checked",
 		"Access To The Exclusive Super Lounges Each Night"	    => "checked",
@@ -77,8 +77,8 @@ $package_items = array(
 		"4 Days / 3 Nights Hotel Accommodations"    => "checked",
 		"Party Bus Access"						    => "ex",
 		"The Best of the Best Fashion Shows"	    => "checked",
-		"10th Annual Winter White Party"		    => "checked",
-		"10th Annual \"LOL\" Comedy Show"		    => "checked",
+		"11th Annual Winter White Party"		    => "checked",
+		"11th Annual \"LOL\" Comedy Show"		    => "checked",
 		"The Rep Your City Super Bowl Party"	    => "checked",
 		"Freaky Friday PJ Party"				    => "checked",
 		"Access To The Exclusive Super Lounges Each Night"	    => "checked",
@@ -168,19 +168,19 @@ $package_items = array(
 									<div class="tab" aria-label="overview">
 										<h3>The best event for first-time skiers</h3>
 
-										<p>YOLLO Group Services has the ultimate ski-weekend package for you. So you have never been skiing? No problem. Nervous about skiing and falling? No worries at all. There will be hundreds of others just like you at the lodge. You may fall, roll, or find out your skills make you a natural on the slopes! Regardless, you will definitely have a great time at Urban Ski Weekend in Gatlinburg, Tennesee.</p>
+										<p>YOLLO Group Services offers the ultimate ski-trip for beginners and experts alike. But especially beginners, we understand your nerves - there are plenty of people with the same experience, so you can make friends quickly. You'll swiftly develop an understanding of skiing, too! Despite that, you're surely going to have a great time at Urban Ski Weekend in Gatlinburg, Tennessee.</p>
 
 										<h4>What else?</h4>
 
-										<p>Tired of busting your butt on the slopes? You can enjoy many parties and events going on around the mountain. The 2021 edition of Urban Ski Weekend was hosted by LHHNY own DJ Self, DJ Luke Nasty, and R&B sensation Lloyd! They did not disppoint as they entertained and interacted with the crowd! In 2022 it will be the 11 year anniversary of this awesome event and we will have LHHNY own DJ Self returning for crowd control! You know this is the only event that celebs frequent annually so you do not want to miss out on who you might see! If you ever had questions on which ski weekend has the POWER well here you go! The ladies love our celebrity royalty at Urban Ski so guys this will definitely be the place for you to mingle!</p>
+										<p>If you're tired of burning your legs on the slopes this winter, there are plenty of fun things to do during Urban Ski Weekend. DJ Self hosted the event with R&B singer Lloyd and DJ Luke Nasty in 2021. They didn't disappoint, as they had the audience eating out of the palm of their hands. Urban Ski 2022 will be the 11th anniversary, and DJ Self will be returning to rock the crowd again. Bobby V will also be in the building bringing another level of grown and sexy to the event. You know this is the biggest event celebrities come to each year, so you don't want to miss out on who you might see! If you're looking for a ski weekend with the so much star power, then here it is. The ladies love our celebrity royalty at Urban Ski, so guys, this will definitely be the place for you to mingle.</p>
 
 										<h4>The packages</h4>
 
-										<p>Our packages includes hotel stay, party passes, comedy show, and plenty of networking oppurtunities. We also have transportation available via one of our exclusive party buses. These buses will be available in Alabama and Tennessee.</p>
+										<p>Our packages include a hotel stay, party passes, a comedy show, and plenty of networking opportunities. We also have transportation available in the form of one of our exclusive party buses. These buses will be available in Alabama and Tennessee.</p>
 
 										<h4>The Bottom Line</h4>
 
-										<p>Did we mention this is all going down Super Bowl Weekend. Skiing, parties, comedy, relaxation, good food, and did we mention the HUGE Superbowl party. What more can you ask for. Look forward to a spectacular weekend in Gatlinburg. Register and book a spot today!</p>
+										<p>Did we mention this is all happening during the Super Bowl weekend? Skiing, parties, comedy, relaxation, good food, and did we mention the enormous Super Bowl party? What more could you want? Enjoy a spectacular weekend in Gatlinburg. <a data-href="#tabs-5" class="open-tab">Register and reserve your spot today!</a></p>
 
 									</div> <!-- ./overview -->
 
@@ -310,7 +310,7 @@ $package_items = array(
 
 										  <div data-content>
 
-											<p>Following registration the first payment of $125 is due on or before August 15, 2021.  The second payment of $150 is due on or before September 20, 2021. The final payment (remaining balance) is due on or before November 20, 2021. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+											<p>Following registration the first payment of $125 is due on or before October 16, 2021.  The second payment of $150 is due on or before December 1, 2021. The final payment (remaining balance) is due on or before January 5, 2022. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 
 										  </div>
 

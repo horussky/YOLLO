@@ -4,20 +4,20 @@ include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"				=>"All-Star Weekend 2022",
-	"subtitle"			=>"The HOME of Lebron James!",
-	"location"			=>"Cleveland, OH",
-	"date"				=>"February 18, 2022",
-    "date_start"        =>"February 18, 2022",
+	"title"				=>"All-Star Weekend 2023",
+	"subtitle"			=>"The Crossroads of the West",
+	"location"			=>"Salt Lake City, UT",
+	"date"				=>"February 17, 2023",
+    "date_start"        =>"February 19, 2023",
 	"img_url"			=>"../../images/slides/splash-nba-cta.jpg",
 );
 
 $geolocation = array(
  
 	"hotel1"=> array(
-		"title" 		=>"Hampton Inn Cleveland-Downtown",
-		"address"		=>"1460 E 9th Street",
-		"location"		=>"Cleveland, OH 44114",
+		"title" 		=>"DoubleTree Suites-Downtown",
+		"address"		=>"110 West 600 South",
+		"location"		=>"Salt Lake City, Utah 84101",
 		"soldout"	    => false,
 		"img_url"		=>"//media-cdn.tripadvisor.com/media/photo-o/0c/b0/75/e6/hampton-inn-cleveland.jpg"
 	)/*,
@@ -33,24 +33,24 @@ $geolocation = array(
 
 $people = array(
 		"diamond"=> array(
-			"Group of 4" 			=>"$2,690",
-			"Group of 3"			=>"$2,855",
-			"Group of 2"			=>"$2,965",
-			"Individual"			=>"$3,665"
+			"Group of 4" 			=>"$2,990",
+			"Group of 3"			=>"$3,355",
+			"Group of 2"			=>"$3,965",
+			"Individual"			=>"$4,365"
 		),
 
 		"emerald"=> array(
-			"Group of 4" 			=>"$890",
-			"Group of 3"			=>"$1,055",
-			"Group of 2"			=>"$1,165",
-			"Individual"			=>"$1,865"
+			"Group of 4" 			=>"$990",
+			"Group of 3"			=>"$1,255",
+			"Group of 2"			=>"$1,365",
+			"Individual"			=>"$2,065"
 		),
 
 		"options"=>array(
-			"Celebrity Game" 							=> "$200",
-			"Practice Game" 							=> "$150",
-			"Rising Star Challenge Game" 	            => "$100",
-			"Jam Session" 								=> "$50",
+			"Celebrity Game" 							=> "$250",
+			"Practice Game" 							=> "$350",
+			"Rising Star Challenge Game" 	            => "$200",
+			"Jam Session" 								=> "$100",
 			"Hotel Only"							    => "$2000/room"
 		),
 
@@ -67,6 +67,7 @@ $package_items = array(
         "Three Point Contest Ticket (Saturday)"             => "checked",
         "Skills Challenge Ticket (Saturday)"                => "checked",
         "Celebrity Game Ticket"                             => "checked",
+        "Colors and Cocktails"                             => "checked",
         "Mid-Day Party"                                     => "checked",
         "YOLLO Gift Bag"                                    => "checked"
     ),
@@ -82,6 +83,7 @@ $package_items = array(
         "Three Point Contest Ticket (Saturday)"             => "ex",
         "Skills Challenge Ticket"                           => "ex",
 		"Celebrity Game Ticket"								=> "ex",
+		"Colors and Cocktails"                             => "checked",
 		"Mid-Day Party"										=> "checked",
 		"YOLLO Gift Bag"									=> "checked"
 			),
@@ -155,12 +157,12 @@ $package_items = array(
                     <div class="tab" aria-label="overview">
                         <h3><?php echo $event["title"]?></h3>
 
-                        <p>YOLLO is taking you to the home of Labron James in 2022. Yes, Cleveland will host the 71st annual All-Star game after a 25-year hiatus. This three-day weekend event attracts lots of celebrities. Most of these celebs host some of the hottest parties in the city. </p>
+                        <p>YOLLO is taking you to the "The Crossroads of the West" in 2023. Yes, Salt Lake City will host the 72nd annual All-Star game which marks the 30th anniversary of the 1993 NBA All-Star Game played in Salt Lake City. This three-day weekend event attracts lots of celebrities. Most of these celebs host some of the hottest parties in the city. </p>
 
                         <p>YOLLO has an all-inclusive package to get you face-to-face with these celebrities. From party passes, hotel stay, and celebrity-hosted events, YOLLO is here for your turn up!</p>
 
                         <h4>Party with YOLLO during All Star Weekend</h4>
-						<p>This annual event brings out the BEST of the BEST and the parties are just as GREAT! Events cover the city all weekend long and YOLLO puts you in the LIVEST paries and events throughout the weekend.  One of our fan favorite events is our Colors and Cocktails event! Last years' tribute to Kobe Byrant painting was a HUGE hit and in 2022 it will be even better! Please remember that once we sell out, we will not have any more tickets available. Lock in your package today for only 29.99 and enjoy our convenient payment plan.<p>
+						<p>This annual event brings out the BEST of the BEST and the parties are just as GREAT! Events cover the city all weekend long and YOLLO puts you in the LIVEST paries and events throughout the weekend.  One of our fan favorite events is our Colors and Cocktails event! Last years' tribute to Kobe Byrant painting was a HUGE hit and in 2023 it will be even better! Please remember that once we sell out, we will not have any more tickets available. Lock in your package today for only 29.99 and enjoy our convenient payment plan.<p>
 
                         <p>Allow us to give you an exciting travel experience during the All-Star Weekend. Make sure you explore our hotel and pricing options and book with YOLLO Group Services today!</p>
 
@@ -244,7 +246,7 @@ $package_items = array(
                                     <h4>Party Pass Options: </h4>
                                     <p>These options are not the same and are separate from the all-inclusive options listed above; and are intended for those not in need of hotel accommodations. </p>
 
-                                    <p class="lead">Rookie - $550 </p>
+                                    <p class="lead">Rookie - $650 </p>
                                     <ul>
                                         <li>Friday Night Party</li>
                                         <li>NBA Crossover Ticket</li>
@@ -253,7 +255,7 @@ $package_items = array(
                                         <li>Saturday Night Party (Celebrity Hosted)</li>
                                     </ul>
 
-                                    <p class="lead">Rising Star - $750 </p>
+                                    <p class="lead">Rising Star - $875 </p>
                                     <ul>										
                                         <li>NBA Crossover Ticket</li>
                                         <li>Colors and Cocktails</li>
@@ -264,7 +266,7 @@ $package_items = array(
                                         <li>All Star Practice Game ticket</li>							
                                     </ul>
 
-                                    <p class="lead">All-Star - $950 (best seller)</p>
+                                    <p class="lead">All-Star - $1,200 (best seller)</p>
                                     <ul>
 
                                         <li>Friday Night Party (Celebrity Hosted)</li>
@@ -301,7 +303,7 @@ $package_items = array(
 
                             <div class="accordion" data-accordion>
 
-                                <div data-control>What should I expect at theNBA All-Star Practice & Media Day presented by AT&T?</div>
+                                <div data-control>What should I expect at the NBA All-Star Practice & Media Day presented by AT&T?</div>
                                 <div data-content>
                                 <p>This unique, behind-the-scenes event is your opportunity to see the NBA’s biggest stars interviewed by media from around the world. Fans can then watch the entire NBA All-Star Game squad train for Sunday’s showcase.</p>
                                 </div>
@@ -313,14 +315,14 @@ $package_items = array(
 
                                 <div data-control>When are the payments due?</div>
                                 <div data-content>
-                                <p>After registration the first payment of $125 is due February 10, 2021.  The second payment of $250 is due July 15, 2021. The final payment (remaining balance) is due on or before September 10, 2021.</p>
+                                <p>After registration the first payment of $125 is due February 10, 2022.  The second payment of $250 is due July 01, 2022. The final payment (remaining balance) is due on or before September 01, 2022.</p>
                                 </div>
 
                             </div><!-- end of accordion-->
 
                             <div class="accordion" data-accordion>
 
-                                <div data-control>Who won the All- Star game the last time it was hosted in Cleveland?</div>
+                                <div data-control>Who won the All- Star game the last time it was hosted in Salt Lake City?</div>
                                 <div data-content>
                                 <p>The game was hosted in Gund Arena. The game final score was East 132 vs West 120.  Glen Rice of the Charlotte Hornets was the MVP of the game.</p>
                                 </div>

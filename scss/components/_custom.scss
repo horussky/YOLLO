@@ -7,10 +7,11 @@
 		height: auto!important;
 
 		display: -ms-grid;
-		-ms-grid-columns:1fr 5px 1fr 5px 1fr 5px 1fr;
+		//-ms-grid-columns:1fr 5px 1fr 5px 1fr 5px 1fr;
+        -ms-grid-columns:(6, 1fr);
 
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-columns: repeat(6, 1fr);
 		grid-gap: 1rem;
 		justify-items: center;
 		

@@ -45,13 +45,14 @@ $people = array(
 
 $package_items = array(
 	"diamond_items" => array(
-        "Crowd Control by: DJ Dre Smoove and celebrity DJ Traci Steele"                 => "checked",
+        "Crowd Control by: DJ Dre Smoove"                 => "checked",
         "Poets: Georgia Me and Friends 2p-5p"                                           => "checked",
-        "Comedians: Big Kenney and Mario Tory"                                          => "checked",
-        "Live Performances by: Bonita Jalane, Will C, and more. Hosted by Akshun"       => "checked",
+        "Comedians: Big Kenney and Friends"                                          => "checked",
+        "Live Performances by:T.B.A. Powered by: FAME Live Magazine"       => "checked",
         "Meet and Greet with bottomless margaritas"                                     => "checked",
         "Cocktails and Colors Experience with bottomless mimosas"                       => "checked",
-        "8th annual Party Gras: Bottles and Beads Cruise 10:30p -1:30a"			        => "checked"
+        "Party Gras: Bottles and Beads Kick Off Party"                       => "checked",
+        "9th annual Party Gras: Bottles and Beads Cruise 10:30p -1:30a"			        => "checked"
 		
 	),
 
@@ -174,7 +175,7 @@ $package_items = array(
 
 				
 
-                        <p>We are also providing hotel accommodations via the Doubletree Downtown Chattanooga.</p>
+                        <p>We are also providing hotel accommodations via the <a href="https://www.my-event.hilton.com/chachdt-pag-f6052956-954f-4049-9624-8054f0dbdd0f/" target="_blank">Doubletree by Hilton Downtown Chattanooga.</a></p>
     
 
                     </div> <!-- ./ overview -->
@@ -249,7 +250,7 @@ $package_items = array(
 
 							  <div data-control>What is the official host property for the Party Gras?</div>
 							  <div data-content>
-								  <p>The host property is the Doubletree Downtown Chattanooga. T407 Chestnut St, Chattanooga, TN 37402.</p>
+								  <p>The host property is the <a href="https://www.my-event.hilton.com/chachdt-pag-f6052956-954f-4049-9624-8054f0dbdd0f/" target="_blank">Doubletree by Hilton Downtown Chattanooga.</a> 407 Chestnut St, Chattanooga, TN 37402.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -269,7 +270,7 @@ $package_items = array(
 
 							  <div data-control>Where will the bus depart from?</div>
 							  <div data-content>
-								<p>We will depart from Birmingham, Alabama at 9 AM August 14th and depart from Chattanooga at 10AM on August 15th.</p>
+								<p>We will depart from Birmingham, Alabama at 9 AM August 12th and depart from Chattanooga at 9AM on August 14th.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -299,7 +300,7 @@ $package_items = array(
 
 							  <div data-control>What time is boarding for the cruise and when does the cruise start?</div>
 							  <div data-content>
-								<p>Boarding starts at 10:00PM. The boat will leave at 10:30PM </p>
+								<p>Boarding starts at 10:30PM. The boat will leave at 10:45PM </p>
 								<p style="color:dimgrey">*All times are based on Eastern Time Zone.</p>
 							  </div>
 
@@ -349,7 +350,7 @@ $package_items = array(
 
 							  <div data-control>Are all events one combined event?</div>
 							  <div data-content>
-								<p>No, you can purchase tickets only for the cruise, colors and cocktails or variety show. The cruise will begin boarding at 10:00PM while the variety show will start at 2PM. Colors and Cocktails will start at 10: 30 am.</p>
+								<p>No, you can purchase tickets only for the cruise, colors and cocktails or variety show. The cruise will begin boarding at 10:30pm while the variety show will start at 2PM. Colors and Cocktails will start at 10: 30 am.</p>
 								<p style="color:dimgrey">*All times are based on Eastern Time Zone.</p>
 							  </div>
 
@@ -399,13 +400,14 @@ $package_items = array(
                         
                         
                         
-                        <div class="mb-20" id="eventbrite-widget-container-116182026569"></div>
+                        <div class="mb-20" id="eventbrite-widget-container-170140909039"></div>
                         
                         <hr class="mt-20" />
                         
                         <h4>Hotel Accommodations</h4>
-                        <img style="width:15rem; float:left; margin-right:2rem" src="https://cf.bstatic.com/images/hotel/max1024x768/233/233998613.jpg" />
+                        <img style="width:15rem; float:left; margin-right:2rem" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/29/01/2a/exterior.jpg?w=400&h=-1&s=1" />
                         <p class="mb-10"><strong>Doubletree Chattanooga Downtown</strong></p>
+                       <a href="https://www.my-event.hilton.com/chachdt-pag-f6052956-954f-4049-9624-8054f0dbdd0f/" target="_blank">Reserve Your Room</a>
                     
 
                     </div><!-- ./ buy now -->
@@ -500,8 +502,8 @@ $package_items = array(
 	window.EBWidgets.createWidget({
 		// Required
 		widgetType: 'checkout',
-		eventId: '116182026569',
-		iframeContainerId: 'eventbrite-widget-container-116182026569',
+		eventId: '170140909039',
+		iframeContainerId: 'eventbrite-widget-container-170140909039',
 
 		// Optional
 		iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
