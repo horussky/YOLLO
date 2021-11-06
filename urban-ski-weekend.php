@@ -31,17 +31,17 @@ $people = array(
 
 		"diamond"=> array(
 
-			"Group of 4" 			=>"$665",
-			"Group of 3"			=>"$695",
-			"Group of 2"			=>"$750",
-			"Individual"			=>"$875"
+			"Group of 4" 			=>"$865",
+			"Group of 3"			=>"$895",
+			"Group of 2"			=>"$950",
+			"Individual"			=>"$1075"
 		),
 
 		"emerald"=> array(
-			"Group of 4" 			=>"$575",
-			"Group of 3"			=>"$605",
-			"Group of 2"			=>"$650",
-			"Individual"			=>"$780"
+			"Group of 4" 			=>"$775",
+			"Group of 3"			=>"$805",
+			"Group of 2"			=>"$850",
+			"Individual"			=>"$980"
 		),
 
 		"options"=>array(
@@ -310,7 +310,7 @@ $package_items = array(
 
 										  <div data-content>
 
-											<p>Following registration the first payment of $125 is due on or before October 16, 2021.  The second payment of $150 is due on or before December 1, 2021. The final payment (remaining balance) is due on or before January 5, 2022. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+											<p>Following registration the first payment of $125 is due on or before November 6, 2021.  The second payment of $150 is due on or before December 1, 2021. The final payment (remaining balance) is due on or before January 5, 2022. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 
 										  </div>
 
