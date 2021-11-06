@@ -36,6 +36,12 @@
             "keywords"  => "College Beachfest, Daytona, Florida, YOLLO",
             "canonical" => "https://www.goyollo.com/college-beachfest"
         ),
+        "covid" => array(
+            "title"     => "YOLLO Group Services Covid Policies",
+            "desc"      => "YOLLO Group Services policies on COVID guidelines.",
+            "keywords"  => "YOLLO, Covid, COVID-19, CDC Guidelines, Travel Policies",
+            "canonical" => "https://www.goyollo.com/covid-policy"
+        ),
         "essence" => array(
             "title"     => "Essence Festival Weekend",
             "desc"      => "YOLLO is taking you to New Orleans for Essence Fest",
@@ -65,6 +71,12 @@
             "desc"      => "Party Gras is BACK and in Tennessee with Celebrity guest DJ Traci Steele",
             "keywords"  => "Party Gras, DJ Traci Steele, Bonita Jalane, Georgia Me and Friends, Big Kenney, Mario Tory, Bottles and Beads, Chattanooga, Tennessee, Cruise, YOLLO",
             "canonical" => "https://www.goyollo.com/partygras"
+        ),
+        "privacy" => array(
+            "title"     => "YOLLO Group Services Privacy Policies",
+            "desc"      => "YOLLO Group Services general privacy policies.",
+            "keywords"  => "YOLLO, Privacy, Policies",
+            "canonical" => "https://www.goyollo.com/privacy-policy"
         ),
         "tourney" => array(
             "title"     => "CIAA Tournament Weekend",
