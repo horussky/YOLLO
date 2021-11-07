@@ -133,6 +133,47 @@
 			
 						<div class="test">
 							<ul>
+
+							<li>
+									<div class="stars">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+									</div>
+									<p>PartyGras weekend was so much fun, especially the comedy show. We were in stitches from start to finish. The Boat party was really fun! Will be back and would really recommend this company for future events! A+</p>
+									<hr>
+									<p class="author">ShaRhonda S</p>
+								</li>
+
+								<li>
+									<div class="stars">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+									</div>
+									<p>I enjoyed the boat trip in Montgomery this weekend. The only complaint I had was two djs playing basic the same thing. Level two could've been a R&B /Old school music. Glad I got the V.I.P ticket tho. Will return again for sure.</p>
+									<hr>
+									<p class="author">Phil H</p>
+								</li>
+
+								<li>
+									<div class="stars">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+									</div>
+									<p>I enjoyed the boat trip in Montgomery this weekend. The only complaint I had was two djs playing basic the same thing. Level two could've been a R&B /Old school music. Glad I got the V.I.P ticket tho. Will return again for sure.</p>
+									<hr>
+									<p class="author">Phil H</p>
+								</li>
+
+
 								<li>
 									<div class="stars">
 										<i class="fa fa-star" aria-hidden="true"></i>
@@ -174,19 +215,6 @@
 									<p class="author">Brenda P.</p>
 								</li>
 								
-								
-								
-								<li>
-									<div class="stars">
-										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star" aria-hidden="true"></i>
-									</div>
-									<p>I enjoyed the boat trip in Montgomery...Will return again for sure.</p>
-									<hr />
-									<p class="author">Phil H.</p>
-								</li>
 								
 								<li>
 									<div class="stars">
