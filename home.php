@@ -2,11 +2,6 @@
 include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
-//curl_setopt($curl, CURLOPT_URL, 'http://localhost:1337/homepage');
-
-//$str = file_get_contents('http://localhost:1337/homepage');
-//$json = json_decode($str, true); 
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
