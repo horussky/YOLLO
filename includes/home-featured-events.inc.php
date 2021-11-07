@@ -1,4 +1,5 @@
 <?php
+
 date_default_timezone_set('America/Chicago');
 $feature_event = array(
 
@@ -25,8 +26,8 @@ $feature_event = array(
 	),
 	array(
 		"title" 	=> "NBA All-Star Weekend",
-		"date" 		=> "February 18, 2022",
-		"end"		=> strtotime("February 18, 2022"),
+		"date" 		=> "February 17, 2023",
+		"end"		=> strtotime("February 19, 2023"),
 		"img" 		=> "images/featured-events/featured-event-nba.jpg",
 		"link" 		=> "/nba-allstar"
 	),
@@ -98,7 +99,8 @@ $feature_event = array(
 		"date" 		=> "Feb 24-27, 2022",
 		"end"		=> strtotime("February 27, 2022"),
 		"img" 		=> "images/featured-events/featured-event-tourney.jpg",
-    ),
+		"link" 		=> "/ciaa"
+    )/*,
     array(
 		"title" 	=> "Spring Breakaway",
 		"date" 		=> "March 25-29, 2021",
@@ -112,7 +114,7 @@ $feature_event = array(
 		"end"		=> strtotime("August 28, 2021"),
 		"img" 		=> "images/featured-events/featured-event-bbw.jpg",
 		"link" 		=> "/black-beach"
-	)
+	)*/
 
 );
 
