@@ -36,30 +36,25 @@
 								<div class="event-slider">
 									<ul>
                                         
-                                        <li><img src="images/slides/splash-mcc.jpg"></li>
-                                        <li><img src="images/slides/splash-essence.jpg"></li>
-                                        <li><img src="images/slides/splash-urban-ski.jpg"></li>
                                         <li><img src="images/slides/splash-alumni.jpg"></li>
-                                        <li><img src="images/slides/splash-nba.jpg"></li>
-                                        <li><img src="images/slides/splash-gsc.jpg"></li>
+										<li><img src="images/slides/splash-urban-ski.jpg"></li>
+										<li><img src="images/slides/splash-nba.jpg"></li>
+                                        <li><img src="images/slides/splash-essence.jpg"></li>
+                                        <li><img src="images/slides/splash-urban-fiesta.jpg"></li>
+                                		<li><img src="images/slides/splash-partygras.jpg"></li>
                                         <li><img src="images/slides/splash-follow.jpg"></li>
                                         <li><img src="images/slides/splash-talk-tues.jpg"></li>
                                         
-                                        <li><img src="images/slides/splash-partygras.jpg"></li>
-                                        
-                                        <li><img src="images/slides/splash-urban-fiesta.jpg"></li>
-                                        
-										
-										
-										
+
                                         <!-- inactive
+										<li><img src="images/slides/splash-gsc.jpg"></li>
+										<li><img src="images/slides/splash-mcc.jpg"></li>
                                         <li><img src="images/slides/splash-tourney.jpg"></li> 
 										<li><img src="images/slides/splash-instagram.jpg"></li>
 										<li><img src="images/slides/splash-gob.jpg"></li>
-										
 										<li><img src="images/slides/splash-groove.jpg"></li>
 										<li><img src="images/slides/splash-mmf.jpg"></li>
-										 <li><img src="images/slides/splash-ufw.jpg"></li>
+										<li><img src="images/slides/splash-ufw.jpg"></li>
 										inactive -->
 									</ul>
 								</div>
@@ -138,6 +133,47 @@
 			
 						<div class="test">
 							<ul>
+
+							<li>
+									<div class="stars">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+									</div>
+									<p>PartyGras weekend was so much fun, especially the comedy show. We were in stitches from start to finish. The Boat party was really fun! Will be back and would really recommend this company for future events! A+</p>
+									<hr>
+									<p class="author">ShaRhonda S</p>
+								</li>
+
+								<li>
+									<div class="stars">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+									</div>
+									<p>I enjoyed the boat trip in Montgomery this weekend. The only complaint I had was two djs playing basic the same thing. Level two could've been a R&B /Old school music. Glad I got the V.I.P ticket tho. Will return again for sure.</p>
+									<hr>
+									<p class="author">Phil H</p>
+								</li>
+
+								<li>
+									<div class="stars">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+									</div>
+									<p>I enjoyed the boat trip in Montgomery this weekend. The only complaint I had was two djs playing basic the same thing. Level two could've been a R&B /Old school music. Glad I got the V.I.P ticket tho. Will return again for sure.</p>
+									<hr>
+									<p class="author">Phil H</p>
+								</li>
+
+
 								<li>
 									<div class="stars">
 										<i class="fa fa-star" aria-hidden="true"></i>
@@ -179,19 +215,6 @@
 									<p class="author">Brenda P.</p>
 								</li>
 								
-								
-								
-								<li>
-									<div class="stars">
-										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star" aria-hidden="true"></i>
-									</div>
-									<p>I enjoyed the boat trip in Montgomery...Will return again for sure.</p>
-									<hr />
-									<p class="author">Phil H.</p>
-								</li>
 								
 								<li>
 									<div class="stars">
