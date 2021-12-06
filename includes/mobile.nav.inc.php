@@ -63,6 +63,12 @@ define("EVENT", serialize ($nav = array(
 				"link"	=>	"/the-tourney"
 				  
 			),
+			array(
+				"title"	=>	"Dubai Takeover",
+				"class"	=>	"dubai",
+				"link"	=>	"/dubai-takeover"
+				  
+			),
 			/*array(
 				"title"	=>	"80 vs 90 Throwback Cruise",
 				  "class"	=>	"throwback",

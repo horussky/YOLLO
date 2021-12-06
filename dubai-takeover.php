@@ -5,24 +5,24 @@
     include 'includes/meta.config.inc.php';
 
 	$event = array(
-		"title"				=>"Essence Music Festival 2022",
-		"subtitle"			=>"The BEST girls or guys getaway trip!",
-		"location"			=>"New Orleans, LA",
-		"date"				=>"July 1-3, 2022",
-        "date_start"		=>"July 1, 2022",
-		"img_url"			=>"../../images/slides/splash-essence-cta.jpg",
-		"img_alt"			=>"Essence Festival 2017"
+		"title"				=>"Dubai Takeover",
+		"subtitle"			=>"Taking You International",
+		"location"			=>"Dubai, United Arab Emirates",
+		"date"				=>"Aug 31 - Sept 5, 2022",
+        "date_start"		=>"Aug 31, 2022",
+		"img_url"			=>"../../images/slides/splash-dubai-cta.jpg",
+		"img_alt"			=>"Dubai Takeover 2022"
 	);
 
 	$geolocation = array(
 
 		"hotel1"=> array(
-			"title" 			=>"Hilton Riverside",
+			"title" 			=>"JW Marriott Marquis Hotel Dubai",
 			"soldout"           =>false,
-			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/06/45/13/7e/hilton-new-orleans-riverside.jpg",
-            "address"			=>"2 Poydras St",
-            "location"			=>"New Orleans, LA 70130",
-		),
+			"img_url"			=>"//dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/de/d6/14/exterior.jpg?w=500&h=-1&s=1",
+            "address"			=>"Sheikh Zayed Road Business Bay",
+            "location"			=>"Dubai 121000 United Arab Emirates",
+		)/*,
 
 		"hotel2"=> array(
 			"title" 			=>"Sheraton New Orleans Hotel",
@@ -30,7 +30,7 @@
 			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/10/0b/10/bf/sheraton-new-orleans.jpg",
             "address"			=>"500 Canal St",
             "location"			=>"New Orleans, LA 70130",
-		)/*,
+		),
 		
 		"hotel3"=> array(
 			"title" 			=>"DoubleTree by Hilton",
@@ -45,35 +45,38 @@
 
 	$people = array(
 			"diamond"=> array(
-				"Group of 4" 			=>"$1325",
-				"Group of 3"			=>"$1440",
-				"Group of 2"			=>"$1555",
-				"Individual"			=>"$2500"
-			),
+				//"Group of 4" 			=>"$1325",
+				"Group of 3"			=>"$2450",
+				"Group of 2"			=>"$2450",
+				"Individual"			=>"$3250"
+			)/*,
 
 			"emerald"=> array(
 				"Group of 4" 			=>"$1075",
 				"Group of 3"			=>"$1205",
 				"Group of 2"			=>"$1310",
 				"Individual"			=>"$1945"
-			)
+			)*/
 
 	);
 
 	$package_items = array(
 		"diamond_items" => array(
-			"Hotel Accommodations (Fri-Sun)"			        => "checked",
-			"One night concert ticket (Loge Section)"	        => "checked",
-			"All White Party Cruise "			                => "checked",
-			"Mid-Day Comedy Show (Sunday)"				        => "checked",
-			"Black Film Review (Sunday)"				        => "checked",
-			"Speak Easy Poetry Show (Sunday)"				    => "checked",
-			"Welcome to NOLA party (Friday)"				    => "checked",
-			"Complimentary Additional Night*"			        => "checked",
-			"Additional nights: $349 plus tax and fees"	        => "checked",
-			"Additional concert nights (Loge Section): $185"	=> "checked",
-			"YOLLO Swag Bag"							        => "checked"
-		),
+			"Luxury Hotel Accommodations: JW Marriott"	=> "checked",
+			"Airport Transfers To Hotel"				=> "checked",
+			"Breakfast Daily + (4) Dinners"				=> "checked",
+			"50 Min Massage Spa Day OR Jet Ski Excursion (Your Choice)"=> "checked",
+			"Tickets To Dinner In The Sky"				=> "checked",
+			"Water Taxi Experience To The Gold Souk"	=> "checked",
+			"Get All Your Dubai Take Home Items"		=> "checked",
+			"Ticket Entry To Burj Khalifa 124 Floor" 	=> "checked",
+			"Ticket To The Dubai Frame"					=> "checked",
+			"Ticket To Desert Safari Takeover" 			=> "checked",
+			"Dinner and Show plus Hookah" 				=> "checked",
+			"All White Yacht Dinner Party" 				=> "checked",
+			"All Venue Transportation with Wifi"		=> "checked",
+			"YOLLO Swag Bag"							=> "checked"
+		)/*,
 
 		"emerald_items" => array(
 			"Hotel Accommodations (Fri-Sun)"			      => "checked",
@@ -87,7 +90,7 @@
 			"Additional nights: $349 plus tax and fees"	      => "checked",
 			"Additional concert nights (Loge Section): $185" => "checked",
 			"YOLLO Swag Bag"							      => "checked"
-		)
+		)*/
 	);
 
 ?>
@@ -155,20 +158,15 @@
                         
                         <?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
-						<h3>Join us for the 28th Annual Essence Festival Weekend</h3>
+						<h3>We are taking over Dubai during Labor Day!</h3>
 
-                        <p>It's amazing but this year will mark the 28th annual Essence Music Festival. This annual mega event is filled with concerts, seminars and celebrities, all sponsored by Essence Magazine. If you are looking for parties, concerts, party cruise, along with more celebrities than you can handle, then you should <a data-href="#tabs-5" class="open-tab">book with us today!</a> We are the #1 source for Essence Festival Weekend activities in 2022. </p>
+						<p>YOLLO is taking you to Dubai. With gorgeous, glittering skyscrapers, cultural wonders, and a landscape of desert and ocean, Dubai is the definition of what a 21st century city should be.</p>
 
-						<h4>The Original All-White Mid-Day Cruise Party </h4>
+						<p>Dubai is vibrant and full of life, with iconic skyline, miles of beaches, family friendly water and theme parks. The city has something for everyone. With a short drive from the city, you can open up a new world of outdoor activities, including helicopter rides, hot air balloon tours, desert safaris, and camping trips.</p>
 
-						<p>This is the original All-White cruise party and the event everyone talks about during Essence Fest weekend! This is the 17th annual Mid-Day Cruise Party, happening on the biggest boat in New Orleans, Louis Armstrong, for your cruising delight. Enjoy a multi-level boat cruising the Mighty Mississippi River, while listening to the best Hip-Hop and R&amp;B music. The theme is "All White" attire preferred, but not required for this cruise.</p>
+						<p>Our Dubai package includes a private All-White Yacht party, Dinner in the sky, Jet ski excursion, massage and day spa, and more. Airfare is not included. Airport Transfer are FREE with ontime payments, $80 without. <strong>Passports are required. Vaccinations will be required. </strong></p>
 
-						<h4>The Mid-Day Comedy Show</h4>
-						<p>If you are ready to bust a gut, the 10th annual Mid-Day Comedy Show is the event for you. Our comedian's, like years past, will have you in stitches. If you are looking for good food, great drinks, and lots of laugh, this is the event you cannot miss. Don't think we are going to let you down with our 2022 lineup! </p>
-
-						<p>Do the right thing and <a data-href="#tabs-5" class="open-tab">Book now</a> with YOLLO Group Services Inc. and allow us to give you the best travel experience while in New Orleans!</p>
-
-
+						<p><a data-href="#tabs-5" href="#" class="open-tab">Secure this vacation package now</a> to enjoy an unforgettable international experience.</p>
 
                         </div> <!-- ./overview -->
 
@@ -222,7 +220,7 @@
 									  </ul>
 									</div><!-- price table -->
 
-
+									<?php if(isset($geolocation["hotel2"])) :?>
 									<div class="price-table">
 									  <ul class="price">
 										<li class="header">Emerald <span>Package</span></li>
@@ -239,10 +237,11 @@
 										<li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
 									  </ul>
 									</div><!-- price table -->
+									<?php endif; ?>
                                 
 								</div><!-- price table container-->
 
-
+								<p>Prices based on (1) room &amp; max # of guest in that room. You can have multiple rooms.</p>				
 
 
                         </div><!-- ./price -->
@@ -267,31 +266,12 @@
 							</div><!-- end of accordion-->
 
 
-							<div class="accordion" data-accordion>
-
-							  <div data-control>How is the one night concert ticket chosen for my group?</div>
-							  <div data-content>
-								<p>After Essence releases the performer’s lineup we send an email notifying everyone of the daily lineups. Each person in the group has the freedom to choose which night they would like to attend. In the event we don’t hear from anyone in the group we will secure Saturday night tickets for the group or group members whom haven’t confirmed their concert night.</p>
-							  </div>
-
-	                       </div><!-- end of accordion-->
-
 
 							<div class="accordion" data-accordion>
 
-							  <div data-control>Where are the concert tickets located in the Superdome? </div>
+							  <div data-control>What are the payment due?</div>
 							  <div data-content>
-								<p>The tickets provided in your package are in the Loge section. This section is in the middle of the Superdome. You can upgrade your seat and get closer for a fee. Please ask an associate for more details.</p>
-							  </div>
-
-							</div><!-- end of accordion-->
-
-
-							<div class="accordion" data-accordion>
-
-							  <div data-control>What are the payment due dates for Essence Packages?</div>
-							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 per person is due on or before December 16, 2021. The second payment of $250 per person is due on or before January 16, 2022. The final payment (remaining balance) is due on or before March 01, 2022. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment is due on or before Feb 16, 2021. The second payment of $250 per person is due on or before March 16, 2022. The final payment (remaining balance) is due on or before April 01, 2022. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -309,39 +289,18 @@
 
 							<div class="accordion" data-accordion>
 
-							  <div data-control>Can I purchase additional concert nights?</div>
+							  <div data-control>Are vaccinations required for this trip?</div>
 							  <div data-content>
-								<p>Yes, additonal night concert tickets are $185 per night. Just let us know and we can add it to your invoice.</p>
+								<p>Yes.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
 
-
 							<div class="accordion" data-accordion>
 
-							  <div data-control>Are there restrictions to what I can bring into the Superdome?</div>
+							  <div data-control>Are Passports needed?</div>
 							  <div data-content>
-								<p>The following items are prohibited: animals (with the exception of service dogs), backpacks/knapsacks, banners, containers of any kind, contraband, glass, laser pointers, noise makers, projectiles, sticks, bats, poles or clubs; video and audio recording devices with lenses that are longer than six (6) inches); weapons of any kind and other items deemed inappropriate by SMG/Landmark</p>
-							  </div>
-
-							</div><!-- end of accordion-->
-
-
-							<div class="accordion" data-accordion>
-
-							  <div data-control>Will there be any bag checks at the event?</div>
-							  <div data-content>
-								<p>Yes, all large bags will be thoroughly checked upon entry to all venues, including the Superdome, Convention Center and many other locations held during the weekend events.</p>
-							  </div>
-
-							</div><!-- end of accordion-->
-
-
-							<div class="accordion" data-accordion>
-
-							  <div data-control>Do you offer transportation for/with your travel packages?</div>
-							  <div data-content>
-								<p>No. Transportation is the responsibility of the client for this event.</p>
+								<p>Yes.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -370,36 +329,6 @@
 
 							<div class="accordion" data-accordion>
 
-							  <div data-control>How does the complimentary night work?</div>
-							  <div data-content>
-								<p>Your base package includes check-in on Friday with check-out on Sunday. If you make your first payment ($125) on time you earn the complimentary night. You can use it to arrive a day early on Thursday or depart a day later on Monday.</p>
-							  </div>
-
-							</div><!-- end of accordion-->
-
-
-							<div class="accordion" data-accordion>
-
-							  <div data-control>What kind of access do I get with my concert ticket?</div>
-							  <div data-content>
-								<p>With your concert ticket, you gain entry into the Louisiana Superdome. You will have a designated seat to experience the Main Stage performances. Once you are in the Superdome, you can experience all the performances that night in the Superlounges on the Lounge level for no additional fee or ticket. Everyone MUST have a ticket to get into the Superdome.</p>
-							  </div>
-
-							</div><!-- end of accordion-->
-
-
-							<div class="accordion" data-accordion>
-
-							  <div data-control>If I wait until the lineup is complete before I book my hotel room will you still have packages available?</div>
-							  <div data-content>
-								<p>In most cases you will be out of luck! This event breaks attendance records every year. Some people may attend the festival for the concerts, while others may attend for the surrounding activities and mingling opportunities. Regardless, you will need to book your package now. With our payment plans it helps you to reserve your package today and pay over time.</p>
-							  </div>
-
-							</div><!-- end of accordion-->
-
-
-							<div class="accordion" data-accordion>
-
 							  <div data-control>Must the entire group pay the $29.99 Reservation fee?</div>
 							  <div data-content>
 								<p>Yes. All prices are per person. The Reservation fee secures your spot on the package, and is separate from the package price.</p>
@@ -407,15 +336,6 @@
 
 							</div><!-- end of accordion-->
 
-
-							<div class="accordion" data-accordion>
-
-							  <div data-control>What is included with V.I.P. vs V.V.I.P admission to the Boat Party?</div>
-							  <div data-content>
-								<p>V.I.P. tickets are general admission tickets to the cruise and only cover entrance to the cruise with no food or drinks included. V.V.I.P. includes a speedy admission onto the boat party, delicious food, and an open bar to get you right all while partying on the boat. Our packages include the V.I.P ticket. You can upgrade to the V.V.I.P. ticket for an additional $95 per person.</p>
-							  </div>
-
-							</div><!-- end of accordion-->
 
 
 							</div><!-- end of accordion group-->
@@ -428,7 +348,7 @@
 
 
 
-                        <?php echo $responsive_tabs["photos"]; ?>
+                        <?php /* ?><?php echo $responsive_tabs["photos"]; ?> <?php */ ?>
 						<div class="tab" aria-label="photos">
 					   	<h3>Photos</h3>
                         		<div id="nanoGallery"></div>
@@ -441,7 +361,8 @@
 						<div class="tab" aria-label="buy">
                         	<h3>Buy Now</h3>
 							<p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
-                        	<div class="cognito"></div>
+							<script src="https://www.cognitoforms.com/f/seamless.js" data-key="NiNAkf4LukqBZOHDFOMsiQ" data-form="67"></script>
+                        	<!-- <div class="cognito"></div> -->
 
                     	</div><!-- ./buynow -->
 
@@ -459,7 +380,8 @@
       	<section id="disclosure">
             <div class="disclosure">
             	<?php include 'includes/package-info-generic.inc.php'; ?><br/>
-                <strong>Disclaimer</strong> | The term Essence Music Festival, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. We are in no way associated with or authorized by Essence Music Festival and neither this production nor its affiliates have licensed or endorsed us to sell goods and/or services in conjunction with any Essence Music Festival productions. The use of any logos, words, trademarks, or photos have been used for Descriptive Purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.
+                <strong>Disclaimer</strong> | The term <?php echo $event["title"]; ?>
+, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. We are in no way associated with or authorized by <?php echo $event["title"]; ?> and neither this production nor its affiliates have licensed or endorsed us to sell goods and/or services in conjunction with any <?php echo $event["title"]; ?> productions. The use of any logos, words, trademarks, or photos have been used for Descriptive Purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.
           </div><!-- end of disclosure -->
 
       </section>
@@ -515,7 +437,7 @@
 </script>
 
 <script src="https://services.cognitoforms.com/s/NiNAkf4LukqBZOHDFOMsiQ"></script>
-<script>Cognito.load("forms", { id: "58" });</script>
+<script>Cognito.load("forms", { id: "67" });</script>
 <!--google analytics-->
 <?php include 'includes/analytics.inc.php'; ?>
 </body></html>
