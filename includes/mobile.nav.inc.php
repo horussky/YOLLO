@@ -70,6 +70,12 @@ define("EVENT", serialize ($nav = array(
 				  
 			),
 			array(
+				"title"	=>	"Greece Takeover",
+				"class"	=>	"greece",
+				"link"	=>	"/greece-takeover"
+				  
+			),
+			array(
 				"title"	=>	"Italy Takeover",
 				"class"	=>	"italy",
 				"link"	=>	"/italy-takeover"
@@ -103,18 +109,16 @@ define("EVENT", serialize ($nav = array(
 				 	"class"	=>	"urc",
 				  	"link"	=>	"/urban-reunion"
 				  
-			),
+			),*/
             array(
 				"title"	=>	"Urban Fantasy Cruise",
 				"class"	=>	"ufw",
 				"link"	=>	"/urban-fantasy"
-				  
-			),*/
+			),
 			array(
 				"title"	=>	"Urban Ski Weekend",
 				"class"	=>	"bsw",
 				"link"	=>	"/urban-ski-weekend"
-				  
             ),
             array(
                 "title"	=>	"Spring Fling Festival",
@@ -125,12 +129,12 @@ define("EVENT", serialize ($nav = array(
                 "title"	=>	"Spring Breakway Cruise",
                 "class"	=>	"sbc",
                 "link"	=>	"/spring-breakaway-cruise"
-            ),*/
+            ),
             array(
                 "title"	=>	"Get on the Bus",
                 "class"	=>	"gob",
                 "link"	=>	"/get-on-the-bus"
-            )
+            )*/
         ))
 
 );

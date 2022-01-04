@@ -4,11 +4,11 @@ include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"				=>"Urban Fantasy 2020",
+	"title"				=>"Urban Fantasy 2022",
 	"subtitle"			=>"This cruise will be EPIC",
-	"location"		   	=>"Cozumel, MX",
-	"date"				=>"August 20 - 24, 2020",
-    "date_start"        =>"August 20, 2020",
+	"location"		   	=>"Miami, FL",
+	"date"				=>"June 13 - 18, 2022",
+    "date_start"        =>"June 13, 2022",
 	"img_url"			=>"../../images/slides/splash-ufw-cta.jpg",
 	"img_alt"			=>"Urban Fantasy"
 );
@@ -16,12 +16,12 @@ $event = array(
 
 $geolocation = array(
 	"cruise1"=> array(
-		"title" 		=>"Carnival Valor",
+		"title" 		=>"Carnival Sunrise",
 		"ship"          =>"//s.krfb.de/library/original/aussenansicht.61wqmlou.jpg",
 		"soldout"		=> false,
 		"img_url"		=>"//s.krfb.de/library/original/aussenansicht.61wqmlou.jpg",
-        "address"		=>"1350 Port of New Orleans Pl",
-        "location"		=>"New Orleans, LA",
+        "address"		=>"1015 N. America Way Miami, FL 33132",
+        "location"		=>"Miami, FL",
 
 	),
 
@@ -31,10 +31,10 @@ $geolocation = array(
 $people = array(
 
 	"diamond" => array(
-		"Group of 4" => "$575",
-		"Group of 3" => "$700",
-		"Group of 2" => "$770",
-		"Individual" => "$1125"
+		"Group of 4" => "$875",
+		"Group of 3" => "$975",
+		"Group of 2" => "$1,150",
+		"Individual" => "$1,600"
 	),
 
 
@@ -49,13 +49,13 @@ $package_items = array(
 
 	"diamond_items" => array(
 
-		"4 Day/3 Night Cruise"                  => "checked",
+		"5 Day/4 Night Cruise"                  => "checked",
 		"All You Can Eat All Weekend Long"      => "checked",
 		"Cuban Nights Party"                    => "checked",
-		"Grown and Sophisticated"               => "checked",
+		"Normal Cruise Activities"               => "checked",
 		"The All-Stars Of Comedy Private Show"  => "checked",
 		"The Speak Easy Live Private Concert"   => "checked",
-		"Open Bar Captains \"Fantasy\" Reception"   => "checked",
+		"Open Bar Captains \"Sunrise\" Reception"   => "checked",
 		"The Black Film Fest Private Screening"     => "checked",
 		"Urban Fantasy Private Welcome Reception"   => "checked",
 		"YOLLO Swag Bag"                            => "checked"
@@ -70,9 +70,7 @@ $package_items = array(
 ?>
 
 <!doctype html>
-
 <html lang="en">
-
 <head>
 	<meta charset="utf-8">
     <title><?php echo $metas['urbanfantasy']['title']; ?></title>
@@ -87,7 +85,7 @@ $package_items = array(
     <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
+<body id="event-pg">
 
 	<div id="wrap">
 	
@@ -100,7 +98,6 @@ $package_items = array(
 
 			<?php include 'includes/header.inc.php'; ?>
 
-
 			<!--Left Content-->
             <div id="left">
                 <!--Nav-->
@@ -108,9 +105,7 @@ $package_items = array(
                 <!--End of Nav-->
             </div>
 
-
 			<!--Right Content-->
-
 			<div id="right">
 
 				<div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
@@ -128,15 +123,10 @@ $package_items = array(
 
 
 					<div class="date-location">
-
-                       <div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="col">
+                        <div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="col">
                             <?php echo $event["date"]; ?>
-                       </div>
-
-                       <div class="col">
-                            <?php echo $event["location"]; ?>
-                       </div>
-
+                        </div>
+                        <div class="col"><?php echo $event["location"]; ?></div>
                     </div>
 					
 					
@@ -148,9 +138,9 @@ $package_items = array(
 
                     <?php echo $responsive_tabs["overview"]; ?>
 					<div class="tab" aria-label="overview">
-                        <h3>An Urban Fantasy from New Orleans to Cozumel!</h3>
+                        <h3>An Urban Fantasy from Miami to Ocho Rios, Jamaica!</h3>
 						
-                        <p>Endulge in the larger-than-life culture of New Orleans and Cozumel, while exploring their historic attractions on this Urban Fantasy cruise. You will cruise aboard the Carnival Valor, a highly rated cruise ship  that is filled with top notch amenities. Once reaching your destinations, enjoy exploring or fill your day with shore excursions.</p>
+                        <p>Endulge in the larger-than-life culture of Ocho Rios and Grand Turks, while exploring their historic attractions on this Urban Fantasy cruise. You will cruise aboard the Carnival Sunrise, a highly rated cruise ship  that is filled with top notch amenities. Once reaching your destinations, enjoy exploring or fill your day with shore excursions.</p>
                        				
                         <p>Urban Fantasy was created to offer a cruise experience that welcomes and actively includes African Americans. If you’re seeking great networking opportunities, or to mix and mingle, maybe meeting new friends is your thing, or just cruising this is your event! Prices listed include all of your cabin accommodations, taxes, all meals (including 24 hour room service) juice, coffee, and tea, and ALL Urban Fantasy Events both on and off the boat! </p>
                         
@@ -160,8 +150,20 @@ $package_items = array(
 							<caption>Cruise Itinerary</caption>
 							<tbody>
 								<tr>
+									<td>Monday</td>
+									<td>Departure: Miami, FL 3:30PM</td>
+								</tr>
+								<tr>
+									<td>Tuesday</td>
+									<td>Fun Day At Sea</td>
+								</tr>
+								<tr>
+									<td>Wednesday</td>
+									<td>Ocho Rios, MX 10:00AM-5:00PM</td>
+								</tr>
+								<tr>
 									<td>Thursday</td>
-									<td>Departure: New Orleans, LA 3:30PM</td>
+									<td>Grand Cayman 9:00AM-4:30PM</td>
 								</tr>
 								<tr>
 									<td>Friday</td>
@@ -169,15 +171,7 @@ $package_items = array(
 								</tr>
 								<tr>
 									<td>Saturday</td>
-									<td>Cozumel, MX 8:00AM-4:00PM</td>
-								</tr>
-								<tr>
-									<td>Sunday</td>
-									<td>Fun Day at Sea</td>
-								</tr>
-								<tr>
-									<td>Monday</td>
-									<td>Return: New Orleans,LA	8:00AM</td>
+									<td>Return: Miami, FL	8:00AM</td>
 								</tr>
 								
 							</tbody>
@@ -220,30 +214,34 @@ $package_items = array(
 							<caption>Cruise Itinerary</caption>
 							<tbody>
 								<tr>
-									<td>Thursday</td>
-									<td>Departure: New Orleans, LA 3:30PM</td>
+									<td>Monday</td>
+									<td>Departure: Miami, FL 3:30PM</td>
 								</tr>
 								<tr>
-									<td>Friday</td>
+									<td>Tuesday</td>
 									<td>Fun Day At Sea</td>
 								</tr>
 								<tr>
-									<td>Saturday</td>
-									<td>Cozumel, MX 8:00AM-4:00PM</td>
+									<td>Wednesday</td>
+									<td>Ocho Rios 10:00AM-5:00PM</td>
 								</tr>
 								<tr>
-									<td>Sunday</td>
+									<td>Thursday</td>
+									<td>Grand Cayman 9:00AM-4:30PM</td>
+								</tr>
+								<tr>
+									<td>Friday</td>
 									<td>Fun Day at Sea</td>
 								</tr>
 								<tr>
-									<td>Monday</td>
-									<td>Return: New Orleans, LA	8:00AM</td>
+									<td>Saturday</td>
+									<td>Return: Miami, FL	8:00AM</td>
 								</tr>
 								
 							</tbody>
 							<tfoot>
 								<tr>
-									<td colspan="2">*All times are based on Central Time Zone.</td>
+									<td colspan="2">*All times are based on Eastern Time Zone.</td>
 								</tr>
 							</tfoot>
 						</table>
@@ -297,7 +295,7 @@ $package_items = array(
 
 								<div data-control>Do I need a Passport?</div>
 								<div data-content>
-									<p>No, a passport is not required to go on the cruise. If you DO NOT have a passport please visit the your local Post Office for more information on obtaining one.</p>
+									<p>No, a passport is not required to go on the cruise. If you DO NOT have a passport and woudl like one please visit the your local Post Office for more information on obtaining one.</p>
 								</div>
 
 							</div><!-- end of accordion-->
@@ -345,7 +343,7 @@ $package_items = array(
 
 								<div data-control>When are the payments due? </div>
 								<div data-content>
-								<p>After registration the first payment of $125 is due <strong>February 20, 2020</strong>. The second payment of $150 is due <strong>April 10, 2020</strong>. The final payment (remaining balance) is due on or before <strong>June 01, 2020</strong> . If you the announced payment dates have passed contact us for our current payment plan. All prices and payments due are per person.</p>
+								<p>After registration the first payment of $125 is due <strong>February 01, 2022</strong>. The second payment of $150 is due <strong>March 15, 2022</strong>. The final payment (remaining balance) is due on or before <strong>April 20, 2022</strong> . If you the announced payment dates have passed contact us for our current payment plan. All prices and payments due are per person.</p>
 								</div>
 
 							</div><!-- end of accordion-->
@@ -365,7 +363,7 @@ $package_items = array(
 
 								<div data-control>What port are we departing from and what time do I need to be there?</div>
 								<div data-content>
-								<p>The Carnival Valor sails from the Port of New Orleans. We suggest arriving no later than 2PM.</p>
+								<p>The Carnival Sunrise sails from the Port of Miami. We suggest arriving no later than 2PM.</p>
 								</div>
 
 							</div><!-- end of accordion-->
