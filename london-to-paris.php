@@ -164,6 +164,46 @@
 
 						<p><a data-href="#tabs-5" href="#" class="open-tab">Secure this vacation package now</a> to enjoy this amazing Italian experience.</p>
 
+						<table class="itinerary">
+							<caption>Destination and Sightseeing Itinerary</caption>
+							<tbody>
+								<tr>
+									<td>Day 1: Arrive in London</td>
+									<td>Meet up with other travelers. A group dinner is included. An optional group trip to the London Eye for a fireworks show.</td>
+								</tr>
+								<tr>
+									<td>Day 2: London Sights & Sounds of the Day</td>
+									<td>A trip on the London Eye is truly captivating. The attraction is one of the world's tallest observation wheels and has been London's number one visitor experience for over a decade. End the evening with an optional Hookah Food Break, Group Trip to Piccadilly Circus - The Mecca of the West End of London, and Shopping, Eating, and Live Music - includes transfers to location.</td>
+								</tr>
+								<tr>
+									<td>Day 3: London + Free Day to Explore</td>
+									<td>Visit Big Ben and Buckingham Palace. Feel the magic of the monarchy at the Queen's official address. Group Dinner is included. This is also a Free Day to explore London.</td>
+								</tr>
+								<tr>
+									<td>Day 4: London to Paris</td>
+									<td>We will travel to Paris by Eurostar (included). Group dinner is included. Another free day to explore the city.</td>
+								</tr>
+								<tr>
+									<td>Day 5: Paris and the Eiffel Tower</td>
+									<td>During the day, we will do a hop-on hop-off city bus tour. Group Tour of Paris by Boat. Group Lunch at the Eiffel Tower is included.</td>
+								</tr>
+								<tr>
+									<td>Day 6: Paris and the Mona Lisa</td>
+									<td>Start the day with an optional hop-on, hop-off bus tour. Visit the Louvre Museum and see the Mona Lisa. Group dinner is included.</td>
+								</tr>
+								<tr>
+									<td>Day 7: Departing</td>
+									<td>Going home. We will see you again next trip.</td>
+								</tr>
+								
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="2">*Times and Locations may vary and change at any time.</td>
+								</tr>
+							</tfoot>
+						</table>
+
                         </div> <!-- ./overview -->
 
 

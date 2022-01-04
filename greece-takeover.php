@@ -5,23 +5,32 @@
     include 'includes/meta.config.inc.php';
 
 	$event = array(
-		"title"				=>"Italy Takeover",
-		"subtitle"			=>"Taking You To the Most Romantic Places on Earth",
-		"location"			=>"Rome | Pisa | Florence | Venice",
-		"date"				=>"Oct 31 - Nov 5, 2022",
-        "date_start"		=>"Oct 31, 2022",
-		"img_url"			=>"../../images/slides/splash-italy-cta.jpg",
-		"img_alt"			=>"Italy Takeover 2022"
+		"title"				=>"Greece Takeover",
+		"subtitle"			=>"Land and Sea Takeover All in One!",
+		"location"			=>"Athens, Santorini, Crete, Mykonos",
+		"date"				=>"Oct 5-11, 2022",
+        "date_start"		=>"Oct 5, 2022",
+		"img_url"			=>"../../images/slides/splash-greece-takeover-cta.jpg",
+		"img_alt"			=>"Greece Takeover 2022"
 	);
 
 	$geolocation = array(
+		"cruise1"=> array(
+			"title" 			=> "The Olympia CruiseLiner",
+			"ship"				=> "//907302.smushcdn.com/2190783/wp-content/uploads/2020/06/olympia_summary_deck.png?lossy=1&strip=1&webp=1",
+			"location"		    => "Mykonos, Kusadasi, Turkey–Patmos, Greece",
+			"address"			=> "Lavrion/Piraeus",
+			"soldout"			=> false,
+			"img_url"			=> "//907302.smushcdn.com/2190783/wp-content/uploads/2020/06/olympia_summary_deck.png?lossy=1&strip=1&webp=1"
+	
+		),
 
 		"hotel1"=> array(
-			"title" 			=>"Varies Per Location",
+			"title" 			=>"Wyndham Grand Hotel Athens",
 			"soldout"           =>false,
-			"img_url"			=>"../../images/slides/splash-italy.jpg",
-           // "address"			=>"Sheikh Zayed Road Business Bay",
-          //  "location"			=>"Italy 121000 United Arab Emirates",
+			"img_url"			=>"//dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/d6/4f/4c/welcome-to-the-wyndham.jpg?w=400&h=-1&s=1",
+            "address"			=>"Meg. Alexandrou 2, Athina 104 37, Greece",
+            "location"			=>"Athens, Greece",
 		)/*,
 
 		"hotel2"=> array(
@@ -46,9 +55,9 @@
 	$people = array(
 			"diamond"=> array(
 				//"Group of 4" 			=>"$1325",
-				"Group of 3"			=>"$2250",
-				"Group of 2"			=>"$2250",
-				"Individual"			=>"$2699"
+				"Group of 3"			=>"$2650",
+				"Group of 2"			=>"$2650",
+				"Individual"			=>"$3200"
 			)/*,
 
 			"emerald"=> array(
@@ -62,17 +71,18 @@
 
 	$package_items = array(
 		"diamond_items" => array(
-			"All Venue Transportation with Wifi"				=> "checked",
-			"Most Meals Included"								=> "checked",
-			"Rome Tour: Vatican Museums and Sistine Chapel"		=> "checked",
-			"Rome Tour: Visit St. Peter’s Square and Basilica"	=> "checked",
-			"Rome Tour: Visit the Colosseum"					=> "checked",
-			"Florence Tour: Michelangelo’s David"				=> "checked",
-			"Florence Tour: Signoria Square Vistas"				=> "checked",
-			"Pisa Tour: Mini-train ride to the SQUARE OF MIRACLES"	=> "checked",
-			"Pisa Tour: Visit the Leaning Tower of Pisa"		=> "checked",
-			"Venice Tour: Roman Arena, Private boat ride" 		=> "checked",
-			"Venice Tour: St. Mark’s Square" 					=> "checked",
+			"All Hotel Accommodations"					=> "checked",
+			"Tour Athens: Acropolis, The Parthenon, Temples of Athena and Zues"=> "checked",
+			"Premium Drink Package on Cruise"			=> "checked",
+			"Authentic Greek Breakfast and Dinner in Athens"=> "checked",
+			"Cruise the Aegean Sea"						=> "checked",
+			"Tour Mykonos: Windmills and White Houses"	=> "checked",
+			"Cruise the Turkish Coast"					=> "checked",
+			"Visit Greek, Roman, and Byzantine Excavations of Ephesus"=> "checked",
+			"Tour Patmos"								=> "checked",
+			"Cruise to Heraklion on Crete"				=> "checked",
+			"Visit Knossos"								=> "checked",
+			"Disembark at Lavrion/Piraeus"				=> "checked",
 			"YOLLO Swag Bag"							=> "checked"
 		)/*,
 
@@ -96,12 +106,12 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title><?php echo $metas['essence']['title']; ?></title>
+    <title><?php echo $metas['greece']['title']; ?></title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="<?php echo $metas['essence']['desc']; ?>" />
-    <meta name="keywords" content="<?php echo $metas['essence']['keywords']; ?>" />
+    <meta name="description" content="<?php echo $metas['greece']['desc']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['greece']['keywords']; ?>" />
     <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-    <link href="<?php echo $metas['essence']['canonical']; ?>" rel="canonical" />
+    <link href="<?php echo $metas['greece']['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
     <meta property="fb:pages" content="117420764961518" />
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
@@ -156,40 +166,50 @@
                         
                         <?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
-						<h3>We are making an Italian Takeover </h3>
+						<h3>Taking Over Greece by Land and Sea</h3>
 
-						<p>YOLLO is taking you to Italy. From the grandeur of Pisa, to the medieval mystique of Venice, to the rich heritage and old world charm of Florence - Italy delivers a dream-come-true experience</p>
+						<p>You are invited to take a tour of Greece, one of Europe's most popular vacation destinations. YOLLO has the best travel package, which includes land and sea tours, and will take care of your itinerary. Call us today to reserve your dream vacation. </p>
 
-						<p>There’s a lot of reasons to fall in love with Italy, and it really doesn’t take much. It could be the phenomenal historical landmarks. The lush vineyards and delicious cuisine. Or even the wonderful aromas of the country - who knows! And some say one visit wouldn't be enough. That's why we are visiting a variety of places in Italy. </p>
+						<p>Just imagine yourself in the beautiful Mediterranean islands, exploring the legendary natural wonders, historical museums, and eating world-class cuisines. Our tour guides will make sure that you have a once in a lifetime experience during this vacation. <strong>Passports and Vaccinations are required. Airport transfer is free with on time payments. Otherwise, it'll cost you $100.</strong></p>
 
-						<p>Airfare is not included. Airport Transfer are FREE with ontime payments, $55 without. <strong>Passports are required. Vaccinations will be required. </strong></p>
-
-						<p><a data-href="#tabs-5" href="#" class="open-tab">Secure this vacation package now</a> to enjoy this amazing Italian experience.</p>
+						<p><a data-href="#tabs-5" href="#" class="open-tab">Secure this vacation package now</a> to enjoy this amazing Greek experience.</p>
 
 						<table class="itinerary">
-							<caption>Destination and Sightseeing Itinerary</caption>
+							<caption>Land & Cruise Itinerary</caption>
 							<tbody>
 								<tr>
-									<td>Day 1: Arrive in Rome, Italy</td>
-									<td>Check into your hotel, then explore this ancient capital. Tonight, meet your Tour Director and fellow travelers for an included welcome dinner.</td>
+									<td>Day 1: Athens, Greece</td>
+									<td>Welcome to Athens! At 6 pm, meet your traveling companions for a welcome drink with your Tour Director.</td>
 								</tr>
 								<tr>
-									<td>Day 2: Rome w / Free Time</td>
-									<td>The "Eternal City" is vibrantly alive and exciting! Guided sightseeing, visit the Vatican Museums and Sistine Chapel, St. Peter's Square and Basilica, and the Colosseum.</td>
+									<td>Day 2: Athens</td>
+									<td>Sightseeing with a Local Guide features a visit to the world-famous ACROPOLIS. Check out the Parthenon, the Erechtheum with its Porch of Maidens, the Temple of Athena Nike, and enjoy a glimpse of the Temple of Olympian Zeus and much more.</td>
 								</tr>
 								<tr>
-									<td>Day 3 - 4: Florence and Pisa</td>
-									<td>Travel to Florence Area with Guided Walking Tour, Visit Michelangelo's David and Signoria Square Views of Rolling Hills, Cypress Trees, Terraced Vineyards, Olive Groves, and Charming Villages. Next, stop in Pisa to enjoy a mini-train ride to the Square of Miracles and marvel at the Leaning Tower.</td>
+									<td>Day 3: Athens–Lavrion/Piraeus (Embarkation)–Mykonos</td>
+									<td>This morning, head for Lavrion/Piraeus, where you will sail into the deep-blue waters of the Aegean Sea. Later, dock at the mountainous island of Mykonos with its windmills & dazzling white houses. Then we give you free time to wonder before re-boarding the cruise-liner.</td>
 								</tr>
 								<tr>
-									<td>Day 5 - 6: Florence to Venice</td>
-									<td>Travel north and cross the Po River to fabled Verona, setting for Shakespeare's Romeo & Juliet. Marvel at the ancient Roman Arena, built for gladiator fights but now a popular venue for festivals and concerts; shop in Via Mazzini, or sip local Prosecco, Amarone, or Soave wine in one of the many bars of the center. Continue to the Venice area for two overnights. Private boat ride, guided walking tour, visit St. Mark's Square and Basilica, Doges' Palace and the Bridge of Sighs; glassblower demonstration; farewell dinner at a local restaurant.</td>
+									<td>Day 4: Cruising: Kusadasi, Turkey–patmos, Greece</td>
+									<td>Two ports of call today. First, Kusadasi on the Turkish coast. Visit the fascinating Greek, Roman, and Byzantine excavations of EPHESUS. Next, discover the tiny Greek island of Patmos, where St. John the Divine wrote the Revelation.</td>
+								</tr>
+								<tr>
+									<td>Day 5 Cruising: Heraklion, Crete–santorini, Greece</td>
+									<td>First port of call today is Heraklion on Crete. A few miles away is KNOSSOS, the center of the 3000 BC Minoan civilization. Afternoon call (weather permitting) at Santorini, the “Black Pearl of the Aegean” with free time to explore.</td>
+								</tr>
+								<tr>
+									<td>Day 6: Lavrion/piraeus (Disembarkation)–Athens</td>
+									<td>After breakfast on board, disembark at Lavrion/Piraeus and return to Athens. Tonight is your chance to join an optional dinner at a local restaurant which is included.</td>
+								</tr>
+								<tr>
+									<td>Day 7: Athens</td>
+									<td>Your vacation ends with breakfast this morning.</td>
 								</tr>
 								
 							</tbody>
 							<tfoot>
 								<tr>
-									<td colspan="2">*Times and Locations may vary and change at any time.</td>
+									<td colspan="2">*Times and Location may vary and change at any time.</td>
 								</tr>
 							</tfoot>
 						</table>
@@ -214,15 +234,16 @@
                                         <p class="hg-title"><?php echo $hotel["title"]; ?> 
                                         <?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
 											
-										<?php if(isset($geolocation["location"])) :?>		
-                                        <address>
+										<?php if(isset($hotel["location"])) :?>		
+										<address>
                                             <i class="fa fa-location-arrow" aria-hidden="true"></i> 
                                             <a title="<?php echo $hotel["title"]; ?>" target="_blank" href="http://maps.google.com/maps?q=<?php echo $hotel["address"]; ?>+<?php echo $hotel["location"]; ?>"><?php echo $hotel["address"]; ?>,  
-                                            <?php echo $hotel["location"]; ?></a>
+                                        	<?php echo $hotel["location"]; ?></a>
                                         </address>
 										<?php endif; ?>
                                     </div>
                                 </div><!-- ./hotel-grid -->
+								
                                 <?php endforeach; ?>  
 
                             	<hr />
@@ -389,7 +410,7 @@
 						<div class="tab" aria-label="buy">
                         	<h3>Buy Now</h3>
 							<p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
-							<script src="https://www.cognitoforms.com/f/seamless.js" data-key="NiNAkf4LukqBZOHDFOMsiQ" data-form="68"></script>
+							<script src="https://www.cognitoforms.com/f/seamless.js" data-key="NiNAkf4LukqBZOHDFOMsiQ" data-form="64"></script>
                         	<!-- <div class="cognito"></div> -->
 
                     	</div><!-- ./buynow -->
@@ -463,9 +484,8 @@
 
 	});
 </script>
+<script src="https://www.cognitoforms.com/f/seamless.js" data-key="NiNAkf4LukqBZOHDFOMsiQ" data-form="64"></script>
 
-<script src="https://services.cognitoforms.com/s/NiNAkf4LukqBZOHDFOMsiQ"></script>
-<script>Cognito.load("forms", { id: "68" });</script>
 <!--google analytics-->
 <?php include 'includes/analytics.inc.php'; ?>
 </body></html>

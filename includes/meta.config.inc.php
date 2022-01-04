@@ -48,6 +48,12 @@
             "keywords"  => "Essence Festival, Essence 2020, New Orleans, Mid Day Cruise, YOLLO",
             "canonical" => "https://www.goyollo.com/essence-festival"
         ),
+        "greece" => array(
+            "title"     => "The Greece Takeover",
+            "desc"      => "YOLLO is taking you to Greece",
+            "keywords"  => "Greece, Greece Cruise, Athens, YOLLO",
+            "canonical" => "https://www.goyollo.com/greece-takeover"
+        ),
         "mcc" => array(
             "title"     => "Magic City Classic Weekend",
             "desc"      => "YOLLO is providing all-inclusive packages for the Magic City Classic.",

@@ -4,11 +4,11 @@ include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"					=> "Alumni Getaway 2021",
-	"subtitle"				=> "The LIVEST Alumni party at SEA! Save $100 per person until October 1, 2020!",
+	"title"					=> "Alumni Getaway 2022",
+	"subtitle"				=> "The LIVEST Alumni party at SEA! Save $100 per person until April 1, 2022!",
 	"location"				=> "Amber Cove, Dominican Republic",
-	"date"					=> "Dec 6 - 11 2021",
-    "date_start"			=> "December 6, 2021",
+	"date"					=> "Dec 5 - 10 2022",
+    "date_start"			=> "December 5, 2022",
 	"img_url"				=> "../../images/slides/splash-alumni-cta.jpg",
 	"img_alt"				=> "Alumni Getaway"
 );
@@ -161,11 +161,11 @@ $package_items = array(
                                 </tr>
                                 <tr>
                                     <td>Wednesday</td>
-                                    <td>Amber Cover 10:30AM-6:30PM</td>
+                                    <td>Grand Turks 9AM-5PM</td>
                                 </tr>
                                 <tr>
                                     <td>Thursday</td>
-                                    <td>Grand Turks 8AM-4PM</td>
+                                    <td>Amber Cove 7AM-3PM</td>
                                 </tr>
                                 <tr>
                                     <td>Friday</td>
@@ -224,11 +224,11 @@ $package_items = array(
                                 </tr>
                                 <tr>
                                     <td>Wednesday</td>
-                                    <td>Amber Cover 10:30AM-6:30PM</td>
+                                    <td>Grand Turk 9AM-5PM</td>
                                 </tr>
                                 <tr>
                                     <td>Thursday</td>
-                                    <td>Grand Turks 8AM-4PM</td>
+                                    <td>Amber Cove 7AM-3PM</td>
                                 </tr>
                                 <tr>
                                     <td>Friday</td>
@@ -357,7 +357,7 @@ $package_items = array(
 
 							  <div data-control>When are the payments due?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee <strong> at sign-up</strong>. The first payment of <strong>$125</strong> per person is due on or before  <strong>July 29, 2021</strong>. The second payment of $200 is due on or before <strong>August 20, 2021</strong>. The final payment (remaining balance) is due on or before <strong>September 20, 2021</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee <strong> at sign-up</strong>. The first payment of <strong>$250</strong> per person is due on or before  <strong>March 1, 2022</strong>. The second payment of $250 is due on or before <strong>May 20, 2022</strong>. The final payment (remaining balance) is due on or before <strong>July 1, 2022</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
