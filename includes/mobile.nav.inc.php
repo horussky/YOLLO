@@ -40,6 +40,12 @@ define("EVENT", serialize ($nav = array(
 				  
 			),
 			array(
+				"title"	=>	"Fade to May",
+				"class"	=>	"fadetomay",
+				"link"	=>	"/fade-to-may"
+				  
+			),
+			array(
 				"title"	=>	"Party Gras Cruise",
 				"class"	=>	"partygras",
 				"link"	=>	"/partygras"

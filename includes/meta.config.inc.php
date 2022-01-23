@@ -48,6 +48,12 @@
             "keywords"  => "Essence Festival, Essence 2020, New Orleans, Mid Day Cruise, YOLLO",
             "canonical" => "https://www.goyollo.com/essence-festival"
         ),
+        "fade-to-may" => array(
+            "title"     => "Fade to May",
+            "desc"      => "YOLLO is taking you to Beale Street",
+            "keywords"  => "Beale Street, Memphis in May, Fade to May, YOLLO",
+            "canonical" => "https://www.goyollo.com/fade-to-may"
+        ),
         "greece" => array(
             "title"     => "The Greece Takeover",
             "desc"      => "YOLLO is taking you to Greece",
