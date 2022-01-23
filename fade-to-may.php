@@ -5,23 +5,23 @@
     include 'includes/meta.config.inc.php';
 
 	$event = array(
-		"title"				=>"Dubai Takeover",
-		"subtitle"			=>"Taking You International",
-		"location"			=>"Dubai, United Arab Emirates",
-		"date"				=>"Aug 31 - Sept 5, 2022",
-        "date_start"		=>"Aug 31, 2022",
-		"img_url"			=>"../../images/slides/splash-dubai-cta.jpg",
-		"img_alt"			=>"Dubai Takeover 2022"
+		"title"				=>"Fade to May",
+		"subtitle"			=>"We are taking you to Beale Street",
+		"location"			=>"Memphis, TN",
+		"date"				=>"Apr 29 - May 1",
+        "date_start"		=>"Apr 29, 2022",
+		"img_url"			=>"../../images/slides/splash-fade-to-may-cta.jpg",
+		"img_alt"			=>"Fade to May"
 	);
 
 	$geolocation = array(
 
 		"hotel1"=> array(
-			"title" 			=>"JW Marriott Marquis Hotel Dubai",
+			"title" 			=>"Sheraton Memphis Downtown",
 			"soldout"           =>false,
-			"img_url"			=>"//dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/de/d6/14/exterior.jpg?w=500&h=-1&s=1",
-            "address"			=>"Sheikh Zayed Road Business Bay",
-            "location"			=>"Dubai 121000 United Arab Emirates",
+			"img_url"			=>"//dynamic-media-cdn.tripadvisor.com/media/photo-o/21/9d/c2/21/outdoor-fountain.jpg?w=600&h=-1&s=1",
+            "address"			=>"250 N Main St, Memphis, TN 38103",
+         	"location"			=>"250 N Main St, Memphis, TN 38103",
 		)/*,
 
 		"hotel2"=> array(
@@ -45,12 +45,11 @@
 
 	$people = array(
 			"diamond"=> array(
-				//"Group of 4" 			=>"$1325",
-				"Group of 3"			=>"$2450",
-				"Group of 2"			=>"$2450",
-				"Individual"			=>"$3250"
+				"Quad" 					=>"SOLD OUT",
+				"Triple"				=>"$750",
+				"Double"				=>"$875",
+				"Individual"			=>"$1250"
 			)/*,
-
 			"emerald"=> array(
 				"Group of 4" 			=>"$1075",
 				"Group of 3"			=>"$1205",
@@ -62,19 +61,12 @@
 
 	$package_items = array(
 		"diamond_items" => array(
-			"Luxury Hotel Accommodations: JW Marriott"	=> "checked",
-			"Airport Transfers To Hotel"				=> "checked",
-			"Breakfast Daily + (4) Dinners"				=> "checked",
-			"50 Min Massage Spa Day OR Jet Ski Excursion (Your Choice)"=> "checked",
-			"Tickets To Dinner In The Sky"				=> "checked",
-			"Water Taxi Experience To The Gold Souk"	=> "checked",
-			"Get All Your Dubai Take Home Items"		=> "checked",
-			"Ticket Entry To Burj Khalifa 124 Floor" 	=> "checked",
-			"Ticket To The Dubai Frame"					=> "checked",
-			"Ticket To Desert Safari Takeover" 			=> "checked",
-			"Dinner and Show plus Hookah" 				=> "checked",
-			"All White Yacht Dinner Party" 				=> "checked",
-			"All Venue Transportation with Wifi"		=> "checked",
+			"Hotel Accommodations"						=> "checked",
+			"The May Mix"								=> "checked",
+			"Colors and Cocktails"						=> "checked",
+			"May Days Live"								=> "checked",
+			"Weekend long Concerts"						=> "checked",
+			"Beale Street Music Festival Tickets"		=> "checked",
 			"YOLLO Swag Bag"							=> "checked"
 		)/*,
 
@@ -98,12 +90,12 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title><?php echo $metas['essence']['title']; ?></title>
+    <title><?php echo $metas['fade-to-may']['title']; ?></title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="<?php echo $metas['essence']['desc']; ?>" />
-    <meta name="keywords" content="<?php echo $metas['essence']['keywords']; ?>" />
+    <meta name="description" content="<?php echo $metas['fade-to-may']['desc']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['fade-to-may']['keywords']; ?>" />
     <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-    <link href="<?php echo $metas['essence']['canonical']; ?>" rel="canonical" />
+    <link href="<?php echo $metas['fade-to-may']['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
     <meta property="fb:pages" content="117420764961518" />
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
@@ -158,15 +150,15 @@
                         
                         <?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
-						<h3>We are taking over Dubai during Labor Day!</h3>
+						<h3>Fade to May: Beale Street Edition</h3>
 
-						<p>YOLLO is taking you to Dubai. With gorgeous, glittering skyscrapers, cultural wonders, and a landscape of desert and ocean, Dubai is the definition of what a 21st century city should be.</p>
+						<p>Are you impressed by Southern hospitality or looking for a getaway? Get ready for a fun-filled weekend in Memphis, TN. "Fade To May" is a three-day event that features comedy, poetry, concerts, arts, and film.  There will be plenty of outdoor and indoor activities for you to enjoy!</p>
 
-						<p>Dubai is vibrant and full of life, with iconic skyline, miles of beaches, family friendly water and theme parks. The city has something for everyone. With a short drive from the city, you can open up a new world of outdoor activities, including helicopter rides, hot air balloon tours, desert safaris, and camping trips.</p>
+						<p>Our packages include weekend accommodations, exclusive event passes, and tickets to the Beale Street Music Festival, which features over 60 acts. This high-powered music festival will include electrifying performances by artist like Lil Wayne, Dirt Honey, The Glorious Sons, DaBaby, Three 6 Mafia, Foo Fighters, and MORE!</p>
 
-						<p>Our Dubai package includes a private All-White Yacht party, Dinner in the sky, Jet ski excursion, massage and day spa, and more. Airfare is not included. Airport Transfer are FREE with ontime payments, $80 without. <strong>Passports are required. Vaccinations will be required. </strong></p>
+						<p>With a quick trip over to over to Tunica, you can try your luck and play slots and blackjack at one of the many casinos! This is sure to be a weekend you won't forget, filled with amazing food, music, entertainment, and more! And remember, it's all happening during “Fade To May” weekend! Lock in your package today!</p>
 
-						<p><a data-href="#tabs-5" href="#" class="open-tab">Secure this vacation package now</a> to enjoy an unforgettable international experience.</p>
+						<p><a data-href="#tabs-5" href="#" class="open-tab">Secure this vacation package now</a> to enjoy this amazing Memphis experience.</p>
 
                         </div> <!-- ./overview -->
 
@@ -187,12 +179,14 @@
                                     <div class="hg-body">
                                         <p class="hg-title"><?php echo $hotel["title"]; ?> 
                                         <?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
-
+											
+										<?php if(isset($geolocation["location"])) :?>		
                                         <address>
                                             <i class="fa fa-location-arrow" aria-hidden="true"></i> 
                                             <a title="<?php echo $hotel["title"]; ?>" target="_blank" href="http://maps.google.com/maps?q=<?php echo $hotel["address"]; ?>+<?php echo $hotel["location"]; ?>"><?php echo $hotel["address"]; ?>,  
                                             <?php echo $hotel["location"]; ?></a>
                                         </address>
+										<?php endif; ?>
                                     </div>
                                 </div><!-- ./hotel-grid -->
                                 <?php endforeach; ?>  
@@ -258,9 +252,9 @@
 										
 							<div class="accordion open" data-accordion>
 
-							  <div data-control>Does the price listed take care of hotel reservations for all members in either package or only one person?</div>
+							  <div data-control>Your prices listed are only up to four people max? Can you accommodate groups larger than four? </div>
 							  <div data-content>
-								<p>All prices listed are per person. Under the package prices description, all amenities included in your package are per person and includes one (1) room for the group.</p>
+								<p>Yes, we can accommodate any size group, but due to hotel regulations the max occupancy per room is four. This is why you see pricing up to four.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -269,9 +263,9 @@
 
 							<div class="accordion" data-accordion>
 
-							  <div data-control>What are the payment due?</div>
+							  <div data-control>When are the payments due?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $250 is due on or before Feb 16, 2021. The second payment of $250 per person is due on or before March 16, 2022. The final payment (remaining balance) is due on or before May 01, 2022. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 is due on or before February 01, 2022. The second payment of $250 per person is due on or before March 01, 2022. The final payment (remaining balance) is due on or before April 01, 2022. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -279,28 +273,18 @@
 
 							<div class="accordion" data-accordion>
 
-							  <div data-control>Your prices listed are only for up to four people max? Can you accommodate groups larger than four?</div>
+							  <div data-control>What age groups are allowed?</div>
 							  <div data-content>
-								<p>Yes, we can accommodate any size group, but due to hotel regulations the max occupancy per room is four. This why you see pricing up to four.</p>
-							  </div>
-
-							</div><!-- end of accordion-->
-
-
-							<div class="accordion" data-accordion>
-
-							  <div data-control>Are vaccinations required for this trip?</div>
-							  <div data-content>
-								<p>Yes.</p>
+								<p>All ages are welcome at Beale Street Music Festival, however there is no age-based discount available. All patrons must have a ticket to enter regardless of age and must pay the same ticket price.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
 
 							<div class="accordion" data-accordion>
 
-							  <div data-control>Are Passports needed?</div>
+							  <div data-control>Can I leave and reenter the park?</div>
 							  <div data-content>
-								<p>Yes.</p>
+								<p>Festival guests may exit and re-enter once per day. BEFORE YOU LEAVE THE PARK, exchange your ticket for a re-entry ticket and have your hand stamped. You'll see the signs around the entry points. You have to be back in the park two hours before the gates close (10:30 pm Friday and Saturday; 8:30 pm on Sunday).</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -361,7 +345,7 @@
 						<div class="tab" aria-label="buy">
                         	<h3>Buy Now</h3>
 							<p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
-							<script src="https://www.cognitoforms.com/f/seamless.js" data-key="NiNAkf4LukqBZOHDFOMsiQ" data-form="67"></script>
+							<script src="https://www.cognitoforms.com/f/seamless.js" data-key="NiNAkf4LukqBZOHDFOMsiQ" data-form="71"></script>
                         	<!-- <div class="cognito"></div> -->
 
                     	</div><!-- ./buynow -->
@@ -381,7 +365,7 @@
             <div class="disclosure">
             	<?php include 'includes/package-info-generic.inc.php'; ?><br/>
                 <strong>Disclaimer</strong> | The term <?php echo $event["title"]; ?>
-, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. We are in no way associated with or authorized by <?php echo $event["title"]; ?> and neither this production nor its affiliates have licensed or endorsed us to sell goods and/or services in conjunction with any <?php echo $event["title"]; ?> productions. The use of any logos, words, trademarks, or photos have been used for Descriptive Purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.
+, Beale Street Music Festival, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. We are in no way associated with or authorized by <?php echo $event["title"]; ?> and neither this production nor its affiliates have licensed or endorsed us to sell goods and/or services in conjunction with any <?php echo $event["title"]; ?> productions. The use of any logos, words, trademarks, or photos have been used for Descriptive Purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.
           </div><!-- end of disclosure -->
 
       </section>
@@ -437,7 +421,7 @@
 </script>
 
 <script src="https://services.cognitoforms.com/s/NiNAkf4LukqBZOHDFOMsiQ"></script>
-<script>Cognito.load("forms", { id: "67" });</script>
+<script>Cognito.load("forms", { id: "71" });</script>
 <!--google analytics-->
 <?php include 'includes/analytics.inc.php'; ?>
 </body></html>
