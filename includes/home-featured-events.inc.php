@@ -19,8 +19,8 @@ $feature_event = array(
 	),
 	array(
 		"title" 	=> "Magic City Classic",
-		"date" 		=> "October 29 - 31, 2021",
-		"end"		=> strtotime("October 31, 2021"),
+		"date" 		=> "October 27-29, 2022",
+		"end"		=> strtotime("October 29, 2022"),
 		"img" 		=> "images/featured-events/featured-event-mcc.jpg",
 		"link" 		=> "/classic"
 	),
@@ -33,8 +33,8 @@ $feature_event = array(
 	),
 	array(
 		"title" 	=> "Party Gras Cruise",
-		"date" 		=> "August 14, 2021",
-		"end"		=> strtotime("August 14, 2021"),
+		"date" 		=> "August 12-14, 2022",
+		"end"		=> strtotime("August 14, 2022"),
 		"img" 		=> "images/featured-events/featured-event-pg.jpg",
 		"link" 		=> "/partygras"
 	),
@@ -82,8 +82,8 @@ $feature_event = array(
 	),
 	array(
 		"title" 	=> "Alumni Getaway Cruise",
-		"date" 		=> "Dec 6-11, 2021",
-		"end"		=> strtotime("December 11, 2021"),
+		"date" 		=> "Dec 5-10, 2022",
+		"end"		=> strtotime("December 10, 2022"),
 		"img" 		=> "images/featured-events/featured-event-agc.jpg",
 		"link" 		=> "/alumni-getaway-cruise"
     ),
@@ -93,6 +93,41 @@ $feature_event = array(
 		"end"		=> strtotime("August 29, 2020"),
 		"img" 		=> "images/featured-events/featured-event-gob.jpg",
 		"link" 		=> "/get-on-the-bus"
+    ),
+	array(
+		"title" 	=> "London To Paris",
+		"date" 		=> "Dec 31 - Jan 5, 2023",
+		"end"		=> strtotime("January 5, 2023"),
+		"img" 		=> "images/featured-events/featured-event-london.jpg",
+		"link" 		=> "/london-to-paris"
+    ),
+	array(
+		"title" 	=> "Dubai Takeover",
+		"date" 		=> "Aug 31 - Sept 5, 2022",
+		"end"		=> strtotime("September 5, 2022"),
+		"img" 		=> "images/featured-events/featured-event-dubai.jpg",
+		"link" 		=> "/dubai-takeover"
+    ),
+	array(
+		"title" 	=> "Greece Takeover",
+		"date" 		=> "Oct 5-11, 2022",
+		"end"		=> strtotime("October 11, 2022"),
+		"img" 		=> "images/featured-events/featured-event-greece.jpg",
+		"link" 		=> "/greece-takeover"
+    ),
+	array(
+		"title" 	=> "Italy Takeover",
+		"date" 		=> "Oct 31-Nov 5, 2022",
+		"end"		=> strtotime("November 5, 2022"),
+		"img" 		=> "images/featured-events/featured-event-italy.jpg",
+		"link" 		=> "/italy-takeover"
+    ),
+	array(
+		"title" 	=> "Fade To May",
+		"date" 		=> "Apr 29-May 1",
+		"end"		=> strtotime("May 1, 2022"),
+		"img" 		=> "images/featured-events/featured-event-may.jpg",
+		"link" 		=> "/fade-to-may"
     ),
     array(
 		"title" 	=> "CIAA Weekend",

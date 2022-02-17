@@ -6,11 +6,11 @@ include 'includes/meta.config.inc.php';
 
 $event = array(
 
-	"title"				=>"Urban Ski Weekend 2022",
+	"title"				=>"Urban Ski Weekend 2023",
 	"subtitle"			=>"To Ski is OPTIONAL. To Party is MANDATORY!!",
 	"location"			=>"Gatlinburg, Tennessee",
-	"date"				=>"Feb 4 -6, 2022",
-    "date_start"        =>"February 4, 2022",
+	"date"				=>"Feb 3 -6, 2023",
+    "date_start"        =>"February 3, 2023",
 	"img_url"			=>"../../images/slides/splash-urban-ski-cta.jpg",
 	"img_alt"			=>"Urban Ski Weekend"
 );
@@ -172,7 +172,7 @@ $package_items = array(
 
 										<h4>What else?</h4>
 
-										<p>If you're tired of burning your legs on the slopes this winter, there are plenty of fun things to do during Urban Ski Weekend. DJ Self hosted the event with R&B singer Lloyd and DJ Luke Nasty in 2021. They didn't disappoint, as they had the audience eating out of the palm of their hands. Urban Ski 2022 will be the 11th anniversary, and DJ Self will be returning to rock the crowd again. Bobby V will also be in the building bringing another level of grown and sexy to the event. You know this is the biggest event celebrities come to each year, so you don't want to miss out on who you might see! If you're looking for a ski weekend with the so much star power, then here it is. The ladies love our celebrity royalty at Urban Ski, so guys, this will definitely be the place for you to mingle.</p>
+										<p>If you're tired of burning your legs on the slopes this winter, there are plenty of fun things to do during Urban Ski Weekend. DJ Self hosted the event with R&B singer Bobby V, DJ Luke Nasty, Trap Beckham, and Jamal Woodard in 2022. They didn't disappoint, as they had the audience eating out of the palm of their hands. Urban Ski 2023 will be the 12th anniversary, and DJ Self has already said he is coming back to rock the crowd again. You know this is the biggest event celebrities come to each year, so you don't want to miss out on who you might see! If you're looking for a ski weekend with the so much star power, then here it is. The ladies love our celebrity royalty at Urban Ski, so guys, this will definitely be the place for you to mingle.</p>
 
 										<h4>The packages</h4>
 
@@ -180,7 +180,7 @@ $package_items = array(
 
 										<h4>The Bottom Line</h4>
 
-										<p>Did we mention this is all happening during the Super Bowl weekend? Skiing, parties, comedy, relaxation, good food, and did we mention the enormous Super Bowl party? What more could you want? Enjoy a spectacular weekend in Gatlinburg. <a data-href="#tabs-5" class="open-tab">Register and reserve your spot today!</a></p>
+										<p>Did we mention this always happens the FIRST weekend in February? Skiing, parties, comedy, relaxation, good food, and did we mention the enormous Super Bowl party? What more could you want? Enjoy a spectacular weekend in Gatlinburg. <a data-href="#tabs-5" class="open-tab">Register and reserve your spot today!</a></p>
 
 									</div> <!-- ./overview -->
 
@@ -310,7 +310,7 @@ $package_items = array(
 
 										  <div data-content>
 
-											<p>Following registration the first payment of $125 is due on or before November 6, 2021.  The second payment of $150 is due on or before December 1, 2021. The final payment (remaining balance) is due on or before January 5, 2022. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+											<p>Following registration the first payment of $125 is due on or before June 1, 2022.  The second payment of $150 is due on or before August 1, 2022. The final payment (remaining balance) is due on or before November 1, 2022. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 
 										  </div>
 
@@ -324,7 +324,7 @@ $package_items = array(
 
 										  <div data-content>
 
-											<p>No, it's not included in the package, but can be purchased once you arrive at the resort. The cost of the ski excursion is $99.</p>
+											<p>No, it's not included in the package, but can be added to your package in advance. The cost of the ski excursion is $99 in advance . If purchased once you arrive at the resort the cost on-site is $125.</p>
 
 										  </div>
 
@@ -341,7 +341,7 @@ $package_items = array(
 
 										  <div data-content>
 
-											<p>The bus will depart Knoxville at 1pm (EST) on Friday and return to Knoxville Monday at 4 pm (EST).</p>
+											<p>The bus will depart Knoxville at 2pm (EST) on Friday and return to Knoxville Monday at 10 am (EST).</p>
 
 										  </div>
 </div><!-- end of accordion-->
@@ -364,7 +364,7 @@ $package_items = array(
 
 										  <div data-content>
 
-											<p>The bus will depart Birmingham at 1pm (CT) on Friday and return to Birmingham Monday at 4 pm (CT). </p>
+											<p>The bus will depart Birmingham at 9 am (CT) on Friday and return to Birmingham Monday at 4 pm (CT). </p>
 
 										  </div>
 										</div><!-- end of accordion-->
