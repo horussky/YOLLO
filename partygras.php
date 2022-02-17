@@ -145,6 +145,20 @@ $package_items = array(
 							<caption>Event Itinerary</caption>
 							<tbody>
 								<tr>
+									<th colspan="2" class="gray-200">Friday Events</th>
+								</tr>
+								<tr>
+									<td>Partygras Kickoff<br>
+										<p class="small"></p>
+									</td>
+									<td>Time TBD</td>
+								</tr>
+							</tbody>
+							<tbody>
+								<tr>
+									<th colspan="2" class="gray-200">Saturday Events</th>
+								</tr>
+								<tr>
 									<td>Cocktails and Colors<br><p class="small">Sip and Paint with Bottomless Mimosas</p></td>
 									<td>10:30AM - 1PM</td>
 								</tr>
@@ -161,7 +175,7 @@ $package_items = array(
 									<td>10:00PM</td>
 								</tr>
 								<tr>
-									<td>Cruise Party time <p class="small">sounds by DJ Dre Smoove and Celebrity DJ Traci Steele</p></td>
+									<td>Cruise Party time <p class="small">sounds by DJ Dre Smoove</p></td>
 									<td>10:30PM - 1:00AM</td>
 								</tr>
 								
