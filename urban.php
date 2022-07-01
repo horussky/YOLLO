@@ -5,11 +5,11 @@ include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"				=>"Urban Fiesta 2022",
+	"title"				=>"Urban Fiesta 2023",
 	"subtitle"			=>"You DO NOT want to miss this event!",
 	"location"		   	=>"Montego Bay, Jamaica",
-	"date"				=>"May 27 - 30, 2022",
-    "date_start"        =>"May 27, 2022",
+	"date"				=>"May 26 - 29, 2023",
+    "date_start"        =>"May 26, 2022",
 	"img_url"			=>"../../images/slides/splash-urban-fiesta-cta.jpg",
 	"img_alt"			=>"Urban Fiesta"
 );
@@ -29,21 +29,21 @@ $geolocation = array(
 $people = array(
 
 		"diamond"=> array(
-			//"Group of 4" 			=>"$680",
-			"Group of 3"			=>"$1175",
-			"Group of 2"			=>"$1225",
-			"Individual"			=>"$2475"
+			//"Group of 4" 			=>"$780",
+			"Group of 3"			=>"$1275",
+			"Group of 2"			=>"$1325",
+			"Individual"			=>"$2575"
 		),
 
 		"emerald"=> array(
-			//"Group of 4" 			=>"$580",
-			"Group of 3"			=>"$925",
-			"Group of 2"			=>"$975",
-			"Individual"			=>"$1775"
+			//"Group of 4" 			=>"$680",
+			"Group of 3"			=>"$825",
+			"Group of 2"			=>"$1,075",
+			"Individual"			=>"$1,875"
 		),
 
 		"options"=>array(
-			"Hotel Only" =>"$1950 (Weekend)"
+			"Hotel Only" =>"$2,350 (Weekend)"
 		),
 
 );
@@ -95,7 +95,8 @@ $package_items = array(
     <meta property="fb:pages" content="117420764961518" />
     <link href="<?php echo $metas['urbanfiesta']['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
-    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="icon" href="favicon-192.png" sizes="192x192">
+	<link rel="apple-touch-icon" href="favicon-180.png" sizes="180x180">
     <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 
@@ -157,11 +158,11 @@ $package_items = array(
                                              
                                              
 
-                                             <h3>Jamaica is the ONLY place to be Memorial Day Weekend 2022!</h3>
+                                             <h3>Jamaica is the ONLY place to be Memorial Day Weekend 2023!</h3>
 
-                                             <p>If you missed the 2021 edition of Urban Fiesta all we can say is look at the pictures and make plans now to attend in 2022. With COVID-19 protocols in place we safely managed an event that was FUN, SAFE, and simply pur our clients LOVED it! Urban Fiesta 2021 was the livest event in Jamaica which was hosted by LHHNY celebrity Safari and others during Memorial Day weekend. There are plenty of activities to occupy your time from sun up to sun down - excursions, shopping areas, sandy beaches, parties, zip lining, and the list goes on. Let us remind you this was all on the property!<p> 
+                                             <p>If you missed the 2022 edition of Urban Fiesta all we can say is look at the pictures and make plans now to attend in 2023. With COVID-19 protocols slowly being relaxed we safely managed an event that was FUN, SAFE, and simply put our clients appreciated and had a memory filled weekend! Urban Fiesta 2022 was the livest event in Jamaica which was hosted by Alexis Skyy, City Girls, and others during Memorial Day weekend. There are plenty of activities to occupy your time from sun up to sun down - excursions, shopping areas, sandy beaches, parties, zip lining, and the list goes on. Let us remind you this was all on the property!<p> 
 
-											 <p>Dust those passports off, secure your package today, and get ready for some major FUN! YOLLO Group Services will see you in Jamaica for Urban Fiesta Weekend 2022!</p>
+											 <p>Dust those passports off, secure your package today, and get ready for some major FUN! YOLLO Group Services will see you in Jamaica for Urban Fiesta Weekend 2023!</p>
                                              
                                         </div><!-- ./overview -->
 
@@ -253,11 +254,11 @@ $package_items = array(
                                                        
                                                         <h3>Additional Options</h3>
                                                         <ul>
-															<li>Airport Transportation: $60 Roundtrip</li>
-															<li>Dunn's River Falls Excursion: $60pp</li>
-															<li>Tour of Ocho Rios: $70pp</li>
-															<li>Tour Of Montego Bay: $70pp</li>
-															<li>Luminous Lagoon: $70pp</li>
+															<li>Airport Transportation: $75 Roundtrip</li>
+															<li>Dunn's River Falls Excursion: $75pp</li>
+															<li>Tour of Ocho Rios: $80pp</li>
+															<li>Tour Of Montego Bay: $85pp</li>
+															<li>Luminous Lagoon: $85pp</li>
 														</ul>	
                                                       
 
@@ -276,7 +277,7 @@ $package_items = array(
 
 												  <div data-control>When are the payments due?</div>
 												  <div data-content>
-													<p>After registration the first payment of $125 is due July 20, 2021 after registration. The second payment of $200 is due by September 15, 2021. The final payment (remaining balance) is due on or before December 15, 2021. If you would like to make payments between due dates that is fine also.</p>
+													<p>After registration the first payment of $125 is due August 05, 2022 after registration. The second payment of $200 is due by October 15, 2022. The final payment (remaining balance) is due on or before December 15, 2022. If you would like to make payments between due dates that is fine also.</p>
 												  </div>
 
 												</div><!-- end of accordion-->
@@ -297,7 +298,7 @@ $package_items = array(
 
 												  <div data-control>Anything I should know before I arrive?</div>
 												  <div data-content>
-													<p>Passports are now required for this event. Also, bring another valid form of photo ID, and photocopies of both in case of loss or theft. Lastly, stay in our recommended hotels, you will save yourself a lot of aggravation.</p>
+													<p>Passports are required for this event. Also, bring another valid form of photo ID, and photocopies of both in case of loss or theft. Lastly, stay in our recommended hotels, you will save yourself a lot of aggravation.</p>
 												  </div>
 
 												</div><!-- end of accordion-->

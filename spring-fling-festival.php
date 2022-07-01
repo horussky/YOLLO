@@ -6,11 +6,11 @@ include 'includes/meta.config.inc.php';
 
 $event = array(
 
-	"title"				=>"Spring Fling Festival 2022",
+	"title"				=>"Spring Fling Festival 2023",
 	"subtitle"			=>"The ultimate mature music lover day trip",
 	"location"			=>"Mobile, Al",
-	"date"				=>"April 2, 2022",
-    "date_start"        =>"April 2, 2022",
+	"date"				=>"April 1, 2023",
+    "date_start"        =>"April 1, 2023",
 	"img_url"			=>"../../images/slides/splash-spring-bling-cta.jpg",
 	"img_alt"			=>"Spring Fling Music Festival"
 );
@@ -30,7 +30,7 @@ $people = array(
 			//"Group of 4" 			=>"$565",
 			//"Group of 3"			=>"$595",
 			//"Group of 2"			=>"$650",
-			"Individual"			=>"$99"
+			"Individual"			=>"$150"
 		),
 
 		"emerald"=> array(
@@ -70,7 +70,8 @@ $package_items = array(
     <link href="<?php echo $metas['springfling']['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
     <meta property="fb:pages" content="117420764961518" />
-    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="icon" href="favicon-192.png" sizes="192x192">
+	<link rel="apple-touch-icon" href="favicon-180.png" sizes="180x180">
     <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 
@@ -123,7 +124,7 @@ $package_items = array(
                     <div class="tab" aria-label="overview">
                         <h3>A Day-Trip and Concert for Grown Folks and Music Lovers</h3>
 
-                        <p>YOLLO is taking you to the 26th Annual Spring Fling Music Festival in Mobile, AL. If you love Blues music, this is the day-trip you are looking for! Pack up your coolers and lawn chairs because Spring Fling is an outdoor concert event. With over 30 Southern Soul and R&B artists, this is an event that will not disappoint.</p> 
+                        <p>YOLLO is taking you to the 27th Annual Spring Fling Music Festival in Mobile, AL. If you love Blues music, this is the day-trip you are looking for! Pack up your coolers and lawn chairs because Spring Fling is an outdoor concert event. With over 30 Southern Soul and R&B artists, this is an event that will not disappoint.</p> 
 
                         <p>Enjoy our luxury charter to the event while sipping margaritas. Once at the event, enjoy some light food and get ready to hear your favorite artists perform on stage. Space is limited and tickets will sell out fast, so act now!</p>
 

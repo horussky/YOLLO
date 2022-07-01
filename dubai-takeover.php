@@ -22,23 +22,7 @@
 			"img_url"			=>"//dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/de/d6/14/exterior.jpg?w=500&h=-1&s=1",
             "address"			=>"Sheikh Zayed Road Business Bay",
             "location"			=>"Dubai 121000 United Arab Emirates",
-		)/*,
-
-		"hotel2"=> array(
-			"title" 			=>"Sheraton New Orleans Hotel",
-			"soldout"	        =>false,
-			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/10/0b/10/bf/sheraton-new-orleans.jpg",
-            "address"			=>"500 Canal St",
-            "location"			=>"New Orleans, LA 70130",
-		),
-		
-		"hotel3"=> array(
-			"title" 			=>"DoubleTree by Hilton",
-			"soldout"	        =>false,
-			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/13/5f/f0/b0/exterior.jpg",
-            "address"			=>"300 Canal Street",
-            "location"			=>"New Orleans, LA 70130",
-		)*/
+		)
 
 
 	);
@@ -106,7 +90,8 @@
     <link href="<?php echo $metas['essence']['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
     <meta property="fb:pages" content="117420764961518" />
-    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="icon" href="favicon-192.png" sizes="192x192">
+	<link rel="apple-touch-icon" href="favicon-180.png" sizes="180x180">
     <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 
 </head>
@@ -271,7 +256,7 @@
 
 							  <div data-control>What are the payment due?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $250 is due on or before Feb 16, 2021. The second payment of $250 per person is due on or before March 16, 2022. The final payment (remaining balance) is due on or before May 01, 2022. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $250 is due on or before April 16, 2021. The second payment of $250 per person is due on or before May 16, 2022. The final payment (remaining balance) is due on or before July 01, 2022. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

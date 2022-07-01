@@ -42,8 +42,8 @@ $people = array(
 		"emerald"=> array(
 			"Group of 4" 			=>"$990",
 			"Group of 3"			=>"$1,255",
-			"Group of 2"			=>"$1,365",
-			"Individual"			=>"$2,065"
+			"Group of 2"			=>"$1,665",
+			"Individual"			=>"$2,865"
 		),
 
 		"options"=>array(
@@ -59,7 +59,7 @@ $package_items = array(
     "diamond_items" => array(
         "Hotel Accommodations (Fri-Sun)"                    => "checked",
         "Complimentary Night"                               => "checked",
-        "My Black Is Beauiful Film Review"                  => "checked",
+        "My Black Is Beautiful Film Review"                  => "checked",
         "Celebrity Hosted Party Ticket (Friday)"            => "checked",
         "Celebrity Hosted Party Ticket (Sunday)"            => "checked",
         "NBA Crossover Tickets"                             => "checked",
@@ -75,7 +75,7 @@ $package_items = array(
 	"emerald_items" => array(
 		"Hotel Accommodations (Fri-Sun)"					=> "checked",
 		"Complimentary Night"								=> "checked",
-		"My Black Is Beauiful Film Review"		            => "checked",
+		"My Black Is Beautiful Film Review"		            => "checked",
 		"Celebrity Hosted Party Ticket (Friday)"	        => "ex",
 		"Celebrity Hosted Party Ticket (Sunday)"	        => "checked",
 		"NBA Crossover Tickets"								=> "checked",
@@ -105,7 +105,8 @@ $package_items = array(
     <link href="<?php echo $metas['nba']['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
     <meta property="fb:pages" content="117420764961518" />
-    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="icon" href="favicon-192.png" sizes="192x192">
+	<link rel="apple-touch-icon" href="favicon-180.png" sizes="180x180">
     <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 <body id="event-pg">
@@ -220,7 +221,7 @@ $package_items = array(
 
 
 
-                                    <?php if(isset($geolocation["hotel2"])) :?>
+                                    <?php if(isset($geolocation["hotel1"])) :?>
                                     <section class="price-table">
                                         <ul class="price">
                                             <li class="header">Emerald <span>Package</span></li>
@@ -246,7 +247,7 @@ $package_items = array(
                                     <h4>Party Pass Options: </h4>
                                     <p>These options are not the same and are separate from the all-inclusive options listed above; and are intended for those not in need of hotel accommodations. </p>
 
-                                    <p class="lead">Rookie - $650 </p>
+                                    <p class="lead">Rookie - $700 </p>
                                     <ul>
                                         <li>Friday Night Party</li>
                                         <li>NBA Crossover Ticket</li>
@@ -255,7 +256,7 @@ $package_items = array(
                                         <li>Saturday Night Party (Celebrity Hosted)</li>
                                     </ul>
 
-                                    <p class="lead">Rising Star - $875 </p>
+                                    <p class="lead">Rising Star - $950 </p>
                                     <ul>										
                                         <li>NBA Crossover Ticket</li>
                                         <li>Colors and Cocktails</li>
@@ -266,7 +267,7 @@ $package_items = array(
                                         <li>All Star Practice Game ticket</li>							
                                     </ul>
 
-                                    <p class="lead">All-Star - $1,200 (best seller)</p>
+                                    <p class="lead">All-Star - $1,450 (best seller)</p>
                                     <ul>
 
                                         <li>Friday Night Party (Celebrity Hosted)</li>
@@ -315,7 +316,7 @@ $package_items = array(
 
                                 <div data-control>When are the payments due?</div>
                                 <div data-content>
-                                <p>After registration the first payment of $125 is due February 10, 2022.  The second payment of $250 is due July 01, 2022. The final payment (remaining balance) is due on or before September 01, 2022.</p>
+                                <p>After registration the first payment of $125 is due July 10, 2022.  The second payment of $250 is due September 01, 2022. The final payment (remaining balance) is due on or before October 15, 2022.</p>
                                 </div>
 
                             </div><!-- end of accordion-->

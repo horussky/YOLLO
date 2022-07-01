@@ -5,11 +5,11 @@
     include 'includes/meta.config.inc.php';
 
 	$event = array(
-		"title"				=>"Classic Weekend 2021",
+		"title"				=>"Classic Weekend 2022",
 		"subtitle"			=>"It's the Classsssssic!",
 		"location"			=>"Legion Field | Birmingham, AL",
-		"date"				=>"October 29 - 31, 2021",
-        "date_start"		=>"October 29, 2021",
+		"date"				=>"October 28 - 30, 2022",
+        "date_start"		=>"October 28, 2022",
 		"img_url"			=>"../../images/slides/splash-mcc-cta.jpg",
 		"img_alt"			=>"Magic City Classic"
 	);
@@ -94,7 +94,8 @@
     <link href="<?php echo $metas['mcc']['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
     <meta property="fb:pages" content="117420764961518" />
-    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="icon" href="favicon-192.png" sizes="192x192">
+	<link rel="apple-touch-icon" href="favicon-180.png" sizes="180x180">
     <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 	
@@ -151,8 +152,8 @@
                 </div>
                
                 <p>This is the #1 HBCU football Classic in the nation attracting over 100,000 fans annually! The Magic City Classic offers a family environment that produces new bonds and memories for years to come.</p>
-                <p>This annual clash of the titans was delayed in 2020 due to COVID-19 so they have decided to have this exciting game TWICE in one year! This means possible bragging rights for one school TWICE in the same year.</p>
-                <p>During the spring editon of this exciting football classic  the Alabama A&M Bulldogs came away with the victory as they entered the game as favorites and delivered a decisive win for the Bulldog faithful as well as the MOST important part of the this historic rivalry which is retaining BRAGGING rights until October 2021! </p>
+                <p>This annual clash of the titans was delayed in 2020 due to COVID-19 so they have decided to have this exciting game TWICE in one year! The results handed teh Alabama A&M Bulldogs bragging rights TWICE in 2021.</p>
+                <p>During the fall editon of this exciting football classic the Alabama A&M Bulldogs came away with the victory as they entered the game as favorites and delivered a decisive win for the Bulldog faithful as well as the MOST important part of the this historic rivalry which is retaining BRAGGING rights until October 2022! </p>
                 <p>YOLLO Group Services, Inc. wants to provide your travel package for this historic and exciting weekend. Lock in your package today as space is limited and our packages go fast.</p>
 			</div><!-- ./ overview -->
 
@@ -247,7 +248,7 @@
 
 					  <div data-control>When are the payments due?</div>
 					  <div data-content>
-						<p>After registration the 1st payment of $50 is due on or before due June 20, 2021. The second and final payment is due September 03, 2021.</p>
+						<p>After registration the 1st payment of $50 is due on or before due June 20, 2022. The second and final payment is due September 03, 2022.</p>
 					  </div>
 
 					</div><!-- end of accordion-->
@@ -277,7 +278,7 @@
 
 					  <div data-control>Which team is the home team?</div>
 					  <div data-content>
-						<p> Home team honors alternate each year between Alabama State and Alabama A&M.  Alabama State will be the home team for 2021! Regardless of home team, ASU bench is always on the east side and AAMU is on the west side of the stadium.</p>
+						<p> Home team honors alternate each year between Alabama State and Alabama A&M.  Alabama A&M will be the home team for 2022! Regardless of home team, ASU bench is always on the east side and AAMU is on the west side of the stadium.</p>
 					  </div>
 
 					</div><!-- end of accordion-->

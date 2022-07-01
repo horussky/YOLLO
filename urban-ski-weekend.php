@@ -7,7 +7,7 @@ include 'includes/meta.config.inc.php';
 $event = array(
 
 	"title"				=>"Urban Ski Weekend 2023",
-	"subtitle"			=>"To Ski is OPTIONAL. To Party is MANDATORY!!",
+	"subtitle"			=>"Early Bird $100 Off Until 3/10/2022",
 	"location"			=>"Gatlinburg, Tennessee",
 	"date"				=>"Feb 3 -6, 2023",
     "date_start"        =>"February 3, 2023",
@@ -32,16 +32,16 @@ $people = array(
 		"diamond"=> array(
 
 			"Group of 4" 			=>"$865",
-			"Group of 3"			=>"$895",
-			"Group of 2"			=>"$950",
+			"Group of 3"			=>"$915",
+			"Group of 2"			=>"$965",
 			"Individual"			=>"$1075"
 		),
 
 		"emerald"=> array(
-			"Group of 4" 			=>"$775",
-			"Group of 3"			=>"$805",
-			"Group of 2"			=>"$850",
-			"Individual"			=>"$980"
+			"Group of 4" 			=>"$765",
+			"Group of 3"			=>"$815",
+			"Group of 2"			=>"$865",
+			"Individual"			=>"$975"
 		),
 
 		"options"=>array(
@@ -108,7 +108,8 @@ $package_items = array(
     <link href="<?php echo $metas['urbanski']['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
     <meta property="fb:pages" content="117420764961518" />
-    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="icon" href="favicon-192.png" sizes="192x192">
+	<link rel="apple-touch-icon" href="favicon-180.png" sizes="180x180">
     <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 
@@ -310,7 +311,7 @@ $package_items = array(
 
 										  <div data-content>
 
-											<p>Following registration the first payment of $125 is due on or before June 1, 2022.  The second payment of $150 is due on or before August 1, 2022. The final payment (remaining balance) is due on or before November 1, 2022. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+											<p>Following registration the first payment of $125 is due on or before July 20, 2022.  The second payment of $150 is due on or before September 1, 2022. The final payment (remaining balance) is due on or before December 1, 2022. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 
 										  </div>
 
