@@ -5,7 +5,7 @@ include 'includes/meta.config.inc.php';
 
 $event = array(
 	"title"					=> "Alumni Getaway 2022",
-	"subtitle"				=> "The LIVEST Alumni party at SEA! Save $100 per person until April 1, 2022!",
+	"subtitle"				=> "The LIVEST HBCU Alumni party at SEA!",
 	"location"				=> "Amber Cove, Dominican Republic",
 	"date"					=> "Dec 5 - 10 2022",
     "date_start"			=> "December 5, 2022",
@@ -15,10 +15,10 @@ $event = array(
 
 $geolocation = array(
 	"cruise1"=> array(
-		"title" 			=> "Carnival Elation",
+		"title" 			=> "Carnival Freedom",
 		"ship"				=> "hhttps://media-cdn.tripadvisor.com/media/photo-s/18/10/5d/4f/carnival-elation-at-grand.jpg",
-		"location"		    => "Ft. Lauderdale, Fl",
-        "address"			=> "1850 Eller Dr, Fort Lauderdale, FL 33316",
+		"location"		    => "Port Canaveral",
+        "address"			=> "9245 Charles M Rowland Dr, Port Canaveral, FL 32920",
 		"soldout"			=> false,
 		"img_url"			=> "https://media-cdn.tripadvisor.com/media/photo-s/18/10/5d/4f/carnival-elation-at-grand.jpg"
 
@@ -83,7 +83,8 @@ $package_items = array(
     <link href="<?php echo $metas['alumni21']['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
     <meta property="fb:pages" content="117420764961518" />
-    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="icon" href="favicon-192.png" sizes="192x192">
+	<link rel="apple-touch-icon" href="favicon-180.png" sizes="180x180">
     <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 
@@ -326,7 +327,7 @@ $package_items = array(
 
 								<div data-control>Is there a charge for sodas on the cruise? </div>
 								<div data-content>
-								<p>Yes, beverages at the bar will require purchasing. However, there is an unlimited soda program provided by Carnival called Bottomless Bubbles. Pay one flat price for fountain soda and juice all cruise long. Prices are per day with an automatic 18% gratuity added at time of purchase of the program. Children 17 years and younger are $5.95 USD per day. Adults are $8.50 USD per day. For more information please visit <a href="https://help.carnival.com/app/answers/detail/a_id/3836/~/bottomless-bubbles-%28unlimited-soda-program" target="_blank"> Carnival Cruise FAQs</a></p>
+								<p>Yes, beverages at the bar will require purchasing. However, there is an unlimited soda program provided by Carnival called Bottomless Bubbles. Pay one flat price for fountain soda and juice all cruise long. Prices are per day with an automatic 18% gratuity added at time of purchase of the program. Children 17 years and younger are $6.95 USD per day. Adults are $9.50 USD per day. For more information please visit <a href="https://help.carnival.com/app/answers/detail/a_id/3836/~/bottomless-bubbles-%28unlimited-soda-program" target="_blank"> Carnival Cruise FAQs</a></p>
 								</div>
 
 							</div><!-- end of accordion-->
@@ -335,7 +336,7 @@ $package_items = array(
 
 								<div data-control>Is there an open bar or Bottomless Bubbles for alcohol on the ship? </div>
 								<div data-content>
-								<p>Yes, there is an option called CHEERS, but it's limited to 15 drinks per day. CHEERS is an all-inclusive beverage program that allows guests to enjoy a wide range of alcoholic and non-alcoholic beverages by paying a flat daily rate. The cost prior to your cruise is $51.95 USD per person, per day plus 18% gratuity. If you decide you want the program once on board, you can sign up for CHEERS at a bar the cost is $56.95 USD per person, per day plus 18% gratuity. For more information please visit <a href="https://help.carnival.com/app/answers/detail/a_id/1106" target="_blank"> Carnival Cruise FAQs</a></p>  
+								<p>Yes, there is an option called CHEERS, but it's limited to 15 drinks per day. CHEERS is an all-inclusive beverage program that allows guests to enjoy a wide range of alcoholic and non-alcoholic beverages by paying a flat daily rate. The cost prior to your cruise is $59.95 USD per person, per day plus 18% gratuity. If you decide you want the program once on board, you can sign up for CHEERS at a bar the cost is $65.95 USD per person, per day plus 18% gratuity. For more information please visit <a href="https://help.carnival.com/app/answers/detail/a_id/1106" target="_blank"> Carnival Cruise FAQs</a></p>  
 								</div>
 
 							</div><!-- end of accordion-->
@@ -357,7 +358,7 @@ $package_items = array(
 
 							  <div data-control>When are the payments due?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee <strong> at sign-up</strong>. The first payment of <strong>$250</strong> per person is due on or before  <strong>March 1, 2022</strong>. The second payment of $250 is due on or before <strong>May 20, 2022</strong>. The final payment (remaining balance) is due on or before <strong>July 1, 2022</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee <strong> at sign-up</strong>. The first payment of <strong>$250</strong> per person is due on or before  <strong>July 16, 2022</strong>. The second payment of $250 is due on or before <strong>August 20, 2022</strong>. The final payment (remaining balance) is due on or before <strong>September 13, 2022</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -367,7 +368,7 @@ $package_items = array(
 
 							  <div data-control>Are there any other charges associated with the cruise?</div>
 							  <div data-content>
-								<p>Yes, clients are responsible for paying cabin gratuities. The standard charge is $13.99 per day, but you may want to leave more depending on your service. In most cases gratuity is added to your final bill, so check with the cruiseline front desk on the ship before returning back to Ft. Lauderdale.</p>
+								<p>Yes, clients are responsible for paying cabin gratuities. The standard charge is $14.50 per day, but you may want to leave more depending on your service. In most cases gratuity is added to your final bill, so check with the cruiseline front desk on the ship before returning back to Ft. Lauderdale.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -377,7 +378,7 @@ $package_items = array(
 
 							  <div data-control>What port are we departing from and what time do I need to be there?</div>
 							  <div data-content>
-								<p>The Carnival Elation sails from Port Canaveral (Orlando), FL. We suggest arriving no later than 2:00 PM.</p>
+								<p>The Carnival Freedom sails from Port Canaveral (Orlando), FL. We suggest arriving no later than 2:00 PM.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

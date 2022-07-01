@@ -124,7 +124,7 @@ $feature_event = array(
     ),
 	array(
 		"title" 	=> "Fade To May",
-		"date" 		=> "Apr 29-May 1",
+		"date" 		=> "Apr 29-May 1, 2022",
 		"end"		=> strtotime("May 1, 2022"),
 		"img" 		=> "images/featured-events/featured-event-may.jpg",
 		"link" 		=> "/fade-to-may"

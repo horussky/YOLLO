@@ -115,12 +115,12 @@ define("EVENT", serialize ($nav = array(
 				 	"class"	=>	"urc",
 				  	"link"	=>	"/urban-reunion"
 				  
-			),*/
+			),
             array(
 				"title"	=>	"Urban Fantasy Cruise",
 				"class"	=>	"ufw",
 				"link"	=>	"/urban-fantasy"
-			),
+			),*/
 			array(
 				"title"	=>	"Urban Ski Weekend",
 				"class"	=>	"bsw",

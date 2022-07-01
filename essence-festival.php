@@ -103,7 +103,8 @@
     <link href="<?php echo $metas['essence']['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
     <meta property="fb:pages" content="117420764961518" />
-    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="icon" href="favicon-192.png" sizes="192x192">
+	<link rel="apple-touch-icon" href="favicon-180.png" sizes="180x180">
     <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 
 </head>

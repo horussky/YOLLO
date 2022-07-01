@@ -114,7 +114,8 @@
     <link href="<?php echo $metas['greece']['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
     <meta property="fb:pages" content="117420764961518" />
-    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="icon" href="favicon-192.png" sizes="192x192">
+	<link rel="apple-touch-icon" href="favicon-180.png" sizes="180x180">
     <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 
 </head>
@@ -320,7 +321,7 @@
 
 							  <div data-control>When are the payments due?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment is due on or before Jan 25, 2021. The second payment of $250 per person is due on or before Feb 22, 2022. The final payment (remaining balance) is due on or before Mar 22, 2022. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment is due on or before April 20, 2022. The second payment of $250 per person is due on or before May 22, 2022. The final payment (remaining balance) is due on or before July 1, 2022. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

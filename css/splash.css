@@ -8158,7 +8158,6 @@ button.bg-dark:focus {
 }
 
 .position-sticky {
-  position: -webkit-sticky !important;
   position: sticky !important;
 }
 
@@ -8178,9 +8177,8 @@ button.bg-dark:focus {
   z-index: 1030;
 }
 
-@supports ((position: -webkit-sticky) or (position: sticky)) {
+@supports (position: sticky) {
   .sticky-top {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
@@ -20496,6 +20494,9 @@ div.AuthorizeNetSeal * {
     padding-right: 0;
     padding-left: 0;
   }
+  #container #right #intro {
+    margin-top: calc(5% + 10vh);
+  }
   #container #social {
     display: none;
   }
@@ -20909,9 +20910,9 @@ div.AuthorizeNetSeal * {
     color: #fff;
     background: #790311;
     border: none;
-    border-bottom: 1px solid #d40b23;
-    -webkit-box-shadow: inset 8px 0px 0px 0px #d40b23;
-            box-shadow: inset 8px 0px 0px 0px #d40b23;
+    border-bottom: 1px solid #111;
+    -webkit-box-shadow: inset 8px 0px 0px 0px #111;
+            box-shadow: inset 8px 0px 0px 0px #111;
   }
 
   #responsive-tabs input[type=radio] + label i {
@@ -20952,13 +20953,14 @@ div.AuthorizeNetSeal * {
     padding: 0 4rem;
   }
   #right .topcontent .title h1 {
-    font-size: 4rem;
+    font-size: 3.6rem;
   }
   #right .topcontent .title .btn {
     width: 90%;
     height: 6rem;
     line-height: 3rem;
-    font-size: 2.3rem;
+    font-size: 2rem;
+    text-align: center;
   }
 
   .content .date-location {
