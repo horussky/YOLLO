@@ -135,6 +135,13 @@ $feature_event = array(
 		"end"		=> strtotime("February 27, 2022"),
 		"img" 		=> "images/featured-events/featured-event-tourney.jpg",
 		"link" 		=> "/ciaa"
+    ),
+    array(
+		"title" 	=> "Shamrock Sea Escape",
+		"date" 		=> "March 16-20, 2023",
+		"end"		=> strtotime("March 20, 2023"),
+		"img" 		=> "images/featured-events/featured-event-shamrock.jpg",
+		"link" 		=> "/shamrock-sea-escape"
     )/*,
     array(
 		"title" 	=> "Spring Breakaway",

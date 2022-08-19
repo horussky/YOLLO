@@ -49,8 +49,8 @@ $package_items = array(
         "Poets: Georgia Me and Friends 2p-5p"                                           => "checked",
         "Comedians: Big Kenney and Friends"                                          => "checked",
         "Live Performances by:T.B.A. Powered by: FAME Live Magazine"       => "checked",
-        "Meet and Greet with bottomless margaritas"                                     => "checked",
-        "Cocktails and Colors Experience with bottomless mimosas"                       => "checked",
+        "Meet and Greet with Bottomless Signature Cocktails by Pour Crazy Bartending"                                     => "checked",
+        "Colors and Cocktails Experience with Bottomless Signature Cocktails by Pour Crazy Bartending"                       => "checked",
         "Party Gras: Bottles and Beads Kick Off Party"                       => "checked",
         "9th annual Party Gras: Bottles and Beads Cruise 10:30p -1:30a"			        => "checked"
 		
@@ -160,15 +160,15 @@ $package_items = array(
 									<th colspan="2" class="gray-200">Saturday Events</th>
 								</tr>
 								<tr>
-									<td>Cocktails and Colors<br><p class="small">Sip and Paint with Bottomless Mimosas</p></td>
+									<td>Colors and Cocktails<br><p class="small">Sip and Paint with Signature Cocktails by Pour Crazy Bartending </p></td>
 									<td>10:30AM - 1PM</td>
 								</tr>
 								<tr>
-									<td>Comedy/Poetry/Live Performances<br><p class="small">featuring Big Kenney & Mario Tory for the comedy show, Georgia Me & Friends, and Bonita Jalane + Will C as the Live entertainers, hosted by Akshun of FAME Live</p></td>
+									<td>Comedy/Poetry/Live Performances<br><p class="small">featuring Big Kenney & Friends for the comedy show, Georgia Me & Friends for spoken word, and Live entertainers, hosted by Akshun of FAME Live</p></td>
 									<td>2PM - 5PM</td>
 								</tr>
 								<tr>
-									<td>Meet and Greet <p class="small">with Bottomless Margaritas</p></td>
+									<td>Meet and Greet <p class="small">with Bottomless Signature Cocktails by Pour Crazy Bartending  </p></td>
 									<td>6PM - 8PM</td>
 								</tr>
 								<tr>
@@ -346,7 +346,7 @@ $package_items = array(
 
 							  <div data-control>What time is will Colors and Cocktails start? Also, what kind of event is this?</div>
 							  <div data-content>
-							<p>Colors and Cocktails will be from 10:30AM - 1PM. This event will allow participants to paint and sip bottomless mimosas. The format follows Sip and Paint titled events.  </p>
+							<p>Colors and Cocktails will be from 10:30AM - 1PM. This event will allow participants to paint and sip Bottomless Signature Cocktails by Pour Crazy Bartending. The format follows Sip and Paint titled events.  </p>
 								<p style="color:dimgrey">*All times are based on Eastern Time Zone.</p>
 							  </div>
 

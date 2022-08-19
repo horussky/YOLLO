@@ -160,7 +160,7 @@ include 'includes/functions.inc.php';
 					  <div data-control>How do I confirm my event package?</div>
 					  <div data-content>
 						<ul>
-							<li>You will be mailed your invoice via USPS. </li>
+							<li>Your invoice will be emailed to the email address provided at registration.</li>
 							<li>You should receive it within 7 days, after reserving your package.</li>
 							<li>You may also call <a href="tel:888-946-9655">(888) 946-9655</a> and speak with a rep who can confirm your package. </li>
 						</ul>
@@ -270,7 +270,7 @@ include 'includes/functions.inc.php';
 							<li>Late Fee: $35</li>
 							<li>Extension Fee: $25</li>
 							<li>Reinstatement Fee: $75</li>
-							<li>Chargeback Fee: $100</li>
+							<li>Chargeback/Dispute Fee: $100</li>
 							<li>Reservation Name Change Fee: $75</li>
 							<li>Electronic Processing Fee: 4% of Amount</li>
 						</ul>

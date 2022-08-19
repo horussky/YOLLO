@@ -102,6 +102,12 @@
             "keywords"  => "Urban Fantasy, Grand Turks, Cuba, YOLLO",
             "canonical" => "https://www.goyollo.com/urban-fantasy"
         ),
+        "shamrock"   => array(
+            "title"     => "Shamrock Sea Escape Cruise",
+            "desc"      => "The ultimate Mexican Cruise",
+            "keywords"  => "Shamrock, Cruise, Mexico, Cozumel, Carnival Cruise, YOLLO",
+            "canonical" => "https://www.goyollo.com/shamrock-sea-escape"
+        ),
         "springfling"   => array(
             "title"     => "Spring Fling Music Festival",
             "desc"      => "The ultimate blues music festival",

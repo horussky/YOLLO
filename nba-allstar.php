@@ -247,7 +247,7 @@ $package_items = array(
                                     <h4>Party Pass Options: </h4>
                                     <p>These options are not the same and are separate from the all-inclusive options listed above; and are intended for those not in need of hotel accommodations. </p>
 
-                                    <p class="lead">Rookie - $700 </p>
+                                    <p class="lead">Rookie - $800 </p>
                                     <ul>
                                         <li>Friday Night Party</li>
                                         <li>NBA Crossover Ticket</li>
@@ -256,7 +256,7 @@ $package_items = array(
                                         <li>Saturday Night Party (Celebrity Hosted)</li>
                                     </ul>
 
-                                    <p class="lead">Rising Star - $950 </p>
+                                    <p class="lead">Rising Star - $1,150 </p>
                                     <ul>										
                                         <li>NBA Crossover Ticket</li>
                                         <li>Colors and Cocktails</li>
@@ -267,7 +267,7 @@ $package_items = array(
                                         <li>All Star Practice Game ticket</li>							
                                     </ul>
 
-                                    <p class="lead">All-Star - $1,450 (best seller)</p>
+                                    <p class="lead">All-Star - $1,750 (best seller)</p>
                                     <ul>
 
                                         <li>Friday Night Party (Celebrity Hosted)</li>
@@ -316,7 +316,7 @@ $package_items = array(
 
                                 <div data-control>When are the payments due?</div>
                                 <div data-content>
-                                <p>After registration the first payment of $125 is due July 10, 2022.  The second payment of $250 is due September 01, 2022. The final payment (remaining balance) is due on or before October 15, 2022.</p>
+                                <p>After registration the first payment of $125 is due July 10, 2022.  The second payment of $250 is due September 01, 2022. The final payment (remaining balance) is due on or before November 15, 2022.</p>
                                 </div>
 
                             </div><!-- end of accordion-->
