@@ -311,7 +311,7 @@ $package_items = array(
 
 										  <div data-content>
 
-											<p>Following registration the first payment of $125 is due on or before July 20, 2022.  The second payment of $150 is due on or before September 1, 2022. The final payment (remaining balance) is due on or before December 1, 2022. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+											<p>Following registration the first payment of $125 is due on or before August 29, 2022.  The second payment of $150 is due on or before October 28, 2022. The final payment (remaining balance) is due on or before December 9, 2022. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 
 										  </div>
 
@@ -325,7 +325,7 @@ $package_items = array(
 
 										  <div data-content>
 
-											<p>No, it's not included in the package, but can be added to your package in advance. The cost of the ski excursion is $99 in advance . If purchased once you arrive at the resort the cost on-site is $125.</p>
+											<p>No, it's not included in the package and can't be added to your package in advance. The cost of the ski excursion is $125 that can be paid as you are checking in with the on-site staff. If purchased once you arrive at the resort up the mountain the cost is $150.</p>
 
 										  </div>
 

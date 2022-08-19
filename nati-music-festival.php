@@ -5,11 +5,11 @@ include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"					=>"Cincinnati Music Festival 2022",
+	"title"					=>"Cincinnati Music Festival 2023",
 	"subtitle"				=>"Book your package today!",
 	"location"				=>"Cincinnati, Ohio",
-    "date"					=>"July 22-24, 2022",
-    "date_start"            => "July 22, 2022",
+    "date"					=>"July 21-23, 2023",
+    "date_start"            => "July 21, 2023",
 	"img_url"				=>"../../images/slides/splash-mmf-cta.jpg",
 	"img_alt"				=>"Cincinnati Music Festival"
 );
@@ -39,17 +39,17 @@ $geolocation = array(
 
 $people = array(
     "diamond"=> array(
-        "Group of 4" 			=>"$665",
-        "Group of 3"			=>"$700",
-        "Group of 2"			=>"$770",
-        "Individual"			=>"$975"
+        "Group of 4" 			=>"$865",
+        "Group of 3"			=>"$900",
+        "Group of 2"			=>"$970",
+        "Individual"			=>"$1,175"
     ),
 
     "emerald"=> array(
-        "Group of 4" 			=>"$565",
-        "Group of 3"			=>"$600",
-        "Group of 2"			=>"$670",
-        "Individual"			=>"$875"
+        "Group of 4" 			=>"$765",
+        "Group of 3"			=>"$800",
+        "Group of 2"			=>"$870",
+        "Individual"			=>"$1,075"
     )
 
 );
@@ -143,12 +143,12 @@ $package_items = array(
                             <?php echo $responsive_tabs["overview"]; ?>
                             <div class="tab" aria-label="overview">
                                 <h3>Get ready for Cincinnati Music Festival</h3>
-                                <p>YOLLO is providing you a great event package for the Cincinnati Music Festival. Over the years this event has evolved from being a pure jazz concert, to an event that also includes old school hip-hop and R&amp;B. This year the Cincinnati Music Festival will be held at the state of the art Paul Brown Stadium, home of the Cincinnati Bengal's. Beyond the featured acts, this event provides a great meet and greet or mix and mingle atmosphere.</p>
+                                <p>Let’s just say that the performers and attendees alike were happy to be OUTSIDE which made the 2022 edition the BEST year yet! Janet Jackson and Charlie Wilson along with all the performers for the Cincinnati Music Festival did not disappoint the crowd! Over the years this event has evolved from being a pure jazz concert, to an event that also includes old school hip-hop and R&B.  Beyond the featured acts, this event provides a great meet and greet or mix and mingle atmosphere.</p>
 
-                                <h4>7th Annual Grown and Sophisticated Mid-Day Cruise</h4>
-                                <p>The 7th Annual Grown and Sophisticated Mid-Day Cruise will happen on the River Queen and will be another MUST ATTEND event during Cincinnati Music Festival Weekend! Enjoy a multi-level paddle-wheel boat cruising the mighty Ohio River, while listening to the livest Hip-Hop and R&amp;B music. Last years' cruise was Mardi Gras themed, however we are returning to the original format of an All White cruise. The cruise sails from 1:00 pm – 4:00 pm. Please remember that once we sell out, we will not have any more tickets available.<p>
+                                <h4>8th Annual Grown and Sophisticated Mid-Day Cruise</h4>
+                                <p>The 8th Annual Grown and Sophisticated Mid-Day Cruise will happen on the River Queen and will be another MUST ATTEND event during Cincinnati Music Festival Weekend! Enjoy a multi-level paddle-wheel boat cruising the mighty Ohio River, while listening to the livest Hip-Hop and R&amp;B music. Last years' cruise was Mardi Gras themed, however we are returning to the original format of an All White cruise. The cruise is from 2:00 pm – 5:00 pm. Please remember that once we sell out, we will not have any more tickets available.<p>
                                 
-                                <p>YOLLO is looking forward to another terrific festival in 2022, and we hope you join us and be a part of this special summer occasion. Packages are available now, but they won't last long. Don't wait reserve today for $29.99!</p>
+                                <p>YOLLO is looking forward to another terrific festival in 2023, and we hope you join us and be a part of this special summer occasion. Packages are available now, but they won't last long. Don't wait reserve today for $29.99!</p>
 
                             </div><!-- ./ overview -->
 
@@ -260,7 +260,7 @@ $package_items = array(
 
                                     <div data-control>What are the payment due dates for Cincinnati Music Festival Packages?</div>
                                     <div data-content>
-                                        <p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 is due on or before <strong>October 10, 2021</strong>. The second payment of $150 is due on or before <strong>December 10, 2021</strong>.The final payment (remaining balance) is due on or before <strong>February 1, 2022</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
+                                        <p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 is due on or before <strong>September 2, 2022</strong>. The second payment of $150 is due on or before <strong>November 02, 2022</strong>.The final payment (remaining balance) is due on or before <strong>January 02, 2023</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
                                     </div>
 
                                     </div><!-- end of accordion-->
@@ -280,7 +280,7 @@ $package_items = array(
 
                                     <div data-control>Where will we be staying that weekend?</div>
                                     <div data-content>
-                                        <p>You will two options for 2022. The Holiday Inn Cincinnati Riverfront has been selected as the host property for this wonderful event! The Comfort Suites Newport - Cincinnati  will be our over flow property once the host property is sold out and trust us it will sell out. Lock in your reservation today. </p>
+                                        <p>You will two options for 2023. The Holiday Inn Cincinnati Riverfront has been selected as the host property for this wonderful event! The Comfort Suites Newport - Cincinnati  will be our over flow property once the host property is sold out and trust us it will sell out. Lock in your reservation today. </p>
                                     </div>
 
                                     </div><!-- end of accordion-->
@@ -309,7 +309,7 @@ $package_items = array(
 
                                     <div data-control>What time does the cruise start and how much does it cost?</div>
                                     <div data-content>
-                                        <p>The cruise will sail from 1:30 pm - 4:00 pm, however boarding begins at 1:00 pm. The cost of the cruise is $50 for General Admission and $95 for VIP. For a limited time there are Early Bird tickets available at $40 for General Admission and $85 VIP.  VIP grants no line waiting entrance, Open bar, and light food during the cruise.</p>
+                                        <p>The cruise will sail from 2:30 pm - 5:00 pm, however boarding begins at 1:00 pm. The cost of the cruise is $60 for General Admission and $125 for VIP. For a limited time there are Early Bird tickets available at $40 for General Admission and $95 VIP.  VIP grants no line waiting entrance, Open bar, and light food during the cruise. Ticket prices increase the week of the cruise.</p>
                                     </div>
 
                                     </div><!-- end of accordion-->

@@ -127,6 +127,11 @@ define("EVENT", serialize ($nav = array(
 				"link"	=>	"/urban-ski-weekend"
             ),
             array(
+                "title"	=>	"Shamrock Sea Escape",
+                "class"	=>	"shamrock",
+                "link"	=>	"/shamrock-sea-escape"
+            ),
+			array(
                 "title"	=>	"Spring Fling Festival",
                 "class"	=>	"sff",
                 "link"	=>	"/spring-fling-festival"
