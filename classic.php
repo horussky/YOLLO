@@ -152,7 +152,7 @@
                 </div>
                
                 <p>This is the #1 HBCU football Classic in the nation attracting over 100,000 fans annually! The Magic City Classic offers a family environment that produces new bonds and memories for years to come.</p>
-                <p>This annual clash of the titans was delayed in 2020 due to COVID-19 so they have decided to have this exciting game TWICE in one year! The results handed teh Alabama A&M Bulldogs bragging rights TWICE in 2021.</p>
+                <p>This annual clash of the titans was delayed in 2020 due to COVID-19 so they have decided to have this exciting game TWICE in one year! The results handed the Alabama A&M Bulldogs bragging rights TWICE in 2021.</p>
                 <p>During the fall editon of this exciting football classic the Alabama A&M Bulldogs came away with the victory as they entered the game as favorites and delivered a decisive win for the Bulldog faithful as well as the MOST important part of the this historic rivalry which is retaining BRAGGING rights until October 2022! </p>
                 <p>YOLLO Group Services, Inc. wants to provide your travel package for this historic and exciting weekend. Lock in your package today as space is limited and our packages go fast.</p>
 			</div><!-- ./ overview -->

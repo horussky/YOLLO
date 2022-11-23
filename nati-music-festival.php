@@ -260,7 +260,7 @@ $package_items = array(
 
                                     <div data-control>What are the payment due dates for Cincinnati Music Festival Packages?</div>
                                     <div data-content>
-                                        <p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 is due on or before <strong>September 2, 2022</strong>. The second payment of $150 is due on or before <strong>November 02, 2022</strong>.The final payment (remaining balance) is due on or before <strong>January 02, 2023</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
+                                        <p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 is due on or before <strong>December 04, 2022</strong>. The second payment of $150 is due on or before <strong>January 04, 2023</strong>.The final payment (remaining balance) is due on or before <strong>March 04, 2023</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
                                     </div>
 
                                     </div><!-- end of accordion-->
@@ -352,7 +352,7 @@ $package_items = array(
                             
                             <div class="tab" aria-label="buy">
                                 <h3>Buy Cruise Now</h3>   
-                                <div class="mb-20" id="eventbrite-widget-container-112362900460"></div>
+                                <div class="mb-20" id="eventbrite-widget-container-390245814737"></div>
                             </div><!-- ./ buy now -->
 
                     </div><!-- end of responsive-tabs -->
@@ -418,9 +418,9 @@ $package_items = array(
 	window.EBWidgets.createWidget({
 		// Required
 		widgetType: 'checkout',
-		eventId: '112362900460',
-		iframeContainerId: 'eventbrite-widget-container-112362900460',
-
+		eventId: '390245814737',
+		iframeContainerId: 'eventbrite-widget-container-390245814737',
+        
 		// Optional
 		iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
 		onOrderComplete: exampleCallback  // Method called when an order has successfully completed

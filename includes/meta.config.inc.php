@@ -45,7 +45,7 @@
         "essence" => array(
             "title"     => "Essence Festival Weekend",
             "desc"      => "YOLLO is taking you to New Orleans for Essence Fest",
-            "keywords"  => "Essence Festival, Essence 2020, New Orleans, Mid Day Cruise, YOLLO",
+            "keywords"  => "Essence Festival, Essence 2023, New Orleans, Mid Day Cruise, YOLLO",
             "canonical" => "https://www.goyollo.com/essence-festival"
         ),
         "fade-to-may" => array(

@@ -316,7 +316,7 @@ $package_items = array(
 
                                 <div data-control>When are the payments due?</div>
                                 <div data-content>
-                                <p>After registration the first payment of $125 is due July 10, 2022.  The second payment of $250 is due September 01, 2022. The final payment (remaining balance) is due on or before November 15, 2022.</p>
+                                <p>After registration the first payment of $125 is due October 2, 2022.  The second payment of $250 is due November 02, 2022. The final payment (remaining balance) is due on or before December 1, 2022.</p>
                                 </div>
 
                             </div><!-- end of accordion-->
