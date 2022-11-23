@@ -5,15 +5,15 @@ $feature_event = array(
 
 	array(
 		"title" 	=> "Cincinnati Music Festival",
-		"date" 		=> "July 22-24, 2022",
+		"date" 		=> "June 22-24, 2022",
 		"end"		=> strtotime("July 24, 2022"),
 		"img" 		=> "images/featured-events/featured-event-cmf.jpg",
 		"link" 		=> "/nati-music-festival"
 	),
 	array(
 		"title" 	=> "Essence Festival",
-		"date" 		=> "July 1-3, 2022",
-		"end"		=> strtotime("July 3, 2022"),
+		"date" 		=> "June 30 - July 2, 2023",
+		"end"		=> strtotime("July 2, 2023"),
 		"img" 		=> "images/featured-events/featured-event-efw.jpg",
 		"link" 		=> "/essence-festival"
 	),

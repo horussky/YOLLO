@@ -6,7 +6,7 @@
 
 	$event = array(
 		"title"				=>"Essence Music Festival 2023",
-		"subtitle"			=>"We outside in these NOLA streets! Save $100 until 7/13",
+		"subtitle"			=>"We outside in these NOLA streets!",
 		"location"			=>"New Orleans, LA",
 		"date"				=>"June 30 - July 2, 2023",
         "date_start"		=>"June 30, 2023",
@@ -26,19 +26,19 @@
 
 		"hotel2"=> array(
 			"title" 			=>"Sheraton New Orleans Hotel",
-			"soldout"	        =>false,
+			"soldout"	        =>true,
 			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/10/0b/10/bf/sheraton-new-orleans.jpg",
             "address"			=>"500 Canal St",
             "location"			=>"New Orleans, LA 70130",
-		)/*,
+		),
 		
 		"hotel3"=> array(
-			"title" 			=>"DoubleTree by Hilton",
+			"title" 			=>"Astor Crowne Plaza",
 			"soldout"	        =>false,
-			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/13/5f/f0/b0/exterior.jpg",
-            "address"			=>"300 Canal Street",
+			"img_url"			=>"//dynamic-media-cdn.tripadvisor.com/media/photo-o/24/9b/a4/fb/hotel-outdoor-pool-overlooking.jpg?w=600",
+            "address"			=>"739 Canal Street at Bourbon",
             "location"			=>"New Orleans, LA 70130",
-		)*/
+		)
 
 
 	);
@@ -97,12 +97,11 @@
     <meta charset="utf-8">
     <title><?php echo $metas['essence']['title']; ?></title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="<?php echo $metas['essence 2023']['desc']; ?>" />
-    <meta name="keywords" content="<?php echo $metas['essence 2023']['keywords']; ?>" />
+    <meta name="description" content="<?php echo $metas['essence']['desc']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['essence']['keywords']; ?>" />
     <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-    <link href="<?php echo $metas['essence festival 2023']['canonical']; ?>" rel="canonical" />
-    <meta name="author" content="YOLLO Group Services" />
-    <meta property="fb:pages" content="117420764961518" />
+    <link href="<?php echo $metas['essence']['canonical']; ?>" rel="canonical" />
+    <meta name="author" content="YOLLO Group Servicll518" />
     <link rel="icon" href="favicon-192.png" sizes="192x192">
 	<link rel="apple-touch-icon" href="favicon-180.png" sizes="180x180">
     <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
@@ -185,7 +184,7 @@
                                 <?php foreach($geolocation as $hotel) :?>
                                 <div class="hotel-grid">
                                     <div class="hg-img">
-                                        <figure style="background:url(<?php echo $hotel['img_url']; ?>); background-size: cover; background-position: center;"></figure>
+                                        <figure style="<?php if($hotel["soldout"] == true) :?>filter:grayscale(1);<?php endif ?> background:url(<?php echo $hotel['img_url']; ?>); background-size: cover; background-position: center;"></figure>
                                     </div>
                                     <div class="hg-body">
                                         <p class="hg-title"><?php echo $hotel["title"]; ?> 
@@ -292,7 +291,7 @@
 
 							  <div data-control>What are the payment due dates for Essence Packages?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 per person is due on or before September 02, 2022. The second payment of $250 per person is due on or before November 02, 2022. The final payment (remaining balance) is due on or before January 04, 2023. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 per person is due on or before December 06, 2022. The second payment of $250 per person is due on or before January  16, 2023. The final payment (remaining balance) is due on or before March 04, 2023. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

@@ -7,7 +7,7 @@ include 'includes/meta.config.inc.php';
 $event = array(
 
 	"title"				=>"Urban Ski Weekend 2023",
-	"subtitle"			=>"Early Bird $100 Off Until 3/10/2022",
+	"subtitle"			=>"Young Dro will be at Urban Ski 2023",
 	"location"			=>"Gatlinburg, Tennessee",
 	"date"				=>"Feb 3 -6, 2023",
     "date_start"        =>"February 3, 2023",
@@ -181,7 +181,7 @@ $package_items = array(
 
 										<h4>The Bottom Line</h4>
 
-										<p>Did we mention this always happens the FIRST weekend in February? Skiing, parties, comedy, relaxation, good food, and did we mention the enormous Super Bowl party? What more could you want? Enjoy a spectacular weekend in Gatlinburg. <a data-href="#tabs-5" class="open-tab">Register and reserve your spot today!</a></p>
+										<p>Did we mention this always happens the FIRST weekend in February? Skiing, parties, comedy, relaxation, good food, and did we mention the enormous All White celebrity party? What more could you want? Enjoy a spectacular weekend in Gatlinburg. <a data-href="#tabs-5" class="open-tab">Register and reserve your spot today!</a></p>
 
 									</div> <!-- ./overview -->
 
@@ -311,7 +311,7 @@ $package_items = array(
 
 										  <div data-content>
 
-											<p>Following registration the first payment of $125 is due on or before August 29, 2022.  The second payment of $150 is due on or before October 28, 2022. The final payment (remaining balance) is due on or before December 9, 2022. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+											<p>Following registration the first payment of $250 is due on or before December 02, 2022.  The second payment of $350 is due on or before January 03, 2023. The final payment (remaining balance) is due on or before January 17, 2023. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 
 										  </div>
 

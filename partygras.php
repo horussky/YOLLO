@@ -8,8 +8,8 @@ $event = array(
 	"title"						=>"Party Gras: Bottles and Beads",
 	"subtitle"					=>"More than an event, it's an EXPERIENCE!",
 	"location"					=>"Chattanooga, TN",
-	"date"						=>"August 12- 14, 2022",
-    "date_start"				=>"August 12, 2022",
+	"date"						=>"August 11 - 13, 2023",
+    "date_start"				=>"August 11, 2023",
 	"img_url"				 	=>"../../images/slides/splash-partygras-cta.jpg",
 	"img_alt"				 	=>"DPartyGras Cruise"
 );

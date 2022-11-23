@@ -9,7 +9,7 @@ $event = array(
 	"subtitle"			=>"You DO NOT want to miss this event!",
 	"location"		   	=>"Montego Bay, Jamaica",
 	"date"				=>"May 26 - 29, 2023",
-    "date_start"        =>"May 26, 2022",
+    "date_start"        =>"May 26, 2023",
 	"img_url"			=>"../../images/slides/splash-urban-fiesta-cta.jpg",
 	"img_alt"			=>"Urban Fiesta"
 );
@@ -277,7 +277,7 @@ $package_items = array(
 
 												  <div data-control>When are the payments due?</div>
 												  <div data-content>
-													<p>After registration the first payment of $125 is due August 05, 2022 after registration. The second payment of $200 is due by October 15, 2022. The final payment (remaining balance) is due on or before December 15, 2022. If you would like to make payments between due dates that is fine also.</p>
+													<p>After registration the first payment of $125 is due December 6, 2023 after registration. The second payment of $250 is due by January 16, 2023. The final payment (remaining balance) is due on or before March 04, 2023. If you would like to make payments between due dates that is fine also.</p>
 												  </div>
 
 												</div><!-- end of accordion-->
