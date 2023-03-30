@@ -19,22 +19,22 @@ $feature_event = array(
 	),
 	array(
 		"title" 	=> "Magic City Classic",
-		"date" 		=> "October 27-29, 2022",
-		"end"		=> strtotime("October 29, 2022"),
+		"date" 		=> "October 26-28, 2022",
+		"end"		=> strtotime("October 28, 2023"),
 		"img" 		=> "images/featured-events/featured-event-mcc.jpg",
 		"link" 		=> "/classic"
 	),
 	array(
 		"title" 	=> "NBA All-Star Weekend",
-		"date" 		=> "February 17, 2023",
-		"end"		=> strtotime("February 19, 2023"),
+		"date" 		=> "February 16, 2024",
+		"end"		=> strtotime("February 18, 2024"),
 		"img" 		=> "images/featured-events/featured-event-nba.jpg",
 		"link" 		=> "/nba-allstar"
 	),
 	array(
 		"title" 	=> "Party Gras Cruise",
-		"date" 		=> "August 12-14, 2022",
-		"end"		=> strtotime("August 14, 2022"),
+		"date" 		=> "August 12-14, 2023",
+		"end"		=> strtotime("August 14, 2023"),
 		"img" 		=> "images/featured-events/featured-event-pg.jpg",
 		"link" 		=> "/partygras"
 	),
@@ -54,15 +54,15 @@ $feature_event = array(
 	),
 	array(
 		"title" 	=> "Urban Fiesta Weekend",
-		"date" 		=> "May 27-30, 2022",
-		"end"		=> strtotime("May 30, 2022"),
+		"date" 		=> "May 27-30, 2023",
+		"end"		=> strtotime("May 30, 2023"),
 		"img" 		=> "images/featured-events/featured-event-ufw.jpg",
 		"link" 		=> "/urban"
 	),
 	array(
 		"title" 	=> "Urban Ski Weekend",
-		"date" 		=> "Feb 4-6, 2022",
-		"end"		=> strtotime("February 6, 2022"),
+		"date" 		=> "Feb 2-5, 2024",
+		"end"		=> strtotime("February 5, 2024"),
 		"img" 		=> "images/featured-events/featured-event-usw.jpg",
 		"link" 		=> "/urban-ski-weekend"
 	),
@@ -82,8 +82,8 @@ $feature_event = array(
 	),
 	array(
 		"title" 	=> "Alumni Getaway Cruise",
-		"date" 		=> "Dec 5-10, 2022",
-		"end"		=> strtotime("December 10, 2022"),
+		"date" 		=> "Dec 5-10, 2023",
+		"end"		=> strtotime("December 10, 2023"),
 		"img" 		=> "images/featured-events/featured-event-agc.jpg",
 		"link" 		=> "/alumni-getaway-cruise"
     ),
@@ -103,43 +103,50 @@ $feature_event = array(
     ),
 	array(
 		"title" 	=> "Dubai Takeover",
-		"date" 		=> "Aug 31 - Sept 5, 2022",
-		"end"		=> strtotime("September 5, 2022"),
+		"date" 		=> "Aug 31 - Sept 5, 2023",
+		"end"		=> strtotime("September 5, 2023"),
 		"img" 		=> "images/featured-events/featured-event-dubai.jpg",
 		"link" 		=> "/dubai-takeover"
     ),
 	array(
+		"title" 	=> "Egypt Takeover",
+		"date" 		=> "Nov 1-6, 2023",
+		"end"		=> strtotime("November 1, 2023"),
+		"img" 		=> "images/featured-events/featured-event-egypt.jpg",
+		"link" 		=> "/egypt-takeover"
+    ),
+	array(
 		"title" 	=> "Greece Takeover",
-		"date" 		=> "Oct 5-11, 2022",
-		"end"		=> strtotime("October 11, 2022"),
+		"date" 		=> "Oct 5-11, 2023",
+		"end"		=> strtotime("October 11, 2023"),
 		"img" 		=> "images/featured-events/featured-event-greece.jpg",
 		"link" 		=> "/greece-takeover"
     ),
 	array(
 		"title" 	=> "Italy Takeover",
-		"date" 		=> "Oct 31-Nov 5, 2022",
-		"end"		=> strtotime("November 5, 2022"),
+		"date" 		=> "Oct 31-Nov 5, 2023",
+		"end"		=> strtotime("November 5, 2023"),
 		"img" 		=> "images/featured-events/featured-event-italy.jpg",
 		"link" 		=> "/italy-takeover"
     ),
 	array(
 		"title" 	=> "Fade To May",
-		"date" 		=> "Apr 29-May 1, 2022",
-		"end"		=> strtotime("May 1, 2022"),
+		"date" 		=> "May 5-7, 2023",
+		"end"		=> strtotime("May 1, 2023"),
 		"img" 		=> "images/featured-events/featured-event-may.jpg",
 		"link" 		=> "/fade-to-may"
     ),
     array(
 		"title" 	=> "CIAA Weekend",
-		"date" 		=> "Feb 24-27, 2022",
-		"end"		=> strtotime("February 27, 2022"),
+		"date" 		=> "Feb 24-27, 2023",
+		"end"		=> strtotime("February 27, 2023"),
 		"img" 		=> "images/featured-events/featured-event-tourney.jpg",
 		"link" 		=> "/ciaa"
     ),
     array(
 		"title" 	=> "Shamrock Sea Escape",
-		"date" 		=> "March 16-20, 2023",
-		"end"		=> strtotime("March 20, 2023"),
+		"date" 		=> "March 14-18, 2024",
+		"end"		=> strtotime("March 14, 2024"),
 		"img" 		=> "images/featured-events/featured-event-shamrock.jpg",
 		"link" 		=> "/shamrock-sea-escape"
     )/*,

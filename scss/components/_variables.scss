@@ -1,8 +1,14 @@
+:root {
+	/* body font size */
+	--text-base-size: 1rem;
+	--yollo-red: #9E1421;
+}
+
 /*Variables*/
 
 $font-color: #222;
-$link-color: #007bff;
-$hover-color: #0056b3;
+$link-color: #304cb2;
+$hover-color: darken(#304cb2, 20%);
 $disclosure-color: lighten($font-color, 20%);
 $base-fontsize: 1.6rem;
 $base-fontsize-sm: 1.2rem;

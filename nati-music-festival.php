@@ -22,7 +22,7 @@ $geolocation = array(
 		"location"			=>"Covington, KY 41011",
 		"geolocation"		=>"600 W 3rd Street, Covington, KY 41011",
 		"soldout"           =>false,
-        "img_url"			=>"https://cincinnatiusa.com/sites/default/files/styles/Array/public/hotels/H1FAHH43.JPG",
+        "img_url"			=>"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/3b/90/8d/hotel-exterior.jpg?w=800&h=-1&s=1",
         "host"              =>true
     ),
     "hotel2"=> array(
@@ -108,9 +108,9 @@ $package_items = array(
 				<!--Left Content-->
 
 				<div id="left">
-						<!--Nav-->
-						<?php include 'includes/nav.inc.php'; ?>
-						<!--End of Nav-->
+                    <!--Nav-->
+                    <?php include 'includes/nav.inc.php'; ?>
+                    <!--End of Nav-->
 				</div>
 
 				<!--Right Content-->
@@ -142,10 +142,10 @@ $package_items = array(
 
                             <?php echo $responsive_tabs["overview"]; ?>
                             <div class="tab" aria-label="overview">
-                                <h3>Get ready for Cincinnati Music Festival</h3>
+                                <h2 class="h4">Get ready for Cincinnati Music Festival</h2>
                                 <p>Let’s just say that the performers and attendees alike were happy to be OUTSIDE which made the 2022 edition the BEST year yet! Janet Jackson and Charlie Wilson along with all the performers for the Cincinnati Music Festival did not disappoint the crowd! Over the years this event has evolved from being a pure jazz concert, to an event that also includes old school hip-hop and R&B.  Beyond the featured acts, this event provides a great meet and greet or mix and mingle atmosphere.</p>
 
-                                <h4>8th Annual Grown and Sophisticated Mid-Day Cruise</h4>
+                                <h2 class="h5">8th Annual Grown and Sophisticated Mid-Day Cruise</h2>
                                 <p>The 8th Annual Grown and Sophisticated Mid-Day Cruise will happen on the River Queen and will be another MUST ATTEND event during Cincinnati Music Festival Weekend! Enjoy a multi-level paddle-wheel boat cruising the mighty Ohio River, while listening to the livest Hip-Hop and R&amp;B music. Last years' cruise was Mardi Gras themed, however we are returning to the original format of an All White cruise. The cruise is from 2:00 pm – 5:00 pm. Please remember that once we sell out, we will not have any more tickets available.<p>
                                 
                                 <p>YOLLO is looking forward to another terrific festival in 2023, and we hope you join us and be a part of this special summer occasion. Packages are available now, but they won't last long. Don't wait reserve today for $29.99!</p>
@@ -157,7 +157,7 @@ $package_items = array(
                             <?php echo $responsive_tabs["price"]; ?>
                             <div class="tab" aria-label="price">
 
-                                <h3>Hotels</h3>
+                                <h2 class="h4">Hotels</h2>
                                 
                                 <?php foreach($geolocation as $hotel) :?>
                                 <div class="hotel-grid <?php if($hotel['host'] == true) :?>hotel-grid--host<?php endif; ?>">
@@ -179,7 +179,7 @@ $package_items = array(
                             
                                 <hr />
                             
-                                <h3>Price</h3>
+                                <h2 class="h4">Price</h2>
                                 
                                     <div class="price-table-container">
                             
@@ -232,7 +232,7 @@ $package_items = array(
                             <?php echo $responsive_tabs["faqs"]; ?>
                             <div class="tab" aria-label="faqs">
 
-                                <h3>Frequently Asked Questions</h3>
+                                <h2 class="h4">Frequently Asked Questions</h2>
                                 
                                 <div data-accordion-group>	
                                                 
@@ -340,7 +340,7 @@ $package_items = array(
                             <?php echo $responsive_tabs["buynow"]; ?>
                             <div class="tab" aria-label="buy">
                                 
-                                <h3>Buy Package Now</h3>
+                                <h2 class="h4">Buy Package Now</h2>
                                 
                                 <p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
                                 
@@ -351,7 +351,7 @@ $package_items = array(
                             <input type="radio" name="tabs" id="tab-6"><label for="tab-6"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Cruise</label>
                             
                             <div class="tab" aria-label="buy">
-                                <h3>Buy Cruise Now</h3>   
+                                <h2 class="h4">Buy Cruise Now</h2>   
                                 <div class="mb-20" id="eventbrite-widget-container-390245814737"></div>
                             </div><!-- ./ buy now -->
 

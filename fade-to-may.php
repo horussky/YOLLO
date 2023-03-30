@@ -150,7 +150,7 @@
                         
                         <?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
-						<h3>Fade to May: Beale Street Edition</h3>
+						<h2 class="h4">Fade to May: Beale Street Edition</h2>
 
 						<p>Are you impressed by Southern hospitality or looking for a getaway? Get ready for a fun-filled weekend in Memphis, TN. "Fade To May" is a three-day event that features comedy, poetry, concerts, arts, and film.  There will be plenty of outdoor and indoor activities for you to enjoy!</p>
 
@@ -169,7 +169,7 @@
 						<div class="tab" aria-label="price">
 
 
-								<h3>Hotels</h3>
+								<h2 class="h4">Hotels</h2>
                                 
                                 <?php foreach($geolocation as $hotel) :?>
                                 <div class="hotel-grid">
@@ -193,7 +193,7 @@
 
                             	<hr />
 
-                                <h3>Price</h3>
+                                <h2 class="h4">Price</h2>
                                 
                                 <div class="price-table-container">
                                 
@@ -246,7 +246,7 @@
 
                         <?php echo $responsive_tabs["faqs"]; ?>
 						<div class="tab" aria-label="faqs">
-					    <h3>Frequently Asked Questions</h3>
+					    <h2 class="h4">Frequently Asked Questions</h2>
                        	
                        	<div data-accordion-group>	
 										
@@ -334,7 +334,7 @@
 
                         <?php /* ?><?php echo $responsive_tabs["photos"]; ?> <?php */ ?>
 						<div class="tab" aria-label="photos">
-					   	<h3>Photos</h3>
+					   	<h2 class="h4">Photos</h2>
                         		<div id="nanoGallery"></div>
                         </div>  <!-- ./photos -->
 
@@ -343,7 +343,7 @@
 
 						<?php echo $responsive_tabs["buynow"]; ?>
 						<div class="tab" aria-label="buy">
-                        	<h3>Buy Now</h3>
+                        	<h2 class="h4">Buy Now</h2>
 							<p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
 							<script src="https://www.cognitoforms.com/f/seamless.js" data-key="NiNAkf4LukqBZOHDFOMsiQ" data-form="71"></script>
                         	<!-- <div class="cognito"></div> -->

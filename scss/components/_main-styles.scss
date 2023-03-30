@@ -12,7 +12,7 @@
 //Rem Mixin
 
 html {
-  font-size: 62.5%;
+  //font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
@@ -30,10 +30,9 @@ html {
 
 body{
 	font-family:"opensans", Arial, sans-serif;
-	//font-size:$base-fontsize;
+    font-size: var(--text-base-size);
 	line-height:1.5;
 	color:$font-color;
-	font-size: 1.6rem;
 	-webkit-transition: all 0.45s ease;
   	transition: all 0.45s ease;
 	-webkit-font-smoothing: antialiased;
@@ -67,14 +66,20 @@ a.chev-link:hover:after{
  
 .disclosure{
 	width: 100%;
-	font-size:$base-fontsize-sm;
+	font-size:0.75rem;
 	color:$disclosure-color;
 	border-top: 1px solid #ccc;
 	padding: 20px 0;
 	overflow: hidden;
 		p{
-			font-size:$base-fontsize-sm;
+			font-size:0.75rem;
 		}
+}
+
+/* Full */
+.full-width-section{
+    width:100%;
+    padding-bottom:40px;
 }
 
 /* LEFT CONTENT */
@@ -89,7 +94,7 @@ a.chev-link:hover:after{
 
 #right{
 	width:60%;
-	padding:2rem;
+	padding:20px;
 	padding-top:0;
     float:left;
     
@@ -253,7 +258,7 @@ aside#social {
 */
 
 .content .form {
-    width: 65%;
+    //width: 65%;
     float: left;
     padding-right: 20px;
     box-sizing: border-box;
@@ -339,7 +344,7 @@ fieldset {
 
 label {
     margin: 0 0;
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 label input {
@@ -350,8 +355,8 @@ label input {
 }
 
 fieldset {
-    font-size: 1em;
-    padding-left: 1em;
+    font-size: 1rem;
+    padding-left: 1rem;
 }
 
 textarea {
@@ -452,11 +457,11 @@ li.phone{ 						height:24px; padding-left: 40px; background: transparent url(../
 	font-family:"Merriweather","Sansita", cursive, "PT Serif Caption", sans-serif;
 	font-weight: 900;
 	//font-style: italic;
-	font-size: 5rem;
+	font-size: 3.125rem;
     letter-spacing: -1px;
 	line-height: 1.1;
 	text-align:left;
-	margin-bottom: 2.4rem;
+	margin-bottom: 24px;
 }
 
 
@@ -481,7 +486,7 @@ li.phone{ 						height:24px; padding-left: 40px; background: transparent url(../
 
 
 h4 .soldout{
-    font-size:.8em; 
+    font-size:11px; 
     font-weight:700; 
     color:$yollo-red; 
     font-style:normal; 
@@ -510,7 +515,7 @@ h4 .soldout{
 
 .header{
 	width:100%;
-	margin-bottom:4rem;
+	margin-bottom:40px;
 	display: block;
 	//overflow:hidden;
 	display:flex;
@@ -526,7 +531,7 @@ h4 .soldout{
         }
         
 		img{
-			max-width:15rem;
+			max-width:9.375rem;
 		}
 	}
 	
@@ -541,7 +546,7 @@ h4 .soldout{
          ul.top-nav{ 		
             display: block; 
             float:right; 
-            font-size:.9em; 
+            font-size:0.875rem; 
             text-transform:uppercase; 
             margin-bottom: .75em; 
             list-style: none;
@@ -549,7 +554,7 @@ h4 .soldout{
         
         .top-nav li{		
             float:left; 
-            margin-right: 2rem; 
+            margin-right: 20px; 
 
             &:last-of-type{ 
                 margin-right: 0; 
@@ -561,9 +566,21 @@ h4 .soldout{
                 color:#333;
                 border-bottom: none;
 
+                &:hover{
+                    font-weight: 600;
+                }
+
                 &.active-nav{
-                    color:#9E1421;
                     background:#fff;
+                    font-weight: 600;
+
+                    &:before{
+                        left: 0;
+                        width: 100%;
+                        background-color: var(--yollo-red);
+
+                    }
+
                 }
 
             }
@@ -574,7 +591,7 @@ h4 .soldout{
 
 
 
-.top-nav  .hvr-underline-from-center:before{background:#9E1421;}
+.top-nav  .hvr-underline-from-center:before{background:#000;}
 
 .header .right .top-nav li.phonenumber{ margin-left:5px;}
 
@@ -611,7 +628,7 @@ h4 .soldout, em.soldout{
      background-color: #000;
      overflow: hidden;
      line-height: 0;
-     margin-bottom: 1.6rem;
+     margin-bottom: 16px;
 }
 
 #upcoming-events .event a img{
@@ -633,8 +650,8 @@ h4 .soldout, em.soldout{
      width:31%;
      float:left;
      box-sizing: border-box;
-     margin-right: 1em ;
-     margin-bottom:3.2rem;
+     margin-right: 10px ;
+     margin-bottom:32px;
 
      &:last-of-type{
           margin-right:0;
@@ -664,7 +681,7 @@ hr {
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-	margin: 2rem 0;
+	margin: 20px 0;
 }
 
 .box-fade{
@@ -675,154 +692,4 @@ hr {
 	}
 }
 
-/*helper classes*/
-.smallmargin{
-  margin-bottom: 1rem;
-}
 
-.mediummargin{
-  margin-bottom: 2rem;
-}
-
-.largemargin{
-  margin-bottom: 4rem;
-}
-
-.img-responsive{
-	max-width: 100%;
-	height: auto;
-}
-
-//margin classes
-.mt-5{
-	margin-top:0.5rem;
-}
-
-.mt-10{
-	margin-top:1rem;
-}
-
-.mt-20{
-	margin-top:2rem;
-}
-
-.mt-40{
-	margin-top:4rem;
-}
-
-.ml-5{
-	margin-left:0.5rem;
-}
-
-.ml-10{
-	margin-left:1rem;
-}
-
-.ml-20{
-	margin-left:2rem;
-}
-
-.mb-5{
-	margin-bottom:0.5rem;
-}
-
-.mb-10{
-	margin-bottom:1rem;
-}
-
-.mb-20{
-	margin-bottom:2rem;
-}
-
-.mb-40{
-	margin-bottom:4rem;
-}
-
-.mr-5{
-	margin-right:0.5rem;
-}
-
-.mr-10{
-	margin-right:1rem;
-}
-
-.mr-20{
-	margin-right:2rem;
-}
-
-.close-x{
-  width: 32px;
-  height: 32px;
-  opacity: 0.3;
-	
-	&:hover {
-  		opacity: 1;
-	}
-	
-	&:before, 
-	&:after {
-	  position: absolute;
-	  left: 15px;
-	  content: ' ';
-	  height: 33px;
-	  width: 2px;
-	  background-color: #333;
-	}
-	
-	&:before {
-	  transform: rotate(45deg);
-	}
-	&:after {
-	  transform: rotate(-45deg);
-	}
-}
-
-
-/*Remove Cognito Logo from Form*/
-.cognito form + div {
-	opacity: 0!important;
-	visibility: hidden!important;
-}
-
-/*Fix Cognito breadcrumb */
-.cognito .c-forms-form .c-progress-steps li:before {
-    border-radius: 0;
-    font-size: 1.6rem!important;
-    padding: 0!important;
-}
-
-/*Fix help text in Cognito*/
-.cognito .c-helptext p {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    color: #333;
-} 
-
-/*Remove Event Page Social Aside*/
-
-#event-pg{
-
-    aside#social{
-        display: none;
-    }
-
-    #left{
-        width: 25%;
-    }
-
-    #right{
-        width: 75%;
-        padding-right: 0;
-    }
-
-}
-
-.gray-100{background-color: #f8f9fa;}
-.gray-200{background-color: #e9ecef;}
-.gray-300{background-color: #dee2e6;}
-.gray-400{background-color: #ced4da;}
-.gray-500{background-color: #adb5bd;}
-.gray-600{background-color: #6c757d;}
-.gray-700{background-color: #495057;}
-.gray-800{background-color: #343a40;}
-.gray-900{background-color: #212529;}

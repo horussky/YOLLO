@@ -1,45 +1,34 @@
 h2{
-	font-family:"opensans-bold", sans-serif;
-	line-height:1.2;
-	margin-bottom: 1.6rem;
-	text-transform:uppercase;
-	font-weight:700;
-	letter-spacing:-2px;
     //font-size:  4rem;
          &.title{
            text-transform: none;
          }
 }
 
-h3{
-	font-family:"Merriweather","opensans-bold", Arial, sans-serif;
-	line-height:1.2;
-	margin-bottom: 1.6rem;
-	font-weight:700;
-	//font-size:  3.2rem;
-	letter-spacing:-1px;
-}
 
-h4{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6{
 	font-family:"opensans-bold", Arial, sans-serif;
-	line-height:1.2;
-	margin-bottom: 1.6rem;
 	font-weight:700;
-	//font-size:  2.4rem;
-}
-
-h5{
-	font-family:"opensans-bold", Arial, sans-serif;
 	line-height:1.2;
-	margin-bottom: 1.6rem;
-	font-weight:700;
-	//font-size:  1.6rem;
+	margin-bottom: 16px;
+	letter-spacing: -1px;
 }
 
 p{
 	font-family:"opensans", san-serif;
 	line-height:1.5;
-	margin-bottom:2.4rem;
+	margin-bottom:24px;
 }
 
 // Lists
@@ -49,7 +38,7 @@ p{
 ul,
 ol {
   margin-top: 0;
-  margin-bottom: 1.6rem;
+  margin-bottom: 16px;
   ul,
   ol {
     margin-bottom: 0;
@@ -61,18 +50,18 @@ ul{
 }
 
 ul:not(.event-nav){
-	margin-left:2rem;
+	margin-left:20px;
 }
 
 ol{ 				
 	list-style: decimal outside none;
-	margin-left:2rem;
+	margin-left:20px;
 }
 
 
 .lead {
 	font-family:"opensans-lite", san-serif;
-    font-size: 2rem;
+    font-size: 1.25rem;
     font-weight: 700;
 }
 
@@ -97,7 +86,7 @@ ol{
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 
-	width: 1em;
+	width: 10px;
 	height: .7em;
 	line-height: .7em;
 	position:relative;
@@ -208,16 +197,16 @@ ol{
 }
 
 #package-info-box .ccs{
-	font-size: 6rem;
-    width: 5rem;
-    height: 2rem;
-    line-height: 3rem;
+	font-size: 3.75rem;
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
 }
 
 footer .ccs{
-	font-size: 6.5rem;
-    width: 5rem;
-    height: 3rem;
-    line-height: 3rem;
+	font-size: 4.0625rem;
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
 }
 

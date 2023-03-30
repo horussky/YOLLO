@@ -87,7 +87,6 @@ $package_items = array(
     <meta property="fb:pages" content="117420764961518" />
     <link rel="apple-touch-icon" href="favicon-180.png" sizes="180x180">
     <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
-    <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 
 <body id="event-pg">
@@ -140,7 +139,7 @@ $package_items = array(
                             <?php echo $responsive_tabs["overview"]; ?>
                             <div class="tab" aria-label="overview">
 
-                                <h3>Get ready for <?php echo $event["title"] ?> in Baltimore, MD. </h3>
+                            <h2 class="h4">Get ready for CIAA in Baltimore, MD. </h2>
 
                                 <p>Baltimore was the site of CIAA in 2022 and the CITY did not disappoint. Baltimore  definitely brought new energy to this already exciting event and the Baltimore’s nightlife is a PERFECT match for the attendees of this event! YOLLO Group Services is making the Tourney a fun-filled weekend for you to remember. This basketball tournament has become one of the most attended events among HBCU’s in the nation. </p>
                                 <p>Fans will get their basketball fix during the day-time, while others enjoy all the night-time events. This means parties galore! You may spot a celebrity or two crashing and/or hosting several of these parties. You cannot go wrong booking with YOLLO Group Services for the Tourney Weekend 2023. </p>
@@ -152,7 +151,7 @@ $package_items = array(
                             <?php echo $responsive_tabs["price"]; ?>
                             <div class="tab" aria-label="price">
 
-                                <h3>Hotels</h3>
+                                <h2 class="h4">Hotels</h2>
 
                                 <?php foreach ($geolocation as $hotel) : ?>
                                     <div class="hotel-grid">
@@ -175,7 +174,7 @@ $package_items = array(
 
                                 <hr />
 
-                                <h3>Price</h3>
+                                <h2 class="h4">Price</h2>
 
                                 <div class="price-table-container">
 
@@ -227,7 +226,7 @@ $package_items = array(
                             <?php echo $responsive_tabs["faqs"]; ?>
                             <div class="tab" aria-label="faqs">
 
-                                <h3>Frequently Asked Questions</h3>
+                                <h2 class="h4">Frequently Asked Questions</h2>
 
                                 <div data-accordion-group>
 
@@ -279,12 +278,7 @@ $package_items = array(
 
                                     </div><!-- end of accordion-->
 
-
-
-
                                 </div><!-- end of accordion group-->
-
-
 
                             </div> <!-- ./faqs -->
 
@@ -300,7 +294,7 @@ $package_items = array(
                             <?php echo $responsive_tabs["buynow"]; ?>
                             <div class="tab" aria-label="buy">
 
-                                <h3>Buy Now</h3>
+                                <h2 class="h4">Buy Now</h2>
                                 <p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
 
                                 <div class="cognito"></div>

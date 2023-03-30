@@ -46,7 +46,7 @@ define("EVENT", serialize ($nav = array(
 				  
 			),
 			array(
-				"title"	=>	"Party Gras Cruise",
+				"title"	=>	"Party Gras Weekend",
 				"class"	=>	"partygras",
 				"link"	=>	"/partygras"
 				  
@@ -76,17 +76,23 @@ define("EVENT", serialize ($nav = array(
 				  
 			),
 			array(
+				"title"	=>	"Egypt Takeover",
+				"class"	=>	"egypt",
+				"link"	=>	"/egypt-takeover"
+				  
+			),
+			array(
 				"title"	=>	"Greece Takeover",
 				"class"	=>	"greece",
 				"link"	=>	"/greece-takeover"
 				  
 			),
-			array(
+			/*array(
 				"title"	=>	"Italy Takeover",
 				"class"	=>	"italy",
 				"link"	=>	"/italy-takeover"
 				  
-			),
+			),*/
 			array(
 				"title"	=>	"London to Paris Takeover",
 				"class"	=>	"london",
@@ -158,14 +164,14 @@ sort($event_nav);
 <nav class="pushy pushy-right">
 	<div class="event-nav-mobile pushy-content">
 		<a href="#" class="menu-btn close-x"></a>
-		<h5 class="mobile-nav-title">Our Events</h5>
-		<ul>
+		<h5 class="mobile-nav-title h6">YOLLO Events</h5>
+		<ul class="event-nav-mobile__nav">
 			<?php foreach($event_nav as $links=>$value): ?>
 				<li><a href="<?php echo $value['link']?>"><?php echo $value['title']?></a></li>
 			<?php endforeach; ?>
 		</ul>
 		<hr />
-		<ul>
+		<ul class="event-nav-mobile__nav-primary">
 			<li class="home"><a title="Home" href="/home">Home</a></li>
 			<li class="about"><a title="About Us" href="/about">About Us</a></li>
 			<li class="faq"><a title="FAQs" href="/faq">FAQs</a></li>

@@ -14,7 +14,7 @@
 <script src="js/scripts-min.js"></script>
 <script src="js/jquery.accordion.js"></script>
 <script src="js/jquery.countdown.min.js"></script>
-
+<script async src="//www.instagram.com/embed.js"></script>
 <script>
     
     //format date for countdown script
@@ -22,6 +22,19 @@
     //must be outside jquery function (normal JS)
  
 	$(function(){
+
+        $(".tweet").fadeIn(3000);
+
+        //active class for mobile nav
+        var currentState = location.pathname;
+        $('.event-nav-mobile__nav a, .event-nav-mobile__nav-primary a').each(function(){
+            var $this = $(this);
+            // if the current path is like this link, make it active
+            if($this.attr('href').indexOf(currentState) !== -1){
+                $this.addClass('active');
+            }
+        })
+
         
         var etime = document.getElementById('event_start');
         if (etime !== undefined && etime !== null) { 

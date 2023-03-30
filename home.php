@@ -41,21 +41,21 @@ include 'includes/meta.config.inc.php';
                 <?php /* ?><div class="rslides"></div>
                 <?php echo $json["homepage__description"]; ?><?php */?>
 
-                <p class="headline">Our name is our motto. You Only Live Life Once!</p>
+                <h1 class="headline">Our name is our motto. You Only Live Life Once!</h1>
                             
                 <p>YOLLO Group Services is one of the leading full-service travel companies located in the Southeastern region. We offer our clients great all-inclusive travel packages, and fun and festive experiences at the best destinations around the world. Learn more <a title="read more about YOLLO" href="about.php">about YOLLO</a> or view some of our upcoming events below.</p>
             </section>
            
             <section id="upcoming-events" style="overflow:hidden">
 				<div>
-                	<h3>Upcoming Events</h3>
+                	<h2 class="h4">Upcoming Events</h2>
 					<?php $i=0; foreach($feature_event as $event): if ($i == 3) break; ?>
 						<?php if($event["end"] > $now): $i++;  ?>
 							<div class="event">
 								<a href="<?php echo $event["link"]; ?>" title="<?php echo $event["title"]; ?>">
 									<img src="<?php echo $event["img"]; ?>" />
 								</a>
-								<h4><?php echo $event["title"]; ?></h4>
+								<p class="h5"><?php echo $event["title"]; ?></p>
 								<p><i class="fa fa-calendar"></i> <?php echo $event["date"]; ?></p>
 								<p><a class="learnmore" href="<?php echo $event["link"]; ?>" title="Learn more about <?php echo $event["title"]; ?>">Learn More</a></p>
 							</div>
@@ -65,7 +65,7 @@ include 'includes/meta.config.inc.php';
             </section>
 
             <div class="disclosure">
-            	<strong>Disclaimer</strong> | All associated graphics and/or logos demonstrated or referred to by YOLLO Group Services on this website are registered trademarks of their respective owners, and are used herein for factual and illustrative purposes only. Links are provided for your convenience and do not constitute an endorsement. Third party sites are not within our control and may not have the same privacy, security or accessibility standards. Third parties are solely responsible for the content and availability of their sites.
+            	<strong>Disclaimer</strong> | All graphics and/or logos associated with or referred to by YOLLO Group Services on this website are registered trademarks of their respective owners, and are used herein for factual and illustrative purposes only. Links are provided for your convenience and do not constitute an endorsement. Third party sites are not within our control and may not have the same privacy, security or accessibility standards. Third parties are solely responsible for the content and availability of their sites.
       		</div><!-- end of disclosure -->
 
      	</div><!--end of right-->

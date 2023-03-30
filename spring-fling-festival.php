@@ -30,7 +30,7 @@ $people = array(
 			//"Group of 4" 			=>"$565",
 			//"Group of 3"			=>"$595",
 			//"Group of 2"			=>"$650",
-			"Individual"			=>"$150"
+			"Individual"			=>"$250"
 		),
 
 		"emerald"=> array(
@@ -122,7 +122,7 @@ $package_items = array(
                     <div id="responsive-tabs">
                     <?php echo $responsive_tabs["overview"]; ?>
                     <div class="tab" aria-label="overview">
-                        <h3>A Day-Trip and Concert for Grown Folks and Music Lovers</h3>
+                        <h2 class="h4">A Day-Trip and Concert for Grown Folks and Music Lovers</h2>
 
                         <p>YOLLO is taking you to the 27th Annual Spring Fling Music Festival in Mobile, AL. If you love Blues music, this is the day-trip you are looking for! Pack up your coolers and lawn chairs because Spring Fling is an outdoor concert event. With over 30 Southern Soul and R&B artists, this is an event that will not disappoint.</p> 
 
@@ -135,7 +135,7 @@ $package_items = array(
 
                     <div class="tab" aria-label="price">
                         <?php if(isset($geolocation["hotel1"])) :?>
-                        <h3>Hotels</h3>
+                        <h2 class="h4">Hotels</h2>
                         <?php foreach($geolocation as $hotel) :?>
                             <div class="hotel-grid">
                                 <div class="hg-img">
@@ -162,7 +162,7 @@ $package_items = array(
                         
 
 
-                        <h3>Price</h3>
+                        <h2 class="h4">Price</h2>
 
                         <div class="price-table-container">
                         <div class="price-table">
@@ -220,7 +220,7 @@ $package_items = array(
 
                 <div class="tab" aria-label="faqs">
 
-                    <h3>Frequently Asked Questions</h3>
+                    <h2 class="h4">Frequently Asked Questions</h2>
 
                     <div data-accordion-group>	
 
@@ -290,7 +290,7 @@ $package_items = array(
                     <p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
                     <?php /* ?><div class="cognito"></div><?php */ ?>
 
-                    <div class="mb-20" id="eventbrite-widget-container-122806352105"></div>
+                    <div class="mb-20" id="eventbrite-widget-container-335506427757"></div>
                 
                     <hr class="mt-20" />
 
@@ -366,8 +366,8 @@ $package_items = array(
 	window.EBWidgets.createWidget({
 		// Required
 		widgetType: 'checkout',
-		eventId: '122806352105',
-		iframeContainerId: 'eventbrite-widget-container-122806352105',
+		eventId: '335506427757',
+		iframeContainerId: 'eventbrite-widget-container-335506427757',
 
 		// Optional
 		iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided

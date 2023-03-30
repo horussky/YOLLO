@@ -1,7 +1,7 @@
 
 .price-table-container{
 	display: grid;
-	grid-gap:2rem 2rem;
+	grid-gap:20px 20px;
 	//grid-template-columns:50% 50%;
 	grid-auto-columns:auto;
 	grid-auto-flow: column;
@@ -39,7 +39,7 @@
 	}
 
 	li:last-of-type{
-		padding:0 2rem;
+		padding:0 20px;
 	}
 	
 	&:only-of-type .priceblock li span{
@@ -77,10 +77,10 @@
 	> .header {
 		text-align:center;
 		color: #111;
-		font-size: 2rem;
+		font-size: 20px;
 		justify-content: center;
-		padding-top: 2rem;
-		padding-bottom: 3rem;
+		padding-top: 20px;
+		padding-bottom: 30px;
 		flex-direction: column;
 		text-transform: uppercase;
 		font-weight:700;
@@ -89,7 +89,7 @@
 		span{
 			width:100%;
 			display: block;
-			font-size:1.4rem;
+			font-size:14px;
 			font-weight:400;
 		}
 	}
@@ -100,23 +100,27 @@
 /* List items */
 .price-table .price > li {
 	border-bottom: 1px solid #eee;
-	padding: 1rem 2rem;
+	padding: 10px 20px;
 	text-align: left;
-	font-size: 1.6rem;
+	font-size: 1rem;
 	width:100%;
 	display: flex;
 	font-weight:400;
 	margin: 0;
 	
 	.btn {
-		 margin: 2rem auto;
-		 padding: 1rem 4rem;
+		 margin: 20px auto;
+		 padding: 10px 40px;
+		 border-radius: 50px;
 	}
 	
 	&.checked,
 	&.ex{
 		display: block;
-		padding-left: 4rem;
+		padding-left: 40px;
+	}
+	&.ex{
+		text-decoration: line-through;
 	}
 }
 
@@ -124,7 +128,7 @@
 	content: "\f00c";
 	font-family: "fontAwesome";
 	color:#4CAF50;
-	margin-left: -2rem;
+	margin-left: -20px;
     position: absolute;
 }
 
@@ -132,7 +136,7 @@
 	content: "\f00d";
 	font-family: "fontAwesome";
 	color:#A31523;
-	margin-left: -2rem;
+	margin-left: -20px;
     position: absolute;
 }
 
@@ -151,22 +155,22 @@
 	li{
 		margin-left:0;
 		background: none;
-		padding: 1rem 2rem;
+		padding: 10px 20px;
 		display: flex;
 		flex-direction: column;
-		font-size:1.4rem;
+		font-size:14px;
 		font-weight:400;
 		width:100%;
 		
 		span{
 			width:100%;
-			font-size:2rem;
+			font-size:1.25rem;
 			font-weight:700;
 			display: block;
 			
 			em{
 				font-weight: 700;
-				font-size: 1.2rem;
+				font-size: 0.75;
 			}
 		}
 	}

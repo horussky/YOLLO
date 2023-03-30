@@ -2,13 +2,13 @@
 	display: grid;
     grid-auto-columns: minmax(25%, 100%);
     grid-auto-flow: column;
-    grid-gap: 0 2rem;
+    grid-gap: 0 20px;
 	
 	//ms prefix
 	display: -ms-grid;
 	-ms-grid-columns:48% 4% 48%;
 	
-	margin-bottom:4rem;
+	margin-bottom:40px;
 }
 
 .hotel-box * {
@@ -22,7 +22,7 @@
   overflow: hidden;
   color: #ffffff;
   text-align: left;
-  font-size: 1.6rem;
+  font-size: 1rem;
   background-size:cover;
   background-repeat:no-repeat;
   background-position: center;
@@ -57,10 +57,10 @@
  	 &:before{
 		font-family:"fontAwesome";
 		content: "\f236";
-		font-size: 1.6rem;
+		font-size: 1rem;
 		position:absolute;
-		top: 2rem;
-    	left: 2rem;
+		top: 20px;
+    	left: 20px;
 		text-align: center;
 		background-color: rgba(0,0,0,0.65);
 		border: 1px solid #fff;
@@ -76,7 +76,7 @@
 .hotel-box .hotel-title{
 	background:$yollo-red;	
 	bottom:0;
-	padding:2rem;	
+	padding:20px;	
 }
 
 
@@ -84,15 +84,15 @@
 .hotel-box .hotel-title h3{
 	font-weight:700;
 	text-transform: uppercase;
-  	font-size: 1.4rem;
+  	font-size: 14px;
   	text-align: center; 
 }
 
 
 .hotel-box img { 
   vertical-align: top;
-	    height: 15rem;
-    max-height: 15rem;
+	    height: 15px;
+    max-height: 15px;
 	width: 100%; 
   /*height: 25rem;
   object-fit: cover;*/
@@ -108,7 +108,7 @@
 .hotel-box h3 {
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 1.4rem;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -127,7 +127,7 @@
     border: 1px solid #eee;
     box-shadow: inset -5px 0px 0 0px #9E1421;
     border-radius: 1px;
-    margin-bottom: 4rem;
+    margin-bottom: 40px;
     
     /*hotel image*/
     .hg-img{
@@ -141,15 +141,15 @@
     /*hotel content*/
     .hg-body{
         grid-area: hotel-body;
-        padding: 3rem 2rem 4rem;
+        padding: 30px 20px 40px;
         
         .hg-title{
-            font-size: 2rem;
-            margin-bottom: 0.5rem;
+            font-size: 18px;
+            margin-bottom: 6px;
             font-weight: 700;
             
             span.sold{
-                font-size: 1.2rem;
+                font-size: 12px;
                 text-transform: uppercase;
                 color:#9E1421;
             }
@@ -158,11 +158,11 @@
         /*Hotel Address*/
         address{
             color:#666;
-            font-size: 1.4rem;
+            font-size: 14px;
             
             i{
                 color:#9E1421;
-                margin-right:0.5rem;
+                margin-right:6px;
             }
         }
     }
@@ -183,7 +183,7 @@
     padding: 5px 10px;
     right: 0;
     top: -28px;
-    font-size: 1.2rem;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
 }

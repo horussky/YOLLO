@@ -1,5 +1,5 @@
 //Bootstrap
-@import '../scss/vendor/_bootstrap.4.1.scss'; //bootstrap
+@import '../scss/vendor/_bootstrap.scss'; //bootstrap 5.3
 
 // Base CSS
 @import '../scss/components/_variables.scss';
@@ -7,7 +7,7 @@
 @import '../scss/components/_fonts.scss';
 @import '../scss/components/_typography.scss';
 @import '../scss/mixins/_mixins.scss';
-@import '../scss/components/_main-styles.scss'; 
+@import '../scss/components/_main-styles.scss';  
 
 // Component CSS
 @import '../scss/components/_hover.scss';
@@ -29,6 +29,9 @@
 @import '../scss/components/_image-header.scss';
 @import '../scss/components/_tables.scss';
 
+// Event Page
+@import '../scss/components/_event-lp.scss';
+
 
 // Vendor CSS
 @import '../scss/vendor/_pushy.scss'; //pushy off canvas drawer menu
@@ -39,3 +42,4 @@
 
 // Custom CSS
 @import '../scss/components/_custom.scss';/* CSS Document */ 
+@import '../scss/components/_helpers.scss'; 

@@ -1,0 +1,151 @@
+/*helper classes*/
+.smallmargin{
+	margin-bottom: 1rem;
+  }
+  
+  .mediummargin{
+	margin-bottom: 2rem;
+  }
+  
+  .largemargin{
+	margin-bottom: 4rem;
+  }
+  
+  .img-responsive{
+	  max-width: 100%;
+	  height: auto;
+  }
+  
+  //margin classes
+  .mt-5{
+	  margin-top:0.5rem;
+  }
+  
+  .mt-10{
+	  margin-top:1rem;
+  }
+  
+  .mt-20{
+	  margin-top:2rem;
+  }
+  
+  .mt-40{
+	  margin-top:4rem;
+  }
+  
+  .ml-5{
+	  margin-left:0.5rem;
+  }
+  
+  .ml-10{
+	  margin-left:1rem;
+  }
+  
+  .ml-20{
+	  margin-left:2rem;
+  }
+  
+  .mb-5{
+	  margin-bottom:0.5rem;
+  }
+  
+  .mb-10{
+	  margin-bottom:1rem;
+  }
+  
+  .mb-20{
+	  margin-bottom:2rem;
+  }
+  
+  .mb-40{
+	  margin-bottom:4rem;
+  }
+  
+  .mr-5{
+	  margin-right:0.5rem;
+  }
+  
+  .mr-10{
+	  margin-right:1rem;
+  }
+  
+  .mr-20{
+	  margin-right:2rem;
+  }
+  
+  .close-x{
+	width: 32px;
+	height: 32px;
+	opacity: 0.3;
+	  
+	  &:hover {
+			opacity: 1;
+	  }
+	  
+	  &:before, 
+	  &:after {
+		position: absolute;
+		left: 15px;
+		content: ' ';
+		height: 33px;
+		width: 2px;
+		background-color: #333;
+	  }
+	  
+	  &:before {
+		transform: rotate(45deg);
+	  }
+	  &:after {
+		transform: rotate(-45deg);
+	  }
+  }
+  
+  
+  /*Remove Cognito Logo from Form*/
+  .cognito form + div {
+	  opacity: 0!important;
+	  visibility: hidden!important;
+  }
+  
+  /*Fix Cognito breadcrumb */
+  .cognito .c-forms-form .c-progress-steps li:before {
+	  border-radius: 0;
+	  font-size: 1.6rem!important;
+	  padding: 0!important;
+  }
+  
+  /*Fix help text in Cognito*/
+  .cognito .c-helptext p {
+	  font-size: 1.2rem;
+	  line-height: 1.5;
+	  color: #333;
+  } 
+  
+  /*Remove Event Page Social Aside*/
+  
+  #event-pg{
+  
+	  aside#social{
+		  display: none;
+	  }
+  
+	  #left{
+		  width: 25%;
+	  }
+  
+	  #right{
+		  width: 75%;
+		  padding-right: 0;
+	  }
+  
+  }
+  
+  .gray-100{background-color: #f8f9fa;}
+  .gray-200{background-color: #e9ecef;}
+  .gray-300{background-color: #dee2e6;}
+  .gray-400{background-color: #ced4da;}
+  .gray-500{background-color: #adb5bd;}
+  .gray-600{background-color: #6c757d;}
+  .gray-700{background-color: #495057;}
+  .gray-800{background-color: #343a40;}
+  .gray-900{background-color: #212529;}

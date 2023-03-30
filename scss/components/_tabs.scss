@@ -99,7 +99,7 @@
 	> label {
 		order: 1; // Put the labels first
 		display: block;
-		padding: 1rem 2rem;
+		padding: 16px 24px;
 		//margin-right: 0.2rem;
 		cursor: pointer;
 		//background: #90CAF9;
@@ -108,7 +108,7 @@
 		margin-bottom: 0;
 		color: #0065a2;
 		font-family:"opensans-lite", sans-serif; 
-		font-size:1.8rem;
+		font-size:18px;
         
 		&:hover{
 			color:#222;
