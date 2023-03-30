@@ -7,7 +7,7 @@ include 'includes/meta.config.inc.php';
 $event = array(
 	"title"						=>"Party Gras: Bottles and Beads",
 	"subtitle"					=>"More than an event, it's an EXPERIENCE!",
-	"location"					=>"Chattanooga, TN",
+	"location"					=>"Montgomery, AL",
 	"date"						=>"August 11 - 13, 2023",
     "date_start"				=>"August 11, 2023",
 	"img_url"				 	=>"../../images/slides/splash-partygras-cta.jpg",
@@ -16,7 +16,7 @@ $event = array(
 
 $geolocation = array(
 	"cruise1"=> array(
-		"title" 		=>"Southern Belle Riverboat",
+		"title" 		=>"Harriott II Riverboat",
 		"ship"			=>"https://media-cdn.tripadvisor.com/media/photo-s/05/21/4d/e3/southern-belle-riverboat.jpg",
 		"soldout"		=> false,
 		"img_url"		=>"https://media-cdn.tripadvisor.com/media/photo-s/05/21/4d/e3/southern-belle-riverboat.jpg",
@@ -37,7 +37,7 @@ $people = array(
 		),
 
 		"options"=>array(
-			"Hotel Only" =>"$200 (One night)"
+			"Hotel Only" =>"$500 (One night)"
 		),
 
 );
@@ -46,13 +46,13 @@ $people = array(
 $package_items = array(
 	"diamond_items" => array(
         "Crowd Control by: DJ Dre Smoove"                 => "checked",
-        "Poets: Georgia Me and Friends 2p-5p"                                           => "checked",
-        "Comedians: Big Kenney and Friends"                                          => "checked",
-        "Live Performances by:T.B.A. Powered by: FAME Live Magazine"       => "checked",
+        "Poets: TBA 2p-5p"                                           => "checked",
+        "Comedians: TBA"                                          => "checked",
+        "Live Performances by:T.B.A."       => "checked",
         "Meet and Greet with Bottomless Signature Cocktails by Pour Crazy Bartending"                                     => "checked",
         "Colors and Cocktails Experience with Bottomless Signature Cocktails by Pour Crazy Bartending"                       => "checked",
         "Party Gras: Bottles and Beads Kick Off Party"                       => "checked",
-        "9th annual Party Gras: Bottles and Beads Cruise 10:30p -1:30a"			        => "checked"
+        "10th annual Party Gras: Bottles and Beads Cruise 8:30p -12:30a"			        => "checked"
 		
 	),
 
@@ -135,9 +135,9 @@ $package_items = array(
 
                     <?php echo $responsive_tabs["overview"]; ?>
 					<div class="tab" aria-label="overview">
-                        <h3>Party Gras is BACK and in Tennessee</h3>
+                        <h2 class="h4">Party Gras coming home to Montgomery </h2>
 
-                        <p>Returning for our 9th Edition of PartyGras, we have now made it a Weekend Event. This will be a weekend of good music, adult drinks, mingling, and fun for everyone attending. The Southern Belle features three (3) party decks with multiple DJ's. Live entertainment will feature spoken word artists, comedians, and performances by R&B/Hip Hop artist! FREE margaritas will be on deck at our welcome reception! <strong>This event WILL SELL OUT quickly</strong>, so purchase your tickets today. For questions and tickets call: <strong>(888) 946-9655 </strong> or <a data-href="#tabs-5" class="open-tab">purchase your tickets online now.</a></p> 
+                        <p>Returning for our 10th Edition of Party Gras, we have now made it a Weekend Event. This will be a weekend of good music, adult drinks, mingling, and fun for everyone attending. The original host Harriott II riverboat will features three (3) party decks with multiple DJ's. Weekend events will include live entertainment features by spoken word artists, comedians, and performances by R&B/Hip Hop artist! FREE margaritas will be on deck at our welcome reception! <strong>This event WILL SELL OUT quickly</strong>, so purchase your tickets today. For questions and tickets call: <strong>(888) 946-9655 </strong> or <a data-href="#tabs-5" class="open-tab">purchase your tickets online now.</a></p> 
                       
 
                         <iframe height="400" src="https://www.youtube.com/embed/fd0p_eoSRYM" style="aspect-ratio: 16/9; margin-bottom: 2.4rem; width: 100%;"></iframe>
@@ -152,7 +152,7 @@ $package_items = array(
 									<td>Partygras Kickoff<br>
 										<p class="small"></p>
 									</td>
-									<td>Time TBD</td>
+									<td>Time 10p - 2a</td>
 								</tr>
 							</tbody>
 							<tbody>
@@ -161,36 +161,36 @@ $package_items = array(
 								</tr>
 								<tr>
 									<td>Colors and Cocktails<br><p class="small">Sip and Paint with Signature Cocktails by Pour Crazy Bartending </p></td>
-									<td>10:30AM - 1PM</td>
+									<td>TBA</td>
 								</tr>
 								<tr>
 									<td>Comedy/Poetry/Live Performances<br><p class="small">featuring Big Kenney & Friends for the comedy show, Georgia Me & Friends for spoken word, and Live entertainers, hosted by Akshun of FAME Live</p></td>
-									<td>2PM - 5PM</td>
+									<td>TBA</td>
 								</tr>
 								<tr>
 									<td>Meet and Greet <p class="small">with Bottomless Signature Cocktails by Pour Crazy Bartending  </p></td>
-									<td>6PM - 8PM</td>
+									<td>TBA</td>
 								</tr>
 								<tr>
 									<td>Cruise Boarding</td>
-									<td>10:00PM</td>
+									<td>8:30PM - 12:30AM</td>
 								</tr>
 								<tr>
 									<td>Cruise Party time <p class="small">sounds by DJ Dre Smoove</p></td>
-									<td>10:30PM - 1:00AM</td>
+									<td>8:30PM - 12:00AM</td>
 								</tr>
 								
 							</tbody>
 							<tfoot>
 								<tr>
-									<td colspan="2">*All times are based on Eastern Time Zone.</td>
+									<td colspan="2">*All times are based on Central Time Zone.</td>
 								</tr>
 							</tfoot>
 						</table>
 
 				
 
-                        <p>We are also providing hotel accommodations via the <a href="https://www.my-event.hilton.com/chachdt-pag-f6052956-954f-4049-9624-8054f0dbdd0f/" target="_blank">Doubletree by Hilton Downtown Chattanooga.</a></p>
+                        <p>We are also providing hotel accommodations via the <a href="https://www.my-event.hilton.com/chachdt-pag-f6052956-954f-4049-9624-8054f0dbdd0f/" target="_blank">Renaissance Montgomery Hotel & Spa.</a></p>
     
 
                     </div> <!-- ./ overview -->
@@ -199,7 +199,7 @@ $package_items = array(
                     <?php echo $responsive_tabs["price"]; ?>
 					<div class="tab" aria-label="price">
 
-                        <h3>Cruise</h3>
+                        <h2 class="h4">Cruise</h2>
 						
                         <?php foreach($geolocation as $hotel) :?>
                         <div class="hotel-grid">
@@ -222,7 +222,7 @@ $package_items = array(
                        
                         <hr />
 
-                        <h3>Price</h3>
+                        <h2 class="h4">Price</h2>
                                     
 						<div class="price-table-container">
 
@@ -255,7 +255,7 @@ $package_items = array(
                     <?php echo $responsive_tabs["faqs"]; ?>
 					<div class="tab" aria-label="faqs">
 
-                        <h3>Frequently Asked Questions</h3>
+                        <h2 class="h4">Frequently Asked Questions</h2>
                         
                         
                         <div data-accordion-group>
@@ -400,7 +400,7 @@ $package_items = array(
                     <?php echo $responsive_tabs["buynow"]; ?>
                     <div class="tab" aria-label="buy">
                         
-                        <h3>Buy Now</h3>
+                        <h2 class="h4">Buy Now</h2>
                         
                         <?php /* ?>
 

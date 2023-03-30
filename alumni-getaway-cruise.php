@@ -4,23 +4,23 @@ include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"					=> "Alumni Getaway 2022",
+	"title"					=> "Alumni Getaway 2023",
 	"subtitle"				=> "The LIVEST HBCU Alumni party at SEA!",
-	"location"				=> "Amber Cove, Dominican Republic",
-	"date"					=> "Dec 5 - 10 2022",
-    "date_start"			=> "December 5, 2022",
+	"location"				=> "Mahogany Bay and Cozumel",
+	"date"					=> "Dec 2 - 7 2023",
+    "date_start"			=> "December 2, 2023",
 	"img_url"				=> "../../images/slides/splash-alumni-cta.jpg",
 	"img_alt"				=> "Alumni Getaway"
 );
 
 $geolocation = array(
 	"cruise1"=> array(
-		"title" 			=> "Carnival Freedom",
-		"ship"				=> "hhttps://media-cdn.tripadvisor.com/media/photo-s/18/10/5d/4f/carnival-elation-at-grand.jpg",
-		"location"		    => "Port Canaveral",
-        "address"			=> "9245 Charles M Rowland Dr, Port Canaveral, FL 32920",
+		"title" 			=> "Carnival Paradise",
+		"ship"				=> "https://media-cdn.tripadvisor.com/media/photo-w/17/07/d0/71/5c1ff8b0a8edd328431444.jpg",
+		"location"		    => "Tampa Bay",
+        "address"			=> "815 Channelside Dr, Tampa, FL 33602",
 		"soldout"			=> false,
-		"img_url"			=> "https://media-cdn.tripadvisor.com/media/photo-s/18/10/5d/4f/carnival-elation-at-grand.jpg"
+		"img_url"			=> "https://media-cdn.tripadvisor.com/media/photo-w/17/07/d0/71/5c1ff8b0a8edd328431444.jpg"
 
 	),
 
@@ -28,9 +28,9 @@ $geolocation = array(
 
 $people = array(
 		"diamond"=> array(
-			"Group of 4" 			=> "$ SOLDOUT",
-			"Group of 3"			=> "$875",
-			"Group of 2"			=> "$955",
+			"Group of 4" 			=> "$875",
+			"Group of 3"			=> "$1,050",
+			"Group of 2"			=> "$1,205",
 			"Individual"			=> "$1,450"
 		),
 
@@ -46,19 +46,19 @@ $people = array(
 
 $package_items = array(
 	"diamond_items" => array(
-		"5 Day/4 Night Cruise Departing From Port Canaveral (Orlando), FL"		=> "checked",
+		"5 Day/4 Night Cruise Departing From Tampa"		=> "checked",
 		"All You Can Eat aboard Ship"								        => "checked",
 		"Bust a Gut Alumni Getaway Comedy Series"					        => "checked",
-		"Alumni Getaway Private 80's vs 90's Decade Party"		                => "checked",
+		"Alumni Getaway Private 80's vs 90's Decade Party"		            => "checked",
 		"Word Easy Private Spoken Word Show"						        => "checked",
 		"Alumni Getaway Private Welcome Reception"					        => "checked",
 		"Alumni Getaway Private Meet and Greet Social"					    => "checked",
-		"Alumni Getaway Exclusive Kangol and Shelltoes Party"		        => "checked",
+		"Alumni Getaway Exclusive Boots and Dukes Party"		        	=> "checked",
 		"Alumni Getaway Beach Retreat"								        => "checked",
 		"Alumni Getaway Ocean Blue Fun and Sexy Party"				        => "checked",
 		"Alumni Getaway Farewell Party"									    => "checked",
 		"Alumni Getaway Private Black Film Review"					        => "checked",
-		"Alumni Getaway Playa's Ball"					            => "checked",
+		"Alumni Getaway Rep your HBCU Party"					            => "checked",
 		"YOLLO Gift Bag"											        => "checked"
 	),
 
@@ -75,12 +75,12 @@ $package_items = array(
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title><?php echo $metas['alumni21']['title']; ?></title>
+    <title><?php echo $metas['alumni']['title']; ?></title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="<?php echo $metas['alumni21']['desc']; ?>" />
-    <meta name="keywords" content="<?php echo $metas['alumni21']['keywords']; ?>" />
+    <meta name="description" content="<?php echo $metas['alumni']['desc']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['alumni']['keywords']; ?>" />
     <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-    <link href="<?php echo $metas['alumni21']['canonical']; ?>" rel="canonical" />
+    <link href="<?php echo $metas['alumni']['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
     <meta property="fb:pages" content="117420764961518" />
     <link rel="icon" href="favicon-192.png" sizes="192x192">
@@ -116,6 +116,7 @@ $package_items = array(
 					<h1><?php echo $event["title"]; ?></h1>
 					<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
 					<a data-href="#tabs-5" class="btn btn-red open-tab">Pay or Register Now</a>
+					<a class="btn btn-outlined btn--round" href="/alumni-getaway-events" target="_blank">Event Listing</a>
 					<div id="event-timer"></div>
 				</div>
 			</div>
@@ -136,54 +137,54 @@ $package_items = array(
                 <div class="colfull">
         
                     <div id="responsive-tabs">
-                    
-
 
                     <?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
-                        <h3>Alumni Getaway is going to Amber Cove, Dominican Republic!</h3>
+                        <h2 class="h4">HBCU Alumni Getaway is heading to Mahogany Bay, Isla Roatan and Cozumel Mexico!</h2>
 
-                        <p>Calling all alums, this Alumni Getaway cruise is the "catch-up" vacation for you. We are bringing together HBCU alums from all over the country to represent their university. There's no better way to meet and mingle than cruising aboard the Carnival Elation. We're taking you to the beautiful island of Amber Cove! Not a product of an HBCU? No worries, this cruise isn't exclusive to only HBCU alumni. Everyone is welcome to rep their university on this exotic getaway cruise.</p>
-                        
-                        <p>While cruising over the Caribbean, we have much to keep you occupied. You should look forward to comedy shows, a talent show, spades tournament, and more. Our DJ's are working the 1's and 2's for a variety of onboard clubs and decks. Our theme parties, “Kangol and Shelltoes” and “Ocean Blue Fun and Sexy” will also keep the camaraderie going all weekend.</p> 
-                        
-                        <p>Do not hesitate on this package. Book this great cruise package today! Spaces will fill up quick for this exciting event so make sure you sign up TODAY!</p>
+                        <p>This HBCU Alumni Getaway Cruise is ideal for all alumni looking to catch up. We're bringing together alums and Greek organizations from across the country to represent their alma mater as we sail to Cozumel and the stunning Mahogany Bay. Mohogany Bay's beaches are among the best in the world, with breathtaking views and unrivaled, crystal-clear waters. In addition, we will sail to the lovely and shopping-friendly island of Cozumel, Mexico.</p>
+
+						<p>YOLLO offers a variety of seaside activities and entertainment. We have comedy, spoken word, and film nights, as well as several theme parties and a spades tournament. For your enjoyment, our DJs can be found playing in various clubs and decks throughout the ship.</p>
+
+						<p>This package should not be overlooked. <a data-href="#tabs-5" href="#" class="open-tab">Book this fantastic cruise package</a> right now! Spaces for this exciting event are limited, so sign up TODAY!</p>
                         
                         <table class="itinerary">
-                            <caption>Cruise Itinerary</caption>
-                            <tbody>
-                                <tr>
-                                    <td>Monday</td>
-                                    <td>Departure: Port Canaveral (Orlando), FL 3:30PM</td>
-                                </tr>
-                                <tr>
-                                    <td>Tuesday</td>
-                                    <td>Fun Day At Sea</td>
-                                </tr>
-                                <tr>
-                                    <td>Wednesday</td>
-                                    <td>Grand Turks 9AM-5PM</td>
-                                </tr>
-                                <tr>
-                                    <td>Thursday</td>
-                                    <td>Amber Cove 7AM-3PM</td>
-                                </tr>
-                                <tr>
-                                    <td>Friday</td>
-                                    <td>Fun Day At Sea</td>
-                                </tr>
-                                <tr>
-                                    <td>Saturday</td>
-                                    <td>Return: Port Canaveral (Orlando), FL 8AM</td>
-                                </tr> 
-                            
-                            </tbody>
-                            <tfoot>
-                                <tr>
-                                    <td colspan="2">*All times are based on Eastern Time Zone.</td>
-                                </tr>
-                            </tfoot>
-                        </table>
+							<caption>Cruise Itinerary</caption>
+							<thead>
+								<tr><th colspan="2" class="small">*All times are based on Eastern Time Zone.</th></tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Saturday</td>
+									<td>Departure: Tampa Bay Port, FL 4PM</td>
+								</tr>
+								<tr>
+									<td>Sunday</td>
+									<td>Fun Day At Sea</td>
+								</tr>
+								<tr>
+									<td>Monday</td>
+									<td>Mahogany Bay, Isla Roatan 11AM-7PM</td>
+								</tr>
+								<tr>
+									<td>Tuesday</td>
+									<td>Cozumel, Mexico 11AM-8PM</td>
+								</tr>
+								<tr>
+									<td>Wednesday</td>
+									<td>Fun Day At Sea</td>
+								</tr>
+								<tr>
+									<td>Thursday</td>
+									<td>Return: Tampa Bay Port, FL 8AM</td>
+								</tr> 
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="2"><a href="/alumni-getaway-events">View Event Listing</a></td>
+								</tr>
+							</tfoot>
+						</table>
 
 
                     </div> <!-- ./ overview -->
@@ -192,7 +193,7 @@ $package_items = array(
                     <?php echo $responsive_tabs["price"]; ?>
 						<div class="tab" aria-label="price">
 
-                    	<h3>Cruise</h3>
+                    	<h2 class="h4">Cruise</h2>
                         <?php foreach($geolocation as $hotel) :?>
                             <div class="hotel-grid">
                                     <div class="hg-img">
@@ -215,29 +216,29 @@ $package_items = array(
                         <table class="itinerary">
                             <caption>Cruise Itinerary</caption>
                             <tbody>
+							<tr>
+                                    <td>Saturday</td>
+                                    <td>Departure: Tampa Bay Port, FL 4PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Sunday</td>
+                                    <td>Fun Day At Sea</td>
+                                </tr>
                                 <tr>
                                     <td>Monday</td>
-                                    <td>Departure: Port Canaveral (Orlando), FL 3:30PM</td>
+                                    <td>Mahogany Bay, Isla Roatan 11AM-7PM</td>
                                 </tr>
                                 <tr>
                                     <td>Tuesday</td>
-                                    <td>Fun Day At Sea</td>
+                                    <td>Cozumel, Mexico 11AM-8PM</td>
                                 </tr>
                                 <tr>
                                     <td>Wednesday</td>
-                                    <td>Amber Cove 10:30AM-6:30PM</td>
-                                </tr>
-                                <tr>
-                                    <td>Thursday</td>
-                                    <td>Grand Turk 8AM-4PM</td>
-                                </tr>
-                                <tr>
-                                    <td>Friday</td>
                                     <td>Fun Day At Sea</td>
                                 </tr>
                                 <tr>
-                                    <td>Saturday</td>
-                                    <td>Return: Port Canaveral (Orlando), FL 8AM</td>
+                                    <td>Thursday</td>
+                                    <td>Return: Tampa Bay Port, FL 8AM</td>
                                 </tr> 
                             
                             </tbody>
@@ -250,7 +251,7 @@ $package_items = array(
 
                       <hr />
 
-                        <h3>Price</h3>
+					  <h2 class="h4">Price</h2>
                                     
                         <div class="price-table-container">
 
@@ -285,7 +286,7 @@ $package_items = array(
                     <?php echo $responsive_tabs["faqs"]; ?>
 					<div class="tab" aria-label="faqs">
 
-                        <h3>Frequently Asked Questions</h3>
+						<h2 class="h4">Frequently Asked Questions</h2>
                         
                         
                         <div data-accordion-group>	
@@ -358,7 +359,7 @@ $package_items = array(
 
 							  <div data-control>When are the payments due?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee <strong> at sign-up</strong>. The first payment of <strong>$250</strong> per person is due on or before  <strong>October 16, 2022</strong>. The second payment of $300 is due on or before <strong>November 02 , 2022</strong>. The final payment (remaining balance) is due on or before <strong>November 16, 2022</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee <strong> at sign-up</strong>. The first payment of <strong>$250</strong> per person is due on or before  <strong>April 20, 2023</strong>. The second payment of $300 is due on or before <strong>May 20 , 2023</strong>. The final payment (remaining balance) is due on or before <strong>July 1, 2023</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -378,7 +379,7 @@ $package_items = array(
 
 							  <div data-control>What port are we departing from and what time do I need to be there?</div>
 							  <div data-content>
-								<p>The Carnival Freedom sails from Port Canaveral (Orlando), FL. We suggest arriving no later than 2:00 PM.</p>
+								<p>The Carnival Paradise sails from Port Tampa Bay. We suggest arriving no later than 2:00 PM.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -424,18 +425,18 @@ $package_items = array(
                     <?php echo $responsive_tabs["photos"]; ?>
 						<div class="tab" aria-label="photos">
 								<div id="nanoGallery"></div>
-						</div><!-- ./ photos -->
+					</div><!-- ./ photos -->     
 
 
                     <?php echo $responsive_tabs["buynow"]; ?>
 						<div class="tab" aria-label="buy">
 											
-                            <h3>Buy Now</h3>
+							<h2 class="h4">Buy Now</h2>
 
                             <div class="pay-form">
                                 <p>Please use the form below to complete your booking for <?php echo $event["title"]?>. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
                                 
-                                <div class="cognito"></div>
+								<script src="https://www.cognitoforms.com/f/seamless.js" data-key="NiNAkf4LukqBZOHDFOMsiQ" data-form="62"></script>
 
                             </div><!-- end of pay-form -->
 
@@ -451,7 +452,7 @@ $package_items = array(
 
 	     <div class="disclosure">
 
-	     		<?php include 'includes/package-info-generic.inc.php'; ?><br/>
+	     	<?php include 'includes/package-info-generic.inc.php'; ?><br/>
 
 	          <strong>Disclaimer</strong> | The term Alumni Getaway, Carnival Cruise Lines, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. We are in no way associated with or authorized by Carnival Cruises and neither this production nor its affiliates have licensed or endorsed us to sell goods and/or services in conjunction with any Carnival Cruise productions. The use of any logos, words, trademarks, or photos have been used for Descriptive Purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.
 	    </div>
@@ -459,7 +460,7 @@ $package_items = array(
 
 
 		</div><!--end of content-->
-		</div><!--end of right-->
+	</div><!--end of right-->
 
     <aside id="social">
     	<?php include 'includes/twitter.inc.php'; ?>
@@ -503,9 +504,9 @@ $package_items = array(
 
 	});
 </script>
-<script src="https://services.cognitoforms.com/s/NiNAkf4LukqBZOHDFOMsiQ"></script>
-<script>Cognito.load("forms", { id: "62" });</script>
+
 <!--google analytics-->
 <?php include 'includes/analytics.inc.php'; ?>
+
 </body>
 </html>

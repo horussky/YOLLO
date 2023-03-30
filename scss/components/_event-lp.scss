@@ -1,0 +1,85 @@
+  /*Remove Event Page Social Aside*/
+  
+.event-landing{
+
+    .header{
+      margin: 2rem 0;
+      z-index: 9;
+    }
+  
+	  .topcontent{
+      height:540px;
+      z-index: 1;
+
+      .title h1{
+        font-size: 3.75rem;
+      }
+
+      .subtitle{
+        font-family:"Great Vibes","opensans-bold", Arial, sans-serif;
+        font-size: 2rem;
+        letter-spacing: 1px;
+      }
+
+      .title__event-logo{
+        width: 120px;
+      }
+    }
+
+}
+
+@media only screen and (max-width : 991px) {
+  .event-landing{
+
+    .header{
+      margin: 0;
+    }
+
+    .topcontent{
+      height:320px;
+
+        .title{
+          padding: 0 4rem;
+        }
+
+        .title h1{
+          font-size: 2.5rem;
+        }
+
+        .subtitle{
+          font-family:"Great Vibes","opensans-bold", Arial, sans-serif;
+          font-size: 1.5rem;
+          letter-spacing: 1px;
+        }
+
+        .title__event-logo{
+          width: 70px;
+        }
+    }
+
+  }
+}
+
+
+@media only screen and (max-width : 480px) {
+  .event-landing{
+
+    .topcontent{
+      height:320px;
+        .title h1{
+          font-size: 2rem;
+        }
+
+        .subtitle{
+          font-family:"Great Vibes","opensans-bold", Arial, sans-serif;
+          font-size: 1.25rem;
+          letter-spacing: 1px;
+        }
+
+        .title__event-logo{
+          width: 60px;
+        }
+    }
+
+  }
+}

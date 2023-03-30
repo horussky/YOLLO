@@ -8,7 +8,6 @@
     <meta name="google-site-verification" content="kOTF00jD1h-y1D-FbPleHrCN6vETPoBmtCFu7-in-KE" />
     <meta name="Description" content="YOLLO Group Services Inc. is a travel company committed to offering affordable all-inclusive travel packages for everyone." />
 	<meta name="Keywords" content="YOLLO Group Services, travel packages, all-inclusive, Urban Fantasy Cruise, Urban Fiesta Weekend, Essence Festival, NBA All-Star Weekend, Urban Ski Weekend, Magic City Classic, Travel Services, Black College Reunion, BCR, HBCU Football" />
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/splash.css?v=<?php $t=time(); echo $t; ?>" rel="stylesheet" />
     <link rel="icon" href="favicon-192.png" sizes="192x192">
 	<link rel="apple-touch-icon" href="favicon-180.png" sizes="180x180">
@@ -32,29 +31,32 @@
 				
 				<div class="row">
 
-						<div class="col-md-7">
+						<div class="col-lg-7">
 							<div class="slider">
 								<div class="event-slider">
 									<ul>
+										<li><img src="images/slides/splash-fade-to-may.jpg"></li>
+										<li><img src="images/slides/splash-egypt.jpg"></li>
+										<li><img src="images/slides/splash-dubai.jpg"></li>
+										<li><img src="images/slides/splash-nba.jpg"></li>
 										<li><img src="images/slides/splash-shamrock.jpg"></li>
 										<li><img src="images/slides/splash-alumni.jpg"></li>
 										<li><img src="images/slides/splash-essence.jpg"></li>
 										<li><img src="images/slides/splash-partygras.jpg"></li>
-										<li><img src="images/slides/splash-dubai.jpg"></li>
-										<li><img src="images/slides/splash-italy.jpg"></li>
-										<li><img src="images/slides/splash-london-to-paris.jpg"></li>
 										<li><img src="images/slides/splash-urban-ski.jpg"></li>
-										<li><img src="images/slides/splash-nba.jpg"></li>
                                         <li><img src="images/slides/splash-urban-fiesta.jpg"></li>
                                         <li><img src="images/slides/splash-follow.jpg"></li>
                                         <li><img src="images/slides/splash-talk-tues.jpg"></li>
-                                        
+                                        <li><img src="images/slides/splash-instagram.jpg"></li>
 
                                         <!-- inactive
+										
+										<li><img src="images/slides/splash-italy.jpg"></li>
+										<li><img src="images/slides/splash-london-to-paris.jpg"></li>
 										<li><img src="images/slides/splash-gsc.jpg"></li>
 										<li><img src="images/slides/splash-mcc.jpg"></li>
                                         <li><img src="images/slides/splash-tourney.jpg"></li> 
-										<li><img src="images/slides/splash-instagram.jpg"></li>
+										
 										<li><img src="images/slides/splash-gob.jpg"></li>
 										<li><img src="images/slides/splash-groove.jpg"></li>
 										<li><img src="images/slides/splash-mmf.jpg"></li>
@@ -66,15 +68,17 @@
 							</div>
 						</div>
 
-						<div class="col-md-5">
+						<div class="col-lg-5">
 							<div class="slider-content">
 								<h1>We Are Taking You To Major Events</h1>
 								<p>We provide all-inclusive packages for events such as Essence Festival, Urban Fiesta, and  NBA All-Star. Many packages include excursions, party passes, drink specials, and unbelievable fun!</p> 
 
 								<p class="largemargin">Do you want offers? It’s simple, subscribe and gain access to package discounts and early bird specials. </p>
 
-								<a href="http://eepurl.com/bgY6P" class="btn btn-red" title="Sign Up today!" target="_blank" >Subscribe Now</a>
-								<a href="/home" class="btn btn-outlined">View Our Events</a>
+								<a href="/home" class="btn  btn-red ">View Our Events</a>
+
+								<a href="http://eepurl.com/bgY6P" class="btn btn--round btn-outlined" title="Sign Up today!" target="_blank" >Subscribe Now</a>
+								
 							</div>
 						</div>
 				</div>
@@ -90,24 +94,24 @@
 	<div class="container">
 	
 		<div class="row">
-			<div class="col-md-12 largemargin"><h2 class="text-center">Why Choose Us?</h2></div>
+			<div class="col-lg-12 largemargin"><h2 class="text-center">Why Choose Us?</h2></div>
 		</div>
 	
 		<div class="row">
 
-				<div class="col-md-4 text-center">
+				<div class="col-lg-4 text-center">
 					<i class="fa fa-usd fa-2x mediummargin" aria-hidden="true"></i>
 					<h3>Amazing Value</h3>
 					<p>We provide fun and affordable all-inclusive packages for some of the best destinations across and out of the country.</p>
 				</div><!-- ./col -->
 
-				<div class="col-md-4 text-center">
+				<div class="col-lg-4 text-center">
 					<i class="fa fa-plane fa-2x mediummargin" aria-hidden="true"></i>
 					<h3>Exciting and Diverse</h3>
 					<p>Our events range from Celebrity Hosted Parties, Party Cruises, Tropical getaways, and more. Wherever there is sexy and fun, we are there!</p>
 				</div><!-- ./col -->
 
-				<div class="col-md-4 text-center">
+				<div class="col-lg-4 text-center">
 					<i class="fa fa-thumbs-up fa-2x mediummargin" aria-hidden="true"></i>
 					<h3>Quality Service</h3>
 					<p>Any events, all-inclusive or hosted, will always have a company liaison on site to assist with any customer needs and questions.</p>
@@ -126,14 +130,14 @@
 	<div class="container">
 	
 		<div class="row">
-			<div class="col-md-12 largemargin text-center">
+			<div class="col-lg-12 largemargin text-center">
 				<h2>Testimonials</h2>
 			</div>
 		</div>
 	
-		<div class="row">
+		<div class="row justify-content-center">
 
-				<div class="col-md-8 col-md-offset-2">
+				<div class="col-8">
 			
 						<div class="test">
 							<ul>
@@ -278,7 +282,7 @@ $(function(){
 		autoplay: true,
 		infinite: true,
 		nav: true,
-		delay:4000,
+		delay:5000,
 		animation: "fade"
 	})
 	

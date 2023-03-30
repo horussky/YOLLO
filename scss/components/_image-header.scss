@@ -1,6 +1,6 @@
 .topcontent { 
 	width: 100%;
-	min-height: 30rem;
+	min-height: 350px;
 	padding: 0;
 	margin-bottom: 0;
 	background-position: top center;
@@ -25,18 +25,24 @@
 		font-weight: 700;
 		align-self: center;
 		width: 100%;
-		padding: 0 12rem;
+		padding: 0 120px;
 		position: relative;
 		z-index: 99; 
+
+    .title__event-logo{
+      -webkit-animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+      animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+      animation-delay: .5s;
+    }
 		
 		h1{
 			font-family:"Merriweather","Sansita","PT Serif Caption", sans-serif;
-			font-size: 4rem;
+			font-size: 2.5rem;
       letter-spacing: -1px;
 			font-weight: 900;
 			//font-style: italic;
 			color:#fff;
-			margin-bottom: 2rem;
+			margin-bottom: 20px;
       -webkit-animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
       animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
       animation-delay: 1s;
@@ -44,47 +50,49 @@
 		
 		.subtitle{
 			font-family: 'opensans-lite', sans-serif;
-			font-size:1.4rem;
+			font-size:1.125rem;
 			color:#fff;
-			margin-bottom: 2rem;
-            -webkit-animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-            animation-delay: 1.5s;
+			margin-bottom: 20px;
+      -webkit-animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+      animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+      animation-delay: 1.5s;
 		}
         
-        .btn{
-            -webkit-animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-            animation-delay: 2s;
-            color: #fff;
-            
-            &:hover{
-                color:#fff;
-            }
-        }
+    .btn{
+        -webkit-animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+        animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+        animation-delay: 2s;
+        color: #fff;
+        margin-bottom: 32px;
+        min-width: 200px;
         
-        #event-timer{
-            -webkit-animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-            animation-delay: 2.5s; 
+        &:hover{
+            color:#fff;
         }
+    }
+    
+    #event-timer{
+      -webkit-animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+      animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+      animation-delay: 2.5s; 
+    }
 		
 	}//end of title
     
     #event-timer{
-        height: 4rem;
+        height: 40px;
         
         span{
             display: inline-block;
-            font-size: 2rem;
+            font-size: 1.5rem;
             text-align: center;
-            width:6rem;
+            width:60px;
             font-family:"opensans-bold", Arial, sans-serif;
             color: #fff;
             
             em{
                 display: block;
-                font-size: 1.2rem;
+                font-size: .875rem;
                 font-family:"opensans", Arial, sans-serif;
             }
         }

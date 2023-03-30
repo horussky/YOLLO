@@ -69,7 +69,6 @@ $menu_adjust: $menu_width - 10px;
 }
 
 .pushy-open-right{
-    #container,
     .push{
         -webkit-transform: translate3d( unquote('-' + $menu_adjust) ,0,0);
         -ms-transform: translate3d( unquote('-' + $menu_adjust) ,0,0);

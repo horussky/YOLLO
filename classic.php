@@ -5,11 +5,11 @@
     include 'includes/meta.config.inc.php';
 
 	$event = array(
-		"title"				=>"Classic Weekend 2022",
+		"title"				=>"Classic Weekend 2023",
 		"subtitle"			=>"It's the Classsssssic!",
 		"location"			=>"Legion Field | Birmingham, AL",
-		"date"				=>"October 28 - 30, 2022",
-        "date_start"		=>"October 28, 2022",
+		"date"				=>"October 26-28, 2023",
+        "date_start"		=>"October 26, 2023",
 		"img_url"			=>"../../images/slides/splash-mcc-cta.jpg",
 		"img_alt"			=>"Magic City Classic"
 	);
@@ -146,7 +146,7 @@
         <div id="responsive-tabs">
 			<?php echo $responsive_tabs["overview"]; ?>
 			<div class="tab" aria-label="overview">
-				<h3>It's Classic Weekend</h3>
+				<h2 class="h4">It's Classic Weekend</h2>
                 <div style="max-height:300px; overflow:hidden;" class="mediummargin">
                 	<img src="images/mcc-thumb<?php echo(rand(1,4)); ?>.jpg" width="100%" />
                 </div>
@@ -161,7 +161,7 @@
 		  	<?php echo $responsive_tabs["price"]; ?>
 		  	<div class="tab" aria-label="price">
 			
-				<h3>Hotels</h3>
+			  	<h2 class="h4">Hotels</h2>
 
 				
 				<?php foreach($geolocation as $hotel) :?>
@@ -186,7 +186,7 @@
 
               	<hr />
               
-              	<h3>Price</h3>
+              	<h2 class="h4">Price</h2>
               
               	<div class="price-table-container">
 					<div class="price-table">
@@ -240,7 +240,7 @@
 		  	<?php echo $responsive_tabs["faqs"]; ?>
 		  	<div class="tab" aria-label="faqs">
 				
-				<h3>Frequently Asked Questions</h3>
+			  	<h2 class="h4">Frequently Asked Questions</h2>
              	
              	<div data-accordion-group>	
 										
@@ -331,14 +331,14 @@
 		  
 		  	<?php echo $responsive_tabs["photos"]; ?>
 		  	<div class="tab" aria-label="photos">
-				<h3>Classic Weekend</h3>
+			  	<h2 class="h4">Classic Weekend</h2>
             	<div id="nanoGallery"></div>
 		  	</div><!-- ./ photos -->
 		  
 		  
 		  	<?php echo $responsive_tabs["buynow"]; ?>
 		  	<div class="tab" aria-label="buy">
-				<h3>Buy Now</h3>
+			  	<h2 class="h4">Buy Now</h2>
                 <p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
                 
                 <div class="cognito"></div>

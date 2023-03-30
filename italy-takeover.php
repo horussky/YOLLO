@@ -157,7 +157,7 @@
                         
                         <?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
-						<h3>We are making an Italian Takeover </h3>
+						<h2 class="h4">We are making an Italian Takeover </h2>
 
 						<p>YOLLO is taking you to Italy. From the grandeur of Pisa, to the medieval mystique of Venice, to the rich heritage and old world charm of Florence - Italy delivers a dream-come-true experience</p>
 
@@ -204,7 +204,7 @@
 						<div class="tab" aria-label="price">
 
 
-								<h3>Hotels</h3>
+								<h2 class="h4">Hotels</h2>
                                 
                                 <?php foreach($geolocation as $hotel) :?>
                                 <div class="hotel-grid">
@@ -228,7 +228,7 @@
 
                             	<hr />
 
-                                <h3>Price</h3>
+                                <h2 class="h4">Price</h2>
                                 
                                 <div class="price-table-container">
                                 
@@ -281,7 +281,7 @@
 
                         <?php echo $responsive_tabs["faqs"]; ?>
 						<div class="tab" aria-label="faqs">
-					    <h3>Frequently Asked Questions</h3>
+					    <h2 class="h4">Frequently Asked Questions</h2>
                        	
                        	<div data-accordion-group>	
 										
@@ -379,7 +379,7 @@
 
                         <?php /* ?><?php echo $responsive_tabs["photos"]; ?> <?php */ ?>
 						<div class="tab" aria-label="photos">
-					   	<h3>Photos</h3>
+					   	<h2 class="h4">Photos</h2>
                         		<div id="nanoGallery"></div>
                         </div>  <!-- ./photos -->
 
@@ -388,7 +388,7 @@
 
 						<?php echo $responsive_tabs["buynow"]; ?>
 						<div class="tab" aria-label="buy">
-                        	<h3>Buy Now</h3>
+                        	<h2 class="h4">Buy Now</h2>
 							<p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
 							<script src="https://www.cognitoforms.com/f/seamless.js" data-key="NiNAkf4LukqBZOHDFOMsiQ" data-form="68"></script>
                         	<!-- <div class="cognito"></div> -->

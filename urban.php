@@ -158,7 +158,7 @@ $package_items = array(
                                              
                                              
 
-                                             <h3>Jamaica is the ONLY place to be Memorial Day Weekend 2023!</h3>
+                                             <h2 class="h4">Jamaica is the ONLY place to be Memorial Day Weekend 2023!</h2>
 
                                              <p>If you missed the 2022 edition of Urban Fiesta all we can say is look at the pictures and make plans now to attend in 2023. With COVID-19 protocols slowly being relaxed we safely managed an event that was FUN, SAFE, and simply put our clients appreciated and had a memory filled weekend! Urban Fiesta 2022 was the livest event in Jamaica which was hosted by Alexis Skyy, City Girls, and others during Memorial Day weekend. There are plenty of activities to occupy your time from sun up to sun down - excursions, shopping areas, sandy beaches, parties, zip lining, and the list goes on. Let us remind you this was all on the property!<p> 
 
@@ -170,7 +170,7 @@ $package_items = array(
                                         <?php echo $responsive_tabs["price"]; ?>
 										<div class="tab" aria-label="price">
 
-                                             <h3>Hotels</h3>
+                                             <h2 class="h4">Hotels</h2>
 
                                              <?php foreach($geolocation as $hotel) :?>
                                                 <div class="hotel-grid">
@@ -192,7 +192,7 @@ $package_items = array(
 
                                              <hr />
 
-                                             <h3>Price</h3>
+                                             <h2 class="h4">Price</h2>
                                             
                                             <div class="price-table-container">
 
@@ -252,7 +252,7 @@ $package_items = array(
                                                        </div>
                                                        <hr />
                                                        
-                                                        <h3>Additional Options</h3>
+                                                        <h2 class="h4">Additional Options</h2>
                                                         <ul>
 															<li>Airport Transportation: $75 Roundtrip</li>
 															<li>Dunn's River Falls Excursion: $75pp</li>
@@ -269,7 +269,7 @@ $package_items = array(
                                         <?php echo $responsive_tabs["faqs"]; ?>
 										<div class="tab" aria-label="faqs">
 
-                                        	<h3>Frequently Asked Questions</h3>
+                                        	<h2 class="h4">Frequently Asked Questions</h2>
                                              
                                             <div data-accordion-group>	
 										
@@ -372,7 +372,7 @@ $package_items = array(
                                         <?php echo $responsive_tabs["buynow"]; ?>
 										<div class="tab" aria-label="buy">
 
-                                            <h3>Buy Now</h3>
+                                            <h2 class="h4">Buy Now</h2>
                                             <p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
                                             
                                             <div class="cognito"></div>

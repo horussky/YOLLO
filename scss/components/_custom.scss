@@ -5,14 +5,9 @@
 	.nanoGalleryContainer{
 		width:100%!important;
 		height: auto!important;
-
-		display: -ms-grid;
-		//-ms-grid-columns:1fr 5px 1fr 5px 1fr 5px 1fr;
-        -ms-grid-columns:(6, 1fr);
-
 		display: grid;
 		grid-template-columns: repeat(6, 1fr);
-		grid-gap: 1rem;
+		grid-gap: 10px;
 		justify-items: center;
 		
 		.nanoGalleryThumbnailContainer {
@@ -68,3 +63,40 @@ div.AuthorizeNetSeal * {
     color: #fff;
 }
 
+/* Pushy */
+[class^="pushy-open-"] {
+	.pushy{
+		width: 70vw;
+
+		.close-x{
+			right: 20px;
+			top: 20px;
+			height: 24px;
+		}
+	
+		.close-x:after, 
+		.close-x:before {
+			right: 8px;
+			top: 4px;
+			margin: 0;
+			height: 24px;
+		}
+	}
+
+	#wrap{
+		padding-top:100px;
+	}
+
+	
+}
+
+/* Bootstrap Override */
+.row{
+	position: relative;
+}
+
+
+/*Unslide Override*/
+.unslider-arrow{
+	border: none;
+}

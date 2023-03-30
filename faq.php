@@ -48,16 +48,15 @@ include 'includes/functions.inc.php';
     
                 <div class="colfull">
                 
-                <h2 class="title">Frequently Asked Questions</h2>
+                <h1 class="title h4">FAQs and helpful information</h1>
                 
-                <p class="lead">People often have questions about our packages or information regarding payments. Click any questions below to see the answers. </p>
                 
-					<p>For questions not answered in this section, please contact us by using the form on the <a href="/contact">Contact Page</a>, calling <a href="tel:888-946-9655">(888) 946-9655</a>, or emailing us at <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p><br />
+				<p>For questions not answered in this section, please contact us by using the form on the <a href="/contact">Contact Page</a>, emailing us at <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a>, or calling <a href="tel:888-946-9655">(888) 946-9655</a> </p>
                 
                 
                 <div data-accordion-group>
                 
-					<h4>General Questions</h4>
+					<h2 class="h5">General Questions</h2>
 					
 					
 					<div class="accordion open" data-accordion>
@@ -65,30 +64,14 @@ include 'includes/functions.inc.php';
 					  <div data-control>How do I buy or hold a spot for an event?</div>
 					  <div data-content>
 						<ul>
-							<li>To get started with reserving an event you must first pay the mandatory $29.99 Registration Fee. This will hold your spot for the event. On each event page there is a "buy now" button and a "buy now" tab. Clicking any of them will get you to the payment form for that event.</li>
+							<li>To get started with reserving an event, you must first pay the mandatory Registration Fee. This will hold your spot for the event. On each event page, there is a "Pay or Register Now" button and a "buy now" tab. Clicking any of them will get you to the payment form for that event.</li>
 							<li>The Registration Fee is non-refundable. It secures your room, transportation, and other amenities of your event package. The Registration Fee is not applied toward your total package price.</li>
 							<li>Make all payments payable to YOLLO Group Services.</li>
 						</ul>
 					  </div>
 
 					</div><!-- end of accordion-->
-					
-					
-					<div class="accordion" data-accordion>
-
-					  <div data-control>How can I contact you?</div>
-					  <div data-content>
-						<p>You can contact us using the following:</p>
-						<ul>
-							<li>For any questions or comments please use the <a href="/contact/"><strong>Contact Page</strong></a> form.</li>
-							<li>Toll-free number: <a href="tel:888-946-9655"><strong>(888) 946-9655</strong></a> </li>
-							<li>Email: <a href="mailto:onelife@goyollo.com"><strong>onelife@goyollo.com</strong></a></li>
-						</ul>
-						<p>We utilize multiple social networks. Follow us on <a href="https://twitter.com/YOLLOGSINC" title="Follow YOLLO on Twitter" target="_blank">Twitter</a>, <a title="Like YOLLO on Facebook" href="http://www.facebook.com/yollogsinc" target="_blank">Facebook</a>, and <a href="http://instagram.com/YOLLOGSINC" title="Follow YOLLO on Instagram" target="_blank">Instagram</a>. <strong>@yollogsinc</strong></p>
-					  </div>
-
-					</div><!-- end of accordion-->
-					
+				
 
 					<div class="accordion" data-accordion>
 
@@ -105,10 +88,10 @@ include 'includes/functions.inc.php';
 					  <div data-control>What forms of payment do you accept?</div>
 					  <div data-content>
 						<ul>
-							<li>Credit Card (Visa, MasterCard, American Express, and Discover) </li>
+							<li>Credit Cards (preferred): We accept Visa, MasterCard, American Express, and Discover </li>
 							<li>Cashiers Check (not accepted for final payment); Make all checks payable to YOLLO Group Services.</li>
 							<li>Money Order Make all payments payable to YOLLO Group Services.</li>
-							<li>Personal checks are NOT accepted</li>
+							<li>Personal checks are NOT ACCEPTED</li>
 						</ul>
 						<p>For credit card payments, you can use our payment form for the event under the "Buy Now" tab, otherwise please provide a copy of valid state or government issued ID, and a copy of the front and back of the credit card. This method of payment incurs a 4% processing fee. You will be contacted to verify information before card is processed.</p>
 					  </div>
@@ -222,13 +205,13 @@ include 'includes/functions.inc.php';
 
 					</div><!-- end of accordion-->
 					
-					
+				</div><!-- end of data-accordion-group-->	
 					
 					<!-- 
 					---------------------- Due Dates and Fees ----------------------
 					-->
-					
-					<h4>Due Dates and Fees</h4>
+				<div data-accordion-group>	
+					<h2 class="h5">Due Dates and Fees</h2>
 					
 					<div class="accordion" data-accordion>
 
@@ -345,14 +328,14 @@ include 'includes/functions.inc.php';
 					  </div>
 
 					</div><!-- end of accordion-->
-					
+				</div><!-- end of data-accordion-group-->	
 					
 					<!-- 
 					---------------------- Refunds ----------------------
 					-->
 					
-					
-					<h4><a id="refund"></a>Refunds and Cancellations</h4>
+				<div data-accordion-group>	
+					<h2 class="h5"><a id="refund"></a>Refunds and Cancellations</h2>
 					
 					<div class="accordion" data-accordion>
 

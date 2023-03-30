@@ -8,10 +8,10 @@
 		"title"				=>"Shamrock Sea Escape",
 		"subtitle"			=>"Celebrate St. Patrick’s Day With A Cruise to Cozumel, Mexico",
 		"location"			=>"Cozumel, MX",
-		"date"				=>"March 16-22, 2023",
-        "date_start"		=>"March 16, 2023",
+		"date"				=>"March 14-18, 2024",
+        "date_start"		=>"March 14, 2024",
 		"img_url"			=>"../../images/slides/splash-shamrock-cta.jpg",
-		"img_alt"			=>"Shamrock Sea Escape Banner"
+		"img_alt"			=>"Shamrock Sea Escape 61Banner"
 	);
 
 	$geolocation = array(
@@ -67,9 +67,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title><?php echo $metas['shamrock']['title']; ?></title>
+    <title>St. Patricks Day Cruise | Yollo Group Services, Inc.</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="<?php echo $metas['shamrock']['desc']; ?>" />
+    <meta name="description" content="Yollo Group Services, Inc. offers an all-inclusive St. Patricks Day Cruise. Come with us on a Shamrock Sea Escape, and energize your life." />
     <meta name="keywords" content="<?php echo $metas['shamrock']['keywords']; ?>" />
     <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
     <link href="<?php echo $metas['shamrock']['canonical']; ?>" rel="canonical" />
@@ -104,7 +104,7 @@
             <div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
 					<div class="overlay"></div>
 					<div class="title">
-						<h1><?php echo $event["title"]; ?></h1>
+						<h1>All-Inclusive St. Patrick's Day Cruise</h1>
 						<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
 						<a data-href="#tabs-5" class="btn btn-red open-tab">Pay or Register Now</a>
 					    <div id="event-timer"></div>
@@ -128,7 +128,7 @@
                         
                         <?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
-						<h3>Join us for St. Patricks Day in Cozumel, Mexico</h3>
+						<h2 class="h4">Join us for St. Patricks Day in Cozumel, Mexico</h2>
 
 						<p>This St. Patrick's Day, sail to Cozumel, Mexico with YOLLO. Take a lovely trip down the coast and spend five days experiencing the best that the Atlantic Ocean has to offer. Visit this popular vacation destination while living it up. Expect luxury, delectable cuisine and drinks, an energetic nightlife, and devoted crew members when traveling on the Carnival Valor. We're here to make your holiday the best one yet.</p>
 
@@ -179,7 +179,7 @@
 						<div class="tab" aria-label="price">
 
 
-								<h3>Cruise</h3>
+								<h2 class="h4">Cruise</h2>
                                 
                                 <?php foreach($geolocation as $hotel) :?>
                                 <div class="hotel-grid">
@@ -234,7 +234,7 @@
 
                             	<hr />
 
-                                <h3>Price</h3>
+                                <h2 class="h4">Price</h2>
                                 
                                 <div class="price-table-container">
                                 
@@ -268,7 +268,7 @@
 
                         <?php echo $responsive_tabs["faqs"]; ?>
 						<div class="tab" aria-label="faqs">
-					    <h3>Frequently Asked Questions</h3>
+					    <h2 class="h4">Frequently Asked Questions</h2>
                        	
 						<div data-accordion-group>
 						
@@ -356,7 +356,7 @@
 
                         <?php echo $responsive_tabs["photos"]; ?>
 						<div class="tab" aria-label="photos">
-					   	<h3>Photos</h3>
+					   	<h2 class="h4">Photos</h2>
                         		<div id="nanoGallery"></div>
                         </div>  <!-- ./photos -->
 
@@ -365,7 +365,7 @@
 
 						<?php echo $responsive_tabs["buynow"]; ?>
 						<div class="tab" aria-label="buy">
-                        	<h3>Buy Now</h3>
+                        	<h2 class="h4">Buy Now</h2>
 							<p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
                         	<div class="cognito"></div>
 

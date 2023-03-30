@@ -3,7 +3,7 @@
         "home" => array(
             "title"     => "YOLLO Group Service Home Page",
             "desc"      => "You Only Live Life Once, We are an all-inclusive travel provider.",
-            "keywords"  => "YOLLO, Essence, NBA All-Star, Urban Fiesta, All-Inclusive, Party Boat, Cruise",
+            "keywords"  => "YOLLO, Essence, NBA All-Star, Urban Fiesta, All-Inclusive, Party Boat, Cruise,HBCU Alumni Getaway Cruise",
             "canonical" => "https://www.goyollo.com/home"
         ),
         "about" => array(
@@ -13,15 +13,9 @@
             "canonical" => "https://www.goyollo.com/about"
         ),
         "alumni" => array(
-            "title"     => "Alumni Getaway Cruise to Jamaica",
+            "title"     => "HBCU Alumni Getaway Cruise to Amber Cove and Grand Turk",
             "desc"      => "YOLLO is taking you on an Alumni Cruise",
-            "keywords"  => "Alumni Cruise, HBCU ALumni, SWAC, CIAA, MEAC, SIAC, Carnival Cruise, Bahamas, HBCU Cruise, Mexico cruise",
-            "canonical" => "https://www.goyollo.com/alumni-getaway-cruise"
-        ),
-        "alumni21" => array(
-            "title"     => "Alumni Getaway Cruise to Amber Cove",
-            "desc"      => "YOLLO is taking you on an Alumni Cruise",
-            "keywords"  => "Alumni Cruise, HBCU ALumni, SWAC, CIAA, MEAC, SIAC, Carnival Cruise, Bahamas, HBCU Cruise, Mexico cruise",
+            "keywords"  => "HBCU Alumni Getaway Cruise, HBCU ALumni, Carnival Cruise, Bahamas, HBCU Cruise, Mexico cruise, Grand Turk, Amber Cove",
             "canonical" => "https://www.goyollo.com/alumni-getaway-cruise"
         ),
         "blackbeach" => array(
@@ -41,6 +35,18 @@
             "desc"      => "YOLLO Group Services policies on COVID guidelines.",
             "keywords"  => "YOLLO, Covid, COVID-19, CDC Guidelines, Travel Policies",
             "canonical" => "https://www.goyollo.com/covid-policy"
+        ),
+        "dubai" => array(
+            "title"     => "Dubai Labor Day Takeover",
+            "desc"      => "YOLLO is taking you to Dubai",
+            "keywords"  => "Dubai, Dubai Takeover, International Takeover, YOLLO",
+            "canonical" => "https://www.goyollo.com/dubai-takeover"
+        ),
+        "egypt" => array(
+            "title"     => "Egypt Takeover",
+            "desc"      => "YOLLO is taking you to Egypt",
+            "keywords"  => "Egypt, Egypt Takeover, International Takeover, Mecca Takeover, YOLLO",
+            "canonical" => "https://www.goyollo.com/egypt-takeover"
         ),
         "essence" => array(
             "title"     => "Essence Festival Weekend",

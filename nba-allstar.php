@@ -4,30 +4,30 @@ include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"				=>"All-Star Weekend 2023",
-	"subtitle"			=>"The Crossroads of the West",
-	"location"			=>"Salt Lake City, UT",
-	"date"				=>"February 17, 2023",
-    "date_start"        =>"February 19, 2023",
+	"title"				=>"All-Star Weekend Indy 2024",
+	"subtitle"			=>"Save $100 if you reserve by 4.1.2023!",
+	"location"			=>"Indianapolis, IN",
+	"date"				=>"February 16, 2024",
+    "date_start"        =>"February 18, 2024",
 	"img_url"			=>"../../images/slides/splash-nba-cta.jpg",
 );
 
 $geolocation = array(
  
 	"hotel1"=> array(
-		"title" 		=>"DoubleTree Suites-Downtown",
-		"address"		=>"110 West 600 South",
-		"location"		=>"Salt Lake City, Utah 84101",
+		"title" 		=>"Holiday Inn - Downtown",
+		"address"		=>"515 West Street",
+		"location"		=>"Indianapolis, IN 46225",
 		"soldout"	    => false,
-		"img_url"		=>"//media-cdn.tripadvisor.com/media/photo-o/0c/b0/75/e6/hampton-inn-cleveland.jpg"
-	)/*,
+		"img_url"		=>"//cf.bstatic.com/xdata/images/hotel/max1280x900/234757586.jpg?k=0cfdbf49308dc1b8d1e3dd3ff937258f6f441218d3e898505f6a7e358e53f635&o=&hp=1"
+	),
     "hotel2"=> array(
-		"title" 		=>"Hilton Garden Inn Cleveland Downtown",
-		"address"		=>"1100 Carnegie Ave",
-		"location"		=>"Cleveland, OH 44115",
+		"title" 		=>"Indianapolis Marriott East",
+		"address"		=>"7202 East 21st St",
+		"location"		=>"Indianapolis, IN 46219",
 		"soldout"	    => false,
-		"img_url"		=>"//media-cdn.tripadvisor.com/media/photo-m/1280/1a/0a/5b/b8/exterior.jpg"
-	)*/
+		"img_url"		=>"//dynamic-media-cdn.tripadvisor.com/media/photo-o/26/b3/57/be/exterior.jpg?w=700&h=-1&s=1"
+	)
 
 );
 
@@ -144,9 +144,9 @@ $package_items = array(
 
             <div class="date-location">
                 <div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="col">
-                            <?php echo $event["date"]; ?>
-                    </div>
-                    <div class="col"><?php echo $event["location"]; ?></div>
+                    <?php echo $event["date"]; ?>
+                </div>
+                <div class="col"><?php echo $event["location"]; ?></div>
             </div>
 
 
@@ -156,9 +156,9 @@ $package_items = array(
 
                     <?php echo $responsive_tabs["overview"]; ?>
                     <div class="tab" aria-label="overview">
-                        <h3><?php echo $event["title"]?></h3>
+                        <h2 class="h4"><?php echo $event["title"]?></h2>
 
-                        <p>YOLLO is taking you to the "The Crossroads of the West" in 2023. Yes, Salt Lake City will host the 72nd annual All-Star game which marks the 30th anniversary of the 1993 NBA All-Star Game played in Salt Lake City. This three-day weekend event attracts lots of celebrities. Most of these celebs host some of the hottest parties in the city. </p>
+                        <p>YOLLO is taking you to the All-Star Game In Indy that will be played on February 18, 2024. It will be the 73rd edition of the All-Star Game and hosted by the Indiana Pacers at Gainbridge Fieldhouse. This is the second time that Indianapolis will host the All-Star Game; the last time the game was played in the city was in 1985 at the Hoosier Dome. This three-day weekend event attracts lots of celebrities. Most of these celebs host some of the hottest parties in the city. </p>
 
                         <p>YOLLO has an all-inclusive package to get you face-to-face with these celebrities. From party passes, hotel stay, and celebrity-hosted events, YOLLO is here for your turn up!</p>
 
@@ -174,7 +174,7 @@ $package_items = array(
                     <div class="tab" aria-label="price">
 
 
-                        <h3>Hotels</h3>
+                        <h2 class="h4">Hotels</h2>
 
                         <?php foreach($geolocation as $hotel) :?>
                         <div class="hotel-grid">
@@ -196,7 +196,7 @@ $package_items = array(
 
                             <hr />
 
-                            <h3>Price</h3>
+                            <h2 class="h4">Price</h2>
                                     
                                     <div class="price-table-container">
 
@@ -288,7 +288,7 @@ $package_items = array(
                     <?php echo $responsive_tabs["faqs"]; ?>
                     <div class="tab" aria-label="faqs">
 
-                        <h3>Frequently Asked Questions</h3>
+                        <h2 class="h4">Frequently Asked Questions</h2>
                         
                         <div data-accordion-group>	
                             
@@ -312,20 +312,20 @@ $package_items = array(
                             </div><!-- end of accordion-->
 
 
-<div class="accordion" data-accordion>
+                            <div class="accordion" data-accordion>
 
                                 <div data-control>When are the payments due?</div>
                                 <div data-content>
-                                <p>After registration the first payment of $125 is due October 2, 2022.  The second payment of $250 is due November 02, 2022. The final payment (remaining balance) is due on or before December 1, 2022.</p>
+                                <p>After registration the first payment of $125 is due April 02, 2023.  The second payment of $250 is due May 02, 2023. The final payment (remaining balance) is due on or before August 02, 2023.</p>
                                 </div>
 
                             </div><!-- end of accordion-->
 
                             <div class="accordion" data-accordion>
 
-                                <div data-control>Who won the All- Star game the last time it was hosted in Salt Lake City?</div>
+                                <div data-control>Who won the All- Star game the last time it was hosted in Indianapolis?</div>
                                 <div data-content>
-                                <p>The game was hosted in Gund Arena. The game final score was East 132 vs West 120.  Glen Rice of the Charlotte Hornets was the MVP of the game.</p>
+                                <p>The game was hosted in Hoosier Dome. The game final score was East 129 vs West 140.  The MVP was Ralph Sampson with Houston. He played 29 minutes and had 24 points with 10 rebounds.</p>
                                 </div>
 
                             </div><!-- end of accordion-->
@@ -334,7 +334,7 @@ $package_items = array(
 
                                 <div data-control>When is the NBA All-Star Game?</div>
                                 <div data-content>
-                                <p>NBA All-Star Weekend 2022 weekend will start on February 18, 2022 in Cleveland, OH. The game will be played on February 20, 2022 at Rocket Mortgage FieldHouse. </p>
+                                <p>NBA All-Star Weekend 2024 weekend will start on February 16, 2022 in Indianapolis, IN. The game will be played on February 18, 2024 at Gainbridge Fieldhouse. </p>
                                 </div>
 
                             </div><!-- end of accordion-->
@@ -390,7 +390,7 @@ comedians, as well as WNBA players and NBA Legends.</p>
                     <?php echo $responsive_tabs["buynow"]; ?>
                     <div class="tab" aria-label="buy">
 
-                        <h3>Buy Package</h3>
+                        <h2 class="h4">Buy Package</h2>
                         <p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
 
                         <div class="cognito"></div>

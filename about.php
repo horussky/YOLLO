@@ -49,7 +49,7 @@ include 'includes/meta.config.inc.php';
 		
             <div class="row mb-40">
                 <div class="col-md-8">
-                    <h2 class="title">About YOLLO Group Services Inc.</h2> 
+                    <h1 class="title h4">About YOLLO Group Services Inc.</h1> 
 
                     <p>In our humble beginnings, YOLLO Group Services provided event packages exclusively for college students, for over 10,000 customers. We have since set our focus to accommodating travelers of all ages. </p>
 

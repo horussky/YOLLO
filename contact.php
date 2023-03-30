@@ -45,11 +45,11 @@ include 'includes/functions.inc.php';
         	<div class="content">
 
           		<div class="form">
-          			<h2 class="contact title">Contact Us</h2>
+          			<h1 class="contact title h4">Contact Us</h1>
 					<p class="lead">Don't hesitate to say or ask us anything. Fill out the form below for questions or comments.</p>
 
 
-					<div class="cognito"></div>
+					<script src="https://www.cognitoforms.com/f/seamless.js" data-key="NiNAkf4LukqBZOHDFOMsiQ" data-form="56"></script>
 
                 </div>
 
@@ -88,8 +88,7 @@ include 'includes/functions.inc.php';
 	});
 </script>
 
-<script src="https://services.cognitoforms.com/s/NiNAkf4LukqBZOHDFOMsiQ"></script>
-<script>Cognito.load("forms", { id: "56" });</script>
+
 
 <!--google analytics-->
 

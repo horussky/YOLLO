@@ -8,10 +8,10 @@
 		"title"				=>"Dubai Takeover",
 		"subtitle"			=>"Taking You International",
 		"location"			=>"Dubai, United Arab Emirates",
-		"date"				=>"Aug 31 - Sept 5, 2022",
-        "date_start"		=>"Aug 31, 2022",
+		"date"				=>"Aug 31 - Sept 5, 2023",
+        "date_start"		=>"Aug 31, 2023",
 		"img_url"			=>"../../images/slides/splash-dubai-cta.jpg",
-		"img_alt"			=>"Dubai Takeover 2022"
+		"img_alt"			=>"Dubai Takeover 2023"
 	);
 
 	$geolocation = array(
@@ -30,9 +30,9 @@
 	$people = array(
 			"diamond"=> array(
 				//"Group of 4" 			=>"$1325",
-				"Group of 3"			=>"$2450",
-				"Group of 2"			=>"$2450",
-				"Individual"			=>"$3250"
+				"Group of 3"			=>"$2,875",
+				"Group of 2"			=>"$3,075",
+				"Individual"			=>"$3,299"
 			)/*,
 
 			"emerald"=> array(
@@ -48,8 +48,7 @@
 		"diamond_items" => array(
 			"Luxury Hotel Accommodations: JW Marriott"	=> "checked",
 			"Airport Transfers To Hotel"				=> "checked",
-			"Breakfast Daily + (4) Dinners"				=> "checked",
-			"50 Min Massage Spa Day OR Jet Ski Excursion (Your Choice)"=> "checked",
+			"Breakfast Daily + (3) Dinners"				=> "checked",
 			"Tickets To Dinner In The Sky"				=> "checked",
 			"Water Taxi Experience To The Gold Souk"	=> "checked",
 			"Get All Your Dubai Take Home Items"		=> "checked",
@@ -57,7 +56,7 @@
 			"Ticket To The Dubai Frame"					=> "checked",
 			"Ticket To Desert Safari Takeover" 			=> "checked",
 			"Dinner and Show plus Hookah" 				=> "checked",
-			"All White Yacht Dinner Party" 				=> "checked",
+			"All White w/ splash of UAE colors (black, green, or red) Yacht Party" 				=> "checked",
 			"All Venue Transportation with Wifi"		=> "checked",
 			"YOLLO Swag Bag"							=> "checked"
 		)/*,
@@ -82,12 +81,12 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title><?php echo $metas['essence']['title']; ?></title>
+    <title><?php echo $metas['dubai']['title']; ?></title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="<?php echo $metas['essence']['desc']; ?>" />
-    <meta name="keywords" content="<?php echo $metas['essence']['keywords']; ?>" />
+    <meta name="description" content="<?php echo $metas['dubai']['desc']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['dubai']['keywords']; ?>" />
     <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-    <link href="<?php echo $metas['essence']['canonical']; ?>" rel="canonical" />
+    <link href="<?php echo $metas['dubai']['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
     <meta property="fb:pages" content="117420764961518" />
     <link rel="icon" href="favicon-192.png" sizes="192x192">
@@ -143,13 +142,13 @@
                         
                         <?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
-						<h3>We are taking over Dubai during Labor Day!</h3>
+						<h2 class="h4">We are taking over Dubai during Labor Day!</h2>
 
 						<p>YOLLO is taking you to Dubai. With gorgeous, glittering skyscrapers, cultural wonders, and a landscape of desert and ocean, Dubai is the definition of what a 21st century city should be.</p>
 
 						<p>Dubai is vibrant and full of life, with iconic skyline, miles of beaches, family friendly water and theme parks. The city has something for everyone. With a short drive from the city, you can open up a new world of outdoor activities, including helicopter rides, hot air balloon tours, desert safaris, and camping trips.</p>
 
-						<p>Our Dubai package includes a private All-White Yacht party, Dinner in the sky, Jet ski excursion, massage and day spa, and more. Airfare is not included. Airport Transfer are FREE with ontime payments, $80 without. <strong>Passports are required. Vaccinations will be required. </strong></p>
+						<p>Our Dubai package includes a private All-White Yacht party, Dinner in the sky, Jet ski excursion, massage and day spa, and more. Airfare is not included. Airport Transfer are FREE with ontime payments, $80 without. <strong>Passports are required. Vaccinations will not be required, but is subject to change in the future. </strong></p>
 
 						<p><a data-href="#tabs-5" href="#" class="open-tab">Secure this vacation package now</a> to enjoy an unforgettable international experience.</p>
 
@@ -162,7 +161,7 @@
 						<div class="tab" aria-label="price">
 
 
-								<h3>Hotels</h3>
+								<h2 class="h4">Hotels</h2>
                                 
                                 <?php foreach($geolocation as $hotel) :?>
                                 <div class="hotel-grid">
@@ -184,7 +183,7 @@
 
                             	<hr />
 
-                                <h3>Price</h3>
+                                <h2 class="h4">Price</h2>
                                 
                                 <div class="price-table-container">
                                 
@@ -237,7 +236,7 @@
 
                         <?php echo $responsive_tabs["faqs"]; ?>
 						<div class="tab" aria-label="faqs">
-					    <h3>Frequently Asked Questions</h3>
+					    <h2 class="h4">Frequently Asked Questions</h2>
                        	
                        	<div data-accordion-group>	
 										
@@ -256,7 +255,7 @@
 
 							  <div data-control>What are the payment due?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $250 is due on or before April 16, 2021. The second payment of $250 per person is due on or before May 16, 2022. The final payment (remaining balance) is due on or before July 01, 2022. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $450 is due on or before March 05, 2023. The second payment of $450 per person is due on or before April 16, 2023. The final payment (remaining balance) is due on or before May 16, 2023. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -276,7 +275,7 @@
 
 							  <div data-control>Are vaccinations required for this trip?</div>
 							  <div data-content>
-								<p>Yes.</p>
+								<p>While vaccinations are strongly recommended, they are no longer required to travel with us internationally, as long as the country does not require it. Should a country change its policy and you choose not to comply please note we DO NOT offer refunds. We strongly suggest you purchase traveler insurance. You can make that purchase by clicking on the Travel Guard link in the lower right corner of the website. This is not a change in our policy and does not mean that negative test and perhaps health registrations will not be required, however you are now responsible for being informed on this matter. If a country does not require vaccinations vaccination cards may be required and that can with the airlines you are traveling with. The airline can confirm that requirement with you. We recommend that you confirm these requirements prior to your arrival to the airport so that you are informed. You are encouraged to plan responsibly.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -335,7 +334,7 @@
 
                         <?php /* ?><?php echo $responsive_tabs["photos"]; ?> <?php */ ?>
 						<div class="tab" aria-label="photos">
-					   	<h3>Photos</h3>
+					   	<h2 class="h4">Photos</h2>
                         		<div id="nanoGallery"></div>
                         </div>  <!-- ./photos -->
 
@@ -344,7 +343,7 @@
 
 						<?php echo $responsive_tabs["buynow"]; ?>
 						<div class="tab" aria-label="buy">
-                        	<h3>Buy Now</h3>
+                        	<h2 class="h4">Buy Now</h2>
 							<p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
 							<script src="https://www.cognitoforms.com/f/seamless.js" data-key="NiNAkf4LukqBZOHDFOMsiQ" data-form="67"></script>
                         	<!-- <div class="cognito"></div> -->

@@ -155,15 +155,15 @@
                         
                         <?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
-						<h3>Join us for the 29th Annual Essence Festival Weekend</h3>
+						<h2 class="h4">Join us for the 29th Annual Essence Festival Weekend</h2>
 
                         <p>It's amazing but this year will mark the 29th annual Essence Music Festival. This annual mega event is filled with concerts, seminars and celebrities, all sponsored by Essence Magazine. If you are looking for parties, concerts, party cruise, along with more celebrities than you can handle, then you should <a data-href="#tabs-5" class="open-tab">book with us today!</a> We are the #1 source for Essence Festival Weekend activities in 2023. </p>
 
-						<h4>The Original All-White Mid-Day Cruise Party </h4>
+						<h2 class="h5">The Original All-White Mid-Day Cruise Party </h2>
 
 						<p>This is the original All-White cruise party and the event everyone talks about during Essence Fest weekend! This is the 18th annual Mid-Day Cruise Party, happening on the biggest boat in New Orleans, Louis Armstrong, for your cruising delight. Enjoy a multi-level boat cruising the Mighty Mississippi River, while listening to the best Hip-Hop and R&amp;B music. The theme is "All White" attire preferred, but not required for this cruise.</p>
 
-						<h4>The Mid-Day Comedy Show</h4>
+						<h2 class="h5">The Mid-Day Comedy Show</h2>
 						<p>If you are ready to bust a gut, the 11th annual Mid-Day Comedy Show is the event for you. Our comedian's, like years past, will have you in stitches. If you are looking for good food, great drinks, and lots of laugh, this is the event you cannot miss. Don't think we are going to let you down with our 2023 lineup! </p>
 
 						<p>Do the right thing and <a data-href="#tabs-5" class="open-tab">Book now</a> with YOLLO Group Services Inc. and allow us to give you the best travel experience while in New Orleans!</p>
@@ -179,7 +179,7 @@
 						<div class="tab" aria-label="price">
 
 
-								<h3>Hotels</h3>
+							<h2 class="h4">Hotels</h2>
                                 
                                 <?php foreach($geolocation as $hotel) :?>
                                 <div class="hotel-grid">
@@ -201,7 +201,7 @@
 
                             	<hr />
 
-                                <h3>Price</h3>
+                                <h2 class="h4">Price</h2>
                                 
                                 <div class="price-table-container">
                                 
@@ -253,7 +253,7 @@
 
                         <?php echo $responsive_tabs["faqs"]; ?>
 						<div class="tab" aria-label="faqs">
-					    <h3>Frequently Asked Questions</h3>
+					    <h2 class="h4">Frequently Asked Questions</h2>
                        	
                        	<div data-accordion-group>	
 										
@@ -291,7 +291,7 @@
 
 							  <div data-control>What are the payment due dates for Essence Packages?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 per person is due on or before December 06, 2022. The second payment of $250 per person is due on or before January  16, 2023. The final payment (remaining balance) is due on or before March 04, 2023. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 per person is due on or before March 27, 2023. The second payment of $250 per person is due on or before April 20, 2023. The final payment (remaining balance) is due on or before May 13, 2023. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -430,7 +430,7 @@
 
                         <?php echo $responsive_tabs["photos"]; ?>
 						<div class="tab" aria-label="photos">
-					   	<h3>Photos</h3>
+						<h2 class="h4">Photos</h2>
                         		<div id="nanoGallery"></div>
                         </div>  <!-- ./photos -->
 
