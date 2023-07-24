@@ -35,14 +35,14 @@
 							<div class="slider">
 								<div class="event-slider">
 									<ul>
-										<li><img src="images/slides/splash-fade-to-may.jpg"></li>
+										<li><img src="images/slides/splash-urban-fiesta-puerto-rico.jpg"></li>
+										<li><img src="images/slides/splash-essence.jpg"></li>
+										<li><img src="images/slides/splash-alumni.jpg"></li>
+										<li><img src="images/slides/splash-partygras.jpg"></li>
 										<li><img src="images/slides/splash-egypt.jpg"></li>
 										<li><img src="images/slides/splash-dubai.jpg"></li>
 										<li><img src="images/slides/splash-nba.jpg"></li>
 										<li><img src="images/slides/splash-shamrock.jpg"></li>
-										<li><img src="images/slides/splash-alumni.jpg"></li>
-										<li><img src="images/slides/splash-essence.jpg"></li>
-										<li><img src="images/slides/splash-partygras.jpg"></li>
 										<li><img src="images/slides/splash-urban-ski.jpg"></li>
                                         <li><img src="images/slides/splash-urban-fiesta.jpg"></li>
                                         <li><img src="images/slides/splash-follow.jpg"></li>
@@ -50,7 +50,8 @@
                                         <li><img src="images/slides/splash-instagram.jpg"></li>
 
                                         <!-- inactive
-										
+
+										<li><img src="images/slides/splash-fade-to-may.jpg"></li>
 										<li><img src="images/slides/splash-italy.jpg"></li>
 										<li><img src="images/slides/splash-london-to-paris.jpg"></li>
 										<li><img src="images/slides/splash-gsc.jpg"></li>

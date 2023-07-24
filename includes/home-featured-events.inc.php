@@ -5,9 +5,16 @@ $feature_event = array(
 
 	array(
 		"title" 	=> "Cincinnati Music Festival",
-		"date" 		=> "June 22-24, 2022",
-		"end"		=> strtotime("July 24, 2022"),
+		"date" 		=> "July 21-23, 2023",
+		"end"		=> strtotime("July 23, 2023"),
 		"img" 		=> "images/featured-events/featured-event-cmf.jpg",
+		"link" 		=> "/nati-music-festival"
+	),
+	array(
+		"title" 	=> "Grown & Sophisticated Mid-Day Cruise",
+		"date" 		=> "July 22, 2023",
+		"end"		=> strtotime("July 22, 2023"),
+		"img" 		=> "images/featured-events/featured-event-gsc.jpg",
 		"link" 		=> "/nati-music-festival"
 	),
 	array(

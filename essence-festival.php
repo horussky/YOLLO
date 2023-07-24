@@ -5,11 +5,11 @@
     include 'includes/meta.config.inc.php';
 
 	$event = array(
-		"title"				=>"Essence Music Festival 2023",
-		"subtitle"			=>"We outside in these NOLA streets!",
+		"title"				=>"Essence Music Festival 2024",
+		"subtitle"			=>"Lock In $200 Off PP Until August 1!",
 		"location"			=>"New Orleans, LA",
-		"date"				=>"June 30 - July 2, 2023",
-        "date_start"		=>"June 30, 2023",
+		"date"				=>"July 5 - 7, 2024",
+        "date_start"		=>"July 5, 2024",
 		"img_url"			=>"../../images/slides/splash-essence-cta.jpg",
 		"img_alt"			=>"Essence Festival 2017"
 	);
@@ -26,7 +26,7 @@
 
 		"hotel2"=> array(
 			"title" 			=>"Sheraton New Orleans Hotel",
-			"soldout"	        =>true,
+			"soldout"	        =>false,
 			"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-s/10/0b/10/bf/sheraton-new-orleans.jpg",
             "address"			=>"500 Canal St",
             "location"			=>"New Orleans, LA 70130",
@@ -45,17 +45,17 @@
 
 	$people = array(
 			"diamond"=> array(
-				"Group of 4" 			=>"$1325",
-				"Group of 3"			=>"$1440",
-				"Group of 2"			=>"$1555",
-				"Individual"			=>"$2500"
+				"Group of 4" 			=>"$1475",
+				"Group of 3"			=>"$1590",
+				"Group of 2"			=>"$1705",
+				"Individual"			=>"$2650"
 			),
 
 			"emerald"=> array(
-				"Group of 4" 			=>"$1075",
-				"Group of 3"			=>"$1205",
-				"Group of 2"			=>"$1310",
-				"Individual"			=>"$1945"
+				"Group of 4" 			=>"$1225",
+				"Group of 3"			=>"$1355",
+				"Group of 2"			=>"$1460",
+				"Individual"			=>"$2095"
 			)
 
 	);
@@ -71,7 +71,7 @@
 			"Welcome to NOLA party (Friday)"				    => "checked",
 			"Complimentary Additional Night*"			        => "checked",
 			"Additional nights: $349 plus tax and fees"	        => "checked",
-			"Additional concert nights (Loge Section): $185"	=> "checked",
+			"Additional concert nights (Loge Section): $210"	=> "checked",
 			"YOLLO Swag Bag"							        => "checked"
 		),
 
@@ -85,7 +85,7 @@
 			"Welcome to NOLA party (Friday)"				  => "checked",
 			"Complimentary Additional Night*"			      => "checked",
 			"Additional nights: $349 plus tax and fees"	      => "checked",
-			"Additional concert nights (Loge Section): $185" => "checked",
+			"Additional concert nights (Loge Section): $210" => "checked",
 			"YOLLO Swag Bag"							      => "checked"
 		)
 	);
@@ -155,18 +155,18 @@
                         
                         <?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
-						<h2 class="h4">Join us for the 29th Annual Essence Festival Weekend</h2>
+						<h2 class="h4">Join us for the 30th Annual Essence Festival Weekend</h2>
 
-                        <p>It's amazing but this year will mark the 29th annual Essence Music Festival. This annual mega event is filled with concerts, seminars and celebrities, all sponsored by Essence Magazine. If you are looking for parties, concerts, party cruise, along with more celebrities than you can handle, then you should <a data-href="#tabs-5" class="open-tab">book with us today!</a> We are the #1 source for Essence Festival Weekend activities in 2023. </p>
+                        <p>The Essence Music Festival has a long history, celebrating its 30th annual edition this year, and it has grown to become one of the biggest and most anticipated music festivals in the world. Apart from the concerts, there are also informative and inspiring seminars where experts, influencers, and celebrities share their insights and experiences on various topics like empowerment, culture, and entertainment. YOLLO clients can expect a truly unforgettable experience, as the festival attracts a diverse and enthusiastic crowd from all over the globe. Our Essence Music Festival 2024 hotel and party packages are convenient and ensure enjoyment for our clients, ensuring they have a seamless and memorable weekend. <a data-href="#tabs-5" class="open-tab">book with us today!</a> We are the #1 source for Essence Festival Weekend hotel and party packages in 2024. </p>
 
 						<h2 class="h5">The Original All-White Mid-Day Cruise Party </h2>
 
-						<p>This is the original All-White cruise party and the event everyone talks about during Essence Fest weekend! This is the 18th annual Mid-Day Cruise Party, happening on the biggest boat in New Orleans, Louis Armstrong, for your cruising delight. Enjoy a multi-level boat cruising the Mighty Mississippi River, while listening to the best Hip-Hop and R&amp;B music. The theme is "All White" attire preferred, but not required for this cruise.</p>
+						<p>This is the original All-White cruise party and the event everyone talks about during Essence Fest weekend 2024! This is the 19th annual Mid-Day Cruise Party, happening on the livest boat in New Orleans, Creole Queen, for your cruising delight. Enjoy a multi-level boat cruising the Mighty Mississippi River, while listening to the best Hip-Hop and R&amp;B music. The theme is "All White" attire preferred, but not required for this cruise.</p>
 
 						<h2 class="h5">The Mid-Day Comedy Show</h2>
-						<p>If you are ready to bust a gut, the 11th annual Mid-Day Comedy Show is the event for you. Our comedian's, like years past, will have you in stitches. If you are looking for good food, great drinks, and lots of laugh, this is the event you cannot miss. Don't think we are going to let you down with our 2023 lineup! </p>
+						<p>If you are ready to bust a gut, the 12th annual Mid-Day Comedy Show is the event for you. Our comedian's, like years past, will have you in stitches. If you are looking for good food, great drinks, and lots of laugh, this is the event you cannot miss. Don't think we are going to let you down with our 2024 lineup! </p>
 
-						<p>Do the right thing and <a data-href="#tabs-5" class="open-tab">Book now</a> with YOLLO Group Services Inc. and allow us to give you the best travel experience while in New Orleans!</p>
+						<p>With its perfect blend of concerts, seminars, parties, and celebrities, YOLLO hotel and party packages for Essence Music Festival weekend 2024 promises an unparalleled weekend, etching cherished moments in the hearts of all who partake in its magic. <a data-href="#tabs-5" class="open-tab">Book now</a> with YOLLO Group Services Inc. and allow us to give you the best travel experience while in New Orleans!</p>
 
 
 
@@ -291,7 +291,7 @@
 
 							  <div data-control>What are the payment due dates for Essence Packages?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 per person is due on or before March 27, 2023. The second payment of $250 per person is due on or before April 20, 2023. The final payment (remaining balance) is due on or before May 13, 2023. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+								<p>To reserve a package each group member pays the $100.00 per person. The first payment of $125 per person is due on or before August 20, 2023. The second payment of $250 per person is due on or before September 20, 2023. The final payment (remaining balance) is due on or before December 20, 2023. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -311,7 +311,7 @@
 
 							  <div data-control>Can I purchase additional concert nights?</div>
 							  <div data-content>
-								<p>Yes, additonal night concert tickets are $185 per night. Just let us know and we can add it to your invoice.</p>
+								<p>Yes, additonal night concert tickets are $210 per night. Just let us know and we can add it to your invoice.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -400,9 +400,9 @@
 
 							<div class="accordion" data-accordion>
 
-							  <div data-control>Must the entire group pay the $29.99 Reservation fee?</div>
+							  <div data-control>Must the entire group pay the $100.00 reservation payment?</div>
 							  <div data-content>
-								<p>Yes. All prices are per person. The Reservation fee secures your spot on the package, and is separate from the package price.</p>
+								<p>Yes. All prices are per person. The registration payment secures your package and also goes toward your package price.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -412,7 +412,7 @@
 
 							  <div data-control>What is included with V.I.P. vs V.V.I.P admission to the Boat Party?</div>
 							  <div data-content>
-								<p>V.I.P. tickets are general admission tickets to the cruise and only cover entrance to the cruise with no food or drinks included. V.V.I.P. includes a speedy admission onto the boat party, delicious food, and an open bar to get you right all while partying on the boat. Our packages include the V.I.P ticket. You can upgrade to the V.V.I.P. ticket for an additional $95 per person.</p>
+								<p>V.I.P. tickets are general admission tickets to the cruise and only cover entrance to the cruise with no food or drinks included. V.V.I.P. includes a speedy admission onto the boat party, delicious food, and an open bar to get you right all while partying on the boat. Our packages include the V.I.P ticket. You can upgrade to the V.V.I.P. ticket for an additional $125 per person.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -441,7 +441,7 @@
 						<div class="tab" aria-label="buy">
                         	<h3>Buy Now</h3>
 							<p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
-                        	<div class="cognito"></div>
+                        	<script src="https://www.cognitoforms.com/f/seamless.js" data-key="NiNAkf4LukqBZOHDFOMsiQ" data-form="76"></script>
 
                     	</div><!-- ./buynow -->
 
@@ -514,8 +514,7 @@
 	});
 </script>
 
-<script src="https://services.cognitoforms.com/s/NiNAkf4LukqBZOHDFOMsiQ"></script>
-<script>Cognito.load("forms", { id: "58" });</script>
+
 <!--google analytics-->
 <?php include 'includes/analytics.inc.php'; ?>
 </body></html>

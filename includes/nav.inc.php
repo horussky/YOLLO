@@ -5,7 +5,7 @@ sort($event_nav);
 
 <ul class="event-nav">
 	<?php foreach($event_nav as $links=>$value): ?>
-        <li class="<?php echo $value['class']?>"><a href="<?php echo $value['link']?>" class="hvr-bounce-to-right <?php if ($_SERVER['REQUEST_URI'] == rtrim($value['link'], "/")){ echo "active";} ?>"><?php echo $value['title']?></a></li>
+        <li><a href="<?php echo $value['link']?>" class="hvr-bounce-to-right <?php if ($_SERVER['REQUEST_URI'] == rtrim($value['link'], "/")){ echo "active";} ?>"><?php echo $value['title']?></a></li>
     <?php endforeach; ?>
 </ul>
 
