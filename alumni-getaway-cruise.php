@@ -28,10 +28,10 @@ $geolocation = array(
 
 $people = array(
 		"diamond"=> array(
-			"Group of 4" 			=> "$875",
-			"Group of 3"			=> "$1,050",
-			"Group of 2"			=> "$1,205",
-			"Individual"			=> "$1,450"
+			"Group of 4" 			=> "$975",
+			"Group of 3"			=> "$1,150",
+			"Group of 2"			=> "$1,305",
+			"Individual"			=> "$1,550"
 		),
 
 		"emerald"=> array(
@@ -352,6 +352,18 @@ $package_items = array(
 								<p>Navigate to the Buy Now tab and complete the form. You will receive a welcome letter within 7 business days with all your reservation information.</p>
 							  </div>
 
+</div><!-- end of accordion-->
+
+
+
+
+							<div class="accordion" data-accordion>
+
+							  <div data-control>What is the difference between a inside versus outside cabin?</div>
+							  <div data-content>
+								<p>Inside cabins are located on the inside of a cruise ship and have no windows. Outside cabins, often known as ocean view cabins, are almost identical in size and amenities but have either a porthole or picture window. </p>
+							  </div>
+
 							</div><!-- end of accordion-->
 
 
@@ -359,7 +371,7 @@ $package_items = array(
 
 							  <div data-control>When are the payments due?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee <strong> at sign-up</strong>. The first payment of <strong>$250</strong> per person is due on or before  <strong>April 20, 2023</strong>. The second payment of $300 is due on or before <strong>May 20 , 2023</strong>. The final payment (remaining balance) is due on or before <strong>July 1, 2023</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
+								<p>To reserve a package each group member pays the $29.99 per person fee <strong> at sign-up</strong>. The first payment of <strong>$250</strong> per person is due on or before  <strong>July 15, 2023</strong>. The second payment of $300 is due on or before <strong>August 03, 2023</strong>. The final payment (remaining balance) is due on or before <strong>August 23, 2023</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

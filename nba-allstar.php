@@ -5,7 +5,7 @@ include 'includes/meta.config.inc.php';
 
 $event = array(
 	"title"				=>"All-Star Weekend Indy 2024",
-	"subtitle"			=>"Save $100 if you reserve by 4.1.2023!",
+	"subtitle"			=>"LAST CALL: Save $100 if you reserve by 6.30.2023!",
 	"location"			=>"Indianapolis, IN",
 	"date"				=>"February 16, 2024",
     "date_start"        =>"February 18, 2024",
@@ -247,7 +247,7 @@ $package_items = array(
                                     <h4>Party Pass Options: </h4>
                                     <p>These options are not the same and are separate from the all-inclusive options listed above; and are intended for those not in need of hotel accommodations. </p>
 
-                                    <p class="lead">Rookie - $800 </p>
+                                    <p class="lead">Rookie - $1,450 </p>
                                     <ul>
                                         <li>Friday Night Party</li>
                                         <li>NBA Crossover Ticket</li>
@@ -256,7 +256,7 @@ $package_items = array(
                                         <li>Saturday Night Party (Celebrity Hosted)</li>
                                     </ul>
 
-                                    <p class="lead">Rising Star - $1,150 </p>
+                                    <p class="lead">Rising Star - $2,150 </p>
                                     <ul>										
                                         <li>NBA Crossover Ticket</li>
                                         <li>Colors and Cocktails</li>
@@ -267,7 +267,7 @@ $package_items = array(
                                         <li>All Star Practice Game ticket</li>							
                                     </ul>
 
-                                    <p class="lead">All-Star - $1,750 (best seller)</p>
+                                    <p class="lead">All-Star - $2,750 (best seller)</p>
                                     <ul>
 
                                         <li>Friday Night Party (Celebrity Hosted)</li>
@@ -316,7 +316,7 @@ $package_items = array(
 
                                 <div data-control>When are the payments due?</div>
                                 <div data-content>
-                                <p>After registration the first payment of $125 is due April 02, 2023.  The second payment of $250 is due May 02, 2023. The final payment (remaining balance) is due on or before August 02, 2023.</p>
+                                <p>After registration the first payment of $125 is due July 20, 2023.  The second payment of $250 is due September 5, 2023. The final payment (remaining balance) is due on or before November 05, 2023.</p>
                                 </div>
 
                             </div><!-- end of accordion-->

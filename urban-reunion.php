@@ -81,7 +81,7 @@ What are some things you suggest I buy for this trip? Relaxed casual wear, motio
 <meta name="viewport" content="width=device-width">
 <meta name="author" content="YOLLO Group Services" />
 <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-<meta property="fb:pages" content="117420764961518" />
+
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
 <link href="css/global.css" rel="stylesheet" type="text/css" />
 <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />

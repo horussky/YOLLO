@@ -67,9 +67,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>St. Patricks Day Cruise | Yollo Group Services, Inc.</title>
+    <title>St. Patrick's Day Cruise | YOLLO Group Services, Inc.</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Yollo Group Services, Inc. offers an all-inclusive St. Patricks Day Cruise. Come with us on a Shamrock Sea Escape, and energize your life." />
+    <meta name="description" content="Celebrate the right way with an all inclusive St. Patrick's Day Cruise from YOLLO Group Services, Inc. Contact us today to book yours." />
     <meta name="keywords" content="<?php echo $metas['shamrock']['keywords']; ?>" />
     <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
     <link href="<?php echo $metas['shamrock']['canonical']; ?>" rel="canonical" />
@@ -135,6 +135,12 @@
 						<p>Why not reward yourself with a tranquil Cozumel cruise? You can relax on the sand, enjoy the sun and wind on your face, and have as many margaritas as you like. You can count on staying amused, well-fed, and extremely content. On the Carnival Valor, there is a ton to do and see. Our customers rave that they can't wait for the next event.</p>
 
 						<p>Do the right thing and <a data-href="#tabs-5" class="open-tab">Book this trip now</a> with YOLLO Group Services Inc. and allow us to give you the best travel experience while in New Orleans!</p>
+						<!--new copy start-->
+						<h2 class="h4">Celebrate in Style</h2>
+<p>St. Patrick&rsquo;s Day is a celebrated holiday in many countries throughout the world. Those who do celebrate find it to be a wonderful day for socialization, camaraderie, and relaxation. What better way to celebrate such an occasion than with an all inclusive St. Patrick&rsquo;s Day cruise from YOLLO Group Services, Inc.?</p>
+<p>With luxurious drinks, cuisine, and entertainment during the later hours, you and your group are sure to have the time of your lives when you decide to embark on a St. Patrick&rsquo;s Day cruise. And being all-inclusive means that you get everything you could ever want on such a cruise at an incredibly competitive, one-time price.</p>
+<p>Celebrate a major holiday in style when you book with the team at YOLLO Group Services, Inc. Browse further on this page to learn more details about our cruise itinerary. For any questions, reach out to us today by filling out our convenient<span>&nbsp;</span><a href="https://goyollo.com/contact">online contact form</a>.</p>
+						<!--new copy end-->
 
 						<table class="itinerary">
 							<caption>Cruise Itinerary</caption>

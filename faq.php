@@ -65,7 +65,7 @@ include 'includes/functions.inc.php';
 					  <div data-content>
 						<ul>
 							<li>To get started with reserving an event, you must first pay the mandatory Registration Fee. This will hold your spot for the event. On each event page, there is a "Pay or Register Now" button and a "buy now" tab. Clicking any of them will get you to the payment form for that event.</li>
-							<li>The Registration Fee is non-refundable. It secures your room, transportation, and other amenities of your event package. The Registration Fee is not applied toward your total package price.</li>
+							<li>The Registration Fee is non-refundable. It secures your room, transportation, and other amenities of your event package. The Registration Fee is applied toward your total package price.</li>
 							<li>Make all payments payable to YOLLO Group Services.</li>
 						</ul>
 					  </div>

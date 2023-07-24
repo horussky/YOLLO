@@ -8,8 +8,8 @@
 		"title"				=>"Fade to May",
 		"subtitle"			=>"We are taking you to Beale Street",
 		"location"			=>"Memphis, TN",
-		"date"				=>"May 5 - May 7",
-        "date_start"		=>"May 5, 2023",
+		"date"				=>"May 3 - May 5",
+        "date_start"		=>"May 3, 2024",
 		"img_url"			=>"../../images/slides/splash-fade-to-may-cta.jpg",
 		"img_alt"			=>"Fade to May"
 	);
@@ -45,10 +45,10 @@
 
 	$people = array(
 			"diamond"=> array(
-				"Quad" 					=>"SOLD OUT",
-				"Triple"				=>"$750",
-				"Double"				=>"$875",
-				"Individual"			=>"$1250"
+				"Quad" 					=>"750",
+				"Triple"				=>"$855",
+				"Double"				=>"$1.075",
+				"Individual"			=>"$1,350"
 			)/*,
 			"emerald"=> array(
 				"Group of 4" 			=>"$1075",
@@ -63,9 +63,10 @@
 		"diamond_items" => array(
 			"Hotel Accommodations"						=> "checked",
 			"The May Mix"								=> "checked",
+			"Fade 2 May Mid-Day Cruise"								=> "checked",
 			"Colors and Cocktails"						=> "checked",
 			"May Dayz Live"								=> "checked",
-			"Beale Street Music Festival Tickets"		=> "checked",
+			"Single Night Beale Street Music Festival Ticket"		=> "checked",
 			"YOLLO Swag Bag"							=> "checked"
 		)/*,
 
@@ -154,7 +155,7 @@
 
 						<p>Are you impressed by Southern hospitality or looking for a getaway? Get ready for a fun-filled weekend in Memphis, TN. "Fade To May" is a three-day event that features comedy, poetry, concerts, arts, and film.  There will be plenty of outdoor and indoor activities for you to enjoy!</p>
 
-						<p>Our packages include weekend accommodations, exclusive event passes, and tickets to the Beale Street Music Festival, which features over 60 acts. In 2022 this high-powered music festival had  electrifying performances by artist like Money Bagg Yo,, Meg Thee Stallion, Dirt Honey, The Glorious Sons, DaBaby, Three 6 Mafia, Foo Fighters, and MORE!</p>
+						<p>Our packages include weekend accommodations, exclusive event passes, and tickets to the Beale Street Music Festival, which features over 60 acts. In 2023 this high-powered music festival had  electrifying performances by artist like Glorilla, The Roots, Dru Hill, Greta Van Fleet, 311, Jazmine Sullivan, Mac Saturn, and MORE!</p>
 
 						<p>With a quick trip over to over to Tunica, you can try your luck and play slots and blackjack at one of the many casinos! This is sure to be a weekend you won't forget, filled with amazing food, music, entertainment, and more! And remember, it's all happening during “Fade To May” weekend! Lock in your package today!</p>
 
@@ -265,7 +266,7 @@
 
 							  <div data-control>When are the payments due?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 is due on or before December 6, 2022. The second payment of $250 per person is due on or before January 06, 2023. The final payment (remaining balance) is due on or before February 16, 2023. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+								<p>To reserve a package each group member pays the $100 per person fee. The first payment of $125 is due on or before August 05, 2023. The second payment of $250 per person is due on or before October 05, 2023. The final payment (remaining balance) is due on or before December 05, 2023. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -313,9 +314,9 @@
 
 							<div class="accordion" data-accordion>
 
-							  <div data-control>Must the entire group pay the $29.99 Reservation fee?</div>
+							  <div data-control>Must the entire group pay the $100 Reservation payment?</div>
 							  <div data-content>
-								<p>Yes. All prices are per person. The Reservation fee secures your spot on the package, and is separate from the package price.</p>
+								<p>Yes. All prices are per person. The Reservation fee secures your spot on the packageand goes toward the package price.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
