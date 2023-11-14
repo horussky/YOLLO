@@ -4,11 +4,11 @@ include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
 $event = array(
-    "title"                    => "The Tourney Weekend 2023",
+    "title"                    => "The Tourney Weekend 2024",
     "subtitle"                => "B-More Here We COME! It will be BIG!",
     "location"                => "Baltimore, MD",
-    "date"                    => "February 23 - 26, 2023",
-    "date_start"            => "February 23, 2023",
+    "date"                    => "March 1 - 3, 2024",
+    "date_start"            => "March 1, 2024",
     "img_url"                => "../../images/slides/splash-tourney-cta.jpg",
     "img_alt"                => "The Tourney"
 );
@@ -26,17 +26,17 @@ $geolocation = array(
 
 $people = array(
     "diamond" => array(
-        "Group of 4"             => "$505",
-        "Group of 3"            => "$580",
-        "Group of 2"            => "$690",
-        "Individual"            => "$1300"
+        "Group of 4"             => "$705",
+        "Group of 3"            => "$825",
+        "Group of 2"            => "$950",
+        "Individual"            => "$1,500"
     ),
 
     "emerald" => array(
-        "Group of 4"             => "$450",
-        "Group of 3"            => "$510",
-        "Group of 2"            => "$635",
-        "Individual"            => "$1060"
+        "Group of 4"             => "$650",
+        "Group of 3"            => "$780",
+        "Group of 2"            => "$925",
+        "Individual"            => "$1,260"
     ),
 
     "options" => array(
@@ -141,8 +141,8 @@ $package_items = array(
 
                             <h2 class="h4">Get ready for CIAA in Baltimore, MD. </h2>
 
-                                <p>Baltimore was the site of CIAA in 2022 and the CITY did not disappoint. Baltimore  definitely brought new energy to this already exciting event and the Baltimore’s nightlife is a PERFECT match for the attendees of this event! YOLLO Group Services is making the Tourney a fun-filled weekend for you to remember. This basketball tournament has become one of the most attended events among HBCU’s in the nation. </p>
-                                <p>Fans will get their basketball fix during the day-time, while others enjoy all the night-time events. This means parties galore! You may spot a celebrity or two crashing and/or hosting several of these parties. You cannot go wrong booking with YOLLO Group Services for the Tourney Weekend 2023. </p>
+                                <p>Baltimore was the site of CIAA in 2023 and the CITY did not disappoint. Baltimore  definitely brought new energy to this already exciting event and the Baltimore’s nightlife is a PERFECT match for the attendees of this event! YOLLO Group Services is making the Tourney a fun-filled weekend for you to remember. This basketball tournament has become one of the most attended events among HBCU’s in the nation. </p>
+                                <p>Fans will get their basketball fix during the day-time, while others enjoy all the night-time events. This means parties galore! You may spot a celebrity or two crashing and/or hosting several of these parties. You cannot go wrong booking with YOLLO Group Services for the Tourney Weekend 2024. </p>
                                 <p>If parties and celebrities are what you are looking for this weekend's events are definitely what you want to attend. Make sure you explore our Hotel and Pricing options and reserve your package today before it's too late! </p>
 
                             </div><!-- ./overview -->
@@ -234,7 +234,7 @@ $package_items = array(
 
                                         <div data-control>When are the payments due?</div>
                                         <div data-content>
-                                            <p>After registration the first payment of $125 is due July 15, 2022. The second payment of $100 is due September 15, 2022  The final payment (remaining balance) is due on or before December 10, 2022.</p>
+                                            <p>After registration the first payment of $125 is due October 1, 2023. The second payment of $250 is due December 1, 2023  The final payment (remaining balance) is due on or before January 10, 2024.</p>
                                         </div>
 
                                     </div><!-- end of accordion-->
@@ -245,16 +245,16 @@ $package_items = array(
 
                                         <div data-control>How do I lock in the prices and amenities advertised today?</div>
                                         <div data-content>
-                                            <p>It only takes $29.99 to lock in your spot today! It's that simple!</p>
+                                            <p>It only takes $100.00 to lock in your spot today! It's that simple!</p>
                                         </div>
 
                                     </div><!-- end of accordion-->
 
                                     <div class="accordion" data-accordion>
 
-                                        <div data-control>Does the entire group pay the $29.99 Reservation fee?</div>
+                                        <div data-control>Does the entire group pay the $100.00 Reservation fee?</div>
                                         <div data-content>
-                                            <p>Yes. All prices are per person. The reservation fee secures your spot on the package, and is independent from the package price.</p>
+                                            <p>Yes. All prices are per person. The reservation fee secures your spot on the package, and it applies to your package price.</p>
                                         </div>
 
                                     </div><!-- end of accordion-->

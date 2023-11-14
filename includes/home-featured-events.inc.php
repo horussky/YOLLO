@@ -25,6 +25,20 @@ $feature_event = array(
 		"link" 		=> "/essence-festival"
 	),
 	array(
+		"title" 	=> "Da Kickback",
+		"date" 		=> "September 29, 2023",
+		"end"		=> strtotime("September 29, 2023"),
+		"img" 		=> "images/featured-events/featured-event-kickback.jpg",
+		"link" 		=> "/da-kickback"
+	),
+	array(
+		"title" 	=> "Daytopia",
+		"date" 		=> "Nov 4, 2023",
+		"end"		=> strtotime("November 4, 2023"),
+		"img" 		=> "images/featured-events/featured-event-daytopia.jpg",
+		"link" 		=> "/daytopia"
+	),
+	array(
 		"title" 	=> "Magic City Classic",
 		"date" 		=> "October 26-28, 2022",
 		"end"		=> strtotime("October 28, 2023"),

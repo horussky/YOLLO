@@ -6,7 +6,7 @@
 
 	$event = array(
 		"title"				=>"Essence Music Festival 2024",
-		"subtitle"			=>"Lock In $200 Off PP Until August 1!",
+		"subtitle"			=>"Essence Turns 30! Don't miss the PARTY",
 		"location"			=>"New Orleans, LA",
 		"date"				=>"July 5 - 7, 2024",
         "date_start"		=>"July 5, 2024",
@@ -291,7 +291,7 @@
 
 							  <div data-control>What are the payment due dates for Essence Packages?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $100.00 per person. The first payment of $125 per person is due on or before August 20, 2023. The second payment of $250 per person is due on or before September 20, 2023. The final payment (remaining balance) is due on or before December 20, 2023. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+								<p>To reserve a package each group member pays the registration fee $100.00 per person. The first payment of $125 per person is due on or before November 26, 2023. The second payment of $250 per person is due on or before January 26, 2023. The final payment (remaining balance) is due on or before March 26, 2024. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts to partial payments.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

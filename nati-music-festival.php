@@ -5,11 +5,11 @@ include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"					=>"Cincinnati Music Festival 2023",
+	"title"					=>"Experience Cincinnati Music Festival 2024",
 	"subtitle"				=>"Book your package today!",
 	"location"				=>"Cincinnati, Ohio",
-    "date"					=>"July 21-23, 2023",
-    "date_start"            => "July 21, 2023",
+    "date"					=>"July 26-28, 2024",
+    "date_start"            => "July 26, 2024",
 	"img_url"				=>"../../images/slides/splash-mmf-cta.jpg",
 	"img_alt"				=>"Cincinnati Music Festival"
 );
@@ -142,13 +142,13 @@ $package_items = array(
 
                             <?php echo $responsive_tabs["overview"]; ?>
                             <div class="tab" aria-label="overview">
-                                <h2 class="h4">Get ready for Cincinnati Music Festival</h2>
-                                <p>Let’s just say that the performers and attendees alike were happy to be OUTSIDE which made the 2022 edition the BEST year yet! Janet Jackson and Charlie Wilson along with all the performers for the Cincinnati Music Festival did not disappoint the crowd! Over the years this event has evolved from being a pure jazz concert, to an event that also includes old school hip-hop and R&B.  Beyond the featured acts, this event provides a great meet and greet or mix and mingle atmosphere.</p>
+                                <h2 class="h4">Cincinnati Music Festival Travel Package - Book Now!</h2>
+                                <p>Discover the allure of Cincinnati's with our all-inclusive event package for the renowned Cincinnati Music Festival. Indulge in the rhythm and melody of renowned performers while discovering the city's rich culture and sights. Don't miss out on this extraordinary experience! Book your Cincinnati Music Festival travel package now and secure your spot for an unforgettable event.</p>
 
-                                <h2 class="h5">8th Annual Grown and Sophisticated Mid-Day Cruise</h2>
-                                <p>The 8th Annual Grown and Sophisticated Mid-Day Cruise will happen on the River Queen and will be another MUST ATTEND event during Cincinnati Music Festival Weekend! Enjoy a multi-level paddle-wheel boat cruising the mighty Ohio River, while listening to the livest Hip-Hop and R&amp;B music. Last years' cruise was Mardi Gras themed, however we are returning to the original format of an All White cruise. The cruise is from 2:00 pm – 5:00 pm. Please remember that once we sell out, we will not have any more tickets available.<p>
+                                <h2 class="h5">9th Annual Grown and Sophisticated Mid-Day Cruise</h2>
+                                <p>Looking to add a touch of class and elegance to your Cincinnati Music Festival experience? There is no need to look any further! Get ready to embark on a luxurious journey with our exclusive All White Grown and Sophisticated Mid-Day Cruise event. It's hosted aboard the River Queen through BB Riverboats. Enhance your festival experience and make amazing moments against the stunning backdrop of the Cincinnati skyline. The cruise is from 2:00 pm – 5:00 pm. Please remember that once we sell out, we will not have any more tickets available.<p>
                                 
-                                <p>YOLLO is looking forward to another terrific festival in 2023, and we hope you join us and be a part of this special summer occasion. Packages are available now, but they won't last long. Don't wait reserve today for $29.99!</p>
+                                <p>YOLLO is looking forward to another terrific festival in 2024, and we hope you join us and be a part of this special summer occasion. </p>
 
                             </div><!-- ./ overview -->
 
@@ -260,7 +260,7 @@ $package_items = array(
 
                                     <div data-control>What are the payment due dates for Cincinnati Music Festival Packages?</div>
                                     <div data-content>
-                                        <p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $125 is due on or before <strong>December 04, 2022</strong>. The second payment of $150 is due on or before <strong>January 04, 2023</strong>.The final payment (remaining balance) is due on or before <strong>March 04, 2023</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
+                                        <p>To reserve a package each group member pays the $100.00 per person fee. The first payment of $125 is due on or before <strong>August 20, 2023</strong>. The second payment of $150 is due on or before <strong>December 20, 2023</strong>.The final payment (remaining balance) is due on or before <strong>February 04, 2024</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
                                     </div>
 
                                     </div><!-- end of accordion-->
@@ -280,7 +280,7 @@ $package_items = array(
 
                                     <div data-control>Where will we be staying that weekend?</div>
                                     <div data-content>
-                                        <p>You will two options for 2023. The Holiday Inn Cincinnati Riverfront has been selected as the host property for this wonderful event! The Comfort Suites Newport - Cincinnati  will be our over flow property once the host property is sold out and trust us it will sell out. Lock in your reservation today. </p>
+                                        <p>You will two options for 2024. The Holiday Inn Cincinnati Riverfront has been selected as the host property for this wonderful event! The Comfort Suites Newport - Cincinnati  will be our over flow property once the host property is sold out and trust us it will sell out. Lock in your reservation today. </p>
                                     </div>
 
                                     </div><!-- end of accordion-->
@@ -309,7 +309,7 @@ $package_items = array(
 
                                     <div data-control>What time does the cruise start and how much does it cost?</div>
                                     <div data-content>
-                                        <p>The cruise will sail from 2:30 pm - 5:00 pm, however boarding begins at 1:00 pm. The cost of the cruise is $60 for General Admission and $125 for VIP. For a limited time there are Early Bird tickets available at $40 for General Admission and $95 VIP.  VIP grants no line waiting entrance, Open bar, and light food during the cruise. Ticket prices increase the week of the cruise.</p>
+                                        <p>The cruise will sail from 2:30 pm - 5:00 pm, however boarding begins at 2:15 pm. The cost of the cruise is $60 for General Admission and $125 for VIP. For a limited time there are Early Bird tickets available at $40 for General Admission and $95 VIP.  VIP grants no line waiting entrance, Open bar, and light food during the cruise. Ticket prices increase the week of the cruise.</p>
                                     </div>
 
                                     </div><!-- end of accordion-->
@@ -317,7 +317,7 @@ $package_items = array(
                                     
                                     <div class="accordion" data-accordion>
 
-                                    <div data-control>Does the price take care of hotel reservation for all 4 members in either Diamond or Emerald package or only one person?</div>
+                                    <div data-control>Does the price take care of hotel reservation for all group members in either Diamond or Emerald package or only one person?</div>
                                     <div data-content>
                                         <p>All prices listed are per person. Under the package prices description, all amenities included in your package is what's included per person.</p>
                                     </div>
@@ -352,7 +352,7 @@ $package_items = array(
                             
                             <div class="tab" aria-label="buy">
                                 <h2 class="h4">Buy Cruise Now</h2>   
-                                <div class="mb-20" id="eventbrite-widget-container-390245814737"></div>
+                                <div class="mb-20" id="eventbrite-widget-container-682027732307"></div>
                             </div><!-- ./ buy now -->
 
                     </div><!-- end of responsive-tabs -->
@@ -388,12 +388,8 @@ $package_items = array(
             kind: 'flickr',
             userID: '50836209@N03',
 
-                //uncomment this line to display one specific album:
+            //uncomment this line to display one specific album:
             photoset:'72157712606706052',
-
-            // uncomment this line to display full photostream (v5.0.0):
-            // photoset:'none',
-
             thumbnailWidth: 115,
             thumbnailHeight: 'auto',
             thumbnailAlignment: 'left',
@@ -402,7 +398,6 @@ $package_items = array(
                 displayDescription: false,
                 position: 'overImageOnBottom'
             },
-
             thumbnailHoverEffect:'borderLighter'
         });
 
@@ -416,14 +411,11 @@ $package_items = array(
 	};
 
 	window.EBWidgets.createWidget({
-		// Required
 		widgetType: 'checkout',
-		eventId: '390245814737',
-		iframeContainerId: 'eventbrite-widget-container-390245814737',
-        
-		// Optional
-		iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-		onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+		eventId: '682027732307',
+		iframeContainerId: 'eventbrite-widget-container-682027732307',
+		iframeContainerHeight: 425,  
+		onOrderComplete: exampleCallback
 	});
 </script>
 <script src="https://services.cognitoforms.com/s/NiNAkf4LukqBZOHDFOMsiQ"></script>

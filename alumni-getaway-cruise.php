@@ -28,10 +28,10 @@ $geolocation = array(
 
 $people = array(
 		"diamond"=> array(
-			"Group of 4" 			=> "$975",
-			"Group of 3"			=> "$1,150",
-			"Group of 2"			=> "$1,305",
-			"Individual"			=> "$1,550"
+			"Group of 4" 			=> "$ SOLD OUT",
+			"Group of 3"			=> "$ SOLD OUT",
+			"Group of 2"			=> "$1,405",
+			"Individual"			=> "$1,950"
 		),
 
 		"emerald"=> array(
@@ -371,7 +371,7 @@ $package_items = array(
 
 							  <div data-control>When are the payments due?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee <strong> at sign-up</strong>. The first payment of <strong>$250</strong> per person is due on or before  <strong>July 15, 2023</strong>. The second payment of $300 is due on or before <strong>August 03, 2023</strong>. The final payment (remaining balance) is due on or before <strong>August 23, 2023</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
+								<p>To reserve a package each group member pays the $100.00 per person fee <strong> at sign-up</strong>. The first payment of <strong>$600</strong> per person is due on or before  <strong>August 20, 2023</strong>.  The final payment (remaining balance) is due on or before <strong>September 13, 2023</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
