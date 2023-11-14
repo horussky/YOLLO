@@ -5,7 +5,7 @@ include 'includes/meta.config.inc.php';
 
 $event = array(
 	"title"				=>"All-Star Weekend Indy 2024",
-	"subtitle"			=>"LAST CALL: Save $100 if you reserve by 6.30.2023!",
+	"subtitle"			=>"We are headed to Indy!",
 	"location"			=>"Indianapolis, IN",
 	"date"				=>"February 16, 2024",
     "date_start"        =>"February 18, 2024",
@@ -316,7 +316,7 @@ $package_items = array(
 
                                 <div data-control>When are the payments due?</div>
                                 <div data-content>
-                                <p>After registration the first payment of $125 is due July 20, 2023.  The second payment of $250 is due September 5, 2023. The final payment (remaining balance) is due on or before November 05, 2023.</p>
+                                <p>After registration the first payment of $125 is due October 1, 2023.  The next payment of $250 is due November 1, 2023. The next payment of $350 is due  The final payment (remaining balance) is due on or before December 2, 2023.</p>
                                 </div>
 
                             </div><!-- end of accordion-->

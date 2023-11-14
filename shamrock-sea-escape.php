@@ -8,8 +8,8 @@
 		"title"				=>"Shamrock Sea Escape",
 		"subtitle"			=>"Celebrate St. Patrick’s Day With A Cruise to Cozumel, Mexico",
 		"location"			=>"Cozumel, MX",
-		"date"				=>"March 14-18, 2024",
-        "date_start"		=>"March 14, 2024",
+		"date"				=>"March 17-22, 2025",
+        "date_start"		=>"March 17, 2025",
 		"img_url"			=>"../../images/slides/splash-shamrock-cta.jpg",
 		"img_alt"			=>"Shamrock Sea Escape 61Banner"
 	);
@@ -31,9 +31,9 @@
 
 	$people = array(
 		"diamond"=> array(
-			"Group of 3"			=> "$1100",
-			"Group of 2"			=> "$1450",
-			"Individual"			=> "$1900"
+			"Group of 3"			=> "$1,400",
+			"Group of 2"			=> "$1,600",
+			"Individual"			=> "$2,600"
 		),
 
 		"emerald"=> array(
@@ -48,7 +48,7 @@
 
 	$package_items = array(
 		"diamond_items" => array(
-			"5Day/4Nights Cruise"			        	=> "checked",
+			"6 Day/5 Night Cruise"			        	=> "checked",
 			"All You Can Eat All Weekend Long"	        => "checked",
 			"Cheers Package (15 drinks daily)"	        => "checked",
 			"Tickle Me Green Private Welcome Reception"	=> "checked",
@@ -130,15 +130,15 @@
 						<div class="tab" aria-label="overview">
 						<h2 class="h4">Join us for St. Patricks Day in Cozumel, Mexico</h2>
 
-						<p>This St. Patrick's Day, sail to Cozumel, Mexico with YOLLO. Take a lovely trip down the coast and spend five days experiencing the best that the Atlantic Ocean has to offer. Visit this popular vacation destination while living it up. Expect luxury, delectable cuisine and drinks, an energetic nightlife, and devoted crew members when traveling on the Carnival Valor. We're here to make your holiday the best one yet.</p>
+						<p>Celebrate St. Patrick's Day like never before with YOLLO's five-day Shamrock Getaway cruise to Cozumel and Progresso aboard the Carnival Valor. Enjoy the Atlantic Ocean's best on a relaxing journey filled with delectable cuisine, vibrant nightlife, and a devoted crew. Dive into Cozumel's beauty and experience Progresso's charm. YOLLO is here to make your St. Patrick's Day unforgettable.</p>
 
-						<p>Why not reward yourself with a tranquil Cozumel cruise? You can relax on the sand, enjoy the sun and wind on your face, and have as many margaritas as you like. You can count on staying amused, well-fed, and extremely content. On the Carnival Valor, there is a ton to do and see. Our customers rave that they can't wait for the next event.</p>
+						<p>Why not reward yourself with a tranquil Cozumel cruise? You can relax on the sand, enjoy the sun and wind on your face, and have as many margaritas as you like. You can count on staying amused, well-fed, and extremely content. On the Carnival Valor, there is a ton to do and see. Our customers rave about our non-stop onboard exclusive events!</p>
 
-						<p>Do the right thing and <a data-href="#tabs-5" class="open-tab">Book this trip now</a> with YOLLO Group Services Inc. and allow us to give you the best travel experience while in New Orleans!</p>
+						<p>Do the right thing and <a data-href="#tabs-5" class="open-tab">Book this trip now</a> with YOLLO Group Services Inc. and allow us to give you an extraordinary adventure while at sea!</p>
 						<!--new copy start-->
 						<h2 class="h4">Celebrate in Style</h2>
 <p>St. Patrick&rsquo;s Day is a celebrated holiday in many countries throughout the world. Those who do celebrate find it to be a wonderful day for socialization, camaraderie, and relaxation. What better way to celebrate such an occasion than with an all inclusive St. Patrick&rsquo;s Day cruise from YOLLO Group Services, Inc.?</p>
-<p>With luxurious drinks, cuisine, and entertainment during the later hours, you and your group are sure to have the time of your lives when you decide to embark on a St. Patrick&rsquo;s Day cruise. And being all-inclusive means that you get everything you could ever want on such a cruise at an incredibly competitive, one-time price.</p>
+<p>With great drinks, cuisine, and entertainment during the later hours, you and your group are sure to have the time of your lives when you decide to embark on a St. Patrick&rsquo;s Day cruise. And being all-inclusive means that you get everything you could ever want on such a cruise at an incredibly competitive, one-time price.</p>
 <p>Celebrate a major holiday in style when you book with the team at YOLLO Group Services, Inc. Browse further on this page to learn more details about our cruise itinerary. For any questions, reach out to us today by filling out our convenient<span>&nbsp;</span><a href="https://goyollo.com/contact">online contact form</a>.</p>
 						<!--new copy end-->
 
@@ -146,23 +146,28 @@
 							<caption>Cruise Itinerary</caption>
 							<tbody>
 								<tr>
-									<td>Thursday</td>
+									<td>Monday</td>
 									<td>Departure: Carnival Port, New Orleans, LA |  3:30PM</td>
+								</tr>
+								<tr>
+									<td>Tuesday</td>
+									<td>Fun Day At Sea</td>
+								</tr>
+								<tr>
+									<td>Wednesday</td>
+									<td>Cozumel, Mexico | 8AM-4PM</td>
+								</tr>
+								<tr>
+									<td>Thursday</td>
+									<td>Progreso, Yucatan | 8AM-4AM</td>
 								</tr>
 								<tr>
 									<td>Friday</td>
 									<td>Fun Day At Sea</td>
 								</tr>
+</tr>
 								<tr>
 									<td>Saturday</td>
-									<td>Cozumel, Mexico | 8AM-4PM</td>
-								</tr>
-								<tr>
-									<td>Sunday</td>
-									<td>Fun Day At Sea</td>
-								</tr>
-								<tr>
-									<td>Monday</td>
 									<td>Return: Carnival Port, New Orleans, LA | 8AM</td>
 								</tr>
 
@@ -209,8 +214,20 @@
 									<caption>Cruise Itinerary</caption>
 									<tbody>
 										<tr>
-											<td>Thursday</td>
+											<td>Monday</td>
 											<td>Departure: Carnival Port, New Orleans, LA | 3:30PM</td>
+										</tr>
+										<tr>
+											<td>Tuesday</td>
+											<td>Fun Day At Sea</td>
+										</tr>
+										<tr>
+											<td>Wednesday</td>
+											<td>Cozumel, Mexico | 8AM-4PM</td>
+										</tr>
+										<tr>
+											<td>Thursday</td>
+											<td>Progreso, Yucatan | 8AM-4PM</td>
 										</tr>
 										<tr>
 											<td>Friday</td>
@@ -218,14 +235,6 @@
 										</tr>
 										<tr>
 											<td>Saturday</td>
-											<td>Cozumel, Mexico | 8AM-4PM</td>
-										</tr>
-										<tr>
-											<td>Sunday</td>
-											<td>Fun Day At Sea</td>
-										</tr>
-										<tr>
-											<td>Monday</td>
 											<td>Return: Carnival Port, New Orleans, LA | 8AM</td>
 										</tr>
 									
@@ -309,7 +318,7 @@
 
 								<div data-control>Is there an open bar or Bottomless Bubbles for alcohol on the ship? </div>
 								<div data-content>
-								<p>Yes, there is an option called CHEERS, but it's limited to 15 drinks per day. CHEERS is an all-inclusive beverage program that allows guests to enjoy a wide range of alcoholic and non-alcoholic beverages by paying a flat daily rate. The cost prior to your cruise is $51.95 USD per person, per day plus 18% gratuity. If you decide you want the program once on board, you can sign up for CHEERS at a bar the cost is $56.95 USD per person, per day plus 18% gratuity. For more information please visit <a href="https://help.carnival.com/app/answers/detail/a_id/1106" target="_blank"> Carnival Cruise FAQs</a></p>  
+								<p>Yes, there is an option called CHEERS, but it's limited to 15 drinks per day. CHEERS is an all-inclusive beverage program that allows guests to enjoy a wide range of alcoholic and non-alcoholic beverages by paying a flat daily rate. Great news is it's included in your package price! The cost prior to your cruise is $69.95 USD per person, per day plus 18% gratuity. If you decide you want the program once on board, you can sign up for CHEERS at a bar the cost is $74.95 USD per person, per day plus 18% gratuity. For more information please visit <a href="https://help.carnival.com/app/answers/detail/a_id/1106" target="_blank"> Carnival Cruise FAQs</a></p>  
 								</div>
 
 							</div><!-- end of accordion-->
@@ -327,7 +336,7 @@
 
 								<div data-control>When are the payments due? </div>
 								<div data-content>
-								<p>After registration the first payment of $125 is due <strong>October 01, 2022</strong>. The second payment of $150 is due <strong>December 15, 2022</strong>. The final payment (remaining balance) is due on or before <strong>February 20, 2022</strong> . If you the announced payment dates have passed contact us for our current payment plan. All prices and payments due are per person.</p>
+								<p>After registration the first payment of $125 is due <strong>January 15, 2024</strong>. The second payment of $250 is due <strong>April 15, 2024</strong>. The final payment (remaining balance) is due on or before <strong>June 15, 2024</strong> . If you the announced payment dates have passed contact us for our current payment plan. All prices and payments due are per person.</p>
 								</div>
 
 							</div><!-- end of accordion-->

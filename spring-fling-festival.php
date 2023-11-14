@@ -6,11 +6,11 @@ include 'includes/meta.config.inc.php';
 
 $event = array(
 
-	"title"				=>"Spring Fling Festival 2023",
+	"title"				=>"Spring Fling Festival 2024",
 	"subtitle"			=>"The ultimate mature music lover day trip",
 	"location"			=>"Mobile, Al",
-	"date"				=>"April 1, 2023",
-    "date_start"        =>"April 1, 2023",
+	"date"				=>"April 6, 2024",
+    "date_start"        =>"April 6, 2024",
 	"img_url"			=>"../../images/slides/splash-spring-bling-cta.jpg",
 	"img_alt"			=>"Spring Fling Music Festival"
 );
@@ -124,7 +124,7 @@ $package_items = array(
                     <div class="tab" aria-label="overview">
                         <h2 class="h4">A Day-Trip and Concert for Grown Folks and Music Lovers</h2>
 
-                        <p>YOLLO is taking you to the 27th Annual Spring Fling Music Festival in Mobile, AL. If you love Blues music, this is the day-trip you are looking for! Pack up your coolers and lawn chairs because Spring Fling is an outdoor concert event. With over 30 Southern Soul and R&B artists, this is an event that will not disappoint.</p> 
+                        <p>YOLLO is taking you to the 28th Annual Spring Fling Music Festival in Mobile, AL. If you love Blues music, this is the day-trip you are looking for! Pack up your coolers and lawn chairs because Spring Fling is an outdoor concert event. With over 30 Southern Soul and R&B artists, this is an event that will not disappoint.</p> 
 
                         <p>Enjoy our luxury charter to the event while sipping margaritas. Once at the event, enjoy some light food and get ready to hear your favorite artists perform on stage. Space is limited and tickets will sell out fast, so act now!</p>
 

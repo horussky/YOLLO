@@ -50,7 +50,7 @@ $event = array(
                         <div class="title">
                             <img class="title__event-logo mb-20" src="/images/hbcu-alumni-color.svg">
                             <h1><?php echo $event["title"]; ?></h1>
-                            <p class="subtitle">Amber Cove and Grand Turk</p>
+                            <p class="subtitle">Mahogany Bay, Isla Roatan and Cozumel Mexico</p>
                         </div>
                     </div><!-- ./topcontent -->
                 </div><!-- ./col -->
@@ -63,9 +63,9 @@ $event = array(
             <div class="row mb-40">
                 <div class="col-md-8">
                     <h3 class="h4">IMPORTANT NOTICE</h3>
-                    <p class="lead">We reserve the right to change, exchange, and/or move the times of events at our discretion.</p>
+                    <p class="lead">We retain the rights to modify, exchange, or reposition the timings of events as circumstances may require.</p>
 
-                    <p>This may not be the final confirmation of events for the weekend. To stay informed with all the latest news, check this page no later than 7 days before attending.</p>
+                    <p>Please note that the information provided here might not constitute the ultimate confirmation of the weekend's events. To ensure that you are up to date with the most current updates and details, we kindly request that you revisit this page no less than 7 days before your scheduled attendance.</p>
                 </div>
                 <div class="col-md-4">
                 <iframe style="aspect-ratio: 1 / 1; width: 100%; height: auto;" width="100%" height="300" src="https://www.mixcloud.com/widget/iframe/?light=1&feed=%2Fyollogsinc%2Fhbcu-alumni-getaway-cruise-2022-mega-mix-ft-dj-jamar-dj-dre-smoove-dj-dirty-vegas%2F" frameborder="0" ></iframe>
@@ -83,7 +83,7 @@ $event = array(
 
             <div class="row">
                 <div class="col-12">
-                    <h4 class="h5">Dec 5, 2022</h4>
+                    <h4 class="h5">Dec 2, 2023</h4>
                 </div>
             </div><!-- ./row -->
 
@@ -101,35 +101,35 @@ $event = array(
 
             <div class="row">
                 <div class="col-12">
-                    <h4 class="h5">Dec 6, 2022</h4>
+                    <h4 class="h5">Dec 3, 2023</h4>
                 </div>
             </div><!-- ./row -->
 
             <div class="row mb-20">
                 <div class="col-sm-4 col-12">
-                    <img class="img-responsive" src="/images/event-list/alumni/agc-slot-pull.jpg">
+                    <img class="img-responsive" src="/images/event-list/alumni/agc-daily-fitness.jpg">
                 </div>
                 <div class="col-sm-4 col-12">
-                    <img class="img-responsive" src="/images/event-list/alumni/agc-duck-hunt.jpg">
+                    <img class="img-responsive" src="/images/event-list/alumni/agc-line-dance.jpg">
                 </div>
                 <div class="col-sm-4 col-12">
-                <img class="img-responsive" src="/images/event-list/alumni/agc-ocean-blue-party.jpg">
+                <img class="img-responsive" src="/images/event-list/alumni/agc-chocolate-fun-and-sexy.jpg">
                 </div>
             </div> <!-- ./row -->
 
 
             <div class="row">
                 <div class="col-12">
-                    <h4 class="h5">Dec 7, 2022</h4>
+                    <h4 class="h5">Dec 4, 2023</h4>
                 </div>
             </div><!-- ./row -->
 
             <div class="row mb-20">
                 <div class="col-sm-4 col-12">
-                    <img class="img-responsive" src="/images/event-list/alumni/agc-amber-cove.jpg">
+                    <img class="img-responsive" src="/images/event-list/alumni/agc-daily-fitness.jpg">
                 </div>
                 <div class="col-sm-4 col-12">
-                    <img class="img-responsive" src="/images/event-list/alumni/agc-door-decorations.jpg">
+                    <img class="img-responsive" src="/images/event-list/alumni/agc-mahagony-tour-door-contest.jpg">
                 </div>
                 <div class="col-sm-4 col-12">
                 <img class="img-responsive" src="/images/event-list/alumni/agc-boots-and-dukes.jpg">
@@ -138,29 +138,32 @@ $event = array(
 
             <div class="row">
                 <div class="col-12">
-                    <h4 class="h5">Dec 8, 2022</h4>
+                    <h4 class="h5">Dec 5, 2023</h4>
                 </div>
             </div><!-- ./row -->
 
             <div class="row mb-20">
                 <div class="col-sm-4 col-12">
-                    <img class="img-responsive" src="/images/event-list/alumni/agc-grand-turk.jpg">
+                    <img class="img-responsive" src="/images/event-list/alumni/agc-daily-fitness.jpg">
                 </div>
                 <div class="col-sm-4 col-12">
-                    <img class="img-responsive" src="/images/event-list/alumni/agc-getaway-retreat.jpg">
+                    <img class="img-responsive" src="/images/event-list/alumni/agc-cozumel-tour.jpg">
                 </div>
                 <div class="col-sm-4 col-12">
-                <img class="img-responsive" src="/images/event-list/alumni/agc-90vs2000.jpg">
+                <img class="img-responsive" src="/images/event-list/alumni/agc-toga-party.jpg">
                 </div>
             </div> <!-- ./row -->
 
             <div class="row">
                 <div class="col-12">
-                    <h4 class="h5">Dec 9, 2022</h4>
+                    <h4 class="h5">Dec 6, 2023</h4>
                 </div>
             </div><!-- ./row -->
 
             <div class="row mb-20">
+            <div class="col-sm-4 col-12">
+                    <img class="img-responsive" src="/images/event-list/alumni/agc-daily-fitness.jpg">
+                </div>
                 <div class="col-sm-4 col-12">
                     <img class="img-responsive" src="/images/event-list/alumni/agc-farewell-party.jpg">
                 </div>
@@ -174,7 +177,7 @@ $event = array(
             <div class="row">
                 <div class="col-md-8">
                     <h4>Book for next year</h4>
-                    <p>Did you enjoyed this years event or even missed all the fun, please make sure you book for next years event. We are taking you to Mohagany Bay and Cozumel Mexico!</p>
+                    <p>Do you like this year's events and missed all the fun, please make sure you book for 2024. We are taking you to Cabo San Lucas!</p>
                 <a href="/alumni-getaway-cruise" class="btn btn-red open-tab">Book Now!</a>
                 </div>
             </div>

@@ -49,7 +49,7 @@ include 'includes/meta.config.inc.php';
             <section id="upcoming-events" style="overflow:hidden">
 				<div>
                 	<h2 class="h4">Upcoming Events</h2>
-					<?php $i=0; foreach($feature_event as $event): if ($i == 3) break; ?>
+					<?php $i=0; foreach($feature_event as $event): if ($i == 9) break; ?>
 						<?php if($event["end"] > $now): $i++;  ?>
 							<div class="event">
 								<a href="<?php echo $event["link"]; ?>" title="<?php echo $event["title"]; ?>">
