@@ -129,18 +129,14 @@
                         <?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
 						<h2 class="h4">Join us for St. Patricks Day in Cozumel, Mexico</h2>
-
-						<p>Celebrate St. Patrick's Day like never before with YOLLO's five-day Shamrock Getaway cruise to Cozumel and Progresso aboard the Carnival Valor. Enjoy the Atlantic Ocean's best on a relaxing journey filled with delectable cuisine, vibrant nightlife, and a devoted crew. Dive into Cozumel's beauty and experience Progresso's charm. YOLLO is here to make your St. Patrick's Day unforgettable.</p>
-
-						<p>Why not reward yourself with a tranquil Cozumel cruise? You can relax on the sand, enjoy the sun and wind on your face, and have as many margaritas as you like. You can count on staying amused, well-fed, and extremely content. On the Carnival Valor, there is a ton to do and see. Our customers rave about our non-stop onboard exclusive events!</p>
-
-						<p>Do the right thing and <a data-href="#tabs-5" class="open-tab">Book this trip now</a> with YOLLO Group Services Inc. and allow us to give you an extraordinary adventure while at sea!</p>
 						<!--new copy start-->
 						<h2 class="h4">Celebrate in Style</h2>
-<p>St. Patrick&rsquo;s Day is a celebrated holiday in many countries throughout the world. Those who do celebrate find it to be a wonderful day for socialization, camaraderie, and relaxation. What better way to celebrate such an occasion than with an all inclusive St. Patrick&rsquo;s Day cruise from YOLLO Group Services, Inc.?</p>
-<p>With great drinks, cuisine, and entertainment during the later hours, you and your group are sure to have the time of your lives when you decide to embark on a St. Patrick&rsquo;s Day cruise. And being all-inclusive means that you get everything you could ever want on such a cruise at an incredibly competitive, one-time price.</p>
-<p>Celebrate a major holiday in style when you book with the team at YOLLO Group Services, Inc. Browse further on this page to learn more details about our cruise itinerary. For any questions, reach out to us today by filling out our convenient<span>&nbsp;</span><a href="https://goyollo.com/contact">online contact form</a>.</p>
+						<p>St. Patrick's Day is a celebrated holiday in many countries throughout the world. Those who do celebrate find it to be a wonderful day for socialization, camaraderie, and relaxation. What better way to celebrate such an occasion than with an all inclusive St. Patrick's Day cruise from YOLLO Group Services?</p>
+						<p>With great drinks, cuisine, and entertainment during the later hours, you and your group are sure to have the time of your lives when you decide to embark on a St. Patrick's Day cruise. And being all-inclusive means that you get everything you could ever want on such a cruise at an incredibly competitive, one-time price.</p>
+						<p>Celebrate a major holiday in style when you <a data-href="#tabs-5" class="open-tab">book this trip</a> with the team at YOLLO Group Services. Browse further on this page to learn more details about our cruise itinerary. For any questions, reach out to us today by filling out our convenient <a href="https://goyollo.com/contact">online contact form</a>.</p>
 						<!--new copy end-->
+
+						<?php include 'includes/uplift-onpage.inc.php'; ?>
 
 						<table class="itinerary">
 							<caption>Cruise Itinerary</caption>
@@ -165,7 +161,6 @@
 									<td>Friday</td>
 									<td>Fun Day At Sea</td>
 								</tr>
-</tr>
 								<tr>
 									<td>Saturday</td>
 									<td>Return: Carnival Port, New Orleans, LA | 8AM</td>
@@ -399,8 +394,8 @@
 
       	<section id="disclosure">
             <div class="disclosure">
-            	<?php include 'includes/package-info-generic.inc.php'; ?><br/>
-                <strong>Disclaimer</strong> | The term Shamrock Sea Escape, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. We are in no way associated with or authorized by Essence Music Festival and neither this production nor its affiliates have licensed or endorsed us to sell goods and/or services in conjunction with any Essence Music Festival productions. The use of any logos, words, trademarks, or photos have been used for Descriptive Purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.
+            	<?php include 'includes/package-info-generic.inc.php'; ?>
+                <p><strong>Disclaimer</strong> | The term Shamrock Sea Escape, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. </p>
           </div><!-- end of disclosure -->
 
       </section>
