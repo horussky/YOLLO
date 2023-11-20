@@ -121,8 +121,8 @@
             "canonical" => "https://www.goyollo.com/urban-fantasy"
         ),
         "shamrock"   => array(
-            "title"     => "Shamrock Sea Escape Cruise",
-            "desc"      => "YOLLO Group Services, Inc. offers an all-inclusive St. Patricks Day Cruise. Come with us on a Shamrock Sea Escape, and energize your life.",
+            "title"     => "St. Patrick's Day Cruise | YOLLO Group Services, Inc.",
+            "desc"      => "Celebrate the right way with an all inclusive St. Patrick's Day Cruise from YOLLO Group Services, Inc. Contact us today to book yours.",
             "keywords"  => "Shamrock, Cruise,St. Patricks Day Cruise, Mexico, Cozumel, Carnival Cruise, YOLLO",
             "canonical" => "https://www.goyollo.com/shamrock-sea-escape"
         ),

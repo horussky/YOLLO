@@ -23256,6 +23256,69 @@ table td {
   background: var(--yollo-red);
 }
 
+.uplift-info {
+  background-color: #C2EBE7;
+  color: #293132;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+.uplift-info .uplift-info__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px;
+}
+.uplift-info .uplift-info__list div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 200px;
+          flex: 1 0 200px;
+}
+.uplift-info .uplift-info__list div p:last-child {
+  margin-bottom: 0;
+}
+.uplift-info .uplift-info__list .uplift-info__number {
+  font-family: "opensans", san-serif;
+  font-size: 1rem;
+  border: 2px solid white;
+  background-color: #293132;
+  border-radius: 30px;
+  width: 30px;
+  height: 30px;
+  line-height: 25px;
+  margin: 0 auto 20px;
+  color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.uplift-info .uplift-info__disclosure p {
+  font-size: 12px;
+  color: #293132;
+  text-align: left;
+}
+.uplift-info .uplift-info__disclosure p:last-child {
+  margin-bottom: 0;
+}
+
 /*Remove Event Page Social Aside*/
 .event-landing .header {
   margin: 2rem 0;
