@@ -1,6 +1,6 @@
 <div class="uplift-info">
 	<h2 class="h4 uplift-info__title">Consider Uplift to Finance this Cruise</h2>
-	<p class="lead">Experience the convenience of payment with Uplift. Make instant purchases and enjoy the ease of manageable installments over time.</p>
+	<p class="lead">Experience the convenience of payment with Uplift. Make instant purchases and enjoy the ease of manageable installments over time. <a target="_blank" href="/uplift">Learn more about Uplift</a>.</p>
   
   	<div class="uplift-info__list">
 		<div>

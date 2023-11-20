@@ -62,7 +62,7 @@
 			
 		</div>
 
-		<div class="foot-copyright small">&copy; <?php echo date('Y'); ?> <strong>YOLLO Group Services, Inc</strong>. All Rights Reserved. <a style="display: inline;" href="/covid-policy" title="YOLLO Covid Policies">COVID Policies</a> | <a style="display: inline;" href="/privacy-policy" title="YOLLO Covid Policies">Privacy Policies</a></div>
+		<div class="foot-copyright small">&copy; <?php echo date('Y'); ?> <strong>YOLLO Group Services, Inc</strong>. All Rights Reserved. <a style="display: inline;" href="/covid-policy" title="YOLLO Covid Policies">COVID Policies</a> | <a style="display: inline;" href="/privacy-policy" title="YOLLO Covid Policies">Privacy Policies</a> | <a style="display: inline;" href="/uplift" title="Finance your travel with Uplift">Uplift Financing</a></div>
 		
 		
 	</div><!-- end of footer grid -->

@@ -7,7 +7,7 @@ $event = array(
 	"title"				=>"All-Star Weekend Indy 2024",
 	"subtitle"			=>"We are headed to Indy!",
 	"location"			=>"Indianapolis, IN",
-	"date"				=>"February 16, 2024",
+	"date"				=>"February 16 - 18, 2024",
     "date_start"        =>"February 18, 2024",
 	"img_url"			=>"../../images/slides/splash-nba-cta.jpg",
 );
@@ -158,14 +158,13 @@ $package_items = array(
                     <div class="tab" aria-label="overview">
                         <h2 class="h4"><?php echo $event["title"]?></h2>
 
-                        <p>YOLLO is taking you to the All-Star Game In Indy that will be played on February 18, 2024. It will be the 73rd edition of the All-Star Game and hosted by the Indiana Pacers at Gainbridge Fieldhouse. This is the second time that Indianapolis will host the All-Star Game; the last time the game was played in the city was in 1985 at the Hoosier Dome. This three-day weekend event attracts lots of celebrities. Most of these celebs host some of the hottest parties in the city. </p>
+                        <p>Get ready for an exhilarating All-Star Game experience with YOLLO in Indy on February 18, 2024! The Indiana Pacers are set to showcase their skills at Gainbridge Fieldhouse, marking only the second time since '85. Brace yourself for an action-packed weekend filled with A-list parties hosted by your favorite celebrities. Don't miss out on this incredible opportunity -  <a data-href="#tabs-5" class="open-tab">secure your spot now! </a></p>
 
                         <p>YOLLO has an all-inclusive package to get you face-to-face with these celebrities. From party passes, hotel stay, and celebrity-hosted events, YOLLO is here for your turn up!</p>
 
-                        <h4>Party with YOLLO during All Star Weekend</h4>
-						<p>This annual event brings out the BEST of the BEST and the parties are just as GREAT! Events cover the city all weekend long and YOLLO puts you in the LIVEST paries and events throughout the weekend.  One of our fan favorite events is our Colors and Cocktails event! Last years' tribute to Kobe Byrant painting was a HUGE hit and in 2023 it will be even better! Please remember that once we sell out, we will not have any more tickets available. Lock in your package today for only 29.99 and enjoy our convenient payment plan.<p>
-
-                        <p>Allow us to give you an exciting travel experience during the All-Star Weekend. Make sure you explore our hotel and pricing options and book with YOLLO Group Services today!</p>
+                        
+                        <h4>Experience the Ultimate All-Star Weekend</h4>
+                        <p>Join us for the ultimate entertainment experience as we take you on a thrilling journey through the city's most exhilarating events. With our exclusive access, you'll have the opportunity to attend the hottest parties. One event that you definitely don't want to miss is our highly acclaimed Colors and Cocktails event. Secure your tickets now as availability is limited. Once we sell out, no more tickets will be available. Don't miss out on the festivities - <a data-href="#tabs-5" class="open-tab">reserve your package today!</a></p>
 
                     </div> <!-- ./ overview -->
 
