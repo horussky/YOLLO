@@ -130,7 +130,6 @@
 						<div class="tab" aria-label="overview">
 						<h2 class="h4">Join us for St. Patricks Day in Cozumel, Mexico</h2>
 						<!--new copy start-->
-						<h2 class="h4">Celebrate in Style</h2>
 						<p>St. Patrick's Day is a celebrated holiday in many countries throughout the world. Those who do celebrate find it to be a wonderful day for socialization, camaraderie, and relaxation. What better way to celebrate such an occasion than with an all inclusive St. Patrick's Day cruise from YOLLO Group Services?</p>
 						<p>With great drinks, cuisine, and entertainment during the later hours, you and your group are sure to have the time of your lives when you decide to embark on a St. Patrick's Day cruise. And being all-inclusive means that you get everything you could ever want on such a cruise at an incredibly competitive, one-time price.</p>
 						<p>Celebrate a major holiday in style when you <a data-href="#tabs-5" class="open-tab">book this trip</a> with the team at YOLLO Group Services. Browse further on this page to learn more details about our cruise itinerary. For any questions, reach out to us today by filling out our convenient <a href="https://goyollo.com/contact">online contact form</a>.</p>

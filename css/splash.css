@@ -1221,51 +1221,51 @@ progress {
     margin-left: 91.66666667%;
   }
   .g-sm-0,
-.gx-sm-0 {
+  .gx-sm-0 {
     --bs-gutter-x: 0;
   }
   .g-sm-0,
-.gy-sm-0 {
+  .gy-sm-0 {
     --bs-gutter-y: 0;
   }
   .g-sm-1,
-.gx-sm-1 {
+  .gx-sm-1 {
     --bs-gutter-x: 0.25rem;
   }
   .g-sm-1,
-.gy-sm-1 {
+  .gy-sm-1 {
     --bs-gutter-y: 0.25rem;
   }
   .g-sm-2,
-.gx-sm-2 {
+  .gx-sm-2 {
     --bs-gutter-x: 0.5rem;
   }
   .g-sm-2,
-.gy-sm-2 {
+  .gy-sm-2 {
     --bs-gutter-y: 0.5rem;
   }
   .g-sm-3,
-.gx-sm-3 {
+  .gx-sm-3 {
     --bs-gutter-x: 1rem;
   }
   .g-sm-3,
-.gy-sm-3 {
+  .gy-sm-3 {
     --bs-gutter-y: 1rem;
   }
   .g-sm-4,
-.gx-sm-4 {
+  .gx-sm-4 {
     --bs-gutter-x: 1.5rem;
   }
   .g-sm-4,
-.gy-sm-4 {
+  .gy-sm-4 {
     --bs-gutter-y: 1.5rem;
   }
   .g-sm-5,
-.gx-sm-5 {
+  .gx-sm-5 {
     --bs-gutter-x: 3rem;
   }
   .g-sm-5,
-.gy-sm-5 {
+  .gy-sm-5 {
     --bs-gutter-y: 3rem;
   }
 }
@@ -1432,51 +1432,51 @@ progress {
     margin-left: 91.66666667%;
   }
   .g-md-0,
-.gx-md-0 {
+  .gx-md-0 {
     --bs-gutter-x: 0;
   }
   .g-md-0,
-.gy-md-0 {
+  .gy-md-0 {
     --bs-gutter-y: 0;
   }
   .g-md-1,
-.gx-md-1 {
+  .gx-md-1 {
     --bs-gutter-x: 0.25rem;
   }
   .g-md-1,
-.gy-md-1 {
+  .gy-md-1 {
     --bs-gutter-y: 0.25rem;
   }
   .g-md-2,
-.gx-md-2 {
+  .gx-md-2 {
     --bs-gutter-x: 0.5rem;
   }
   .g-md-2,
-.gy-md-2 {
+  .gy-md-2 {
     --bs-gutter-y: 0.5rem;
   }
   .g-md-3,
-.gx-md-3 {
+  .gx-md-3 {
     --bs-gutter-x: 1rem;
   }
   .g-md-3,
-.gy-md-3 {
+  .gy-md-3 {
     --bs-gutter-y: 1rem;
   }
   .g-md-4,
-.gx-md-4 {
+  .gx-md-4 {
     --bs-gutter-x: 1.5rem;
   }
   .g-md-4,
-.gy-md-4 {
+  .gy-md-4 {
     --bs-gutter-y: 1.5rem;
   }
   .g-md-5,
-.gx-md-5 {
+  .gx-md-5 {
     --bs-gutter-x: 3rem;
   }
   .g-md-5,
-.gy-md-5 {
+  .gy-md-5 {
     --bs-gutter-y: 3rem;
   }
 }
@@ -1643,51 +1643,51 @@ progress {
     margin-left: 91.66666667%;
   }
   .g-lg-0,
-.gx-lg-0 {
+  .gx-lg-0 {
     --bs-gutter-x: 0;
   }
   .g-lg-0,
-.gy-lg-0 {
+  .gy-lg-0 {
     --bs-gutter-y: 0;
   }
   .g-lg-1,
-.gx-lg-1 {
+  .gx-lg-1 {
     --bs-gutter-x: 0.25rem;
   }
   .g-lg-1,
-.gy-lg-1 {
+  .gy-lg-1 {
     --bs-gutter-y: 0.25rem;
   }
   .g-lg-2,
-.gx-lg-2 {
+  .gx-lg-2 {
     --bs-gutter-x: 0.5rem;
   }
   .g-lg-2,
-.gy-lg-2 {
+  .gy-lg-2 {
     --bs-gutter-y: 0.5rem;
   }
   .g-lg-3,
-.gx-lg-3 {
+  .gx-lg-3 {
     --bs-gutter-x: 1rem;
   }
   .g-lg-3,
-.gy-lg-3 {
+  .gy-lg-3 {
     --bs-gutter-y: 1rem;
   }
   .g-lg-4,
-.gx-lg-4 {
+  .gx-lg-4 {
     --bs-gutter-x: 1.5rem;
   }
   .g-lg-4,
-.gy-lg-4 {
+  .gy-lg-4 {
     --bs-gutter-y: 1.5rem;
   }
   .g-lg-5,
-.gx-lg-5 {
+  .gx-lg-5 {
     --bs-gutter-x: 3rem;
   }
   .g-lg-5,
-.gy-lg-5 {
+  .gy-lg-5 {
     --bs-gutter-y: 3rem;
   }
 }
@@ -1854,51 +1854,51 @@ progress {
     margin-left: 91.66666667%;
   }
   .g-xl-0,
-.gx-xl-0 {
+  .gx-xl-0 {
     --bs-gutter-x: 0;
   }
   .g-xl-0,
-.gy-xl-0 {
+  .gy-xl-0 {
     --bs-gutter-y: 0;
   }
   .g-xl-1,
-.gx-xl-1 {
+  .gx-xl-1 {
     --bs-gutter-x: 0.25rem;
   }
   .g-xl-1,
-.gy-xl-1 {
+  .gy-xl-1 {
     --bs-gutter-y: 0.25rem;
   }
   .g-xl-2,
-.gx-xl-2 {
+  .gx-xl-2 {
     --bs-gutter-x: 0.5rem;
   }
   .g-xl-2,
-.gy-xl-2 {
+  .gy-xl-2 {
     --bs-gutter-y: 0.5rem;
   }
   .g-xl-3,
-.gx-xl-3 {
+  .gx-xl-3 {
     --bs-gutter-x: 1rem;
   }
   .g-xl-3,
-.gy-xl-3 {
+  .gy-xl-3 {
     --bs-gutter-y: 1rem;
   }
   .g-xl-4,
-.gx-xl-4 {
+  .gx-xl-4 {
     --bs-gutter-x: 1.5rem;
   }
   .g-xl-4,
-.gy-xl-4 {
+  .gy-xl-4 {
     --bs-gutter-y: 1.5rem;
   }
   .g-xl-5,
-.gx-xl-5 {
+  .gx-xl-5 {
     --bs-gutter-x: 3rem;
   }
   .g-xl-5,
-.gy-xl-5 {
+  .gy-xl-5 {
     --bs-gutter-y: 3rem;
   }
 }
@@ -2065,51 +2065,51 @@ progress {
     margin-left: 91.66666667%;
   }
   .g-xxl-0,
-.gx-xxl-0 {
+  .gx-xxl-0 {
     --bs-gutter-x: 0;
   }
   .g-xxl-0,
-.gy-xxl-0 {
+  .gy-xxl-0 {
     --bs-gutter-y: 0;
   }
   .g-xxl-1,
-.gx-xxl-1 {
+  .gx-xxl-1 {
     --bs-gutter-x: 0.25rem;
   }
   .g-xxl-1,
-.gy-xxl-1 {
+  .gy-xxl-1 {
     --bs-gutter-y: 0.25rem;
   }
   .g-xxl-2,
-.gx-xxl-2 {
+  .gx-xxl-2 {
     --bs-gutter-x: 0.5rem;
   }
   .g-xxl-2,
-.gy-xxl-2 {
+  .gy-xxl-2 {
     --bs-gutter-y: 0.5rem;
   }
   .g-xxl-3,
-.gx-xxl-3 {
+  .gx-xxl-3 {
     --bs-gutter-x: 1rem;
   }
   .g-xxl-3,
-.gy-xxl-3 {
+  .gy-xxl-3 {
     --bs-gutter-y: 1rem;
   }
   .g-xxl-4,
-.gx-xxl-4 {
+  .gx-xxl-4 {
     --bs-gutter-x: 1.5rem;
   }
   .g-xxl-4,
-.gy-xxl-4 {
+  .gy-xxl-4 {
     --bs-gutter-y: 1.5rem;
   }
   .g-xxl-5,
-.gx-xxl-5 {
+  .gx-xxl-5 {
     --bs-gutter-x: 3rem;
   }
   .g-xxl-5,
-.gy-xxl-5 {
+  .gy-xxl-5 {
     --bs-gutter-y: 3rem;
   }
 }
@@ -2389,7 +2389,6 @@ progress {
   border-radius: 0.375rem;
   -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  -o-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
@@ -2397,7 +2396,6 @@ progress {
 @media (prefers-reduced-motion: reduce) {
   .form-control {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -2470,7 +2468,6 @@ progress {
   border-width: 0;
   border-inline-end-width: var(--bs-border-width);
   border-radius: 0;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2492,7 +2489,6 @@ progress {
   border-radius: 0;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
@@ -2504,10 +2500,10 @@ progress {
   }
   .form-control::file-selector-button {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
+
 .form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button {
   background-color: var(--bs-secondary-bg);
 }
@@ -2637,7 +2633,6 @@ textarea.form-control-lg {
   border-radius: 0.375rem;
   -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  -o-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   -webkit-appearance: none;
@@ -2648,7 +2643,6 @@ textarea.form-control-lg {
 @media (prefers-reduced-motion: reduce) {
   .form-select {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -2799,14 +2793,12 @@ textarea.form-control-lg {
   background-position: left center;
   border-radius: 2em;
   -webkit-transition: background-position 0.15s ease-in-out;
-  -o-transition: background-position 0.15s ease-in-out;
   transition: background-position 0.15s ease-in-out;
 }
 
 @media (prefers-reduced-motion: reduce) {
   .form-switch .form-check-input {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -2989,8 +2981,7 @@ textarea.form-control-lg {
   padding: 1rem 0.75rem;
   overflow: hidden;
   text-align: start;
-  -o-text-overflow: ellipsis;
-     text-overflow: ellipsis;
+  text-overflow: ellipsis;
   white-space: nowrap;
   pointer-events: none;
   border: var(--bs-border-width) solid transparent;
@@ -2999,7 +2990,6 @@ textarea.form-control-lg {
           transform-origin: 0 0;
   -webkit-transition: opacity 0.1s ease-in-out, -webkit-transform 0.1s ease-in-out;
   transition: opacity 0.1s ease-in-out, -webkit-transform 0.1s ease-in-out;
-  -o-transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
   transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
   transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out, -webkit-transform 0.1s ease-in-out;
 }
@@ -3007,7 +2997,6 @@ textarea.form-control-lg {
 @media (prefers-reduced-motion: reduce) {
   .form-floating > label {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -3443,7 +3432,6 @@ textarea.form-control-lg {
   background-color: var(--bs-btn-bg);
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
@@ -3451,7 +3439,6 @@ textarea.form-control-lg {
 @media (prefers-reduced-motion: reduce) {
   .btn {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -3814,14 +3801,12 @@ textarea.form-control-lg {
 
 .fade {
   -webkit-transition: opacity 0.15s linear;
-  -o-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear;
 }
 
 @media (prefers-reduced-motion: reduce) {
   .fade {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -3837,14 +3822,12 @@ textarea.form-control-lg {
   height: 0;
   overflow: hidden;
   -webkit-transition: height 0.35s ease;
-  -o-transition: height 0.35s ease;
   transition: height 0.35s ease;
 }
 
 @media (prefers-reduced-motion: reduce) {
   .collapsing {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -3852,14 +3835,12 @@ textarea.form-control-lg {
   width: 0;
   height: auto;
   -webkit-transition: width 0.35s ease;
-  -o-transition: width 0.35s ease;
   transition: width 0.35s ease;
 }
 
 @media (prefers-reduced-motion: reduce) {
   .collapsing.collapse-horizontal {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -4351,14 +4332,12 @@ textarea.form-control-lg {
   color: var(--bs-nav-link-color);
   text-decoration: none;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
-  -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -4600,14 +4579,12 @@ textarea.form-control-lg {
   border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
   border-radius: var(--bs-navbar-toggler-border-radius);
   -webkit-transition: var(--bs-navbar-toggler-transition);
-  -o-transition: var(--bs-navbar-toggler-transition);
   transition: var(--bs-navbar-toggler-transition);
 }
 
 @media (prefers-reduced-motion: reduce) {
   .navbar-toggler {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -4687,7 +4664,6 @@ textarea.form-control-lg {
         -ms-transform: none !important;
             transform: none !important;
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
   .navbar-expand-sm .offcanvas .offcanvas-header {
@@ -4753,7 +4729,6 @@ textarea.form-control-lg {
         -ms-transform: none !important;
             transform: none !important;
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
   .navbar-expand-md .offcanvas .offcanvas-header {
@@ -4819,7 +4794,6 @@ textarea.form-control-lg {
         -ms-transform: none !important;
             transform: none !important;
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
   .navbar-expand-lg .offcanvas .offcanvas-header {
@@ -4885,7 +4859,6 @@ textarea.form-control-lg {
         -ms-transform: none !important;
             transform: none !important;
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
   .navbar-expand-xl .offcanvas .offcanvas-header {
@@ -4951,7 +4924,6 @@ textarea.form-control-lg {
         -ms-transform: none !important;
             transform: none !important;
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
   .navbar-expand-xxl .offcanvas .offcanvas-header {
@@ -5023,7 +4995,6 @@ textarea.form-control-lg {
       -ms-transform: none !important;
           transform: none !important;
   -webkit-transition: none;
-  -o-transition: none;
   transition: none;
 }
 
@@ -5245,11 +5216,11 @@ textarea.form-control-lg {
     border-bottom-right-radius: 0;
   }
   .card-group > .card:not(:last-child) .card-img-top,
-.card-group > .card:not(:last-child) .card-header {
+  .card-group > .card:not(:last-child) .card-header {
     border-top-right-radius: 0;
   }
   .card-group > .card:not(:last-child) .card-img-bottom,
-.card-group > .card:not(:last-child) .card-footer {
+  .card-group > .card:not(:last-child) .card-footer {
     border-bottom-right-radius: 0;
   }
   .card-group > .card:not(:first-child) {
@@ -5257,11 +5228,11 @@ textarea.form-control-lg {
     border-bottom-left-radius: 0;
   }
   .card-group > .card:not(:first-child) .card-img-top,
-.card-group > .card:not(:first-child) .card-header {
+  .card-group > .card:not(:first-child) .card-header {
     border-top-left-radius: 0;
   }
   .card-group > .card:not(:first-child) .card-img-bottom,
-.card-group > .card:not(:first-child) .card-footer {
+  .card-group > .card:not(:first-child) .card-footer {
     border-bottom-left-radius: 0;
   }
 }
@@ -5308,14 +5279,12 @@ textarea.form-control-lg {
   border-radius: 0;
   overflow-anchor: none;
   -webkit-transition: var(--bs-accordion-transition);
-  -o-transition: var(--bs-accordion-transition);
   transition: var(--bs-accordion-transition);
 }
 
 @media (prefers-reduced-motion: reduce) {
   .accordion-button {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -5344,14 +5313,12 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-size: var(--bs-accordion-btn-icon-width);
   -webkit-transition: var(--bs-accordion-btn-icon-transition);
-  -o-transition: var(--bs-accordion-btn-icon-transition);
   transition: var(--bs-accordion-btn-icon-transition);
 }
 
 @media (prefers-reduced-motion: reduce) {
   .accordion-button::after {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -5513,7 +5480,6 @@ textarea.form-control-lg {
   border: var(--bs-pagination-border-width) solid var(--bs-pagination-border-color);
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
@@ -5521,7 +5487,6 @@ textarea.form-control-lg {
 @media (prefers-reduced-motion: reduce) {
   .page-link {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -5755,19 +5720,16 @@ textarea.form-control-lg {
   white-space: nowrap;
   background-color: var(--bs-progress-bar-bg);
   -webkit-transition: var(--bs-progress-bar-transition);
-  -o-transition: var(--bs-progress-bar-transition);
   transition: var(--bs-progress-bar-transition);
 }
 
 @media (prefers-reduced-motion: reduce) {
   .progress-bar {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
 .progress-bar-striped {
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-size: var(--bs-progress-height) var(--bs-progress-height);
 }
@@ -6380,7 +6342,6 @@ textarea.form-control-lg {
 .modal.fade .modal-dialog {
   -webkit-transition: -webkit-transform 0.3s ease-out;
   transition: -webkit-transform 0.3s ease-out;
-  -o-transition: transform 0.3s ease-out;
   transition: transform 0.3s ease-out;
   transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
   -webkit-transform: translate(0, -50px);
@@ -6391,7 +6352,6 @@ textarea.form-control-lg {
 @media (prefers-reduced-motion: reduce) {
   .modal.fade .modal-dialog {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -6547,7 +6507,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .modal-lg,
-.modal-xl {
+  .modal-xl {
     --bs-modal-width: 800px;
   }
 }
@@ -6591,7 +6551,7 @@ textarea.form-control-lg {
     border-radius: 0;
   }
   .modal-fullscreen-sm-down .modal-header,
-.modal-fullscreen-sm-down .modal-footer {
+  .modal-fullscreen-sm-down .modal-footer {
     border-radius: 0;
   }
   .modal-fullscreen-sm-down .modal-body {
@@ -6611,7 +6571,7 @@ textarea.form-control-lg {
     border-radius: 0;
   }
   .modal-fullscreen-md-down .modal-header,
-.modal-fullscreen-md-down .modal-footer {
+  .modal-fullscreen-md-down .modal-footer {
     border-radius: 0;
   }
   .modal-fullscreen-md-down .modal-body {
@@ -6631,7 +6591,7 @@ textarea.form-control-lg {
     border-radius: 0;
   }
   .modal-fullscreen-lg-down .modal-header,
-.modal-fullscreen-lg-down .modal-footer {
+  .modal-fullscreen-lg-down .modal-footer {
     border-radius: 0;
   }
   .modal-fullscreen-lg-down .modal-body {
@@ -6651,7 +6611,7 @@ textarea.form-control-lg {
     border-radius: 0;
   }
   .modal-fullscreen-xl-down .modal-header,
-.modal-fullscreen-xl-down .modal-footer {
+  .modal-fullscreen-xl-down .modal-footer {
     border-radius: 0;
   }
   .modal-fullscreen-xl-down .modal-body {
@@ -6671,7 +6631,7 @@ textarea.form-control-lg {
     border-radius: 0;
   }
   .modal-fullscreen-xxl-down .modal-header,
-.modal-fullscreen-xxl-down .modal-footer {
+  .modal-fullscreen-xxl-down .modal-footer {
     border-radius: 0;
   }
   .modal-fullscreen-xxl-down .modal-body {
@@ -6991,7 +6951,6 @@ textarea.form-control-lg {
   backface-visibility: hidden;
   -webkit-transition: -webkit-transform 0.6s ease-in-out;
   transition: -webkit-transform 0.6s ease-in-out;
-  -o-transition: transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
 }
@@ -6999,7 +6958,6 @@ textarea.form-control-lg {
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -7026,7 +6984,6 @@ textarea.form-control-lg {
 .carousel-fade .carousel-item {
   opacity: 0;
   -webkit-transition-property: opacity;
-  -o-transition-property: opacity;
   transition-property: opacity;
   -webkit-transform: none;
       -ms-transform: none;
@@ -7045,15 +7002,13 @@ textarea.form-control-lg {
   z-index: 0;
   opacity: 0;
   -webkit-transition: opacity 0s 0.6s;
-  -o-transition: opacity 0s 0.6s;
   transition: opacity 0s 0.6s;
 }
 
 @media (prefers-reduced-motion: reduce) {
   .carousel-fade .active.carousel-item-start,
-.carousel-fade .active.carousel-item-end {
+  .carousel-fade .active.carousel-item-end {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -7080,15 +7035,13 @@ textarea.form-control-lg {
   border: 0;
   opacity: 0.5;
   -webkit-transition: opacity 0.15s ease;
-  -o-transition: opacity 0.15s ease;
   transition: opacity 0.15s ease;
 }
 
 @media (prefers-reduced-motion: reduce) {
   .carousel-control-prev,
-.carousel-control-next {
+  .carousel-control-next {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -7174,14 +7127,12 @@ textarea.form-control-lg {
   border-bottom: 10px solid transparent;
   opacity: 0.5;
   -webkit-transition: opacity 0.6s ease;
-  -o-transition: opacity 0.6s ease;
   transition: opacity 0.6s ease;
 }
 
 @media (prefers-reduced-motion: reduce) {
   .carousel-indicators [data-bs-target] {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -7309,7 +7260,7 @@ textarea.form-control-lg {
 
 @media (prefers-reduced-motion: reduce) {
   .spinner-border,
-.spinner-grow {
+  .spinner-grow {
     --bs-spinner-animation-speed: 1.5s;
   }
 }
@@ -7347,14 +7298,12 @@ textarea.form-control-lg {
     background-clip: padding-box;
     outline: 0;
     -webkit-transition: var(--bs-offcanvas-transition);
-    -o-transition: var(--bs-offcanvas-transition);
     transition: var(--bs-offcanvas-transition);
   }
 }
 @media (max-width: 575.98px) and (prefers-reduced-motion: reduce) {
   .offcanvas-sm {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -7457,14 +7406,12 @@ textarea.form-control-lg {
     background-clip: padding-box;
     outline: 0;
     -webkit-transition: var(--bs-offcanvas-transition);
-    -o-transition: var(--bs-offcanvas-transition);
     transition: var(--bs-offcanvas-transition);
   }
 }
 @media (max-width: 767.98px) and (prefers-reduced-motion: reduce) {
   .offcanvas-md {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -7567,14 +7514,12 @@ textarea.form-control-lg {
     background-clip: padding-box;
     outline: 0;
     -webkit-transition: var(--bs-offcanvas-transition);
-    -o-transition: var(--bs-offcanvas-transition);
     transition: var(--bs-offcanvas-transition);
   }
 }
 @media (max-width: 991.98px) and (prefers-reduced-motion: reduce) {
   .offcanvas-lg {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -7677,14 +7622,12 @@ textarea.form-control-lg {
     background-clip: padding-box;
     outline: 0;
     -webkit-transition: var(--bs-offcanvas-transition);
-    -o-transition: var(--bs-offcanvas-transition);
     transition: var(--bs-offcanvas-transition);
   }
 }
 @media (max-width: 1199.98px) and (prefers-reduced-motion: reduce) {
   .offcanvas-xl {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -7787,14 +7730,12 @@ textarea.form-control-lg {
     background-clip: padding-box;
     outline: 0;
     -webkit-transition: var(--bs-offcanvas-transition);
-    -o-transition: var(--bs-offcanvas-transition);
     transition: var(--bs-offcanvas-transition);
   }
 }
 @media (max-width: 1399.98px) and (prefers-reduced-motion: reduce) {
   .offcanvas-xxl {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -7896,14 +7837,12 @@ textarea.form-control-lg {
   background-clip: padding-box;
   outline: 0;
   -webkit-transition: var(--bs-offcanvas-transition);
-  -o-transition: var(--bs-offcanvas-transition);
   transition: var(--bs-offcanvas-transition);
 }
 
 @media (prefers-reduced-motion: reduce) {
   .offcanvas {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -8365,8 +8304,7 @@ textarea.form-control-lg {
 
 .text-truncate {
   overflow: hidden;
-  -o-text-overflow: ellipsis;
-     text-overflow: ellipsis;
+  text-overflow: ellipsis;
   white-space: nowrap;
 }
 
@@ -13546,6 +13484,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
 :root {
   /* body font size */
   --text-base-size: 1rem;
@@ -14018,7 +13957,6 @@ body {
   line-height: 1.5;
   color: #222;
   -webkit-transition: all 0.45s ease;
-  -o-transition: all 0.45s ease;
   transition: all 0.45s ease;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -14096,7 +14034,6 @@ a.chev-link:hover:after {
   bottom: -2px;
   left: 0;
   -webkit-transition: right 0.5s cubic-bezier(0, 0.5, 0, 1), border-color 0.5s ease-out;
-  -o-transition: right 0.5s cubic-bezier(0, 0.5, 0, 1), border-color 0.5s ease-out;
   transition: right 0.5s cubic-bezier(0, 0.5, 0, 1), border-color 0.5s ease-out;
 }
 #right a:not(.btn)::hover {
@@ -14712,7 +14649,6 @@ h4 .soldout, em.soldout {
           box-sizing: border-box;
   opacity: 0.7;
   -webkit-transition: all 500ms;
-  -o-transition: all 500ms;
   transition: all 500ms;
 }
 
@@ -14723,7 +14659,6 @@ h4 .soldout, em.soldout {
       transform: scale(1.3) rotate(5deg);
   -webkit-transition: -webkit-transform 500ms;
   transition: -webkit-transform 500ms;
-  -o-transition: transform 500ms;
   transition: transform 500ms;
   transition: transform 500ms, -webkit-transform 500ms;
 }
@@ -14799,12 +14734,10 @@ hr {
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
 }
@@ -14827,12 +14760,10 @@ hr {
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
 }
@@ -15055,8 +14986,7 @@ hr {
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-     transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 
 .hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
@@ -15064,8 +14994,7 @@ hr {
   -ms-transform: scale(1.2);
       transform: scale(1.2);
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-  -o-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-     transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 
 /* Bounce Out */
@@ -15080,8 +15009,7 @@ hr {
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-     transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 
 .hvr-bounce-out:hover, .hvr-bounce-out:focus, .hvr-bounce-out:active {
@@ -15089,8 +15017,7 @@ hr {
   -ms-transform: scale(0.8);
       transform: scale(0.8);
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-  -o-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-     transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 
 /* Rotate */
@@ -15105,12 +15032,10 @@ hr {
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
 }
@@ -15133,12 +15058,10 @@ hr {
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
 }
@@ -15161,17 +15084,14 @@ hr {
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-float:hover, .hvr-float:focus, .hvr-float:active {
@@ -15192,17 +15112,14 @@ hr {
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-sink:hover, .hvr-sink:focus, .hvr-sink:active {
@@ -15363,12 +15280,10 @@ hr {
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
 }
@@ -15391,12 +15306,10 @@ hr {
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transform-origin: 0 100%;
@@ -15422,12 +15335,10 @@ hr {
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transform-origin: 0 100%;
@@ -16145,10 +16056,8 @@ hr {
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: color, background-color;
-  -o-transition-property: color, background-color;
   transition-property: color, background-color;
 }
 
@@ -16180,10 +16089,8 @@ hr {
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden;
   -webkit-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-     transition-duration: 0.5s;
+  transition-duration: 0.5s;
   -webkit-transition-property: color, background-color;
-  -o-transition-property: color, background-color;
   transition-property: color, background-color;
 }
 
@@ -16216,11 +16123,9 @@ hr {
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   -webkit-transition-property: color;
-  -o-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .hvr-sweep-to-right:before {
@@ -16241,15 +16146,12 @@ hr {
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
@@ -16275,11 +16177,9 @@ hr {
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   -webkit-transition-property: color;
-  -o-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .hvr-sweep-to-left:before {
@@ -16300,15 +16200,12 @@ hr {
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-sweep-to-left:hover, .hvr-sweep-to-left:focus, .hvr-sweep-to-left:active {
@@ -16334,11 +16231,9 @@ hr {
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   -webkit-transition-property: color;
-  -o-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .hvr-sweep-to-bottom:before {
@@ -16359,15 +16254,12 @@ hr {
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-sweep-to-bottom:hover, .hvr-sweep-to-bottom:focus, .hvr-sweep-to-bottom:active {
@@ -16393,11 +16285,9 @@ hr {
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   -webkit-transition-property: color;
-  -o-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .hvr-sweep-to-top:before {
@@ -16418,15 +16308,12 @@ hr {
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-sweep-to-top:hover, .hvr-sweep-to-top:focus, .hvr-sweep-to-top:active {
@@ -16452,11 +16339,9 @@ hr {
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   -webkit-transition-property: color;
-  -o-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-     transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 
 .hvr-bounce-to-right:before {
@@ -16477,15 +16362,12 @@ hr {
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-     transition-duration: 0.5s;
+  transition-duration: 0.5s;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-bounce-to-right:hover, .hvr-bounce-to-right:focus, .hvr-bounce-to-right:active {
@@ -16497,8 +16379,7 @@ hr {
   -ms-transform: scaleX(1);
       transform: scaleX(1);
   -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-  -o-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-     transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 
 /* Bounce To Left */
@@ -16514,11 +16395,9 @@ hr {
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   -webkit-transition-property: color;
-  -o-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-     transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 
 .hvr-bounce-to-left:before {
@@ -16539,15 +16418,12 @@ hr {
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-     transition-duration: 0.5s;
+  transition-duration: 0.5s;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-bounce-to-left:hover, .hvr-bounce-to-left:focus, .hvr-bounce-to-left:active {
@@ -16559,8 +16435,7 @@ hr {
   -ms-transform: scaleX(1);
       transform: scaleX(1);
   -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-  -o-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-     transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 
 /* Bounce To Bottom */
@@ -16576,11 +16451,9 @@ hr {
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   -webkit-transition-property: color;
-  -o-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-     transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 
 .hvr-bounce-to-bottom:before {
@@ -16601,15 +16474,12 @@ hr {
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-     transition-duration: 0.5s;
+  transition-duration: 0.5s;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-bounce-to-bottom:hover, .hvr-bounce-to-bottom:focus, .hvr-bounce-to-bottom:active {
@@ -16621,8 +16491,7 @@ hr {
   -ms-transform: scaleY(1);
       transform: scaleY(1);
   -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-  -o-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-     transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 
 /* Bounce To Top */
@@ -16638,11 +16507,9 @@ hr {
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   -webkit-transition-property: color;
-  -o-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-     transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 
 .hvr-bounce-to-top:before {
@@ -16663,15 +16530,12 @@ hr {
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-     transition-duration: 0.5s;
+  transition-duration: 0.5s;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-bounce-to-top:hover, .hvr-bounce-to-top:focus, .hvr-bounce-to-top:active {
@@ -16683,8 +16547,7 @@ hr {
   -ms-transform: scaleY(1);
       transform: scaleY(1);
   -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-  -o-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-     transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 
 /* Radial Out */
@@ -16702,11 +16565,9 @@ hr {
   overflow: hidden;
   background: #e1e1e1;
   -webkit-transition-property: color;
-  -o-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .hvr-radial-out:before {
@@ -16725,15 +16586,12 @@ hr {
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-radial-out:hover, .hvr-radial-out:focus, .hvr-radial-out:active {
@@ -16761,11 +16619,9 @@ hr {
   overflow: hidden;
   background: #2098d1;
   -webkit-transition-property: color;
-  -o-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .hvr-radial-in:before {
@@ -16784,15 +16640,12 @@ hr {
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-radial-in:hover, .hvr-radial-in:focus, .hvr-radial-in:active {
@@ -16819,11 +16672,9 @@ hr {
   position: relative;
   background: #2098d1;
   -webkit-transition-property: color;
-  -o-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .hvr-rectangle-in:before {
@@ -16841,15 +16692,12 @@ hr {
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-rectangle-in:hover, .hvr-rectangle-in:focus, .hvr-rectangle-in:active {
@@ -16876,11 +16724,9 @@ hr {
   position: relative;
   background: #e1e1e1;
   -webkit-transition-property: color;
-  -o-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .hvr-rectangle-out:before {
@@ -16898,15 +16744,12 @@ hr {
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-rectangle-out:hover, .hvr-rectangle-out:focus, .hvr-rectangle-out:active {
@@ -16933,11 +16776,9 @@ hr {
   position: relative;
   background: #2098d1;
   -webkit-transition-property: color;
-  -o-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .hvr-shutter-in-horizontal:before {
@@ -16958,15 +16799,12 @@ hr {
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-shutter-in-horizontal:hover, .hvr-shutter-in-horizontal:focus, .hvr-shutter-in-horizontal:active {
@@ -16993,11 +16831,9 @@ hr {
   position: relative;
   background: #e1e1e1;
   -webkit-transition-property: color;
-  -o-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .hvr-shutter-out-horizontal:before {
@@ -17018,15 +16854,12 @@ hr {
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {
@@ -17053,11 +16886,9 @@ hr {
   position: relative;
   background: #2098d1;
   -webkit-transition-property: color;
-  -o-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .hvr-shutter-in-vertical:before {
@@ -17078,15 +16909,12 @@ hr {
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-shutter-in-vertical:hover, .hvr-shutter-in-vertical:focus, .hvr-shutter-in-vertical:active {
@@ -17113,11 +16941,9 @@ hr {
   position: relative;
   background: #e1e1e1;
   -webkit-transition-property: color;
-  -o-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .hvr-shutter-out-vertical:before {
@@ -17138,15 +16964,12 @@ hr {
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-shutter-out-vertical:hover, .hvr-shutter-out-vertical:focus, .hvr-shutter-out-vertical:active {
@@ -17172,12 +16995,10 @@ hr {
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
   -webkit-transition-property: -webkit-box-shadow;
   transition-property: -webkit-box-shadow;
-  -o-transition-property: box-shadow;
   transition-property: box-shadow;
   transition-property: box-shadow, -webkit-box-shadow;
   -webkit-box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);
@@ -17203,10 +17024,8 @@ hr {
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: background;
-  -o-transition-property: background;
   transition-property: background;
   -webkit-box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);
           box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);
@@ -17241,10 +17060,8 @@ hr {
   bottom: 4px;
   opacity: 0;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: opacity;
-  -o-transition-property: opacity;
   transition-property: opacity;
 }
 
@@ -17374,10 +17191,8 @@ hr {
   bottom: 0;
   left: 0;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: top, right, bottom, left;
-  -o-transition-property: top, right, bottom, left;
   transition-property: top, right, bottom, left;
 }
 
@@ -17413,10 +17228,8 @@ hr {
   left: -16px;
   opacity: 0;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: top, right, bottom, left;
-  -o-transition-property: top, right, bottom, left;
   transition-property: top, right, bottom, left;
 }
 
@@ -17440,10 +17253,8 @@ hr {
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: border-radius;
-  -o-transition-property: border-radius;
   transition-property: border-radius;
 }
 
@@ -17476,14 +17287,11 @@ hr {
   background: #2098d1;
   height: 4px;
   -webkit-transition-property: right;
-  -o-transition-property: right;
   transition-property: right;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
@@ -17515,14 +17323,11 @@ hr {
   background: #2098d1;
   height: 4px;
   -webkit-transition-property: left, right;
-  -o-transition-property: left, right;
   transition-property: left, right;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
@@ -17555,14 +17360,11 @@ hr {
   background: #2098d1;
   height: 4px;
   -webkit-transition-property: left;
-  -o-transition-property: left;
   transition-property: left;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-underline-from-right:hover:before, .hvr-underline-from-right:focus:before, .hvr-underline-from-right:active:before {
@@ -17594,14 +17396,11 @@ hr {
   background: #2098d1;
   height: 4px;
   -webkit-transition-property: right;
-  -o-transition-property: right;
   transition-property: right;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-overline-from-left:hover:before, .hvr-overline-from-left:focus:before, .hvr-overline-from-left:active:before {
@@ -17633,14 +17432,11 @@ hr {
   background: #2098d1;
   height: 4px;
   -webkit-transition-property: left, right;
-  -o-transition-property: left, right;
   transition-property: left, right;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-overline-from-center:hover:before, .hvr-overline-from-center:focus:before, .hvr-overline-from-center:active:before {
@@ -17673,14 +17469,11 @@ hr {
   background: #2098d1;
   height: 4px;
   -webkit-transition-property: left;
-  -o-transition-property: left;
   transition-property: left;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-overline-from-right:hover:before, .hvr-overline-from-right:focus:before, .hvr-overline-from-right:active:before {
@@ -17714,14 +17507,11 @@ hr {
   border-style: solid;
   border-width: 0;
   -webkit-transition-property: border-width;
-  -o-transition-property: border-width;
   transition-property: border-width;
   -webkit-transition-duration: 0.1s;
-  -o-transition-duration: 0.1s;
-     transition-duration: 0.1s;
+  transition-duration: 0.1s;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-reveal:hover:before, .hvr-reveal:focus:before, .hvr-reveal:active:before {
@@ -17761,15 +17551,12 @@ hr {
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-underline-reveal:hover:before, .hvr-underline-reveal:focus:before, .hvr-underline-reveal:active:before {
@@ -17808,15 +17595,12 @@ hr {
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-overline-reveal:hover:before, .hvr-overline-reveal:focus:before, .hvr-overline-reveal:active:before {
@@ -17838,12 +17622,10 @@ hr {
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
   -webkit-transition-property: -webkit-box-shadow;
   transition-property: -webkit-box-shadow;
-  -o-transition-property: box-shadow;
   transition-property: box-shadow;
   transition-property: box-shadow, -webkit-box-shadow;
 }
@@ -17865,12 +17647,10 @@ hr {
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
   -webkit-transition-property: -webkit-box-shadow;
   transition-property: -webkit-box-shadow;
-  -o-transition-property: box-shadow;
   transition-property: box-shadow;
   transition-property: box-shadow, -webkit-box-shadow;
 }
@@ -17892,12 +17672,10 @@ hr {
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: box-shadow, transform;
   -webkit-transition-property: -webkit-box-shadow, -webkit-transform;
   transition-property: -webkit-box-shadow, -webkit-transform;
-  -o-transition-property: box-shadow, transform;
   transition-property: box-shadow, transform;
   transition-property: box-shadow, transform, -webkit-box-shadow, -webkit-transform;
 }
@@ -17922,12 +17700,10 @@ hr {
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
   -webkit-transition-property: -webkit-box-shadow;
   transition-property: -webkit-box-shadow;
-  -o-transition-property: box-shadow;
   transition-property: box-shadow;
   transition-property: box-shadow, -webkit-box-shadow;
 }
@@ -17949,12 +17725,10 @@ hr {
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
   -webkit-transition-property: -webkit-box-shadow;
   transition-property: -webkit-box-shadow;
-  -o-transition-property: box-shadow;
   transition-property: box-shadow;
   transition-property: box-shadow, -webkit-box-shadow;
   -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0);
@@ -17981,12 +17755,10 @@ hr {
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
 }
@@ -18001,16 +17773,13 @@ hr {
   height: 10px;
   width: 90%;
   opacity: 0;
-  background: -o-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
   background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
   /* W3C */
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform, opacity;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
-  -o-transition-property: transform, opacity;
   transition-property: transform, opacity;
   transition-property: transform, opacity, -webkit-transform;
 }
@@ -18056,22 +17825,18 @@ hr {
   height: 5px;
   opacity: 0;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: opacity;
-  -o-transition-property: opacity;
   transition-property: opacity;
 }
 
 .hvr-shadow-radial:before {
   bottom: 100%;
-  background: -o-radial-gradient(50% 150%, ellipse, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
   background: radial-gradient(ellipse at 50% 150%, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
 }
 
 .hvr-shadow-radial:after {
   top: 100%;
-  background: -o-radial-gradient(50% -50%, ellipse, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
   background: radial-gradient(ellipse at 50% -50%, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
 }
 
@@ -18101,12 +17866,10 @@ hr {
   content: "";
   border-style: solid;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   left: calc(50% - 10px);
@@ -18142,12 +17905,10 @@ hr {
   content: "";
   border-style: solid;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   top: calc(50% - 10px);
@@ -18183,12 +17944,10 @@ hr {
   content: "";
   border-style: solid;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   left: calc(50% - 10px);
@@ -18224,12 +17983,10 @@ hr {
   content: "";
   border-style: solid;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   top: calc(50% - 10px);
@@ -18257,12 +18014,10 @@ hr {
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
 }
@@ -18277,12 +18032,10 @@ hr {
   border-width: 0 10px 10px 10px;
   border-color: transparent transparent #e1e1e1 transparent;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
 }
@@ -18312,12 +18065,10 @@ hr {
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
 }
@@ -18332,12 +18083,10 @@ hr {
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent #e1e1e1;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
 }
@@ -18367,12 +18116,10 @@ hr {
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
 }
@@ -18387,12 +18134,10 @@ hr {
   border-width: 10px 10px 0 10px;
   border-color: #e1e1e1 transparent transparent transparent;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
 }
@@ -18422,12 +18167,10 @@ hr {
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
 }
@@ -18442,12 +18185,10 @@ hr {
   border-width: 10px 10px 10px 0;
   border-color: transparent #e1e1e1 transparent transparent;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
 }
@@ -18479,8 +18220,7 @@ hr {
   position: relative;
   padding-left: 2.2em;
   -webkit-transition-duration: 0.1s;
-  -o-transition-duration: 0.1s;
-     transition-duration: 0.1s;
+  transition-duration: 0.1s;
 }
 
 .hvr-icon-back:before {
@@ -18492,17 +18232,14 @@ hr {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-transition-duration: 0.1s;
-  -o-transition-duration: 0.1s;
-     transition-duration: 0.1s;
+  transition-duration: 0.1s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-icon-back:hover:before, .hvr-icon-back:focus:before, .hvr-icon-back:active:before {
@@ -18525,8 +18262,7 @@ hr {
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.1s;
-  -o-transition-duration: 0.1s;
-     transition-duration: 0.1s;
+  transition-duration: 0.1s;
 }
 
 .hvr-icon-forward:before {
@@ -18538,17 +18274,14 @@ hr {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-transition-duration: 0.1s;
-  -o-transition-duration: 0.1s;
-     transition-duration: 0.1s;
+  transition-duration: 0.1s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-icon-forward:hover:before, .hvr-icon-forward:focus:before, .hvr-icon-forward:active:before {
@@ -18689,17 +18422,14 @@ hr {
   padding: 0 1px;
   font-family: FontAwesome;
   -webkit-transition-duration: 1s;
-  -o-transition-duration: 1s;
-     transition-duration: 1s;
+  transition-duration: 1s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-timing-function: ease-in-out;
-  -o-transition-timing-function: ease-in-out;
-     transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
 }
 
 .hvr-icon-spin:hover:before, .hvr-icon-spin:focus:before, .hvr-icon-spin:active:before {
@@ -18764,8 +18494,7 @@ hr {
 .hvr-icon-drop:hover:before, .hvr-icon-drop:focus:before, .hvr-icon-drop:active:before {
   opacity: 0;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-animation-name: hvr-icon-drop;
   animation-name: hvr-icon-drop;
   -webkit-animation-duration: 0.5s;
@@ -18804,10 +18533,8 @@ hr {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-     transition-duration: 0.5s;
+  transition-duration: 0.5s;
   -webkit-transition-property: color;
-  -o-transition-property: color;
   transition-property: color;
 }
 
@@ -18949,8 +18676,7 @@ hr {
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .hvr-icon-grow:before {
@@ -18962,17 +18688,14 @@ hr {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-icon-grow:hover:before, .hvr-icon-grow:focus:before, .hvr-icon-grow:active:before {
@@ -18994,8 +18717,7 @@ hr {
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .hvr-icon-shrink:before {
@@ -19007,17 +18729,14 @@ hr {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-icon-shrink:hover:before, .hvr-icon-shrink:focus:before, .hvr-icon-shrink:active:before {
@@ -19070,8 +18789,7 @@ hr {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-icon-pulse:hover:before, .hvr-icon-pulse:focus:before, .hvr-icon-pulse:active:before {
@@ -19121,8 +18839,7 @@ hr {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-icon-pulse-grow:hover:before, .hvr-icon-pulse-grow:focus:before, .hvr-icon-pulse-grow:active:before {
@@ -19174,8 +18891,7 @@ hr {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-icon-pulse-shrink:hover:before, .hvr-icon-pulse-shrink:focus:before, .hvr-icon-pulse-shrink:active:before {
@@ -19217,8 +18933,7 @@ hr {
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .hvr-icon-push:before {
@@ -19230,17 +18945,14 @@ hr {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-icon-push:hover:before, .hvr-icon-push:focus:before, .hvr-icon-push:active:before {
@@ -19280,8 +18992,7 @@ hr {
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .hvr-icon-pop:before {
@@ -19293,17 +19004,14 @@ hr {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-icon-pop:hover:before, .hvr-icon-pop:focus:before, .hvr-icon-pop:active:before {
@@ -19331,8 +19039,7 @@ hr {
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .hvr-icon-bounce:before {
@@ -19344,17 +19051,14 @@ hr {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-icon-bounce:hover:before, .hvr-icon-bounce:focus:before, .hvr-icon-bounce:active:before {
@@ -19362,8 +19066,7 @@ hr {
   -ms-transform: scale(1.5);
       transform: scale(1.5);
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-  -o-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-     transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 
 /* Icon Rotate */
@@ -19380,8 +19083,7 @@ hr {
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .hvr-icon-rotate:before {
@@ -19393,17 +19095,14 @@ hr {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-icon-rotate:hover:before, .hvr-icon-rotate:focus:before, .hvr-icon-rotate:active:before {
@@ -19426,8 +19125,7 @@ hr {
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .hvr-icon-grow-rotate:before {
@@ -19439,17 +19137,14 @@ hr {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-icon-grow-rotate:hover:before, .hvr-icon-grow-rotate:focus:before, .hvr-icon-grow-rotate:active:before {
@@ -19472,8 +19167,7 @@ hr {
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .hvr-icon-float:before {
@@ -19485,17 +19179,14 @@ hr {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-icon-float:hover:before, .hvr-icon-float:focus:before, .hvr-icon-float:active:before {
@@ -19518,8 +19209,7 @@ hr {
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .hvr-icon-sink:before {
@@ -19531,17 +19221,14 @@ hr {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
-  -o-transition-property: transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-icon-sink:hover:before, .hvr-icon-sink:focus:before, .hvr-icon-sink:active:before {
@@ -19604,8 +19291,7 @@ hr {
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .hvr-icon-bob:before {
@@ -19689,8 +19375,7 @@ hr {
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .hvr-icon-hang:before {
@@ -19786,8 +19471,7 @@ hr {
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .hvr-icon-wobble-horizontal:before {
@@ -19877,8 +19561,7 @@ hr {
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .hvr-icon-wobble-vertical:before {
@@ -19936,8 +19619,7 @@ hr {
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .hvr-icon-buzz:before {
@@ -20059,8 +19741,7 @@ hr {
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .hvr-icon-buzz-out:before {
@@ -20109,7 +19790,6 @@ hr {
   left: 0;
   background: white;
   /* IE9 */
-  background: -o-linear-gradient(315deg, white 45%, #aaaaaa 50%, #cccccc 56%, white 80%);
   background: linear-gradient(135deg, white 45%, #aaaaaa 50%, #cccccc 56%, white 80%);
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr="#ffffff", endColorstr="#000000");
   /*For IE7-8-9*/
@@ -20117,10 +19797,8 @@ hr {
   -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
           box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: width, height;
-  -o-transition-property: width, height;
   transition-property: width, height;
 }
 
@@ -20153,15 +19831,12 @@ hr {
   right: 0;
   background: white;
   /* IE9 */
-  background: -o-linear-gradient(225deg, white 45%, #aaaaaa 50%, #cccccc 56%, white 80%);
   background: linear-gradient(225deg, white 45%, #aaaaaa 50%, #cccccc 56%, white 80%);
   -webkit-box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.4);
           box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.4);
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: width, height;
-  -o-transition-property: width, height;
   transition-property: width, height;
 }
 
@@ -20194,15 +19869,12 @@ hr {
   right: 0;
   background: white;
   /* IE9 */
-  background: -o-linear-gradient(135deg, white 45%, #aaaaaa 50%, #cccccc 56%, white 80%);
   background: linear-gradient(315deg, white 45%, #aaaaaa 50%, #cccccc 56%, white 80%);
   -webkit-box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.4);
           box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.4);
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: width, height;
-  -o-transition-property: width, height;
   transition-property: width, height;
 }
 
@@ -20235,15 +19907,12 @@ hr {
   left: 0;
   background: white;
   /* IE9 */
-  background: -o-linear-gradient(45deg, white 45%, #aaaaaa 50%, #cccccc 56%, white 80%);
   background: linear-gradient(45deg, white 45%, #aaaaaa 50%, #cccccc 56%, white 80%);
   -webkit-box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.4);
           box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.4);
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: width, height;
-  -o-transition-property: width, height;
   transition-property: width, height;
 }
 
@@ -20256,7 +19925,6 @@ hr {
 a.btn {
   text-decoration: none;
   -webkit-transition: background-color 0.5s;
-  -o-transition: background-color 0.5s;
   transition: background-color 0.5s;
 }
 
@@ -20286,7 +19954,6 @@ a.btn {
 .btn:hover {
   -webkit-transition: -webkit-box-shadow 0.35s;
   transition: -webkit-box-shadow 0.35s;
-  -o-transition: box-shadow 0.35s;
   transition: box-shadow 0.35s;
   transition: box-shadow 0.35s, -webkit-box-shadow 0.35s;
   -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -20574,7 +20241,6 @@ aside .btn {
 
 #accordion * {
   -webkit-transition: all 0.05s ease;
-  -o-transition: all 0.05s ease;
   transition: all 0.05s ease;
 }
 
@@ -20656,7 +20322,6 @@ aside .btn {
   -ms-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
   -webkit-transition: all 0.15s;
-  -o-transition: all 0.15s;
   transition: all 0.15s;
 }
 
@@ -20752,11 +20417,9 @@ aside .btn {
   -ms-transform: scaleY(1);
       transform: scaleY(1);
   -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-     transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
   padding: 0 3rem;
 }
 .accordion-container section > div p:last-child {
@@ -20768,11 +20431,9 @@ aside .btn {
   -ms-transform: scaleY(1);
       transform: scaleY(1);
   -webkit-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-     transition-duration: 0.5s;
+  transition-duration: 0.5s;
   -webkit-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
   height: 100%;
   padding: 1.5rem 3rem;
 }
@@ -22060,7 +21721,6 @@ form .checkbox {
   cursor: pointer;
   font-weight: bold;
   -webkit-transition: background ease 0.2s;
-  -o-transition: background ease 0.2s;
   transition: background ease 0.2s;
   margin-bottom: 0;
   color: #0065a2;
@@ -22388,7 +22048,6 @@ form .checkbox {
   line-height: 0.8;
   color: #449d44;
   -webkit-transition: all 0.2s;
-  -o-transition: all 0.2s;
   transition: all 0.2s;
 }
 
@@ -22600,7 +22259,6 @@ footer .foot-sponsor .sponsors a {
   display: inline-block;
   opacity: 1;
   -webkit-transition: opacity 0.5s;
-  -o-transition: opacity 0.5s;
   transition: opacity 0.5s;
 }
 footer .foot-sponsor .sponsors a:hover {
@@ -22667,7 +22325,6 @@ footer a {
   font-weight: 700;
   border-bottom: 1px solid transparent;
   -webkit-transition: border 0.5s;
-  -o-transition: border 0.5s;
   transition: border 0.5s;
 }
 footer a:hover {
@@ -22680,7 +22337,6 @@ footer .event-img a {
   border-bottom: 0;
   opacity: 1;
   -webkit-transition: opacity 0.5s;
-  -o-transition: opacity 0.5s;
   transition: opacity 0.5s;
 }
 footer .event-img a:hover {
@@ -22726,7 +22382,6 @@ footer .event-img a:hover {
   list-style-type: none;
   border: 1px solid #e9e9e9;
   -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
   margin-left: 0;
   /* Add shadows on hover */
@@ -23459,14 +23114,12 @@ table td {
 .push {
   -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
   transition: -webkit-transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
-  -o-transition: transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
   transition: transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
   transition: transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99), -webkit-transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
 }
 
 .pushy-content {
   -webkit-transition: visibility 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
-  -o-transition: visibility 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
   transition: visibility 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
 }
 
@@ -23513,12 +23166,10 @@ table td {
 .pushy-submenu ul {
   padding-left: 15px;
   -webkit-transition: max-height 0.2s ease-in-out, visibility 0.2s ease-in-out;
-  -o-transition: max-height 0.2s ease-in-out, visibility 0.2s ease-in-out;
   transition: max-height 0.2s ease-in-out, visibility 0.2s ease-in-out;
 }
 .pushy-submenu ul .pushy-link {
   -webkit-transition: opacity 0.2s ease-in-out;
-  -o-transition: opacity 0.2s ease-in-out;
   transition: opacity 0.2s ease-in-out;
 }
 .pushy-submenu button {
@@ -23551,7 +23202,6 @@ table td {
   transform: translateY(-50%);
   -webkit-transition: -webkit-transform 0.2s;
   transition: -webkit-transform 0.2s;
-  -o-transition: transform 0.2s;
   transition: transform 0.2s;
   transition: transform 0.2s, -webkit-transform 0.2s;
 }
@@ -23751,7 +23401,6 @@ CUSTOM
   padding-right: 40px;
   border: 1px solid transparent;
   -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 [data-accordion] [data-control]:hover {
@@ -24169,7 +23818,7 @@ div.AuthorizeNetSeal * {
     text-align: center;
   }
   .event-nav-mobile .event-nav-mobile__nav .active,
-.event-nav-mobile .event-nav-mobile__nav-primary .active {
+  .event-nav-mobile .event-nav-mobile__nav-primary .active {
     font-weight: 600;
     border-left: 4px solid var(--yollo-red);
     padding-left: 16px;
@@ -24226,7 +23875,6 @@ div.AuthorizeNetSeal * {
     -ms-transform: rotate(0deg);
         transform: rotate(0deg);
     -webkit-transition: 0.5s ease-in-out;
-    -o-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out;
     cursor: pointer;
   }
@@ -24249,7 +23897,6 @@ div.AuthorizeNetSeal * {
         -ms-transform: rotate(0deg);
             transform: rotate(0deg);
     -webkit-transition: 0.25s ease-in-out;
-    -o-transition: 0.25s ease-in-out;
     transition: 0.25s ease-in-out;
   }
   #nav-icon span:nth-child(1) {
@@ -24414,7 +24061,7 @@ div.AuthorizeNetSeal * {
     overflow: hidden;
   }
   .content .form,
-.content .forminfo {
+  .content .forminfo {
     width: 100%;
   }
   footer .footer-grid {
@@ -24478,7 +24125,7 @@ div.AuthorizeNetSeal * {
     grid-row: 3;
   }
   #responsive-tabs .tab,
-#responsive-tabs label {
+  #responsive-tabs label {
     -webkit-box-ordinal-group: initial;
         -ms-flex-order: initial;
             order: initial;
@@ -24578,8 +24225,8 @@ div.AuthorizeNetSeal * {
     margin-bottom: 1.5rem;
   }
   #right .topcontent .title #event-timer .timer-week,
-#right .topcontent .title #event-timer .timer-day,
-#right .topcontent .title #event-timer .timer-hour {
+  #right .topcontent .title #event-timer .timer-day,
+  #right .topcontent .title #event-timer .timer-hour {
     font-size: 1rem;
   }
   .content .date-location {
@@ -24960,6 +24607,40 @@ h2 {
   padding-bottom: 40px;
 }
 
+/*Swiper Slider*/
+.swiper {
+  width: 600px;
+  height: 300px;
+  max-width: 100%;
+}
+
+.swiper-slide img {
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+.swiper-slide a {
+  display: inline-block;
+  background: #9E1421;
+  padding: 8px 16px;
+  border-radius: 50px;
+  border: 3px solid white;
+  position: absolute;
+  z-index: 999;
+  color: white;
+  min-width: 150px;
+  text-align: center;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+.swiper-slide a:hover {
+  background-color: #710e18;
+}
+
 .slider {
   border-radius: 10px 10px 0 0;
   margin-bottom: 1.6rem;
@@ -25074,7 +24755,6 @@ h2 {
   text-indent: -999em;
   opacity: 0.6;
   -webkit-transition: opacity 0.2s;
-  -o-transition: opacity 0.2s;
   transition: opacity 0.2s;
 }
 
@@ -25137,6 +24817,13 @@ footer li a:hover {
 /* Small Devices, Tablets */
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none !important;
+  }
+  .swiper-slide a {
+    width: 90%;
+  }
   .slider-logo img {
     width: 200px;
   }
@@ -25144,7 +24831,7 @@ footer li a:hover {
     height: 200px;
   }
   .slider-content .btn,
-.slider-content .btn + btn {
+  .slider-content .btn + btn {
     display: block;
     width: 90%;
     margin: 0 auto 1rem;

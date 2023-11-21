@@ -103,8 +103,8 @@ $feature_event = array(
 	),
 	array(
 		"title" 	=> "Alumni Getaway Cruise",
-		"date" 		=> "Dec 5-10, 2023",
-		"end"		=> strtotime("December 10, 2023"),
+		"date" 		=> "Dec 2-7, 2023",
+		"end"		=> strtotime("December 7, 2023"),
 		"img" 		=> "images/featured-events/featured-event-agc.jpg",
 		"link" 		=> "/alumni-getaway-cruise"
     ),
