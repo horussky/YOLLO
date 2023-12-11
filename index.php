@@ -48,7 +48,7 @@
 
 									<div class="swiper-slide"><img src="images/slides/splash-nba.jpg"></li><a href="/nba-allstar">View NBA All-Star</a></div>
 
-									<div class="swiper-slide"><img src="images/slides/splash-shamrock.jpg"></li><a href="/nba-allstar">View Shamrock Cruise</a></div>
+									<div class="swiper-slide"><img src="images/slides/splash-shamrock.jpg"></li><a href="/shamrock-sea-escape">View Shamrock Cruise</a></div>
 								</div>
 
 								<!-- If we need navigation buttons -->
@@ -307,11 +307,7 @@ $(function(){
 		infinite: true,
 		nav: true,
 		delay:5000,
-		animation: "fade",
-		effect: 'fade',
-		fadeEffect: {
-			crossFade: true
-		},
+		animation: "fade"
 	})
 	
 	$(".testimonials .test,.event-slider").fadeIn(2000);
