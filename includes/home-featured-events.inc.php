@@ -5,171 +5,219 @@ $feature_event = array(
 
 	array(
 		"title" 	=> "Cincinnati Music Festival",
+		"location"	=> "Cincinnati",
 		"date" 		=> "July 21-23, 2023",
 		"end"		=> strtotime("July 23, 2023"),
 		"img" 		=> "images/featured-events/featured-event-cmf.jpg",
-		"link" 		=> "/nati-music-festival"
+		"link" 		=> "/nati-music-festival",
+		"desc"		=>""
 	),
 	array(
 		"title" 	=> "Grown & Sophisticated Mid-Day Cruise",
+		"location"=> "Cincinnati",
 		"date" 		=> "July 22, 2023",
 		"end"		=> strtotime("July 22, 2023"),
 		"img" 		=> "images/featured-events/featured-event-gsc.jpg",
-		"link" 		=> "/nati-music-festival"
+		"link" 		=> "/nati-music-festival",
+		"desc"		=>"",
 	),
 	array(
 		"title" 	=> "Essence Festival",
+		"location"	=> "New Orleans, LA",
 		"date" 		=> "June 30 - July 2, 2023",
 		"end"		=> strtotime("July 2, 2023"),
 		"img" 		=> "images/featured-events/featured-event-efw.jpg",
-		"link" 		=> "/essence-festival"
+		"link" 		=> "/essence-festival",
+		"desc"		=>"",
 	),
 	array(
 		"title" 	=> "Da Kickback",
+		"location"	=> "Montgomery, AL",
 		"date" 		=> "September 29, 2023",
 		"end"		=> strtotime("September 29, 2023"),
 		"img" 		=> "images/featured-events/featured-event-kickback.jpg",
-		"link" 		=> "/da-kickback"
+		"link" 		=> "/da-kickback",
+		"desc"		=>"",
 	),
 	array(
 		"title" 	=> "Daytopia",
-		"date" 		=> "Nov 4, 2023",
+		"location"	=> "Montgomery, AL",
+		"date" 		=> "November 4, 2023",
 		"end"		=> strtotime("November 4, 2023"),
 		"img" 		=> "images/featured-events/featured-event-daytopia.jpg",
-		"link" 		=> "/daytopia"
+		"link" 		=> "/daytopia",
+		"desc"		=>"",
 	),
 	array(
 		"title" 	=> "Magic City Classic",
+		"location"	=> "Birmingham, AL",
 		"date" 		=> "October 26-28, 2022",
 		"end"		=> strtotime("October 28, 2023"),
 		"img" 		=> "images/featured-events/featured-event-mcc.jpg",
-		"link" 		=> "/classic"
+		"link" 		=> "/classic",
+		"desc"		=>"",
 	),
 	array(
 		"title" 	=> "NBA All-Star Weekend",
+		"location"	=> "Indianapolis, Indiana",
 		"date" 		=> "February 16, 2024",
 		"end"		=> strtotime("February 18, 2024"),
 		"img" 		=> "images/featured-events/featured-event-nba.jpg",
-		"link" 		=> "/nba-allstar"
+		"link" 		=> "/nba-allstar",
+		"desc"		=>"Lets turn up at the All-Star Game with YOLLO's exclusive package, featuring A-list parties, Gainbridge Fieldhouse access, and all-inclusive perks!",
 	),
 	array(
 		"title" 	=> "Party Gras Cruise",
+		"location"	=> "Montgomery, AL",
 		"date" 		=> "August 12-14, 2023",
 		"end"		=> strtotime("August 14, 2023"),
 		"img" 		=> "images/featured-events/featured-event-pg.jpg",
-		"link" 		=> "/partygras"
+		"link" 		=> "/partygras",
+		"desc"		=> "",
 	),
 	array(
 		"title" 	=> "Groove Cruise",
+		"location"	=> "",
 		"date" 		=> "July 21, 2018",
 		"end"		=> strtotime("July 21, 2018"),
 		"img" 		=> "images/featured-events/featured-event-groove-cruise.jpg",
-		"link" 		=> "/groove-cruise"
+		"link" 		=> "/groove-cruise",
+		"desc"		=>"",
 	),
 	array(
 		"title" 	=> "Urban Fantasy Cruise",
+		"location"	=> "",
 		"date" 		=> "September 4-5, 2020",
 		"end"		=> strtotime("September 05, 2020"),
 		"img" 		=> "images/featured-events/featured-event-ufc.jpg",
-		"link" 		=> "/urban-fantasy"
+		"link" 		=> "/urban-fantasy",
+		"desc"		=>"",
 	),
 	array(
 		"title" 	=> "Urban Fiesta Weekend",
+		"location"	=> "Puerto Rico & Jamaica",
 		"date" 		=> "May 27-30, 2023",
 		"end"		=> strtotime("May 30, 2023"),
 		"img" 		=> "images/featured-events/featured-event-ufw.jpg",
-		"link" 		=> "/urban"
+		"link" 		=> "/urban",
+		"desc"		=>"",
 	),
 	array(
 		"title" 	=> "Urban Ski Weekend",
-		"date" 		=> "Feb 2-5, 2024",
+		"location"	=> "Gatlinburg, Tennessee",
+		"date" 		=> "February 2-5, 2024",
 		"end"		=> strtotime("February 5, 2024"),
 		"img" 		=> "images/featured-events/featured-event-usw.jpg",
-		"link" 		=> "/urban-ski-weekend"
+		"link" 		=> "/urban-ski-weekend",
+		"desc"		=> "Join YOLLO for an unforgettable Urban Ski Weekend in Gatlinburg, Tennessee, with tailored skiing experiences for all skill levels."
 	),
 	array(
 		"title" 	=> "Day Getaway Cruise",
+		"location"	=> "",
 		"date" 		=> "May 5, 2018",
 		"end"		=> strtotime("May 5, 2018"),
 		"img" 		=> "images/featured-events/featured-event-dgc.jpg",
-		"link" 		=> "/day-getaway-cruise"
+		"link" 		=> "/day-getaway-cruise",
+		"desc"		=>"",
     ),
     array(
 		"title" 	=> "Spring Fling Music Fest",
+		"location"	=> "",
 		"date" 		=> "May 30, 2020",
 		"end"		=> strtotime("May 30, 2020"),
 		"img" 		=> "images/featured-events/featured-event-springfling.jpg",
-		"link" 		=> "/spring-fling-festival"
+		"link" 		=> "/spring-fling-festival",
+		"desc"		=>"",
 	),
 	array(
-		"title" 	=> "Alumni Getaway Cruise",
-		"date" 		=> "Dec 2-7, 2023",
-		"end"		=> strtotime("December 7, 2023"),
+		"title" 	=> "HBCU Alumni Getaway Cruise",
+		"location"	=> "Cabo San Lucas + Ensenada",
+		"date" 		=> "December 2-7, 2024",
+		"end"		=> strtotime("December 7, 2024"),
 		"img" 		=> "images/featured-events/featured-event-agc.jpg",
-		"link" 		=> "/alumni-getaway-cruise"
+		"link" 		=> "/alumni-getaway-cruise",
+		"desc"		=> "Calling all HBCU alums, join YOLLO on an amazing cruise to Cabo San Lucas and Ensenada, Mexico! Envision sandy beaches, turquoise waters, and the lively local culture.",
     ),
     array(
 		"title" 	=> "Get on the Bus",
-		"date" 		=> "Aug 27-29, 2020",
+		"location"	=> "",
+		"date" 		=> "August 27-29, 2020",
 		"end"		=> strtotime("August 29, 2020"),
 		"img" 		=> "images/featured-events/featured-event-gob.jpg",
-		"link" 		=> "/get-on-the-bus"
+		"link" 		=> "/get-on-the-bus",
+		"desc"		=>"",
     ),
 	array(
 		"title" 	=> "London To Paris",
-		"date" 		=> "Dec 31 - Jan 5, 2023",
+		"location"	=> "Paris, France",
+		"date" 		=> "December 31 - Jan 5, 2023",
 		"end"		=> strtotime("January 5, 2023"),
 		"img" 		=> "images/featured-events/featured-event-london.jpg",
-		"link" 		=> "/london-to-paris"
+		"link" 		=> "/london-to-paris",
+		"desc"		=>"",
     ),
 	array(
 		"title" 	=> "Dubai Takeover",
-		"date" 		=> "Aug 31 - Sept 5, 2023",
+		"location"	=> "Dubai",
+		"date" 		=> "August 31 - Sept 5, 2023",
 		"end"		=> strtotime("September 5, 2023"),
 		"img" 		=> "images/featured-events/featured-event-dubai.jpg",
-		"link" 		=> "/dubai-takeover"
+		"link" 		=> "/dubai-takeover",
+		"desc"		=>"",
     ),
 	array(
 		"title" 	=> "Egypt Takeover",
-		"date" 		=> "Nov 1-6, 2023",
+		"location"	=> "Egypt",
+		"date" 		=> "November 1-6, 2023",
 		"end"		=> strtotime("November 1, 2023"),
 		"img" 		=> "images/featured-events/featured-event-egypt.jpg",
-		"link" 		=> "/egypt-takeover"
+		"link" 		=> "/egypt-takeover",
+		"desc"		=>"",
     ),
 	array(
 		"title" 	=> "Greece Takeover",
-		"date" 		=> "Oct 5-11, 2023",
+		"location"	=> "Greece",
+		"date" 		=> "October 5-11, 2023",
 		"end"		=> strtotime("October 11, 2023"),
 		"img" 		=> "images/featured-events/featured-event-greece.jpg",
-		"link" 		=> "/greece-takeover"
+		"link" 		=> "/greece-takeover",
+		"desc"		=>"",
     ),
 	array(
 		"title" 	=> "Italy Takeover",
-		"date" 		=> "Oct 31-Nov 5, 2023",
+		"location"	=> "Italy",
+		"date" 		=> "October 31-November 5, 2023",
 		"end"		=> strtotime("November 5, 2023"),
 		"img" 		=> "images/featured-events/featured-event-italy.jpg",
-		"link" 		=> "/italy-takeover"
+		"link" 		=> "/italy-takeover",
+		"desc"		=>"",
     ),
 	array(
 		"title" 	=> "Fade To May",
+		"location"	=> "Memphis, TN",
 		"date" 		=> "May 5-7, 2023",
 		"end"		=> strtotime("May 1, 2023"),
 		"img" 		=> "images/featured-events/featured-event-may.jpg",
-		"link" 		=> "/fade-to-may"
+		"link" 		=> "/fade-to-may",
+		"desc"		=>"",
     ),
     array(
 		"title" 	=> "CIAA Weekend",
-		"date" 		=> "Feb 24-27, 2023",
+		"location"	=> "North Carolina",
+		"date" 		=> "February 24-27, 2023",
 		"end"		=> strtotime("February 27, 2023"),
 		"img" 		=> "images/featured-events/featured-event-tourney.jpg",
-		"link" 		=> "/ciaa"
+		"link" 		=> "/ciaa",
+		"desc"		=>"",
     ),
     array(
 		"title" 	=> "Shamrock Sea Escape",
+		"location"	=> "Cozumel, MX",
 		"date" 		=> "March 14-18, 2024",
 		"end"		=> strtotime("March 14, 2024"),
 		"img" 		=> "images/featured-events/featured-event-shamrock.jpg",
-		"link" 		=> "/shamrock-sea-escape"
+		"link" 		=> "/shamrock-sea-escape",
+		"desc"		=> "Experience the ultimate St. Patrick's Day celebration with YOLLO's all-inclusive cruise. Immerse yourself in a day filled with camaraderie, relaxation, and top-notch entertainment.",
     )/*,
     array(
 		"title" 	=> "Spring Breakaway",

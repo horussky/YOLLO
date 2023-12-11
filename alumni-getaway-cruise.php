@@ -4,23 +4,23 @@ include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"					=> "Alumni Getaway 2023",
+	"title"					=> "Alumni Getaway 2024",
 	"subtitle"				=> "The LIVEST HBCU Alumni party at SEA!",
-	"location"				=> "Mahogany Bay and Cozumel",
-	"date"					=> "Dec 2 - 7 2023",
-    "date_start"			=> "December 2, 2023",
+	"location"				=> "Cabo San Lucas and Ensenada",
+	"date"					=> "Dec 2 - 7 2024",
+    "date_start"			=> "December 2, 2024",
 	"img_url"				=> "../../images/slides/splash-alumni-cta.jpg",
 	"img_alt"				=> "Alumni Getaway"
 );
 
 $geolocation = array(
 	"cruise1"=> array(
-		"title" 			=> "Carnival Paradise",
-		"ship"				=> "https://media-cdn.tripadvisor.com/media/photo-w/17/07/d0/71/5c1ff8b0a8edd328431444.jpg",
-		"location"		    => "Tampa Bay",
-        "address"			=> "815 Channelside Dr, Tampa, FL 33602",
+		"title" 			=> "Carnival Firenze",
+		"ship"				=> "https://media-cdn.tripadvisor.com/media/photo-m/1280/2a/56/6b/92/caption.jpg",
+		"location"		    => "(Long Beach) Los Angeles",
+        "address"			=> "231 Windsor Way, Long Beach, CA 90802",
 		"soldout"			=> false,
-		"img_url"			=> "https://media-cdn.tripadvisor.com/media/photo-w/17/07/d0/71/5c1ff8b0a8edd328431444.jpg"
+		"img_url"			=> "https://media-cdn.tripadvisor.com/media/photo-m/1280/2a/56/6b/92/caption.jpg"
 
 	),
 
@@ -28,10 +28,10 @@ $geolocation = array(
 
 $people = array(
 		"diamond"=> array(
-			"Group of 4" 			=> "$ SOLD OUT",
-			"Group of 3"			=> "$ SOLD OUT",
-			"Group of 2"			=> "$1,405",
-			"Individual"			=> "$1,950"
+			"Group of 4" 			=> "SOLD-OUT",
+			"Group of 3"			=> "$975",
+			"Group of 2"			=> "$1,200",
+			"Individual"			=> "$1,450"
 		),
 
 		"emerald"=> array(
@@ -46,16 +46,16 @@ $people = array(
 
 $package_items = array(
 	"diamond_items" => array(
-		"5 Day/4 Night Cruise Departing From Tampa"		=> "checked",
+		"5 Day/4 Night Cruise Departing From Long Beach (Los Angeles)"		=> "checked",
 		"All You Can Eat aboard Ship"								        => "checked",
 		"Bust a Gut Alumni Getaway Comedy Series"					        => "checked",
-		"Alumni Getaway Private 80's vs 90's Decade Party"		            => "checked",
+		"Alumni Getaway Private Toga at Sea Party"		            => "checked",
 		"Word Easy Private Spoken Word Show"						        => "checked",
 		"Alumni Getaway Private Welcome Reception"					        => "checked",
 		"Alumni Getaway Private Meet and Greet Social"					    => "checked",
 		"Alumni Getaway Exclusive Boots and Dukes Party"		        	=> "checked",
-		"Alumni Getaway Beach Retreat"								        => "checked",
-		"Alumni Getaway Ocean Blue Fun and Sexy Party"				        => "checked",
+		"Alumni Getaway Single Port Group Shore Excursion"		        	=> "checked",
+				"Alumni Getaway Shades of Chocolate Fun and Sexy Party"				        => "checked",
 		"Alumni Getaway Farewell Party"									    => "checked",
 		"Alumni Getaway Private Black Film Review"					        => "checked",
 		"Alumni Getaway Rep your HBCU Party"					            => "checked",
@@ -123,8 +123,6 @@ $package_items = array(
         
             <div class="content">
         
-               
-        
                 <div class="date-location">
                     <div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="col">
                         <?php echo $event["date"]; ?>
@@ -132,21 +130,21 @@ $package_items = array(
                     <div class="col"><?php echo $event["location"]; ?></div>
                 </div>
         
-        
-        
                 <div class="colfull">
         
                     <div id="responsive-tabs">
 
                     <?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
-                        <h2 class="h4">HBCU Alumni Getaway is heading to Mahogany Bay, Isla Roatan and Cozumel Mexico!</h2>
+                       
+						<h2 class="h4">Discover Coastal Paradise: HBCU Alumni Getaway is heading to Cabo San Lucas and Ensenada!</h2>
+						<p>Experience the ultimate coastal adventure with our incredible cruise to Cabo San Lucas and Ensenada, Mexico! Embark on a journey filled with white sandy beaches, crystal-clear turquoise waters, and vibrant local culture. Indulge in the breathtaking beauty of the famous El Arco rock formation in Cabo San Lucas, or explore the charming coastal town of Ensenada, known for its delicious cuisine and world-renowned wineries. Whether you're seeking relaxation or adventure, this cruise promises to create lifelong memories. Don't miss out on this unforgettable voyage. Book your ticket today and let us take care of the rest!</p>
 
-                        <p>This HBCU Alumni Getaway Cruise is ideal for all alumni looking to catch up. We're bringing together alums and Greek organizations from across the country to represent their alma mater as we sail to Cozumel and the stunning Mahogany Bay. Mohogany Bay's beaches are among the best in the world, with breathtaking views and unrivaled, crystal-clear waters. In addition, we will sail to the lovely and shopping-friendly island of Cozumel, Mexico.</p>
-
-						<p>YOLLO offers a variety of seaside activities and entertainment. We have comedy, spoken word, and film nights, as well as several theme parties and a spades tournament. For your enjoyment, our DJs can be found playing in various clubs and decks throughout the ship.</p>
+						<p>YOLLO offers a variety of seaside activities and entertainment. We have comedy, spoken word, film nights, as well as several theme parties and a spades tournament. For your enjoyment, our DJs can be found playing in various clubs and decks throughout the ship.</p>
 
 						<p>This package should not be overlooked. <a data-href="#tabs-5" href="#" class="open-tab">Book this fantastic cruise package</a> right now! Spaces for this exciting event are limited, so sign up TODAY!</p>
+
+						<?php include 'includes/uplift-onpage.inc.php'; ?>
                         
                         <table class="itinerary">
 							<caption>Cruise Itinerary</caption>
@@ -155,28 +153,28 @@ $package_items = array(
 							</thead>
 							<tbody>
 								<tr>
-									<td>Saturday</td>
-									<td>Departure: Tampa Bay Port, FL 4PM</td>
-								</tr>
-								<tr>
-									<td>Sunday</td>
-									<td>Fun Day At Sea</td>
-								</tr>
-								<tr>
 									<td>Monday</td>
-									<td>Mahogany Bay, Isla Roatan 11AM-7PM</td>
+									<td>Departure: Long Beach (Los Angeles) 4PM</td>
 								</tr>
 								<tr>
 									<td>Tuesday</td>
-									<td>Cozumel, Mexico 11AM-8PM</td>
+									<td>Fun Day at Sea</td>
 								</tr>
 								<tr>
 									<td>Wednesday</td>
-									<td>Fun Day At Sea</td>
+									<td>Cabo San Lucas 10AM-6PM</td>
 								</tr>
 								<tr>
 									<td>Thursday</td>
-									<td>Return: Tampa Bay Port, FL 8AM</td>
+									<td>Fun Day at Sea</td>
+								</tr>
+								<tr>
+									<td>Friday</td>
+									<td>Ensenada, 8AM-5PM</td>
+								</tr>
+								<tr>
+									<td>Saturday</td>
+									<td>Return: Long Beach (Los Angeles) 8AM</td>
 								</tr> 
 							</tbody>
 							<tfoot>
@@ -185,6 +183,8 @@ $package_items = array(
 								</tr>
 							</tfoot>
 						</table>
+
+						
 
 
                     </div> <!-- ./ overview -->
@@ -214,40 +214,42 @@ $package_items = array(
                         <?php endforeach; ?>
                         
                         <table class="itinerary">
-                            <caption>Cruise Itinerary</caption>
-                            <tbody>
-							<tr>
-                                    <td>Saturday</td>
-                                    <td>Departure: Tampa Bay Port, FL 4PM</td>
-                                </tr>
-                                <tr>
-                                    <td>Sunday</td>
-                                    <td>Fun Day At Sea</td>
-                                </tr>
-                                <tr>
-                                    <td>Monday</td>
-                                    <td>Mahogany Bay, Isla Roatan 11AM-7PM</td>
-                                </tr>
-                                <tr>
-                                    <td>Tuesday</td>
-                                    <td>Cozumel, Mexico 11AM-8PM</td>
-                                </tr>
-                                <tr>
-                                    <td>Wednesday</td>
-                                    <td>Fun Day At Sea</td>
-                                </tr>
-                                <tr>
-                                    <td>Thursday</td>
-                                    <td>Return: Tampa Bay Port, FL 8AM</td>
-                                </tr> 
-                            
-                            </tbody>
-                            <tfoot>
-                                <tr>
-                                    <td colspan="2">*All times are based on Eastern Time Zone.</td>
-                                </tr>
-                            </tfoot>
-                        </table>
+							<caption>Cruise Itinerary</caption>
+							<thead>
+								<tr><th colspan="2" class="small">*All times are based on Eastern Time Zone.</th></tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Monday</td>
+									<td>Departure: Long Beach (Los Angeles) 4PM</td>
+								</tr>
+								<tr>
+									<td>Tuesday</td>
+									<td>Fun Day at Sea</td>
+								</tr>
+								<tr>
+									<td>Wednesday</td>
+									<td>Cabo San Lucas 10AM-6PM</td>
+								</tr>
+								<tr>
+									<td>Thursday</td>
+									<td>Fun Day at Sea</td>
+								</tr>
+								<tr>
+									<td>Friday</td>
+									<td>Ensenada, 8AM-5PM</td>
+								</tr>
+								<tr>
+									<td>Saturday</td>
+									<td>Return: Long Beach (Los Angeles) 8AM</td>
+								</tr> 
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="2"><a href="/alumni-getaway-events">View Event Listing</a></td>
+								</tr>
+							</tfoot>
+						</table>
 
                       <hr />
 
@@ -309,7 +311,7 @@ $package_items = array(
 								<p>Here are a some suggested items to consider:</p>
 									
 								<ul>
-									<li>Light and Casual clothing. Linen and breathable cotton is best. Jamaica and the Grand Caymon is hot!</li>
+									<li>Light and Casual clothing. Linen and breathable cotton is best. Cabo San Lucas and Ensenada are warm in December!</li>
 									<li>Swimming trunks and bikini's</li>
 									<li>Sun Block and Lotions</li>
 									<li>Bug Repellant with DEET</li>
@@ -337,7 +339,7 @@ $package_items = array(
 
 								<div data-control>Is there an open bar or Bottomless Bubbles for alcohol on the ship? </div>
 								<div data-content>
-								<p>Yes, there is an option called CHEERS, but it's limited to 15 drinks per day. CHEERS is an all-inclusive beverage program that allows guests to enjoy a wide range of alcoholic and non-alcoholic beverages by paying a flat daily rate. The cost prior to your cruise is $59.95 USD per person, per day plus 18% gratuity. If you decide you want the program once on board, you can sign up for CHEERS at a bar the cost is $65.95 USD per person, per day plus 18% gratuity. For more information please visit <a href="https://help.carnival.com/app/answers/detail/a_id/1106" target="_blank"> Carnival Cruise FAQs</a></p>  
+								<p>Yes, there is an option called CHEERS, but it's limited to 15 drinks per day. CHEERS is an all-inclusive beverage program that allows guests to enjoy a wide range of alcoholic and non-alcoholic beverages by paying a flat daily rate. The cost prior to your cruise is $69.95 USD per person, per day plus 18% gratuity. If you decide you want the program once on board, you can sign up for CHEERS at a bar the cost is $65.95 USD per person, per day plus 18% gratuity. For more information please visit <a href="https://help.carnival.com/app/answers/detail/a_id/1106" target="_blank"> Carnival Cruise FAQs</a></p>  
 								</div>
 
 							</div><!-- end of accordion-->
@@ -371,7 +373,9 @@ $package_items = array(
 
 							  <div data-control>When are the payments due?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $100.00 per person fee <strong> at sign-up</strong>. The first payment of <strong>$600</strong> per person is due on or before  <strong>August 20, 2023</strong>.  The final payment (remaining balance) is due on or before <strong>September 13, 2023</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
+								<p>To reserve a package each group member pays the $100.00 per person fee <strong> at sign-up</strong>. The first payment of <strong>$250</strong> per person is due on or before  <strong>February 1, 2024</strong>.
+								The second payment of <strong>$300</strong> per person is due on or before  <strong>April 1, 2024</strong>.
+								The final payment (remaining balance) is due on or before <strong>June 1, 2024</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -381,7 +385,7 @@ $package_items = array(
 
 							  <div data-control>Are there any other charges associated with the cruise?</div>
 							  <div data-content>
-								<p>Yes, clients are responsible for paying cabin gratuities. The standard charge is $14.50 per day, but you may want to leave more depending on your service. In most cases gratuity is added to your final bill, so check with the cruiseline front desk on the ship before returning back to Ft. Lauderdale.</p>
+								<p>Yes, clients are responsible for paying cabin gratuities. The standard charge is $14.50 per day, but you may want to leave more depending on your service. In most cases gratuity is added to your final bill, so check with the cruiseline front desk on the ship before returning back to Long Beach (Los Angeles).</p>
 							  </div>
 
 							</div><!-- end of accordion-->
