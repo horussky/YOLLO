@@ -6,7 +6,7 @@ include 'includes/meta.config.inc.php';
 
 $event = array(
 
-	"title"				=>"Spring Fling Festival 2024",
+	"title"				=>"Spring Fling Festival",
 	"subtitle"			=>"The ultimate mature music lover day trip",
 	"location"			=>"Mobile, Al",
 	"date"				=>"April 6, 2024",
@@ -21,12 +21,9 @@ $geolocation = array(
 
 );
 
-
-
 $people = array(
 
 		"diamond"=> array(
-
 			//"Group of 4" 			=>"$565",
 			//"Group of 3"			=>"$595",
 			//"Group of 2"			=>"$650",
@@ -36,7 +33,6 @@ $people = array(
 		"emerald"=> array(
 			
 		),
-
 );
 
 $package_items = array(
@@ -97,36 +93,31 @@ $package_items = array(
 
         <div id="right">
 
-        <div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
-            <div class="overlay"></div>
-            <div class="title">
-                <h1><?php echo $event["title"]; ?></h1>
-                <p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-                <a data-href="#tabs-5" class="btn btn-red open-tab">Pay or Register Now</a>
-                <div id="event-timer"></div>
+            <!-- Event Hero -->
+            <div class="event-hero" style="background-image:url(<?php echo $event["img_url"]; ?>)">
+                <div class="event-hero__details">
+                    <h1 class="event-hero__title"><?php echo $event["title"]; ?></h1>
+                    <p class="event-hero__location"><?php echo $event["location"]; ?></p>
+                    <a data-href="#tabs-5" class="btn btn-red event-hero__btn open-tab">Book Now</a>
+                    <div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="event-hero__date"><?php echo $event["date"]; ?> </div>
+                    <div id="event-timer" class="event-hero__timer"></div>
+                </div>	
             </div>
-        </div>
+            <!-- Event Hero -->
 
 
 
-        <div class="content">
-                <div class="date-location">
-                    <div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="col">
-                            <?php echo $event["date"]; ?>
-                    </div>
-                    <div class="col"><?php echo $event["location"]; ?></div>
-                </div>
-
-
+            <div class="content">
+                
                 <div class="colfull">
                     <div id="responsive-tabs">
                     <?php echo $responsive_tabs["overview"]; ?>
                     <div class="tab" aria-label="overview">
                         <h2 class="h4">A Day-Trip and Concert for Grown Folks and Music Lovers</h2>
 
-                        <p>YOLLO is taking you to the 28th Annual Spring Fling Music Festival in Mobile, AL. If you love Blues music, this is the day-trip you are looking for! Pack up your coolers and lawn chairs because Spring Fling is an outdoor concert event. With over 30 Southern Soul and R&B artists, this is an event that will not disappoint.</p> 
+                        <p>Join YOLLO on a luxury day-trip to the 28th Annual Spring Fling Music Festival in Mobile, AL. This outdoor concert event is perfect for Blues music lovers. With over 30 Southern Soul and R&B artists, you're sure to have a great time. Sip margaritas on our luxury charter and enjoy light food while listening to your favorite artists perform on stage. Hurry, space is limited and tickets are selling fast!</p>
 
-                        <p>Enjoy our luxury charter to the event while sipping margaritas. Once at the event, enjoy some light food and get ready to hear your favorite artists perform on stage. Space is limited and tickets will sell out fast, so act now!</p>
+                        <p>YOLLO is offering a luxury day-trip to the festival, complete with a charter, light food, and margaritas. The charter will take you to the event in style, and you'll be able to relax and enjoy the music while sipping on your favorite drink. Don't miss out on this amazing opportunity to experience the 28th Annual Spring Fling Music Festival in style. Book your tickets now before they sell out!</p>
 
                     </div> <!-- ./overview -->
 

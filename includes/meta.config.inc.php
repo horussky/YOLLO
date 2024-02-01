@@ -155,6 +155,12 @@
             "desc"      => "Urban Ski Weekend in Gatlinburg, TN",
             "keywords"  => "Urban Ski, Ski Weekend, Black Ski Weekend, Tennessee, YOLLO",
             "canonical" => "https://www.goyollo.com/urban-ski-weekend"
-        )
+        ),
+        "uplift" => array(
+            "title"     => "Uplift Financing",
+            "desc"      => "Finance your Cruise package using Uplift",
+            "keywords"  => "YOLLO Cruise Packages, Uplift Financing, Uplift with YOLLO",
+            "canonical" => "https://www.goyollo.com/uplift"
+        ),
     );
 ?>

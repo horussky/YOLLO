@@ -4,15 +4,15 @@
 	include 'includes/functions.inc.php';
 	include 'includes/meta.config.inc.php';
 
-	$eventbriteID = "711997021257";
+	$eventbriteID = "761511430187";
 
 	$event = array(
 
-		"title" => "Daytopia: Carpe Denim",
+		"title" => "Daytopia: <br>Bowling Party",
 		"subtitle" => "Come Party with YOLLO",
 		"location" => "Montgomery, AL",
-		"date" => "November 4, 2023",
-		"date_start" => "November 4, 2023",
+		"date" => "April 13, 2024",
+		"date_start" => "April 13, 2024",
 		"img_url" => "../../images/slides/splash-daytopia-cta.jpg",
 		"img_alt" => "Daytopia Day Party",
 		"hotel_link" => ""
@@ -88,38 +88,27 @@
 
 			<!--Right Content-->
 			<div id="right">
-				<div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
-					<div class="overlay"></div>
-					<div class="title">
-						<h1>
-							<?php echo $event["title"]; ?>
-						</h1>
-						<p class="subtitle">
-							<?php echo $event["subtitle"]; ?>
-						</p>
-						
-						<div id="event-timer"></div>
-					</div>
+
+				<!-- Event Hero -->
+				<div class="event-hero" style="background-image:url(<?php echo $event["img_url"]; ?>)">
+					<div class="event-hero__details">
+						<h1 class="event-hero__title"><?php echo $event["title"]; ?></h1>
+						<p class="event-hero__location"><?php echo $event["location"]; ?></p>
+						<a data-href="#tabs-5" class="btn btn-red event-hero__btn open-tab">Book Now</a>
+						<div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="event-hero__date"><?php echo $event["date"]; ?> </div>
+						<div id="event-timer" class="event-hero__timer"></div>
+					</div>	
 				</div>
+				<!-- Event Hero -->
 
 				<div class="content">
-					<div class="date-location">
-						<div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="col">
-							<?php echo $event["date"]; ?>
-						</div>
-
-						<div class="col">
-							<?php echo $event["location"]; ?>
-						</div>
-					</div><!-- end of date-location -->
-
 
 					<div class="colfull">
 		
 						<h2 class="h4">Welcome to Daytopia: Your Ultimate Day Party Experience!</h2>
 						<p>Get ready to embark on an extraordinary journey of excitement and celebration at YOLLO's Daytopia Day Party - the ultimate day party extravaganza in Gumptown. This isn't just any ordinary party - it's an all-day adventure packed with unforgettable moments, hosted at Bama Lanes.</p>
 
-						<p>What awaits you at Daytopia includes bowling, partying, food, drinks, music, and more. Additionally,s The Lion's Den Mobile lounge will be sponsoring this event. Secure your spot at Daytopia before tickets sell out. Gather your friends, get your bowling shoes ready, and be prepared to dance the day away. </p>
+						<p>What awaits you at Daytopia includes bowling, partying, food, drinks, music, and more. Additionally, The Lion's Den Mobile lounge and King 79 Vodka will be sponsoring this event. Secure your spot at Daytopia before tickets sell out. Gather your friends, get your bowling shoes ready, and be prepared to dance the day away. </p>
 
 					
 

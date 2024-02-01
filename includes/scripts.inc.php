@@ -59,8 +59,8 @@
             });
 
         }
+
         
-		
 		//accordion
 		$('[data-accordion-group] [data-accordion]').accordion({
     		"transitionSpeed": 0

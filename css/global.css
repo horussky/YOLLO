@@ -13612,6 +13612,11 @@ strong, b {
   src: url("../fonts/opensans-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-bold.woff") format("woff"), url("../fonts/opensans-bold.ttf") format("truetype"), url("../fonts/opensans-bold.svg#opensans-regular") format("svg");
 }
 @font-face {
+  font-family: "opensans-semibold";
+  src: url("../fonts/opensans-semibold.eot");
+  src: url("../fonts/opensans-semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-semibold.woff") format("woff"), url("../fonts/opensans-semibold.ttf") format("truetype"), url("../fonts/opensans-semibold.svg#opensans-semibold") format("svg");
+}
+@font-face {
   font-family: "creditcardstack";
   src: url("../fonts/creditcardstack.eot?424st");
   src: url("../fonts/creditcardstack.eot?#iefix424st") format("embedded-opentype"), url("../fonts/creditcardstack.woff?424st") format("woff"), url("../fonts/creditcardstack.ttf?424st") format("truetype"), url("../fonts/creditcardstack.svg?424st#creditcardstack") format("svg");
@@ -14373,8 +14378,6 @@ li.phone {
   z-index: 102;
   background: #fff;
   border: solid 8px #000;
-  -moz-border-radius: 8px;
-  -webkit-border-radius: 8px;
 }
 
 .close-window {
@@ -14654,9 +14657,19 @@ h4 .soldout, em.soldout {
 }
 #upcoming-events .upcoming-events__desc {
   font-size: 14px;
+  padding-bottom: 16px;
 }
 #upcoming-events .upcoming-events__date {
   font-size: 14px;
+}
+#upcoming-events .event {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
 }
 #upcoming-events .event a {
   display: block;
@@ -14675,6 +14688,7 @@ h4 .soldout, em.soldout {
   font-weight: 600;
   border-radius: 50px;
   border: 2px solid white;
+  margin-top: auto;
 }
 #upcoming-events .event a.btn:after {
   content: "";
@@ -20280,6 +20294,87 @@ aside .btn {
 }
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+#right .event-hero {
+  width: 100%;
+  min-height: 350px;
+  background-color: #cecece;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 24px;
+}
+@media only screen and (max-width: 600px) {
+  #right .event-hero {
+    background-position-x: center;
+  }
+}
+#right .event-hero .event-hero__details {
+  width: 386px;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  color: #fff;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  height: 100%;
+  text-align: center;
+  padding: 24px;
+}
+@media only screen and (max-width: 600px) {
+  #right .event-hero .event-hero__details {
+    width: 100%;
+  }
+}
+#right .event-hero .event-hero__title {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+  letter-spacing: -1px;
+  font-weight: 900;
+  margin-bottom: 16px;
+}
+#right .event-hero .event-hero__location {
+  font-size: 16px;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  font-family: "opensans-semibold", san-serif;
+  line-height: 1;
+}
+#right .event-hero .event-hero__btn {
+  padding: 12px;
+  max-width: 250px;
+  display: inline-block;
+  margin: 0 auto 24px;
+  font-size: 16px;
+  line-height: 1;
+}
+#right .event-hero .event-hero__btn:active {
+  background-color: #710e18;
+}
+#right .event-hero .event-hero__date {
+  font-size: 18px;
+  line-height: 1;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  font-family: "opensans", Arial, sans-serif;
+}
+#right .event-hero .event-hero__timer {
+  font-family: "opensans", Arial, sans-serif;
+}
+#right .event-hero .event-hero__timer span {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 1;
+  text-align: center;
+  width: 60px;
+  font-family: "opensans-bold", Arial, sans-serif;
+  color: #fff;
+}
+#right .event-hero .event-hero__timer span em {
+  display: block;
+  font-size: 14px;
+  font-family: "opensans", Arial, sans-serif;
+  margin-top: 6px;
 }
 
 #accordion * {

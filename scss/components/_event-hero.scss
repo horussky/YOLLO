@@ -1,0 +1,89 @@
+
+#right .event-hero{
+    width:100%;
+    min-height:350px;
+    background-color: #cecece;
+    background-size: cover;
+    position: relative;
+    margin-bottom:24px;
+    @media only screen and (max-width:600px){
+        background-position-x: center;
+    }
+    
+    .event-hero__details{
+        width: 386px;
+        background: rgba(0,0,0,0.5);
+        position: absolute;
+        left: 0;
+        color: #fff;
+        backdrop-filter: blur(2px);
+        height: 100%;
+        text-align: center;
+        padding: 24px;
+
+        @media only screen and (max-width:600px){
+            width:100%;
+        }
+    }
+
+    .event-hero__title{
+        font-family: "Merriweather", serif;
+        font-size: 32px;
+        letter-spacing: -1px;
+        font-weight: 900;
+        margin-bottom: 16px;
+    }
+    
+    .event-hero__location{
+        font-size: 16px;
+        margin-bottom: 24px;
+        text-transform: uppercase;
+        font-family:"opensans-semibold", san-serif;
+        line-height: 1;
+    }
+    
+    .event-hero__btn{
+        padding: 12px;
+        max-width: 250px;
+        display: inline-block;
+        margin: 0 auto 24px;
+        font-size: 16px;
+        line-height: 1;
+
+        &:active{
+            background-color: $yollo-red--hover;
+        }
+    }
+    
+    .event-hero__date{
+        font-size: 18px;
+        line-height: 1;
+        margin-bottom: 16px;
+        text-transform: uppercase;
+        font-family: "opensans", Arial, sans-serif;
+    }
+      
+    .event-hero__timer{
+        font-family: "opensans", Arial, sans-serif;
+        
+        span{
+            display: inline-block;
+            font-size: 18px;
+            line-height: 1;
+            text-align: center;
+            width:60px;
+            font-family:"opensans-bold", Arial, sans-serif;
+            color: #fff;
+            
+            em{
+                display: block;
+                font-size: 14px;
+                font-family:"opensans", Arial, sans-serif;
+                margin-top: 6px; 
+            }
+        }
+    }
+    
+    
+    
+}
