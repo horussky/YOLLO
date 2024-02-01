@@ -437,7 +437,7 @@ $package_items = array(
                     <?php echo $responsive_tabs["photos"]; ?>
 						<div class="tab" aria-label="photos">
 								<div id="nanoGallery"></div>
-					</div><!-- ./ photos -->     
+						</div><!-- ./ photos -->     
 
 
                     <?php echo $responsive_tabs["buynow"]; ?>
