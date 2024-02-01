@@ -128,25 +128,20 @@
 
         <div id="right">
 
-            <div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
-					<div class="overlay"></div>
-					<div class="title">
-						<h1><?php echo $event["title"]; ?></h1>
-						<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-						<a data-href="#tabs-5" class="btn btn-red open-tab">Pay or Register Now</a>
-					    <div id="event-timer"></div>
-					</div>
+            <!-- Event Hero -->
+			<div class="event-hero" style="background-image:url(<?php echo $event["img_url"]; ?>)">
+				<div class="event-hero__details">
+					<h1 class="event-hero__title"><?php echo $event["title"]; ?></h1>
+					<p class="event-hero__location"><?php echo $event["location"]; ?></p>
+					<a data-href="#tabs-5" class="btn btn-red event-hero__btn open-tab">Book Now</a>
+					<div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="event-hero__date"><?php echo $event["date"]; ?> </div>
+					<div id="event-timer" class="event-hero__timer"></div>
+				</div>	
 			</div>
+			<!-- Event Hero -->
 
             <div class="content">
-
-                    <div class="date-location">
-                        <div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="col">
-                            <?php echo $event["date"]; ?>
-                        </div>
-                        <div class="col"><?php echo $event["location"]; ?></div>
-                    </div>
-
+				
                    <div class="colfull">
 
 
@@ -291,7 +286,7 @@
 
 							  <div data-control>What are the payment due dates for Essence Packages?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the registration fee $100.00 per person. The first payment of $125 per person is due on or before November 26, 2023. The second payment of $250 per person is due on or before January 26, 2023. The final payment (remaining balance) is due on or before March 26, 2024. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts to partial payments.</p>
+								<p>To reserve a package each group member pays the registration fee $100.00 per person. The first payment of $125 per person is due on or before February 10, 2024. The second payment of $250 per person is due on or before March 5, 2024. The final payment (remaining balance) is due on or before April 05, 2024. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts to partial payments.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

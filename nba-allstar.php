@@ -7,7 +7,7 @@ $event = array(
 	"title"				=>"All-Star Weekend Indy 2024",
 	"subtitle"			=>"We are headed to Indy!",
 	"location"			=>"Indianapolis, IN",
-	"date"				=>"February 16 - 18, 2024",
+	"date"				=>"February 16, 2024",
     "date_start"        =>"February 18, 2024",
 	"img_url"			=>"../../images/slides/splash-nba-cta.jpg",
 );
@@ -129,25 +129,21 @@ $package_items = array(
 				<!--Right Content-->
 				<div id="right">
 
-				<div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
-                    <div class="overlay"></div>
-                    <div class="title">
-                        <h1><?php echo $event["title"]; ?></h1>
-                        <p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-                        <a data-href="#tabs-5" class="btn btn-red open-tab">Pay or Register Now</a>
-                        <div id="event-timer"></div>
-                    </div>
+				<!-- Event Hero -->
+                <div class="event-hero" style="background-image:url(<?php echo $event["img_url"]; ?>)">
+                    <div class="event-hero__details">
+                        <h1 class="event-hero__title"><?php echo $event["title"]; ?></h1>
+                        <p class="event-hero__location"><?php echo $event["location"]; ?></p>
+                        <a data-href="#tabs-5" class="btn btn-red event-hero__btn open-tab">Book Now</a>
+                        <div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="event-hero__date"><?php echo $event["date"]; ?> </div>
+                        <div id="event-timer" class="event-hero__timer"></div>
+                    </div>	
                 </div>
+                <!-- Event Hero -->
 
 
         <div class="content">
 
-            <div class="date-location">
-                <div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="col">
-                    <?php echo $event["date"]; ?>
-                </div>
-                <div class="col"><?php echo $event["location"]; ?></div>
-            </div>
 
 
             <div class="colfull">
@@ -387,55 +383,18 @@ comedians, as well as WNBA players and NBA Legends.</p>
 
 
                     <?php echo $responsive_tabs["buynow"]; ?>
-                    <div class="tab" aria-label="buy">
+                        <div class="tab" aria-label="buy">
+											
+                            <h2 class="h4">Buy Now</h2>
 
-                        <h2 class="h4">Buy Package</h2>
-                        <p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
+                            <div class="pay-form">
+                                <p>Please use the form below to complete your booking for <?php echo $event["title"]?>. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
+                                
+                                <script src="https://www.cognitoforms.com/f/seamless.js" data-key="NiNAkf4LukqBZOHDFOMsiQ" data-form="9"></script>
 
-                        <div class="cognito"></div>
+                            </div><!-- end of pay-form -->
 
-
-                    </div><!-- ./ buy now -->
-                    <?php /* ?>
-                    <input type="radio" name="tabs" id="tab-6"><label for="tab-6"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Cruise</label>
-                    <div class="tab" aria-label="buy">
-                        <h3>Buy Cruise Now</h3>
-                        <div class="mb-20" id="eventbrite-widget-container-60099606541"></div>
-                    </div><!-- ./ buy now -->
-                    
-                    
-                    
-                    <input type="radio" name="tabs" id="tab-6">
-                    <label for="tab-6"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Buy Cruise</label>
-                    <div class="tab" aria-label="buy cruise">
-                        <h3>Lavish Life All Black Yacht Party</h3>
-                        <p>February 16, 2019</p>
-
-                        <img style="width:50%" src="https://cdn.evbuc.com/eventlogos/75965891/photogrid1540043645747.jpg" alt="…">
-                        
-                        
-                        <h5>Cruise #1</h5>
-                        <ul>
-                            <li>Boarding: 11:45 AM</li>
-                            <li>Party time: 12 PM - 3 PM </li>
-                            <li>Light buffet served during cruise</li>
-                            <li>Cash bar</li>
-                            <li>General Admission $75</li>
-                        </ul>
-                        
-                        <h5>Cruise #2</h5>
-                        <ul>
-                            <li>Boarding: 7:45 PM</li>
-                            <li>Party time: 8 PM - 11 PM</li>
-                            <li>Light buffet served during cruise</li>
-                            <li>Cash bar</li>
-                            <li>General Admission $75</li>
-                        </ul>
-
-                        <a href="https://www.eventbrite.com/e/2019-all-star-lavish-life-all-black-yacht-party-tickets-51615616699?ref=ebtnebtckt" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=51615616699" alt="Eventbrite - 2019 ALL STAR LAVISH LIFE ALL BLACK YACHT PARTY" /></a>
-                    </div><!-- ./ buy cruise -->
-                    
-                    <?php */ ?>
+                        </div><!-- ./ buy now -->
                     
 
 
@@ -520,10 +479,6 @@ comedians, as well as WNBA players and NBA Legends.</p>
 		onOrderComplete: exampleCallback  // Method called when an order has successfully completed
 	});
 </script>
-<script src="https://services.cognitoforms.com/s/NiNAkf4LukqBZOHDFOMsiQ"></script>
-<script>Cognito.load("forms", { id: "9" });</script>
-
-    
 <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
     
 <!--google analytics-->

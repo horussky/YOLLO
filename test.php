@@ -4,10 +4,10 @@ include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"					=> "HBCU Alumni Getaway 2024",
+	"title"					=> "HBCU Alumni Getaway Cruise 2024",
 	"subtitle"				=> "The LIVEST HBCU Alumni party at SEA!",
 	"location"				=> "Cabo San Lucas & Ensenada",
-	"date"					=> "Dec 2-7 2024",
+	"date"					=> "December 2-6, 2024",
     "date_start"			=> "December 2, 2024",
 	"img_url"				=> "../../images/slides/splash-alumni-cta.jpg",
 	"img_alt"				=> "Alumni Getaway"
@@ -98,19 +98,19 @@ $package_items = array(
 
     <div id="container">
 
-			<?php include 'includes/header.inc.php'; ?>
-        
-            <!--Left Content-->
-            <div id="left">
-                <!--Nav-->
-                <?php include 'includes/nav.inc.php'; ?>
-                <!--End of Nav-->
-            </div>
-        
-            <!--Right Content-->
-            <div id="right">
-        
-            <!-- Event Hero -->
+		<?php include 'includes/header.inc.php'; ?>
+	
+		<!--Left Content-->
+		<div id="left">
+			<!--Nav-->
+			<?php include 'includes/nav.inc.php'; ?>
+			<!--End of Nav-->
+		</div>
+	
+		<!--Right Content-->
+		<div id="right">
+			
+			<!-- Event Hero -->
 			<div class="event-hero" style="background-image:url(<?php echo $event["img_url"]; ?>)">
 				<div class="event-hero__details">
 					<h1 class="event-hero__title"><?php echo $event["title"]; ?></h1>
@@ -121,18 +121,17 @@ $package_items = array(
 				</div>	
 			</div>
 			<!-- Event Hero -->
-        
-            <div class="content">
-        
-               
-        
-                <div class="colfull">
-        
-                    <div id="responsive-tabs">
+			
 
-                    <?php echo $responsive_tabs["overview"]; ?>
+			<div class="content">
+				
+				<div class="colfull">
+		
+					<div id="responsive-tabs">
+
+					<?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
-                       
+					
 						<h2 class="h4">Discover Coastal Paradise: HBCU Alumni Getaway is heading to Cabo San Lucas and Ensenada!</h2>
 						<p>Experience the ultimate coastal adventure with our incredible cruise to Cabo San Lucas and Ensenada, Mexico! Embark on a journey filled with white sandy beaches, crystal-clear turquoise waters, and vibrant local culture. Indulge in the breathtaking beauty of the famous El Arco rock formation in Cabo San Lucas, or explore the charming coastal town of Ensenada, known for its delicious cuisine and world-renowned wineries. Whether you're seeking relaxation or adventure, this cruise promises to create lifelong memories. Don't miss out on this unforgettable voyage. Book your ticket today and let us take care of the rest!</p>
 
@@ -141,8 +140,8 @@ $package_items = array(
 						<p>This package should not be overlooked. <a data-href="#tabs-5" href="#" class="open-tab">Book this fantastic cruise package</a> right now! Spaces for this exciting event are limited, so sign up TODAY!</p>
 
 						<?php include 'includes/uplift-onpage.inc.php'; ?>
-                        
-                        <table class="itinerary">
+						
+						<table class="itinerary">
 							<caption>Cruise Itinerary</caption>
 							<thead>
 								<tr><th colspan="2" class="small">*All times are based on Eastern Time Zone.</th></tr>
@@ -183,33 +182,33 @@ $package_items = array(
 						
 
 
-                    </div> <!-- ./ overview -->
+					</div> <!-- ./ overview -->
 
 
-                    <?php echo $responsive_tabs["price"]; ?>
+					<?php echo $responsive_tabs["price"]; ?>
 						<div class="tab" aria-label="price">
 
-                    	<h2 class="h4">Cruise</h2>
-                        <?php foreach($geolocation as $hotel) :?>
-                            <div class="hotel-grid">
-                                    <div class="hg-img">
-                                        <figure style="background:url(<?php echo $hotel['img_url']; ?>); background-size: cover; background-position: center;"></figure>
-                                    </div>
-                                    <div class="hg-body">
-                                        <p class="hg-title"><?php echo $hotel["title"]; ?> 
-                                        <?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
+						<h2 class="h4">Cruise</h2>
+						<?php foreach($geolocation as $hotel) :?>
+							<div class="hotel-grid">
+									<div class="hg-img">
+										<figure style="background:url(<?php echo $hotel['img_url']; ?>); background-size: cover; background-position: center;"></figure>
+									</div>
+									<div class="hg-body">
+										<p class="hg-title"><?php echo $hotel["title"]; ?> 
+										<?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
 
-                                        <address>
-                                            Departing from:<br>
-                                            <i class="fa fa-location-arrow" aria-hidden="true"></i> 
-                                            <a title="<?php echo $hotel["title"]; ?>" target="_blank" href="http://maps.google.com/maps?q=<?php echo $hotel["address"]; ?>+<?php echo $hotel["location"]; ?>"><?php echo $hotel["address"]; ?>,  
-                                            <?php echo $hotel["location"]; ?></a>
-                                        </address>
-                                    </div>
-                            </div><!-- ./hotel-grid -->
-                        <?php endforeach; ?>
-                        
-                        <table class="itinerary">
+										<address>
+											Departing from:<br>
+											<i class="fa fa-location-arrow" aria-hidden="true"></i> 
+											<a title="<?php echo $hotel["title"]; ?>" target="_blank" href="http://maps.google.com/maps?q=<?php echo $hotel["address"]; ?>+<?php echo $hotel["location"]; ?>"><?php echo $hotel["address"]; ?>,  
+											<?php echo $hotel["location"]; ?></a>
+										</address>
+									</div>
+							</div><!-- ./hotel-grid -->
+						<?php endforeach; ?>
+						
+						<table class="itinerary">
 							<caption>Cruise Itinerary</caption>
 							<thead>
 								<tr><th colspan="2" class="small">*All times are based on Eastern Time Zone.</th></tr>
@@ -247,63 +246,63 @@ $package_items = array(
 							</tfoot>
 						</table>
 
-                      <hr />
+					<hr />
 
-					  <h2 class="h4">Price</h2>
-                                    
-                        <div class="price-table-container">
+					<h2 class="h4">Price</h2>
+									
+						<div class="price-table-container">
 
-                        <?php if(count($geolocation["cruise1"]) > 1) :?>
-                        <div class="price-table">
-                            <ul class="price">
-                                <li class="header">Diamond <span>Package</span></li>
-                                <?php foreach($package_items['diamond_items'] as $key=>$value): ?>
-                                    <li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-                                <?php endforeach; ?>
-                                <li class="people-price">
-                                    <ul class="priceblock">
-                                        <?php foreach($people['diamond'] as $key=>$value): ?>
-                                            <li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
-                                            <?php endforeach; ?>
-                                    </ul>
-                                </li>
-                                <li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
-                            </ul>
-                        </div><!-- price table -->
-                        <?php endif; ?>
+						<?php if(count($geolocation["cruise1"]) > 1) :?>
+						<div class="price-table">
+							<ul class="price">
+								<li class="header">Diamond <span>Package</span></li>
+								<?php foreach($package_items['diamond_items'] as $key=>$value): ?>
+									<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+								<?php endforeach; ?>
+								<li class="people-price">
+									<ul class="priceblock">
+										<?php foreach($people['diamond'] as $key=>$value): ?>
+											<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
+											<?php endforeach; ?>
+									</ul>
+								</li>
+								<li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
+							</ul>
+						</div><!-- price table -->
+						<?php endif; ?>
 
 
 
-                                
+								
 						</div><!-- price table container-->
 
-                    </div><!-- ./ price -->
+					</div><!-- ./ price -->
 
 
 
-                    <?php echo $responsive_tabs["faqs"]; ?>
+					<?php echo $responsive_tabs["faqs"]; ?>
 					<div class="tab" aria-label="faqs">
 
 						<h2 class="h4">Frequently Asked Questions</h2>
-                        
-                        
-                        <div data-accordion-group>	
+						
+						
+						<div data-accordion-group>	
 										
 							<div class="accordion open" data-accordion>
 
-							  <div data-control>Does the price listed take care of cruise reservations for all members or only one person?</div>
-							  <div data-content>
+							<div data-control>Does the price listed take care of cruise reservations for all members or only one person?</div>
+							<div data-content>
 								
 								<p>All prices listed are per person. Under the package prices description, all amenities included in your package are per person and includes one (1) cabin for the group.</p>
-							  </div>
+							</div>
 
 							</div><!-- end of accordion-->
 
 
 							<div class="accordion" data-accordion>
 
-							  <div data-control>What are some things you suggest I buy for this trip?</div>
-							  <div data-content>
+							<div data-control>What are some things you suggest I buy for this trip?</div>
+							<div data-content>
 								<p>Here are a some suggested items to consider:</p>
 									
 								<ul>
@@ -317,7 +316,7 @@ $package_items = array(
 									<li>A night formal dinner outfit</li>
 								</ul>
 								
-							  </div>
+							</div>
 
 							</div><!-- end of accordion-->
 							
@@ -345,10 +344,10 @@ $package_items = array(
 
 							<div class="accordion" data-accordion>
 
-							  <div data-control>How do I pay for this package?</div>
-							  <div data-content>
+							<div data-control>How do I pay for this package?</div>
+							<div data-content>
 								<p>Navigate to the Buy Now tab and complete the form. You will receive a welcome letter within 7 business days with all your reservation information.</p>
-							  </div>
+							</div>
 
 </div><!-- end of accordion-->
 
@@ -357,72 +356,72 @@ $package_items = array(
 
 							<div class="accordion" data-accordion>
 
-							  <div data-control>What is the difference between a inside versus outside cabin?</div>
-							  <div data-content>
+							<div data-control>What is the difference between a inside versus outside cabin?</div>
+							<div data-content>
 								<p>Inside cabins are located on the inside of a cruise ship and have no windows. Outside cabins, often known as ocean view cabins, are almost identical in size and amenities but have either a porthole or picture window. </p>
-							  </div>
+							</div>
 
 							</div><!-- end of accordion-->
 
 
 							<div class="accordion" data-accordion>
 
-							  <div data-control>When are the payments due?</div>
-							  <div data-content>
+							<div data-control>When are the payments due?</div>
+							<div data-content>
 								<p>To reserve a package each group member pays the $100.00 per person fee <strong> at sign-up</strong>. The first payment of <strong>$250</strong> per person is due on or before  <strong>February 1, 2024</strong>.
 								The second payment of <strong>$300</strong> per person is due on or before  <strong>April 1, 2024</strong>.
 								The final payment (remaining balance) is due on or before <strong>June 1, 2024</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
-							  </div>
+							</div>
 
 							</div><!-- end of accordion-->
 
 
 							<div class="accordion" data-accordion>
 
-							  <div data-control>Are there any other charges associated with the cruise?</div>
-							  <div data-content>
+							<div data-control>Are there any other charges associated with the cruise?</div>
+							<div data-content>
 								<p>Yes, clients are responsible for paying cabin gratuities. The standard charge is $14.50 per day, but you may want to leave more depending on your service. In most cases gratuity is added to your final bill, so check with the cruiseline front desk on the ship before returning back to Long Beach (Los Angeles).</p>
-							  </div>
+							</div>
 
 							</div><!-- end of accordion-->
 
 
 							<div class="accordion" data-accordion>
 
-							  <div data-control>What port are we departing from and what time do I need to be there?</div>
-							  <div data-content>
+							<div data-control>What port are we departing from and what time do I need to be there?</div>
+							<div data-content>
 								<p>The Carnival Paradise sails from Port Tampa Bay. We suggest arriving no later than 2:00 PM.</p>
-							  </div>
+							</div>
 
 							</div><!-- end of accordion-->
 
 							
 							<div class="accordion" data-accordion>
 
-							  <div data-control>Must the entire group pay the $29.99 Reservation fee?</div>
-							  <div data-content>
+							<div data-control>Must the entire group pay the $29.99 Reservation fee?</div>
+							<div data-content>
 								<p>Yes. All prices are per person. The Reservation fee secures your spot on the package, and is separate from the package price. </p>
-							  </div>
+							</div>
 
 							</div><!-- end of accordion-->
 							
 							<div class="accordion" data-accordion>
 
-							  <div data-control>How do I make my first payment?</div>
-							  <div data-content>
+							<div data-control>How do I make my first payment?</div>
+							<div data-content>
 								<p>You follow the same procedure as you did for registration. You will select the First Payment option under package options. </p>
 
-							  </div>
+							</div>
 
 							</div><!-- end of accordion-->
 
 
 							<div class="accordion" data-accordion>
 
-							  <div data-control>How do I make additional payments on my account? </div>
-							  <div data-content>
+							<div data-control>How do I make additional payments on my account? </div>
+							<div data-content>
 								<p>You follow the same procedure as you did for registration. You will select the Partial Payment option under package options.</p>
-							  </div>
+							</div>
 
 							</div><!-- end of accordion-->
 
@@ -430,49 +429,49 @@ $package_items = array(
 						</div><!-- end of accordion group-->
 
 
-            </div> <!-- ./ faqs -->
+			</div> <!-- ./ faqs -->
 
 
 
-                    <?php echo $responsive_tabs["photos"]; ?>
+					<?php echo $responsive_tabs["photos"]; ?>
 						<div class="tab" aria-label="photos">
 								<div id="nanoGallery"></div>
-						</div><!-- ./ photos -->     
+					</div><!-- ./ photos -->     
 
 
-                    <?php echo $responsive_tabs["buynow"]; ?>
+					<?php echo $responsive_tabs["buynow"]; ?>
 						<div class="tab" aria-label="buy">
 											
 							<h2 class="h4">Buy Now</h2>
 
-                            <div class="pay-form">
-                                <p>Please use the form below to complete your booking for <?php echo $event["title"]?>. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
-                                
-								<script src="https://www.cognitoforms.com/f/seamless.js" data-key="NiNAkf4LukqBZOHDFOMsiQ" data-form="81"></script>
+							<div class="pay-form">
+								<p>Please use the form below to complete your booking for <?php echo $event["title"]?>. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
+								
+								<script src="https://www.cognitoforms.com/f/seamless.js" data-key="NiNAkf4LukqBZOHDFOMsiQ" data-form="62"></script>
 
-                            </div><!-- end of pay-form -->
+							</div><!-- end of pay-form -->
 
 
 						</div><!-- ./ buy now -->
 
-			    </div><!-- end of responsive-tabs -->
+				</div><!-- end of responsive-tabs -->
 
 
 
 			</div><!-- end of colfull -->
 
 
-	     <div class="disclosure">
+		<div class="disclosure">
 
-	     	<?php include 'includes/package-info-generic.inc.php'; ?><br/>
+			<?php include 'includes/package-info-generic.inc.php'; ?><br/>
 
-	          <strong>Disclaimer</strong> | The term Alumni Getaway, Carnival Cruise Lines, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. We are in no way associated with or authorized by Carnival Cruises and neither this production nor its affiliates have licensed or endorsed us to sell goods and/or services in conjunction with any Carnival Cruise productions. The use of any logos, words, trademarks, or photos have been used for Descriptive Purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.
-	    </div>
+			<strong>Disclaimer</strong> | The term Alumni Getaway, Carnival Cruise Lines, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. We are in no way associated with or authorized by Carnival Cruises and neither this production nor its affiliates have licensed or endorsed us to sell goods and/or services in conjunction with any Carnival Cruise productions. The use of any logos, words, trademarks, or photos have been used for Descriptive Purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.
+		</div>
 
 
 
-		</div><!--end of content-->
-	</div><!--end of right-->
+			</div><!--end of content-->
+		</div><!--end of right-->
 
     <aside id="social">
     	<?php include 'includes/twitter.inc.php'; ?>

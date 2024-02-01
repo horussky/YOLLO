@@ -100,25 +100,20 @@
 
 
         <div id="right">
-
-            <div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
-					<div class="overlay"></div>
-					<div class="title">
-						<h1>All-Inclusive St. Patrick's Day Cruise</h1>
-						<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-						<a data-href="#tabs-5" class="btn btn-red open-tab">Pay or Register Now</a>
-					    <div id="event-timer"></div>
-					</div>
+			<!-- Event Hero -->
+			<div class="event-hero" style="background-image:url(<?php echo $event["img_url"]; ?>)">
+				<div class="event-hero__details">
+					<h1 class="event-hero__title"><?php echo $event["title"]; ?></h1>
+					<p class="event-hero__location"><?php echo $event["location"]; ?></p>
+					<a data-href="#tabs-5" class="btn btn-red event-hero__btn open-tab">Book Now</a>
+					<div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="event-hero__date"><?php echo $event["date"]; ?> </div>
+					<div id="event-timer" class="event-hero__timer"></div>
+				</div>	
 			</div>
+			<!-- Event Hero -->
 
             <div class="content">
 
-                    <div class="date-location">
-                        <div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="col">
-                            <?php echo $event["date"]; ?>
-                        </div>
-                        <div class="col"><?php echo $event["location"]; ?></div>
-                    </div>
 
                    <div class="colfull">
 

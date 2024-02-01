@@ -5,7 +5,7 @@ include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"					=>"Experience Cincinnati Music Festival 2024",
+	"title"					=>"Cincinnati Music Festival 2024",
 	"subtitle"				=>"Book your package today!",
 	"location"				=>"Cincinnati, Ohio",
     "date"					=>"July 26-28, 2024",
@@ -116,25 +116,19 @@ $package_items = array(
 				<!--Right Content-->
 				<div id="right">
 
-                    <div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
-                        <div class="overlay"></div>
-                        <div class="title">
-                            <h1><?php echo $event["title"]; ?></h1>
-                            <p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-                            <a data-href="#tabs-5" class="btn btn-red open-tab">Pay or Register Now</a>
-                            <div id="event-timer"></div>
-                        </div>
+                    <!-- Event Hero -->
+                    <div class="event-hero" style="background-image:url(<?php echo $event["img_url"]; ?>)">
+                        <div class="event-hero__details">
+                            <h1 class="event-hero__title"><?php echo $event["title"]; ?></h1>
+                            <p class="event-hero__location"><?php echo $event["location"]; ?></p>
+                            <a data-href="#tabs-5" class="btn btn-red event-hero__btn open-tab">Book Now</a>
+                            <div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="event-hero__date"><?php echo $event["date"]; ?> </div>
+                            <div id="event-timer" class="event-hero__timer"></div>
+                        </div>	
                     </div>
+                    <!-- Event Hero -->
 
                 <div class="content">
-                                
-                    <div class="date-location">
-                        <div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="col">
-                            <?php echo $event["date"]; ?>
-                        </div>
-                        <div class="col"><?php echo $event["location"]; ?></div>
-                    </div>
-
 
                     <div class="colfull">
 
@@ -142,8 +136,9 @@ $package_items = array(
 
                             <?php echo $responsive_tabs["overview"]; ?>
                             <div class="tab" aria-label="overview">
-                                <h2 class="h4">Cincinnati Music Festival Travel Package - Book Now!</h2>
-                                <p>Discover the allure of Cincinnati's with our all-inclusive event package for the renowned Cincinnati Music Festival. Indulge in the rhythm and melody of renowned performers while discovering the city's rich culture and sights. Don't miss out on this extraordinary experience! Book your Cincinnati Music Festival travel package now and secure your spot for an unforgettable event.</p>
+                                
+                                <h2 class="h4">Book Your Cincinnati Music Festival Travel Package Now!</h2>
+                                <p>Explore the allure of Cincinnati with our all-inclusive event package for the renowned Cincinnati Music Festival. Immerse yourself in the rhythm and melody of renowned performers while uncovering the city's rich culture and sights. Don't miss out on this extraordinary experience—secure your spot for an unforgettable event by <a data-href="#tabs-5" href="#" class="open-tab">booking your Cincinnati Music Festival travel package today!</a></p>
 
                                 <h2 class="h5">9th Annual Grown and Sophisticated Mid-Day Cruise</h2>
                                 <p>Looking to add a touch of class and elegance to your Cincinnati Music Festival experience? There is no need to look any further! Get ready to embark on a luxurious journey with our exclusive All White Grown and Sophisticated Mid-Day Cruise event. It's hosted aboard the River Queen through BB Riverboats. Enhance your festival experience and make amazing moments against the stunning backdrop of the Cincinnati skyline. The cruise is from 2:00 pm – 5:00 pm. Please remember that once we sell out, we will not have any more tickets available.<p>
@@ -260,7 +255,7 @@ $package_items = array(
 
                                     <div data-control>What are the payment due dates for Cincinnati Music Festival Packages?</div>
                                     <div data-content>
-                                        <p>To reserve a package each group member pays the $100.00 per person fee. The first payment of $125 is due on or before <strong>August 20, 2023</strong>. The second payment of $150 is due on or before <strong>December 20, 2023</strong>.The final payment (remaining balance) is due on or before <strong>February 04, 2024</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
+                                        <p>To reserve a package each group member pays the $100.00 per person fee. The first payment of $125 is due on or before <strong>February 16, 2024</strong>. The second payment of $150 is due on or before <strong>March 16, 2024</strong>.The final payment (remaining balance) is due on or before <strong>April 16, 2024</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
                                     </div>
 
                                     </div><!-- end of accordion-->
@@ -348,7 +343,7 @@ $package_items = array(
                                 
                             </div><!-- ./ buy now -->
 
-                            <input type="radio" name="tabs" id="tab-6"><label for="tab-6"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Cruise</label>
+                            <input type="radio" name="tabs" id="tab-6"><label for="tab-6"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Book Cruise</label>
                             
                             <div class="tab" aria-label="buy">
                                 <h2 class="h4">Buy Cruise Now</h2>   

@@ -36,13 +36,13 @@ define("EVENT", serialize ($nav = array(
 				"link"	=>	"/classic"
 				  
 			),
-			array(
+			/*array(
 				"title"	=>	"Da Kick Back",
 				"link"	=>	"/da-kickback"
 				  
-			),
+			),*/
 			array(
-				"title"	=>	"Daytopia: Carpe Denim",
+				"title"	=>	"Daytopia",
 				"link"	=>	"/daytopia"
 			),
 			array(
@@ -69,7 +69,7 @@ define("EVENT", serialize ($nav = array(
 				"title"	=>	"CIAA Tourney",
 				"link"	=>	"/the-tourney"
 				  
-			),
+			),/*
 			array(
 				"title"	=>	"Dubai Takeover",
 				"link"	=>	"/dubai-takeover"
@@ -85,17 +85,17 @@ define("EVENT", serialize ($nav = array(
 				"link"	=>	"/greece-takeover"
 				  
 			),
-			/*array(
+			array(
 				"title"	=>	"Italy Takeover",
 				"link"	=>	"/italy-takeover"
 				  
-			),*/
+			),
 			array(
 				"title"	=>	"London to Paris Takeover",
 				"link"	=>	"/london-to-paris"
 				  
 			),
-			/*array(
+			array(
 				"title"	=>	"80 vs 90 Throwback Cruise",
 				  "link"	=>	"/throwback-cruise"
 				  
