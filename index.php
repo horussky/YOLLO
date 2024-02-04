@@ -199,7 +199,7 @@
 						<div class="test">
 							<ul>
 
-								<li>
+							<li>
 									<div class="stars">
 										<i class="fa fa-star" aria-hidden="true"></i>
 										<i class="fa fa-star" aria-hidden="true"></i>

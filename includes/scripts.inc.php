@@ -44,17 +44,20 @@
 
         //event timer
         //must be within jquery function
-        if ($("#event-timer").length) {
+        if($("#event-timer").length){
+
             $("#event-timer").countdown(timeFormatted, function(event) {
+
                 var $this = $(this).html(event.strftime(
                     ''
                     + '<span class="timer-week">%w <em>Weeks</em></span>'
                     + '<span class="timer-day">%D <em>Days</em></span>'
                     + '<span class="timer-hour">%H <em>Hours</em></span>'
-                    // + '<span class="timer-mins">%M <em>Mins</em></span>'
+                    //+ '<span class="timer-mins">%M <em>Mins</em></span>'
                     //+ '<span class="timer-seconds">%S <em>Sec</em></span>'
                 ));
-            }, { interval: 3600000 }); // Update the timer every 60,000 milliseconds (60 seconds)
+            });
+
         }
 
         
