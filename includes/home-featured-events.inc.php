@@ -35,7 +35,7 @@ $feature_event = array(
 		"location"	=> "Montgomery, AL",
 		"date" 		=> "April 13, 2024",
 		"end"		=> strtotime("April 13, 2024"),
-		"img" 		=> "images/featured-events/featured-event-daytopia.jpg",
+		"img" 		=> "images/slides/splash-daytopia.jpg",
 		"link" 		=> "/daytopia",
 		"desc"		=>"Come enjoy a day party events at Bama Lanes. DJ and Live Music, Food, Bowling, and lots of fun!",
 	),
