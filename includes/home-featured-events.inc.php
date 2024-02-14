@@ -78,21 +78,12 @@ $feature_event = array(
 	array(
 		"title" 	=> "Urban Ski Weekend",
 		"location"	=> "Gatlinburg, Tennessee",
-		"date" 		=> "February 2-5, 2024",
-		"end"		=> strtotime("February 5, 2024"),
+		"date" 		=> "February 7-10, 2025",
+		"end"		=> strtotime("February 10, 2025"),
 		"img" 		=> "images/slides/splash-urban-ski.jpg",
 		"link" 		=> "/urban-ski-weekend",
 		"desc"		=> "Join YOLLO for an unforgettable Urban Ski Weekend in Gatlinburg, Tennessee, with tailored skiing experiences for all skill levels."
 	),
-	array(
-		"title" 	=> "Day Getaway Cruise",
-		"location"	=> "",
-		"date" 		=> "May 5, 2018",
-		"end"		=> strtotime("May 5, 2018"),
-		"img" 		=> "images/featured-events/featured-event-dgc.jpg",
-		"link" 		=> "/day-getaway-cruise",
-		"desc"		=>"",
-    ),
     array(
 		"title" 	=> "Spring Fling Music Fest",
 		"location"	=> "",
