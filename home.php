@@ -72,16 +72,9 @@ include 'includes/meta.config.inc.php';
 
      	</div><!--end of right-->
 
-
-
-
-
          <aside id="social">
 		 	<?php include 'includes/twitter.inc.php'; ?>
          </aside>
-
-
-
 
 	</div><!-- end of container -->
 

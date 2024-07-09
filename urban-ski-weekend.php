@@ -1,16 +1,15 @@
 <?php
-
 if(!ob_start("ob_gzhandler")) ob_start();
 include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
 $event = array(
 
-	"title"				=>"Urban Ski Weekend 2024",
+	"title"				=>"Urban Ski Weekend 2025",
 	"subtitle"			=>"As Seen on VH1 Love & Hiphop",
 	"location"			=>"Gatlinburg, Tennessee",
-	"date"				=>"Feb 2-5, 2024",
-    "date_start"        =>"February 2, 2024",
+	"date"				=>"Feb 7-10, 2025",
+    "date_start"        =>"February 7, 2025",
 	"img_url"			=>"../../images/slides/splash-urban-ski-cta.jpg",
 	"img_alt"			=>"Urban Ski Weekend"
 );
@@ -140,21 +139,17 @@ $package_items = array(
 
 		<!-- Event Hero -->
 		<div class="event-hero" style="background-image:url(<?php echo $event["img_url"]; ?>)">
-				<div class="event-hero__details">
-					<h1 class="event-hero__title"><?php echo $event["title"]; ?></h1>
-					<p class="event-hero__location"><?php echo $event["location"]; ?></p>
-					<a data-href="#tabs-5" class="btn btn-red event-hero__btn open-tab">Book Now</a>
-					<div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="event-hero__date"><?php echo $event["date"]; ?> </div>
-					<div id="event-timer" class="event-hero__timer"></div>
-				</div>	
-			</div>
-			<!-- Event Hero -->
-
-
+			<div class="event-hero__details">
+				<h1 class="event-hero__title"><?php echo $event["title"]; ?></h1>
+				<p class="event-hero__location"><?php echo $event["location"]; ?></p>
+				<a data-href="#tabs-5" class="btn btn-red event-hero__btn open-tab">Book Now</a>
+				<div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="event-hero__date"><?php echo $event["date"]; ?> </div>
+				<div id="event-timer" class="event-hero__timer"></div>
+			</div>	
+		</div>
+		<!-- Event Hero -->
 
 		<div class="content">
-	
-
 
 			<div class="colfull">
 				<div id="responsive-tabs">
@@ -275,13 +270,9 @@ $package_items = array(
 					<h2 class="h4">Frequently Asked Questions</h2>
 
 					<div data-accordion-group>	
-
 						<div class="accordion open" data-accordion>
-
 							<div data-control>When are the payments due?</div>
-
 							<div data-content>
-
 							<p>Following registration the first payment of $125 is due on or before November 15, 2023.  The second payment of $200 is due on or before December 10, 2023. The final payment (remaining balance) is due on or before January 03, 2024. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 
 							</div>
@@ -441,7 +432,7 @@ $package_items = array(
 
 					<p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
 
-					<div class="cognito"></div>
+					<script src="https://www.cognitoforms.com/f/seamless.js" data-key="NiNAkf4LukqBZOHDFOMsiQ" data-form="33"></script>
 
 
 				</div><!-- ./buynow -->
@@ -498,7 +489,6 @@ $package_items = array(
 	$(document).ready(function(){
 
 			//nano
-
 			$("#nanoGallery").nanoGallery({
 
 				kind: 'flickr',
@@ -523,11 +513,6 @@ $package_items = array(
 	});
 
 </script>
-
-<script src="https://services.cognitoforms.com/s/NiNAkf4LukqBZOHDFOMsiQ"></script>
-
-<script>Cognito.load("forms", { id: "33" });</script>
-
 <!--google analytics-->
 
 <?php include 'includes/analytics.inc.php'; ?>

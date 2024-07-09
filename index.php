@@ -69,14 +69,14 @@
 										"images/slides/splash-nba.jpg", //img
 										"/nba-allstar", //link
 										"View NBA All-Star"), //text
-									new Slide(
+									/*new Slide(
 										"images/slides/splash-daytopia.jpg", //img
 										"/daytopia", //link
-										"View Daytopia"), //text
+										"View Daytopia"), //text 
 									new Slide(
 										"images/slides/splash-urban-fiesta-puerto-rico.jpg", //img
 										"/urban-fiesta-puerto-rico", //link
-										"View Urban Fiesta PR"), //text
+										"View Urban Fiesta PR"), //text*/
 									new Slide(
 										"images/slides/splash-instagram.jpg", //img
 										"https://www.instagram.com/yollogsinc/", //link
@@ -199,7 +199,7 @@
 						<div class="test">
 							<ul>
 
-							<li>
+								<li>
 									<div class="stars">
 										<i class="fa fa-star" aria-hidden="true"></i>
 										<i class="fa fa-star" aria-hidden="true"></i>

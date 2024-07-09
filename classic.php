@@ -5,16 +5,14 @@
     include 'includes/meta.config.inc.php';
 
 	$event = array(
-		"title"				=>"Classic Weekend 2023",
+		"title"				=>"Classic Weekend 2024",
 		"subtitle"			=>"It's the Classsssssic!",
 		"location"			=>"Legion Field | Birmingham, AL",
-		"date"				=>"October 26-28, 2023",
-        "date_start"		=>"October 26, 2023",
+		"date"				=>"October 26-28, 2024",
+        "date_start"		=>"October 28, 2024",
 		"img_url"			=>"../../images/slides/splash-mcc-cta.jpg",
 		"img_alt"			=>"Magic City Classic"
 	);
-
-
 
 	$geolocation = array(
 
@@ -29,8 +27,6 @@
 		)
 
 	);
-
-
 
 	$people = array(
 
@@ -53,8 +49,6 @@
 			)
 	);
 
-
-
 	$package_items = array(
 
 		"diamond_items" => array(
@@ -74,9 +68,7 @@
 			"Sunshine and Wine Day Party Tickets"	=> "ex",
 			"After Game Party Pass"					=> "ex",
 			"YOLLO Gift Bag"						=> "checked"
-
 		)
-
 	);
 
 ?>
@@ -111,9 +103,7 @@
     <div id="left"> 
       
       <!--Nav-->
-      
       <?php include 'includes/nav.inc.php'; ?>
-      
       <!--End of Nav--> 
       
     </div>
@@ -121,15 +111,17 @@
     
     <div id="right">
       
-		<div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
-			<div class="overlay"></div>
-			<div class="title">
-				<h1><?php echo $event["title"]; ?></h1>
-				<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-				<a data-href="#tabs-5" class="btn btn-red open-tab">Pay or Register Now</a>
-                <div id="event-timer"></div>
-			</div>
+		<!-- Event Hero -->
+		<div class="event-hero" style="background-image:url(<?php echo $event["img_url"]; ?>)">
+			<div class="event-hero__details">
+				<h1 class="event-hero__title"><?php echo $event["title"]; ?></h1>
+				<p class="event-hero__location"><?php echo $event["location"]; ?></p>
+				<a data-href="#tabs-5" class="btn btn-red event-hero__btn open-tab">Book Now</a>
+				<div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="event-hero__date"><?php echo $event["date"]; ?> </div>
+				<div id="event-timer" class="event-hero__timer"></div>
+			</div>	
 		</div>
+		<!-- Event Hero -->
       
       
       <div class="content">
@@ -181,8 +173,6 @@
                     </div>
                 </div><!-- ./hotel-grid -->
 				<?php endforeach; ?>
-				
-				
 
               	<hr />
               
@@ -322,8 +312,6 @@
 
 					</div><!-- end of accordion-->
 
-
-
 				</div><!-- end of accordion group-->
 				
 		  	</div><!-- ./ faqs -->
@@ -344,12 +332,8 @@
                 <div class="cognito"></div>
 		  	</div><!-- ./ buy now -->
 		  
-		  
-		  
 		</div><!-- end of #responsive-tabs-->
-        
-        
- 
+
         </div><!-- end of contentfull -->
         
       </div><!-- end of content -->
@@ -385,7 +369,6 @@
 
 	$(document).ready(function(){
 
-
 		//nano
 
 			$("#nanoGallery").nanoGallery({
@@ -408,12 +391,8 @@
 				thumbnailHoverEffect:'borderLighter'
 
 			});
-		
-		
 
 	});
-	
-	
 
 </script> 
 

@@ -5,11 +5,11 @@
     include 'includes/meta.config.inc.php';
 
 	$event = array(
-		"title"				=>"Essence Music Festival 2025",
+		"title"				=>"Essence Music Festival 2024",
 		"subtitle"			=>"Essence Turns 30! Don't miss the PARTY",
 		"location"			=>"New Orleans, LA",
-		"date"				=>"July 4 - 6, 2025",
-        "date_start"		=>"July 4, 2025",
+		"date"				=>"July 5 - 7, 2024",
+        "date_start"		=>"July 5, 2024",
 		"img_url"			=>"../../images/slides/splash-essence-cta.jpg",
 		"img_alt"			=>"Essence Festival 2017"
 	);
@@ -39,21 +39,23 @@
             "address"			=>"739 Canal Street at Bourbon",
             "location"			=>"New Orleans, LA 70130",
 		)
+
+
 	);
 
 	$people = array(
 			"diamond"=> array(
-				"Group of 4" 			=>"$1775",
-				"Group of 3"			=>"$1990",
-				"Group of 2"			=>"$2105",
-				"Individual"			=>"$3050"
+				"Group of 4" 			=>"$1475",
+				"Group of 3"			=>"$1590",
+				"Group of 2"			=>"$1705",
+				"Individual"			=>"$2650"
 			),
 
 			"emerald"=> array(
-				"Group of 4" 			=>"$1525",
-				"Group of 3"			=>"$1655",
-				"Group of 2"			=>"$1860",
-				"Individual"			=>"$2395"
+				"Group of 4" 			=>"$1225",
+				"Group of 3"			=>"$1355",
+				"Group of 2"			=>"$1460",
+				"Individual"			=>"$2095"
 			)
 
 	);
@@ -148,18 +150,18 @@
                         
                         <?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
-						<h2 class="h4">Join us for Essence Festival Weekend 2025</h2>
+						<h2 class="h4">Join us for the 30th Annual Essence Festival Weekend</h2>
 
-                        <p>The Essence Music Festival has a long history, celebrating its 31st annual edition this year, and it has grown to become one of the biggest and most anticipated music festivals in the world. Apart from the concerts, there are also informative and inspiring seminars where experts, influencers, and celebrities share their insights and experiences on various topics like empowerment, culture, and entertainment. YOLLO clients can expect a truly unforgettable experience, as the festival attracts a diverse and enthusiastic crowd from all over the globe. Our Essence Music Festival 2025 hotel and party packages are convenient and ensure enjoyment for our clients, ensuring they have a seamless and memorable weekend. <a data-href="#tabs-5" class="open-tab">book with us today!</a> We are the #1 source for Essence Festival Weekend hotel and party packages in 2025. </p>
+                        <p>The Essence Music Festival has a long history, celebrating its 30th annual edition this year, and it has grown to become one of the biggest and most anticipated music festivals in the world. Apart from the concerts, there are also informative and inspiring seminars where experts, influencers, and celebrities share their insights and experiences on various topics like empowerment, culture, and entertainment. YOLLO clients can expect a truly unforgettable experience, as the festival attracts a diverse and enthusiastic crowd from all over the globe. Our Essence Music Festival 2024 hotel and party packages are convenient and ensure enjoyment for our clients, ensuring they have a seamless and memorable weekend. <a data-href="#tabs-5" class="open-tab">book with us today!</a> We are the #1 source for Essence Festival Weekend hotel and party packages in 2024. </p>
 
 						<h2 class="h5">The Original All-White Mid-Day Cruise Party </h2>
 
-						<p>This is the original All-White cruise party and the event everyone talks about during Essence Fest weekend 2025! This is the 20th annual Mid-Day Cruise Party, happening on the livest boat in New Orleans, Creole Queen, for your cruising delight. Enjoy a multi-level boat cruising the Mighty Mississippi River, while listening to the best Hip-Hop and R&amp;B music. The theme is "All White" attire preferred, but not required for this cruise.</p>
+						<p>This is the original All-White cruise party and the event everyone talks about during Essence Fest weekend 2024! This is the 19th annual Mid-Day Cruise Party, happening on the livest boat in New Orleans, Creole Queen, for your cruising delight. Enjoy a multi-level boat cruising the Mighty Mississippi River, while listening to the best Hip-Hop and R&amp;B music. The theme is "All White" attire preferred, but not required for this cruise.</p>
 
 						<h2 class="h5">The Mid-Day Comedy Show</h2>
-						<p>If you are ready to bust a gut, the 13th annual Mid-Day Comedy Show is the event for you. Our comedian's, like years past, will have you in stitches. If you are looking for good food, great drinks, and lots of laugh, this is the event you cannot miss. Don't think we are going to let you down with our 2025 lineup! </p>
+						<p>If you are ready to bust a gut, the 12th annual Mid-Day Comedy Show is the event for you. Our comedian's, like years past, will have you in stitches. If you are looking for good food, great drinks, and lots of laugh, this is the event you cannot miss. Don't think we are going to let you down with our 2024 lineup! </p>
 
-						<p>With its perfect blend of concerts, seminars, parties, and celebrities, YOLLO hotel and party packages for Essence Music Festival weekend 2025 promises an unparalleled weekend, etching cherished moments in the hearts of all who partake in its magic. <a data-href="#tabs-5" class="open-tab">Book now</a> with YOLLO Group Services Inc. and allow us to give you the best travel experience while in New Orleans!</p>
+						<p>With its perfect blend of concerts, seminars, parties, and celebrities, YOLLO hotel and party packages for Essence Music Festival weekend 2024 promises an unparalleled weekend, etching cherished moments in the hearts of all who partake in its magic. <a data-href="#tabs-5" class="open-tab">Book now</a> with YOLLO Group Services Inc. and allow us to give you the best travel experience while in New Orleans!</p>
 
 
 
@@ -284,7 +286,7 @@
 
 							  <div data-control>What are the payment due dates for Essence Packages?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the registration fee $100.00 per person. The first payment of $125 per person is due on or before August 10, 2024. The second payment of $250 per person is due on or before October 10, 2024. The final payment (remaining balance) is due on or before December 10, 2024. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts to partial payments.</p>
+								<p>To reserve a package each group member pays the registration fee $100.00 per person. The first payment of $125 per person is due on or before February 10, 2024. The second payment of $250 per person is due on or before March 5, 2024. The final payment (remaining balance) is due on or before April 05, 2024. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts to partial payments.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

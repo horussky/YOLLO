@@ -1,49 +1,41 @@
 <?php
-
 ob_start("ob_gzhandler");
-
 include 'includes/functions.inc.php';
-
 include 'includes/meta.config.inc.php';
-
 
 $event = array(
 
-	"title" => "Party Gras: Bottles and Beads",
-	"subtitle" => "More than an event, it's an EXPERIENCE!",
-	"location" => "Montgomery, AL",
-	"date" => "August 11 - 13, 2023",
-	"date_start" => "August 11, 2023",
-	"img_url" => "../../images/slides/splash-partygras-cta.jpg",
-	"img_alt" => "DPartyGras Cruise",
-	"hotel_link" => "https://www.marriott.com/event-reservations/reservation-link.mi?id=1678390003164&key=GRP&app=resvlink"
+	"title"      => "Party Gras: Bottles and Beads",
+	"subtitle"   => "More than an event, it's an EXPERIENCE!",
+	"location"   => "Montgomery, AL",
+	"date"       => "August 16 - 18, 2024",
+	"date_start" => "August 16, 2024",
+	"img_url"    => "../../images/slides/splash-partygras-cta.jpg",
+	"img_alt"    => "DPartyGras Cruise",
+	"hotel_link" => "https://www.marriott.com/event-reservations/reservation-link.mi?id=1678390003164&key= GRP&app=resvlink"
 
 );
-
 
 $geolocation = array(
 	"hotel1" => array(
-		"title" => "Renaissance Montgomery Hotel & Spa",
-		"address" => "201 Tallapoosa Street",
-		"location" => "Montgomery, Alabama 36104",
+		"title"       => "Renaissance Montgomery Hotel & Spa",
+		"address"     => "201 Tallapoosa Street",
+		"location"    => "Montgomery, Alabama 36104",
 		"geolocation" => "201 Tallapoosa Street Montgomery, Alabama 36104",
-		"soldout" => false,
-		"img_url" => "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/da/8c/6f/photo0jpg.jpg?w=1200&h=-1&s=1",
-		"host" => true
-
+		"soldout"     => false,
+		"img_url"     => "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/da/8c/6f/photo0jpg.jpg?w=1200&h=-1&s=1",
+		"host"        => true
 	),
 	"cruise1" => array(
-		"title" => "Harriott II Riverboat",
-		"ship" => "https://media-cdn.tripadvisor.com/media/photo-s/05/21/4d/e3/southern-belle-riverboat.jpg",
-		"soldout" => false,
-		"img_url" => "https://media-cdn.tripadvisor.com/media/photo-s/05/21/4d/e3/southern-belle-riverboat.jpg",
-		"address" => "1620, 151 Riverfront Pkwy",
+		"title"    => "Harriott II Riverboat",
+		"ship"     => "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/d5/03/17/harriet-ii-riverboat.jpg?w=700&h=-1&s=1",
+		"soldout"  => false,
+		"img_url"  => "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/d5/03/17/harriet-ii-riverboat.jpg?w=700&h=-1&s=1",
+		"address"  => "1620, 151 Riverfront Pkwy",
 		"location" => "Montgomery, AL",
-		"host" => false
-
+		"host"     => false
 	)
 );
-
 
 $people = array(
 	"diamond" => array(
@@ -57,7 +49,6 @@ $people = array(
 		"Hotel Only" => "$500 (One night)"
 	)
 );
-
 
 $package_items = array(
 	"diamond_items" => array(
@@ -134,13 +125,13 @@ $package_items = array(
 							<?php echo $responsive_tabs["overview"]; ?>
 							<div class="tab" aria-label="overview">
 								<h2 class="h4">Party Gras coming home to Montgomery </h2>
-								<p>We are excited to announce that our 10th Edition of Party Gras: Bottles & Beads is now a Weekend Event! This will be a weekend of good music, adult beverages, mingling, and fun for all attendees. Our inaugural Mardi Gras ball will bring the festivities to life, with bright decor, traditional costumes and lively music. Guests can enjoy the festivities by dressing up and embracing the festive atmosphere.<p>
+								<p>We are excited to announce that our 11th Edition of Party Gras: Bottles & Beads is now a Weekend Event! This will be a weekend of good music, adult beverages, mingling, and fun for all attendees. Our inaugural Mardi Gras ball will bring the festivities to life, with bright decor, traditional costumes and lively music. Guests can enjoy the festivities by dressing up and embracing the festive atmosphere.<p>
 
 								<p>The comedy show with headliner Mario Tory is always a hit, delivering plenty of laughter, while the Spoken word performances add an artistic element to the event. Live music is a staple of most YOLLO events, and Party Gras is no exception. With DJ Dre Smoove and DJ Meek on crowd control, you know it's going to be a rocking atmosphere! A cruise on the Harriott II adds a special touch to any weekend event, making it an unforgettable experience for guests. Guests can enjoy the scenery, relax, and socialize in a unique setting with this experience.</p>
 
-								<p>Don't forget that giveaways are a must during Party Gras! Enjoy an awesome getaway and the chance to win door prizes all weekend. The 10th annual Party Gras: Bottles and Beads weekend is sure to be an unforgettable experience for all who attend.</p>
+								<p>Don't forget that giveaways are a must during Party Gras! Enjoy an awesome getaway and the chance to win door prizes all weekend. The 11th annual Party Gras: Bottles and Beads weekend is sure to be an unforgettable experience for all who attend.</p>
 
-								The 10th annual Party Gras: Bottles and Beads weekend is sure to be an unforgettable experience for everyone attending. <strong>As history has shown us this event WILL SELL OUT quickly</strong>, so purchase your tickets today. <a data-href="#tabs-5" class="open-tab">Purchase your tickets online now.</a></p>
+								The 11th annual Party Gras: Bottles and Beads weekend is sure to be an unforgettable experience for everyone attending. <strong>As history has shown us this event WILL SELL OUT quickly</strong>, so purchase your tickets today. <a data-href="#tabs-5" class="open-tab">Purchase your tickets online now.</a></p>
 
 								<h5>Highlights from PartyGras 2022</h5>
 								<iframe height="400" src="https://www.youtube.com/embed/yBHYUCnni5k"
@@ -150,7 +141,7 @@ $package_items = array(
 									<caption>Event Itinerary</caption>
 									<tbody>
 										<tr>
-											<th colspan="2" class="gray-200">Friday Events (Aug 11)</th>
+											<th colspan="2" class="gray-200">Friday Events (Aug 16)</th>
 										</tr>
 
 										<tr>
@@ -176,7 +167,7 @@ $package_items = array(
 												</p>
 											</td>
 											<td><span class="fw-bold">10:00PM - 2:00AM</span>
-											<p class="small">Renaissance Montgomery Hotel & Spa (Host Property)<br/>201 Tallapoosa St, Montgomery, AL 36104</p>
+											<p class="small">TBA</p>
 											</td>
 											
 										</tr>
@@ -185,7 +176,7 @@ $package_items = array(
 
 									<tbody>
 										<tr>
-											<th colspan="2" class="gray-200">Saturday Events (Aug 12)</th>
+											<th colspan="2" class="gray-200">Saturday Events (Aug 17)</th>
 										</tr>
 
 										<tr>
@@ -202,7 +193,7 @@ $package_items = array(
 													</li>
 												</ul>
 											</td>
-											<td><span class="fw-bold">11:00AM - 3:00PM</span>
+											<td><span class="fw-bold">12:00PM - 4:00PM</span>
 												<p class="small">Bama Lanes<br>3020 Atlanta Hwy, Montgomery, AL 36109</p>
 											</td>
 										</tr>
@@ -254,7 +245,6 @@ $package_items = array(
 
 										<div class="hg-img">
 											<figure
-
 												style="background:url(<?php echo $hotel['img_url']; ?>); background-size: cover; background-position: center;">
 											</figure>
 										</div>
@@ -264,7 +254,6 @@ $package_items = array(
 												<?php echo $hotel["title"]; ?>
 
 												<?php if ($hotel["soldout"] == true): ?><span class="sold">** Sold Out
-
 														**</span>
 												<?php endif ?>
 											</p>
@@ -509,7 +498,6 @@ $package_items = array(
 
 			//nano
 
-
 			$("#nanoGallery").nanoGallery({
 				kind: 'flickr',
 				userID: '50836209@N03',
@@ -543,16 +531,12 @@ $package_items = array(
 
 		window.EBWidgets.createWidget({
 			// Required
-
 			widgetType: 'checkout',
 			eventId: '588666606667',
 			iframeContainerId: 'eventbrite-widget-container-588666606667',
 			// Optional
-
 			iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-
 			onOrderComplete: exampleCallback  // Method called when an order has successfully completed
-
 		});
 
 	</script>
