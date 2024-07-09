@@ -5,17 +5,16 @@ include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"				=>"Urban Fiesta 2023",
+	"title"				=>"Urban Fiesta 2024",
 	"subtitle"			=>"You DO NOT want to miss this event!",
 	"location"		   	=>"Montego Bay, Jamaica",
-	"date"				=>"May 26 - 29, 2023",
-    "date_start"        =>"May 26, 2023",
+	"date"				=>"May 24 - 27, 2024",
+    "date_start"        =>"May 24, 2024",
 	"img_url"			=>"../../images/slides/splash-urban-fiesta-cta.jpg",
 	"img_alt"			=>"Urban Fiesta"
 );
 
 $geolocation = array(
-
 	"hotel1"=> array(
 		"title" 			=>"Riu Montego Bay",
 		"address"			=>"Mahoe Bay. Rose Hall Ironshore P.O.",
@@ -23,23 +22,22 @@ $geolocation = array(
 		"soldout"	        => false,
 		"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-o/09/5a/1c/db/hotel-riu-montego-bay.jpg"
 	),
-
 );
 
 $people = array(
 
 		"diamond"=> array(
-			//"Group of 4" 			=>"$780",
-			"Group of 3"			=>"$1275",
-			"Group of 2"			=>"$1325",
-			"Individual"			=>"$2575"
+			//"Group of 4" 			=>"$980",
+			"Group of 3"			=>"$1675",
+			"Group of 2"			=>"$1825",
+			"Individual"			=>"$3,075"
 		),
 
 		"emerald"=> array(
-			//"Group of 4" 			=>"$680",
-			"Group of 3"			=>"$825",
-			"Group of 2"			=>"$1,075",
-			"Individual"			=>"$1,875"
+			//"Group of 4" 			=>"$1.080",
+			"Group of 3"			=>"$1,425",
+			"Group of 2"			=>"$1,675",
+			"Individual"			=>"$2,575"
 		),
 
 		"options"=>array(
@@ -122,31 +120,19 @@ $package_items = array(
                     <!--Right Content-->
                     <div id="right">
 
-                         <div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
-							<div class="overlay"></div>
-							<div class="title">
-								<h1><?php echo $event["title"]; ?></h1>
-								<p class="subtitle"><?php echo $event["subtitle"]; ?></p>
-								<a data-href="#tabs-5" class="btn btn-red open-tab">Pay or Register Now</a>
-								<div id="event-timer"></div>
-							</div>
+                         <!-- Event Hero -->
+						<div class="event-hero" style="background-image:url(<?php echo $event["img_url"]; ?>)">
+							<div class="event-hero__details">
+								<h1 class="event-hero__title"><?php echo $event["title"]; ?></h1>
+								<p class="event-hero__location"><?php echo $event["location"]; ?></p>
+								<a data-href="#tabs-5" class="btn btn-red event-hero__btn open-tab">Book Now</a>
+								<div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="event-hero__date"><?php echo $event["date"]; ?> </div>
+								<div id="event-timer" class="event-hero__timer"></div>
+							</div>	
 						</div>
-
+						<!-- Event Hero -->
 
                          <div class="content">
-
-                              <div class="date-location">
-
-                                   <div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="col">
-                                        <?php echo $event["date"]; ?>
-                                   </div>
-
-                                   <div class="col">
-                                        <?php echo $event["location"]; ?>
-                                   </div>
-
-                              </div>
-
 
                               <div class="colfull">
 
@@ -158,11 +144,11 @@ $package_items = array(
                                              
                                              
 
-                                             <h2 class="h4">Jamaica is the ONLY place to be Memorial Day Weekend 2023!</h2>
+                                             <h2 class="h4">Jamaica is the ONLY place to be Memorial Day Weekend 2024!</h2>
 
-                                             <p>If you missed the 2022 edition of Urban Fiesta all we can say is look at the pictures and make plans now to attend in 2023. With COVID-19 protocols slowly being relaxed we safely managed an event that was FUN, SAFE, and simply put our clients appreciated and had a memory filled weekend! Urban Fiesta 2022 was the livest event in Jamaica which was hosted by Alexis Skyy, City Girls, and others during Memorial Day weekend. There are plenty of activities to occupy your time from sun up to sun down - excursions, shopping areas, sandy beaches, parties, zip lining, and the list goes on. Let us remind you this was all on the property!<p> 
+                                             <p>If you missed the 2023 edition of Urban Fiesta all we can say is look at the pictures and make plans now to attend in 2024. With COVID-19 protocols slowly being relaxed we safely managed an event that was FUN, SAFE, and simply put our clients appreciated and had a memory filled weekend! Urban Fiesta 2022 was the livest event in Jamaica which was hosted by Alexis Skyy, City Girls, and others during Memorial Day weekend. There are plenty of activities to occupy your time from sun up to sun down - excursions, shopping areas, sandy beaches, parties, zip lining, and the list goes on. Let us remind you this was all on the property!<p> 
 
-											 <p>Dust those passports off, secure your package today, and get ready for some major FUN! YOLLO Group Services will see you in Jamaica for Urban Fiesta Weekend 2023!</p>
+											 <p>Dust those passports off, secure your package today, and get ready for some major FUN! YOLLO Group Services will see you in Jamaica for Urban Fiesta Weekend 2024!</p>
                                              
                                         </div><!-- ./overview -->
 
@@ -277,7 +263,7 @@ $package_items = array(
 
 												  <div data-control>When are the payments due?</div>
 												  <div data-content>
-													<p>After registration the first payment of $125 is due December 6, 2023 after registration. The second payment of $250 is due by January 16, 2023. The final payment (remaining balance) is due on or before March 04, 2023. If you would like to make payments between due dates that is fine also.</p>
+													<p>After registration the first payment of $125 is due March 27, 2024 after registration. The second payment of $250 is due by April 10, 2024. The final payment (remaining balance) is due on or before April 25, 2024. If you would like to make payments between due dates that is fine also.</p>
 												  </div>
 
 												</div><!-- end of accordion-->

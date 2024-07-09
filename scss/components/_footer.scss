@@ -20,7 +20,8 @@ footer{
 	background:#222; 
 	width:100%;
 	padding: 20px 0;
-	
+	color:lighten($font-color, 60%);
+
 	@supports (display: grid) {
 	  .footer-grid{
 		display: block;
@@ -56,6 +57,78 @@ footer{
 
 		*:not(h5){
 			font-size: 0.875rem;
+		}
+
+		.foot-share-links a i {
+            //font-size: 20px;
+        }
+		
+		
+		ul{
+			list-style: none;
+			margin-left:0;
+			//padding-left:22px;
+			
+			> li{
+				margin-bottom: 8px;
+			}
+            
+            .foot-share-links{
+				a{
+					position: relative;
+					background: white;
+					border-radius: 50%;
+					width: 40px;
+					height: 40px;
+					margin-right: 5px;
+					transition:  all 0.5s ease;
+					color:#333;
+				}
+				
+                a:hover{
+                    border-bottom: none;
+					background: #aaa;
+					color: #fff;
+                }
+            }
+
+			
+			.fa-2x{
+				margin-right: 8px;				
+			} 
+            
+			.fa-instagram{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				font-size: 1rem;
+			}
+			
+			.fa-facebook{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				font-size: 1rem;
+			}
+			
+			.fa-twitter{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				font-size: 1rem;
+			}
+			
+			.fa-snapchat{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				font-size: 1rem;
+			}
+            
 		}
 		
 	}
@@ -130,6 +203,7 @@ footer{
 
         .foot-share-links a i {
             font-size: 20px;
+			color: #333;
         }
 		
 		
@@ -263,10 +337,7 @@ footer{
 }
 
 
-footer, 
-footer *{ 
-	color:lighten($font-color, 60%);
-}
+
 
 footer hr {
   margin: 10px 0;

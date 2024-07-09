@@ -103,12 +103,12 @@ define("EVENT", serialize ($nav = array(
 			array(
 				  	"title"	=>	"Urban Fiesta: Jamaica",
 				  	"link"	=>	"/urban"		  	
-			),
+			),/*
 			array(
 				"title"	=>	"Urban Fiesta: Puerto Rico",
 				"link"	=>	"/urban-fiesta-puerto-rico"		  	
 	  		),
-			/*array(
+			array(
 				  	"title"	=>	"Day Getaway Cruise",
 				  	"link"	=>	"/day-getaway-cruise"		  	
 			),

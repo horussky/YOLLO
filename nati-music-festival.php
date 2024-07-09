@@ -255,7 +255,7 @@ $package_items = array(
 
                                     <div data-control>What are the payment due dates for Cincinnati Music Festival Packages?</div>
                                     <div data-content>
-                                        <p>To reserve a package each group member pays the $100.00 per person fee. The first payment of $125 is due on or before <strong>February 16, 2024</strong>. The second payment of $150 is due on or before <strong>March 16, 2024</strong>.The final payment (remaining balance) is due on or before <strong>April 16, 2024</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
+                                        <p>To reserve a package each group member pays the $100.00 per person fee. The first payment of $125 is due on or before <strong>March 16, 2024</strong>. The second payment of $150 is due on or before <strong>April 16, 2024</strong>.The final payment (remaining balance) is due on or before <strong>May 02, 2024</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
                                     </div>
 
                                     </div><!-- end of accordion-->
@@ -414,7 +414,7 @@ $package_items = array(
 	});
 </script>
 <script src="https://services.cognitoforms.com/s/NiNAkf4LukqBZOHDFOMsiQ"></script>
-<script>Cognito.load("forms", { id: "7" });</script>
+<script>Cognito.load("forms", { id: "78" });</script>
 
 <!--google analytics-->
 <?php include 'includes/analytics.inc.php'; ?>

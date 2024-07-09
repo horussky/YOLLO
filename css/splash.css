@@ -20237,6 +20237,8 @@ aside .btn {
 
 .event-nav .active {
   background: #eee;
+  -webkit-box-shadow: -4px 0 0 0 black;
+          box-shadow: -4px 0 0 0 black;
 }
 .event-nav .active a {
   font-weight: 700;
@@ -22275,6 +22277,7 @@ footer {
   background: #222;
   width: 100%;
   padding: 20px 0;
+  color: #bbbbbb;
 }
 @supports (display: grid) {
   footer .footer-grid {
@@ -22305,6 +22308,68 @@ footer .foot-about {
 }
 footer .foot-about *:not(h5) {
   font-size: 0.875rem;
+}
+footer .foot-about ul {
+  list-style: none;
+  margin-left: 0;
+}
+footer .foot-about ul > li {
+  margin-bottom: 8px;
+}
+footer .foot-about ul .foot-share-links a {
+  position: relative;
+  background: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  color: #333;
+}
+footer .foot-about ul .foot-share-links a:hover {
+  border-bottom: none;
+  background: #aaa;
+  color: #fff;
+}
+footer .foot-about ul .fa-2x {
+  margin-right: 8px;
+}
+footer .foot-about ul .fa-instagram {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 1rem;
+}
+footer .foot-about ul .fa-facebook {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 1rem;
+}
+footer .foot-about ul .fa-twitter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 1rem;
+}
+footer .foot-about ul .fa-snapchat {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 1rem;
 }
 footer .foot-events {
   -ms-grid-row: 1;
@@ -22368,6 +22433,7 @@ footer .foot-contact {
 }
 footer .foot-contact .foot-share-links a i {
   font-size: 20px;
+  color: #333;
 }
 footer .foot-contact ul {
   list-style: none;
@@ -22464,11 +22530,6 @@ footer .foot-copyright {
   grid-column: 1/span 4;
   font-size: 0.875rem;
   text-align: center;
-}
-
-footer,
-footer * {
-  color: #bbbbbb;
 }
 
 footer hr {

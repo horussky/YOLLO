@@ -4,29 +4,22 @@ include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"				=>"All-Star Weekend Indy 2024",
-	"subtitle"			=>"We are headed to Indy!",
-	"location"			=>"Indianapolis, IN",
-	"date"				=>"February 16, 2024",
-    "date_start"        =>"February 18, 2024",
+	"title"				=>"All-Star Weekend 2025",
+	"subtitle"			=>"Time for some California Love!",
+	"location"			=>"San Francisco, CA",
+	"date"				=>"February 14-16, 2025",
+    "date_start"        =>"February 14, 2025",
 	"img_url"			=>"../../images/slides/splash-nba-cta.jpg",
 );
 
 $geolocation = array(
  
 	"hotel1"=> array(
-		"title" 		=>"Holiday Inn - Downtown",
-		"address"		=>"515 West Street",
-		"location"		=>"Indianapolis, IN 46225",
+		"title" 		=>"Hilton San Francisco Financial District",
+		"address"		=>"750 Kearny Street",
+		"location"		=>"San Francisco, CA 94108",
 		"soldout"	    => false,
-		"img_url"		=>"//cf.bstatic.com/xdata/images/hotel/max1280x900/234757586.jpg?k=0cfdbf49308dc1b8d1e3dd3ff937258f6f441218d3e898505f6a7e358e53f635&o=&hp=1"
-	),
-    "hotel2"=> array(
-		"title" 		=>"Indianapolis Marriott East",
-		"address"		=>"7202 East 21st St",
-		"location"		=>"Indianapolis, IN 46219",
-		"soldout"	    => false,
-		"img_url"		=>"//dynamic-media-cdn.tripadvisor.com/media/photo-o/26/b3/57/be/exterior.jpg?w=700&h=-1&s=1"
+		"img_url"		=>"//dynamic-media-cdn.tripadvisor.com/media/photo-o/12/e9/02/ce/exterior-entrance.jpg?w=700&h=-1&s=1"
 	)
 
 );
@@ -40,7 +33,7 @@ $people = array(
 		),
 
 		"emerald"=> array(
-			"Group of 4" 			=>"$990",
+			"Group of 4" 			=>"$1,025",
 			"Group of 3"			=>"$1,255",
 			"Group of 2"			=>"$1,665",
 			"Individual"			=>"$2,865"
@@ -154,7 +147,7 @@ $package_items = array(
                     <div class="tab" aria-label="overview">
                         <h2 class="h4"><?php echo $event["title"]?></h2>
 
-                        <p>Get ready for an exhilarating All-Star Game experience with YOLLO in Indy on February 18, 2024! The Indiana Pacers are set to showcase their skills at Gainbridge Fieldhouse, marking only the second time since '85. Brace yourself for an action-packed weekend filled with A-list parties hosted by your favorite celebrities. Don't miss out on this incredible opportunity -  <a data-href="#tabs-5" class="open-tab">secure your spot now! </a></p>
+                        <p>Get hyped for an epic weekend at the All-Star Game in San Francisco, happening at the iconic Warriors Chase Center on February 16, 2025! Dive into the heart of the action as the league's top talents light up the court in one electrifying showdown.But that's not all! Prepare to elevate your experience with exclusive parties hosted by your favorite celebrities. From star-studded gatherings to unforgettable moments, this weekend promises to be nothing short of legendary.Secure your spot now and be part of the All-Star excitement! Don't miss your chance to make memories that'll last a lifetime in the vibrant city of San Francisco. Don't miss out on this incredible opportunity -  <a data-href="#tabs-5" class="open-tab">secure your spot now! </a></p>
 
                         <p>YOLLO has an all-inclusive package to get you face-to-face with these celebrities. From party passes, hotel stay, and celebrity-hosted events, YOLLO is here for your turn up!</p>
 
@@ -189,13 +182,13 @@ $package_items = array(
                             </div><!-- ./hotel-grid -->
                         <?php endforeach; ?>
 
-                            <hr />
+                        <hr />
 
                             <h2 class="h4">Price</h2>
                                     
-                                    <div class="price-table-container">
+                                <div class="price-table-container">
 
-                                    <?php if(isset($geolocation["hotel1"])) :?>
+                                    <?php if(isset($people["diamond"])) :?>
                                     <section class="price-table">
                                         <ul class="price">
                                             <li class="header">Diamond <span>Package</span></li>
@@ -216,7 +209,7 @@ $package_items = array(
 
 
 
-                                    <?php if(isset($geolocation["hotel1"])) :?>
+                                    <?php if(isset($people["emerald"])) :?>
                                     <section class="price-table">
                                         <ul class="price">
                                             <li class="header">Emerald <span>Package</span></li>
@@ -236,12 +229,35 @@ $package_items = array(
                                 <?php endif; ?>
                                 
                                 </div><!-- price table container -->
-                                
 
-                                <div class="clearfix">
-                                    <h4>Party Pass Options: </h4>
-                                    <p>These options are not the same and are separate from the all-inclusive options listed above; and are intended for those not in need of hotel accommodations. </p>
+                        <style>
+                            .partypass{
+                                display: flex;
+                                flex-flow: row nowrap;
+                                @media(max-width: 990px){
+                                    flex-flow: row wrap;
+                                }
+                                justify-content: space-between;
+                                column-gap: 1rem;
+                            }    
 
+                            .partypass--col{
+                                font-size: 14px;
+                            }
+                            @media(max-width: 768px){
+                                .partypass{
+                                    flex-flow: row wrap;
+                                }   
+                            } 
+                        </style>
+
+                            <hr />
+
+                            <h4>Party Pass Options: </h4>
+                            <p>These options are not the same and are separate from the all-inclusive options listed above; and are intended for those not in need of hotel accommodations. </p>
+
+                            <div class="partypass">
+                                <div class="partypass--col">
                                     <p class="lead">Rookie - $1,450 </p>
                                     <ul>
                                         <li>Friday Night Party</li>
@@ -250,7 +266,9 @@ $package_items = array(
                                         <li>Comedy Show - acts announced closer to event</li>
                                         <li>Saturday Night Party (Celebrity Hosted)</li>
                                     </ul>
+                                </div>
 
+                                <div class="partypass--col">
                                     <p class="lead">Rising Star - $2,150 </p>
                                     <ul>										
                                         <li>NBA Crossover Ticket</li>
@@ -261,10 +279,11 @@ $package_items = array(
                                         <li>All Star Celebrity Game Ticket</li>
                                         <li>All Star Practice Game ticket</li>							
                                     </ul>
+                                </div>
 
+                                <div class="partypass--col">
                                     <p class="lead">All-Star - $2,750 (best seller)</p>
                                     <ul>
-
                                         <li>Friday Night Party (Celebrity Hosted)</li>
                                         <li>NBA Crossover Ticket</li>
                                         <li>Colors and Cocktails</li>
@@ -275,7 +294,8 @@ $package_items = array(
                                         <li>All Star Practice Game ticket</li>	
                                         <li>All Star Rising Star Challenge</li>								
                                     </ul>
-                                </div>
+                                </div>    
+                            </div><!-- end of .partypass -->
 
                     </div><!-- ./ price -->
 
@@ -311,14 +331,14 @@ $package_items = array(
 
                                 <div data-control>When are the payments due?</div>
                                 <div data-content>
-                                <p>After registration the first payment of $125 is due October 1, 2023.  The next payment of $250 is due November 1, 2023. The next payment of $350 is due  The final payment (remaining balance) is due on or before December 2, 2023.</p>
+                                <p>After registration the first payment of $125 is due May 01, 2024.  The next payment of $250 is due July 1, 2024. The next payment of $350 is due September 1, 2024  The final payment (remaining balance) is due on or before December 1, 2024.</p>
                                 </div>
 
                             </div><!-- end of accordion-->
 
                             <div class="accordion" data-accordion>
 
-                                <div data-control>Who won the All- Star game the last time it was hosted in Indianapolis?</div>
+                                <div data-control>Who won the All- Star game the last time it was hosted in San Francisco?</div>
                                 <div data-content>
                                 <p>The game was hosted in Hoosier Dome. The game final score was East 129 vs West 140.  The MVP was Ralph Sampson with Houston. He played 29 minutes and had 24 points with 10 rebounds.</p>
                                 </div>
@@ -329,7 +349,7 @@ $package_items = array(
 
                                 <div data-control>When is the NBA All-Star Game?</div>
                                 <div data-content>
-                                <p>NBA All-Star Weekend 2024 weekend will start on February 16, 2022 in Indianapolis, IN. The game will be played on February 18, 2024 at Gainbridge Fieldhouse. </p>
+                                <p>NBA All-Star Weekend 2025 weekend will start on February 14, 2025 in San Francisco. The game will be played on February 16, 2025 at the Chase Center. </p>
                                 </div>
 
                             </div><!-- end of accordion-->

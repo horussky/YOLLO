@@ -5,6 +5,18 @@
 				<h5 class="h6">About</h5>
 				<p>YOLLO Group Services is an IATAN-certified company that provides affordable, exciting travel packages with a focus on getting clients to the hottest concerts, parties, cruises and games in the country.</p>
 				<p><a class="chev-link" href="/about" title="Learn more about YOLLO">Read more about YOLLO</a></p>
+
+				<ul>
+				<li class="foot-share-links"><i class="fa-li fa fa-share" aria-hidden="true"></i>
+						<a href="http://www.facebook.com/yollogsinc" target="_blank" title="Become a fan of YOLLO Group Services"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a> 
+
+						<a href="https://twitter.com/YOLLOGSINC" target="_blank" title="Follow YOLLO Group Services on Twitter"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+
+						<a href="https://instagram.com/yollogsinc" target="_blank" title="Follow YOLLO Group Services on Instagram"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+
+						<a href="https://www.snapchat.com/add/yollogsinc" target="_blank" title="Follow YOLLO Group Services on Snapchat"><i class="fa fa-snapchat fa-2x" aria-hidden="true"></i></a>
+					</li>
+				</ul>
 			</div>
 
 			<div class="foot-events">
@@ -35,15 +47,7 @@
 					<li class="foot-email"> <i class="fa-li fa fa-envelope" aria-hidden="true"></i> <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></li>
 					<li class="foot-address"> <i class="fa-li fa fa-map" aria-hidden="true"></i>P.O. Box 240613,<br> Montgomery, AL 36124</li>
 					
-					<li class="foot-share-links"><i class="fa-li fa fa-share" aria-hidden="true"></i>
-						<a href="http://www.facebook.com/yollogsinc" target="_blank" title="Become a fan of Yollo Group Services"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a> 
-
-						<a href="https://twitter.com/YOLLOGSINC" target="_blank" title="Follow Yollo Group Services on Twitter"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
-
-						<a href="https://instagram.com/yollogsinc" target="_blank" title="Follow YOLLO Group Services on Instagram"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
-
-						<a href="https://www.snapchat.com/add/yollogsinc" target="_blank" title="Follow YOLLO Group Services on Snapchat"><i class="fa fa-snapchat fa-2x" aria-hidden="true"></i></a>
-					</li>
+					
 				</ul>
 				
 			</div>
