@@ -6,8 +6,8 @@ $feature_event = array(
 	array(
 		"title" 	=> "Cincinnati Music Festival",
 		"location"	=> "Cincinnati, OH",
-		"date" 		=> "July 25-27, 2024",
-		"end"		=> strtotime("July 27, 2024"),
+		"date" 		=> "July 24-26, 2025",
+		"end"		=> strtotime("July 26, 2025"),
 		"img" 		=> "images/slides/splash-mmf.jpg",
 		"link" 		=> "/nati-music-festival",
 		"desc"		=>"Book now for an all-inclusive Cincinnati Music Festival travel package to experience renowned performers and Grown and Sophisticated Mid-Day Cruise."
@@ -15,8 +15,8 @@ $feature_event = array(
 	array(
 		"title" 	=> "Grown & Sophisticated Mid-Day Cruise",
 		"location"=> "Cincinnati, OH",
-		"date" 		=> "July 27, 2024",
-		"end"		=> strtotime("July 27, 2024"),
+		"date" 		=> "July 26, 2024",
+		"end"		=> strtotime("July 26, 2024"),
 		"img" 		=> "images/slides/splash-gsc.jpg",
 		"link" 		=> "/nati-music-festival",
 		"desc"		=> "Book now for an all-inclusive Cincinnati Music Festival travel package to experience renowned performers and Grown and Sophisticated Mid-Day Cruise.",
@@ -24,8 +24,8 @@ $feature_event = array(
 	array(
 		"title" 	=> "Essence Festival",
 		"location"	=> "New Orleans, LA",
-		"date" 		=> "July 5 -7, 2024",
-		"end"		=> strtotime("July 7, 2024"),
+		"date" 		=> "July 4-6, 2025",
+		"end"		=> strtotime("July 6, 2025"),
 		"img" 		=> "images/slides/splash-essence.jpg",
 		"link" 		=> "/essence-festival",
 		"desc"		=>"Book now for an all-inclusive Essence Festival travel package to experience renowned performers and celebrities.",
@@ -42,11 +42,11 @@ $feature_event = array(
 	array(
 		"title" 	=> "Magic City Classic",
 		"location"	=> "Birmingham, AL",
-		"date" 		=> "October 26-28, 2022",
-		"end"		=> strtotime("October 28, 2023"),
-		"img" 		=> "images/featured-events/featured-event-mcc.jpg",
+		"date" 		=> "October 24-26, 2024",
+		"end"		=> strtotime("October 28, 2024"),
+		"img" 		=> "images/slides/splash-mcc.jpg",
 		"link" 		=> "/classic",
-		"desc"		=>"",
+		"desc"		=> "Get ready for the Magic City Classicccccc! This is the biggest HBCU football showdown in the nation! Are you a Dawg or a Hornet? Book with us and find out!",
 	),
 	array(
 		"title" 	=> "NBA All-Star Weekend",
@@ -60,8 +60,8 @@ $feature_event = array(
 	array(
 		"title" 	=> "Party Gras Cruise",
 		"location"	=> "Montgomery, AL",
-		"date" 		=> "August 12-14, 2024",
-		"end"		=> strtotime("August 14, 2024"),
+		"date" 		=> "August 16-18, 2024",
+		"end"		=> strtotime("August 18, 2024"),
 		"img" 		=> "images/slides/splash-partygras.jpg",
 		"link" 		=> "/partygras",
 		"desc"		=> "Party Gras: Bottles and Beads is a weekend event featuring good music, adult beverages, mingling, and fun for all attendees.",
@@ -69,20 +69,11 @@ $feature_event = array(
 	array(
 		"title" 	=> "Urban Ski Weekend",
 		"location"	=> "Gatlinburg, Tennessee",
-		"date" 		=> "February 7-10, 2025",
-		"end"		=> strtotime("February 10, 2025"),
+		"date" 		=> "Jan 31 - Feb 3, 2025",
+		"end"		=> strtotime("February 3, 2025"),
 		"img" 		=> "images/slides/splash-urban-ski.jpg",
 		"link" 		=> "/urban-ski-weekend",
 		"desc"		=> "Join YOLLO for an unforgettable Urban Ski Weekend in Gatlinburg, Tennessee, with tailored skiing experiences for all skill levels."
-	),
-    array(
-		"title" 	=> "Spring Fling Music Fest",
-		"location"	=> "",
-		"date" 		=> "May 30, 2020",
-		"end"		=> strtotime("May 30, 2020"),
-		"img" 		=> "images/featured-events/featured-event-springfling.jpg",
-		"link" 		=> "/spring-fling-festival",
-		"desc"		=>"",
 	),
 	array(
 		"title" 	=> "HBCU Alumni Getaway Cruise",
@@ -180,6 +171,15 @@ $feature_event = array(
 		"end"		=> strtotime("March 29, 2021"),
 		"img" 		=> "images/featured-events/featured-event-sba.jpg",
 		"link" 		=> "/spring-breakaway-cruise"
+	),
+	array(
+		"title" 	=> "Spring Fling Music Fest",
+		"location"	=> "",
+		"date" 		=> "May 30, 2020",
+		"end"		=> strtotime("May 30, 2020"),
+		"img" 		=> "images/featured-events/featured-event-springfling.jpg",
+		"link" 		=> "/spring-fling-festival",
+		"desc"		=>"",
 	),
 	array(
 		"title" 	=> "Get on the Bus",

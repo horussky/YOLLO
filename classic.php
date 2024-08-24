@@ -8,8 +8,8 @@
 		"title"				=>"Classic Weekend 2024",
 		"subtitle"			=>"It's the Classsssssic!",
 		"location"			=>"Legion Field | Birmingham, AL",
-		"date"				=>"October 26-28, 2024",
-        "date_start"		=>"October 28, 2024",
+		"date"				=>"October 24-26, 2024",
+        "date_start"		=>"October 26, 2024",
 		"img_url"			=>"../../images/slides/splash-mcc-cta.jpg",
 		"img_alt"			=>"Magic City Classic"
 	);
@@ -143,9 +143,7 @@
                 	<img src="images/mcc-thumb<?php echo(rand(1,4)); ?>.jpg" width="100%" />
                 </div>
                
-                <p>This is the #1 HBCU football Classic in the nation attracting over 100,000 fans annually! The Magic City Classic offers a family environment that produces new bonds and memories for years to come.</p>
-                <p>This annual clash of the titans was delayed in 2020 due to COVID-19 so they have decided to have this exciting game TWICE in one year! The results handed the Alabama A&M Bulldogs bragging rights TWICE in 2021.</p>
-                <p>During the fall editon of this exciting football classic the Alabama A&M Bulldogs came away with the victory as they entered the game as favorites and delivered a decisive win for the Bulldog faithful as well as the MOST important part of the this historic rivalry which is retaining BRAGGING rights until October 2022! </p>
+                <p>Get ready for the Magic City Classic—the biggest HBCU football showdown in the nation! Watch Alabama A&M and Alabama State battle it out at Legion Field in Birmingham, with a potential spot in the SWAC Championship on the line. Don't miss the electrifying festivities: the Classic Kickoff, Magic City Classic Parade, Tailgate Party, and the legendary halftime show by the Mighty Marching Hornets and the Marching Maroon and White. </p>
                 <p>YOLLO Group Services, Inc. wants to provide your travel package for this historic and exciting weekend. Lock in your package today as space is limited and our packages go fast.</p>
 			</div><!-- ./ overview -->
 
