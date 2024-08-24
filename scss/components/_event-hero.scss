@@ -47,8 +47,9 @@
         max-width: 250px;
         display: inline-block;
         margin: 0 auto 24px;
-        font-size: 16px;
+        font-size: 12px;
         line-height: 1;
+        text-transform: uppercase;
 
         &:active{
             background-color: $yollo-red--hover;
@@ -65,15 +66,23 @@
       
     .event-hero__timer{
         font-family: "opensans", Arial, sans-serif;
+        display: flex;
+        grid-gap: 10px;
+        align-items: center;
+        justify-content: center; 
         
         span{
             display: inline-block;
-            font-size: 18px;
+            font-size: 24px;
             line-height: 1;
             text-align: center;
             width:60px;
             font-family:"opensans-bold", Arial, sans-serif;
             color: #fff;
+            border: 1px solid;
+            padding: 10px;
+            width: auto;
+            background-color: rgba(256, 256, 256, .20); 
             
             em{
                 display: block;

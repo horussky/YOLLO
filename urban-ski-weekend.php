@@ -8,8 +8,8 @@ $event = array(
 	"title"				=>"Urban Ski Weekend 2025",
 	"subtitle"			=>"As Seen on VH1 Love & Hiphop",
 	"location"			=>"Gatlinburg, Tennessee",
-	"date"				=>"Feb 7-10, 2025",
-    "date_start"        =>"February 7, 2025",
+	"date"				=>"Jan 31 - Feb 3, 2025",
+    "date_start"        =>"January 31, 2025",
 	"img_url"			=>"../../images/slides/splash-urban-ski-cta.jpg",
 	"img_alt"			=>"Urban Ski Weekend"
 );
@@ -40,7 +40,7 @@ $people = array(
 			"Group of 4" 			=>"$765",
 			"Group of 3"			=>"$815",
 			"Group of 2"			=>"$985",
-			"Individual"			=>"$1,275"
+			"Individual"			=>"$1,175"
 		),
 
 		"options"=>array(
@@ -157,13 +157,13 @@ $package_items = array(
 				<div class="tab" aria-label="overview">
 					<h2 class="h4">The best event for first-time skiers</h2>
 
-					<p>YOLLO Group Services offers amazing skiing trips tailored to both novices and experienced skiers. Through various organized activities, you can easily find people with similar interests and quickly develop friendships. After some practice, skiing will become like second nature to you. Take your weekend to the next level and join us at Urban Ski Weekend in Gatlinburg, Tennessee! Guaranteed, this will be a great experience you won't forget!</p>
+					<p>YOLLO Group Services offers this amazing ski event tailored to both novices and experienced skiers.  Picture this: You, your friends, and hundreds of other like-minded attendees hitting the slopes by day and owning the dance floor by night! From the moment you arrive, you'll be swept up in a whirlwind of excitement, with celebrity drop-ins guaranteed to keep you on your toes. Take your weekend to the next level and join us at Urban Ski Weekend in Gatlinburg, Tennessee! Guaranteed, this will be a great experience you won't forget!</p>
 
 					<h2 class="h5">What's Included?</h2>
 
-					<p>Our packages offer an incredible range of features including a hotel stay, party passes, a comedy show and more. But the excitement doesn't stop there! You'll also enjoy exclusive party passes for access to the hottest parties, a side-splitting comedy show to keep you entertained, and exclusive party buses to elevate your adventure. Last year, our attendees enjoyed memorable moments with artists like Young Dro and Travis Porter, and this year, we're taking it to a whole new level with Lil Scrappy as one of our special guest!</p>
+					<p>Our packages offer an incredible range of features including a hotel stay, party passes, a comedy show and more. But the excitement doesn't stop there! You'll also enjoy exclusive party passes for access to the hottest parties, a side-splitting comedy show to keep you entertained, and exclusive party buses to elevate your adventure. Last year, our snow-loving attendees had a blast exploring the slopes and grooving to the awesome music at the themed events. Artists like Lil Scrappy (the Prince of the South), DJ Self (straight outta LHHNY), and DJ Kayotik (official spinner for 50 Cent) had the crowd bouncing like moguls on a black diamond run.  And guess what? F.L.Y. brought the swag surfing vibes, making waves like a pro snowboarder catching air! Mark your calendars, spread the word, and get ready to experience Urban Ski Weekend 2025, where the thrills are bigger, the beats are louder, and the party never stops! </p>
 
-					<p>Urban Ski happens on the FIRST weekend of February. Skiing, parties, comedy, relaxation, good food, and did we forget to mention the massive All White celebrity party? What more could you ask for? Enjoy a spectacular weekend in Gatlinburg. <a data-href="#tabs-5" class="open-tab">Register and reserve your spot today!</a></p>
+					<p>Hold your mittens tight, because Urban Ski Weekend 2025 is cranking it up to eleven! Skiing, parties, comedy, relaxation, good food, and did we forget to mention the massive All White celebrity party? What more could you ask for? Enjoy a spectacular weekend in Gatlinburg. <a data-href="#tabs-5" class="open-tab">Register and reserve your spot today!</a></p>
 
 				</div> <!-- ./overview -->
 
@@ -273,7 +273,7 @@ $package_items = array(
 						<div class="accordion open" data-accordion>
 							<div data-control>When are the payments due?</div>
 							<div data-content>
-							<p>Following registration the first payment of $125 is due on or before November 15, 2023.  The second payment of $200 is due on or before December 10, 2023. The final payment (remaining balance) is due on or before January 03, 2024. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+							<p>Following registration the first payment of $125 is due on or before August 30, 2024.  The second payment of $200 is due on or before October 10, 2024. The final payment (remaining balance) is due on or before December 10, 2024. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 
 							</div>
 

@@ -1,15 +1,15 @@
 <?php
 
-if (!ob_start("ob_gzhandler")) ob_start();
+ob_start("ob_gzhandler");
 include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"					=>"Cincinnati Music Festival 2024",
+	"title"					=>"Cincinnati Music Festival 2025",
 	"subtitle"				=>"Book your package today!",
 	"location"				=>"Cincinnati, Ohio",
-    "date"					=>"July 26-28, 2024",
-    "date_start"            => "July 26, 2024",
+    "date"					=>"July 24-26, 2025",
+    "date_start"            => "July 24, 2025",
 	"img_url"				=>"../../images/slides/splash-mmf-cta.jpg",
 	"img_alt"				=>"Cincinnati Music Festival"
 );
@@ -136,15 +136,13 @@ $package_items = array(
 
                             <?php echo $responsive_tabs["overview"]; ?>
                             <div class="tab" aria-label="overview">
-                                
-                                <h2 class="h4">Book Your Cincinnati Music Festival Travel Package Now!</h2>
+                            <h2 class="h4">Book Your Cincinnati Music Festival Package Now!</h2>
                                 <p>Explore the allure of Cincinnati with our all-inclusive event package for the renowned Cincinnati Music Festival. Immerse yourself in the rhythm and melody of renowned performers while uncovering the city's rich culture and sights. Don't miss out on this extraordinary experience—secure your spot for an unforgettable event by <a data-href="#tabs-5" href="#" class="open-tab">booking your Cincinnati Music Festival travel package today!</a></p>
 
-                                <h2 class="h5">9th Annual Grown and Sophisticated Mid-Day Cruise</h2>
-                                <p>Looking to add a touch of class and elegance to your Cincinnati Music Festival experience? There is no need to look any further! Get ready to embark on a luxurious journey with our exclusive All White Grown and Sophisticated Mid-Day Cruise event. It's hosted aboard the River Queen through BB Riverboats. Enhance your festival experience and make amazing moments against the stunning backdrop of the Cincinnati skyline. The cruise is from 2:00 pm – 5:00 pm. Please remember that once we sell out, we will not have any more tickets available.<p>
-                                
-                                <p>YOLLO is looking forward to another terrific festival in 2024, and we hope you join us and be a part of this special summer occasion. </p>
+                                <h2 class="h5">10th Annual Grown and Sophisticated Mid-Day Cruise</h2>
+                                <p>Looking to add a touch of class and elegance to your Cincinnati Music Festival experience? There is no need to look any further! Get ready to embark on a luxurious journey with our exclusive All White Grown and Sophisticated Mid-Day Cruise event. It's hosted aboard the River Queen through BB Riverboats. Enhance your festival experience and make amazing moments against the stunning backdrop of the Cincinnati skyline. The cruise is from 2:30 pm – 5:00 pm. Please remember that once we sell out, we will not have any more tickets available.<p>
 
+                                <p>YOLLO is looking forward to another terrific festival in 2025, and we hope you join us and be a part of this special summer occasion. </p>
                             </div><!-- ./ overview -->
 
 
@@ -255,7 +253,7 @@ $package_items = array(
 
                                     <div data-control>What are the payment due dates for Cincinnati Music Festival Packages?</div>
                                     <div data-content>
-                                        <p>To reserve a package each group member pays the $100.00 per person fee. The first payment of $125 is due on or before <strong>March 16, 2024</strong>. The second payment of $150 is due on or before <strong>April 16, 2024</strong>.The final payment (remaining balance) is due on or before <strong>May 02, 2024</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
+                                        <p>To reserve a package each group member pays the $100.00 per person fee. The first payment of $125 is due on or before <strong>September 1, 2024</strong>. The second payment of $150 is due on or before <strong>December 1, 2024</strong>.The final payment (remaining balance) is due on or before <strong>February 1, 2025</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
                                     </div>
 
                                     </div><!-- end of accordion-->
@@ -275,7 +273,7 @@ $package_items = array(
 
                                     <div data-control>Where will we be staying that weekend?</div>
                                     <div data-content>
-                                        <p>You will two options for 2024. The Holiday Inn Cincinnati Riverfront has been selected as the host property for this wonderful event! The Comfort Suites Newport - Cincinnati  will be our over flow property once the host property is sold out and trust us it will sell out. Lock in your reservation today. </p>
+                                        <p>You will two options for 2025. The Holiday Inn Cincinnati Riverfront has been selected as the host property for this wonderful event! The Comfort Suites Newport - Cincinnati  will be our over flow property once the host property is sold out and trust us it will sell out. Lock in your reservation today. </p>
                                     </div>
 
                                     </div><!-- end of accordion-->
@@ -347,7 +345,7 @@ $package_items = array(
                             
                             <div class="tab" aria-label="buy">
                                 <h2 class="h4">Buy Cruise Now</h2>   
-                                <div class="mb-20" id="eventbrite-widget-container-682027732307"></div>
+                                <div class="mb-20" id="eventbrite-widget-container-951980337817"></div>
                             </div><!-- ./ buy now -->
 
                     </div><!-- end of responsive-tabs -->
@@ -407,8 +405,8 @@ $package_items = array(
 
 	window.EBWidgets.createWidget({
 		widgetType: 'checkout',
-		eventId: '682027732307',
-		iframeContainerId: 'eventbrite-widget-container-682027732307',
+		eventId: '951980337817',
+		iframeContainerId: 'eventbrite-widget-container-951980337817',
 		iframeContainerHeight: 425,  
 		onOrderComplete: exampleCallback
 	});

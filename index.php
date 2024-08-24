@@ -54,6 +54,10 @@
 										"/alumni-getaway-cruise", //link
 										"View Alumni Getaway Cruise"), //text
 									new Slide(
+										"images/slides/splash-mmf.jpg", //img
+										"/nati-music-festival", //link
+										"View Cincinnati Music Festival"), //text
+									new Slide(
 										"images/slides/splash-gsc.jpg", //img
 										"/nati-music-festival", //link
 										"View Grown & Sophisticated"), //text

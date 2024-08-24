@@ -20347,8 +20347,9 @@ aside .btn {
   max-width: 250px;
   display: inline-block;
   margin: 0 auto 24px;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1;
+  text-transform: uppercase;
 }
 #right .event-hero .event-hero__btn:active {
   background-color: #710e18;
@@ -20362,15 +20363,29 @@ aside .btn {
 }
 #right .event-hero .event-hero__timer {
   font-family: "opensans", Arial, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 #right .event-hero .event-hero__timer span {
   display: inline-block;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 1;
   text-align: center;
   width: 60px;
   font-family: "opensans-bold", Arial, sans-serif;
   color: #fff;
+  border: 1px solid;
+  padding: 10px;
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 #right .event-hero .event-hero__timer span em {
   display: block;
