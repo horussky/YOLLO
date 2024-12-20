@@ -51,7 +51,7 @@ include 'includes/meta.config.inc.php';
                 <div class="col-md-8">
                 <div class="tab-content translations-content-item en visible" id="en">
                 <h2 class="title">Privacy Policy</h2>
-                    <p>Last updated: November 06, 2021</p>
+                    <p>Last updated: November 2, 2024</p>
                     <p>This Privacy Policy describes general policies and procedures on the collection, use and disclosure of your information when you purchase services and tells you about your privacy rights and how the law protects You.</p>
                     <p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.</p>
                     
@@ -100,6 +100,7 @@ include 'includes/meta.config.inc.php';
 
                     <p><strong>Usage Data</strong></p>
                     <p>Usage Data is collected automatically when using the Service.</p>
+                    <p>We use Cognito Forms to securely collect and manage your personal information in compliance with GDPR</p>
                     <p>Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
                     <p>When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.</p>
                     <p>We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.</p>

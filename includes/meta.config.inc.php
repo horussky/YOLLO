@@ -13,9 +13,9 @@
             "canonical" => "https://www.goyollo.com/about"
         ),
         "alumni" => array(
-            "title"     => "HBCU Alumni Getaway Cruise to Amber Cove and Grand Turk",
+            "title"     => "HBCU Alumni Getaway Cruise to Cabos San Lucas and Ensenada",
             "desc"      => "YOLLO is taking you on an Alumni Cruise",
-            "keywords"  => "HBCU Alumni Getaway Cruise, HBCU ALumni, Carnival Cruise, Bahamas, HBCU Cruise, Mexico cruise, mahogany bay, cozumel, hbcu alum, hbcu love, hbcu, devine nine, divene 9",
+            "keywords"  => "HBCU Alumni Getaway Cruise, HBCU ALumni, Carnival Cruise, Ensenada, Cabos San Lucas, Bahamas, HBCU Cruise, Mexico cruise, mahogany bay, cozumel, hbcu alum, hbcu love, hbcu, devine nine, divene 9",
             "canonical" => "https://www.goyollo.com/alumni-getaway-cruise"
         ),
         "blackbeach" => array(
@@ -77,6 +77,12 @@
             "desc"      => "YOLLO is taking you to Greece",
             "keywords"  => "Greece, Greece Cruise, Athens, YOLLO",
             "canonical" => "https://www.goyollo.com/greece-takeover"
+        ),
+        "ghana" => array(
+            "title"     => "The Ghana Takeover",
+            "desc"      => "Discover the vibrant culture and breathtaking landscapes of Ghana with YOLLO Group Services. Explore Accra, Kumasi, Cape Coast, and more with our exclusive travel packages.",
+            "keywords"  => "Ghana vacation, Ghana travel packages, Accra tours, Kumasi excursions, Cape Coast trips, West Africa travel, Cultural tours in Ghana, Ghana adventure, YOLLO Group Services, Affordable Ghana travel",
+            "canonical" => "https://www.goyollo.com/ghana-takeover"
         ),
         "mcc" => array(
             "title"     => "Magic City Classic Weekend",
@@ -156,11 +162,11 @@
             "keywords"  => "Urban Ski, Ski Weekend, Black Ski Weekend, Tennessee, YOLLO",
             "canonical" => "https://www.goyollo.com/urban-ski-weekend"
         ),
-        "uplift" => array(
-            "title"     => "Uplift Financing",
-            "desc"      => "Finance your Cruise package using Uplift",
-            "keywords"  => "YOLLO Cruise Packages, Uplift Financing, Uplift with YOLLO",
-            "canonical" => "https://www.goyollo.com/uplift"
+        "flexpay" => array(
+            "title"     => "Flex Pay Financing",
+            "desc"      => "Finance your Cruise package using Flex Pay",
+            "keywords"  => "YOLLO Cruise Packages, Flex Pay Financing, Flex Pay with YOLLO",
+            "canonical" => "https://www.goyollo.com/flexpay"
         ),
     );
 ?>

@@ -22,22 +22,27 @@
 			<div class="foot-events">
 				<h5 class="h6">Upcoming Events</h5>
 					<?php $i=0; foreach($feature_event as $event): if ($i == 3) break; ?>
-						<?php if($event["end"] > $now): $i++; ?>
+						<?php if($event->end > $now): $i++; ?>
 							<div class="event">
 								<div class="event-img">
-									<a href="<?php echo $event["link"]; ?>" title="<?php echo $event["title"]; ?>">
-										<img src="<?php echo $event["img"]; ?>" />
+									<a href="<?php echo $event->link; ?>" title="<?php echo $event->title; ?>">
+										<img src="<?php echo $event->img; ?>" />
 									</a>
 								</div>
 								<div class="event-content">
-									<h5><?php echo $event["title"]; ?></h5>
-									<p><?php echo $event["date"]; ?></p>
-									<p><a class="learnmore" href="<?php echo $event["link"]; ?>" title="See more about <?php echo $event["title"]; ?>">View Details</a></p>
+									<h5><?php echo $event->title; ?></h5>
+									<p style="font-size: .75rem;"><?php 
+									{ $date_start = new DateTime("@{$event->start}"); $date_end = new DateTime("@{$event->end}");}
+									if ($event->start == $event->end) { 
+										echo $date_start->format('M d, Y') . "\n"; 
+									} else { 
+										echo $date_start->format('M d, Y') . " - " . $date_end->format('M d, Y') . "\n"; } 
+								?></p>
+									<p><a class="learnmore" href="<?php echo $event->link; ?>" title="See more about <?php echo $event->title; ?>">View Details</a></p>
 								</div>
 							</div>
 						<?php  endif; ?>
-					<?php endforeach;?>
-				
+					<?php endforeach;?>		
 			</div>
 
 			<div class="foot-contact">
@@ -65,7 +70,7 @@
 				
 			</div>
 
-			<div class="foot-copyright small">&copy; <?php echo date('Y'); ?> <strong>YOLLO Group Services, Inc</strong>. All Rights Reserved. <a style="display: inline;" href="/covid-policy" title="YOLLO Covid Policies">COVID Policies</a> | <a style="display: inline;" href="/privacy-policy" title="YOLLO Covid Policies">Privacy Policies</a> | <a style="display: inline;" href="/uplift" title="Finance your travel with Uplift">Uplift Financing</a></div>
+			<div class="foot-copyright small">&copy; <?php echo date('Y'); ?> <strong>YOLLO Group Services, Inc</strong>. All Rights Reserved. <a style="display: inline;" href="/covid-policy" title="YOLLO Covid Policies">COVID Policies</a> | <a style="display: inline;" href="/privacy-policy" title="YOLLO Covid Policies">Privacy Policies</a> | <a style="display: inline;" href="/flexpay" title="Finance your travel with Flex Pay">Flex Pay</a></div>
 			
 			
 	</div><!-- end of footer grid -->

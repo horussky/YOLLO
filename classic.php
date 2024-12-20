@@ -112,7 +112,7 @@
     <div id="right">
       
 		<!-- Event Hero -->
-		<div class="event-hero" style="background-image:url(<?php echo $event["img_url"]; ?>)">
+		<div class="event-hero" style="background-image:url(images/mcc-thumb<?php echo(rand(1,6)); ?>.jpg); background-size: cover;">
 			<div class="event-hero__details">
 				<h1 class="event-hero__title"><?php echo $event["title"]; ?></h1>
 				<p class="event-hero__location"><?php echo $event["location"]; ?></p>
@@ -139,9 +139,6 @@
 			<?php echo $responsive_tabs["overview"]; ?>
 			<div class="tab" aria-label="overview">
 				<h2 class="h4">It's Classic Weekend</h2>
-                <div style="max-height:300px; overflow:hidden;" class="mediummargin">
-                	<img src="images/mcc-thumb<?php echo(rand(1,4)); ?>.jpg" width="100%" />
-                </div>
                
                 <p>Get ready for the Magic City Classic—the biggest HBCU football showdown in the nation! Watch Alabama A&M and Alabama State battle it out at Legion Field in Birmingham, with a potential spot in the SWAC Championship on the line. Don't miss the electrifying festivities: the Classic Kickoff, Magic City Classic Parade, Tailgate Party, and the legendary halftime show by the Mighty Marching Hornets and the Marching Maroon and White. </p>
                 <p>YOLLO Group Services, Inc. wants to provide your travel package for this historic and exciting weekend. Lock in your package today as space is limited and our packages go fast.</p>

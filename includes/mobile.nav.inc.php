@@ -36,11 +36,11 @@ define("EVENT", serialize ($nav = array(
 				"link"	=>	"/classic"
 				  
 			),
-			/*array(
-				"title"	=>	"Da Kick Back",
-				"link"	=>	"/da-kickback"
+			array(
+				"title"	=>	"Ghana Takeover",
+				"link"	=>	"/ghana-takeover"
 				  
-			),*/
+			),
 			array(
 				"title"	=>	"Daytopia",
 				"link"	=>	"/daytopia"

@@ -5,12 +5,12 @@
 		
 		<p><strong>Accepted Payments:</strong> <i class="ccs ccs-visa"><span></span></i> <i class="ccs ccs-mastercard"><span></span></i> <i class="ccs ccs-discover"><span></span></i> <i class="ccs ccs-amex"><span></span></i> 
 		<?php if(isset($geolocation["cruise1"])) :?>
-			<img style="width: 50px; margin-left: 8px" src="/images/uplift-default.svg" />
+			<img style="width: 5rem; margin-left: 8px" src="/images/flexpay/flexpay-default.svg" />
 		<?php endif; ?>
 		</p>
 
 		<?php if(isset($geolocation["cruise1"])) :?>
-		<p><strong>Uplift Financing</strong> | A Down payment may be required. Actual terms are based on your credit score and other factors and may vary. APRs range from 0% to 36%. Not everyone is eligible. Loans made through Uplift are offered by these lending partners: <a href="http://uplift.com/lenders">http://uplift.com/lenders.</a></p>
+		<p><strong>Flex Pay Financing</strong> | A Down payment may be required. Actual terms are based on your credit score and other factors and may vary. </a></p>
 		<?php endif; ?>
 		
 		

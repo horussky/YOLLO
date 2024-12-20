@@ -99,7 +99,7 @@
     <meta name="keywords" content="<?php echo $metas['essence']['keywords']; ?>" />
     <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
     <link href="<?php echo $metas['essence']['canonical']; ?>" rel="canonical" />
-    <meta name="author" content="YOLLO Group Servicll518" />
+    <meta name="author" content="YOLLO Group Services" />
     <link rel="icon" href="favicon-192.png" sizes="192x192">
 	<link rel="apple-touch-icon" href="favicon-180.png" sizes="180x180">
     <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />

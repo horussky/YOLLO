@@ -1,4 +1,5 @@
 <?php
+
 $current_url = pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME);
 $active = "active-nav";
 
