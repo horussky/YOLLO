@@ -47,22 +47,70 @@ include 'includes/meta.config.inc.php';
             </section>
            
             <section id="upcoming-events">
+
+
+			
 				<h2 class="h4">Upcoming Events</h2>	
 				<div class="upcoming-events__wrapper">
-					<?php $i=0; foreach($feature_event as $event): if ($i == 4) break; ?>
-						<?php if($event["end"] > $now): $i++;  ?>
-							<div class="event">
-								<a href="<?php echo $event["link"]; ?>" title="<?php echo $event["title"]; ?>">
-									<img src="<?php echo $event["img"]; ?>" />
-								</a>
-								<p class="upcoming-events__title"><?php echo $event["title"]; ?></p>
-								<p class="upcoming-events__location"><?php echo $event["location"]; ?></p>
-								<p class="upcoming-events__date"><i class="fa fa-calendar"></i> <?php echo $event["date"]; ?></p>
-								<p class="upcoming-events__desc"><?php echo $event["desc"]; ?></p>
-								<a class="learnmore btn" href="<?php echo $event["link"]; ?>" title="Book <?php echo $event["title"]; ?>">Book Now</a>
-							</div>
-						<?php endif; ?>
-					<?php endforeach;?>
+					<?php $now = time(); $i = 0; foreach ($feature_event as $event): if ($i == 4) break; if ($event->end > $now): $i++; ?>
+					
+						<div class="event"> 
+						
+						<?php
+							$start_date = $event->start; // Use the start date 
+							$end_date = $event->end; // Use the end date 
+
+							// Calculate the difference in days
+							$diff = ($end_date - $start_date) / 86400; // 86400 seconds in a day
+
+							// Days is the rounded difference + 1
+							$days = round($diff) + 1;
+
+							// Nights is the rounded difference
+							$nights = round($diff);
+
+						?>
+
+
+							<a href="<?php echo $event->link; ?>" title="<?php echo $event->title; ?>"> 
+								<img src="<?php echo $event->img; ?>" alt="<?php echo $event->title; ?>" /> 
+							</a> 
+							<p class="upcoming-events__title">
+								<?php echo $event->title; ?>
+							</p> 
+							<p class="upcoming-events__location">
+							<i class="fa fa-location-arrow" style="color: #222;"></i>
+							<?php echo $event->location; ?>
+							</p> 
+							<p class="upcoming-events__date">
+								<?php
+									{ $date_start = new DateTime("@{$event->start}"); $date_end = new DateTime("@{$event->end}");  }
+								?>
+								<i class="fa fa-calendar"></i> 
+								<?php 
+									if ($event->start == $event->end) { 
+										echo $date_start->format('M d, Y') . "\n"; 
+									} else { 
+										echo $date_start->format('M d, Y') . " - " . $date_end->format('M d, Y') . "\n"; } 
+								?>
+								<span style="font-size: .75rem; display: block; padding-left: 1rem;">
+								<?php 
+									if($nights <= 0){
+										echo "{$days} day";
+									}else{
+										echo "{$days} days and {$nights} night(s)"; 
+									}
+								?>
+								</span>
+							</p>
+							
+							<p class="upcoming-events__desc">
+								<?php echo $event->desc; ?>
+							</p> 
+							<a class="learnmore btn" href="<?php echo $event->link ?>" title="Book <?php echo $event->title ?>">Book Now</a>
+						 </div>
+
+					<?php endif; endforeach; ?>
 				</div>
             </section>
 

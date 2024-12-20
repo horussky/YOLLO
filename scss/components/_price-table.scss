@@ -28,6 +28,10 @@
 	&:only-of-type{
 		grid-column:1;
 		-ms-grid-column:1;
+		max-width: 100%;
+		@media (min-width: 600px){	
+				max-width: 60%;
+		}
 	}
 	
 	li:not(.header){

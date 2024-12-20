@@ -55,6 +55,7 @@
 		left: 50%;
 		top: 0%;
 		transform: translateX(-50%);
+
 		
 		
 		.left{
@@ -832,7 +833,7 @@
 
 
 @media only screen and (max-width:425px){
-	
+
 	.nanogallery_theme_default .nanoGalleryContainer{
 
 		grid-template-columns: auto auto; 
@@ -1037,6 +1038,6 @@
 
 @media (min-width: 1200px){	
 	#container, .foot-wrap {
-		width: 1200px;
+		width: 100%;
 	}	
 }
