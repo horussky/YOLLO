@@ -35,6 +35,16 @@
             "Book now for an all-inclusive Cincinnati Music Festival travel package to experience renowned performers and Grown and Sophisticated Mid-Day Cruise." //desc
         ),
         new Event(
+            "Daytopia", //title
+            "Montgomery, AL", //location
+            "April 18-19, 2025", //date
+            strtotime("April 18, 2025"), //start
+            strtotime("April 19, 2025"), //end
+            "images/slides/splash-daytopia.jpg", //img
+            "/daytopia", //link
+            "Experience the ultimate day party at YOLLO's Daytopia in Gumptown! Enjoy bowling, skating, and a river cruise with food, drinks, and music. Secure your spot now!" //desc
+        ),
+        new Event(
             "Grown & Sophisticated Mid-Day Cruise",
             "Cincinnati, OH",
             "July 26, 2024",

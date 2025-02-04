@@ -6,7 +6,6 @@
 }
 
 @mixin font-size($size) {
-  font-size: $size;
   font-size: calculateRem($size);
 }
 //Rem Mixin
@@ -22,10 +21,7 @@ html {
 }
 *:before,
 *:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
-    
 }
 
 body{
@@ -33,10 +29,7 @@ body{
     font-size: var(--text-base-size);
 	line-height:1.5;
 	color:$font-color;
-	-webkit-transition: all 0.45s ease;
   	transition: all 0.45s ease;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 }
 
 a{
@@ -86,8 +79,6 @@ a.chev-link:hover:after{
 #left{
 	width:20%;
 	float:left;
-    
-    
 }
 
 /* RIGHT CONTENT */
@@ -104,11 +95,9 @@ a.chev-link:hover:after{
     }
 
     a:not(.btn){
-        //padding-bottom: 0;
         position: relative;
         border-bottom: none;
         line-height: 1;
-        //padding: 1.6rem 0;
         
         &::after {
             border-top: 2px solid;
@@ -132,8 +121,6 @@ a.chev-link:hover:after{
         }
     }
 
-
-
 }
 
 
@@ -148,8 +135,6 @@ a.chev-link:hover:after{
 	float:left; 
     margin-bottom:20px;
     
-    
-	
 	.title{
 		margin-top: 0;
 	}
@@ -162,7 +147,6 @@ a.chev-link:hover:after{
 	padding-right:20px;
 }
  
-
 .topinfo,
 .left-col .about {
     width: 265px;
@@ -239,7 +223,6 @@ aside#social {
 .content .colfull {
     width: 100%;
 }
-
 
 
 /*2 cols*/
@@ -427,13 +410,6 @@ li.phone{ 						height:24px; padding-left: 40px; background: transparent url(../
 
 
 
-
-
-
-
-
-
-
 /*Modal Styles*/
 .modal-overlay { 				position: fixed; top: 0; right: 0; bottom: 0; left: 0; height: 100%; width: 100%; margin: 0; padding: 0;
 								background: #131313; opacity: .85; filter: alpha(opacity=85); z-index: 101;}
@@ -448,9 +424,6 @@ li.phone{ 						height:24px; padding-left: 40px; background: transparent url(../
 
 /*facebook styles*/
 .facebook{						position:absolute; left:830px; width: 280px; }
-
-
-
 
 
 .headline{
@@ -574,7 +547,7 @@ h4 .soldout{
                 }
 
                 &.active-nav{
-                    background:#fff;
+                    
                     font-weight: 600;
 
                     &:before{
@@ -610,6 +583,33 @@ h4 .soldout, em.soldout{
 
 .small{
 	font-size:85%;
+}
+
+
+///Happening Now
+/// 
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+#upcoming-events .event{
+    position:relative;
+}
+
+.happening-now {
+    font-size: .75rem;
+    text-transform: uppercase;
+    text-align: right;
+    position:absolute;
+    top: 0;
+    right: 0;
+    padding: .25rem .5rem;
+    background: rgba(220, 53, 69, .8);
+    color: #fff;
+    animation: pulse 2s infinite;
 }
 
 
@@ -744,5 +744,3 @@ hr {
 		opacity:1;
 	}
 }
-
-

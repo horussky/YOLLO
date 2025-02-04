@@ -13621,27 +13621,63 @@ strong, b {
   src: url("../fonts/creditcardstack.eot?424st");
   src: url("../fonts/creditcardstack.eot?#iefix424st") format("embedded-opentype"), url("../fonts/creditcardstack.woff?424st") format("woff"), url("../fonts/creditcardstack.ttf?424st") format("truetype"), url("../fonts/creditcardstack.svg?424st#creditcardstack") format("svg");
 }
-h2.title {
-  text-transform: none;
+/* Header H1-H6 Styles */
+h1,
+.h1 {
+  font-family: "merriweather", Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  letter-spacing: -1px;
 }
 
-h1,
 h2,
+.h2 {
+  font-family: "merriweather", Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  letter-spacing: -1px;
+}
+
 h3,
+.h3 {
+  font-family: "merriweather", Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  letter-spacing: -1px;
+}
+
 h4,
+.h4 {
+  font-family: "merriweather", Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  letter-spacing: -1px;
+}
+
 h5,
+.h5 {
+  font-family: "merriweather", Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  letter-spacing: -1px;
+}
+
 h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
 .h6 {
   font-family: "merriweather", Arial, sans-serif;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 16px;
   letter-spacing: -1px;
+}
+
+h2.title {
+  text-transform: none;
 }
 
 p {
@@ -13664,10 +13700,9 @@ ol ol {
 
 ul {
   list-style: disc outside none;
-}
-
-ul:not(.event-nav) {
-  margin-left: 20px;
+  /*:not(.event-nav){
+  	margin-left:20px;
+  }*/
 }
 
 ol {
@@ -13953,7 +13988,7 @@ html {
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -13963,8 +13998,6 @@ body {
   color: #222;
   -webkit-transition: all 0.45s ease;
   transition: all 0.45s ease;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
@@ -14605,7 +14638,6 @@ h4 .soldout {
   font-weight: 600;
 }
 .header .right .top-nav li a.active-nav {
-  background: #fff;
   font-weight: 600;
 }
 .header .right .top-nav li a.active-nav:before {
@@ -14631,6 +14663,47 @@ h4 .soldout, em.soldout {
 
 .small {
   font-size: 85%;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#upcoming-events .event {
+  position: relative;
+}
+
+.happening-now {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  text-align: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.25rem 0.5rem;
+  background: rgba(220, 53, 69, 0.8);
+  color: #fff;
+  -webkit-animation: pulse 2s infinite;
+          animation: pulse 2s infinite;
 }
 
 /*upcoming events*/
@@ -21601,40 +21674,6 @@ aside .btn {
     left: 90%;
   }
 }
-/* PayPal Form
-.reserve-form{					width:174px; padding:13px; background: #cdcdcd;  
-								border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; margin: 0 0 10px 0;}
-.reserve-form select{			width:auto; border-color:#AFAFAF; }
-.reserve-form .group{			width:166px; border-color:#AFAFAF; font-size:13px;}
-.reserve-form .group-size{		width:20px; border-color:#AFAFAF; text-align:center;}
-.reserve-form .buy-package{		margin-bottom:5px;}
-.reserve-form select, 
-.reserve-form option{			font-size:13px; line-height:17px;}
-.reserve-form option{			color: #333;}
-.reserve-form optgroup{			font-style:normal; font-size:14px;  cursor:pointer;}
-.reserve-form select*{			width:400px;}*/
-.buy-package {
-  margin-bottom: 10px;
-}
-
-.pay label {
-  display: block;
-  margin-bottom: 3px;
-  width: 100%;
-  font-weight: bold;
-}
-
-.pay input,
-.pay select {
-  margin-bottom: 10px;
-}
-
-.pay .termsbox {
-  width: auto;
-  margin-right: 5px;
-  float: left;
-}
-
 .pay input:focus,
 .pay select:focus {
   border: 2px solid #A04B4E;
@@ -23835,77 +23874,74 @@ div.AuthorizeNetSeal * {
 
 /* CSS Document */
 /*helper classes*/
-.smallmargin {
-  margin-bottom: 1rem;
-}
-
-.mediummargin {
-  margin-bottom: 2rem;
-}
-
-.largemargin {
-  margin-bottom: 4rem;
-}
-
 .img-responsive {
   max-width: 100%;
   height: auto;
 }
 
+/* Margin Classes */
 .mt-5 {
   margin-top: 0.5rem;
-}
-
-.mt-10 {
-  margin-top: 1rem;
-}
-
-.mt-20 {
-  margin-top: 2rem;
-}
-
-.mt-40 {
-  margin-top: 4rem;
 }
 
 .ml-5 {
   margin-left: 0.5rem;
 }
 
-.ml-10 {
-  margin-left: 1rem;
-}
-
-.ml-20 {
-  margin-left: 2rem;
-}
-
 .mb-5 {
   margin-bottom: 0.5rem;
-}
-
-.mb-10 {
-  margin-bottom: 1rem;
-}
-
-.mb-20 {
-  margin-bottom: 2rem;
-}
-
-.mb-40 {
-  margin-bottom: 4rem;
 }
 
 .mr-5 {
   margin-right: 0.5rem;
 }
 
+.mt-10 {
+  margin-top: 1rem;
+}
+
+.ml-10 {
+  margin-left: 1rem;
+}
+
+.mb-10 {
+  margin-bottom: 1rem;
+}
+
 .mr-10 {
   margin-right: 1rem;
 }
 
+.mt-20 {
+  margin-top: 2rem;
+}
+
+.ml-20 {
+  margin-left: 2rem;
+}
+
+.mb-20 {
+  margin-bottom: 2rem;
+}
+
 .mr-20 {
   margin-right: 2rem;
+}
+
+.mt-40 {
+  margin-top: 4rem;
+}
+
+.ml-40 {
+  margin-left: 4rem;
+}
+
+.mb-40 {
+  margin-bottom: 4rem;
+}
+
+.mr-40 {
+  margin-right: 4rem;
 }
 
 .close-x {

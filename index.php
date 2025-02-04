@@ -73,11 +73,11 @@
 										"images/slides/splash-nba.jpg", //img
 										"/nba-allstar", //link
 										"View NBA All-Star"), //text
-									/*new Slide(
+									new Slide(
 										"images/slides/splash-daytopia.jpg", //img
 										"/daytopia", //link
 										"View Daytopia"), //text 
-									new Slide(
+									/*new Slide(
 										"images/slides/splash-urban-fiesta-puerto-rico.jpg", //img
 										"/urban-fiesta-puerto-rico", //link
 										"View Urban Fiesta PR"), //text*/
@@ -134,7 +134,7 @@
 								<h1>We Are Taking You To Major Events</h1>
 								<p>We provide all-inclusive packages for events such as Essence Festival, Urban Fiesta, and  NBA All-Star. Many packages include excursions, party passes, drink specials, and unbelievable fun!</p> 
 
-								<p class="largemargin">Do you want offers? It’s simple, subscribe and gain access to package discounts and early bird specials. </p>
+								<p class="mb-40">Do you want offers? It’s simple, subscribe and gain access to package discounts and early bird specials. </p>
 
 								<a href="/home" class="btn  btn-red ">View All Events</a>
 
@@ -155,25 +155,25 @@
 	<div class="container">
 	
 		<div class="row">
-			<div class="col-lg-12 largemargin"><h2 class="text-center">Why Choose Us?</h2></div>
+			<div class="col-lg-12 mb-40"><h2 class="text-center">Why Choose Us?</h2></div>
 		</div>
 	
 		<div class="row">
 
 				<div class="col-lg-4 text-center">
-					<i class="fa fa-usd fa-2x mediummargin" aria-hidden="true"></i>
+					<i class="fa fa-usd fa-2x mb-20" aria-hidden="true"></i>
 					<h3>Amazing Value</h3>
 					<p>We provide fun and affordable all-inclusive packages for some of the best destinations across and out of the country.</p>
 				</div><!-- ./col -->
 
 				<div class="col-lg-4 text-center">
-					<i class="fa fa-plane fa-2x mediummargin" aria-hidden="true"></i>
+					<i class="fa fa-plane fa-2x mb-20" aria-hidden="true"></i>
 					<h3>Exciting and Diverse</h3>
 					<p>Our events range from Celebrity Hosted Parties, Party Cruises, Tropical getaways, and more. Wherever there is sexy and fun, we are there!</p>
 				</div><!-- ./col -->
 
 				<div class="col-lg-4 text-center">
-					<i class="fa fa-thumbs-up fa-2x mediummargin" aria-hidden="true"></i>
+					<i class="fa fa-thumbs-up fa-2x mb-20" aria-hidden="true"></i>
 					<h3>Quality Service</h3>
 					<p>Any events, all-inclusive or hosted, will always have a company liaison on site to assist with any customer needs and questions.</p>
 				</div><!-- ./col -->
@@ -191,7 +191,7 @@
 	<div class="container">
 	
 		<div class="row">
-			<div class="col-lg-12 largemargin text-center">
+			<div class="col-lg-12 mb-40 text-center">
 				<h2>Testimonials</h2>
 			</div>
 		</div>

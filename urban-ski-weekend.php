@@ -5,11 +5,11 @@ include 'includes/meta.config.inc.php';
 
 $event = array(
 
-	"title"				=>"Urban Ski Weekend 2025",
+	"title"				=>"Urban Ski Weekend 2026",
 	"subtitle"			=>"As Seen on VH1 Love & Hiphop",
 	"location"			=>"Gatlinburg, Tennessee",
-	"date"				=>"Jan 31 - Feb 3, 2025",
-    "date_start"        =>"January 31, 2025",
+	"date"				=>"Feb 6 - Feb 9, 2026",
+    "date_start"        =>"February 9, 2026",
 	"img_url"			=>"../../images/slides/splash-urban-ski-cta.jpg",
 	"img_alt"			=>"Urban Ski Weekend"
 );
@@ -30,7 +30,7 @@ $people = array(
 
 		"diamond"=> array(
 
-			"Group of 4" 			=>"865",
+			"Group of 4" 			=>"$865",
 			"Group of 3"			=>"$915",
 			"Group of 2"			=>"$1,085",
 			"Individual"			=>"$1,275"
@@ -58,7 +58,7 @@ $package_items = array(
 		"The Best of the Best Fashion Shows"            => "checked",
 		"11th Annual Winter White Party"		        => "checked",
 		"11th Annual \"LOL\" Comedy Show"		        => "checked",
-		"The Rep Your City Super Bowl Party"		    => "checked",
+		"The Rep Your City Party"		    => "checked",
 		"Freaky Friday PJ Party"						=> "checked",
 		"Access To The Exclusive Super Lounges Each Night"	    => "checked",
 		"Access To The Love Jones Poets Corner Lounge"		    => "checked",
@@ -78,7 +78,7 @@ $package_items = array(
 		"The Best of the Best Fashion Shows"	    => "checked",
 		"11th Annual Winter White Party"		    => "checked",
 		"11th Annual \"LOL\" Comedy Show"		    => "checked",
-		"The Rep Your City Super Bowl Party"	    => "checked",
+		"The Rep Your City Party"	    => "checked",
 		"Freaky Friday PJ Party"				    => "checked",
 		"Access To The Exclusive Super Lounges Each Night"	    => "checked",
 		"Access To The Love Jones Poets Corner Lounge"			=> "checked",
@@ -155,15 +155,15 @@ $package_items = array(
 				<div id="responsive-tabs">
 				<?php echo $responsive_tabs["overview"]; ?>
 				<div class="tab" aria-label="overview">
-					<h2 class="h4">The best event for first-time skiers</h2>
+					<h2 class="h4">A Perfect Retreat for First-Time Skiers</h2>
 
-					<p>YOLLO Group Services offers this amazing ski event tailored to both novices and experienced skiers.  Picture this: You, your friends, and hundreds of other like-minded attendees hitting the slopes by day and owning the dance floor by night! From the moment you arrive, you'll be swept up in a whirlwind of excitement, with celebrity drop-ins guaranteed to keep you on your toes. Take your weekend to the next level and join us at Urban Ski Weekend in Gatlinburg, Tennessee! Guaranteed, this will be a great experience you won't forget!</p>
+					<p>Experience the thrill of skiing and nightlife at Urban Ski Weekend 2026 in Gatlinburg, Tennessee1. This event caters to both beginners and seasoned skiers, offering an unforgettable blend of slope action and after-dark excitement.</p>
 
-					<h2 class="h5">What's Included?</h2>
+					<h2 class="h5">What Makes This Experience Irresistible:</h2>
 
-					<p>Our packages offer an incredible range of features including a hotel stay, party passes, a comedy show and more. But the excitement doesn't stop there! You'll also enjoy exclusive party passes for access to the hottest parties, a side-splitting comedy show to keep you entertained, and exclusive party buses to elevate your adventure. Last year, our snow-loving attendees had a blast exploring the slopes and grooving to the awesome music at the themed events. Artists like Lil Scrappy (the Prince of the South), DJ Self (straight outta LHHNY), and DJ Kayotik (official spinner for 50 Cent) had the crowd bouncing like moguls on a black diamond run.  And guess what? F.L.Y. brought the swag surfing vibes, making waves like a pro snowboarder catching air! Mark your calendars, spread the word, and get ready to experience Urban Ski Weekend 2025, where the thrills are bigger, the beats are louder, and the party never stops! </p>
+					<p>You'll enjoy a luxurious 3-day, 2-night stay at our premium host hotel. Start each morning with a delicious sponsored breakfast that fuels your mountain adventures. Indulge in up to 28 hours of sponsored bar drinks that keep the energy high and the memories flowing. Your exclusive party passes unlock VIP access to the most sought-after events, while our headline comedy show guarantees non-stop laughter. </p>
 
-					<p>Hold your mittens tight, because Urban Ski Weekend 2025 is cranking it up to eleven! Skiing, parties, comedy, relaxation, good food, and did we forget to mention the massive All White celebrity party? What more could you ask for? Enjoy a spectacular weekend in Gatlinburg. <a data-href="#tabs-5" class="open-tab">Register and reserve your spot today!</a></p>
+					<p>This isn't just a ski trip - it's a life-changing adventure that will create stories you'll tell for years. Limited spots are available, and our 2025 event sold out in record time. Don't miss your chance to transform your winter and create memories that will last a lifetime. <a data-href="#tabs-5" class="open-tab">Register and reserve your spot today!</a></p>
 
 				</div> <!-- ./overview -->
 
@@ -273,7 +273,7 @@ $package_items = array(
 						<div class="accordion open" data-accordion>
 							<div data-control>When are the payments due?</div>
 							<div data-content>
-							<p>Following registration the first payment of $125 is due on or before August 30, 2024.  The second payment of $200 is due on or before October 10, 2024. The final payment (remaining balance) is due on or before December 10, 2024. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+							<p>Following registration the first payment of $250 is due on or before December 28, 2024.  The second payment of $400 is due on or before January 12, 2025. The final payment (remaining balance) is due on or before January 28, 2025. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 
 							</div>
 
@@ -285,7 +285,7 @@ $package_items = array(
 
 							<div data-content>
 
-							<p>No, it's not included in the package and can't be added to your package in advance. The cost of the ski excursion is $125 that can be paid as you are checking in with the on-site staff. If purchased once you arrive at the resort up the mountain the cost is $150.</p>
+							<p>No, it's not included in the package and can't be added to your package in advance. The cost of the ski excursion is $175 that can be paid as you are checking in with the on-site staff. If purchased once you arrive at the resort up the mountain the cost is $200.</p>
 
 							</div>
 
