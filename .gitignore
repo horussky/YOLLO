@@ -2,3 +2,9 @@ prepros-6.config
 .vscode/launch.json
 error_log
 prepros.config
+config/yollo.local.conf
+package.json
+Dockerfile
+docker-compose.yml
+composer.json
+.htaccess
