@@ -149,7 +149,8 @@
 
 							</div><!-- price table -->
 
-
+							
+							<?php if(isset($package_items['emerald_items']) && !empty($package_items['emerald_items'])) :?>
 							<div class="price-table">
 
 								<ul class="price">
@@ -174,6 +175,7 @@
 								</ul>
 
 							</div><!-- price table -->
+							<?php endif; ?>
 
 						</div><!-- price table container-->
 

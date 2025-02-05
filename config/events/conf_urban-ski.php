@@ -50,7 +50,6 @@
 		"package_items" =>[
 			"diamond_items" => array(
 				"4 Days / 3 Nights Hotel Accommodations"        => "checked",
-				"Party Bus Access"						        => "checked",
 				"The Best of the Best Fashion Shows"            => "checked",
 				"11th Annual Winter White Party"		        => "checked",
 				"11th Annual \"LOL\" Comedy Show"		        => "checked",
@@ -68,9 +67,8 @@
 
 
 			"emerald_items" => array(
-
+			/*
 				"4 Days / 3 Nights Hotel Accommodations"    => "checked",
-				"Party Bus Access"						    => "ex",
 				"The Best of the Best Fashion Shows"	    => "checked",
 				"11th Annual Winter White Party"		    => "checked",
 				"11th Annual \"LOL\" Comedy Show"		    => "checked",
@@ -83,6 +81,7 @@
 				"Access To The 80's & 90's Old School Lounge"				=> "checked",
 				"Tickets To All Additionally Added Events"					=> "checked",
 				"YOLLO Swag Bag"							    => "checked"
+			*/
 			)
 		], 
 
