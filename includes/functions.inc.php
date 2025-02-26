@@ -62,12 +62,17 @@
 
 	);
 	
+	function generateTab($id, $label, $checked = false) {
+	    $checkedAttribute = $checked ? 'checked="checked"' : '';
+	    return "<input type=\"radio\" name=\"tabs\" id=\"tab-$id\" $checkedAttribute>
+	            <label for=\"tab-$id\"><i class=\"fa-solid fa-chevron-right\" aria-hidden=\"true\"></i> $label</label>";
+	}
 	$responsive_tabs = array(
-		"overview" => "<input type=\"radio\" name=\"tabs\" id=\"tab-1\" checked=\"checked\"><label for=\"tab-1\"> <i class=\"fa fa-chevron-circle-right\" aria-hidden=\"true\"></i> Overview</label>",
-		"price" => "<input type=\"radio\" name=\"tabs\" id=\"tab-2\"><label for=\"tab-2\"> <i class=\"fa fa-chevron-circle-right\" aria-hidden=\"true\"></i> Price</label>",
-		"faqs" => "<input type=\"radio\" name=\"tabs\" id=\"tab-3\"><label for=\"tab-3\"><i class=\"fa fa-chevron-circle-right\" aria-hidden=\"true\"></i> FAQs</label>",
-		"photos" => "<input type=\"radio\" name=\"tabs\" id=\"tab-4\"><label for=\"tab-4\"><i class=\"fa fa-chevron-circle-right\" aria-hidden=\"true\"></i> Photos</label>",
-		"buynow"=> "<input type=\"radio\" name=\"tabs\" id=\"tab-5\"><label for=\"tab-5\"><i class=\"fa fa-chevron-circle-right\" aria-hidden=\"true\"></i> Buy Package</label>",
+	    "overview" => generateTab(1, "Overview", true),
+	    "price" => generateTab(2, "Price"),
+	    "faqs" => generateTab(3, "FAQs"),
+	    "photos" => generateTab(4, "Photos"),
+	    "buynow" => generateTab(5, "Buy Package"),
 	);
 
 	$current_url = "$_SERVER[REQUEST_URI]";

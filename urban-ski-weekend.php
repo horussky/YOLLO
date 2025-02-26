@@ -60,6 +60,7 @@
 			<div class="event-hero" style="background-image:url(<?php echo $event["img_url"]; ?>)">
 				<div class="event-hero__details">
 					<h1 class="event-hero__title"><?php echo $event["title"]; ?></h1>
+					<p class="event-hero__subtitle"><?php echo $event["subtitle"]; ?></p>
 					<p class="event-hero__location"><?php echo $event["location"]; ?></p>
 					<a data-href="#tabs-5" class="btn btn-red event-hero__btn open-tab">Book Now</a>
 					<div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="event-hero__date"><?php echo $event["date"]; ?> </div>
@@ -80,7 +81,7 @@
 
 						<h2 class="h5">What Makes This Experience Irresistible:</h2>
 
-						<p>You'll enjoy a luxurious 3-day, 2-night stay at our premium host hotel. Start each morning with a delicious sponsored breakfast that fuels your mountain adventures. Indulge in up to 28 hours of sponsored bar drinks that keep the energy high and the memories flowing. Your exclusive party passes unlock VIP access to the most sought-after events, while our headline comedy show guarantees non-stop laughter. </p>
+						<p>You'll enjoy a very accommodating 3-day, 2-night stay at our premium host hotel. Start each morning with a delicious sponsored breakfast that fuels your mountain adventures. Indulge in up to 28 hours of sponsored bar drinks that keep the energy high and the memories flowing. Your exclusive party passes unlock VIP access to the most sought-after events, while our headline comedy show guarantees non-stop laughter. </p>
 
 						<p>This isn't just a ski trip - it's a life-changing adventure that will create stories you'll tell for years. Limited spots are available, and our 2025 event sold out in record time. Don't miss your chance to transform your winter and create memories that will last a lifetime. <a data-href="#tabs-5" class="open-tab">Register and reserve your spot today!</a></p>
 
@@ -194,7 +195,7 @@
 							<div class="accordion open" data-accordion>
 								<div data-control>When are the payments due?</div>
 								<div data-content>
-								<p>Following registration the first payment of $250 is due on or before December 28, 2024.  The second payment of $400 is due on or before January 12, 2025. The final payment (remaining balance) is due on or before January 28, 2025. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+								<p>Following registration the first payment of $125 is due on or before March 1, 2025.  The second payment of $300 is due on or before June 1, 2025. The final payment (remaining balance) is due on or before September 1, 2025. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 
 								</div>
 
@@ -206,34 +207,12 @@
 
 								<div data-content>
 
-								<p>No, it's not included in the package and can't be added to your package in advance. The cost of the ski excursion is $175 that can be paid as you are checking in with the on-site staff. If purchased once you arrive at the resort up the mountain the cost is $200.</p>
+								<p>No, it's not included in the package and can't be added to your package in advance. The cost of the ski excursion is $175 that can be paid as you are checking in with the on-site staff. If purchased once you arrive at the resort up the mountain the cost is $250.</p>
 
 								</div>
 
 							</div><!-- end of accordion-->
 
-
-							<div class="accordion" data-accordion>
-
-								<div data-control>What time will the bus depart from Knoxville, TN?</div>
-
-								<div data-content>
-
-								<p>The bus will depart Knoxville at 2pm (EST) on Friday and return to Knoxville Monday at 10 am (EST).</p>
-
-								</div>
-							</div><!-- end of accordion-->
-
-							<div class="accordion" data-accordion>
-
-								<div data-control>If I'm traveling by airplane what airport should I fly into?</div>
-
-								<div data-content>
-
-								<p>Knoxville, TN is the closest city and you should fly into McGhee Tyson Airport (TYS). Knoxville is 45 minutes from Gatlingburg.</p>
-
-								</div>
-							</div><!-- end of accordion-->
 
 							<div class="accordion" data-accordion>
 								<div data-control>Why isn't the ski excursion included the package? </div>
@@ -245,18 +224,7 @@
 								</div>
 							</div><!-- end of accordion-->
 
-							<div class="accordion" data-accordion>
-
-								<div data-control>What cities will the bus depart from?</div>
-
-								<div data-content>
-
-								<p>Knoxville, TN only! Don't see you city or state listed? Email us and let's see what we can work out!</p>
-
-								</div>
-
-							</div><!-- end of accordion-->
-
+							
 							<div class="accordion" data-accordion>
 
 								<div data-control>What if I don't want to ski?</div>
@@ -271,24 +239,12 @@
 
 
 							<div class="accordion" data-accordion>
-								<div data-control>Does this trip include any transportation?</div>
-
-								<div data-content>
-
-								<p>Yes. Transportation is provided for this trip if you purchase our Diamond Package. If the party bus is not your thing then the Emerald Package was designed for YOU.</p>
-
-								</div>
-
-							</div><!-- end of accordion-->
-
-
-							<div class="accordion" data-accordion>
 
 								<div data-control>Do I need a rental car?</div>
 
 								<div data-content>
 
-								<p>If you aren't on the party bus, YES, otherwise, no. Just hop on the party bus!</p>
+								<p>YES, because there is so much to do while in the area!</p>
 
 								</div>
 

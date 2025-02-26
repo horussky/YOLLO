@@ -1,7 +1,7 @@
 
 #right .event-hero{
     width:100%;
-    min-height:350px;
+    min-height:420px;
     background-color: #cecece;
     background-size: cover;
     position: relative;
@@ -20,6 +20,10 @@
         height: 100%;
         text-align: center;
         padding: 24px;
+
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
 
         @media only screen and (max-width:600px){
             width:100%;

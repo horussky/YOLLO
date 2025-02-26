@@ -1,6 +1,5 @@
 <?php
 
-ob_start("ob_gzhandler");
 include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
@@ -8,8 +7,8 @@ $event = array(
 	"title"					=>"Cincinnati Music Festival 2025",
 	"subtitle"				=>"Book your package today!",
 	"location"				=>"Cincinnati, Ohio",
-    "date"					=>"July 24-26, 2025",
-    "date_start"            => "July 24, 2025",
+    "date"					=>"July 25-26, 2025",
+    "date_start"            => "July 25, 2025",
 	"img_url"				=>"../../images/slides/splash-mmf-cta.jpg",
 	"img_alt"				=>"Cincinnati Music Festival"
 );
@@ -39,17 +38,17 @@ $geolocation = array(
 
 $people = array(
     "diamond"=> array(
-        "Group of 4" 			=>"$865",
-        "Group of 3"			=>"$900",
-        "Group of 2"			=>"$970",
-        "Individual"			=>"$1,175"
+        "Group of 4" 			=>"$985",
+        "Group of 3"			=>"$1,025",
+        "Group of 2"			=>"$1,195",
+        "Individual"			=>"$1,300"
     ),
 
     "emerald"=> array(
-        "Group of 4" 			=>"$765",
-        "Group of 3"			=>"$800",
-        "Group of 2"			=>"$870",
-        "Individual"			=>"$1,075"
+        "Group of 4" 			=>"$885",
+        "Group of 3"			=>"$925",
+        "Group of 2"			=>"$1,095",
+        "Individual"			=>"$1,200"
     )
 
 );
@@ -143,6 +142,38 @@ $package_items = array(
                                 <p>Looking to add a touch of class and elegance to your Cincinnati Music Festival experience? There is no need to look any further! Get ready to embark on a luxurious journey with our exclusive All White Grown and Sophisticated Mid-Day Cruise event. It's hosted aboard the River Queen through BB Riverboats. Enhance your festival experience and make amazing moments against the stunning backdrop of the Cincinnati skyline. The cruise is from 2:30 pm – 5:00 pm. Please remember that once we sell out, we will not have any more tickets available.<p>
 
                                 <p>YOLLO is looking forward to another terrific festival in 2025, and we hope you join us and be a part of this special summer occasion. </p>
+
+                                <table class="itinerary">
+                                    <caption>Event Lineup</caption>
+                                    <thead>
+                                        <tr>
+                                            <th>Date</th>
+                                            <th>Performers</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Friday, July 25</td>
+                                            <td>
+                                                <li>Earth, Wind & Fire</li>
+                                                <li>Anthony Hamilton</li>
+                                                <li>Jazmine Sullivan</li>
+                                                <li>PJ Morton</li>
+                                                <li>Zapp</li> 
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Saturday, July 26</td>
+                                            <td>
+                                                <li>Janet Jackson</li>
+                                                <li>A special tribute to Frankie Beverly, featuring Jubu</li>
+                                                <li>Special guests: Ronald Isely, Joe, After 7, Dave Hollister, Raheem DeVaughn, Lucky Daye, 112, and The Bar-Kays</li>
+                                                </td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                    
+                                </table>
                             </div><!-- ./ overview -->
 
 
@@ -253,7 +284,7 @@ $package_items = array(
 
                                     <div data-control>What are the payment due dates for Cincinnati Music Festival Packages?</div>
                                     <div data-content>
-                                        <p>To reserve a package each group member pays the $100.00 per person fee. The first payment of $125 is due on or before <strong>September 1, 2024</strong>. The second payment of $150 is due on or before <strong>December 1, 2024</strong>.The final payment (remaining balance) is due on or before <strong>February 1, 2025</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
+                                        <p>To reserve a package each group member pays the $100.00 per person fee. The first payment of $125 is due on or before <strong>February 10, 2025</strong>. The second payment of $150 is due on or before <strong>March 10, 2025</strong>.The final payment (remaining balance) is due on or before <strong>April 10, 2025</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
                                     </div>
 
                                     </div><!-- end of accordion-->

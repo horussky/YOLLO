@@ -4,39 +4,39 @@ include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"				=>"All-Star Weekend 2025",
-	"subtitle"			=>"Time for some California Love!",
-	"location"			=>"San Francisco, CA",
-	"date"				=>"February 14-16, 2025",
-    "date_start"        =>"February 14, 2025",
+	"title"				=>"All-Star Weekend 2026",
+	"subtitle"			=>"We Going Back 2 Cali!",
+	"location"			=>"Los Angeles, CA",
+	"date"				=>"February 13-15, 2026",
+    "date_start"        =>"February 13, 2026",
 	"img_url"			=>"../../images/slides/splash-nba-cta.jpg",
 );
 
 $geolocation = array(
  
 	"hotel1"=> array(
-		"title" 		=>"Hilton San Francisco Financial District",
-		"address"		=>"750 Kearny Street",
-		"location"		=>"San Francisco, CA 94108",
+		"title" 		=>"The Westin Bonaventure Hotel",
+		"address"		=>"404 S Figueroa St",
+		"location"		=>"Los Angeles, CA 90071",
 		"soldout"	    => false,
-		"img_url"		=>"//dynamic-media-cdn.tripadvisor.com/media/photo-o/12/e9/02/ce/exterior-entrance.jpg?w=700&h=-1&s=1"
+		"img_url"		=>"//media-cdn.tripadvisor.com/media/photo-s/2c/02/ee/ff/exterior.jpg"
 	)
 
 );
 
 $people = array(
 		"diamond"=> array(
-			"Group of 4" 			=>"$2,990",
-			"Group of 3"			=>"$3,355",
-			"Group of 2"			=>"$3,965",
-			"Individual"			=>"$4,365"
+			"Group of 4" 			=>"$3,490",
+			"Group of 3"			=>"$3,995",
+			"Group of 2"			=>"$4,965",
+			"Individual"			=>"$6,365"
 		),
 
 		"emerald"=> array(
-			"Group of 4" 			=>"$1,025",
-			"Group of 3"			=>"$1,255",
-			"Group of 2"			=>"$1,665",
-			"Individual"			=>"$2,865"
+			"Group of 4" 			=>"$1,225",
+			"Group of 3"			=>"$1,455",
+			"Group of 2"			=>"$1,865",
+			"Individual"			=>"$3,065"
 		),
 
 		"options"=>array(
@@ -147,9 +147,13 @@ $package_items = array(
                     <div class="tab" aria-label="overview">
                         <h2 class="h4"><?php echo $event["title"]?></h2>
 
-                        <p>Get hyped for an epic weekend at the All-Star Game in San Francisco, happening at the iconic Warriors Chase Center on February 16, 2025! Dive into the heart of the action as the league's top talents light up the court in one electrifying showdown.But that's not all! Prepare to elevate your experience with exclusive parties hosted by your favorite celebrities. From star-studded gatherings to unforgettable moments, this weekend promises to be nothing short of legendary.Secure your spot now and be part of the All-Star excitement! Don't miss your chance to make memories that'll last a lifetime in the vibrant city of San Francisco. Don't miss out on this incredible opportunity -  <a data-href="#tabs-5" class="open-tab">secure your spot now! </a></p>
+                        <p>All-Star Weekend 2026 is coming to Los Angeles, and YOLLO Group Services is bringing you an unforgettable experience. This is your chance to witness the biggest names in basketball, enjoy exclusive parties, and immerse yourself in the electrifying atmosphere of All-Star Weekend.
 
-                        <p>YOLLO has an all-inclusive package to get you face-to-face with these celebrities. From party passes, hotel stay, and celebrity-hosted events, YOLLO is here for your turn up!</p>
+YOLLO Group Services provides premium hotel accommodations in prime locations, ensuring you stay close to the action. Our packages include access to top-tier events such as the NBA All-Star Game, the Celebrity Game, and the Slam Dunk Contest. You will also have the opportunity to attend exclusive parties featuring celebrity hosts, top DJs, and high-energy entertainment.
+
+ -  <a data-href="#tabs-5" class="open-tab">secure your spot now! </a></p>
+
+                        <p>We take care of all the details so you can enjoy a seamless and stress-free experience. Whether you are a basketball fanatic, a nightlife enthusiast, or someone looking for an epic weekend getaway, this is the event you do not want to miss.</p>
 
                         
                         <h4>Experience the Ultimate All-Star Weekend</h4>
@@ -331,7 +335,7 @@ $package_items = array(
 
                                 <div data-control>When are the payments due?</div>
                                 <div data-content>
-                                <p>After registration the first payment of $125 is due May 01, 2024.  The next payment of $250 is due July 1, 2024. The next payment of $350 is due September 1, 2024  The final payment (remaining balance) is due on or before December 1, 2024.</p>
+                                <p>After registration the first payment of $125 is due October 30, 2024.  The next payment of $250 is due November 30, 2024. The next payment of $350 is due December 20, 2024  The final payment (remaining balance) is due on or before January 10, 2024.</p>
                                 </div>
 
                             </div><!-- end of accordion-->

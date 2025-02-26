@@ -7,14 +7,18 @@
 				<p><a class="chev-link" href="/about" title="Learn more about YOLLO">Read more about YOLLO</a></p>
 
 				<ul>
-				<li class="foot-share-links"><i class="fa-li fa fa-share" aria-hidden="true"></i>
-						<a href="http://www.facebook.com/yollogsinc" target="_blank" title="Become a fan of YOLLO Group Services"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a> 
+				<li class="foot-share-links">
+						<a href="http://www.facebook.com/yollogsinc" target="_blank" title="Become a fan of YOLLO Group Services"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a> 
 
-						<a href="https://twitter.com/YOLLOGSINC" target="_blank" title="Follow YOLLO Group Services on Twitter"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+						<a href="https://x.com/YOLLOGSINC" target="_blank" title="Follow YOLLO Group Services on X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
 
-						<a href="https://instagram.com/yollogsinc" target="_blank" title="Follow YOLLO Group Services on Instagram"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+						<a href="https://bsky.app/profile/yollogsinc.bsky.social" target="_blank" title="Follow YOLLO Group Services on Blue Sky"><i class="fa-brands fa-bluesky" aria-hidden="true"></i></a>
 
-						<a href="https://www.snapchat.com/add/yollogsinc" target="_blank" title="Follow YOLLO Group Services on Snapchat"><i class="fa fa-snapchat fa-2x" aria-hidden="true"></i></a>
+						<a href="https://instagram.com/yollogsinc" target="_blank" title="Follow YOLLO Group Services on Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+
+						<a href="https://www.snapchat.com/add/yollogsinc" target="_blank" title="Follow YOLLO Group Services on Snapchat"><i class="fa-brands fa-snapchat" aria-hidden="true"></i></a>
+
+						
 					</li>
 				</ul>
 			</div>
