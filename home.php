@@ -41,81 +41,107 @@ include 'includes/meta.config.inc.php';
                 <?php /* ?><div class="rslides"></div>
                 <?php echo $json["homepage__description"]; ?><?php */?>
 
-                <h1 class="headline">Our name is our motto. You Only Live Life Once!</h1>
-                            
-                <p>YOLLO Group Services is one of the leading full-service travel companies located in the Southeastern region. We offer our clients great all-inclusive travel packages, and fun and festive experiences at the best destinations around the world. Learn more <a title="read more about YOLLO" href="about.php">about YOLLO</a> or view some of our upcoming events below.</p>
+                <h1>Live the Moment. Experience More.</h1>
+				<p>At YOLLO Group Services, we turn travel into unforgettable experiences. As a premier full-service travel company in the Southeast, we create all-inclusive event packages that go beyond the main attraction. From electrifying concerts to themed parties and exclusive day events, we bring the fun wherever you go.</p>
+				<p>Learn more <a title="read more about YOLLO" href="about.php">about YOLLO</a> and discover your next adventure below.</p>
             </section>
            
             <section id="upcoming-events">
 
 
 			
-				<h2 class="h4">Upcoming Events</h2>	
+				<h2 class="h3">Upcoming Events</h2>	
 				<div class="upcoming-events__wrapper">
-					<?php $now = time(); $i = 0; foreach ($feature_event as $event): if ($i == 4) break; if ($event->end > $now): $i++; ?>
+				<?php
+					function isEventHappeningNow($eventStart, $eventEnd) {
+						$now = time();
+						return ($now >= $eventStart && $now <= $eventEnd);
+					}
+
+					$now = time(); $i = 0;
+					foreach ($feature_event as $event):
+						if ($i == 4) break;
+						if ($event->end > $now):
+							$i++;
+				?>
+        
+				<div class="event"> 
 					
-						<div class="event"> 
-						
+					<?php
+						$start_date = $event->start;
+						$end_date = $event->end;
+
+						// Calculate the difference in days
+						$diff = ($end_date - $start_date) / 86400; // 86400 seconds in a day
+
+						// Days is the rounded difference + 1
+						$days = round($diff) + 1;
+
+						// Nights is the rounded difference
+						$nights = round($diff);
+
+						// Check if the event is happening now
+						$isHappeningNow = isEventHappeningNow($start_date, $end_date);
+					?>
+
+					<a href="<?php echo $event->link; ?>" title="<?php echo $event->title; ?>"> 
+						<img src="<?php echo $event->img; ?>" alt="<?php echo $event->title; ?>" /> 
+					</a> 
+					<p class="upcoming-events__title">
+						<?php echo $event->title; ?>
+						<?php if ($isHappeningNow): ?>
+							<span class="happening-now">Live Now!</span>
+						<?php endif; ?>
+					</p> 
+					<p class="upcoming-events__location">
+						<i class="fa fa-location-arrow" style="color: #222;"></i>
+						<?php echo $event->location; ?>
+					</p> 
+					<p class="upcoming-events__date">
 						<?php
-							$start_date = $event->start; // Use the start date 
-							$end_date = $event->end; // Use the end date 
-
-							// Calculate the difference in days
-							$diff = ($end_date - $start_date) / 86400; // 86400 seconds in a day
-
-							// Days is the rounded difference + 1
-							$days = round($diff) + 1;
-
-							// Nights is the rounded difference
-							$nights = round($diff);
-
+							$date_start = new DateTime("@{$event->start}");
+							$date_end = new DateTime("@{$event->end}");
 						?>
+						<i class="fa fa-calendar"></i> 
+						<?php 
+							if ($event->start == $event->end) { 
+								echo $date_start->format('M d, Y') . "\n"; 
+							} else { 
+								echo $date_start->format('M d, Y') . " - " . $date_end->format('M d, Y') . "\n";
+							} 
+						?>
+						<span style="font-size: .75rem; display: block; padding-left: 1rem;">
+						<?php 
+							if($nights <= 0){
+								echo "{$days} day event";
+							} else {
+								echo "{$days} days and {$nights} night(s)"; 
+							}
+						?>
+						</span>
+					</p>
+					
+					<p class="upcoming-events__desc">
+						<?php echo $event->desc; ?>
+					</p> 
+					<a class="learnmore btn" href="<?php echo $event->link ?>" title="Book <?php echo $event->title ?>">
+						<?php echo $isHappeningNow ? "Join Now" : "Book Now"; ?>
+					</a>
+				</div>
 
+			<?php endif;
+		endforeach; ?>
 
-							<a href="<?php echo $event->link; ?>" title="<?php echo $event->title; ?>"> 
-								<img src="<?php echo $event->img; ?>" alt="<?php echo $event->title; ?>" /> 
-							</a> 
-							<p class="upcoming-events__title">
-								<?php echo $event->title; ?>
-							</p> 
-							<p class="upcoming-events__location">
-							<i class="fa fa-location-arrow" style="color: #222;"></i>
-							<?php echo $event->location; ?>
-							</p> 
-							<p class="upcoming-events__date">
-								<?php
-									{ $date_start = new DateTime("@{$event->start}"); $date_end = new DateTime("@{$event->end}");  }
-								?>
-								<i class="fa fa-calendar"></i> 
-								<?php 
-									if ($event->start == $event->end) { 
-										echo $date_start->format('M d, Y') . "\n"; 
-									} else { 
-										echo $date_start->format('M d, Y') . " - " . $date_end->format('M d, Y') . "\n"; } 
-								?>
-								<span style="font-size: .75rem; display: block; padding-left: 1rem;">
-								<?php 
-									if($nights <= 0){
-										echo "{$days} day";
-									}else{
-										echo "{$days} days and {$nights} night(s)"; 
-									}
-								?>
-								</span>
-							</p>
-							
-							<p class="upcoming-events__desc">
-								<?php echo $event->desc; ?>
-							</p> 
-							<a class="learnmore btn" href="<?php echo $event->link ?>" title="Book <?php echo $event->title ?>">Book Now</a>
-						 </div>
-
-					<?php endif; endforeach; ?>
 				</div>
             </section>
 
             <div class="disclosure">
-            	<strong>Disclaimer</strong> | All graphics and/or logos associated with or referred to by YOLLO Group Services on this website are registered trademarks of their respective owners, and are used herein for factual and illustrative purposes only. Links are provided for your convenience and do not constitute an endorsement. Third party sites are not within our control and may not have the same privacy, security or accessibility standards. Third parties are solely responsible for the content and availability of their sites.
+			<p>
+				<strong>Disclaimer</strong> | All logos, trademarks, and images referenced on this website are the property of their respective owners and are used solely for informational and illustrative purposes. YOLLO Group Services is an independent travel provider and is not affiliated with or endorsed by any third-party brands, venues, or events unless explicitly stated.</p>
+				
+				<p>All travel packages, events, and services are subject to availability and may change without notice. Prices, itineraries, and inclusions are not guaranteed until full payment is received. YOLLO Group Services is not responsible for cancellations, delays, or changes made by airlines, hotels, venues, or other third-party providers.</p>
+				
+				<p>Links to external websites are provided for convenience and do not imply endorsement. We do not control third-party sites and are not responsible for their content, security, privacy policies, or accessibility standards. Travelers are encouraged to review all terms and conditions before making any bookings. </p>
       		</div><!-- end of disclosure -->
 
      	</div><!--end of right-->

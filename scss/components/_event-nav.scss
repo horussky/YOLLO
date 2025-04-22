@@ -32,12 +32,10 @@
 .event-nav .active{
 	background:#eee;
     box-shadow: -4px 0 0 0 black;
-		a{
-			font-weight:700;
-			&:hover{
-				color:#fff;
-			}
-		} 
+    font-weight:600;
+		&:hover{
+			color:#fff;
+		}
 }
 
 .event-nav li [class^="hvr-"].active:before,

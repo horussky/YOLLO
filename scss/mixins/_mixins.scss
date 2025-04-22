@@ -1,4 +1,9 @@
 //Fluid Type
+// This mixin, `interpolate`, is used to create fluid, responsive styles for a set of CSS properties.
+// It takes the following parameters:
+// - $properties: A list of CSS properties to apply the interpolation to.
+// - $min-screen and $max-screen: The minimum and maximum screen widths for the interpolation range.
+// - $min-value and $max-value: The minimum and maximum values for the properties within the interpolation range.
 
 @mixin interpolate($properties, $min-screen, $max-screen, $min-value, $max-value) {
   & {
@@ -39,31 +44,76 @@
   @include interpolate(font-size, 480px, 1024px, 18px, 16px);
 }*/
 // 16 / 24 / 32 / 48/ 64 / 80
+
 p {
   @include interpolate((font-size), 480px, 1024px, 18px, 16px);
 }
 
 h1, .h1 {
-  @include interpolate((font-size), 480px, 1024px, 64px, 80px);
+  @include interpolate((font-size), 480px, 1024px, 33.178px, 39.813px);
 } 
 
 h2, .h2 {
-  @include interpolate((font-size), 480px, 1024px, 48px, 64px);
+  @include interpolate((font-size), 480px, 1024px, 27.648px, 33.178px);
 }
 
 h3, .h3 {
-  @include interpolate((font-size), 480px, 1024px, 32px, 48px);
+  @include interpolate((font-size), 480px, 1024px, 23.04px, 27.648px);
 }
 
 h4, .h4 {
-  @include interpolate((font-size), 480px, 1024px, 24px, 32px);
+  @include interpolate((font-size), 480px, 1024px, 19.2px, 23.04px);
 }
 
 h5, .h5 {
-  @include interpolate((font-size), 480px, 1024px, 18px, 24px);
+  @include interpolate((font-size), 480px, 1024px, 16px, 19.2px);
 }
 
 h6, .h6 {
-  @include interpolate((font-size), 480px, 1024px, 16px, 18px);
+  @include interpolate((font-size), 480px, 1024px, 14.5px, 16px);
 }
 
+// Margin Mixin
+@mixin margin($direction, $size) {
+  @if $direction == 'x' {
+    margin-left: $size;
+    margin-right: $size;
+  } @else if $direction == 'y' {
+    margin-top: $size;
+    margin-bottom: $size;
+  } @else {
+    margin-#{$direction}: $size;
+  }
+}
+
+// Generate margin classes dynamically
+@each $dir, $prop in (t: 'top', b: 'bottom', l: 'left', r: 'right', x: 'x', y: 'y') {
+  @each $size, $value in (5: 0.5rem, 10: 0.625rem, 20: 1.25rem, 40: 2.5rem) {
+    .m#{$dir}-#{$size} {
+      @include margin($prop, $value);
+    }
+  }
+}
+
+
+// Padding Mixin
+@mixin padding($direction, $size) {
+  @if $direction == 'x' {
+    padding-left: $size;
+    padding-right: $size;
+  } @else if $direction == 'y' {
+    padding-top: $size;
+    padding-bottom: $size;
+  } @else {
+    padding-#{$direction}: $size;
+  }
+}
+
+// Generate padding classes dynamically
+@each $dir, $prop in (t: 'top', b: 'bottom', l: 'left', r: 'right', x: 'x', y: 'y') {
+  @each $size, $value in (5: 0.5rem, 10: 0.625rem, 20: 1.25rem, 40: 2.5rem) {
+    .p#{$dir}-#{$size} {
+      @include padding($prop, $value);
+    }
+  }
+}

@@ -48,7 +48,7 @@ include 'includes/functions.inc.php';
     
                 <div class="colfull">
                 
-                <h1 class="title h4">FAQs and helpful information</h1>
+                <h1>FAQs and helpful information</h1>
                 
                 
 				<p>For questions not answered in this section, please contact us by using the form on the <a href="/contact">Contact Page</a>, emailing us at <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a>, or calling <a href="tel:888-946-9655">(888) 946-9655</a> </p>
@@ -56,7 +56,7 @@ include 'includes/functions.inc.php';
                 
                 <div data-accordion-group>
                 
-					<h2 class="h5">General Questions</h2>
+					<h2 >General Questions</h2>
 					
 					
 					<div class="accordion open" data-accordion>
@@ -93,7 +93,7 @@ include 'includes/functions.inc.php';
 							<li>Money Order Make all payments payable to YOLLO Group Services.</li>
 							<li>Personal checks are NOT ACCEPTED</li>
 						</ul>
-						<p>For credit card payments, you can use our payment form for the event under the "Buy Now" tab, otherwise please provide a copy of valid state or government issued ID, and a copy of the front and back of the credit card. This method of payment incurs a 4% processing fee. You will be contacted to verify information before card is processed.</p>
+						<p>For credit card payments, you can use our payment form for the event under the "Buy Now" tab. Addtionally, at event check-in you may be required toe provide a copy of valid state or government issued ID and a copy of the front and back of the credit card. This method of payment incurs a 4% event production fee. </p>
 					  </div>
 
 					</div><!-- end of accordion-->
@@ -113,7 +113,7 @@ include 'includes/functions.inc.php';
 
 					  <div data-control>What is the final confirmation letter? </div>
 					  <div data-content>
-							<p>This letter will have all the information related to your travel package. It is emailed 30 days prior to your travel date. Itineraries are sent to each client 15 days before the event via email. This gives the client a complete overview of the travel package purchased.</p>
+							<p>This letter will have all the information related to your travel package. It is emailed 30 days prior to your travel date. Itineraries are sent to each client 14 days before the event via email. This gives the client a complete overview of the travel package purchased.</p>
 					  </div>
 
 					</div><!-- end of accordion-->
@@ -211,7 +211,7 @@ include 'includes/functions.inc.php';
 					---------------------- Due Dates and Fees ----------------------
 					-->
 				<div data-accordion-group>	
-					<h2 class="h5">Due Dates and Fees</h2>
+					<h2>Due Dates and Fees</h2>
 					
 					<div class="accordion" data-accordion>
 
@@ -237,7 +237,8 @@ include 'includes/functions.inc.php';
 
 					  <div data-control>What if I'm not able to pay by the due date?</div>
 					  <div data-content>
-						  <p>Notify us immediately via our <a href="/contact.php">contact page</a> or call <a href="tel:888-946-9655"><strong>(888) 946-9655</strong></a>. Failure to do so may result in your account incurring a $35 late fee. If payment is not made 3 days after your package due date, your reservation will be cancelled and you will need to re-register if you decide to still attend the event.
+						  <p>If you're unable to make your payment by the due date, please notify us immediately via our <a href="/contact.php">contact page</a>. This is essential to avoid additional charges and potential cancellation of your reservation. Payments are considered on-time if received by 6:00 PM CST on the due date. If payment is not received by the due date your account will incur a $75 late fee. Additionally, an extra late fee of $75 will be assessed every six days until payment is made. If payment is not received within 14 days after your original package due date, your reservation will be subject to cancellation. Should your reservation be cancelled, you will need to re-register if you decide to attend the event. Please note that any previous payments made will be forfeited and cannot be transferred toward a new reservation. We strongly encourage timely communication to avoid additional fees or the loss of your reservation.
+
                         </p>
 					  </div>
 
@@ -246,16 +247,16 @@ include 'includes/functions.inc.php';
 					
 					<div class="accordion" data-accordion>
 
-					  <div data-control>What fees can incur that doesn't go toward my package price?</div>
+					  <div data-control>What fees can I incur that doesn't go toward my package price?</div>
 					  <div data-content>
 						<ul>
-							<li>Registration Fee: $29.99</li>
-							<li>Late Fee: $35</li>
-							<li>Extension Fee: $25</li>
-							<li>Reinstatement Fee: $75</li>
-							<li>Chargeback/Dispute Fee: $100</li>
-							<li>Reservation Name Change Fee: $75</li>
-							<li>Electronic Processing Fee: 4% of Amount</li>
+							<li>Registration Fee: $100</li>
+							<li>Late Fee: $75</li>
+							<li>Extension Fee: $50</li>
+							<li>Reinstatement Fee: $150</li>
+							<li>Chargeback/Dispute Fee: $250</li>
+							<li>Reservation Name Change Fee: $125</li>
+							<li>Event Production Processing Fee: 4% of Amount</li>
 						</ul>
 					  </div>
 
@@ -267,7 +268,7 @@ include 'includes/functions.inc.php';
 					  <div data-control>What is the Registration Fee and what is it for?</div>
 					  <div data-content>
 						<p>The Registration Fee is a mandatory nonrefundable/nontransferable fee charged to hold/reserve an event package, current package price, and availability until your first payment is due.</p>
-							<p>This fee is in addition to your overall package price. Every person within a group must pay the Registration Fee. It is not mandatory that all registration payments are paid at once. Everyone in the group must pay their Registration fee within 7 days of the initial payment.</p> 
+							<p>This fee is applied toward your overall package price. Every person within a group must pay the Registration Fee. It is not mandatory that all registration payments are paid at once. Everyone in the group must pay their Registration fee within 7 days of the initial payment.</p> 
 							<p>Any payment made after 7 days of the initial Registration Fee will be booked and receive pricing/amenities at current market value.</p>
 					  </div>
 
@@ -335,7 +336,7 @@ include 'includes/functions.inc.php';
 					-->
 					
 				<div data-accordion-group>	
-					<h2 class="h5"><a id="refund"></a>Refunds and Cancellations</h2>
+					<h2><a id="refund"></a>Refunds and Cancellations</h2>
 					
 					<div class="accordion" data-accordion>
 

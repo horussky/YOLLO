@@ -1,83 +1,18 @@
 <?php
 
-ob_start("ob_gzhandler");
 include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
-$event = array(
-	"title"					=>"Cincinnati Music Festival 2025",
-	"subtitle"				=>"Book your package today!",
-	"location"				=>"Cincinnati, Ohio",
-    "date"					=>"July 24-26, 2025",
-    "date_start"            => "July 24, 2025",
-	"img_url"				=>"../../images/slides/splash-mmf-cta.jpg",
-	"img_alt"				=>"Cincinnati Music Festival"
-);
+// Load the event configuration
+$event_config = require 'config/events/conf_nati.php';
 
-$geolocation = array(
+// Access configuration data
+$event = $event_config['event'];
+$geolocation = $event_config['geolocation'];
+$people = $event_config['people'];
+$package_items = $event_config['package_items'];
 
-	"hotel1"=> array(
-		"title" 			=>"Holiday Inn Cincinnati-Riverfront",
-		"address"			=>"600 W 3rd Street",
-		"location"			=>"Covington, KY 41011",
-		"geolocation"		=>"600 W 3rd Street, Covington, KY 41011",
-		"soldout"           =>false,
-        "img_url"			=>"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/3b/90/8d/hotel-exterior.jpg?w=800&h=-1&s=1",
-        "host"              =>true
-    ),
-    "hotel2"=> array(
-		"title" 			=>"Comfort Suites Newport - Cincinnati Riverfront",
-		"address"			=>"420 Riverboat Row",
-		"location"			=>"Newport, KY 41071",
-		"geolocation"		=>"420 Riverboat Row, Newport, KY 41071",
-		"soldout"           =>false,
-        "img_url"			=>"https://media-cdn.tripadvisor.com/media/photo-o/03/51/42/96/comfort-suites.jpg",
-        "host"              =>false
-    )
-    
-);
 
-$people = array(
-    "diamond"=> array(
-        "Group of 4" 			=>"$865",
-        "Group of 3"			=>"$900",
-        "Group of 2"			=>"$970",
-        "Individual"			=>"$1,175"
-    ),
-
-    "emerald"=> array(
-        "Group of 4" 			=>"$765",
-        "Group of 3"			=>"$800",
-        "Group of 2"			=>"$870",
-        "Individual"			=>"$1,075"
-    )
-
-);
-$package_items = array(
-	"diamond_items" => array(
-		"Hotel Accommodations (Fri-Sun)"			=> "checked",
-		"Weekend Concert Tickets"				    => "checked",
-		"Grown and Sophisticated Mid Day Cruise"	=> "checked",
-		"Meet and Greet Mixer"						=> "checked",
-		"Transportation via motorcoach (Birmingham, AL)"			=> "checked",
-		"Breakfast Daily"							=> "checked",
-		"Additional Hotel nights $275 per night"	=> "checked",
-		"YOLLO Gift Bag"							=> "checked"
-	),
-
-	"emerald_items" => array(
-		"Hotel Accommodations (Fri-Sun)"			=> "checked",
-		"Weekend Concert Tickets"					=> "checked",
-		"Grown and Sophisticated Mid Day Cruise"	=> "checked",
-		"Meet and Greet Mixer"						=> "checked",
-		"Transportation via motorcoach (Birmingham, AL)"			=> "ex",
-		"Breakfast Daily"							=> "checked",
-		"Additional Hotel nights $275 per night"	=> "checked",
-		"YOLLO Gift Bag"							=> "checked"
-	),
-
-	"Hotel Only" =>"$850/per person"
-);
 
 ?>
 <!doctype html>
@@ -136,13 +71,48 @@ $package_items = array(
 
                             <?php echo $responsive_tabs["overview"]; ?>
                             <div class="tab" aria-label="overview">
-                            <h2 class="h4">Book Your Cincinnati Music Festival Package Now!</h2>
-                                <p>Explore the allure of Cincinnati with our all-inclusive event package for the renowned Cincinnati Music Festival. Immerse yourself in the rhythm and melody of renowned performers while uncovering the city's rich culture and sights. Don't miss out on this extraordinary experience—secure your spot for an unforgettable event by <a data-href="#tabs-5" href="#" class="open-tab">booking your Cincinnati Music Festival travel package today!</a></p>
+                                <h2>Secure Your Spot at the Cincinnati Music Festival Today!</h2>
+                                <p>Get ready for a legendary weekend of music, culture, and nonstop fun at the Cincinnati Music Festival 2025! This festival has hosted icons like Janet Jackson, Charlie Wilson, and Snoop Dogg, and this year promises another star-studded lineup. With YOLLO Group Services, you won’t just attend the festival—you'll experience it in style with exclusive access, premium accommodations, and unforgettable events. Don't miss out on this extraordinary experience—secure your spot for an unforgettable event by <a data-href="#tabs-5" href="#" class="open-tab">booking</a> your Cincinnati Music Festival travel package today!</p>
 
-                                <h2 class="h5">10th Annual Grown and Sophisticated Mid-Day Cruise</h2>
-                                <p>Looking to add a touch of class and elegance to your Cincinnati Music Festival experience? There is no need to look any further! Get ready to embark on a luxurious journey with our exclusive All White Grown and Sophisticated Mid-Day Cruise event. It's hosted aboard the River Queen through BB Riverboats. Enhance your festival experience and make amazing moments against the stunning backdrop of the Cincinnati skyline. The cruise is from 2:30 pm – 5:00 pm. Please remember that once we sell out, we will not have any more tickets available.<p>
+                                <h3>Upgrade Your Weekend with the All White Mid-Day Cruise</h3>
+                                <p>Looking to add a touch of class and elegance to your Cincinnati Music Festival experience? There is no need to look any further! Get ready to embark on a luxurious journey with our exclusive All White Grown and Sophisticated Mid-Day Cruise event. It's hosted aboard the River Queen through BB Riverboats. Enhance your festival experience and make amazing moments against the stunning backdrop of the Cincinnati skyline. The cruise is from 2:30 pm - 5:00 pm. Please remember that once we sell out, we will not have any more tickets available.</p>
+
+                                <h3>Beyond the Music—A Full Weekend of Luxury & Culture.</h3>
+                                <p>YOLLO's curated festival packages offer more than just tickets. Stay in top-rated hotels, indulge in Cincinnati's vibrant food scene, and connect with a community of music lovers from across the country.  YOLLO's premium packages ensure a hassle-free stay with top-tier accommodations and access to the best events. Don't just go to the festival—experience it like a VIP. <a data-href="#tabs-5" href="#" class="open-tab">Secure your spot today</a> and get ready for an epic weekend of music, excitement, and nonstop fun!</p>
 
                                 <p>YOLLO is looking forward to another terrific festival in 2025, and we hope you join us and be a part of this special summer occasion. </p>
+
+                                <table class="itinerary">
+                                    <caption>Event Lineup</caption>
+                                    <thead>
+                                        <tr>
+                                            <th>Date</th>
+                                            <th>Performers</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Friday, July 25</td>
+                                            <td>
+                                                <li>Earth, Wind & Fire</li>
+                                                <li>Anthony Hamilton</li>
+                                                <li>Jazmine Sullivan</li>
+                                                <li>PJ Morton</li>
+                                                <li>Zapp</li> 
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Saturday, July 26</td>
+                                            <td>
+                                                <li>Janet Jackson</li>
+                                                <li>A special tribute to Frankie Beverly, featuring Jubu</li>
+                                                <li>Special guests: Ronald Isely, Joe, After 7, Dave Hollister, Raheem DeVaughn, Lucky Daye, 112, and The Bar-Kays</li>
+                                                </td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                    
+                                </table>
                             </div><!-- ./ overview -->
 
 
@@ -253,7 +223,7 @@ $package_items = array(
 
                                     <div data-control>What are the payment due dates for Cincinnati Music Festival Packages?</div>
                                     <div data-content>
-                                        <p>To reserve a package each group member pays the $100.00 per person fee. The first payment of $125 is due on or before <strong>September 1, 2024</strong>. The second payment of $150 is due on or before <strong>December 1, 2024</strong>.The final payment (remaining balance) is due on or before <strong>February 1, 2025</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
+                                        <p>To reserve a package each group member pays the $100.00 per person fee. The first payment of $125 is due on or before <strong>March 10, 2025</strong>. The second payment of $150 is due on or before <strong>April 10, 2025</strong>.The final payment (remaining balance) is due on or before <strong>May 10, 2025</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
                                     </div>
 
                                     </div><!-- end of accordion-->
@@ -356,8 +326,10 @@ $package_items = array(
     
     
     <div class="disclosure">
-      		<?php include 'includes/package-info-generic.inc.php'; ?><br/>
-            <strong>Disclaimer</strong> The terms Cincinnati Music Festival, Cincinnati Music Fest, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. We are in no way associated with or authorized by P&amp;G's and neither this production nor its affiliates have licensed or endorsed us to sell goods and/or services in conjunction with any Cincinnati Music Festival Organizers productions. The use of any logos, words, trademarks, or photos have been used for descriptive purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.
+        <?php include 'includes/package-info-generic.inc.php'; ?>
+        <p><strong>Disclaimer</strong> The terms Cincinnati Music Festival, Cincinnati Music Fest, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. We are in no way associated with or authorized by P&amp;G's and neither this production nor its affiliates have licensed or endorsed us to sell goods and/or services in conjunction with any Cincinnati Music Festival Organizers productions. The use of any logos, words, trademarks, or photos have been used for descriptive purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.</p>
+
+        <p><strong>Mid-Day Cruise</strong> |  Please be advised that the Grown and Sophisticated "All White" Mid-Day Cruise is a rain or shine event, and all ticket sales are final with no refunds. The cruise will embark aboard BB Riverboats' "River Queen," located at 101 Riverboat Row, Newport, Kentucky 41071, just minutes from downtown Cincinnati. While the "All White" attire theme adds to the event's elegance, it is preferred but not mandatory. Please note that event details, including entertainment and scheduling, are subject to change without prior notice.</p>
     </div>
 
 </div><!--end of right-->

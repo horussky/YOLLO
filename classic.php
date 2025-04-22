@@ -5,11 +5,11 @@
     include 'includes/meta.config.inc.php';
 
 	$event = array(
-		"title"				=>"Classic Weekend 2024",
+		"title"				=>"Classic Weekend 2025",
 		"subtitle"			=>"It's the Classsssssic!",
 		"location"			=>"Legion Field | Birmingham, AL",
-		"date"				=>"October 24-26, 2024",
-        "date_start"		=>"October 26, 2024",
+		"date"				=>"October 24-26, 2025",
+        "date_start"		=>"October 26, 2025",
 		"img_url"			=>"../../images/slides/splash-mcc-cta.jpg",
 		"img_alt"			=>"Magic City Classic"
 	);

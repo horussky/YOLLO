@@ -13,10 +13,16 @@
             "canonical" => "https://www.goyollo.com/about"
         ),
         "alumni" => array(
-            "title"     => "HBCU Alumni Getaway Cruise to Cabos San Lucas and Ensenada",
-            "desc"      => "YOLLO is taking you on an Alumni Cruise",
-            "keywords"  => "HBCU Alumni Getaway Cruise, HBCU ALumni, Carnival Cruise, Ensenada, Cabos San Lucas, Bahamas, HBCU Cruise, Mexico cruise, mahogany bay, cozumel, hbcu alum, hbcu love, hbcu, devine nine, divene 9",
+            "title"     => "HBCU Alumni Getaway Cruise to Costa Maya, Belize, Cozumel",
+            "desc"      => "Join the HBCU Alumni Getaway for a Caribbean cruise from New Orleans. Celebrate HBCU pride with exclusive entertainment & cultural exploration.",
+            "keywords"  => "HBCU Alumni Cruise, Costa Maya, Belize, Cozumel, New Orleans Departure, HBCU Pride, Cultural Exploration, Caribbean Adventure, Caribbean Cultural Cruise, Exclusive Entertainment, Flex Pay Options, YOLLO Group Services, HBCU Alumni Getaway Cruise",
             "canonical" => "https://www.goyollo.com/alumni-getaway-cruise"
+        ),
+        "alumni_ambass" => array(
+            "title"     => "The HBCU Alumni Ambassador Program",
+            "desc"      => "Join the HBCU Alumni Ambassador Program and earn rewards for promoting YOLLO Group Services.",
+            "keywords"  => "HBCU Alumni Getaway Cruise, HBCU ALumni, Carnival Cruise, Ambassador Program, YOLLO Ambassador, HBCU Ambassador, YOLLO Group Services, HBCU Alumni, hbcu love",
+            "canonical" => "https://www.goyollo.com/alumni-ambassador-program"
         ),
         "blackbeach" => array(
             "title"     => "Black Beach Week Daytox Party Cruise",
@@ -91,9 +97,9 @@
             "canonical" => "https://www.goyollo.com/classic"
         ),
         "nati" => array(
-            "title"     => "Cincinnati Music Festival",
+            "title"     => "Cincinnati Music Festival Weekend",
             "desc"      => "YOLLO is providing all-inclusive packages for Cincinnati Music Festival.",
-            "keywords"  => "grown and sophisticated cruise, Cincinnati, Cincinnati Music Festival,Cincinnati Music Festival all white cruise, Cincinnati Jazz Festival, all white cruise, BB riverboat, Paycor staduim,Cincinnati Music Festival travel packages, Cincinnati Music Festival hotel and party packages, Cincinnati Music Festival 2024, Cincinnati Music Festival 2023 ",
+            "keywords"  => "grown and sophisticated cruise, Cincinnati, Cincinnati Music Festival, Cincinnati Music Festival all white cruise, Cincinnati Jazz Festival, all white cruise, BB riverboat, Paycor staduim,Cincinnati Music Festival travel packages, Cincinnati Music Festival hotel and party packages, Cincinnati Music Festival 2025, Ohio Music Festival",
             "canonical" => "https://www.goyollo.com/nati-music-festival"
         ),
         "nba" => array(
@@ -145,9 +151,9 @@
             "canonical" => "https://www.goyollo.com/spring-breakaway-cruise"
         ),
         "urbanfiesta" => array(
-            "title"     => "Urban Fiesta in Jamaica",
-            "desc"      => "Urban Fiesta in Jamaica with YOLLO Group Services Inc. Memorial Day Weekend.",
-            "keywords"  => "Urban Fiesta, Urban Fiesta 2019, Montego Bay, Jamaica",
+            "title"     => "Urban Fiesta 2025 | Memorial Day Weekend in Montego Bay, Jamaica",
+            "desc"      => "Join Urban Fiesta 2025 in Montego Bay for an unforgettable Memorial Day Weekend filled with parties, excursions, and luxury accommodations.",
+            "keywords"  => "Memorial Day Weekend Jamaica, Urban Fiesta, Urban Fiesta 2025, Montego Bay, Jamaica",
             "canonical" => "https://www.goyollo.com/urban"
         ),
         "urbanfiestaPR" => array(

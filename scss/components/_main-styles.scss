@@ -73,6 +73,7 @@ a.chev-link:hover:after{
 	overflow: hidden;
 		p{
 			font-size:0.75rem;
+            margin-bottom: 1rem;
 		}
 }
 
@@ -612,6 +613,32 @@ h4 .soldout, em.soldout{
 	font-size:85%;
 }
 
+
+///Happening Now
+/// 
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+#upcoming-events .event{
+    position:relative;
+}
+
+.happening-now {
+    font-size: .75rem;
+    text-transform: uppercase;
+    text-align: right;
+    position:absolute;
+    top: 0;
+    right: 0;
+    padding: .25rem .5rem;
+    background: rgba(220, 53, 69, .8);
+    color: #fff;
+    animation: pulse 2s infinite;
+}
 
 /*upcoming events*/
 #upcoming-events{

@@ -17,13 +17,13 @@
 <head>
 	<meta charset="utf-8">
 	<title>
-		<?php echo $metas['Flex Pay']['title']; ?>
+		<?php echo $metas['flexpay']['title']; ?>
 	</title>
 	<meta name="viewport" content="width=device-width">
-	<meta name="description" content="<?php echo $metas['Flex Pay']['desc']; ?>" />
-	<meta name="keywords" content="<?php echo $metas['Flex Pay']['keywords']; ?>" />
+	<meta name="description" content="<?php echo $metas['flexpay']['desc']; ?>" />
+	<meta name="keywords" content="<?php echo $metas['flexpay']['keywords']; ?>" />
 	<meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-	<link href="<?php echo $metas['Flex Pay']['canonical']; ?>" rel="canonical" />
+	<link href="<?php echo $metas['flexpay']['canonical']; ?>" rel="canonical" />
 	<meta name="author" content="YOLLO Group Services" />
 	<meta property="fb:pages" content="117420764961518" />
 	<link rel="icon" href="favicon-192.png" sizes="192x192">

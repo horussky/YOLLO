@@ -29,7 +29,7 @@ a.btn {
 	
 	&:hover{
 		transition: box-shadow .35s;
-    	box-shadow: 0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+    	box-shadow: 0 4px 4px 0 rgba(0,0,0,.2),0 4px 4px 0 rgba(0,0,0,.19);
 	}
 }
 
@@ -213,3 +213,4 @@ aside .btn{
   padding: .5rem;
   line-height: 1.5;
 }
+

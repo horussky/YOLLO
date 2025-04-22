@@ -34,12 +34,22 @@
             "/nati-music-festival", //link
             "Book now for an all-inclusive Cincinnati Music Festival travel package to experience renowned performers and Grown and Sophisticated Mid-Day Cruise." //desc
         ),
+        /*new Event(
+            "Daytopia", //title
+            "Montgomery, AL", //location
+            "April 18-19, 2025", //date
+            strtotime("April 18, 2025"), //start
+            strtotime("April 19, 2025"), //end
+            "images/slides/splash-daytopia.jpg", //img
+            "/daytopia", //link
+            "Experience the ultimate day party at YOLLO's Daytopia in Gumptown! Enjoy bowling, skating, and a river cruise with food, drinks, and music. Secure your spot now!" //desc
+        ),*/
         new Event(
             "Grown & Sophisticated Mid-Day Cruise",
             "Cincinnati, OH",
-            "July 26, 2024",
-            strtotime("July 26, 2024"),
-            strtotime("July 26, 2024"),
+            "July 25, 2025",
+            strtotime("July 25, 2025"),
+            strtotime("July 25, 2025"),
             "images/slides/splash-gsc.jpg",
             "/nati-music-festival",
             "Book now for an all-inclusive Cincinnati Music Festival travel package to experience renowned performers and Grown and Sophisticated Mid-Day Cruise."
@@ -57,19 +67,19 @@
         new Event(
             "Magic City Classic",
             "Birmingham, AL",
-            "October 24-26, 2024",
-            strtotime("October 24, 2024"),
-            strtotime("October 26, 2024"),
+            "October 24-26, 2025",
+            strtotime("October 24, 2025"),
+            strtotime("October 26, 2025"),
             "images/slides/splash-mcc.jpg",
             "/classic",
             "Get ready for the Magic City Classicccccc! This is the biggest HBCU football showdown in the nation! Are you a Dawg or a Hornet?  Book with us and find out!"
         ),
         new Event(
             "NBA All-Star Weekend",
-            "San Francisco, CA",
-            "February 14-16, 2025",
-            strtotime("February 14, 2025"),
-            strtotime("February 16, 2025"),
+            "Los Angeles, CA",
+            "February 13-15, 2026",
+            strtotime("February 13, 20265"),
+            strtotime("February 15, 2026"),
             "images/slides/splash-nba.jpg",
             "/nba-allstar",
             "Lets turn up at the All-Star Game with YOLLO's exclusive package, featuring A-list parties, and all-inclusive perks!"
@@ -87,22 +97,22 @@
         new Event(
             "Urban Ski Weekend",
             "Gatlinburg, TN",
-            "Jan 31 - Feb 3, 2025",
-            strtotime("January 31, 2025"),
-            strtotime("February 3, 2025"),
+            "Feb 6 - Feb 9, 2026",
+            strtotime("February 6, 2026"),
+            strtotime("February 9, 2026"),
             "images/slides/splash-urban-ski.jpg",
             "/urban-ski-weekend",
             "Join YOLLO for an unforgettable Urban Ski Weekend in Gatlinburg, Tennessee, with tailored skiing experiences for all skill levels."
         ),
         new Event(
             "HBCU Alumni Getaway Cruise",
-            "Cabo San Lucas + Ensenada",
-            "December 2-7, 2024",
-            strtotime("December 2, 2024"),
-            strtotime("December 7, 2024"),
+            "Costa Maya, Belize, & Cozumela",
+            "December 14-20, 2025",
+            strtotime("December 14, 2025"),
+            strtotime("December 20, 2025"),
             "images/slides/splash-alumni.jpg",
             "/alumni-getaway-cruise",
-            "HBCU alums, join YOLLO for a cruise to Cabo San Lucas and Ensenada! Enjoy sandy beaches and vibrant culture."
+            "HBCU alums, join YOLLO for a cruise to Costa Maya, Belize, & Cozumela!"
         ),
         new Event(
             "London To Paris",
@@ -177,9 +187,9 @@
         new Event(
             "Shamrock Sea Escape",
             "Cozumel, Mexico",
-            "March 17, 2025",
-            strtotime("March 17, 2025"),
-            strtotime("March 22, 2025"),
+            "March 16-21, 2025",
+            strtotime("March 16, 2026"),
+            strtotime("March 21, 2026"),
             "images/slides/splash-shamrock.jpg",
             "/shamrock-sea-escape",
             "Celebrate St. Patrick's Day with YOLLO's all-inclusive cruise event! Enjoy great vibes and incredible entertainment!"
@@ -187,9 +197,9 @@
         new Event(
             "Urban Fiesta Weekend",
             "Montego Bay, Jamaica",
-            "May 24-27, 2024",
-            strtotime("May 24, 2024"),
-            strtotime("May 27, 2024"),
+            "May 23-25, 2025",
+            strtotime("May 23, 2025"),
+            strtotime("May 25, 2025"),
             "images/slides/splash-urban-fiesta.jpg",
             "/urban",
             "Explore Jamaica with YOLLO Group Services! Book your Urban Fiesta adventure now for a memorable Caribbean experience."

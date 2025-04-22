@@ -1,85 +1,18 @@
 <?php
 
-ob_start("ob_gzhandler");
 include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
-$event = array(
-	"title"				=>"Urban Fiesta 2024",
-	"subtitle"			=>"You DO NOT want to miss this event!",
-	"location"		   	=>"Montego Bay, Jamaica",
-	"date"				=>"May 24 - 27, 2024",
-    "date_start"        =>"May 24, 2024",
-	"img_url"			=>"../../images/slides/splash-urban-fiesta-cta.jpg",
-	"img_alt"			=>"Urban Fiesta"
-);
+// Load the event configuration
+$event_config = require 'config/events/conf_urban-fiesta-jamaica.php';
 
-$geolocation = array(
-	"hotel1"=> array(
-		"title" 			=>"Riu Montego Bay",
-		"address"			=>"Mahoe Bay. Rose Hall Ironshore P.O.",
-		"location"			=>"Runaway Bay, Jamaica",
-		"soldout"	        => false,
-		"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-o/09/5a/1c/db/hotel-riu-montego-bay.jpg"
-	),
-);
+// Access configuration data
+$event = $event_config['event'];
+$geolocation = $event_config['geolocation'];
+$people = $event_config['people'];
+$package_items = $event_config['package_items'];
 
-$people = array(
 
-		"diamond"=> array(
-			//"Group of 4" 			=>"$980",
-			"Group of 3"			=>"$1675",
-			"Group of 2"			=>"$1825",
-			"Individual"			=>"$3,075"
-		),
-
-		"emerald"=> array(
-			//"Group of 4" 			=>"$1.080",
-			"Group of 3"			=>"$1,425",
-			"Group of 2"			=>"$1,675",
-			"Individual"			=>"$2,575"
-		),
-
-		"options"=>array(
-			"Hotel Only" =>"$2,350 (Weekend)"
-		),
-
-);
-
-$package_items = array(
-
-	"diamond_items" => array(
-		"Upgraded Accommodations - Oceanfront View"     => "checked",
-        "Upgraded Liquor Options All Weekend"           => "checked",
-		"Hotel Accommodations (3 days/2 nights)"		=> "checked",
-		"Welcoming Reception"							=> "checked",
-		"Complimentary Night Stay"				        => "checked",
-		"All-Access Event Weekend Passes"				=> "checked",
-		"Unlimited Drinks on-site all weekend"			=> "checked",
-		"Complimentary Room Mini Bar Restocked Daily"	=> "checked",
-		"Unlimited Dining on-site all weekend"			=> "checked",
-		"FREE Guest Room Mini Bar Restocked Daily"		=> "checked",
-		"Add'l Night - $350/plus tax and resort fees"	=> "checked",
-		"YOLLO Swag Bag"								=> "checked"
-	),
-
-	"emerald_items" => array(
-		"Upgraded Accommodations - Oceanfront View"     => "ex",
-        "Upgraded Liquor Options All Weekend"           => "ex",
-		"Hotel Accommodations (3 days/2 nights)"		=> "checked",
-		"Welcoming Reception"							=> "checked",
-		"Complimentary Night Stay"				        => "checked",
-		"All-Access Event Weekend Passes"				=> "checked",
-		"Unlimited Drinks on-site all weekend"			=> "checked",
-		"Complimentary Room Mini Bar Restocked Daily"   => "checked",
-		"Unlimited Dining on-site all weekend"			=> "checked",
-		"FREE Guest Room Mini Bar Restocked Daily"		=> "checked",
-		"Add'l Night - $350/plus tax and resort fees"	=> "checked",
-		"YOLLO Swag Bag"								=> "checked"
-	)
-	
-	
-);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -99,355 +32,337 @@ $package_items = array(
 </head>
 
 <body id="event-pg">
-     <div id="wrap">
-          
-          
-     	<!--Mobile Nav-->
+	<div id="wrap">
+		
+		<!--Mobile Nav-->
 		<?php include 'includes/mobile.nav.inc.php'; ?>
 		<!--Mobile Nav--> 
 
-        <div id="container">
-
-               <?php include 'includes/header.inc.php'; ?>
-
-                    <!--Left Content-->
-                    <div id="left">
-                        <!--Nav-->
-                        <?php include 'includes/nav.inc.php'; ?>
-						<!--End of Nav-->
-                    </div>
-
-                    <!--Right Content-->
-                    <div id="right">
-
-                         <!-- Event Hero -->
-						<div class="event-hero" style="background-image:url(<?php echo $event["img_url"]; ?>)">
-							<div class="event-hero__details">
-								<h1 class="event-hero__title"><?php echo $event["title"]; ?></h1>
-								<p class="event-hero__location"><?php echo $event["location"]; ?></p>
-								<a data-href="#tabs-5" class="btn btn-red event-hero__btn open-tab">Book Now</a>
-								<div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="event-hero__date"><?php echo $event["date"]; ?> </div>
-								<div id="event-timer" class="event-hero__timer"></div>
-							</div>	
-						</div>
-						<!-- Event Hero -->
-
-                         <div class="content">
-
-                              <div class="colfull">
-
-                                   <div id="responsive-tabs">
-                        
-
-                                        <?php echo $responsive_tabs["overview"]; ?>
-										<div class="tab" aria-label="overview">
-                                             
-                                             
-
-                                             <h2 class="h4">Jamaica is the ONLY place to be Memorial Day Weekend 2024!</h2>
-
-                                             <p>If you missed the 2023 edition of Urban Fiesta all we can say is look at the pictures and make plans now to attend in 2024. With COVID-19 protocols slowly being relaxed we safely managed an event that was FUN, SAFE, and simply put our clients appreciated and had a memory filled weekend! Urban Fiesta 2022 was the livest event in Jamaica which was hosted by Alexis Skyy, City Girls, and others during Memorial Day weekend. There are plenty of activities to occupy your time from sun up to sun down - excursions, shopping areas, sandy beaches, parties, zip lining, and the list goes on. Let us remind you this was all on the property!<p> 
-
-											 <p>Dust those passports off, secure your package today, and get ready for some major FUN! YOLLO Group Services will see you in Jamaica for Urban Fiesta Weekend 2024!</p>
-                                             
-                                        </div><!-- ./overview -->
-
-
-                                        <?php echo $responsive_tabs["price"]; ?>
-										<div class="tab" aria-label="price">
-
-                                             <h2 class="h4">Hotels</h2>
-
-                                             <?php foreach($geolocation as $hotel) :?>
-                                                <div class="hotel-grid">
-                                                    <div class="hg-img">
-                                                        <figure style="background:url(<?php echo $hotel['img_url']; ?>); background-size: cover; background-position: center;"></figure>
-                                                    </div>
-                                                    <div class="hg-body">
-                                                        <p class="hg-title"><?php echo $hotel["title"]; ?> 
-                                                        <?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
-
-                                                        <address>
-                                                            <i class="fa fa-location-arrow" aria-hidden="true"></i> 
-                                                            <a title="<?php echo $hotel["title"]; ?>" target="_blank" href="http://maps.google.com/maps?q=<?php echo $hotel["address"]; ?>+<?php echo $hotel["location"]; ?>"><?php echo $hotel["address"]; ?>,  
-                                                            <?php echo $hotel["location"]; ?></a>
-                                                        </address>
-                                                    </div>
-                                                </div><!-- ./hotel-grid -->
-                                                <?php endforeach; ?>
-
-                                             <hr />
-
-                                             <h2 class="h4">Price</h2>
-                                            
-                                            <div class="price-table-container">
-
-                                             	<?php if(count($people["diamond"]) > 1) :?>
-                                                  <div class="price-table">
-                                                       <ul class="price">
-                                                            <li class="header">Diamond <span>Package</span></li>
-                                                            
-                                                            <?php foreach($package_items['diamond_items'] as $key=>$value): ?>
-															 <li class="<?php echo $value; ?>">
-																  <?php echo $key; ?>
-															 </li>
-															 <?php endforeach; ?>
+		<div id="container">
+
+			<?php include 'includes/header.inc.php'; ?>
+
+			<!--Left Content-->
+			<div id="left">
+				<!--Nav-->
+				<?php include 'includes/nav.inc.php'; ?>
+				<!--End of Nav-->
+			</div>
+
+			<!--Right Content-->
+			<div id="right">
+
+				<!-- Event Hero -->
+				<div class="event-hero" style="background-image:url(<?php echo $event["img_url"]; ?>)">
+					<div class="event-hero__details">
+						<h1 class="event-hero__title"><?php echo $event["title"]; ?></h1>
+						<p class="event-hero__location"><?php echo $event["location"]; ?></p>
+						<a data-href="#tabs-5" class="btn btn-red event-hero__btn open-tab">Book Now</a>
+						<div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="event-hero__date"><?php echo $event["date"]; ?> </div>
+						<div id="event-timer" class="event-hero__timer"></div>
+					</div>	
+				</div>
+				<!-- Event Hero -->
+
+				<div class="content">
+
+					<div class="colfull">
+
+						<div id="responsive-tabs">
+			
+							<?php echo $responsive_tabs["overview"]; ?>
+							<div class="tab" aria-label="overview">
+
+								<h2>Jamaica is the ONLY place to be Memorial Day Weekend 2025!</h2>
+
+								<p>Urban Fiesta 2025 is the ultimate escape to Montego Bay, Jamaica, for adventure, luxury, and non-stop entertainment. Relax on sandy beaches, explore vibrant markets, and dive into thrilling excursions like zip-lining and ATV rides. This all-inclusive experience blends tropical paradise with high-energy excitement.</p>  
+
+								<p>As the sun sets, the party scene comes alive with top DJs, live performances, and exclusive themed events. Dance under the stars, sip premium cocktails, and enjoy VIP nightlife like never before. Every night delivers high energy, epic moments, and unforgettable memories.</p>  
+
+								<p>Following the star-studded 2024 edition with Alexis Skyy and City Girls, this year will be even bigger. Expect top-tier artists, incredible parties, and surprises at every turn. Get ready for a legendary weekend of music, fun, and pure excitement!</p>
+
+									
+							</div><!-- ./overview -->
+
+
+							<?php echo $responsive_tabs["price"]; ?>
+							<div class="tab" aria-label="price">
+
+								<h2 class="h4">Hotels</h2>
+
+								<?php foreach($geolocation as $hotel) :?>
+								<div class="hotel-grid">
+									<div class="hg-img">
+										<figure style="background:url(<?php echo $hotel['img_url']; ?>); background-size: cover; background-position: center;"></figure>
+									</div>
+									<div class="hg-body">
+										<p class="hg-title"><?php echo $hotel["title"]; ?> 
+										<?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
+
+										<address>
+											<i class="fa fa-location-arrow" aria-hidden="true"></i> 
+											<a title="<?php echo $hotel["title"]; ?>" target="_blank" href="http://maps.google.com/maps?q=<?php echo $hotel["address"]; ?>+<?php echo $hotel["location"]; ?>"><?php echo $hotel["address"]; ?>,  
+											<?php echo $hotel["location"]; ?></a>
+										</address>
+									</div>
+								</div><!-- ./hotel-grid -->
+								<?php endforeach; ?>
+
+								<hr />
+
+								<h2 class="h4">Price</h2>
+								
+								<div class="price-table-container">
+
+									<?php if(count($people["diamond"]) > 1) :?>
+										<div class="price-table">
+											<ul class="price">
+												<li class="header">Diamond <span>Package</span></li>
+												
+												<?php foreach($package_items['diamond_items'] as $key=>$value): ?>
+													<li class="<?php echo $value; ?>">
+														<?php echo $key; ?>
+													</li>
+													<?php endforeach; ?>
+
+													<li class="people-price">
+														<ul class="priceblock">
+															<?php foreach($people['diamond'] as $key=>$value): ?>
+																	<li> <?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
+																<?php endforeach; ?>
+														</ul>
+													</li>
 
-															  <li class="people-price">
-																   <ul class="priceblock">
-																		<?php foreach($people['diamond'] as $key=>$value): ?>
-																			 <li> <?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
-																		 <?php endforeach; ?>
-																   </ul>
-															  </li>
+													<li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
+											</ul>
+										</div>
+										<!-- price table -->
 
-															  <li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
-                                                       </ul>
-                                                  </div>
-                                                  <!-- price table -->
+										<?php endif; ?>
 
-                                                  <?php endif; ?>
 
+										<?php if(count($people["emerald"]) > 1) :?>
+											<div class="price-table">
+												<ul class="price">
+														<li class="header">Emerald <span>Package</span></li>
 
-                                                  <?php if(count($people["emerald"]) > 1) :?>
-                                                       <div class="price-table">
-                                                            <ul class="price">
-                                                                 <li class="header">Emerald <span>Package</span></li>
+														<?php foreach($package_items['emerald_items'] as $key=>$value): ?>
+															<li class="<?php echo $value; ?>">
+																<?php echo $key; ?>
+															</li>
+														<?php endforeach; ?>
 
-                                                                 <?php foreach($package_items['emerald_items'] as $key=>$value): ?>
-                                                                      <li class="<?php echo $value; ?>">
-                                                                           <?php echo $key; ?>
-                                                                      </li>
-                                                                  <?php endforeach; ?>
+														<li class="people-price">
+															<ul class="priceblock">
+																	<?php foreach($people['emerald'] as $key=>$value): ?>
+																		<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
+																		<?php endforeach; ?>
+															</ul>
+														</li>
 
-																   <li class="people-price">
-																		<ul class="priceblock">
-																			 <?php foreach($people['emerald'] as $key=>$value): ?>
-																				  <li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
-																				  <?php endforeach; ?>
-																		</ul>
-																   </li>
+														<li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
+												</ul>
+											</div>
+											<!-- price table -->
 
-																   <li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
-                                                            </ul>
-                                                       </div>
-                                                       <!-- price table -->
+											<?php endif; ?>
+											
+								</div>
+								<hr />
+								
+								<h2 class="h4">Additional Options</h2>
+								<ul>
+									<li>Airport Transportation: $75 Roundtrip</li>
+									<li>Dunn's River Falls Excursion: $75pp</li>
+									<li>Tour of Ocho Rios: $80pp</li>
+									<li>Tour Of Montego Bay: $85pp</li>
+									<li>Luminous Lagoon: $85pp</li>
+								</ul>	
+											
+							</div><!-- ./price -->
 
-                                                       <?php endif; ?>
-                                                       
-                                                       </div>
-                                                       <hr />
-                                                       
-                                                        <h2 class="h4">Additional Options</h2>
-                                                        <ul>
-															<li>Airport Transportation: $75 Roundtrip</li>
-															<li>Dunn's River Falls Excursion: $75pp</li>
-															<li>Tour of Ocho Rios: $80pp</li>
-															<li>Tour Of Montego Bay: $85pp</li>
-															<li>Luminous Lagoon: $85pp</li>
-														</ul>	
-                                                      
+							<?php echo $responsive_tabs["faqs"]; ?>
+							<div class="tab" aria-label="faqs">
 
-                                        </div><!-- ./price -->
+								<h2 class="h4">Frequently Asked Questions</h2>
+									
+								<div data-accordion-group>	
+							
+									<div class="accordion open" data-accordion>
 
+										<div data-control>When are the payments due?</div>
+										<div data-content>
+										<p>After registration the first payment of $125 is due March 27, 2025 after registration. The second payment of $250 is due by April 10, 2025. The final payment (remaining balance) is due on or before April 25, 2025. If you would like to make payments between due dates that is fine also.</p>
+										</div>
 
+									</div><!-- end of accordion-->
 
-                                        <?php echo $responsive_tabs["faqs"]; ?>
-										<div class="tab" aria-label="faqs">
 
-                                        	<h2 class="h4">Frequently Asked Questions</h2>
-                                             
-                                            <div data-accordion-group>	
-										
-												<div class="accordion open" data-accordion>
+									<div class="accordion" data-accordion>
 
-												  <div data-control>When are the payments due?</div>
-												  <div data-content>
-													<p>After registration the first payment of $125 is due March 27, 2024 after registration. The second payment of $250 is due by April 10, 2024. The final payment (remaining balance) is due on or before April 25, 2024. If you would like to make payments between due dates that is fine also.</p>
-												  </div>
+										<div data-control>Is this trip all inclusive?</div>
+										<div data-content>
+										<p>Yes, while at the hotel, you can eat and drink to your fill.</p>
+										</div>
 
-												</div><!-- end of accordion-->
+									</div><!-- end of accordion-->
 
 
-												<div class="accordion" data-accordion>
 
-												  <div data-control>Is this trip all inclusive?</div>
-												  <div data-content>
-													<p>Yes, while at the hotel, you can eat and drink to your fill.</p>
-												  </div>
+									<div class="accordion" data-accordion>
 
-												</div><!-- end of accordion-->
+										<div data-control>Anything I should know before I arrive?</div>
+										<div data-content>
+										<p>Passports are required for this event. Also, bring another valid form of photo ID, and photocopies of both in case of loss or theft. Lastly, stay in our recommended hotels, you will save yourself a lot of aggravation.</p>
+										</div>
 
+									</div><!-- end of accordion-->
 
 
-												<div class="accordion" data-accordion>
+									<div class="accordion" data-accordion>
 
-												  <div data-control>Anything I should know before I arrive?</div>
-												  <div data-content>
-													<p>Passports are required for this event. Also, bring another valid form of photo ID, and photocopies of both in case of loss or theft. Lastly, stay in our recommended hotels, you will save yourself a lot of aggravation.</p>
-												  </div>
+										<div data-control>Is the money the same or do I have to convert?</div>
+										<div data-content>
+										<p>In Jamaica they mostly use the Jamaican dollar as currency. It will have to be converted and the exchange rate can vary form day to day. However, in some places, USD is accepted and preferred.</p>
+										</div>
 
-												</div><!-- end of accordion-->
+									</div><!-- end of accordion-->
 
 
-												<div class="accordion" data-accordion>
+									<div class="accordion" data-accordion>
 
-												  <div data-control>Is the money the same or do I have to convert?</div>
-												  <div data-content>
-													<p>In Jamaica they mostly use the Jamaican dollar as currency. It will have to be converted and the exchange rate can vary form day to day. However, in some places, USD is accepted and preferred.</p>
-												  </div>
+										<div data-control>Where does the shuttle provide transpotation?</div>
+										<div data-content>
+										<p>The shuttle provides transportation to events that are not within walking distance to the HOST hotel. The shuttle service starts with the Friday night event and ends with the Sunday night event. Shuttles will not provide transportation to the mall, sightseeing, etc.</p>
+										</div>
 
-												</div><!-- end of accordion-->
+									</div><!-- end of accordion-->
 
 
-												<div class="accordion" data-accordion>
+									<div class="accordion" data-accordion>
 
-												  <div data-control>Where does the shuttle provide transpotation?</div>
-												  <div data-content>
-													<p>The shuttle provides transportation to events that are not within walking distance to the HOST hotel. The shuttle service starts with the Friday night event and ends with the Sunday night event. Shuttles will not provide transportation to the mall, sightseeing, etc.</p>
-												  </div>
+										<div data-control>Do I need a rental car?</div>
+										<div data-content>
+										<p>Yes, if you would like to go see different parts of the island, go to the mall, etc. No rental car is needed if you booked with us and worried about how you are going to get to the events!  We have several tours and excursion planned that will accommodate you during the weekend.</p>
+										</div>
 
-												</div><!-- end of accordion-->
+									</div><!-- end of accordion-->
 
 
-												<div class="accordion" data-accordion>
+									<div class="accordion" data-accordion>
 
-												  <div data-control>Do I need a rental car?</div>
-												  <div data-content>
-													<p>Yes, if you would like to go see different parts of the island, go to the mall, etc. No rental car is needed if you booked with us and worried about how you are going to get to the events!  We have several tours and excursion planned that will accommodate you during the weekend.</p>
-												  </div>
+										<div data-control>Why did Urban Fiesta leave San Juan, Puerto Rico?</div>
+										<div data-content>
+										<p>The event outgrew the island and most attendees are repeat clients. We wanted to celebrate the event with a new destinantion and provide fresh experiences for our attendees!</p>
+										</div>
 
-												</div><!-- end of accordion-->
+									</div><!-- end of accordion-->
 
 
-												<div class="accordion" data-accordion>
+									<div class="accordion" data-accordion>
 
-												  <div data-control>Why did Urban Fiesta leave San Juan, Puerto Rico?</div>
-												  <div data-content>
-													<p>The event outgrew the island and most attendees are repeat clients. We wanted to celebrate the event with a new destinantion and provide fresh experiences for our attendees!</p>
-												  </div>
+										<div data-control>Where exactly is Montego Bay, Jamaica?</div>
+										<div data-content>
+										<p>Montego Bay, the capital of Saint James Parish on Jamaica’s north coast, is a major cruise ship port with numerous beach resorts and golf courses outside its commercial core.</p>
+										</div>
 
-												</div><!-- end of accordion-->
+									</div><!-- end of accordion-->
 
+								</div><!-- end of accordion group-->
 
-												<div class="accordion" data-accordion>
+							</div> <!-- ./faqs -->
 
-												  <div data-control>Where exactly is Montego Bay, Jamaica?</div>
-												  <div data-content>
-													<p>Montego Bay, the capital of Saint James Parish on Jamaica’s north coast, is a major cruise ship port with numerous beach resorts and golf courses outside its commercial core.</p>
-												  </div>
 
-												</div><!-- end of accordion-->
+							<?php echo $responsive_tabs["photos"]; ?>
+							<div class="tab" aria-label="photos">
+									<div id="nanoGallery"></div>
+							</div> <!-- ./photos -->
 
 
+							<?php echo $responsive_tabs["buynow"]; ?>
+							<div class="tab" aria-label="buy">
 
+								<h2 class="h4">Buy Now</h2>
+								<p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
+								
+								<div class="cognito"></div>
 
-											</div><!-- end of accordion group-->
+							</div> <!-- ./buynow -->
 
-                                            
+						</div> <!-- ./responsive-tabs -->
 
-                                        </div> <!-- ./faqs -->
+					</div>
+					<!-- end of col1 -->
 
+					<div class="disclosure">
 
-                                        <?php echo $responsive_tabs["photos"]; ?>
-										<div class="tab" aria-label="photos">
-                                             <div id="nanoGallery"></div>
-                                        </div> <!-- ./photos -->
+						<?php include 'includes/package-info-generic.inc.php'; ?>
+							<p><strong>Disclaimer</strong> | The terms Urban Fiesta, and Urban Fiesta Weekend, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. The use of any logos, words, trademarks, or photos have been used for descriptive purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.</p>
+					</div>
+					<!-- end of disclosure -->
 
+				</div>
+				<!--end of content-->
 
-                                        <?php echo $responsive_tabs["buynow"]; ?>
-										<div class="tab" aria-label="buy">
+			</div>
+			<!--end of right-->
 
-                                            <h2 class="h4">Buy Now</h2>
-                                            <p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
-                                            
-                                            <div class="cognito"></div>
+			<aside id="social">
+					<?php include 'includes/twitter.inc.php'; ?>
+			</aside>
 
-                                        </div> <!-- ./buynow -->
+		</div>
+		<!--end of container-->
 
-                                   </div> <!-- ./responsive-tabs -->
+	</div>
+	<!--end of wrap-->
 
-                              </div>
-                              <!-- end of col1 -->
+	<!-- Footer  -->
+	<?php include 'includes/footer.inc.php'; ?>
+	<!-- End of Footer  -->
 
+	<?php include 'includes/scripts.inc.php'; ?>
 
+		<script type="text/javascript">
+			$(document).ready(function() {
 
-                              <div class="disclosure">
+					//nano
+					$("#nanoGallery").nanoGallery({
 
-                                   <?php include 'includes/package-info-generic.inc.php'; ?>
-                                        <strong>Disclaimer</strong> | The terms Urban Fiesta, and Urban Fiesta Weekend, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. The use of any logos, words, trademarks, or photos have been used for descriptive purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.
+						kind: 'flickr',
+						userID: '50836209@N03',
 
-                              </div>
-                              <!-- end of disclosure -->
+						//uncomment this line to display one specific album:
+						photoset: '72157661030952496',
 
+						// uncomment this line to display full photostream (v5.0.0):
+						// photoset:'none',
 
-                         </div>
-                         <!--end of content-->
+						thumbnailWidth: 115,
+						thumbnailHeight: 'auto',
+						thumbnailAlignment: 'left',
+						thumbnailLabel: {
+							display: false,
+							displayDescription: false,
+							position: 'overImageOnBottom'
+						},
 
-                    </div>
-                    <!--end of right-->
+						thumbnailHoverEffect: 'borderLighter'
 
-                    <aside id="social">
-                         <?php include 'includes/twitter.inc.php'; ?>
-                    </aside>
+					});
+				
 
-          </div>
-          <!--end of container-->
+			});
+		</script>
+		
+		<script src="https://services.cognitoforms.com/s/NiNAkf4LukqBZOHDFOMsiQ"></script>
+		<script>Cognito.load("forms", { id: "47" });</script>
 
-     </div>
-     <!--end of wrap-->
+		<!--google analytics-->
 
-
-
-     <!-- Footer  -->
-
-     <?php include 'includes/footer.inc.php'; ?>
-
-          <!-- End of Footer  -->
-
-          <?php include 'includes/scripts.inc.php'; ?>
-
-               <script type="text/javascript">
-                    $(document).ready(function() {
-
-                         //nano
-                         $("#nanoGallery").nanoGallery({
-
-                              kind: 'flickr',
-                              userID: '50836209@N03',
-
-                              //uncomment this line to display one specific album:
-                              photoset: '72157661030952496',
-
-                              // uncomment this line to display full photostream (v5.0.0):
-                              // photoset:'none',
-
-                              thumbnailWidth: 115,
-                              thumbnailHeight: 'auto',
-                              thumbnailAlignment: 'left',
-                              thumbnailLabel: {
-                                   display: false,
-                                   displayDescription: false,
-                                   position: 'overImageOnBottom'
-                              },
-
-                              thumbnailHoverEffect: 'borderLighter'
-
-                         });
-                        
-
-                    });
-               </script>
-               
-               <script src="https://services.cognitoforms.com/s/NiNAkf4LukqBZOHDFOMsiQ"></script>
-			   <script>Cognito.load("forms", { id: "47" });</script>
-
-               <!--google analytics-->
-
-               <?php
-					include 'includes/analytics.inc.php';
-					ob_end_flush();
-				?>
+		<?php
+			include 'includes/analytics.inc.php';
+		?>
 
 </body>
 </html>

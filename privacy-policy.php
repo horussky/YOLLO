@@ -1,5 +1,4 @@
 <?php 
-ob_start("ob_gzhandler"); 
 include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
@@ -47,21 +46,27 @@ include 'includes/meta.config.inc.php';
         </style>
 		<div class="container">
 		
-            <div class="row mb-40">
-                <div class="col-md-8">
+            <div class="row justify-content-center mb-40">
+                <div class="col-lg-10">
                 <div class="tab-content translations-content-item en visible" id="en">
                 <h2 class="title">Privacy Policy</h2>
-                    <p>Last updated: November 2, 2024</p>
+                    <p>Last updated: April 7, 2025</p>
                     <p>This Privacy Policy describes general policies and procedures on the collection, use and disclosure of your information when you purchase services and tells you about your privacy rights and how the law protects You.</p>
                     <p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.</p>
                     
                     <h3>Interpretation and Definitions</h3>
                     <h4>Interpretation</h4>
                     <p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
-                    
-                    <h3>Definitions</h3>
+                    <style>
+                        .definitions-list li p {
+                            font-size: 14px;
+                            margin-bottom:0;
+                            font-style: italic;
+                        }
+                    </style>
+                    <h4>Definitions</h4>
                     <p>For the purposes of this Privacy Policy:</p>
-                    <ul>
+                    <ul class="definitions-list">
                         <li><p><strong>Account</strong> means a unique account created for You to access our Service or parts of our Service.</p></li>
                         <li><p><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to YOLLO Group Services, Inc., P.O. Box 240613, Montgomery, AL 36124.</p></li>
                         <li><p><strong>Cookies</strong> are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses.</p></li>
@@ -108,7 +113,7 @@ include 'includes/meta.config.inc.php';
                     <p>We use Cookies and similar tracking technologies to track the activity on Our Service and store certain information. Tracking technologies used are beacons, tags, and scripts to collect and track information and to improve and analyze Our Service. The technologies We use may include:</p>
                     <ul>
                         <li><strong>Cookies or Browser Cookies.</strong> A cookie is a small file placed on Your Device. You can instruct Your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if You do not accept Cookies, You may not be able to use some parts of our Service. Unless you have adjusted Your browser setting so that it will refuse Cookies, our Service may use Cookies.</li>
-                        <li><strong>Flash Cookies.</strong> Certain features of our Service may use local stored objects (or Flash Cookies) to collect and store information about Your preferences or Your activity on our Service. Flash Cookies are not managed by the same browser settings as those used for Browser Cookies. For more information on how You can delete Flash Cookies, please read "Where can I change the settings for disabling, or deleting local shared objects?" available at <a href="https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_" rel="external nofollow noopener" target="_blank">https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_</a></li>
+                        <li><strong>Flash Cookies.</strong> Certain features of our Service may use local stored objects (or Flash Cookies) to collect and store information about Your preferences or Your activity on our Service. Flash Cookies are not managed by the same browser settings as those used for Browser Cookies. For more information on how You can delete Flash Cookies, please read "Where can I change the settings for disabling, or deleting local shared objects?" available at <a href="https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_" rel="external nofollow noopener" target="_blank">disable-local-shared-objects-flash</a></li>
                         <li><strong>Web Beacons.</strong> Certain sections of our Service and our emails may contain small electronic files known as web beacons (also referred to as clear gifs, pixel tags, and single-pixel gifs) that permit the Company, for example, to count users who have visited those pages or opened an email and for other related website statistics (for example, recording the popularity of a certain section and verifying system and server integrity).</li>
                     </ul>
 
@@ -176,6 +181,12 @@ include 'includes/meta.config.inc.php';
                         <li><strong>With Your consent</strong>: We may disclose Your personal information for any other purpose with Your consent.</li>
                     </ul>
 
+                    <h3>Third-Party Payment Processing</h3>
+                    <p>We use third-party services to process payments securely. Any payment-related personal information, including billing details, is collected and stored by our payment processor on their secure servers. These third-party providers comply with applicable data protection laws and implement robust security measures to safeguard your information.</p>
+                    
+                    <h3>Data Retention Policy</h3>
+                    <p>YOLLO Group Services does not store or retain sensitive personal information, including payment details, on its servers or databases. All such information is securely managed by third-party providers.</p>
+
                     <h3>Retention of Your Personal Data</h3>
                     <p>The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.</p>
                     <p>The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for longer time periods.</p>
@@ -188,6 +199,9 @@ include 'includes/meta.config.inc.php';
                     <h3>Disclosure of Your Personal Data</h3>
                     <h4>Business Transactions</h4>
                     <p>If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.</p>
+
+                    <h3>Your Rights Under CCPA</h3>
+                    <p>If you are a California resident, you have the right to request that we do not sell your personal information. To exercise this right, please contact us at onelife@goyollo.com.</p>
                     
                     <h3>Law enforcement</h3>
                     <p>Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).</p>
@@ -206,17 +220,14 @@ include 'includes/meta.config.inc.php';
                     <p>The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.</p>
                     
                     <h3>Children's Privacy</h3>
-                    <p>Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.</p>
-                    <p>If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent's consent before We collect and use that information.</p>
+                    <p>Our services are not intended for children under 13. We do not knowingly collect personal information from children under 13. If we discover that we've inadvertently collected such data without verified parental consent, we will promptly delete it. Parents or guardians who believe their child has provided us with personal information should contact us immediately. Where parental consent is legally required, we will obtain such consent before collecting or using a child's information.</p>
                     
                     <h3>Links to Other Websites</h3>
                     <p>Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.</p>
                     <p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
                     
                     <h3>Changes to this Privacy Policy</h3>
-                    <p>We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.</p>
-                    <p>We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the "Last updated" date at the top of this Privacy Policy.</p>
-                    <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+                    <p>We may update this Privacy Policy periodically. Minor changes will be posted with an updated revision date. Continued use of our services constitutes acceptance of these updates. For material changes (e.g., new data practices or third-party providers), we will provide notice via a prominent website alert or email before they take effect. We do not store sensitive personal data; it is processed and retained by secure third-party providers, governed by their policies. If you disagree with material changes, you may discontinue using our services or contact us to delete your data. Please review this policy periodically for changes, which become effective upon posting.</p>
                     
                     <h3>Contact Us</h3>
                     <p>If you have any questions about this Privacy Policy, You can contact us:</p>
@@ -233,22 +244,10 @@ include 'includes/meta.config.inc.php';
                     </ul>
                     </div>
                 </div><!-- end of col-->
-
-                <div class="col"> 
-                    
-                
-                </div><!-- end of col-->
-                
             </div><!-- end of row-->
 
         </div> <!-- end of container --> 
 		
-
-		
-
-            
-
-
 </div><!-- end of wrap -->
 
 
@@ -261,7 +260,5 @@ include 'includes/meta.config.inc.php';
 
 <?php include 'includes/analytics.inc.php'; ?>
 <!--End of google analytics-->
-
-
 
 </body></html>

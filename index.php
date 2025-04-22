@@ -69,18 +69,22 @@
 										"images/slides/splash-shamrock.jpg", //img
 										"/shamrock-sea-escape", //link
 										"View Shamrock Cruise"), //text
-									new Slide(
+									/*new Slide(
 										"images/slides/splash-nba.jpg", //img
 										"/nba-allstar", //link
 										"View NBA All-Star"), //text
-									/*new Slide(
+									new Slide(
 										"images/slides/splash-daytopia.jpg", //img
 										"/daytopia", //link
 										"View Daytopia"), //text 
 									new Slide(
-										"images/slides/splash-urban-fiesta-puerto-rico.jpg", //img
-										"/urban-fiesta-puerto-rico", //link
-										"View Urban Fiesta PR"), //text*/
+										"images/slides/splash-urban-fiesta.jpg", //img
+										"/urban-fiesta", //link
+										"View Urban Fiesta"), //text*/
+									new Slide(
+										"images/slides/splash-urban-fiesta.jpg", //img
+										"/urban", //link
+										"View Urban Fiesta"), //text*/
 									new Slide(
 										"images/slides/splash-instagram.jpg", //img
 										"https://www.instagram.com/yollogsinc/", //link
@@ -89,7 +93,7 @@
 
 								echo '<div class="swiper-wrapper">';
 								foreach ($slides as $slide) {
-									echo '<div class="swiper-slide"><img src="' . $slide->img . '"><a href="' . $slide->link . '">' . $slide->text . '</a></div>';
+									echo '<div class="swiper-slide"><a href="' . $slide->link . '"><img src="' . $slide->img . '"></a></div>';
 								}
 								echo '</div>';
 								?>
@@ -131,10 +135,10 @@
 
 						<div class="col-lg-5">
 							<div class="slider-content">
-								<h1>We Are Taking You To Major Events</h1>
-								<p>We provide all-inclusive packages for events such as Essence Festival, Urban Fiesta, and  NBA All-Star. Many packages include excursions, party passes, drink specials, and unbelievable fun!</p> 
+								<h1>Your Ticket to Premier Events</h1>
+								<p>Join us for premier events like Essence Festival, Urban Fiesta, and NBA All-Star with exclusive, hassle-free packages. Enjoy excursions, VIP party passes, drink specials, and nonstop entertainment—all designed for an unforgettable experience.</p> 
 
-								<p class="largemargin">Do you want offers? It’s simple, subscribe and gain access to package discounts and early bird specials. </p>
+								<p class="largemargin">Unlock Exclusive Offers Want insider perks? Subscribe today for early bird specials and exclusive discounts on our event packages. Don't miss out—secure your spot now!</p>
 
 								<a href="/home" class="btn  btn-red ">View All Events</a>
 
@@ -402,6 +406,5 @@ const swiper = new Swiper('.swiper', {
 
 <!--google analytics-->
 <?php include 'includes/analytics.inc.php'; ?>
-<?php ob_end_flush(); ?>
 <!--End of google analytics-->
 </body></html>
