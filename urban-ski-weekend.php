@@ -75,11 +75,11 @@
 					<div id="responsive-tabs">
 					<?php echo $responsive_tabs["overview"]; ?>
 					<div class="tab" aria-label="overview">
-						<h2 class="h4">A Perfect Retreat for First-Time Skiers</h2>
+						<h2>A Perfect Retreat for First-Time Skiers</h2>
 
 						<p>Experience the thrill of skiing and nightlife at Urban Ski Weekend 2026 in Gatlinburg, Tennessee. This event caters to both beginners and seasoned skiers, offering an unforgettable blend of slope action and after-dark excitement.</p>
 
-						<h2 class="h5">What Makes This Experience Irresistible:</h2>
+						<h3>What Makes This Experience Irresistible:</h3>
 
 						<p>You'll enjoy a very accommodating 3-day, 2-night stay at our premium host hotel. Start each morning with a delicious sponsored breakfast that fuels your mountain adventures. Indulge in up to 28 hours of sponsored bar drinks that keep the energy high and the memories flowing. Your exclusive party passes unlock VIP access to the most sought-after events, while our headline comedy show guarantees non-stop laughter. </p>
 
