@@ -3,88 +3,14 @@ ob_start("ob_gzhandler");
 include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
-$event = array(
-	"title"				=>"All-Star Weekend 2026",
-	"subtitle"			=>"We Going Back 2 Cali!",
-	"location"			=>"Los Angeles, CA",
-	"date"				=>"February 13-15, 2026",
-    "date_start"        =>"February 13, 2026",
-	"img_url"			=>"../../images/slides/splash-nba-cta.jpg",
-);
+// Load the event configuration
+$event_config = require 'config/events/conf_nba-allstar.php';
 
-$geolocation = array(
- 
-	"hotel1"=> array(
-		"title" 		=>"The Westin Bonaventure Hotel",
-		"address"		=>"404 S Figueroa St",
-		"location"		=>"Los Angeles, CA 90071",
-		"soldout"	    => false,
-		"img_url"		=>"//media-cdn.tripadvisor.com/media/photo-s/2c/02/ee/ff/exterior.jpg"
-	)
-
-);
-
-$people = array(
-		"diamond"=> array(
-			"Group of 4" 			=>"$3,490",
-			"Group of 3"			=>"$3,995",
-			"Group of 2"			=>"$4,965",
-			"Individual"			=>"$6,365"
-		),
-
-		"emerald"=> array(
-			"Group of 4" 			=>"$1,225",
-			"Group of 3"			=>"$1,455",
-			"Group of 2"			=>"$1,865",
-			"Individual"			=>"$3,065"
-		),
-
-		"options"=>array(
-			"Celebrity Game" 							=> "$250",
-			"Practice Game" 							=> "$350",
-			"Rising Star Challenge Game" 	            => "$200",
-			"Jam Session" 								=> "$100",
-			"Hotel Only"							    => "$2000/room"
-		),
-
-);
-$package_items = array(
-    "diamond_items" => array(
-        "Hotel Accommodations (Fri-Sun)"                    => "checked",
-        "Complimentary Night"                               => "checked",
-        "My Black Is Beautiful Film Review"                  => "checked",
-        "Celebrity Hosted Party Ticket (Friday)"            => "checked",
-        "Celebrity Hosted Party Ticket (Sunday)"            => "checked",
-        "NBA Crossover Tickets"                             => "checked",
-       "Slam Dunk Contest Ticket (Saturday)"                => "checked",
-        "Three Point Contest Ticket (Saturday)"             => "checked",
-        "Skills Challenge Ticket (Saturday)"                => "checked",
-        "Celebrity Game Ticket"                             => "checked",
-        "Colors and Cocktails"                             => "checked",
-        "Mid-Day Party"                                     => "checked",
-        "YOLLO Gift Bag"                                    => "checked"
-    ),
-
-	"emerald_items" => array(
-		"Hotel Accommodations (Fri-Sun)"					=> "checked",
-		"Complimentary Night"								=> "checked",
-		"My Black Is Beautiful Film Review"		            => "checked",
-		"Celebrity Hosted Party Ticket (Friday)"	        => "ex",
-		"Celebrity Hosted Party Ticket (Sunday)"	        => "checked",
-		"NBA Crossover Tickets"								=> "checked",
-		"Slam Dunk Contest Ticket (Saturday)"               => "ex",
-        "Three Point Contest Ticket (Saturday)"             => "ex",
-        "Skills Challenge Ticket"                           => "ex",
-		"Celebrity Game Ticket"								=> "ex",
-		"Colors and Cocktails"                             => "checked",
-		"Mid-Day Party"										=> "checked",
-		"YOLLO Gift Bag"									=> "checked"
-			),
-
-	"Hotel Only" =>"$2000/room"
-);
-
-
+// Access configuration data
+$event = $event_config['event'];
+$geolocation = $event_config['geolocation'];
+$people = $event_config['people'];
+$package_items = $event_config['package_items'];
 ?>
 <!doctype html>
 <html lang="en">
@@ -103,157 +29,150 @@ $package_items = array(
     <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
 <body id="event-pg">
-<div id="wrap">
-   
-    <!--Mobile Nav-->
-	<?php include 'includes/mobile.nav.inc.php'; ?>
-	<!--Mobile Nav--> 
-   
-    <div id="container">
-				<?php include 'includes/header.inc.php'; ?>
-				<!--Left Content-->
+    <div id="wrap">
+    
+        <!--Mobile Nav-->
+        <?php include 'includes/mobile.nav.inc.php'; ?>
+        <!--Mobile Nav--> 
+    
+        <div id="container">
+            <?php include 'includes/header.inc.php'; ?>
+            <!--Left Content-->
 
-				<div id="left">
-						<!--Nav-->
-						<?php include 'includes/nav.inc.php'; ?>
-						<!--End of Nav-->
-				</div>
+            <div id="left">
+                    <!--Nav-->
+                    <?php include 'includes/nav.inc.php'; ?>
+                    <!--End of Nav-->
+            </div>
 
-				<!--Right Content-->
-				<div id="right">
+            <!--Right Content-->
+            <div id="right">
 
-				<!-- Event Hero -->
-                <div class="event-hero" style="background-image:url(<?php echo $event["img_url"]; ?>)">
-                    <div class="event-hero__details">
-                        <h1 class="event-hero__title"><?php echo $event["title"]; ?></h1>
-                        <p class="event-hero__location"><?php echo $event["location"]; ?></p>
-                        <a data-href="#tabs-5" class="btn btn-red event-hero__btn open-tab">Book Now</a>
-                        <div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="event-hero__date"><?php echo $event["date"]; ?> </div>
-                        <div id="event-timer" class="event-hero__timer"></div>
-                    </div>	
-                </div>
-                <!-- Event Hero -->
-
-
-        <div class="content">
+            <!-- Event Hero -->
+            <div class="event-hero" style="background-image:url(<?php echo $event["img_url"]; ?>)">
+                <div class="event-hero__details">
+                    <h1 class="event-hero__title"><?php echo $event["title"]; ?></h1>
+                    <p class="event-hero__location"><?php echo $event["location"]; ?></p>
+                    <a data-href="#tabs-5" class="btn btn-red event-hero__btn open-tab">Book Now</a>
+                    <div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="event-hero__date"><?php echo $event["date"]; ?> </div>
+                    <div id="event-timer" class="event-hero__timer"></div>
+                </div>	
+            </div>
+            <!-- Event Hero -->
 
 
+            <div class="content">
 
-            <div class="colfull">
+                <div class="colfull">
 
-                <div id="responsive-tabs">
+                    <div id="responsive-tabs">
 
-                    <?php echo $responsive_tabs["overview"]; ?>
-                    <div class="tab" aria-label="overview">
-                        <h2 class="h4"><?php echo $event["title"]?></h2>
+                        <?php echo $responsive_tabs["overview"]; ?>
+                        <div class="tab" aria-label="overview">
+                            <h2 class="h4"><?php echo $event["title"]?></h2>
 
-                        <p>All-Star Weekend 2026 is coming to Los Angeles, and YOLLO Group Services is bringing you an unforgettable experience. This is your chance to witness the biggest names in basketball, enjoy exclusive parties, and immerse yourself in the electrifying atmosphere of All-Star Weekend.
+                            <p>All-Star Weekend 2026 is coming to Los Angeles, and YOLLO Group Services is bringing you an unforgettable experience. This is your chance to witness the biggest names in basketball, enjoy exclusive parties, and immerse yourself in the electrifying atmosphere of All-Star Weekend. YOLLO Group Services provides premium hotel accommodations in prime locations, ensuring you stay close to the action. Our packages include access to top-tier events such as the NBA All-Star Game, the Celebrity Game, and the Slam Dunk Contest. You will also have the opportunity to attend exclusive parties featuring celebrity hosts, top DJs, and high-energy entertainment. <a data-href="#tabs-5" class="open-tab">secure your spot now! </a></p>
 
-YOLLO Group Services provides premium hotel accommodations in prime locations, ensuring you stay close to the action. Our packages include access to top-tier events such as the NBA All-Star Game, the Celebrity Game, and the Slam Dunk Contest. You will also have the opportunity to attend exclusive parties featuring celebrity hosts, top DJs, and high-energy entertainment.
+                            <p>We take care of all the details so you can enjoy a seamless and stress-free experience. Whether you are a basketball fanatic, a nightlife enthusiast, or someone looking for an epic weekend getaway, this is the event you do not want to miss.</p>
 
- -  <a data-href="#tabs-5" class="open-tab">secure your spot now! </a></p>
+                            
+                            <h4>Experience the Ultimate All-Star Weekend</h4>
+                            <p>Join us for the ultimate entertainment experience as we take you on a thrilling journey through the city's most exhilarating events. With our exclusive access, you'll have the opportunity to attend the hottest parties. One event that you definitely don't want to miss is our highly acclaimed Colors and Cocktails event. Secure your tickets now as availability is limited. Once we sell out, no more tickets will be available. Don't miss out on the festivities - <a data-href="#tabs-5" class="open-tab">reserve your package today!</a></p>
 
-                        <p>We take care of all the details so you can enjoy a seamless and stress-free experience. Whether you are a basketball fanatic, a nightlife enthusiast, or someone looking for an epic weekend getaway, this is the event you do not want to miss.</p>
+                        </div> <!-- ./ overview -->
 
                         
-                        <h4>Experience the Ultimate All-Star Weekend</h4>
-                        <p>Join us for the ultimate entertainment experience as we take you on a thrilling journey through the city's most exhilarating events. With our exclusive access, you'll have the opportunity to attend the hottest parties. One event that you definitely don't want to miss is our highly acclaimed Colors and Cocktails event. Secure your tickets now as availability is limited. Once we sell out, no more tickets will be available. Don't miss out on the festivities - <a data-href="#tabs-5" class="open-tab">reserve your package today!</a></p>
+                        <?php echo $responsive_tabs["price"]; ?>
+                        <div class="tab" aria-label="price">
 
-                    </div> <!-- ./ overview -->
+                            <h2 class="h4">Hotels</h2>
 
-                    
-                    <?php echo $responsive_tabs["price"]; ?>
-                    <div class="tab" aria-label="price">
-
-
-                        <h2 class="h4">Hotels</h2>
-
-                        <?php foreach($geolocation as $hotel) :?>
-                        <div class="hotel-grid">
+                            <?php foreach($geolocation as $hotel) :?>
+                            <div class="hotel-grid">
                                 <div class="hg-img">
-                                        <figure style="background:url(<?php echo $hotel['img_url']; ?>); background-size: cover; background-position: center;"></figure>
+                                    <figure style="background:url(<?php echo $hotel['img_url']; ?>); background-size: cover; background-position: center;"></figure>
                                 </div>
                                 <div class="hg-body">
-                                        <p class="hg-title"><?php echo $hotel["title"]; ?> 
-                                        <?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
+                                    <p class="hg-title"><?php echo $hotel["title"]; ?> 
+                                    <?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
 
-                                        <address>
-                                                <i class="fa fa-location-arrow" aria-hidden="true"></i> 
-                                                <a title="<?php echo $hotel["title"]; ?>" target="_blank" href="http://maps.google.com/maps?q=<?php echo $hotel["address"]; ?>+<?php echo $hotel["location"]; ?>"><?php echo $hotel["address"]; ?>,  
-                                                <?php echo $hotel["location"]; ?></a>
-                                        </address>
+                                    <address>
+                                            <i class="fa fa-location-arrow" aria-hidden="true"></i> 
+                                            <a title="<?php echo $hotel["title"]; ?>" target="_blank" href="http://maps.google.com/maps?q=<?php echo $hotel["address"]; ?>+<?php echo $hotel["location"]; ?>"><?php echo $hotel["address"]; ?>,  
+                                            <?php echo $hotel["location"]; ?></a>
+                                    </address>
                                 </div>
                             </div><!-- ./hotel-grid -->
-                        <?php endforeach; ?>
+                            <?php endforeach; ?>
 
-                        <hr />
+                            <hr />
 
                             <h2 class="h4">Price</h2>
-                                    
-                                <div class="price-table-container">
+                                        
+                            <div class="price-table-container">
 
-                                    <?php if(isset($people["diamond"])) :?>
-                                    <section class="price-table">
-                                        <ul class="price">
-                                            <li class="header">Diamond <span>Package</span></li>
-                                            <?php foreach($package_items['diamond_items'] as $key=>$value): ?>
-                                                <li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-                                            <?php endforeach; ?>
-                                            <li class="people-price">
-                                                <ul class="priceblock">
-                                                        <?php foreach($people['diamond'] as $key=>$value): ?>
-                                                            <li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
-                                                            <?php endforeach; ?>
-                                                </ul>
-                                            </li>
-                                            <li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
-                                        </ul>
-                                    </section>  
-                                    <?php endif; ?>
-
-
-
-                                    <?php if(isset($people["emerald"])) :?>
-                                    <section class="price-table">
-                                        <ul class="price">
-                                            <li class="header">Emerald <span>Package</span></li>
-                                            <?php foreach($package_items['emerald_items'] as $key=>$value): ?>
-                                                <li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-                                            <?php endforeach; ?>
-                                            <li class="people-price">
-                                                <ul class="priceblock">
-                                                        <?php foreach($people['emerald'] as $key=>$value): ?>
-                                                            <li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
-                                                            <?php endforeach; ?>
-                                                </ul>
-                                            </li>
-                                            <li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
-                                        </ul>
-                                    </section>
+                                <?php if(isset($people["diamond"])) :?>
+                                <section class="price-table">
+                                    <ul class="price">
+                                        <li class="header">Diamond <span>Package</span></li>
+                                        <?php foreach($package_items['diamond_items'] as $key=>$value): ?>
+                                            <li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+                                        <?php endforeach; ?>
+                                        <li class="people-price">
+                                            <ul class="priceblock">
+                                                    <?php foreach($people['diamond'] as $key=>$value): ?>
+                                                        <li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
+                                                        <?php endforeach; ?>
+                                            </ul>
+                                        </li>
+                                        <li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
+                                    </ul>
+                                </section>  
                                 <?php endif; ?>
-                                
-                                </div><!-- price table container -->
 
-                        <style>
-                            .partypass{
-                                display: flex;
-                                flex-flow: row nowrap;
-                                @media(max-width: 990px){
-                                    flex-flow: row wrap;
-                                }
-                                justify-content: space-between;
-                                column-gap: 1rem;
-                            }    
 
-                            .partypass--col{
-                                font-size: 14px;
-                            }
-                            @media(max-width: 768px){
+
+                                <?php if(isset($people["emerald"])) :?>
+                                <section class="price-table">
+                                    <ul class="price">
+                                        <li class="header">Emerald <span>Package</span></li>
+                                        <?php foreach($package_items['emerald_items'] as $key=>$value): ?>
+                                            <li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+                                        <?php endforeach; ?>
+                                        <li class="people-price">
+                                            <ul class="priceblock">
+                                                    <?php foreach($people['emerald'] as $key=>$value): ?>
+                                                        <li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
+                                                        <?php endforeach; ?>
+                                            </ul>
+                                        </li>
+                                        <li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
+                                    </ul>
+                                </section>
+                            <?php endif; ?>
+                            
+                            </div><!-- price table container -->
+
+                            <style>
                                 .partypass{
-                                    flex-flow: row wrap;
-                                }   
-                            } 
-                        </style>
+                                    display: flex;
+                                    flex-flow: row nowrap;
+                                    @media(max-width: 990px){
+                                        flex-flow: row wrap;
+                                    }
+                                    justify-content: space-between;
+                                    column-gap: 1rem;
+                                }    
+
+                                .partypass--col{
+                                    font-size: 14px;
+                                }
+                                @media(max-width: 768px){
+                                    .partypass{
+                                        flex-flow: row wrap;
+                                    }   
+                                } 
+                            </style>
 
                             <hr />
 
@@ -262,7 +181,7 @@ YOLLO Group Services provides premium hotel accommodations in prime locations, e
 
                             <div class="partypass">
                                 <div class="partypass--col">
-                                    <p class="lead">Rookie - $1,450 </p>
+                                    <p class="lead">Rookie - $1,650 </p>
                                     <ul>
                                         <li>Friday Night Party</li>
                                         <li>NBA Crossover Ticket</li>
@@ -273,7 +192,7 @@ YOLLO Group Services provides premium hotel accommodations in prime locations, e
                                 </div>
 
                                 <div class="partypass--col">
-                                    <p class="lead">Rising Star - $2,150 </p>
+                                    <p class="lead">Rising Star - $2,350 </p>
                                     <ul>										
                                         <li>NBA Crossover Ticket</li>
                                         <li>Colors and Cocktails</li>
@@ -286,7 +205,7 @@ YOLLO Group Services provides premium hotel accommodations in prime locations, e
                                 </div>
 
                                 <div class="partypass--col">
-                                    <p class="lead">All-Star - $2,750 (best seller)</p>
+                                    <p class="lead">All-Star - $3,050 (best seller)</p>
                                     <ul>
                                         <li>Friday Night Party (Celebrity Hosted)</li>
                                         <li>NBA Crossover Ticket</li>
@@ -301,153 +220,145 @@ YOLLO Group Services provides premium hotel accommodations in prime locations, e
                                 </div>    
                             </div><!-- end of .partypass -->
 
-                    </div><!-- ./ price -->
+                        </div><!-- ./ price -->
 
 
-                    <?php echo $responsive_tabs["faqs"]; ?>
-                    <div class="tab" aria-label="faqs">
+                        <?php echo $responsive_tabs["faqs"]; ?>
+                        <div class="tab" aria-label="faqs">
 
-                        <h2 class="h4">Frequently Asked Questions</h2>
-                        
-                        <div data-accordion-group>	
+                            <h2 class="h4">Frequently Asked Questions</h2>
                             
-                            <div class="accordion open" data-accordion>
-
-                                <div data-control>What is included with the NBA Crossover formerly Jam Session Tickets</div>
-                                <div data-content>
-                                <p>NBA Crossover formerly known as Jam Session  is a global event and brand that highlights all aspects of culture that surround the NBA – art, music, fashion and technology. NBA players and legends will be making appearances during the event. It provides fans who are attending this event with an opportunity to come out and experience part of NBA All-Star.</p>
-                                </div>
-
-                            </div><!-- end of accordion-->
-
-
-                            <div class="accordion" data-accordion>
-
-                                <div data-control>What should I expect at the NBA All-Star Practice & Media Day presented by AT&T?</div>
-                                <div data-content>
-                                <p>This unique, behind-the-scenes event is your opportunity to see the NBA’s biggest stars interviewed by media from around the world. Fans can then watch the entire NBA All-Star Game squad train for Sunday’s showcase.</p>
-                                </div>
-
-                            </div><!-- end of accordion-->
-
-
-                            <div class="accordion" data-accordion>
-
-                                <div data-control>When are the payments due?</div>
-                                <div data-content>
-                                <p>After registration the first payment of $125 is due October 30, 2024.  The next payment of $250 is due November 30, 2024. The next payment of $350 is due December 20, 2024  The final payment (remaining balance) is due on or before January 10, 2024.</p>
-                                </div>
-
-                            </div><!-- end of accordion-->
-
-                            <div class="accordion" data-accordion>
-
-                                <div data-control>Who won the All- Star game the last time it was hosted in San Francisco?</div>
-                                <div data-content>
-                                <p>The game was hosted in Hoosier Dome. The game final score was East 129 vs West 140.  The MVP was Ralph Sampson with Houston. He played 29 minutes and had 24 points with 10 rebounds.</p>
-                                </div>
-
-                            </div><!-- end of accordion-->
-
-                            <div class="accordion" data-accordion>
-
-                                <div data-control>When is the NBA All-Star Game?</div>
-                                <div data-content>
-                                <p>NBA All-Star Weekend 2025 weekend will start on February 14, 2025 in San Francisco. The game will be played on February 16, 2025 at the Chase Center. </p>
-                                </div>
-
-                            </div><!-- end of accordion-->
-
-
-                            <div class="accordion" data-accordion>
-
-                                <div data-control>How are All-Stars selected?</div>
-                                <div data-content>
-                                <p>The starting lineups are selected each year by fans around the world, who can vote online at nba.com, the NBA app and on social media. The reserves are selected by NBA head coaches. If a player is unable to play due to injury, his replacement is selected by NBA Commissioner Adam Silver. If a team has a starter who's unable to play, the head coach of that All-Star team will select his replacement from his bench (including any Commissioner-appointed players).</p>
-                                </div>
-
-                            </div><!-- end of accordion-->
-
-
-                            <div class="accordion" data-accordion>
-
-                                <div data-control>What are Celebrity Game Tickets?</div>
-                                <div data-content>
-                                <p>The celebrity game tickets give you access to the annual basketball game that features retired NBA players, WNBA players, actors, musicians and athletes from sports other than basketball. Past celebrities whom have hosted parties have been the likes of P. Diddy, Young Jezzy, Floyd Mayweather, Jamie Foxx and Kevin Hart. The NBA All-Star Celebrity Game presented by Ruffles is an exhibition featuring musicians, actors,
-comedians, as well as WNBA players and NBA Legends.</p>
-
-                                </div>
-
-                            </div><!-- end of accordion-->
-
-
-                            <div class="accordion" data-accordion>
-
-                                <div data-control>I would like to bring my child to the NBA All Star Weekend Games, does he/she need a ticket?</div>
-                                <div data-content>
-                                <p>Children under the age of 2 are admitted free of charge. Children under 2 years of age are not guaranteed a seat and may be required to sit on a parent's/guardian's lap. Children 2 and over must have ticket.</p>
-                                </div>
-
-                            </div><!-- end of accordion-->
-
-
-
-                        </div><!-- end of accordion group-->
-
-
-                            
-                    </div> <!-- ./ faqs -->
-
-
-                    <?php echo $responsive_tabs["photos"]; ?>
-                    <div class="tab" aria-label="photos">
-                            <div id="nanoGallery"></div>
-                    </div><!-- ./ photos -->
-
-
-
-                    <?php echo $responsive_tabs["buynow"]; ?>
-                        <div class="tab" aria-label="buy">
-											
-                            <h2 class="h4">Buy Now</h2>
-
-                            <div class="pay-form">
-                                <p>Please use the form below to complete your booking for <?php echo $event["title"]?>. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
+                            <div data-accordion-group>	
                                 
-                                <script src="https://www.cognitoforms.com/f/seamless.js" data-key="NiNAkf4LukqBZOHDFOMsiQ" data-form="9"></script>
+                                <div class="accordion open" data-accordion>
 
-                            </div><!-- end of pay-form -->
+                                    <div data-control>What is included with the NBA Crossover formerly Jam Session Tickets</div>
+                                    <div data-content>
+                                    <p>NBA Crossover formerly known as Jam Session  is a global event and brand that highlights all aspects of culture that surround the NBA – art, music, fashion and technology. NBA players and legends will be making appearances during the event. It provides fans who are attending this event with an opportunity to come out and experience part of NBA All-Star.</p>
+                                    </div>
 
-                        </div><!-- ./ buy now -->
-                    
-
-
-                </div><!-- end of #responsive-tabs-->
-
+                                </div><!-- end of accordion-->
 
 
-        </div><!-- end of colfull -->
+                                <div class="accordion" data-accordion>
+
+                                    <div data-control>What should I expect at the NBA All-Star Practice & Media Day presented by AT&T?</div>
+                                    <div data-content>
+                                    <p>This unique, behind-the-scenes event is your opportunity to see the NBA’s biggest stars interviewed by media from around the world. Fans can then watch the entire NBA All-Star Game squad train for Sunday’s showcase.</p>
+                                    </div>
+
+                                </div><!-- end of accordion-->
+
+
+                                <div class="accordion" data-accordion>
+
+                                    <div data-control>When are the payments due?</div>
+                                    <div data-content>
+                                    <p>After registration the first payment of $125 is due April 27, 2025.  The next payment of $250 is due July 1, 2025. The next payment of $350 is due September 1, 2025.  The final payment (remaining balance) is due on or before November 1, 2025.</p>
+                                    </div>
+
+                                </div><!-- end of accordion-->
+
+                                <div class="accordion" data-accordion>
+
+                                    <div data-control>Who won the All- Star game the last time it was hosted in Los Angeles?</div>
+                                    <div data-content>
+                                    <p>The game was hosted at the Staples Center. The game final score was Team LeBron 148 vs Team Stephen 145.  The MVP was LeBron James with the Cleveland Cavaliers. He had 29, 10 rebounds, and 8 assists.  It was his third time winning the award since the 2008 All-Star Game.</p>
+                                    </div>
+
+                                </div><!-- end of accordion-->
+
+                                <div class="accordion" data-accordion>
+
+                                    <div data-control>When is the NBA All-Star Game?</div>
+                                    <div data-content>
+                                    <p>NBA All-Star Weekend 2026 weekend will start on February 13, 2026 in Los Angeles, CA. The game will be played on February 15, 2026 at the Staples Center. </p>
+                                    </div>
+
+                                </div><!-- end of accordion-->
+
+
+                                <div class="accordion" data-accordion>
+
+                                    <div data-control>How are All-Stars selected?</div>
+                                    <div data-content>
+                                    <p>The All-Star reserves are selected by a vote of the NBA's 30 head coaches. The starters were selected by weighing the fan, player and media votes. Fan votes account for 50% of the score, and players and media each account for 25%.</p>
+                                    </div>
+
+                                </div><!-- end of accordion-->
+
+
+                                <div class="accordion" data-accordion>
+
+                                    <div data-control>What are Celebrity Game Tickets?</div>
+                                    <div data-content>
+                                    <p>The celebrity game tickets give you access to the annual basketball game that features retired NBA players, WNBA players, actors, musicians and athletes from sports other than basketball. Past celebrities whom have hosted parties have been the likes of six-time GRAMMY-nominated singer-songwriter Shaboozey, WNBA's Allisha Gray, Pro Football Hall of Fame wide receiver Terrell Owens, Jamie Foxx and Kevin Hart. The NBA All-Star Celebrity Game presented by Ruffles is an exhibition featuring musicians, actors, comedians, as well as WNBA players and NBA Legends.</p>
+                                    </div>
+
+                                </div><!-- end of accordion-->
+
+
+                                <div class="accordion" data-accordion>
+
+                                    <div data-control>I would like to bring my child to the NBA All Star Weekend Games, does he/she need a ticket?</div>
+                                    <div data-content>
+                                    <p>Children under the age of 2 are admitted free of charge. Children under 2 years of age are not guaranteed a seat and may be required to sit on a parent's/guardian's lap. Children 2 and over must have ticket.</p>
+                                    </div>
+
+                                </div><!-- end of accordion-->
+
+                            </div><!-- end of accordion group-->
+                                
+                        </div> <!-- ./ faqs -->
+
+
+                        <?php echo $responsive_tabs["photos"]; ?>
+                        <div class="tab" aria-label="photos">
+                                <div id="nanoGallery"></div>
+                        </div><!-- ./ photos -->
 
 
 
-			</div><!--end of content-->
+                        <?php echo $responsive_tabs["buynow"]; ?>
+                            <div class="tab" aria-label="buy">
+                                                
+                                <h2 class="h4">Buy Now</h2>
+
+                                <div class="pay-form">
+                                    <p>Please use the form below to complete your booking for <?php echo $event["title"]?>. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
+                                    
+                                    <script src="https://www.cognitoforms.com/f/seamless.js" data-key="NiNAkf4LukqBZOHDFOMsiQ" data-form="9"></script>
+
+                                </div><!-- end of pay-form -->
+
+                            </div><!-- ./ buy now -->
+                        
 
 
-			<div class="disclosure">
-			<?php include 'includes/package-info-generic.inc.php'; ?><br/>
-            <strong>Disclaimer</strong> | The terms NBA All-Star, NBA All-Star Weekend, NBA, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. We are in no way associated with or authorized by the National Basketball Association and neither this production nor its affiliates have licensed or endorsed us to sell goods and/or services in conjunction with any National Basketball Association productions. The use of any logos, words, trademarks, or photos have been used for descriptive purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.
-      </div><!-- end of disclosure -->
+                    </div><!-- end of #responsive-tabs-->
 
 
 
-      </div><!--end of right-->
+                </div><!-- end of colfull -->
 
-      <aside id="social">
-      <?php include 'includes/twitter.inc.php'; ?>
-      </aside>
+            </div><!--end of content-->
 
-    </div><!--end of container-->
-</div><!--end of wrap-->
+
+            <div class="disclosure">
+                <?php include 'includes/package-info-generic.inc.php'; ?>
+                <p><strong>Disclaimer</strong> | The terms NBA All-Star, NBA All-Star Weekend, NBA, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. We are in no way associated with or authorized by the National Basketball Association and neither this production nor its affiliates have licensed or endorsed us to sell goods and/or services in conjunction with any National Basketball Association productions. The use of any logos, words, trademarks, or photos have been used for descriptive purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.</p>
+            </div><!-- end of disclosure -->
+
+
+
+        </div><!--end of right-->
+
+        <aside id="social">
+        <?php include 'includes/twitter.inc.php'; ?>
+        </aside>
+
+        </div><!--end of container-->
+    </div><!--end of wrap-->
 
 
 <!-- Footer  -->
