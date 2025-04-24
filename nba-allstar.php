@@ -1,16 +1,15 @@
 <?php
-ob_start("ob_gzhandler");
-include 'includes/functions.inc.php';
-include 'includes/meta.config.inc.php';
+    include 'includes/functions.inc.php';
+    include 'includes/meta.config.inc.php';
 
-// Load the event configuration
-$event_config = require 'config/events/conf_nba-allstar.php';
+    // Load the event configuration
+    $event_config = require 'config/events/conf_nba-allstar.php';
 
-// Access configuration data
-$event = $event_config['event'];
-$geolocation = $event_config['geolocation'];
-$people = $event_config['people'];
-$package_items = $event_config['package_items'];
+    // Access configuration data
+    $event = $event_config['event'];
+    $geolocation = $event_config['geolocation'];
+    $people = $event_config['people'];
+    $package_items = $event_config['package_items'];
 ?>
 <!doctype html>
 <html lang="en">
@@ -69,14 +68,14 @@ $package_items = $event_config['package_items'];
 
                         <?php echo $responsive_tabs["overview"]; ?>
                         <div class="tab" aria-label="overview">
-                            <h2 class="h4"><?php echo $event["title"]?></h2>
+                            <h2><?php echo $event["title"]?></h2>
 
                             <p>All-Star Weekend 2026 is coming to Los Angeles, and YOLLO Group Services is bringing you an unforgettable experience. This is your chance to witness the biggest names in basketball, enjoy exclusive parties, and immerse yourself in the electrifying atmosphere of All-Star Weekend. YOLLO Group Services provides premium hotel accommodations in prime locations, ensuring you stay close to the action. Our packages include access to top-tier events such as the NBA All-Star Game, the Celebrity Game, and the Slam Dunk Contest. You will also have the opportunity to attend exclusive parties featuring celebrity hosts, top DJs, and high-energy entertainment. <a data-href="#tabs-5" class="open-tab">secure your spot now! </a></p>
 
                             <p>We take care of all the details so you can enjoy a seamless and stress-free experience. Whether you are a basketball fanatic, a nightlife enthusiast, or someone looking for an epic weekend getaway, this is the event you do not want to miss.</p>
 
                             
-                            <h4>Experience the Ultimate All-Star Weekend</h4>
+                            <h3>Experience the Ultimate All-Star Weekend</h3>
                             <p>Join us for the ultimate entertainment experience as we take you on a thrilling journey through the city's most exhilarating events. With our exclusive access, you'll have the opportunity to attend the hottest parties. One event that you definitely don't want to miss is our highly acclaimed Colors and Cocktails event. Secure your tickets now as availability is limited. Once we sell out, no more tickets will be available. Don't miss out on the festivities - <a data-href="#tabs-5" class="open-tab">reserve your package today!</a></p>
 
                         </div> <!-- ./ overview -->
@@ -318,7 +317,6 @@ $package_items = $event_config['package_items'];
                         </div><!-- ./ photos -->
 
 
-
                         <?php echo $responsive_tabs["buynow"]; ?>
                             <div class="tab" aria-label="buy">
                                                 
@@ -332,12 +330,8 @@ $package_items = $event_config['package_items'];
                                 </div><!-- end of pay-form -->
 
                             </div><!-- ./ buy now -->
-                        
-
 
                     </div><!-- end of #responsive-tabs-->
-
-
 
                 </div><!-- end of colfull -->
 
@@ -396,25 +390,7 @@ $package_items = $event_config['package_items'];
 
 	});
 </script>
-<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 
-<script type="text/javascript">
-	var exampleCallback = function() {
-		console.log('Order complete!');
-	};
-
-	window.EBWidgets.createWidget({
-		// Required
-		widgetType: 'checkout',
-		eventId: '60099606541',
-		iframeContainerId: 'eventbrite-widget-container-60099606541',
-
-		// Optional
-		iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-		onOrderComplete: exampleCallback  // Method called when an order has successfully completed
-	});
-</script>
-<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
     
 <!--google analytics-->
 <?php include 'includes/analytics.inc.php'; ?>
