@@ -1,73 +1,15 @@
 <?php
-ob_start("ob_gzhandler");
 include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
-$event = array(
-    "title"      => "The Tourney Weekend 2025",
-    "subtitle"   => "B-More Here We COME! It will be BIG!",
-    "location"   => "Baltimore, MD",
-    "date"       => "February 27 - March 1, 2025",
-    "date_start" => "February 27, 2025",
-    "img_url"    => "../../images/slides/splash-tourney-cta.jpg",
-    "img_alt"    => "The Tourney"
-);
+// Load the event configuration
+$event_config = require 'config/events/conf_ciaa.php';
 
-$geolocation = array(
-
-    "hotel1"       => array(
-        "title"    => "Crowne Plaza Baltimore",
-        "address"  => "105 West Fayette Street",
-        "location" => "Baltimore, MD 21201",
-        "soldout"  => false,
-        "img_url"  => "https: //media-cdn.tripadvisor.com/media/photo-m/1280/17/8d/34/5d/exterior.jpg"
-    ),
-);
-
-$people = array(
-    "diamond" => array(
-        "Group of 4" => "$705",
-        "Group of 3" => "$825",
-        "Group of 2" => "$950",
-        "Individual" => "$1,500"
-    ),
-
-    "emerald" => array(
-        "Group of 4" => "$650",
-        "Group of 3" => "$780",
-        "Group of 2" => "$925",
-        "Individual" => "$1,260"
-    ),
-
-    "options" => array(
-        "Party Bus"  => "$150",
-        "Hotel Only" => "$915/weekend"
-    ),
-
-);
-
-$package_items = array(
-    "diamond_items" => array(
-        "Hotel Accommodations (Thurs-Sun)"  => "checked",
-        "Friday Night Celebrity Party Pass" => "checked",
-        "Saturday Night Party Pass"         => "checked",
-        "Saturday Day Party"                => "checked",
-        "Saturday After Hours Party"        => "checked",
-        "One Bottle of Ciroc per group"     => "checked",
-        "YOLLO Swag Bag"                    => "checked"
-    ),
-
-    "emerald_items" => array(
-        "Hotel Accommodations (Thurs-Sun)"  => "checked",
-        "Friday Night Celebrity Party Pass" => "ex",
-        "Saturday Night Party Pass"         => "ex",
-        "Saturday Day Party"                => "checked",
-        "Saturday After Hours Party"        => "checked",
-        "One Bottle of Ciroc per group"     => "checked",
-        "YOLLO Swag Bag"                    => "checked"
-    )
-);
-
+// Access configuration data
+$event = $event_config['event'];
+$geolocation = $event_config['geolocation'];
+$people = $event_config['people'];
+$package_items = $event_config['package_items'];
 ?>
 <!doctype html>
 <html lang="en">
@@ -302,8 +244,8 @@ $package_items = array(
 
 
                 <div class="disclosure">
-                    <?php include 'includes/package-info-generic.inc.php'; ?><br />
-                    <strong>Disclaimer</strong> | The Central Intercollegiate Athletic Association (CIAA), CIAA Weekend, and all associated graphics and/or logos are registered trademarks of their respective owners. We use these terms and images solely for factual description purposes. We are not affiliated with or authorized by the Central Intercollegiate Athletic Association, and neither this production nor its affiliates have licensed or endorsed us to sell goods and/or services in conjunction with any Central Intercollegiate Athletic Association productions. The use of any logos, words, trademarks, or photos has been for descriptive purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team, or sporting association. All copyrights, trademarks, and trade names used within this website are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above-mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.
+                    <?php include 'includes/package-info-generic.inc.php'; ?>
+                    <p><strong>Disclaimer</strong> | The Central Intercollegiate Athletic Association (CIAA), CIAA Weekend, and all associated graphics and/or logos are registered trademarks of their respective owners. We use these terms and images solely for factual description purposes. We are not affiliated with or authorized by the Central Intercollegiate Athletic Association, and neither this production nor its affiliates have licensed or endorsed us to sell goods and/or services in conjunction with any Central Intercollegiate Athletic Association productions. The use of any logos, words, trademarks, or photos has been for descriptive purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team, or sporting association. All copyrights, trademarks, and trade names used within this website are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above-mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.</p>
                 </div><!-- end of disclosure -->
 
             </div>

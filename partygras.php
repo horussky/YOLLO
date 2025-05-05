@@ -3,68 +3,14 @@ ob_start("ob_gzhandler");
 include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
-$event = array(
+// Load the event configuration
+$event_config = require 'config/events/conf_partygras.php';
 
-	"title"      => "Party Gras: Bottles and Beads",
-	"subtitle"   => "More than an event, it's an EXPERIENCE!",
-	"location"   => "Montgomery, AL",
-	"date"       => "August 16 - 18, 2024",
-	"date_start" => "August 16, 2024",
-	"img_url"    => "../../images/slides/splash-partygras-cta.jpg",
-	"img_alt"    => "DPartyGras Cruise",
-	"hotel_link" => "https://www.marriott.com/event-reservations/reservation-link.mi?id=1678390003164&key= GRP&app=resvlink"
-
-);
-
-$geolocation = array(
-	"hotel1" => array(
-		"title"       => "Renaissance Montgomery Hotel & Spa",
-		"address"     => "201 Tallapoosa Street",
-		"location"    => "Montgomery, Alabama 36104",
-		"geolocation" => "201 Tallapoosa Street Montgomery, Alabama 36104",
-		"soldout"     => false,
-		"img_url"     => "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/da/8c/6f/photo0jpg.jpg?w=1200&h=-1&s=1",
-		"host"        => true
-	),
-	"cruise1" => array(
-		"title"    => "Harriott II Riverboat",
-		"ship"     => "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/d5/03/17/harriet-ii-riverboat.jpg?w=700&h=-1&s=1",
-		"soldout"  => false,
-		"img_url"  => "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/d5/03/17/harriet-ii-riverboat.jpg?w=700&h=-1&s=1",
-		"address"  => "1620, 151 Riverfront Pkwy",
-		"location" => "Montgomery, AL",
-		"host"     => false
-	)
-);
-
-$people = array(
-	"diamond" => array(
-		"Cruise/Live Performances/Cocktails and Colors/Transportation" => "$275",
-		"Cruise/Live Performances/Cocktails and Colors" => "$150",
-		"Cruise Only" => "$60",
-		"Cocktails and Colors" => "$45",
-		"Live Performances Only" => "$60"
-	),
-	"options" => array(
-		"Hotel Only" => "$500 (One night)"
-	)
-);
-
-$package_items = array(
-	"diamond_items" => array(
-		"Crowd Control by: DJ Dre Smoove" => "checked",
-		"Poets: TBA 2p-5p" => "checked",
-		"Comedians: TBA" => "checked",
-		"Live Performances by:T.B.A." => "checked",
-		"Meet and Greet with Cocktails by Pour Crazy Bartending" => "checked",
-		"Colors and Cocktails" => "checked",
-		"Party Gras: Kick Off Party" => "checked",
-		"Bottles and Beads Cruise 8:30p -12:30a" => "checked"
-	),
-	"emerald_items" => array(
-		""
-	)
-);
+// Access configuration data
+$event = $event_config['event'];
+$geolocation = $event_config['geolocation'];
+$people = $event_config['people'];
+$package_items = $event_config['package_items'];
 
 ?>
 
@@ -141,7 +87,7 @@ $package_items = array(
 									<caption>Event Itinerary</caption>
 									<tbody>
 										<tr>
-											<th colspan="2" class="gray-200">Friday Events (Aug 16)</th>
+											<th colspan="2" class="gray-200">Friday Events (Aug 08)</th>
 										</tr>
 
 										<tr>
@@ -161,9 +107,9 @@ $package_items = array(
 										</tr>
 
 										<tr>
-											<td><span class="fw-bold">The Party Gras Ball</span><br>
+											<td><span class="fw-bold">The Party Gras Skate Party</span><br>
 												<p class="small">
-												 Tops Formal/ Bottoms Casual dress code. Go all out with a fancy outfit, or keep it more relaxed with a casual drip.
+												 We are taking it back for this R&B skate party!
 												</p>
 											</td>
 											<td><span class="fw-bold">10:00PM - 2:00AM</span>
@@ -176,7 +122,7 @@ $package_items = array(
 
 									<tbody>
 										<tr>
-											<th colspan="2" class="gray-200">Saturday Events (Aug 17)</th>
+											<th colspan="2" class="gray-200">Saturday Events (Aug 09)</th>
 										</tr>
 
 										<tr>
@@ -229,7 +175,13 @@ $package_items = array(
 								</table>
 
 
-								<p>We are also providing hotel accommodations via the <a href="<?php echo $event["hotel_link"]; ?>" target="_blank">Renaissance Montgomery Hotel &Spa.</a></p>
+								<p>We are also providing hotel accommodations via the 
+									<?php if (!empty($event["hotel_link"])): ?>
+									<a href="<?php echo $event["hotel_link"]; ?>" target="_blank">Renaissance Montgomery Hotel & Spa.</a>
+									<?php else: ?>
+									<span>Renaissance Montgomery Hotel & Spa (Link unavailable)</span>
+									<?php endif; ?>
+								</p>
 
 							</div> <!-- ./ overview -->
 
@@ -328,8 +280,7 @@ $package_items = array(
 										<div data-control>What is the official host property for the Party Gras?</div>
 
 										<div data-content>
-											<p>The host property is the <a href="<?php echo $event["hotel_link"]; ?>"
-													target="_blank">Renaissance Montgomery Hotel & Spa.</a> 201 Tallapoosa Street Montgomery, Alabama 36104</p>
+											<p>While we do not have a host property we do recommend the DoubleTree, Embassy, and Hilton properties in downtown Montgomery.</p>
 										</div>
 
 									</div><!-- end of accordion-->
@@ -342,9 +293,9 @@ $package_items = array(
 									</div><!-- end of accordion-->
 
 									<div class="accordion" data-accordion>
-										<div data-control>Will refreshments be served on the bus?</div>
+										<div data-control>Will refreshments be served during any of the events?</div>
 										<div data-content>
-											<p>Yes, margaritas will be on DECK!</p>
+											<p>Yes, there will be light food served at the bowling party! There is a full service bar for adult beverages and hookahs/cigars will be available for purchase.</p>
 										</div>
 									</div><!-- end of accordion-->
 
@@ -360,8 +311,8 @@ $package_items = array(
 										<div data-control>What time is boarding for the cruise and when does the cruise start?</div>
 
 										<div data-content>
-											<p>Boarding starts at 10:30PM. The boat will leave at 10:45PM </p>
-											<p style="color:dimgrey">*All times are based on Eastern Time Zone.</p>
+											<p>Boarding starts at 8:30PM. The boat will leave at 9:00PM </p>
+											<p style="color:dimgrey">*All times are based on Central Time Zone.</p>
 										</div>
 									</div><!-- end of accordion-->
 
@@ -369,7 +320,7 @@ $package_items = array(
 										<div data-control>What time is the comedy/poetry and live performances show? </div>
 										<div data-content>
 											<p>The live shows will be from 2PM - 5PM </p>
-											<p style="color:dimgrey">*All times are based on Eastern Time Zone.</p>
+											<p style="color:dimgrey">*All times are based on Central Time Zone.</p>
 										</div>
 									</div><!-- end of accordion-->
 
@@ -383,12 +334,12 @@ $package_items = array(
 
 
 									<div class="accordion" data-accordion>
-										<div data-control>What time is will Colors and Cocktails start? Also, what kind of event is this?</div>
+										<div data-control>What kind of event is Colors and Cocktails?</div>
 
 										<div data-content>
-											<p>Colors and Cocktails will be from 10:30AM - 1PM. This event will allow participants to paint and sip Bottomless Signature Cocktails by Pour Crazy Bartending. The format follows Sip and Paint titled events. </p>
+											<p>Colors and Cocktails will allow participants to paint and sip Bottomless Signature Cocktails by Pour Crazy Bartending. The format follows Sip and Paint titled events. </p>
 
-											<p style="color:dimgrey">*All times are based on Eastern Time Zone.</p>
+											<p style="color:dimgrey">*All times are based on Central Time Zone.</p>
 										</div>
 									</div><!-- end of accordion-->
 
@@ -405,17 +356,17 @@ $package_items = array(
 										<div data-control>Are all events one combined event?</div>
 
 										<div data-content>
-											<p>No, you can purchase tickets only for the cruise, colors and cocktails or variety show. The cruise will begin boarding at 10:30pm while the variety show will start at 2PM. Colors and Cocktails will start at 10:30 am.</p>
+											<p>Yes, individual event tickets are NOT available. One ticket covers ALL weekend events! Armbands are issued and must be worn for entrance. Any armband that has been tampered with will result in denied entry. If you lose the armband you will have to purchase another one.</p>
 
-											<p style="color:dimgrey">*All times are based on Eastern Time Zone.</p>
+											<p style="color:dimgrey">*All times are based on Central Time Zone.</p>
 										</div>
 									</div><!-- end of accordion-->
 
 									<div class="accordion" data-accordion>
-										<div data-control>Do I have to ride the charter bus to attend this event?</div>
+										<div data-control>Are group discounts available?</div>
 
 										<div data-content>
-											<p>No, you can purchase tickets only for the each event or the all inclusive ticket for all events.</p>
+											<p>Yes, if you have a group of 25  or more send us an email. </p>
 										</div>
 									</div><!-- end of accordion-->
 								</div><!-- end of accordion group-->
