@@ -1,70 +1,15 @@
 <?php
-ob_start("ob_gzhandler");
 include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
-$event = array(
-	"title"					=> "HBCU Alumni Getaway 2025",
-	"subtitle"				=> "The Official HBCU Alumni Party at Sea!",
-	"location"				=> "Costa Maya, Belize, & Cozumel",
-	"date"					=> "Dec 14-20 2025",
-    "date_start"			=> "December 14, 2025",
-	"img_url"				=> "../../images/slides/splash-alumni-cta.jpg",
-	"img_alt"				=> "Alumni Getaway"
-);
+// Load the event configuration
+$event_config = require 'config/events/conf_alumni.php';
 
-$geolocation = array(
-	"cruise1"=> array(
-		"title" 			=> "Carnival Liberty",
-		"ship"				=> "https://media-cdn.tripadvisor.com/media/photo-w/15/3b/26/b0/carnival-liberty-ta-listings.jpg",
-		"location"		    => "New Orleans, LA",
-        "address"			=> "1100 Port of New Orleans Place, New Orleans, LA 70130",
-		"soldout"			=> false,
-		"img_url"			=> ""
-	),
-);
-
-$people = array(
-		"diamond"=> array(
-			"Group of 4" 			=> "SOLD-OUT",
-			"Group of 3"			=> "$1,075",
-			"Group of 2"			=> "$1,400",
-			"Individual"			=> "$1,950"
-		),
-
-		"emerald"=> array(
-			""
-		),
-
-		"options"=>array(
-			"Hotel Only" => "$1245 (Weekend)"
-		),
-
-);
-
-$package_items = array(
-	"diamond_items" => array(
-		"Cruise Departing From Long Beach (Los Angeles)"		=> "checked",
-		"All You Can Eat aboard Ship"							=> "checked",
-		"Bust a Gut Alumni Getaway Comedy Series"		        => "checked",
-		"Alumni Getaway Private Toga at Sea Party"	     		=> "checked",
-		"Word Easy Private Spoken Word Show"			        => "checked",
-		"Private Welcome Reception"			      				=> "checked",
-		"Private Meet and Greet Social"					    	=> "checked",
-		"Exclusive Boots and Dukes Party"		        		=> "checked",
-		"Single Port Group Shore Excursion"		        		=> "checked",
-		"Shades of Chocolate Fun and Sexy Party"		        => "checked",
-		"Alumni Getaway Farewell Party"						    => "checked",
-		"Private Black Film Review"					        	=> "checked",
-		"Rep your HBCU Party"					            	=> "checked",
-		"YOLLO Gift Bag"							        	=> "checked"
-	),
-
-	"emerald_items" => array(
-		""
-	),
-);
-
+// Access configuration data
+$event = $event_config['event'];
+$geolocation = $event_config['geolocation'];
+$people = $event_config['people'];
+$package_items = $event_config['package_items'];
 
 ?>
 <!doctype html>
@@ -110,9 +55,12 @@ $package_items = array(
 			<div class="event-hero" style="background-image:url(<?php echo $event["img_url"]; ?>)">
 				<div class="event-hero__details">
 					<h1 class="event-hero__title"><?php echo $event["title"]; ?></h1>
+					<p class="event-hero__subtitle"><?php echo $event["subtitle"]; ?></p>
 					<p class="event-hero__location"><?php echo $event["location"]; ?></p>
-					<a data-href="#tabs-5" class="btn btn-red event-hero__btn open-tab">Book Now</a>
-					<a class="btn btn-outlined btn--round event-hero__btn" href="/alumni-getaway-events">View Events</a>
+					<div class="event-hero__buttons">
+						<a data-href="#tabs-5" class="btn btn-red event-hero__btn open-tab">Book Now</a>
+						<a class="btn btn-outlined btn--round event-hero__btn" href="/alumni-getaway-events">View Events</a>
+					</div>
 					<div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="event-hero__date"><?php echo $event["date"]; ?> </div>
 					<div id="event-timer" class="event-hero__timer"></div>
 				</div>	
@@ -128,19 +76,19 @@ $package_items = array(
                     <?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
                        
-						<h2 class="h4">The Getaway to Costa Maya, Belize, and Cozumel!</h2>
-						<p>Join us for an unforgettable cruise to Costa Maya, Belize, and Cozumel! Relax on stunning beaches, explore ancient Mayan ruins in Costa Maya, experience Belize's breathtaking rainforests and famous Great Blue Hole, and enjoy the lively culture and turquoise waters of Cozumel. Whether you're looking for adventure or relaxation, this trip has it all! 
+						<h2 class="h3">Reconnect, Relive, and Reimagine: Your HBCU Alumni Cruise Awaits!</h2>
+						<p>Join YOLLO for an unforgettable celebration of HBCU pride as we set sail to Costa Maya, Belize, and Cozumel! Plunge into the turquoise embrace of the Caribbean Sea. From exploring ancient Mayan ruins in Costa Maya to marveling at Belize's lush rainforests and iconic Great Blue Hole, and soaking up the lively energy of Cozumel, this is your passport to both adventure and relaxation!</p> 
 
-						<p>YOLLO brings the fun with comedy shows, spoken word, film nights, theme parties, and a spades tournament. Our DJs will keep the music flowing across the ship all day and night!</p>
+						<p>Onboard, the party never stops with exclusive entertainment tailored for HBCU pride. Laugh at side-splitting comedy shows, enjoy movie nights under the stars, and dance the night away at themed parties with top DJs spinning the hottest tracks. Whether you're traveling solo or with a group, YOLLO Events offers flexible package options to suit every need.</p>
 
-						<p>Don't wait as cabins are limited. <a data-href="#tabs-5" href="#" class="open-tab">Book this fantastic cruise package</a> right now!</p>
+						<p class="mb-40">Don't let budget constraints hold you back - take advantage of our convenient Flex Pay option to finance your dream getaway with easy monthly payments. From fun-filled days at sea to thrilling port adventures, this cruise promises to be the ultimate HBCU reunion experience. Let's celebrate the excellence of HBCUs together! <a data-href="#tabs-5" href="#" class="open-tab">Book this fantastic cruise package</a> right now!</p>
 
 						<?php include 'includes/uplift-onpage.inc.php'; ?>
                         
-                        <table class="itinerary">
+                        <table class="itinerary mb-40">
 							<caption>Cruise Itinerary</caption>
 							<thead>
-								<tr><th colspan="2" class="small">*All times are based on Eastern Time Zone.</th></tr>
+								<tr><th colspan="2" class="small">*All times are based on Central Time Zone.</th></tr>
 							</thead>
 							<tbody>
 								<tr>
@@ -179,6 +127,13 @@ $package_items = array(
 							</tfoot>
 						</table>
 
+						
+						<?php include 'includes/hbcu-ambass-ad.inc.php'; ?>
+						
+
+						
+
+
                     </div> <!-- ./ overview -->
 
 
@@ -208,7 +163,7 @@ $package_items = array(
                         <table class="itinerary">
 							<caption>Cruise Itinerary</caption>
 							<thead>
-								<tr><th colspan="2" class="small">*All times are based on Eastern Time Zone.</th></tr>
+								<tr><th colspan="2" class="small">*All times are based on Central Time Zone.</th></tr>
 							</thead>
 							<tbody>
 								<tr>
@@ -302,7 +257,7 @@ $package_items = array(
 								<p>Here are a some suggested items to consider:</p>
 									
 								<ul>
-									<li>Light and Casual clothing. Linen and breathable cotton is best. Cabo San Lucas and Ensenada are warm in December!</li>
+									<li>Light and Casual clothing. Linen and breathable cotton is best. Cozumel, Belize, and Cosya Maya are warm in December!</li>
 									<li>Swimming trunks and bikini's</li>
 									<li>Sun Block and Lotions</li>
 									<li>Bug Repellant with DEET</li>
@@ -320,25 +275,25 @@ $package_items = array(
 
 								<div data-control>Is there a charge for sodas on the cruise? </div>
 								<div data-content>
-								<p>Yes, beverages at the bar will require purchasing. However, there is an unlimited soda program provided by Carnival called Bottomless Bubbles. Pay one flat price for fountain soda and juice all cruise long. Prices are per day with an automatic 18% gratuity added at time of purchase of the program. Children 17 years and younger are $6.95 USD per day. Adults are $9.50 USD per day. For more information please visit <a href="https://help.carnival.com/app/answers/detail/a_id/3836/~/bottomless-bubbles-%28unlimited-soda-program" target="_blank"> Carnival Cruise FAQs</a></p>
+								<p>Yes, beverages at the bar will require purchasing. However, there is an unlimited soda program provided by Carnival called Bottomless Bubbles. Pay one flat price for fountain soda and juice all cruise long. Prices are per day with an automatic 18% gratuity added at time of purchase of the program. Children 17 years and younger are $8.20 USD per day. Adults are $11.21 USD per day. For more information please visit <a href="https://help.carnival.com/app/answers/detail/a_id/3836/~/bottomless-bubbles-%28unlimited-soda-program" target="_blank"> Carnival Cruise FAQs</a></p>
 								</div>
 
 							</div><!-- end of accordion-->
 							
 							<div class="accordion" data-accordion>
 
-								<div data-control>What is Uplift? </div>
+								<div data-control>What is FlexPay? </div>
 								<div data-content>
-								<p>Uplift is a financial technology company that offers point-of-sale financing solutions for travel and other large purchases. It allows consumers to spread out the cost of their purchases over time through installment payments, often with fixed interest rates and no hidden fees.</a></p>
+								<p>FlexPay is a financial technology company that offers point-of-sale financing solutions for travel and other large purchases. It allows consumers to spread out the cost of their purchases over time through installment payments, often with fixed interest rates and no hidden fees.</a></p>
 								</div>
 
 							</div><!-- end of accordion-->
 							
 								<div class="accordion" data-accordion>
 
-								<div data-control>How do I apply for Uplift? </div>
+								<div data-control>How do I apply for FlexPay? </div>
 								<div data-content>
-								<p>Simply select 'YES' during registration to apply for Uplift financing. Once your registration is paid and completed, we'll send you an application to spread out the cost of your cruise package with ease through Uplift!</a></p>
+								<p>Simply select 'YES' during registration to apply for Flexpay financing. Once your registration is paid and completed, we'll send you an application to spread out the cost of your cruise package with ease through FlexPay!</a></p>
 								</div>
 
 							</div><!-- end of accordion-->
@@ -347,16 +302,16 @@ $package_items = array(
 
 								<div data-control>Is there an open bar or Bottomless Bubbles for alcohol on the ship? </div>
 								<div data-content>
-								<p>Yes, there is an option called CHEERS, but it's limited to 15 drinks per day. CHEERS is an all-inclusive beverage program that allows guests to enjoy a wide range of alcoholic and non-alcoholic beverages by paying a flat daily rate. The cost prior to your cruise is $69.95 USD per person, per day plus 18% gratuity. If you decide you want the program once on board, you can sign up for CHEERS at a bar the cost is $65.95 USD per person, per day plus 18% gratuity. For more information please visit <a href="https://help.carnival.com/app/answers/detail/a_id/1106" target="_blank"> Carnival Cruise FAQs</a></p>  
+								<p>Yes, there is an option called CHEERS, but it's limited to 15 drinks per day. CHEERS is an all-inclusive beverage program that allows guests to enjoy a wide range of alcoholic and non-alcoholic beverages by paying a flat daily rate. The cost is $82.54 USD per person. For more information please visit <a href="https://help.carnival.com/app/answers/detail/a_id/1106" target="_blank"> Carnival Cruise FAQs</a></p>  
 								</div>
 
 							</div><!-- end of accordion-->
 
 							<div class="accordion" data-accordion>
 
-								<div data-control>What time zone should I set my watch to match the Carnival Firenze time. This will prevent you from  missing the boat during our at port days. </div>
+								<div data-control>Should I set my watch to match Carnival Liberty time. This prevents you from  missing the boat during our at port days. </div>
 								<div data-content>
-									<p>The ship will be on Pacific or PDT.</p>
+									<p>The ship will be on Central or CST.</p>
 								</div>
 
 							</div><!-- end of accordion-->
@@ -383,9 +338,9 @@ $package_items = array(
 
 								<div data-control>When are the payments due?</div>
 								<div data-content>
-								<p>To reserve a package each group member pays the $100.00 per person fee <strong> at sign-up</strong>. The first payment of <strong>$400</strong> per person is due on or before  <strong>October 1, 2024</strong>.
-								The second payment of <strong>$400</strong> per person is due on or before  <strong>October 15, 2024</strong>.
-								The final payment (remaining balance) is due on or before <strong>October 31, 2024</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
+								<p>To reserve a package each group member pays the <strong>$100.00</strong> per person fee <strong> at sign-up</strong>. The first payment of <strong>$200</strong> per person is due on or before  <strong>March 20, 2025</strong>.
+								The second payment of <strong>$400</strong> per person is due on or before  <strong>May 20, 2025</strong>.
+								The final payment (remaining balance) is due on or before <strong>July 20, 2025</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
 								</div>
 
 							</div><!-- end of accordion-->
@@ -394,7 +349,7 @@ $package_items = array(
 
 								<div data-control>Are there any other charges associated with the cruise?</div>
 								<div data-content>
-								<p>Yes, clients are responsible for paying cabin gratuities. The standard charge is $14.50 per day, but you may want to leave more depending on your service. In most cases gratuity is added to your final bill, so check with the cruiseline front desk on the ship before returning back to Long Beach (Los Angeles).</p>
+								<p>Yes, clients are responsible for paying cabin gratuities. The standard charge is $16.00 per day, but you may want to leave more depending on your service. In most cases gratuity is added to your final bill, so check with the cruiseline front desk on the ship before returning back to New Orleans.</p>
 								</div>
 
 							</div><!-- end of accordion-->
@@ -403,7 +358,7 @@ $package_items = array(
 
 								<div data-control>What port are we departing from and what time do I need to be there?</div>
 								<div data-content>
-								<p>The Carnival Paradise sails from Port Tampa Bay. We suggest arriving no later than 2:00 PM.</p>
+								<p>The Carnival Liberty sails from Port New Orleans. We suggest arriving no later than 2:00 PM.</p>
 								</div>
 
 							</div><!-- end of accordion-->
@@ -469,9 +424,11 @@ $package_items = array(
 
 	     <div class="disclosure">
 
-	     	<?php include 'includes/package-info-generic.inc.php'; ?><br/>
+	     	<?php include 'includes/package-info-generic.inc.php'; ?>
 
-	          <strong>Disclaimer</strong> | The term Alumni Getaway, Carnival Cruise Lines, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. We are in no way associated with or authorized by Carnival Cruises and neither this production nor its affiliates have licensed or endorsed us to sell goods and/or services in conjunction with any Carnival Cruise productions. The use of any logos, words, trademarks, or photos have been used for Descriptive Purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.
+	          <p><strong>Disclaimer</strong> | YOLLO Group Services wishes to clarify that "Alumni Getaway" and "Carnival Cruise Lines," including their respective graphics and logos, are registered trademarks of their owners and are used solely to factually describe the event. YOLLO Group Services is not associated with, authorized by, or acting on behalf of Carnival Cruise Lines. This event is independently organized by YOLLO Group Services, which is not affiliated with any box office, promoter, venue, theatre, stadium, hotel, sporting team, or sporting association mentioned on this website. All copyrights, trademarks, and trade names are used for descriptive purposes only and do not imply endorsement or permission. YOLLO Group Services provides access to tickets and travel packages through its network of contacts and various sources.</p>
+			  
+			  <p><strong>* Brand Ambassador Program:</strong> Earn $50-$100 per referral and compete for a $400 bonus! Open to 21+ U.S. residents. Ambassadors work as independent contractors and receive payment within 14 days of confirmed bookings. See complete <a title="HBCU Alumni Getaway Cruise Ambassador Program" href="/alumni-ambassador-program">Terms & Conditions</a> for details and to apply.</p>
 	    </div>
 
 
@@ -501,7 +458,7 @@ $package_items = array(
 				userID: '50836209@N03',
 
 				 //uncomment this line to display one specific album:
-			   photoset:'72157667384081578',
+			   photoset:'72177720324731688',
 
 				// uncomment this line to display full photostream (v5.0.0):
 				// photoset:'none',

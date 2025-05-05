@@ -1,96 +1,15 @@
 <?php
-if(!ob_start("ob_gzhandler")) ob_start();
-include 'includes/functions.inc.php';
-include 'includes/meta.config.inc.php';
+	include 'includes/functions.inc.php';
+	include 'includes/meta.config.inc.php';
 
-$event = array(
+	// Load the event configuration
+	$event_config = require 'config/events/conf_urban-ski.php';
 
-	"title"				=>"Urban Ski Weekend 2026",
-	"subtitle"			=>"As Seen on VH1 Love & Hiphop",
-	"location"			=>"Gatlinburg, Tennessee",
-	"date"				=>"Feb 6 - Feb 9, 2026",
-    "date_start"        =>"February 9, 2026",
-	"img_url"			=>"../../images/slides/splash-urban-ski-cta.jpg",
-	"img_alt"			=>"Urban Ski Weekend"
-);
-
-$geolocation = array(
-
-	"hotel1"=> array(
-		"title" 				=> "Music Road Resort",
-		"address"				=> "303 Henderson Chapel Road",
-		"location"			    => "Pigeon Forge, TN 37863",
-		"soldout"		        => false,
-		"img_url"				=> "//media-cdn.tripadvisor.com/media/photo-s/04/9d/9d/57/music-road-resort-making.jpg"
-	),
-
-);
-
-$people = array(
-
-		"diamond"=> array(
-
-			"Group of 4" 			=>"$865",
-			"Group of 3"			=>"$915",
-			"Group of 2"			=>"$1,085",
-			"Individual"			=>"$1,275"
-		),
-
-		"emerald"=> array(
-			"Group of 4" 			=>"$765",
-			"Group of 3"			=>"$815",
-			"Group of 2"			=>"$985",
-			"Individual"			=>"$1,175"
-		),
-
-		"options"=>array(
-			"Hotel Only" 			=>"$525 (Weekend)",
-			"Ski Excursions" 	=> "$100"
-		),
-
-);
-
-$package_items = array(
-
-	"diamond_items" => array(
-		"4 Days / 3 Nights Hotel Accommodations"        => "checked",
-		"Party Bus Access"						        => "checked",
-		"The Best of the Best Fashion Shows"            => "checked",
-		"11th Annual Winter White Party"		        => "checked",
-		"11th Annual \"LOL\" Comedy Show"		        => "checked",
-		"The Rep Your City Party"		    => "checked",
-		"Freaky Friday PJ Party"						=> "checked",
-		"Access To The Exclusive Super Lounges Each Night"	    => "checked",
-		"Access To The Love Jones Poets Corner Lounge"		    => "checked",
-		"The \"Mid-Night Mountain\" Indoor Pool Party"			=> "checked",
-		"Access To The Caribbean Lounge"					    => "checked",
-		"Access To The 80's & 90's Old School Lounge"		    => "checked",
-		"Tickets To All Additionally Added Events"			    => "checked",
-		"YOLLO Swag Bag"							    => "checked"
-	),
-
-
-
-	"emerald_items" => array(
-
-		"4 Days / 3 Nights Hotel Accommodations"    => "checked",
-		"Party Bus Access"						    => "ex",
-		"The Best of the Best Fashion Shows"	    => "checked",
-		"11th Annual Winter White Party"		    => "checked",
-		"11th Annual \"LOL\" Comedy Show"		    => "checked",
-		"The Rep Your City Party"	    => "checked",
-		"Freaky Friday PJ Party"				    => "checked",
-		"Access To The Exclusive Super Lounges Each Night"	    => "checked",
-		"Access To The Love Jones Poets Corner Lounge"			=> "checked",
-		"The \"Mid-Night Mountain\" Indoor Pool Party"			=> "checked",
-		"Access To The Caribbean Lounge"				        => "checked",
-		"Access To The 80's & 90's Old School Lounge"				=> "checked",
-		"Tickets To All Additionally Added Events"					=> "checked",
-		"YOLLO Swag Bag"							    => "checked"
-	)
-
-);
-
+	// Access configuration data
+	$event = $event_config['event'];
+	$geolocation = $event_config['geolocation'];
+	$people = $event_config['people'];
+	$package_items = $event_config['package_items'];
 ?>
 
 <!doctype html>
@@ -115,362 +34,318 @@ $package_items = array(
 <body id="event-pg">
 
 
-<div id="wrap">
+	<div id="wrap">
 
-    <!--Mobile Nav-->
-	<?php include 'includes/mobile.nav.inc.php'; ?>
-	<!--Mobile Nav--> 
+		<!--Mobile Nav-->
+		<?php include 'includes/mobile.nav.inc.php'; ?>
+		<!--Mobile Nav--> 
 
-    <div id="container">
+		<div id="container">
 
-		<?php include 'includes/header.inc.php'; ?>
+			<?php include 'includes/header.inc.php'; ?>
 
-		<!--Left Content-->
+			<!--Left Content-->
 
-		<div id="left">
-			<!--Nav-->
-			<?php include 'includes/nav.inc.php'; ?>
-			<!--End of Nav-->
-		</div>
+			<div id="left">
+				<!--Nav-->
+				<?php include 'includes/nav.inc.php'; ?>
+				<!--End of Nav-->
+			</div>
 
-		<!--Right Content-->
+			<!--Right Content-->
 
-		<div id="right">
+			<div id="right">
 
-		<!-- Event Hero -->
-		<div class="event-hero" style="background-image:url(<?php echo $event["img_url"]; ?>)">
-			<div class="event-hero__details">
-				<h1 class="event-hero__title"><?php echo $event["title"]; ?></h1>
-				<p class="event-hero__location"><?php echo $event["location"]; ?></p>
-				<a data-href="#tabs-5" class="btn btn-red event-hero__btn open-tab">Book Now</a>
-				<div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="event-hero__date"><?php echo $event["date"]; ?> </div>
-				<div id="event-timer" class="event-hero__timer"></div>
-			</div>	
-		</div>
-		<!-- Event Hero -->
+			<!-- Event Hero -->
+			<div class="event-hero" style="background-image:url(<?php echo $event["img_url"]; ?>)">
+				<div class="event-hero__details">
+					<h1 class="event-hero__title"><?php echo $event["title"]; ?></h1>
+					<p class="event-hero__subtitle"><?php echo $event["subtitle"]; ?></p>
+					<p class="event-hero__location"><?php echo $event["location"]; ?></p>
+					<a data-href="#tabs-5" class="btn btn-red event-hero__btn open-tab">Book Now</a>
+					<div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="event-hero__date"><?php echo $event["date"]; ?> </div>
+					<div id="event-timer" class="event-hero__timer"></div>
+				</div>	
+			</div>
+			<!-- Event Hero -->
 
-		<div class="content">
+			<div class="content">
 
-			<div class="colfull">
-				<div id="responsive-tabs">
-				<?php echo $responsive_tabs["overview"]; ?>
-				<div class="tab" aria-label="overview">
-					<h2 class="h4">A Perfect Retreat for First-Time Skiers</h2>
+				<div class="colfull">
+					<div id="responsive-tabs">
+					<?php echo $responsive_tabs["overview"]; ?>
+					<div class="tab" aria-label="overview">
+						<h2>A Perfect Retreat for First-Time Skiers</h2>
 
-					<p>Experience the thrill of skiing and nightlife at Urban Ski Weekend 2026 in Gatlinburg, Tennessee1. This event caters to both beginners and seasoned skiers, offering an unforgettable blend of slope action and after-dark excitement.</p>
+						<p>Experience the thrill of skiing and nightlife at Urban Ski Weekend 2026 in Gatlinburg, Tennessee. This event caters to both beginners and seasoned skiers, offering an unforgettable blend of slope action and after-dark excitement.</p>
 
-					<h2 class="h5">What Makes This Experience Irresistible:</h2>
+						<h3>What Makes This Experience Irresistible:</h3>
 
-					<p>You'll enjoy a luxurious 3-day, 2-night stay at our premium host hotel. Start each morning with a delicious sponsored breakfast that fuels your mountain adventures. Indulge in up to 28 hours of sponsored bar drinks that keep the energy high and the memories flowing. Your exclusive party passes unlock VIP access to the most sought-after events, while our headline comedy show guarantees non-stop laughter. </p>
+						<p>You'll enjoy a very accommodating 4-day, 3-night stay at our premium host hotel. Start each morning with a delicious sponsored breakfast that fuels your mountain adventures. Indulge in up to 28 hours of sponsored bar drinks that keep the energy high and the memories flowing. Your exclusive party passes unlock VIP access to the most sought-after events, while our headline comedy show guarantees non-stop laughter. </p>
 
-					<p>This isn't just a ski trip - it's a life-changing adventure that will create stories you'll tell for years. Limited spots are available, and our 2025 event sold out in record time. Don't miss your chance to transform your winter and create memories that will last a lifetime. <a data-href="#tabs-5" class="open-tab">Register and reserve your spot today!</a></p>
+						<p>This isn't just a ski trip - it's a life-changing adventure that will create stories you'll tell for years. Limited spots are available, and our 2025 event sold out in record time. Don't miss your chance to transform your winter and create memories that will last a lifetime. <a data-href="#tabs-5" class="open-tab">Register and reserve your spot today!</a></p>
 
-				</div> <!-- ./overview -->
-
-
-					<?php echo $responsive_tabs["price"]; ?>
-
-					<div class="tab" aria-label="price">
-
-						<h2 class="h4">Hotels</h2>
-
-						<?php foreach($geolocation as $hotel) :?>
-							<div class="hotel-grid">
-								<div class="hg-img">
-									<figure style="background:url(<?php echo $hotel['img_url']; ?>); background-size: cover; background-position: center;"></figure>
-								</div>
-
-								<div class="hg-body">
-									<p class="hg-title"><?php echo $hotel["title"]; ?> 
-
-									<?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
-
-									<address>
-										<i class="fa fa-location-arrow" aria-hidden="true"></i> 
-
-										<a title="<?php echo $hotel["title"]; ?>" target="_blank" href="http://maps.google.com/maps?q=<?php echo $hotel["address"]; ?>+<?php echo $hotel["location"]; ?>"><?php echo $hotel["address"]; ?>,  
-
-										<?php echo $hotel["location"]; ?></a>
-									</address>
-								</div>
-
-							</div><!-- ./hotel-grid -->
-
-							<?php endforeach; ?>
-
-						<hr />
+					</div> <!-- ./overview -->
 
 
-						<h2 class="h4">Price</h2>
+						<?php echo $responsive_tabs["price"]; ?>
 
-						<div class="price-table-container">
-						<div class="price-table">
-							<ul class="price">
+						<div class="tab" aria-label="price">
 
-								<li class="header">Diamond <span>Package</span></li>
-								<?php foreach($package_items['diamond_items'] as $key=>$value): ?>
+							<h2 class="h4">Hotels</h2>
 
-									<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+							<?php foreach($geolocation as $hotel) :?>
+								<div class="hotel-grid">
+									<div class="hg-img">
+										<figure style="background:url(<?php echo $hotel['img_url']; ?>); background-size: cover; background-position: center;"></figure>
+									</div>
+
+									<div class="hg-body">
+										<p class="hg-title"><?php echo $hotel["title"]; ?> 
+
+										<?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
+
+										<address>
+											<i class="fa fa-location-arrow" aria-hidden="true"></i> 
+
+											<a title="<?php echo $hotel["title"]; ?>" target="_blank" href="http://maps.google.com/maps?q=<?php echo $hotel["address"]; ?>+<?php echo $hotel["location"]; ?>"><?php echo $hotel["address"]; ?>,  
+
+											<?php echo $hotel["location"]; ?></a>
+										</address>
+									</div>
+
+								</div><!-- ./hotel-grid -->
 
 								<?php endforeach; ?>
 
-								<li class="people-price">
-									<ul class="priceblock">
-										<?php foreach($people['diamond'] as $key=>$value): ?>
-											<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
-										<?php endforeach; ?>
-									</ul>
-								</li>
-
-								<li>
-									<a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a>
-								</li>
-
-							</ul>
-
-						</div><!-- price table -->
+							<hr />
 
 
-						<div class="price-table">
+							<h2 class="h4">Price</h2>
 
-							<ul class="price">
+							<div class="price-table-container">
+							<div class="price-table">
+								<ul class="price">
 
-								<li class="header">Emerald <span>Package</span></li>
-								<?php foreach($package_items['emerald_items'] as $key=>$value): ?>
-									<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-								<?php endforeach; ?>
+									<li class="header">Diamond <span>Package</span></li>
+									<?php foreach($package_items['diamond_items'] as $key=>$value): ?>
 
-								<li class="people-price">
-									<ul class="priceblock">
-										<?php foreach($people['emerald'] as $key=>$value): ?>
-											<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
+										<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+
+									<?php endforeach; ?>
+
+									<li class="people-price">
+										<ul class="priceblock">
+											<?php foreach($people['diamond'] as $key=>$value): ?>
+												<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
 											<?php endforeach; ?>
-									</ul>
-								</li>
+										</ul>
+									</li>
 
-								<li>
-									<a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a>
-								</li>
+									<li>
+										<a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a>
+									</li>
 
-							</ul>
+								</ul>
 
-						</div><!-- price table -->
+							</div><!-- price table -->
 
-					</div><!-- price table container-->
+							
+							<?php if(isset($package_items['emerald_items']) && !empty($package_items['emerald_items'])) :?>
+							<div class="price-table">
 
+								<ul class="price">
 
+									<li class="header">Emerald <span>Package</span></li>
+									<?php foreach($package_items['emerald_items'] as $key=>$value): ?>
+										<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+									<?php endforeach; ?>
 
-				</div><!-- ./price -->
+									<li class="people-price">
+										<ul class="priceblock">
+											<?php foreach($people['emerald'] as $key=>$value): ?>
+												<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
+												<?php endforeach; ?>
+										</ul>
+									</li>
 
+									<li>
+										<a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a>
+									</li>
 
-				<?php echo $responsive_tabs["faqs"]; ?>
+								</ul>
 
-				<div class="tab" aria-label="faqs">
+							</div><!-- price table -->
+							<?php endif; ?>
 
-					<h2 class="h4">Frequently Asked Questions</h2>
+						</div><!-- price table container-->
 
-					<div data-accordion-group>	
-						<div class="accordion open" data-accordion>
-							<div data-control>When are the payments due?</div>
-							<div data-content>
-							<p>Following registration the first payment of $250 is due on or before December 28, 2024.  The second payment of $400 is due on or before January 12, 2025. The final payment (remaining balance) is due on or before January 28, 2025. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 
-							</div>
 
-						</div><!-- end of accordion-->
+					</div><!-- ./price -->
 
-						<div class="accordion" data-accordion>
 
-							<div data-control>Is the ski excursion included in with the package?</div>
+					<?php echo $responsive_tabs["faqs"]; ?>
 
-							<div data-content>
+					<div class="tab" aria-label="faqs">
 
-							<p>No, it's not included in the package and can't be added to your package in advance. The cost of the ski excursion is $175 that can be paid as you are checking in with the on-site staff. If purchased once you arrive at the resort up the mountain the cost is $200.</p>
+						<h2 class="h4">Frequently Asked Questions</h2>
 
-							</div>
+						<div data-accordion-group>	
+							<div class="accordion open" data-accordion>
+								<div data-control>When are the payments due?</div>
+								<div data-content>
+								<p>Following registration the first payment of $125 is due on or before May 10, 2025.  The second payment of $300 is due on or before July 1, 2025. The final payment (remaining balance) is due on or before September 1, 2025. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 
-						</div><!-- end of accordion-->
+								</div>
 
+							</div><!-- end of accordion-->
 
-						<div class="accordion" data-accordion>
+							<div class="accordion" data-accordion>
 
-							<div data-control>What time will the bus depart from Knoxville, TN?</div>
+								<div data-control>Is the ski excursion included in with the package?</div>
 
-							<div data-content>
+								<div data-content>
 
-							<p>The bus will depart Knoxville at 2pm (EST) on Friday and return to Knoxville Monday at 10 am (EST).</p>
+								<p>No, it's not included in the package and can't be added to your package in advance. The cost of the ski excursion is $175 that can be paid as you are checking in with the on-site staff. If purchased once you arrive at the resort up the mountain the cost is $250.</p>
 
-							</div>
-						</div><!-- end of accordion-->
+								</div>
 
-						<div class="accordion" data-accordion>
+							</div><!-- end of accordion-->
 
-							<div data-control>If I'm traveling by airplane what airport should I fly into?</div>
 
-							<div data-content>
+							<div class="accordion" data-accordion>
+								<div data-control>Why isn't the ski excursion included the package? </div>
 
-							<p>Knoxville, TN is the closest city and you should fly into McGhee Tyson Airport (TYS). Knoxville is 45 minutes from Gatlingburg.</p>
+								<div data-content>
 
-							</div>
-						</div><!-- end of accordion-->
+								<p>One word, PARTY! Some people just can't get up early Sunday morning so to avoid a client missing out we do not include it in your package price. We have experienced better attendance when clients purchase the ski excurion upon arrival.</p>
 
-						<div class="accordion" data-accordion>
-							<div data-control>Why isn't the ski excursion included the package? </div>
+								</div>
+							</div><!-- end of accordion-->
 
-							<div data-content>
+							
+							<div class="accordion" data-accordion>
 
-							<p>One word, PARTY! Some people just can't get up early Sunday morning so to avoid a client missing out we do not include it in your package price. We have experienced better attendance when clients purchase the ski excurion upon arrival.</p>
+								<div data-control>What if I don't want to ski?</div>
 
-							</div>
-						</div><!-- end of accordion-->
+								<div data-content>
 
-						<div class="accordion" data-accordion>
+								<p>While we encourage everyone to "at least try", since it is a "Ski Trip", YOU CAN try another excursion such as Lazer Tag, Ropes Challenge Course, Horse Back Riding, Shopping Excursions, Mountain Tours, Ice Skating and a few others. Regardless of what you do, you will still get everything else in the package and the exchange options will NOT over lap the other events. Its going to be fun for everyone.</p>
 
-							<div data-control>What cities will the bus depart from?</div>
+								</div>
 
-							<div data-content>
+							</div><!-- end of accordion-->
 
-							<p>Knoxville, TN only! Don't see you city or state listed? Email us and let's see what we can work out!</p>
 
-							</div>
+							<div class="accordion" data-accordion>
 
-						</div><!-- end of accordion-->
+								<div data-control>Do I need a rental car?</div>
 
-						<div class="accordion" data-accordion>
+								<div data-content>
 
-							<div data-control>What if I don't want to ski?</div>
+								<p>YES, because there is so much to do while in the area!</p>
 
-							<div data-content>
+								</div>
 
-							<p>While we encourage everyone to "at least try", since it is a "Ski Trip", YOU CAN try another excursion such as Lazer Tag, Ropes Challenge Course, Horse Back Riding, Shopping Excursions, Mountain Tours, Ice Skating and a few others. Regardless of what you do, you will still get everything else in the package and the exchange options will NOT over lap the other events. Its going to be fun for everyone.</p>
+							</div><!-- end of accordion-->
 
-							</div>
 
-						</div><!-- end of accordion-->
+							<div class="accordion" data-accordion>
 
+								<div data-control>What are some things you suggest I buy for this trip?</div>
 
-						<div class="accordion" data-accordion>
-							<div data-control>Does this trip include any transportation?</div>
+								<div data-content>
 
-							<div data-content>
+								<p>Relaxed casual winter wear, sweaters,  thermal wears, ski gloves, ski bib, a hat, goggles or shades, swim wear, and a sexy classy black outfit</p>
 
-							<p>Yes. Transportation is provided for this trip if you purchase our Diamond Package. If the party bus is not your thing then the Emerald Package was designed for YOU.</p>
+								</div>
 
-							</div>
+							</div><!-- end of accordion-->
 
-						</div><!-- end of accordion-->
 
+							<div class="accordion" data-accordion>
 
-						<div class="accordion" data-accordion>
+								<div data-control>Do I need any extra money?</div>
 
-							<div data-control>Do I need a rental car?</div>
+								<div data-content>
 
-							<div data-content>
+								<p> Yes, please bring money for parking on Saturday and lunch on Saturday on the mountain, for shopping at the outlet malls and for your souvenirs.</p>
 
-							<p>If you aren't on the party bus, YES, otherwise, no. Just hop on the party bus!</p>
+								</div>
 
-							</div>
+							</div><!-- end of accordion-->
 
-						</div><!-- end of accordion-->
+							<div class="accordion" data-accordion>
 
+								<div data-control>Can I bring my children on this trip?</div>
 
-						<div class="accordion" data-accordion>
+								<div data-content>
 
-							<div data-control>What are some things you suggest I buy for this trip?</div>
+								<p> No. This event includes all adult festivities and alcohol not meant for minors.</p>
 
-							<div data-content>
+								</div>
 
-							<p>Relaxed casual winter wear, sweaters,  thermal wears, ski gloves, ski bib, a hat, goggles or shades, swim wear, and a sexy classy black outfit</p>
+							</div><!-- end of accordion-->
 
-							</div>
+						</div><!-- end of accordion group-->
 
-						</div><!-- end of accordion-->
+					
+					</div> <!-- ./faqs -->
 
 
-						<div class="accordion" data-accordion>
+					<?php echo $responsive_tabs["photos"]; ?>
 
-							<div data-control>Do I need any extra money?</div>
+					<div class="tab" aria-label="photos">
 
-							<div data-content>
+							<div id="nanoGallery"></div>
 
-							<p> Yes, please bring money for parking on Saturday and lunch on Saturday on the mountain, for shopping at the outlet malls and for your souvenirs.</p>
+					</div><!-- ./photos -->
 
-							</div>
 
-						</div><!-- end of accordion-->
+					<?php echo $responsive_tabs["buynow"]; ?>
 
-						<div class="accordion" data-accordion>
+					<div class="tab" aria-label="buy">
 
-							<div data-control>Can I bring my children on this trip?</div>
+						<p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
 
-							<div data-content>
+						<script src="https://www.cognitoforms.com/f/seamless.js" data-key="NiNAkf4LukqBZOHDFOMsiQ" data-form="33"></script>
 
-							<p> No. This event includes all adult festivities and alcohol not meant for minors.</p>
 
-							</div>
+					</div><!-- ./buynow -->
 
-						</div><!-- end of accordion-->
+				</div><!-- ./responive-tabs -->
 
-					</div><!-- end of accordion group-->
+			</div><!-- end of colfull -->
 
-				
-				</div> <!-- ./faqs -->
 
+		</div><!--end of content-->
 
-				<?php echo $responsive_tabs["photos"]; ?>
 
-				<div class="tab" aria-label="photos">
+		<div class="disclosure">
 
-						<div id="nanoGallery"></div>
+			<?php include 'includes/package-info-generic.inc.php'; ?><br/>
 
-				</div><!-- ./photos -->
+			<strong>Disclaimer</strong> | The term Urban Ski, Urban Ski Weekend, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. The use of any logos, words, trademarks, or photos have been used for Descriptive Purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.
 
+	</div>
 
-				<?php echo $responsive_tabs["buynow"]; ?>
 
-				<div class="tab" aria-label="buy">
+		</div><!--end of right-->
 
-					<p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
 
-					<script src="https://www.cognitoforms.com/f/seamless.js" data-key="NiNAkf4LukqBZOHDFOMsiQ" data-form="33"></script>
 
+		<aside id="social">
+			<?php include 'includes/twitter.inc.php'; ?>
+		</aside>
 
-				</div><!-- ./buynow -->
 
-			</div><!-- ./responive-tabs -->
 
-		</div><!-- end of colfull -->
+		</div><!--end of container-->
 
 
-	</div><!--end of content-->
 
-
-    <div class="disclosure">
-
-   		<?php include 'includes/package-info-generic.inc.php'; ?><br/>
-
-        <strong>Disclaimer</strong> | The term Urban Ski, Urban Ski Weekend, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. The use of any logos, words, trademarks, or photos have been used for Descriptive Purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.
-
-   </div>
-
-
-      </div><!--end of right-->
-
-
-
-      <aside id="social">
-     	 <?php include 'includes/twitter.inc.php'; ?>
-      </aside>
-
-
-
-    </div><!--end of container-->
-
-
-
-</div><!--end of wrap-->
-
-
+	</div><!--end of wrap-->
 
 <!-- Footer  -->
 
@@ -516,6 +391,4 @@ $package_items = array(
 <!--google analytics-->
 
 <?php include 'includes/analytics.inc.php'; ?>
-
-<?php ob_end_flush();?>
 </body></html>

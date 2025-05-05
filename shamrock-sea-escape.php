@@ -4,63 +4,16 @@
     include 'includes/functions.inc.php';
     include 'includes/meta.config.inc.php';
 
-	$event = array(
-		"title"				=>"Shamrock Sea Escape",
-		"subtitle"			=>"Celebrate St. Patrick’s Day With A Cruise to Cozumel, Mexico",
-		"location"			=>"Cozumel, MX",
-		"date"				=>"March 17-22, 2025",
-        "date_start"		=>"March 17, 2025",
-		"img_url"			=>"../../images/slides/splash-shamrock-cta.jpg",
-		"img_alt"			=>"Shamrock Sea Escape 61Banner"
-	);
+	// Load the event configuration
+	$event_config = require 'config/events/conf_shamrock.php';
 
-	$geolocation = array(
+	// Access configuration data
+	$event = $event_config['event'];
+	$geolocation = $event_config['geolocation'];
+	$people = $event_config['people'];
+	$package_items = $event_config['package_items'];
 
-		"cruise1"=> array(
-			"title" 			=> "Carnival Valor",
-			"ship"				=> "https://media-cdn.tripadvisor.com/media/photo-s/15/3b/26/85/carnival-valor-ta-listings.jpg",
-			"location"		    => "Cozumel, MX",
-			"address"			=> "77600 San Miguel de Cozumel, Quintana Roo, Mexico",
-			"soldout"			=> false,
-			"img_url"			=> "https://media-cdn.tripadvisor.com/media/photo-s/15/3b/26/85/carnival-valor-ta-listings.jpg"
 	
-		),
-
-
-	);
-
-	$people = array(
-		"diamond"=> array(
-			"Group of 3"			=> "$1,400",
-			"Group of 2"			=> "$1,600",
-			"Individual"			=> "$2,600"
-		),
-
-		"emerald"=> array(
-			""
-		),
-
-		"options"=>array(
-			"Hotel Only" => "$1245 (Weekend)"
-		),
-
-	);
-
-	$package_items = array(
-		"diamond_items" => array(
-			"6 Day/5 Night Cruise"			        	=> "checked",
-			"All You Can Eat All Weekend Long"	        => "checked",
-			"Cheers Package (15 drinks daily)"	        => "checked",
-			"Tickle Me Green Private Welcome Reception"	=> "checked",
-			"Lucky Leprechaun Private Night Party"		=> "checked",
-			"Carnival Cruise Activities"				=> "checked",
-			"Bust A Gut Comedy Private Show"			=> "checked",
-			"The Speak Easy Live Private Concert"		=> "checked",
-			"Open Bar Captains Sunrise Reception"		=> "checked",
-			"The Black Film Fest Private Screening"		=> "checked",
-			"YOLLO Swag Bag"							=> "checked"
-		),
-	);
 
 ?>
 <!doctype html>
@@ -123,7 +76,7 @@
                         
                         <?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
-						<h2 class="h4">Join us for St. Patricks Day in Cozumel, Mexico</h2>
+						<h2>Join us for St. Patricks Day in Cozumel, Mexico</h2>
 						<!--new copy start-->
 						<p>St. Patrick's Day is a celebrated holiday in many countries throughout the world. Those who do celebrate find it to be a wonderful day for socialization, camaraderie, and relaxation. What better way to celebrate such an occasion than with an all inclusive St. Patrick's Day cruise from YOLLO Group Services?</p>
 						<p>With great drinks, cuisine, and entertainment during the later hours, you and your group are sure to have the time of your lives when you decide to embark on a St. Patrick's Day cruise. And being all-inclusive means that you get everything you could ever want on such a cruise at an incredibly competitive, one-time price.</p>

@@ -14,4 +14,25 @@ $base-fontsize: 1.6rem;
 $base-fontsize-sm: 1.2rem;
 $base-fontsize-lg: 2.4rem;
 $yollo-red: #9E1421;
-$yollo-red--hover: darken(#9E1421, 10%);;
+$yollo-red--hover: darken(#9E1421, 10%);
+
+
+$sans-serif: 'opensans', san-serif;
+$sans-serif-light: 'opensans-lite', san-serif;
+$serif: 'merriweather', Arial, sans-serif;
+
+$h1: 2.488rem;
+$h2: 2.073rem;
+$h3: 1.728rem;
+$h4: 1.44rem;
+$h5: 1.2rem;
+$h6: 1rem;
+
+@media (max-width: 480px) {
+  $h1: 2.073rem;
+  $h2: 1.728rem;
+  $h3: 1.44rem;
+  $h4: 1.2rem;
+  $h5: 1rem;
+  $h6: 0.906rem;
+}

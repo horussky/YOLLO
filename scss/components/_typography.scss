@@ -20,10 +20,29 @@ h2{
 }
 
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6{
+	font-family:"merriweather", Arial, sans-serif;
+	font-weight:700;
+	line-height:1.2;
+	margin-bottom: 16px;
+	letter-spacing: -1px;
+}
+
 p{
-	font-family: "opensans", san-serif;
-	line-height: 1.5;
-	margin-bottom: 24px;
+	font-family:"opensans", san-serif;
+	line-height:1.5;
+	margin-bottom:1rem;
 }
 
 // Lists

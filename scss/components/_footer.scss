@@ -43,7 +43,12 @@ footer{
 		grid-gap: 20px 16px;
 		grid-template-areas:"foot-about foot-events foot-contact foot-sponsor";
 		
-		
+		.h6{
+			font-family: 'opensans-semibold', Arial, sans-serif;
+			text-transform: uppercase;
+			letter-spacing: .25rem;
+			font-size: .8rem;
+		}
 	} 
 	
 	.foot-about{
@@ -96,39 +101,15 @@ footer{
 			.fa-2x{
 				margin-right: 8px;				
 			} 
-            
-			.fa-instagram{
+
+			[class^="fa-"]{
 				position: absolute;
 				top: 50%;
 				left: 50%;
 				transform: translate(-50%, -50%);
 				font-size: 1rem;
 			}
-			
-			.fa-facebook{
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				transform: translate(-50%, -50%);
-				font-size: 1rem;
-			}
-			
-			.fa-twitter{
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				transform: translate(-50%, -50%);
-				font-size: 1rem;
-			}
-			
-			.fa-snapchat{
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				transform: translate(-50%, -50%);
-				font-size: 1rem;
-			}
-            
+
 		}
 		
 	}

@@ -13,7 +13,7 @@
 
 @media only screen and (max-width : 991px) {
 	#wrap{
-		padding-top:100px;
+		padding-top:80px;
 	}
 
     .pushy{
@@ -1014,7 +1014,7 @@
 @media (min-width: 768px){	
 	#container, .foot-wrap {
 		width: 100%;
-    	padding: 0 20px;
+    	padding: 0 2.5rem;
 	}
 	.col-1,.col-10,.col-11,.col-12,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9 {
         float:left
@@ -1025,19 +1025,20 @@
 @media (min-width: 991px){	
 	#container, .foot-wrap {
 		width: 100%;
-    	padding: 0 20px;
+    	padding: 0 2.5rem;
 	}	
 }
 
 @media (min-width: 1024px){	
 	#container, .foot-wrap {
 		width: 100%;
-    	padding: 0 20px
+    	padding: 0 2.5rem;
 	}	
 }
 
 @media (min-width: 1200px){	
 	#container, .foot-wrap {
 		width: 100%;
+		max-width: 1440px;
 	}	
 }

@@ -1,50 +1,17 @@
 <?php
-
-	ob_start("ob_gzhandler");
 	include 'includes/functions.inc.php';
 	include 'includes/meta.config.inc.php';
 
+	// Load the event configuration
+    $event_config = require 'config/events/conf_daytopia.php';
+
+    // Access configuration data
+    $event = $event_config['event'];
+    $geolocation = $event_config['geolocation'];
+    $people = $event_config['people'];
+    $package_items = $event_config['package_items'];
+
 	$eventbriteID = "1025067413227";
-
-	$event = [
-		"title" => "Daytopia: It's All About R&B",
-		"subtitle" => "Come Party with YOLLO ",
-		"location" => "Montgomery, AL",
-		"date" => "April 18-19, 2025",
-		"date_start" => "April 18, 2025",
-		"img_url" => "../../images/slides/splash-daytopia-cta.jpg",
-		"img_alt" => "Daytopia Day Party",
-		"hotel_link" => null
-	];
-
-	$geolocation =[
-		"hotel1" => [
-			"title" => "Renaissance Montgomery Hotel & Spa",
-			"address" => "201 Tallapoosa Street",
-			"location" => "Montgomery, Alabama 36104",
-			"geolocation" => "201 Tallapoosa Street Montgomery, Alabama 36104",
-			"soldout" => false,
-			"img_url" => "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/da/8c/6f/photo0jpg.jpg?w=1200&h=-1&s=1",
-			"host" => true
-		]
-	];
-
-	$package_items = array(
-		"diamond_items" => array(
-			"Crowd Control by: DJ Dre Smoove" => "checked",
-			"Poets: TBA 2p-5p" => "checked",
-			"Comedians: TBA" => "checked",
-			"Live Performances by:T.B.A." => "checked",
-			"Meet and Greet with Cocktails by Pour Crazy Bartending" => "checked",
-			"Colors and Cocktails" => "checked",
-			"Party Gras: Kick Off Party" => "checked",
-			"Bottles and Beads Cruise 8:30p -12:30a" => "checked"
-		),
-		"emerald_items" => array(
-			""
-		)
-	);
-
 ?>
 
 <!doctype html>
@@ -102,32 +69,26 @@
 
 					<div class="colfull">
 		
-						<h2 class="h4">Welcome to Daytopia: Your Ultimate Day Party Experience!</h2>
+						<h2>Welcome to Daytopia: Your Ultimate Day Party Experience!</h2>
 
-						<p>Join us for an extraordinary journey of excitement and celebration at YOLLO's Daytopia Day Party in Gumptown. This is no ordinary party; it's an all-weekend affair filled with unforgettable moments across three amazing venues: Bama Lanes, Looney's Super Skate, and Harriott One Riverboat.</p>
+						<p>Join us for an extraordinary journey of excitement and celebration at YOLLO's Daytopia in Gumptown. This is no ordinary event; it's a weekend affair filled with unforgettable moments across two amazing venues: Bama Lanes and  2211 Ultimate Play Zone.</p>
 
-						<p>Daytopia features a weekend packed with excitement, including a bowling party, a skate party, and a scenic river cruise for a fantastic getaway. You'll enjoy delicious food, refreshing drinks, and great music at every venue. The event is proudly sponsored by The Lion's Den Mobile Lounge and King 79 Vodka. Don't miss out — secure your spot at Daytopia before tickets sell out. Gather your friends, lace up your bowling shoes, grab your skates, and get ready to dance the day away on the river!</p>
+						<p>Daytopia is your ultimate weekend escape, packed with energy, fun, and unforgettable memories! Kick off the weekend on Friday night with our Roll Bounce-themed skate party at 2211 Ultimate Play Zone. Glide into the good times with a live DJ, exciting games, prize giveaways, and nonstop fun all night long. Then, keep the momentum going on Saturday at our high-energy bowling day party at Bama Lanes. Enjoy complimentary food provided by our sponsor, King 79 Vodka, while you bowl, vibe to the music, and compete for more great prizes. A live DJ will keep the atmosphere lively and the party going strong. Whether you're skating under the lights or aiming for a perfect strike, Daytopia is all about good vibes, great company, and creating memories you won't forget. Don't miss your chance to be part of this epic weekend — gather your crew and secure your spot at Daytopia today!</p>
 
-						<h2 class="h5">Buy Now</h2>
+						<h3>Buy Now</h3>
 						<div class="mb-20" id="eventbrite-widget-container-<?php echo $eventbriteID ?>"></div>
 						<hr class="mt-20" />
 
 					</div><!-- end of colfull -->
 
 					<div class="disclosure">
-
-						<?php include 'includes/package-info-generic.inc.php'; ?><br />
-
-						<strong>Disclaimer</strong> | The term <?php echo $event["title"]; ?>, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. The use of any logos, words, trademarks, or photos have been used for Descriptive Purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.
+						<?php include 'includes/package-info-generic.inc.php'; ?>
+						<p><strong>Disclaimer</strong> | The term <?php echo $event["title"]; ?>, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. The use of any logos, words, trademarks, or photos have been used for Descriptive Purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.</p>
 					</div>
 
 				</div><!--end of content-->
 
 			</div><!--end of right-->
-
-			<aside id="social">
-				<?php include 'includes/twitter.inc.php'; ?>
-			</aside>
 
 		</div><!--end of container-->
 

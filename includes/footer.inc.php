@@ -7,14 +7,18 @@
 				<p><a class="chev-link" href="/about" title="Learn more about YOLLO">Read more about YOLLO</a></p>
 
 				<ul>
-				<li class="foot-share-links"><i class="fa-li fa fa-share" aria-hidden="true"></i>
-						<a href="http://www.facebook.com/yollogsinc" target="_blank" title="Become a fan of YOLLO Group Services"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a> 
+				<li class="foot-share-links">
+						<a href="http://www.facebook.com/yollogsinc" target="_blank" title="Become a fan of YOLLO Group Services"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a> 
 
-						<a href="https://twitter.com/YOLLOGSINC" target="_blank" title="Follow YOLLO Group Services on Twitter"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+						<a href="https://x.com/YOLLOGSINC" target="_blank" title="Follow YOLLO Group Services on X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
 
-						<a href="https://instagram.com/yollogsinc" target="_blank" title="Follow YOLLO Group Services on Instagram"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+						<a href="https://bsky.app/profile/yollogsinc.bsky.social" target="_blank" title="Follow YOLLO Group Services on Blue Sky"><i class="fa-brands fa-bluesky" aria-hidden="true"></i></a>
 
-						<a href="https://www.snapchat.com/add/yollogsinc" target="_blank" title="Follow YOLLO Group Services on Snapchat"><i class="fa fa-snapchat fa-2x" aria-hidden="true"></i></a>
+						<a href="https://instagram.com/yollogsinc" target="_blank" title="Follow YOLLO Group Services on Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+
+						<a href="https://www.snapchat.com/add/yollogsinc" target="_blank" title="Follow YOLLO Group Services on Snapchat"><i class="fa-brands fa-snapchat" aria-hidden="true"></i></a>
+
+						
 					</li>
 				</ul>
 			</div>
@@ -26,7 +30,7 @@
 							<div class="event">
 								<div class="event-img">
 									<a href="<?php echo $event->link; ?>" title="<?php echo $event->title; ?>">
-										<img src="<?php echo $event->img; ?>" />
+										<img src="<?php echo $event->img; ?>" alt="" />
 									</a>
 								</div>
 								<div class="event-content">
@@ -60,12 +64,12 @@
 			<div class="foot-sponsor">
 				<h5 class="h6">Sponsors</h5>
 				<div class="sponsors">
-					<a class="urbanham" title="Urbanham" href="http://www.urbanham.com" target="_blank"><img src="../images/urbanham-logo-small.png" /></a>
-					<a class="whatshappening" title="Whats Happening Birmingham" href="http://www.whatshappeningbham.com/" target="_blank"><img src="../images/whats-happening-bham-logo.png" /></a>
-					<a class="bagvoy" title="Bag Voyaage" href="http://www.bagvoyaage.com" target="_blank"><img src="../images/bag-voyage-logo.png" /></a>
-					<a class="travelguard" title="Travel Insurance with AIG" href="https://www.travelguard.com/agentlink.asp?ta_arc=01721624&pcode=MYTG&agencyemail=onelife@goyollo.com" target="_blank"><img src="../images/travel-guard-logo.png" /></a>
-					<a class="iata" title="IATA affiliate" href="http://www.iatan.org" target="_blank"><img src="../images/iata-logo.png" /></a>
-					<a class="bbb" target="_blank" title="Click for the Business Review of YOLLO Group Services, Inc., a Travel Agencies &amp; Bureaus in Montgomery AL" href="https://www.bbb.org/central-alabama/business-reviews/travel-agencies-and-bureaus/yollo-group-services-in-montgomery-al-90038616#sealclick"><img src="../images/bbb-logo.png" /></a> 
+					<a class="urbanham" title="Urbanham" href="http://www.urbanham.com"  target="_blank"><img src="../images/urbanham-logo-small.png" alt="urbanham logo" /></a>
+					<a class="whatshappening" title="Whats Happening Birmingham" href="http://www.whatshappeningbham.com/" target="_blank"><img src="../images/whats-happening-bham-logo.png" alt="whats happening bham logo" /></a>
+					<a class="bagvoy" title="Bag Voyaage" href="http://www.bagvoyaage.com" target="_blank"><img src="../images/bag-voyage-logo.png" alt="bag voyage logo" /></a>
+					<a class="travelguard" title="Travel Insurance with AIG" href="https://www.travelguard.com/agentlink.asp?ta_arc=01721624&pcode=MYTG&agencyemail=onelife@goyollo.com" target="_blank"><img src="../images/travel-guard-logo.png" alt="travel guard logo" /></a>
+					<a class="iata" title="IATA affiliate" href="http://www.iatan.org" target="_blank"><img src="../images/iata-logo.png" alt="iatan logo" /></a>
+					<a class="bbb" target="_blank" title="Click for the Business Review of YOLLO Group Services, Inc., a Travel Agencies &amp; Bureaus in Montgomery AL" href="https://www.bbb.org/central-alabama/business-reviews/travel-agencies-and-bureaus/yollo-group-services-in-montgomery-al-90038616#sealclick"><img src="../images/bbb-logo.png" alt="bbb logo" /></a> 
 				</div>
 				
 			</div>
