@@ -1,8 +1,22 @@
+/* Header H1-H6 Styles */
+/// h1-h6 SASS For Loop
+/// iterates 1-6 to create header styles
+/// e.g. h1, .h1{...}
+@for $i from 1 through 6 {
+	h#{$i},
+	.h#{$i} {
+	  font-family: "merriweather", Arial, sans-serif;
+	  font-weight: 700;
+	  line-height: 1.2;
+	  margin-bottom: 16px;
+	  letter-spacing: -1px;
+	}
+}
+
 h2{
-    //font-size:  4rem;
-         &.title{
-           text-transform: none;
-         }
+	&.title{
+		text-transform: none;
+	}
 }
 
 
@@ -47,10 +61,10 @@ ol {
 
 ul{
 	list-style:disc outside none;
-}
 
-ul:not(.event-nav){
-	margin-left:20px;
+	/*:not(.event-nav){
+		margin-left:20px;
+	}*/
 }
 
 ol{ 				

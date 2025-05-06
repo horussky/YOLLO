@@ -1,30 +1,38 @@
 /*helper classes*/
-.smallmargin{
-	margin-bottom: 1rem;
-  }
-  
-  .mediummargin{
-	margin-bottom: 2rem;
-  }
-  
-  .largemargin{
-	margin-bottom: 4rem;
-  }
+
   
   .img-responsive{
 	  max-width: 100%;
 	  height: auto;
   }
-  
-  
 
+  /* Margin Classes */
+  ///  Margin Classes SASS Loop
+  ///  generates utility classes for margins
+  ///  directions: mt, mr, mb, ml (top right bottom left)
+  ///  e.g. mt-5, mt-10, mt-20, mt-40
   
+  $margin-sm: 0.5rem;
+  $margin-md: 1rem;
+  $margin-lg: 2rem;
+  $margin-xl: 4rem;
 
+  $margins: (5: $margin-sm, 10: $margin-md, 20: $margin-lg, 40: $margin-xl);
+  $directions: (t: top, l: left, b: bottom, r: right);
+
+  @each $size, $value in $margins {
+    @each $dir, $prop in $directions {
+      .m#{$dir}-#{$size} {
+        margin-#{$prop}: $value;
+      }
+    }
+  }
+  
   
   .close-x{
-	width: 32px;
-	height: 32px;
-	opacity: 0.3;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
 	  
 	  &:hover {
 			opacity: 1;

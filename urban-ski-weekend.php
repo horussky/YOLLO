@@ -81,7 +81,7 @@
 
 						<h3>What Makes This Experience Irresistible:</h3>
 
-						<p>You'll enjoy a very accommodating 3-day, 2-night stay at our premium host hotel. Start each morning with a delicious sponsored breakfast that fuels your mountain adventures. Indulge in up to 28 hours of sponsored bar drinks that keep the energy high and the memories flowing. Your exclusive party passes unlock VIP access to the most sought-after events, while our headline comedy show guarantees non-stop laughter. </p>
+						<p>You'll enjoy a very accommodating 4-day, 3-night stay at our premium host hotel. Start each morning with a delicious sponsored breakfast that fuels your mountain adventures. Indulge in up to 28 hours of sponsored bar drinks that keep the energy high and the memories flowing. Your exclusive party passes unlock VIP access to the most sought-after events, while our headline comedy show guarantees non-stop laughter. </p>
 
 						<p>This isn't just a ski trip - it's a life-changing adventure that will create stories you'll tell for years. Limited spots are available, and our 2025 event sold out in record time. Don't miss your chance to transform your winter and create memories that will last a lifetime. <a data-href="#tabs-5" class="open-tab">Register and reserve your spot today!</a></p>
 
@@ -195,7 +195,7 @@
 							<div class="accordion open" data-accordion>
 								<div data-control>When are the payments due?</div>
 								<div data-content>
-								<p>Following registration the first payment of $125 is due on or before March 1, 2025.  The second payment of $300 is due on or before June 1, 2025. The final payment (remaining balance) is due on or before September 1, 2025. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+								<p>Following registration the first payment of $125 is due on or before May 10, 2025.  The second payment of $300 is due on or before July 1, 2025. The final payment (remaining balance) is due on or before September 1, 2025. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 
 								</div>
 

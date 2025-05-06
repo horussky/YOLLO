@@ -4,7 +4,7 @@ include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
 $event = array(
-	"title"					=> "HBCU Alumni Getaway Cruise 2024",
+	"title"					=> "Test 2024",
 	"subtitle"				=> "The LIVEST HBCU Alumni party at SEA!",
 	"location"				=> "Cabo San Lucas & Ensenada",
 	"date"					=> "December 2-6, 2024",
@@ -26,23 +26,19 @@ $geolocation = array(
 
 );
 
-$people = array(
-		"diamond"=> array(
-			"Group of 4" 			=> "SOLD-OUT",
-			"Group of 3"			=> "$975",
-			"Group of 2"			=> "$1,200",
-			"Individual"			=> "$1,450"
-		),
-
-		"emerald"=> array(
-			""
-		),
-
-		"options"=>array(
-			"Hotel Only" => "$1245 (Weekend)"
-		),
-
-);
+define('SOLD_OUT', 'Sold Out');
+$people = [
+	
+    "diamond" => [
+        "Group of 4" => SOLD_OUT,
+        "Group of 3" => 975,
+        "Group of 2" => 1200,
+        "Individual" => 1450,
+    ],
+    "emerald" => [
+        
+    ],
+];
 
 $package_items = array(
 	"diamond_items" => array(
