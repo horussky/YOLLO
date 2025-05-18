@@ -28,7 +28,7 @@
 		"people" =>[
 
 			"diamond"=> array(
-			"Group of 4" 			=> "SOLD-OUT",
+			"Group of 4" 			=> "S1,150",
 			"Group of 3"			=> "$1,400",
 			"Group of 2"			=> "$1,900",
 			"Individual"			=> "$2,850"

@@ -51,8 +51,8 @@
 			"diamond_items" => array(
 				"4 Days / 3 Nights Hotel Accommodations"        => "checked",
 				"The Best of the Best Fashion Shows"            => "checked",
-				"11th Annual Winter White Party"		        => "checked",
-				"11th Annual \"LOL\" Comedy Show"		        => "checked",
+				"15th Annual Winter White Party"		        => "checked",
+				"15th Annual \"LOL\" Comedy Show"		        => "checked",
 				"The Rep Your City Party"		    			=> "checked",
 				"Freaky Friday PJ Party"						=> "checked",
 				"Access To The Exclusive Super Lounges Each Night"	    => "checked",
