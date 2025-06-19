@@ -17,8 +17,8 @@ html {
 
 * {
 	box-sizing: border-box;
-	
 }
+
 *:before,
 *:after {
     box-sizing: border-box;
@@ -80,6 +80,13 @@ a.chev-link:hover:after{
 #left{
 	width:20%;
 	float:left;
+}
+
+//sticky sidebar
+#left{
+  top: 0; 
+  z-index: 10; 
+  position: sticky;
 }
 
 /* RIGHT CONTENT */

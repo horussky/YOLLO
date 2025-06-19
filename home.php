@@ -42,7 +42,7 @@ include 'includes/meta.config.inc.php';
                 <?php echo $json["homepage__description"]; ?><?php */?>
 
                 <h1>Live the Moment. Experience More.</h1>
-				<p>At YOLLO Group Services, we turn travel into unforgettable experiences. As a premier full-service travel company in the Southeast, we create all-inclusive event packages that go beyond the main attraction. From electrifying concerts to themed parties and exclusive day events, we bring the fun wherever you go.</p>
+				<p>At YOLLO Group Services, we turn travel into lifetime unforgettable experiences. As a premier full-service travel company in the Southeast, we create and stylize all-inclusive event packages that go beyond just the main attraction. From electrifying concerts to themed parties and exclusive kickback day events, we bring the fun wherever you go.</p>
 				<p>Learn more <a title="read more about YOLLO" href="about.php">about YOLLO</a> and discover your next adventure below.</p>
             </section>
            

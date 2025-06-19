@@ -34,25 +34,15 @@
             "/nati-music-festival", //link
             "Book now for an all-inclusive Cincinnati Music Festival travel package to experience renowned performers and Grown and Sophisticated Mid-Day Cruise." //desc
         ),
-        /*new Event(
-            "Daytopia", //title
-            "Montgomery, AL", //location
-            "April 18-19, 2025", //date
-            strtotime("April 18, 2025"), //start
-            strtotime("April 19, 2025"), //end
-            "images/slides/splash-daytopia.jpg", //img
-            "/daytopia", //link
-            "Experience the ultimate day party at YOLLO's Daytopia in Gumptown! Enjoy bowling, skating, and a river cruise with food, drinks, and music. Secure your spot now!" //desc
-        ),*/
         new Event(
             "Daytopia", //title
             "Montgomery, AL", //location
-            "April 18-19, 2025", //date
-            strtotime("April 18, 2025"), //start
-            strtotime("April 19, 2025"), //end
+            "June 28, 2025", //date
+            strtotime("June 28, 2025"), //start
+            strtotime("June 28, 2025"), //end
             "images/slides/splash-daytopia.jpg", //img
             "/daytopia", //link
-            "Experience the ultimate day party at YOLLO's Daytopia in Gumptown! Enjoy bowling, skating, and a river cruise with food, drinks, and music. Secure your spot now!" //desc
+            "Experience the ultimate bowling party at YOLLO's Daytopia in Gumptown! Enjoy bowling with food, drinks, and music. Secure your spot now!" //desc
         ),
         new Event(
             "Grown & Sophisticated Mid-Day Cruise",
@@ -207,9 +197,9 @@
         new Event(
             "Urban Fiesta Weekend",
             "Montego Bay, Jamaica",
-            "May 23-25, 2025",
-            strtotime("May 23, 2025"),
-            strtotime("May 25, 2025"),
+            "May 22-24, 2026",
+            strtotime("May 22, 2026"),
+            strtotime("May 24, 2026"),
             "images/slides/splash-urban-fiesta.jpg",
             "/urban",
             "Explore Jamaica with YOLLO Group Services! Book your Urban Fiesta adventure now for a memorable Caribbean experience."
