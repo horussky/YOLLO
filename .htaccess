@@ -54,3 +54,4 @@ ErrorDocument 404 /404.php
 Redirect 301 /black-ski-weekend.php /urban-ski-weekend.php
 Redirect 301 /ciaa.php /the-tourney.php
 Redirect 301 /macys-music-festival.php /nati-music-festival.php
+Redirect 301 /urban.php /urban-fiesta-jamaica.php

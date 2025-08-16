@@ -1,12 +1,19 @@
 <?php
 return [
 
+	"metas" => [
+		"title"       => "CIAA Tourney Weekend 2026 - YOLLO Group Services",
+		"description" => "Join us for the CIAA Tourney Weekend 2026 in Baltimore, MD! Experience a weekend of basketball, parties, and exclusive events with YOLLO Group Services.",
+		"keywords"    => "CIAA Tourney, Baltimore, MD, basketball, parties, 2026",
+		"canonical"   => "https://goyollo.com/events/the-tourney",
+	],
+
 	"event" => [
-		"title"      => "The Tourney Weekend 2025",
+		"title"      => "The Tourney Weekend 2026",
 		"subtitle"   => "B-More Here We COME! It will be BIG!",
 		"location"   => "Baltimore, MD",
-		"date"       => "February 27 - March 1, 2025",
-		"date_start" => "February 27, 2025",
+		"date"       => "February 25 - March 1, 2026",
+		"date_start" => "February 27, 2026",
 		"img_url"    => "../../images/slides/splash-tourney-cta.jpg",
 		"img_alt"    => "The Tourney"
 	],
@@ -25,17 +32,17 @@ return [
 	"people" =>[
 
 		"diamond"=> array(
-			"Group of 4" => "$705",
-			"Group of 3" => "$825",
-			"Group of 2" => "$950",
-			"Individual" => "$1,500"
+			"Group of 4" => "$805",
+			"Group of 3" => "$925",
+			"Group of 2" => "$1,050",
+			"Individual" => "$1,600"
 		),
 
 		"emerald"=> array(
-			"Group of 4" => "$650",
-			"Group of 3" => "$780",
-			"Group of 2" => "$925",
-			"Individual" => "$1,260"
+			"Group of 4" => "$750",
+			"Group of 3" => "$880",
+			"Group of 2" => "$1,025",
+			"Individual" => "$1,360"
 		),
 
 		"options"=>array(
@@ -52,7 +59,7 @@ return [
 			"Saturday Night Party Pass"         => "checked",
 			"Saturday Day Party"                => "checked",
 			"Saturday After Hours Party"        => "checked",
-			"One Bottle of Ciroc per group"     => "checked",
+			"Basketball Game Tickets - (Saturday)"     => "checked",
 			"YOLLO Swag Bag"                    => "checked"
 		),
 
@@ -63,7 +70,7 @@ return [
 			"Saturday Night Party Pass"         => "ex",
 			"Saturday Day Party"                => "checked",
 			"Saturday After Hours Party"        => "checked",
-			"One Bottle of Ciroc per group"     => "checked",
+			"Basketball Game Tickets - (Saturday)"     => "checked",
 			"YOLLO Swag Bag"                    => "checked"
 		)
 	], 

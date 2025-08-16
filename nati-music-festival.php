@@ -1,7 +1,6 @@
 <?php
 
 include 'includes/functions.inc.php';
-include 'includes/meta.config.inc.php';
 
 // Load the event configuration
 $event_config = require 'config/events/conf_nati.php';
@@ -11,20 +10,19 @@ $event = $event_config['event'];
 $geolocation = $event_config['geolocation'];
 $people = $event_config['people'];
 $package_items = $event_config['package_items'];
-
-
+$metas = $event_config['metas'];
 
 ?>
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title><?php echo $metas['nati']['title']; ?></title>
+    <title><?php echo $metas['title']; ?></title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="<?php echo $metas['nati']['desc']; ?>" />
-    <meta name="keywords" content="<?php echo $metas['nati']['keywords']; ?>" />
+    <meta name="description" content="<?php echo $metas['description']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['keywords']; ?>" />
     <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-    <link href="<?php echo $metas['nati']['canonical']; ?>" rel="canonical" />
+    <link href="<?php echo $metas['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
     <meta property="fb:pages" content="117420764961518" />
     <link rel="icon" href="favicon-192.png" sizes="192x192">
@@ -71,16 +69,16 @@ $package_items = $event_config['package_items'];
 
                             <?php echo $responsive_tabs["overview"]; ?>
                             <div class="tab" aria-label="overview">
-                                <h2>Secure Your Spot at the Cincinnati Music Festival Today!</h2>
-                                <p>Get ready for a legendary weekend of music, culture, and nonstop fun at the Cincinnati Music Festival 2025! This festival has hosted icons like Janet Jackson, Charlie Wilson, and Snoop Dogg, and this year promises another star-studded lineup. With YOLLO Group Services, you won’t just attend the festival—you'll experience it in style with exclusive access, premium accommodations, and unforgettable events. Don't miss out on this extraordinary experience—secure your spot for an unforgettable event by <a data-href="#tabs-5" href="#" class="open-tab">booking</a> your Cincinnati Music Festival travel package today!</p>
+                                <h2>Cincinnati Music Festival 2026 Is Going to Be Epic!</h2>
+                                <p>Prepare for the biggest weekend of music, culture, and electrifying energy at the Cincinnati Music Festival 2026! This legendary festival has brought icons like Beyoncé, Bruno Mars, and Kendrick Lamar to the stage—and next year's lineup will be even more unforgettable. With YOLLO Group Services, you won't just attend; you'll dominate the weekend with exclusive VIP access, luxury stays, and premium events. Spots fill fast—<a data-href="#tabs-5" href="#" class="open-tab">book now</a> to guarantee your place at the hottest festival of the year!</p>
 
-                                <h3>Upgrade Your Weekend with the All White Mid-Day Cruise</h3>
-                                <p>Looking to add a touch of class and elegance to your Cincinnati Music Festival experience? There is no need to look any further! Get ready to embark on a luxurious journey with our exclusive All White Grown and Sophisticated Mid-Day Cruise event. It's hosted aboard the River Queen through BB Riverboats. Enhance your festival experience and make amazing moments against the stunning backdrop of the Cincinnati skyline. The cruise is from 2:30 pm - 5:00 pm. Please remember that once we sell out, we will not have any more tickets available.</p>
+                                <h3>Elevate Your Experience with the All-White Mid-Day Cruise</h3>
+                                <p>Want to take your festival weekend to the next level? Say less! Step aboard the stunning River Queen with BB Riverboats for our exclusive All-White Grown & Sophisticated Mid-Day Cruise. Glide along the Ohio River, vibing to top-tier music while soaking in breathtaking views of the Cincinnati skyline. Limited tickets available —once they're gone, they're GONE! Don't wait—secure your spot for this 2:30 PM - 5:00 PM luxury experience before it sells out!</p>
 
-                                <h3>Beyond the Music—A Full Weekend of Luxury & Culture.</h3>
-                                <p>YOLLO's curated festival packages offer more than just tickets. Stay in top-rated hotels, indulge in Cincinnati's vibrant food scene, and connect with a community of music lovers from across the country.  YOLLO's premium packages ensure a hassle-free stay with top-tier accommodations and access to the best events. Don't just go to the festival—experience it like a VIP. <a data-href="#tabs-5" href="#" class="open-tab">Secure your spot today</a> and get ready for an epic weekend of music, excitement, and nonstop fun!</p>
+                                <h3>More Than Music—A Full Weekend of VIP Treatment & Culture</h3>
+                                <p>With YOLLO's premium festival packages, you don't just get a ticket—you get the ultimate weekend. Stay in luxury hotels, savor Cincinnati's best eats, and party with an elite crowd of music lovers. We handle the details—you enjoy nonstop VIP access, seamless accommodations, and legendary events. This isn't just a concert; it's the experience of a lifetime. <a data-href="#tabs-5" href="#" class="open-tab">Grab your package now</a> and get ready for three days of pure magic!</p>
 
-                                <p>YOLLO is looking forward to another terrific festival in 2025, and we hope you join us and be a part of this special summer occasion. </p>
+                                <p>YOLLO can't wait to bring the heat in 2026—will you be there? Don't just dream about it—make it happen!</p>
 
                                 <table class="itinerary">
                                     <caption>Event Lineup</caption>
@@ -92,21 +90,15 @@ $package_items = $event_config['package_items'];
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Friday, July 25</td>
+                                            <td>Friday, July 24</td>
                                             <td>
-                                                <li>Earth, Wind & Fire</li>
-                                                <li>Anthony Hamilton</li>
-                                                <li>Jazmine Sullivan</li>
-                                                <li>PJ Morton</li>
-                                                <li>Zapp</li> 
+                                                <li>tbd</li>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Saturday, July 26</td>
+                                            <td>Saturday, July 25</td>
                                             <td>
-                                                <li>Janet Jackson</li>
-                                                <li>A special tribute to Frankie Beverly, featuring Jubu</li>
-                                                <li>Special guests: Ronald Isely, Joe, After 7, Dave Hollister, Raheem DeVaughn, Lucky Daye, 112, and The Bar-Kays</li>
+                                                <li>tbd</li>
                                                 </td>
                                         </tr>
                                         
@@ -129,7 +121,7 @@ $package_items = $event_config['package_items'];
                                     </div>
                                     <div class="hg-body">
                                         <p class="hg-title"><?php echo $hotel["title"]; ?> 
-                                        <?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
+                                        <?php if($hotel["soldout"] == true) :?><span class="sold"> Sold Out </span><?php endif ?></p>
 
                                         <address>
                                             <i class="fa fa-location-arrow" aria-hidden="true"></i> 
@@ -223,7 +215,7 @@ $package_items = $event_config['package_items'];
 
                                     <div data-control>What are the payment due dates for Cincinnati Music Festival Packages?</div>
                                     <div data-content>
-                                        <p>To reserve a package each group member pays the $100.00 per person fee. The first payment of $125 is due on or before <strong>March 10, 2025</strong>. The second payment of $150 is due on or before <strong>April 10, 2025</strong>.The final payment (remaining balance) is due on or before <strong>May 10, 2025</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
+                                        <p>To reserve a package each group member pays the $100.00 per person fee. The first payment of $125 is due on or before <strong>September 10, 2025</strong>. The second payment of $150 is due on or before <strong>January 10, 2026</strong>.The final payment (remaining balance) is due on or before <strong>March 10, 2026</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
                                     </div>
 
                                     </div><!-- end of accordion-->
@@ -272,7 +264,7 @@ $package_items = $event_config['package_items'];
 
                                     <div data-control>What time does the cruise start and how much does it cost?</div>
                                     <div data-content>
-                                        <p>The cruise will sail from 2:30 pm - 5:00 pm, however boarding begins at 2:15 pm. The cost of the cruise is $60 for General Admission and $125 for VIP. For a limited time there are Early Bird tickets available at $40 for General Admission and $95 VIP.  VIP grants no line waiting entrance, Open bar, and light food during the cruise. Ticket prices increase the week of the cruise.</p>
+                                        <p>The cruise will sail from 2:45 pm - 5:00 pm, however boarding begins at 2:15 pm. The cost of the cruise is $60 for General Admission and $125 for VIP. For a limited time there are Early Bird tickets available at $40 for General Admission and $95 VIP.  VIP grants no line waiting entrance, Open bar, and light food during the cruise. Ticket prices increase the week of the cruise.</p>
                                     </div>
 
                                     </div><!-- end of accordion-->
@@ -315,7 +307,7 @@ $package_items = $event_config['package_items'];
                             
                             <div class="tab" aria-label="buy">
                                 <h2 class="h4">Buy Cruise Now</h2>   
-                                <div class="mb-20" id="eventbrite-widget-container-951980337817"></div>
+                                <div class="mb-20" id="eventbrite-widget-container-1534369643909"></div>
                             </div><!-- ./ buy now -->
 
                     </div><!-- end of responsive-tabs -->
@@ -354,7 +346,7 @@ $package_items = $event_config['package_items'];
             userID: '50836209@N03',
 
             //uncomment this line to display one specific album:
-            photoset:'72157712606706052',
+            photoset:'72177720328384256',
             thumbnailWidth: 115,
             thumbnailHeight: 'auto',
             thumbnailAlignment: 'left',
@@ -365,7 +357,6 @@ $package_items = $event_config['package_items'];
             },
             thumbnailHoverEffect:'borderLighter'
         });
-
 	});
 </script>
 <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
@@ -377,8 +368,8 @@ $package_items = $event_config['package_items'];
 
 	window.EBWidgets.createWidget({
 		widgetType: 'checkout',
-		eventId: '951980337817',
-		iframeContainerId: 'eventbrite-widget-container-951980337817',
+		eventId: '1534369643909',
+		iframeContainerId: 'eventbrite-widget-container-1534369643909',
 		iframeContainerHeight: 425,  
 		onOrderComplete: exampleCallback
 	});

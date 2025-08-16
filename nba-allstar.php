@@ -10,17 +10,18 @@
     $geolocation = $event_config['geolocation'];
     $people = $event_config['people'];
     $package_items = $event_config['package_items'];
+    $metas = $event_config['metas'];
 ?>
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title><?php echo $metas['nba']['title']; ?></title>
+    <title><?php echo $metas['title']; ?></title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="<?php echo $metas['nba']['desc']; ?>" />
-    <meta name="keywords" content="<?php echo $metas['nba']['keywords']; ?>" />
+    <meta name="description" content="<?php echo $metas['description']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['keywords']; ?>" />
     <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-    <link href="<?php echo $metas['nba']['canonical']; ?>" rel="canonical" />
+    <link href="<?php echo $metas['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
     <meta property="fb:pages" content="117420764961518" />
     <link rel="icon" href="favicon-192.png" sizes="192x192">
@@ -253,7 +254,7 @@
 
                                     <div data-control>When are the payments due?</div>
                                     <div data-content>
-                                    <p>After registration the first payment of $125 is due April 27, 2025.  The next payment of $250 is due July 1, 2025. The next payment of $350 is due September 1, 2025.  The final payment (remaining balance) is due on or before November 1, 2025.</p>
+                                    <p>After registration the first payment of $125 is due July 18, 2025.  The next payment of $250 is due September 1, 2025. The next payment of $700 is due November 20, 2025.  The final payment (remaining balance) is due on or before November 1, 2025.</p>
                                     </div>
 
                                 </div><!-- end of accordion-->

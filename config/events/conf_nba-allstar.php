@@ -1,6 +1,13 @@
 <?php
 	return [
 
+		"metas" => [
+			"title"				=> "NBA All-Star Weekend 2026 - YOLLO Group Services",
+			"description"		=> "Join us for the NBA All-Star Weekend in Los Angeles, CA from February 13-15, 2026. Experience the excitement with exclusive events and packages.",
+			"keywords"			=> "NBA, All-Star Weekend, Los Angeles, February 2026, basketball, sports event",
+			"canonical"		=> "https://goyollo.com/nba-allstar",
+		],
+
 		"event" => [
 			"title"				=>"All-Star Weekend 2026",
 			"subtitle"			=>"We Going Back 2 Cali!",

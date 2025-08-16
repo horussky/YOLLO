@@ -1,6 +1,13 @@
 <?php
 return [
 
+	"metas" =>[ 
+		"title"     => "Magic City Classic Weekend 2025",
+		"description"      => "YOLLO is providing all-inclusive packages for the Magic City Classic.",
+		"keywords"  => "Magic City Classic, Alabama A&M, Alabama State, Legion Field, Birmingham, #1 HBCU football classic, HBCU Football",
+		"canonical" => "https://www.goyollo.com/classic"
+	],
+
 	"event" => [
 		"title"				=>"Classic Weekend 2025",
 		"subtitle"			=>"It's the Classsssssic!",

@@ -1,12 +1,19 @@
 <?php
 	return [
 
+		"metas" => [
+			"title" => "Cincinnati Music Festival 2026 - YOLLO Group Services",
+			"description" => "Join us for the Cincinnati Music Festival 2025! Experience a weekend of music, culture, and unforgettable performances in Cincinnati, Ohio.",
+			"keywords" => "Cincinnati Music Festival, Cincinnati, music festival, 2025",
+			"canonical" => "https://goyollo.com/nati-music-festival",
+		],
+
 		"event" => [
-			"title"					=>"Cincinnati Music Festival 2025",
+			"title"					=>"Cincinnati Music Festival 2026",
 			"subtitle"				=>"Book your package today!",
 			"location"				=>"Cincinnati, Ohio",
-			"date"					=>"July 25-27, 2025",
-			"date_start"            => "July 25, 2025",
+			"date"					=>"July 24-26, 2026",
+			"date_start"            => "July 24, 2026",
 			"img_url"				=>"../../images/slides/splash-mmf-cta.jpg",
 			"img_alt"				=>"Cincinnati Music Festival"
 		],

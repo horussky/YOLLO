@@ -44,7 +44,7 @@ $event = array(
 
     <!-- Hero Image -->
     <div class="container-fluid px-0 mb-40">
-            <div class="row  mb-40"">
+            <div class="row mb-40">
                 <div class="col-md-12 p-0">
                     <div class="topcontent" style="background-image: url(<?php echo $event["img_url"]; ?>)">
                         <div class="overlay"></div>
@@ -75,11 +75,23 @@ $event = array(
                     <iframe width="100%" height="60" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2Fyollogsinc%2Fhbcu-alumni-getaway-mega-mix-2024-ft-dj-dre-smoove-and-dj-dirty-vegas%2F" frameborder="0" ></iframe>
                 </div><!-- ./col -->
             </div><!-- ./row -->
+
+            <div class="row justify-content-center">
+                <div class="col-sm-10">
+                    <h3>Saturday - Dec 13, 2025</h3>
+                </div>
+            </div><!-- ./row -->
+
+            <div class="row justify-content-center">
+                <div class="col-sm-10">
+                    <img src="/images/event-list/alumni/agc-kickoff-party-2025.jpg" class="img-responsive mb-20" alt="Kick Off Party">
+                </div>
+            </div><!-- ./row -->
             
 
             <div class="row justify-content-center">
                 <div class="col-sm-10">
-                    <h3>Monday - Dec 2, 2024</h3>
+                    <h3>Sunday - Dec 14, 2025</h3>
                 </div>
             </div><!-- ./row -->
 
@@ -110,7 +122,7 @@ $event = array(
 
             <div class="row justify-content-center">
                 <div class="col-sm-10">
-                    <h3>Tuesday - Dec 3, 2024 (Day at Sea)</h3>
+                    <h3>Monday - Dec 15, 2025 (Day at Sea)</h3>
                 </div>
             </div><!-- ./row -->
             
@@ -139,7 +151,7 @@ $event = array(
             
             <div class="row justify-content-center">
                 <div class="col-sm-10">
-                    <h3>Wednesday - Dec 4, 2024</h3>
+                    <h3>Tuesday - Dec 16, 2025</h3>
                 </div>
             </div><!-- ./row -->
 
@@ -151,7 +163,7 @@ $event = array(
                         <img class="img-responsive my-3" src="/images/event-list/alumni/agc-healthy-heels.jpg">
                     </div>
                     <div class="col-sm-4 col-12">
-                        <img class="img-responsive my-3" src="/images/event-list/alumni/agc-cabo-tour.jpg">
+                        <img class="img-responsive my-3" src="/images/event-list/alumni/agc-costa-maya-tour.jpg">
                     </div>
                     <div class="col-sm-4 col-12">
                     <img class="img-responsive my-3" src="/images/event-list/alumni/agc-boots-and-dukes.jpg">
@@ -163,7 +175,7 @@ $event = array(
 
             <div class="row justify-content-center">
                 <div class="col-sm-10">
-                    <h3>Thursday - Dec 5, 2024 (Day at Sea)</h3>
+                    <h3>Wednesday - Dec 17, 2025 </h3>
                 </div>
             </div><!-- ./row -->
 
@@ -175,7 +187,7 @@ $event = array(
                             <img class="img-responsive my-3" src="/images/event-list/alumni/agc-healthy-heels.jpg">
                         </div>
                         <div class="col-sm-4 col-12">
-                            <img class="img-responsive my-3" src="/images/event-list/alumni/agc-yollo-and-chill-at-sea.jpg">
+                            <img class="img-responsive my-3" src="/images/event-list/alumni/agc-belize-tour.jpg">
                         </div>
                         <div class="col-sm-4 col-12">
                         <img class="img-responsive my-3" src="/images/event-list/alumni/agc-black-hollywood.jpg">
@@ -187,7 +199,7 @@ $event = array(
 
             <div class="row justify-content-center">
                 <div class="col-sm-10">
-                    <h3>Friday - Dec 6, 2024</h3>
+                    <h3>Thursday - Dec 18, 2025</h3>
                 </div>
             </div><!-- ./row -->
 
@@ -199,10 +211,36 @@ $event = array(
                         <img class="img-responsive my-3" src="/images/event-list/alumni/agc-healthy-heels.jpg">
                     </div>
                     <div class="col-sm-4 col-12">
-                        <img class="img-responsive my-3" src="/images/event-list/alumni/agc-ensenada-tour.jpg">
+                        <img class="img-responsive my-3" src="/images/event-list/alumni/agc-cozumel-tour.jpg">
                     </div>
                     <div class="col-sm-4 col-12">
-                        <img class="img-responsive my-3" src="/images/event-list/alumni/agc-duck-hunt-happyhour.jpg">
+                        <img class="img-responsive my-3" src="/images/event-list/alumni/agc-ugly-sweater.jpg">
+                    </div>
+                    
+                </div> <!-- ./row -->
+
+                </div><!-- ./col -->
+            </div><!-- ./row -->
+
+
+            <div class="row justify-content-center">
+                <div class="col-sm-10">
+                    <h3>Friday - Dec 19, 2025 (Day at Sea)</h3>
+                </div>
+            </div><!-- ./row -->
+
+            <div class="row  justify-content-center">
+                <div class="col-sm-10">
+                    
+                <div class="row mb-20">
+                    <div class="col-sm-4 col-12">
+                        <img class="img-responsive my-3" src="/images/event-list/alumni/agc-healthy-heels.jpg">
+                    </div>
+                    <div class="col-sm-4 col-12">
+                        <img class="img-responsive my-3" src="/images/event-list/alumni/agc-yollo-and-chill-at-sea.jpg">
+                    </div>
+                    <div class="col-sm-4 col-12">
+                        <img class="img-responsive my-3" src="images/event-list/alumni/agc-duck-hunt-happyhour.jpg">
                     </div>
                     
                 </div> <!-- ./row -->
@@ -213,8 +251,8 @@ $event = array(
 
             <div class="row justify-content-center mb-40">
                 <div class="col-md-10 text-center">
-                    <h3>Book for next year</h3>
-                    <p>Do you like this year's events and missed all the fun, please make sure you book for 2025.</p>
+                    <h3>Book Now</h3>
+                    <p>Do you like last year's events and missed all the fun, please make sure you book for 2025.</p>
                     <a href="/alumni-getaway-cruise" class="btn btn-red open-tab">Book Now!</a>
                 </div>
             </div>

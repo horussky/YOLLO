@@ -1,7 +1,6 @@
 <?php
 
     include 'includes/functions.inc.php';
-    include 'includes/meta.config.inc.php';
 
 	// Load the event configuration
 	$event_config = require 'config/events/conf_essence.php';
@@ -11,18 +10,19 @@
 	$geolocation = $event_config['geolocation'];
 	$people = $event_config['people'];
 	$package_items = $event_config['package_items'];
+	$metas = $event_config['metas'];
 
 ?>
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title><?php echo $metas['essence']['title']; ?></title>
+    <title><?php echo $metas['title']; ?></title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="<?php echo $metas['essence']['desc']; ?>" />
-    <meta name="keywords" content="<?php echo $metas['essence']['keywords']; ?>" />
+    <meta name="description" content="<?php echo $metas['description']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['keywords']; ?>" />
     <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-    <link href="<?php echo $metas['essence']['canonical']; ?>" rel="canonical" />
+    <link href="<?php echo $metas['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
     <link rel="icon" href="favicon-192.png" sizes="192x192">
 	<link rel="apple-touch-icon" href="favicon-180.png" sizes="180x180">
@@ -71,17 +71,21 @@
                         <?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
 							<h2>Join us for Essence Festival Weekend 2025</h2>
+ 
+							<p>The Essence Music Festival returns for its spectacular 32nd annual celebration in 2026, solidifying its position as the premier destination for Black culture, music, and empowerment. This legendary weekend-long festival has evolved into one of the most anticipated cultural celebrations in the world, drawing hundreds of thousands of music lovers, culture enthusiasts, and community leaders to the vibrant streets of New Orleans.</p>
+            
+							<p>Beyond the electrifying concerts featuring today's biggest R&B, hip-hop, and gospel superstars, Essence Festival 2026 offers transformative seminars and workshops led by industry pioneers, influential entrepreneurs, and celebrated celebrities. These sessions dive deep into topics of empowerment, business innovation, wellness, and cultural preservation, making this more than just a music festival—it's a movement.</p>
+            
+							<p>YOLLO clients experience the ultimate VIP treatment during this unforgettable weekend, surrounded by a dynamic and passionate community of festival-goers from across the globe. <a href="#tabs-5" class="cta-link open-tab">Secure Your Spot Today!</a></p>
 
-							<p>The Essence Music Festival has a long history, celebrating its 31st annual edition this year, and it has grown to become one of the biggest and most anticipated music festivals in the world. Apart from the concerts, there are also informative and inspiring seminars where experts, influencers, and celebrities share their insights and experiences on various topics like empowerment, culture, and entertainment. YOLLO clients can expect a truly unforgettable experience, as the festival attracts a diverse and enthusiastic crowd from all over the globe. Our Essence Music Festival 2025 hotel and party packages are convenient and ensure enjoyment for our clients, ensuring they have a seamless and memorable weekend. <a data-href="#tabs-5" class="open-tab">book with us today!</a> We are the #1 source for Essence Festival Weekend hotel and party packages in 2025. </p>
 
 							<h3>The Original All-White Mid-Day Cruise Party </h3>
 
-							<p>This is the original All-White cruise party and the event everyone talks about during Essence Fest weekend 2025! This is the 20th annual Mid-Day Cruise Party, happening on the livest boat in New Orleans, Creole Queen, for your cruising delight. Enjoy a multi-level boat cruising the Mighty Mississippi River, while listening to the best Hip-Hop and R&amp;B music. The theme is "All White" attire preferred, but not required for this cruise.</p>
+							<p>Get ready for the most talked-about event of Essence Festival 2026! The iconic All-White Mid-Day Cruise Party returns for its 21st spectacular year aboard the magnificent Creole Queen, New Orleans' premier party vessel. This isn't just a cruise—it's a floating celebration that has become the heartbeat of Essence weekend.</p>
+        
+        					<p>Picture yourself dancing across multiple decks while the mighty Mississippi River carries you through the soul of New Orleans. The finest DJs spin the hottest hip-hop and R&B tracks while you network, celebrate, and create memories that last a lifetime. While all-white attire is the preferred dress code that creates stunning photo opportunities, it's not mandatory—just bring your best energy and get ready to party like never before!</p>
 
-							<h3>The Mid-Day Comedy Show</h3>
-							<p>If you are ready to bust a gut, the 13th annual Mid-Day Comedy Show is the event for you. Our comedian's, like years past, will have you in stitches. If you are looking for good food, great drinks, and lots of laugh, this is the event you cannot miss. Don't think we are going to let you down with our 2025 lineup!</p>
-
-							<p>With its perfect blend of concerts, seminars, parties, and celebrities, YOLLO hotel and party packages for Essence Music Festival weekend 2025 promises an unparalleled weekend, etching cherished moments in the hearts of all who partake in its magic. <a data-href="#tabs-5" class="open-tab">Book now</a> with YOLLO Group Services Inc. and allow us to give you the best travel experience while in New Orleans!</p>
+							<p>With its perfect blend of concerts, seminars, parties, and celebrities, YOLLO hotel and party packages for Essence Music Festival weekend 2026 promises an unparalleled weekend, etching cherished moments in the hearts of all who partake in its magic. <a data-href="#tabs-5" class="open-tab">Book now</a> with YOLLO Group Services Inc. and allow us to give you the best travel experience while in New Orleans!</p>
 
                         </div> <!-- ./overview -->
 
@@ -92,7 +96,7 @@
 						<div class="tab" aria-label="price">
 
 
-							<h2 class="h4">Hotels</h2>
+							<h2>Hotels</h2>
                                 
                                 <?php foreach($geolocation as $hotel) :?>
                                 <div class="hotel-grid">
@@ -102,6 +106,8 @@
                                     <div class="hg-body">
                                         <p class="hg-title"><?php echo $hotel["title"]; ?> 
                                         <?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
+
+										<p class="hg-desc"><?php echo $hotel["description"]; ?></p>	
 
                                         <address>
                                             <i class="fa fa-location-arrow" aria-hidden="true"></i> 
@@ -114,7 +120,7 @@
 
                             	<hr />
 
-                                <h2 class="h4">Price</h2>
+                                <h2>Price</h2>
                                 
                                 <div class="price-table-container">
                                 
@@ -159,7 +165,7 @@
 
                         <?php echo $responsive_tabs["faqs"]; ?>
 						<div class="tab" aria-label="faqs">
-							<h2 class="h4">Frequently Asked Questions</h2>
+							<h2>Frequently Asked Questions</h2>
 							
 							<div data-accordion-group>	
 											
@@ -193,11 +199,31 @@
 								</div><!-- end of accordion-->
 
 
+	<div class="accordion" data-accordion>
+
+									<div data-control>What are the payment due dates for Essence Packages 2026 Early Bird special for two people?</div>
+									<div data-content>
+										<p>To reserve a package each group member pays the registration fee $100.00 per person. The first payment of $500 per person is due on or before July 23, 2025. The second payment of $400 per person is due on or before September 10, 2025. The final payment (remaining balance) is due on or before January 10, 2026. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts to partial payments.</p>
+									</div>
+
+
+								</div><!-- end of accordion-->
+								
+									<div class="accordion" data-accordion>
+
+									<div data-control>What happens if I can't make the payments for the Essence Packages 2026 Early Bird special for two people by the payment due dates?</div>
+									<div data-content>
+										<p>If you can't make the payments as scheduled, you have an opportunity to convert your Early Bird special to normal package price. This can only be done if we receive have notification prior to your due date and you will forfeit your registration and the $250 of total payments made ($350 total). There are no extensions available for this package.  If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts to partial payments.</p>
+									</div>
+
+								</div><!-- end of accordion-->
+
+
 								<div class="accordion" data-accordion>
 
 									<div data-control>What are the payment due dates for Essence Packages?</div>
 									<div data-content>
-										<p>To reserve a package each group member pays the registration fee $100.00 per person. The first payment of $125 per person is due on or before March 10, 2025. The second payment of $250 per person is due on or before April 10, 2025. The final payment (remaining balance) is due on or before May 10, 2025. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts to partial payments.</p>
+										<p>To reserve a package each group member pays the registration fee $100.00 per person. The first payment of $125 per person is due on or before September 10, 2025. The second payment of $250 per person is due on or before November 10, 2025. The final payment (remaining balance) is due on or before January 10, 2026. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts to partial payments.</p>
 									</div>
 
 								</div><!-- end of accordion-->
@@ -288,7 +314,7 @@
 
 									<div data-control>What kind of access do I get with my concert ticket?</div>
 									<div data-content>
-										<p>With your concert ticket, you gain entry into the Louisiana Superdome. You will have a designated seat to experience the Main Stage performances. Once you are in the Superdome, you can experience all the performances that night in the Superlounges on the Lounge level for no additional fee or ticket. Everyone MUST have a ticket to get into the Superdome.</p>
+										<p>With your concert ticket, you gain entry into the Louisiana Superdome. You will have a designated seat to experience the Main Stage performances. Everyone MUST have a ticket to get into the Superdome.</p>
 									</div>
 
 								</div><!-- end of accordion-->
@@ -332,7 +358,7 @@
 													
                         <?php echo $responsive_tabs["photos"]; ?>
 						<div class="tab" aria-label="photos">
-							<h2 class="h4">Photos</h2>
+							<h2>Photos</h2>
                         	<div id="nanoGallery"></div>
                         </div>  <!-- ./photos -->
 

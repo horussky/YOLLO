@@ -1,6 +1,5 @@
 <?php
 	include 'includes/functions.inc.php';
-	include 'includes/meta.config.inc.php';
 
 	// Load the event configuration
     $event_config = require 'config/events/conf_daytopia.php';
@@ -10,6 +9,7 @@
     $geolocation = $event_config['geolocation'];
     $people = $event_config['people'];
     $package_items = $event_config['package_items'];
+	$metas = $event_config['metas'];
 
 	$eventbriteID = "1025067413227";
 ?>
@@ -19,13 +19,13 @@
 <head>
 	<meta charset="utf-8">
 	<title>
-		<?php echo $metas['daytopia']['title']; ?>
+		<?php echo $metas['title']; ?>
 	</title>
 	<meta name="viewport" content="width=device-width">
-	<meta name="description" content="<?php echo $metas['daytopia']['desc']; ?>" />
-	<meta name="keywords" content="<?php echo $metas['daytopia']['keywords']; ?>" />
+	<meta name="description" content="<?php echo $metas['description']; ?>" />
+	<meta name="keywords" content="<?php echo $metas['keywords']; ?>" />
 	<meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-	<link href="<?php echo $metas['daytopia']['canonical']; ?>" rel="canonical" />
+	<link href="<?php echo $metas['canonical']; ?>" rel="canonical" />
 	<meta name="author" content="YOLLO Group Services" />
 	<meta property="fb:pages" content="117420764961518" />
 	<link rel="icon" href="favicon-192.png" sizes="192x192">
@@ -71,9 +71,9 @@
 		
 						<h2>Welcome to Daytopia: Your Ultimate Day Party Experience!</h2>
 
-						<p>Join us for an extraordinary journey of excitement and celebration at YOLLO's Daytopia in Gumptown. This is no ordinary event; it's a weekend affair filled with unforgettable moments across two amazing venues: Bama Lanes and  2211 Ultimate Play Zone.</p>
+						<p>Join us for an extraordinary journey of excitement and celebration at YOLLO's Daytopia in Gumptown. This is no ordinary event; it's a weekend affair filled with unforgettable moments during our ultimate bowling party.</p>
 
-						<p>Daytopia is your ultimate weekend escape, packed with energy, fun, and unforgettable memories! Kick off the weekend on Friday night with our Roll Bounce-themed skate party at 2211 Ultimate Play Zone. Glide into the good times with a live DJ, exciting games, prize giveaways, and nonstop fun all night long. Then, keep the momentum going on Saturday at our high-energy bowling day party at Bama Lanes. Enjoy complimentary food provided by our sponsor, King 79 Vodka, while you bowl, vibe to the music, and compete for more great prizes. A live DJ will keep the atmosphere lively and the party going strong. Whether you're skating under the lights or aiming for a perfect strike, Daytopia is all about good vibes, great company, and creating memories you won't forget. Don't miss your chance to be part of this epic weekend — gather your crew and secure your spot at Daytopia today!</p>
+						<p>Daytopia is your ultimate Saturday escape, packed with energy, fun, and unforgettable memories! Let's bring good vibes on Saturday at our high-energy bowling day party at Bama Lanes. Enjoy complimentary food provided by our sponsor, King 79 Vodka, while you bowl, vibe to the music, and compete for more great prizes. A live DJ will keep the atmosphere lively and the party going strong. Whether you're skating under the lights or aiming for a perfect strike, Daytopia is all about good vibes, great company, and creating memories you won't forget. Don't miss your chance to be part of this epic weekend — gather your crew and secure your spot at Daytopia today!</p>
 
 						<h3>Buy Now</h3>
 						<div class="mb-20" id="eventbrite-widget-container-<?php echo $eventbriteID ?>"></div>

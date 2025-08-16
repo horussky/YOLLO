@@ -1,5 +1,4 @@
 <?php
-ob_start("ob_gzhandler");
 include 'includes/functions.inc.php';
 include 'includes/meta.config.inc.php';
 
@@ -11,6 +10,7 @@ $event = $event_config['event'];
 $geolocation = $event_config['geolocation'];
 $people = $event_config['people'];
 $package_items = $event_config['package_items'];
+$metas = $event_config['metas'];
 
 ?>
 
@@ -19,13 +19,13 @@ $package_items = $event_config['package_items'];
 <head>
 	<meta charset="utf-8">
 	<title>
-		<?php echo $metas['partygras']['title']; ?>
+		<?php echo $metas['title']; ?>
 	</title>
 	<meta name="viewport" content="width=device-width">
-	<meta name="description" content="<?php echo $metas['partygras']['desc']; ?>" />
-	<meta name="keywords" content="<?php echo $metas['partygras']['keywords']; ?>" />
+	<meta name="description" content="<?php echo $metas['description']; ?>" />
+	<meta name="keywords" content="<?php echo $metas['keywords']; ?>" />
 	<meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-	<link href="<?php echo $metas['partygras']['canonical']; ?>" rel="canonical" />
+	<link href="<?php echo $metas['canonical']; ?>" rel="canonical" />
 	<meta name="author" content="YOLLO Group Services" />
 	<meta property="fb:pages" content="117420764961518" />
 	<link rel="icon" href="favicon-192.png" sizes="192x192">

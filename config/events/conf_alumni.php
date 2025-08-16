@@ -1,5 +1,11 @@
 <?php
 	return [
+		"metas" => [
+			"title" => "HBCU Alumni Getaway 2025 - YOLLO Group Services",
+			"description" => "Join us for the HBCU Alumni Getaway 2025! Experience a week of fun, networking, and relaxation aboard the Carnival Liberty cruise ship.",
+			"keywords" => "HBCU Alumni, Getaway 2025, Carnival Liberty, cruise, alumni party",
+			"canonical" => "https://goyollo.com/alumni-getaway-cruise",
+		],
 
 		"event" => [
 			"title"					=> "HBCU Alumni Getaway 2025",
@@ -17,10 +23,10 @@
 				"title" 			=> "Carnival Liberty",
 				"ship"				=> "https://media-cdn.tripadvisor.com/media/photo-w/15/3b/26/b0/carnival-liberty-ta-listings.jpg",
 				"location"		    => "New Orleans, LA",
-				"address"			=> "1100 Port of New Orleans Place, New Orleans, LA 70130",
+				"address"			=> "1100 Port of New Orleans Place",
 				"soldout"			=> false,
-				"img_url"			=> ""
-
+				"img_url"			=> "",
+				"description"		=>"Carnival Liberty offers excellent amenities for a tropical getaway. Guests can enjoy the BlueIguana Tequila Bar, Alchemy Bar, and cabins with private balconies. Dining features a three-deck theater and outdoor Dive-In Movies by the pool."
 			),
 
 		],
@@ -28,7 +34,7 @@
 		"people" =>[
 
 			"diamond"=> array(
-			"Group of 4" 			=> "SOLD-OUT",
+			"Group of 4" 			=> "S1,150",
 			"Group of 3"			=> "$1,400",
 			"Group of 2"			=> "$1,900",
 			"Individual"			=> "$2,850"

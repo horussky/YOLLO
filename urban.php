@@ -1,18 +1,16 @@
 <?php
 
-include 'includes/functions.inc.php';
-include 'includes/meta.config.inc.php';
+	include 'includes/functions.inc.php';
+	include 'includes/meta.config.inc.php';
 
-// Load the event configuration
-$event_config = require 'config/events/conf_urban-fiesta-jamaica.php';
+	// Load the event configuration
+	$event_config = require 'config/events/conf_urban-fiesta-jamaica.php';
 
-// Access configuration data
-$event = $event_config['event'];
-$geolocation = $event_config['geolocation'];
-$people = $event_config['people'];
-$package_items = $event_config['package_items'];
-
-
+	// Access configuration data
+	$event = $event_config['event'];
+	$geolocation = $event_config['geolocation'];
+	$people = $event_config['people'];
+	$package_items = $event_config['package_items'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -56,6 +54,7 @@ $package_items = $event_config['package_items'];
 				<div class="event-hero" style="background-image:url(<?php echo $event["img_url"]; ?>)">
 					<div class="event-hero__details">
 						<h1 class="event-hero__title"><?php echo $event["title"]; ?></h1>
+						<p class="fst-italic"><?php echo $event["subtitle"]; ?></p>
 						<p class="event-hero__location"><?php echo $event["location"]; ?></p>
 						<a data-href="#tabs-5" class="btn btn-red event-hero__btn open-tab">Book Now</a>
 						<div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="event-hero__date"><?php echo $event["date"]; ?> </div>
@@ -73,13 +72,15 @@ $package_items = $event_config['package_items'];
 							<?php echo $responsive_tabs["overview"]; ?>
 							<div class="tab" aria-label="overview">
 
-								<h2>Jamaica is the ONLY place to be Memorial Day Weekend 2025!</h2>
+								<h2>Your Jamaica Escape: The Urban Fiesta Weekend Awaits</h2>
 
-								<p>Urban Fiesta 2025 is the ultimate escape to Montego Bay, Jamaica, for adventure, luxury, and non-stop entertainment. Relax on sandy beaches, explore vibrant markets, and dive into thrilling excursions like zip-lining and ATV rides. This all-inclusive experience blends tropical paradise with high-energy excitement.</p>  
+								<p>Imagine this: Jamaica's vibrant energy is calling your name, promising a weekend getaway filled with joy, connection, and celebration. This is the perfect getaway for those who work hard and love to play even harder. Urban Fiesta Weekend 2026 is rolling out the red carpet in Montego Bay from May 22nd to 24th, and you'll want to be there.</p>
 
-								<p>As the sun sets, the party scene comes alive with top DJs, live performances, and exclusive themed events. Dance under the stars, sip premium cocktails, and enjoy VIP nightlife like never before. Every night delivers high energy, epic moments, and unforgettable memories.</p>  
+								<p>But let's be real, this is more than just a tropical vacation. It's a celebration of culture  and pure, unapologetic fun. Picture yourself basking in the sun on Jamaica's beautiful beaches, discovering hidden gems during the day, and then dancing all night to the hottest DJs and live performances. You might even find yourself rubbing shoulders with a few celebrities. This weekend is your chance to unwind, recharge, and create memories with people who truly understand your vibe.</p>
 
-								<p>Following the star-studded 2024 edition with Alexis Skyy and City Girls, this year will be even bigger. Expect top-tier artists, incredible parties, and surprises at every turn. Get ready for a legendary weekend of music, fun, and pure excitement!</p>
+								<p>And here's the best part: we've taken care of every detail. Our premium packages at the stunning 5-star Riu Montego Bay make everything easy. Whether you choose the Diamond or Emerald option, you'll enjoy all-access event passes, unlimited gourmet dining and drinks, a complimentary mini-bar, and a stylish YOLLO swag bag. All you need to do is show up and enjoy every moment.</p>
+
+								<p>So, are you ready to make this your moment? This is your personal invitation to connect, celebrate, and create unforgettable travel stories with women who share your passion for adventure. Join us for a weekend where every beat brings excitement and every memory is yours to cherish. <a data-href="#tabs-5" href="#" class="open-tab">Book this fantastic package</a> right now!</p>
 
 									
 							</div><!-- ./overview -->
@@ -172,7 +173,7 @@ $package_items = $event_config['package_items'];
 								
 								<h2 class="h4">Additional Options</h2>
 								<ul>
-									<li>Airport Transportation: $75 Roundtrip</li>
+									<li>Airport Transportation: $150 Roundtrip</li>
 									<li>Dunn's River Falls Excursion: $75pp</li>
 									<li>Tour of Ocho Rios: $80pp</li>
 									<li>Tour Of Montego Bay: $85pp</li>
@@ -192,7 +193,7 @@ $package_items = $event_config['package_items'];
 
 										<div data-control>When are the payments due?</div>
 										<div data-content>
-										<p>After registration the first payment of $125 is due March 27, 2025 after registration. The second payment of $250 is due by April 10, 2025. The final payment (remaining balance) is due on or before April 25, 2025. If you would like to make payments between due dates that is fine also.</p>
+										<p>After registration the first payment of $125 is due July 10, 2025 after registration. The second payment of $250 is due by October 10, 2025. The final payment (remaining balance) is due on or before January 10, 2026. If you would like to make payments between due dates that is fine also.</p>
 										</div>
 
 									</div><!-- end of accordion-->

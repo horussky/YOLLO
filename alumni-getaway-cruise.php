@@ -1,6 +1,5 @@
 <?php
 include 'includes/functions.inc.php';
-include 'includes/meta.config.inc.php';
 
 // Load the event configuration
 $event_config = require 'config/events/conf_alumni.php';
@@ -10,18 +9,19 @@ $event = $event_config['event'];
 $geolocation = $event_config['geolocation'];
 $people = $event_config['people'];
 $package_items = $event_config['package_items'];
+$metas = $event_config['metas'];
 
 ?>
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title><?php echo $metas['alumni']['title']; ?></title>
+    <title><?php echo $metas['title']; ?></title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="<?php echo $metas['alumni']['desc']; ?>" />
-    <meta name="keywords" content="<?php echo $metas['alumni']['keywords']; ?>" />
+    <meta name="description" content="<?php echo $metas['description']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['keywords']; ?>" />
     <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-    <link href="<?php echo $metas['alumni']['canonical']; ?>" rel="canonical" />
+    <link href="<?php echo $metas['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
     <meta property="fb:pages" content="117420764961518" />
     <link rel="icon" href="favicon-192.png" sizes="192x192">
@@ -76,11 +76,14 @@ $package_items = $event_config['package_items'];
                     <?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
                        
-						<h2 class="h3">Reconnect, Relive, and Reimagine: Your HBCU Alumni Cruise Awaits!</h2>
-						<p>Join YOLLO for an unforgettable celebration of HBCU pride as we set sail to Costa Maya, Belize, and Cozumel! Plunge into the turquoise embrace of the Caribbean Sea. From exploring ancient Mayan ruins in Costa Maya to marveling at Belize's lush rainforests and iconic Great Blue Hole, and soaking up the lively energy of Cozumel, this is your passport to both adventure and relaxation!</p> 
+						<h2>HBCU Pride. Caribbean Vibes. One Epic Cruise.</h2>
+						<p>YOLLO's Alumni Getaway Cruise is more than a vacation — it's an HBCU family reunion at sea, packed with culture, connection, and Caribbean adventure. From the sun-drenched shores of Costa Maya, Belize, and Cozumel, to the unforgettable themed parties, comedy shows, and high-energy events onboard, every moment is made to honor the legacy and spirit of HBCUs.</p> 
 
-						<p>Onboard, the party never stops with exclusive entertainment tailored for HBCU pride. Laugh at side-splitting comedy shows, enjoy movie nights under the stars, and dance the night away at themed parties with top DJs spinning the hottest tracks. Whether you're traveling solo or with a group, YOLLO Events offers flexible package options to suit every need.</p>
+						<p>Whether you're a first-timer or a returning cruiser, solo traveler or squad captain, YOLLO has a package for you. This is your chance to create new memories, reconnect with old friends, and be part of something bigger.</p>
 
+						<p> Want a peek at what's in store? <a href="/alumni-getaway-events">Check out the full week of events here.</a></p>
+
+						<h3>Looking for an easy payment option?</h3>
 						<p class="mb-40">Don't let budget constraints hold you back - take advantage of our convenient Flex Pay option to finance your dream getaway with easy monthly payments. From fun-filled days at sea to thrilling port adventures, this cruise promises to be the ultimate HBCU reunion experience. Let's celebrate the excellence of HBCUs together! <a data-href="#tabs-5" href="#" class="open-tab">Book this fantastic cruise package</a> right now!</p>
 
 						<?php include 'includes/uplift-onpage.inc.php'; ?>
@@ -130,17 +133,13 @@ $package_items = $event_config['package_items'];
 						
 						<?php include 'includes/hbcu-ambass-ad.inc.php'; ?>
 						
-
-						
-
-
                     </div> <!-- ./ overview -->
 
 
                     <?php echo $responsive_tabs["price"]; ?>
 						<div class="tab" aria-label="price">
 
-                    	<h2 class="h4">Cruise</h2>
+                    	<h2>Cruise</h2>
                         <?php foreach($geolocation as $hotel) :?>
                             <div class="hotel-grid">
                                     <div class="hg-img">
@@ -149,10 +148,11 @@ $package_items = $event_config['package_items'];
                                     <div class="hg-body">
                                         <p class="hg-title"><?php echo $hotel["title"]; ?> 
                                         <?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
+										
+										<p class="hg-desc"><?php echo $hotel["description"]; ?></p>	
 
                                         <address>
-                                            Departing from:<br>
-                                            <i class="fa fa-location-arrow" aria-hidden="true"></i> 
+                                            <i class="fa fa-location-dot" aria-hidden="true"></i> 
                                             <a title="<?php echo $hotel["title"]; ?>" target="_blank" href="http://maps.google.com/maps?q=<?php echo $hotel["address"]; ?>+<?php echo $hotel["location"]; ?>"><?php echo $hotel["address"]; ?>,  
                                             <?php echo $hotel["location"]; ?></a>
                                         </address>
@@ -204,7 +204,7 @@ $package_items = $event_config['package_items'];
 
                       <hr />
 
-					  <h2 class="h4">Price</h2>
+					  <h2>Price</h2>
                                     
                         <div class="price-table-container">
 
@@ -236,7 +236,7 @@ $package_items = $event_config['package_items'];
                     <?php echo $responsive_tabs["faqs"]; ?>
 					<div class="tab" aria-label="faqs">
 
-						<h2 class="h4">Frequently Asked Questions</h2>
+						<h2>Frequently Asked Questions</h2>
                         
                         <div data-accordion-group>	
 										
@@ -309,9 +309,9 @@ $package_items = $event_config['package_items'];
 
 							<div class="accordion" data-accordion>
 
-								<div data-control>Should I set my watch to match Carnival Liberty time. This prevents you from  missing the boat during our at port days. </div>
+								<div data-control>Should I set my watch to match Carnival Liberty's time or what's called SHIP TIME? </div>
 								<div data-content>
-									<p>The ship will be on Central or CST.</p>
+									<p>Yes, this prevents you from  missing the ship during our port days. Carnival Liberty is on Central or CST.</p>
 								</div>
 
 							</div><!-- end of accordion-->
@@ -338,9 +338,9 @@ $package_items = $event_config['package_items'];
 
 								<div data-control>When are the payments due?</div>
 								<div data-content>
-								<p>To reserve a package each group member pays the <strong>$100.00</strong> per person fee <strong> at sign-up</strong>. The first payment of <strong>$200</strong> per person is due on or before  <strong>March 20, 2025</strong>.
-								The second payment of <strong>$400</strong> per person is due on or before  <strong>May 20, 2025</strong>.
-								The final payment (remaining balance) is due on or before <strong>July 20, 2025</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
+								<p>To reserve a package each group member pays the <strong>$100.00</strong> per person fee <strong> at sign-up</strong>. The first payment of <strong>$200</strong> per person is due on or before  <strong>June 15, 2025</strong>.
+								The second payment of <strong>$400</strong> per person is due on or before  <strong>July 15, 2025</strong>.
+								The final payment (remaining balance) is due on or before <strong>August 15, 2025</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
 								</div>
 
 							</div><!-- end of accordion-->
@@ -405,7 +405,7 @@ $package_items = $event_config['package_items'];
                     <?php echo $responsive_tabs["buynow"]; ?>
 						<div class="tab" aria-label="buy">
 											
-							<h2 class="h4">Buy Now</h2>
+							<h2>Buy Now</h2>
 
                             <div class="pay-form">
                                 <p>Please use the form below to complete your booking for <?php echo $event["title"]?>. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
