@@ -1,6 +1,13 @@
 <?php
 return [
 
+	"metas" => [
+		"title"       => "CIAA Tourney Weekend 2026 - YOLLO Group Services",
+		"description" => "Join us for the CIAA Tourney Weekend 2026 in Baltimore, MD! Experience a weekend of basketball, parties, and exclusive events with YOLLO Group Services.",
+		"keywords"    => "CIAA Tourney, Baltimore, MD, basketball, parties, 2026",
+		"canonical"   => "https://goyollo.com/events/the-tourney",
+	],
+
 	"event" => [
 		"title"      => "The Tourney Weekend 2026",
 		"subtitle"   => "B-More Here We COME! It will be BIG!",

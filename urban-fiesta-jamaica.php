@@ -1,7 +1,6 @@
 <?php
 
 	include 'includes/functions.inc.php';
-	include 'includes/meta.config.inc.php';
 
 	// Load the event configuration
 	$event_config = require 'config/events/conf_urban-fiesta-jamaica.php';
@@ -11,18 +10,19 @@
 	$geolocation = $event_config['geolocation'];
 	$people = $event_config['people'];
 	$package_items = $event_config['package_items'];
+	$metas = $event_config['metas'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title><?php echo $metas['urbanfiesta']['title']; ?></title>
+    <title><?php echo $metas['title']; ?></title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="<?php echo $metas['urbanfiesta']['desc']; ?>" />
-    <meta name="keywords" content="<?php echo $metas['urbanfiesta']['keywords']; ?>" />
+    <meta name="description" content="<?php echo $metas['description']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['keywords']; ?>" />
     <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
     <meta property="fb:pages" content="117420764961518" />
-    <link href="<?php echo $metas['urbanfiesta']['canonical']; ?>" rel="canonical" />
+    <link href="<?php echo $metas['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
     <link rel="icon" href="favicon-192.png" sizes="192x192">
 	<link rel="apple-touch-icon" href="favicon-180.png" sizes="180x180">
@@ -72,7 +72,7 @@
 							<?php echo $responsive_tabs["overview"]; ?>
 							<div class="tab" aria-label="overview">
 
-								<h2>Your Jamaica Escape: The Urban Fiesta Weekend Awaits</h2>
+								<h2>Your Jamaica Escape: Urban Fiesta Weekend Awaits</h2>
 
 								<p>Imagine this: Jamaica's vibrant energy is calling your name, promising a weekend getaway filled with joy, connection, and celebration. This is the perfect getaway for those who work hard and love to play even harder. Urban Fiesta Weekend 2026 is rolling out the red carpet in Montego Bay from May 22nd to 24th, and you'll want to be there.</p>
 
@@ -89,7 +89,7 @@
 							<?php echo $responsive_tabs["price"]; ?>
 							<div class="tab" aria-label="price">
 
-								<h2 class="h4">Hotels</h2>
+								<h2>Hotels</h2>
 
 								<?php foreach($geolocation as $hotel) :?>
 								<div class="hotel-grid">
@@ -99,6 +99,8 @@
 									<div class="hg-body">
 										<p class="hg-title"><?php echo $hotel["title"]; ?> 
 										<?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
+
+										<p class="hg-desc"><?php echo $hotel["description"]; ?></p>
 
 										<address>
 											<i class="fa fa-location-arrow" aria-hidden="true"></i> 
@@ -111,7 +113,7 @@
 
 								<hr />
 
-								<h2 class="h4">Price</h2>
+								<h2>Price</h2>
 								
 								<div class="price-table-container">
 
@@ -171,7 +173,7 @@
 								</div>
 								<hr />
 								
-								<h2 class="h4">Additional Options</h2>
+								<h2>Additional Options</h2>
 								<ul>
 									<li>Airport Transportation: $150 Roundtrip</li>
 									<li>Dunn's River Falls Excursion: $75pp</li>
@@ -185,7 +187,7 @@
 							<?php echo $responsive_tabs["faqs"]; ?>
 							<div class="tab" aria-label="faqs">
 
-								<h2 class="h4">Frequently Asked Questions</h2>
+								<h2>Frequently Asked Questions</h2>
 									
 								<div data-accordion-group>	
 							
@@ -283,7 +285,7 @@
 							<?php echo $responsive_tabs["buynow"]; ?>
 							<div class="tab" aria-label="buy">
 
-								<h2 class="h4">Buy Now</h2>
+								<h2>Buy Now</h2>
 								<p>Please use the form below to complete your booking. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
 								
 								<div class="cognito"></div>

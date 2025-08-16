@@ -1,18 +1,16 @@
 <?php
+	$current_url = pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME);
+	$active = "active-nav";
 
-$current_url = pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME);
-$active = "active-nav";
-
-//array for top links
-$top_links = array(
-    'home'      =>  'Home',
-    //'events'    =>  'Events',
-    'about'     =>  'About Us', 
-    'faq'       =>  'FAQs', 
-    'contact'   =>  'Contact', 
-    'subscribe' =>  'Subscribe'
-);
-
+	//array for top links
+	$top_links = array(
+		'home'      =>  'Home',
+		//'events'    =>  'Events',
+		'about'     =>  'About Us', 
+		'faq'       =>  'FAQs', 
+		'contact'   =>  'Contact', 
+		'subscribe' =>  'Subscribe'
+	);
 ?>
 
 <div class="header">
@@ -30,7 +28,7 @@ $top_links = array(
                 <a data-href="#" class="hvr-underline-from-center <?php if($current_url === $top_link){echo $active;} ?>"><span>Events</span></a>
                 <div class="dropdown-content">
                     <?php 
-                    sort($event_nav);
+                    	sort($event_nav);
                     ?>
 
                     <ul class="event-nav">
@@ -63,8 +61,3 @@ $top_links = array(
 
     </span>
 </div>
-
-
-<style>
-
-</style>

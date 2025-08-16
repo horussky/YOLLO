@@ -1,5 +1,11 @@
 <?php
 	return [
+		"metas" => [
+			"title" => "Urban Fiesta 2026 - YOLLO Group Services",
+			"description" => "Join us for the Urban Fiesta 2026 in Montego Bay, Jamaica! Enjoy a weekend of fun, music, and relaxation with exclusive packages available.",
+			"keywords" => "Urban Fiesta, Jamaica, Montego Bay, YOLLO Group Services, event packages",
+			"canonical" => "https://goyollo.com/events/urban-fiesta-2026",
+		],
 
 		"event" => [
 			"title"				=>"Urban Fiesta 2026",
@@ -15,10 +21,11 @@
 
 			"hotel1"=> array(
 				"title" 			=>"Riu Montego Bay",
-				"address"			=>"Mahoe Bay. Rose Hall Ironshore P.O.",
+				"address"			=>"Mahoe Bay, Ironshore",
 				"location"			=>"Runaway Bay, Jamaica",
 				"soldout"	        => false,
-				"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-o/09/5a/1c/db/hotel-riu-montego-bay.jpg"
+				"img_url"			=>"//media-cdn.tripadvisor.com/media/photo-o/09/5a/1c/db/hotel-riu-montego-bay.jpg",
+				"description"		=>"Hotel Riu Montego Bay offers an unforgettable adults-only vacation in a tropical paradise. Set on a beautiful white sand beach, this all-inclusive resort features sparkling pools, a water park, diverse dining options, and various entertainment activities. Prepare for an amazing experience!"
 			),
 
 		],

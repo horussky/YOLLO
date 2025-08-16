@@ -1,6 +1,6 @@
-<h5 class="event-title h6" style="text-transform:uppercase; letter-spacing: 0;"> 
+<h6 class="event-title" style="text-transform:uppercase; letter-spacing: 0;"> 
     <i class="fa-solid fa-calendar-days"></i> YOLLO Events
-</h5>
+</h6>
 
 <ul class="event-nav">
     <?php foreach ($active_nav as $value): ?>

@@ -10,18 +10,19 @@ $event = $event_config['event'];
 $geolocation = $event_config['geolocation'];
 $people = $event_config['people'];
 $package_items = $event_config['package_items'];
+$metas = $event_config['metas'];
 ?>
 <!doctype html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title><?php echo $metas['tourney']['title']; ?></title>
+    <title><?php echo $metas['title']; ?></title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="<?php echo $metas['tourney']['desc']; ?>" />
-    <meta name="keywords" content="<?php echo $metas['tourney']['keywords']; ?>" />
+    <meta name="description" content="<?php echo $metas['description']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['keywords']; ?>" />
     <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-    <link href="<?php echo $metas['tourney']['canonical']; ?>" rel="canonical" />
+    <link href="<?php echo $metas['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
     <meta property="fb:pages" content="117420764961518" />
     <link rel="apple-touch-icon" href="favicon-180.png" sizes="180x180">

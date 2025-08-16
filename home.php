@@ -1,18 +1,23 @@
 <?php
-include 'includes/functions.inc.php';
-include 'includes/meta.config.inc.php';
+	include 'includes/functions.inc.php';
+
+	// Load the event configuration
+	$event_config = require 'config/events/conf_home.php';
+
+	// Access configuration data
+	$metas = $event_config['metas'];
 
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title><?php echo $metas['home']['title']; ?></title>
+<title><?php echo $metas['title']; ?></title>
 <meta name="viewport" content="width=device-width">
-<meta name="description" content="<?php echo $metas['home']['desc']; ?>" />
-<meta name="keywords" content="<?php echo $metas['home']['keywords']; ?>" />
+<meta name="description" content="<?php echo $metas['description']; ?>" />
+<meta name="keywords" content="<?php echo $metas['keywords']; ?>" />
 <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-<link href="<?php echo $metas['home']['canonical']; ?>" rel="canonical" />
+<link href="<?php echo $metas['canonical']; ?>" rel="canonical" />
 <meta name="author" content="YOLLO Group Services" />
 <meta property="fb:pages" content="117420764961518" />
 <link rel="icon" href="favicon-192.png" sizes="192x192">
@@ -38,8 +43,6 @@ include 'includes/meta.config.inc.php';
       <div id="right">
             
             <section id="intro">
-                <?php /* ?><div class="rslides"></div>
-                <?php echo $json["homepage__description"]; ?><?php */?>
 
                 <h1>Live the Moment. Experience More.</h1>
 				<p>At YOLLO Group Services, we turn travel into lifetime unforgettable experiences. As a premier full-service travel company in the Southeast, we create and stylize all-inclusive event packages that go beyond just the main attraction. From electrifying concerts to themed parties and exclusive kickback day events, we bring the fun wherever you go.</p>
@@ -99,8 +102,8 @@ include 'includes/meta.config.inc.php';
 					</p> 
 					<p class="upcoming-events__date">
 						<?php
-							$date_start = new DateTime("@{$event->start}");
-							$date_end = new DateTime("@{$event->end}");
+							$date_start = new DateTime('@' . (int)$event->start);
+							$date_end = new DateTime('@' . (int)$event->end);
 						?>
 						<i class="fa fa-calendar"></i> 
 						<?php 
@@ -147,22 +150,15 @@ include 'includes/meta.config.inc.php';
      	</div><!--end of right-->
 
 
-
-
-
          <aside id="social">
 		 	<?php include 'includes/twitter.inc.php'; ?>
          </aside>
 
 
-
-
 	</div><!-- end of container -->
 
 
-
 </div><!-- end of wrap -->
-
 
 
 <!-- Footer  -->

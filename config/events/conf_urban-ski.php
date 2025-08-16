@@ -1,6 +1,13 @@
 <?php
 	return [
 
+		"metas" => [
+			"title" => "Urban Ski Weekend 2026 - YOLLO Group Services",
+			"description" => "Join us for the Urban Ski Weekend 2026 in Gatlinburg, Tennessee! Experience a weekend of skiing, parties, and exclusive events.",
+			"keywords" => "Urban Ski Weekend, Gatlinburg, Tennessee, skiing, parties, 2026",
+			"canonical" => "https://goyollo.com/urban-ski-weekend",
+		],
+
 		"event" => [
 			"title" => "Urban Ski Weekend 2026",
 			"subtitle" => "As Seen on VH1 Love & Hiphop",

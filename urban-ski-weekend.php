@@ -10,6 +10,7 @@
 	$geolocation = $event_config['geolocation'];
 	$people = $event_config['people'];
 	$package_items = $event_config['package_items'];
+	$metas = $event_config['metas'];
 ?>
 
 <!doctype html>
@@ -18,12 +19,12 @@
 
 <head>
     <meta charset="utf-8">
-    <title><?php echo $metas['urbanski']['title']; ?></title>
+    <title><?php echo $metas['title']; ?></title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="<?php echo $metas['urbanski']['desc']; ?>" />
-    <meta name="keywords" content="<?php echo $metas['urbanski']['keywords']; ?>" />
+    <meta name="description" content="<?php echo $metas['description']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['keywords']; ?>" />
     <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-    <link href="<?php echo $metas['urbanski']['canonical']; ?>" rel="canonical" />
+    <link href="<?php echo $metas['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
     <meta property="fb:pages" content="117420764961518" />
     <link rel="icon" href="favicon-192.png" sizes="192x192">
@@ -195,7 +196,7 @@
 							<div class="accordion open" data-accordion>
 								<div data-control>When are the payments due?</div>
 								<div data-content>
-								<p>Following registration the first payment of $125 is due on or before May 10, 2025.  The second payment of $300 is due on or before July 1, 2025. The final payment (remaining balance) is due on or before September 1, 2025. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+								<p>Following registration the first payment of $125 is due on or before July 20, 2025.  The second payment of $300 is due on or before September 20, 2025. The final payment (remaining balance) is due on or before November 20, 2025. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 
 								</div>
 

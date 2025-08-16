@@ -2,12 +2,12 @@
 	<div id="container">
 		<div class="footer-grid">
 			<div class="foot-about">
-				<h5 class="h6">About</h5>
+				<h6 class="footer-grid__title">About</h6>
 				<p>YOLLO Group Services is an IATAN-certified company that provides affordable, exciting travel packages with a focus on getting clients to the hottest concerts, parties, cruises and games in the country.</p>
 				<p><a class="chev-link" href="/about" title="Learn more about YOLLO">Read more about YOLLO</a></p>
 
 				<ul>
-				<li class="foot-share-links">
+					<li class="foot-share-links">
 						<a href="http://www.facebook.com/yollogsinc" target="_blank" title="Become a fan of YOLLO Group Services"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a> 
 
 						<a href="https://x.com/YOLLOGSINC" target="_blank" title="Follow YOLLO Group Services on X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
@@ -17,14 +17,12 @@
 						<a href="https://instagram.com/yollogsinc" target="_blank" title="Follow YOLLO Group Services on Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
 
 						<a href="https://www.snapchat.com/add/yollogsinc" target="_blank" title="Follow YOLLO Group Services on Snapchat"><i class="fa-brands fa-snapchat" aria-hidden="true"></i></a>
-
-						
 					</li>
 				</ul>
 			</div>
 
 			<div class="foot-events">
-				<h5 class="h6">Upcoming Events</h5>
+				<h6 class="footer-grid__title">Upcoming Events</h6>
 					<?php $i=0; foreach($feature_event as $event): if ($i == 3) break; ?>
 						<?php if($event->end > $now): $i++; ?>
 							<div class="event">
@@ -34,7 +32,7 @@
 									</a>
 								</div>
 								<div class="event-content">
-									<h5><?php echo $event->title; ?></h5>
+									<h6><?php echo $event->title; ?></h6>
 									<p style="font-size: .75rem;"><?php 
 									{ $date_start = new DateTime("@{$event->start}"); $date_end = new DateTime("@{$event->end}");}
 									if ($event->start == $event->end) { 
@@ -50,7 +48,7 @@
 			</div>
 
 			<div class="foot-contact">
-				<h5 class="h6">Contact Us</h5>
+				<h6 class="footer-grid__title">Contact Us</h6>
 				<ul class="fa-ul">
 					<li class="foot-phone"><i class="fa-li fa fa-phone-square" aria-hidden="true"></i> <a href="tel:8889469655">(888) 946-9655</a></li>
 					<li class="foot-email"> <i class="fa-li fa fa-envelope" aria-hidden="true"></i> <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></li>
@@ -62,7 +60,7 @@
 			</div>
 
 			<div class="foot-sponsor">
-				<h5 class="h6">Sponsors</h5>
+				<h6 class="footer-grid__title">Sponsors</h6>
 				<div class="sponsors">
 					<a class="urbanham" title="Urbanham" href="http://www.urbanham.com"  target="_blank"><img src="../images/urbanham-logo-small.png" alt="urbanham logo" /></a>
 					<a class="whatshappening" title="Whats Happening Birmingham" href="http://www.whatshappeningbham.com/" target="_blank"><img src="../images/whats-happening-bham-logo.png" alt="whats happening bham logo" /></a>

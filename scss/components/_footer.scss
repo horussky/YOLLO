@@ -43,7 +43,7 @@ footer{
 		grid-gap: 20px 16px;
 		grid-template-areas:"foot-about foot-events foot-contact foot-sponsor";
 		
-		.h6{
+		.footer-grid__title{
 			font-family: 'opensans-semibold', Arial, sans-serif;
 			text-transform: uppercase;
 			letter-spacing: .25rem;

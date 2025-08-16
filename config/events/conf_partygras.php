@@ -1,6 +1,13 @@
 <?php
 	return [
 
+		"metas" => [
+			"title"       => "Party Gras 2024 - YOLLO Group Services",
+			"description" => "Join us for Party Gras 2024 in Montgomery, AL! Experience a weekend of fun, music, and exclusive events with YOLLO Group Services.",
+			"keywords"    => "Party Gras, Montgomery, AL, event packages, YOLLO Group Services",
+			"canonical"   => "https://goyollo.com/events/party-gras",
+		],
+
 		"event" => [
 			"title"      => "Party Gras: Bottles and Beads",
 			"subtitle"   => "More than an event, it's an EXPERIENCE!",

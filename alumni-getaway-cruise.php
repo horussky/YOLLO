@@ -1,6 +1,5 @@
 <?php
 include 'includes/functions.inc.php';
-include 'includes/meta.config.inc.php';
 
 // Load the event configuration
 $event_config = require 'config/events/conf_alumni.php';
@@ -10,18 +9,19 @@ $event = $event_config['event'];
 $geolocation = $event_config['geolocation'];
 $people = $event_config['people'];
 $package_items = $event_config['package_items'];
+$metas = $event_config['metas'];
 
 ?>
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title><?php echo $metas['alumni']['title']; ?></title>
+    <title><?php echo $metas['title']; ?></title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="<?php echo $metas['alumni']['desc']; ?>" />
-    <meta name="keywords" content="<?php echo $metas['alumni']['keywords']; ?>" />
+    <meta name="description" content="<?php echo $metas['description']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['keywords']; ?>" />
     <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-    <link href="<?php echo $metas['alumni']['canonical']; ?>" rel="canonical" />
+    <link href="<?php echo $metas['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
     <meta property="fb:pages" content="117420764961518" />
     <link rel="icon" href="favicon-192.png" sizes="192x192">
@@ -133,17 +133,13 @@ $package_items = $event_config['package_items'];
 						
 						<?php include 'includes/hbcu-ambass-ad.inc.php'; ?>
 						
-
-						
-
-
                     </div> <!-- ./ overview -->
 
 
                     <?php echo $responsive_tabs["price"]; ?>
 						<div class="tab" aria-label="price">
 
-                    	<h2 class="h4">Cruise</h2>
+                    	<h2>Cruise</h2>
                         <?php foreach($geolocation as $hotel) :?>
                             <div class="hotel-grid">
                                     <div class="hg-img">
@@ -152,10 +148,11 @@ $package_items = $event_config['package_items'];
                                     <div class="hg-body">
                                         <p class="hg-title"><?php echo $hotel["title"]; ?> 
                                         <?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
+										
+										<p class="hg-desc"><?php echo $hotel["description"]; ?></p>	
 
                                         <address>
-                                            Departing from:<br>
-                                            <i class="fa fa-location-arrow" aria-hidden="true"></i> 
+                                            <i class="fa fa-location-dot" aria-hidden="true"></i> 
                                             <a title="<?php echo $hotel["title"]; ?>" target="_blank" href="http://maps.google.com/maps?q=<?php echo $hotel["address"]; ?>+<?php echo $hotel["location"]; ?>"><?php echo $hotel["address"]; ?>,  
                                             <?php echo $hotel["location"]; ?></a>
                                         </address>
@@ -207,7 +204,7 @@ $package_items = $event_config['package_items'];
 
                       <hr />
 
-					  <h2 class="h4">Price</h2>
+					  <h2>Price</h2>
                                     
                         <div class="price-table-container">
 
@@ -239,7 +236,7 @@ $package_items = $event_config['package_items'];
                     <?php echo $responsive_tabs["faqs"]; ?>
 					<div class="tab" aria-label="faqs">
 
-						<h2 class="h4">Frequently Asked Questions</h2>
+						<h2>Frequently Asked Questions</h2>
                         
                         <div data-accordion-group>	
 										
@@ -408,7 +405,7 @@ $package_items = $event_config['package_items'];
                     <?php echo $responsive_tabs["buynow"]; ?>
 						<div class="tab" aria-label="buy">
 											
-							<h2 class="h4">Buy Now</h2>
+							<h2>Buy Now</h2>
 
                             <div class="pay-form">
                                 <p>Please use the form below to complete your booking for <?php echo $event["title"]?>. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>

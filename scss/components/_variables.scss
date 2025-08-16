@@ -21,18 +21,50 @@ $sans-serif: 'opensans', san-serif;
 $sans-serif-light: 'opensans-lite', san-serif;
 $serif: 'merriweather', Arial, sans-serif;
 
-$h1: 2.488rem;
-$h2: 2.073rem;
-$h3: 1.728rem;
-$h4: 1.44rem;
-$h5: 1.2rem;
-$h6: 1rem;
+$heading-sizes: (
+  h1: 2.488rem, //39.808px
+  h2: 2.073rem, //33.168px
+  h3: 1.728rem, //27.648px
+  h4: 1.44rem, //23.04px
+  h5: 1.2rem, //19.2px
+  h6: 1rem, //16px
+  p: 1.125rem //18px
+);
 
-@media (max-width: 480px) {
-  $h1: 2.073rem;
-  $h2: 1.728rem;
-  $h3: 1.44rem;
-  $h4: 1.2rem;
-  $h5: 1rem;
-  $h6: 0.906rem;
+@each $tag, $size in $heading-sizes {
+  #{$tag},
+  .#{$tag} {
+    font-size: $size;
+  }
+}
+
+$heading-sizes-mobile: (
+  h1: 2.073rem, //33.168px
+  h2: 1.728rem, //27.648px
+  h3: 1.44rem, //23.04px
+  h4: 1.2rem, //19.2px
+  h5: 1rem, //16px
+  h6: 0.906rem, //14.496px
+  p: 1rem //16px
+);
+
+@media only screen and (max-width: 480px) {
+  @each $tag, $size in $heading-sizes-mobile {
+    #{$tag},
+    .#{$tag} {
+      font-size: $size;
+    }
+  }
+}
+
+/*
+Example usage: Dont add font-size, just the include
+.hero-title {
+  @include responsive-heading(h1); 
+}*/
+@mixin responsive-heading($level) {
+  font-size: map-get($heading-sizes, $level);
+  @media only screen and (max-width: 480px) {
+    font-size: map-get($heading-sizes-mobile, $level);
+  }
 }

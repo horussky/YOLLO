@@ -1,5 +1,12 @@
 <?php
 return [
+	
+	"metas" => [
+		"title" => "Daytopia 2025 - YOLLO Group Services",
+		"description" => "Join us for Daytopia 2025, the ultimate R&B day party experience in Montgomery, AL. Enjoy live performances, comedy, and more!",
+		"keywords" => "Daytopia, R&B Party, Montgomery AL, Live Performances, Comedy",
+		"canonical" => "https://goyollo.com/daytopia",
+	],
 
 	"event" => [
 		"title" => "Daytopia: <br>It's All About R&B",

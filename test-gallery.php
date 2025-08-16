@@ -31,7 +31,11 @@ $metas = $event_config['metas'];
 </head>
 <body id="event-pg">
 <div id="wrap">
-   
+   <style>
+.gallery { display: flex; flex-wrap: wrap; gap: 10px; }
+  .gallery a { display: block; width: 200px; }
+  .gallery img { width: 100%; display: block; border-radius: 4px; }
+    </style>
     <!--Mobile Nav-->
 	<?php include 'includes/mobile.nav.inc.php'; ?>
 	<!--Mobile Nav--> 
@@ -69,6 +73,8 @@ $metas = $event_config['metas'];
 
                             <?php echo $responsive_tabs["overview"]; ?>
                             <div class="tab" aria-label="overview">
+                                <!-- Gallery container -->
+        <div class="gallery" id="gallery"></div>
                                 <h2>Cincinnati Music Festival 2026 Is Going to Be Epic!</h2>
                                 <p>Prepare for the biggest weekend of music, culture, and electrifying energy at the Cincinnati Music Festival 2026! This legendary festival has brought icons like Beyoncé, Bruno Mars, and Kendrick Lamar to the stage—and next year's lineup will be even more unforgettable. With YOLLO Group Services, you won't just attend; you'll dominate the weekend with exclusive VIP access, luxury stays, and premium events. Spots fill fast—<a data-href="#tabs-5" href="#" class="open-tab">book now</a> to guarantee your place at the hottest festival of the year!</p>
 
@@ -337,28 +343,68 @@ $metas = $event_config['metas'];
 <!-- End of Footer  -->
 
 <?php include 'includes/scripts.inc.php'; ?>
-<script type="text/javascript">
-	$(function(){
 
-        //nano
-        $("#nanoGallery").nanoGallery({
-            kind: 'flickr',
-            userID: '50836209@N03',
+<script type="module">
+import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe@5/dist/photoswipe-lightbox.esm.js';
+import PhotoSwipe from 'https://unpkg.com/photoswipe@5/dist/photoswipe.esm.js';
 
-            //uncomment this line to display one specific album:
-            photoset:'72177720328384256',
-            thumbnailWidth: 115,
-            thumbnailHeight: 'auto',
-            thumbnailAlignment: 'left',
-            thumbnailLabel: {
-                display:false,
-                displayDescription: false,
-                position: 'overImageOnBottom'
-            },
-            thumbnailHoverEffect:'borderLighter'
-        });
-	});
+const FOLDER_ID = '0B4qK2x_TwIoRSHQxeGhQZ1JZRmc';
+const API_KEY = 'AIzaSyA0GXd5l5l5cFCsthmOxH9GXEV-nR9ox7U';
+
+// ===== FETCH IMAGES FROM GOOGLE DRIVE =====
+async function fetchDriveImages(folderId, apiKey) {
+  const query = `'${folderId}' in parents and mimeType contains 'image/' and trashed=false`;
+  const url = `https://www.googleapis.com/drive/v3/files?q=${encodeURIComponent(query)}&fields=${encodeURIComponent('files(id,name,thumbnailLink,imageMediaMetadata)')}&supportsAllDrives=true&key=${apiKey}`;
+
+  const res = await fetch(url);
+  const data = await res.json();
+
+  if(data.error) {
+    console.error("Drive API error:", data.error);
+    return [];
+  }
+  return data.files || [];
+}
+
+// ===== BUILD GALLERY HTML =====
+async function initGallery() {
+  const files = await fetchDriveImages(FOLDER_ID, API_KEY);
+  const gallery = document.getElementById('gallery');
+
+  files.forEach(file => {
+    const fullImage = `https://drive.google.com/uc?export=view&id=${file.id}`;
+    const thumbImage = file.thumbnailLink.replace('=s220', '=s400');
+
+    const width = file.imageMediaMetadata?.width || 1600;
+    const height = file.imageMediaMetadata?.height || 900;
+
+    const link = document.createElement('a');
+    link.href = fullImage;
+    link.setAttribute('data-pswp-width', width);
+    link.setAttribute('data-pswp-height', height);
+
+    const img = document.createElement('img');
+    img.src = thumbImage;
+    img.alt = file.name || '';
+
+    link.appendChild(img);
+    gallery.appendChild(link);
+  });
+
+  // ===== INITIALIZE PHOTOSWIPE LIGHTBOX =====
+  const lightbox = new PhotoSwipeLightbox({
+    gallery: '#gallery',
+    children: 'a',
+    pswpModule: () => PhotoSwipe
+  });
+  lightbox.init();
+}
+
+// ===== START =====
+initGallery();
+//console.log('Drive API files:', files);
 </script>
+
 <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 
 <script type="text/javascript">

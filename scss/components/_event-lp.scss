@@ -12,12 +12,12 @@
       z-index: 1;
 
       .title h1{
-        font-size: $h1;
+        font-size: map-get($heading-sizes, h1);
       }
 
       .subtitle{
         font-family:"Great Vibes","opensans-bold", Arial, sans-serif;
-        font-size: $h3;
+        font-size: map-get($heading-sizes, h3);
         letter-spacing: 1px;
       }
 

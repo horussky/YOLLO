@@ -78,7 +78,7 @@
             "NBA All-Star Weekend",
             "Los Angeles, CA",
             "February 13-15, 2026",
-            strtotime("February 13, 20265"),
+            strtotime("February 13, 2026"),
             strtotime("February 15, 2026"),
             "images/slides/splash-nba.jpg",
             "/nba-allstar",
@@ -112,7 +112,7 @@
             strtotime("December 20, 2025"),
             "images/slides/splash-alumni.jpg",
             "/alumni-getaway-cruise",
-            "HBCU alums, join YOLLO for a cruise to Costa Maya, Belize, & Cozumela!"
+            "HBCU alums, join YOLLO for a cruise to Costa Maya, Belize, & Cozumel!"
         ),
         new Event(
             "London To Paris",

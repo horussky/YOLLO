@@ -1,6 +1,5 @@
 <?php
 	include 'includes/functions.inc.php';
-	include 'includes/meta.config.inc.php';
 
 	// Load the event configuration
     $event_config = require 'config/events/conf_daytopia.php';
@@ -10,6 +9,7 @@
     $geolocation = $event_config['geolocation'];
     $people = $event_config['people'];
     $package_items = $event_config['package_items'];
+	$metas = $event_config['metas'];
 
 	$eventbriteID = "1025067413227";
 ?>
@@ -19,13 +19,13 @@
 <head>
 	<meta charset="utf-8">
 	<title>
-		<?php echo $metas['daytopia']['title']; ?>
+		<?php echo $metas['title']; ?>
 	</title>
 	<meta name="viewport" content="width=device-width">
-	<meta name="description" content="<?php echo $metas['daytopia']['desc']; ?>" />
-	<meta name="keywords" content="<?php echo $metas['daytopia']['keywords']; ?>" />
+	<meta name="description" content="<?php echo $metas['description']; ?>" />
+	<meta name="keywords" content="<?php echo $metas['keywords']; ?>" />
 	<meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-	<link href="<?php echo $metas['daytopia']['canonical']; ?>" rel="canonical" />
+	<link href="<?php echo $metas['canonical']; ?>" rel="canonical" />
 	<meta name="author" content="YOLLO Group Services" />
 	<meta property="fb:pages" content="117420764961518" />
 	<link rel="icon" href="favicon-192.png" sizes="192x192">
