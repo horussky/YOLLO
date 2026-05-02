@@ -1,20 +1,11 @@
 <?php
 	include 'includes/functions.inc.php';
-	include 'includes/meta.config.inc.php';
-
-	// Load the event configuration
-	$event_config = require 'config/events/conf_urban-ski.php';
-
-	// Access configuration data
-	$event = $event_config['event'];
-	$geolocation = $event_config['geolocation'];
-	$people = $event_config['people'];
-	$package_items = $event_config['package_items'];
-	$metas = $event_config['metas'];
+	include 'includes/bootstrap.inc.php';
+	$config = loadEvent('conf_urban-ski.php');
+	extract($config);
 ?>
 
 <!doctype html>
-
 <html lang="en">
 
 <head>
@@ -63,7 +54,10 @@
 					<h1 class="event-hero__title"><?php echo $event["title"]; ?></h1>
 					<p class="event-hero__subtitle"><?php echo $event["subtitle"]; ?></p>
 					<p class="event-hero__location"><?php echo $event["location"]; ?></p>
-					<a data-href="#tabs-5" class="btn btn-red event-hero__btn open-tab">Book Now</a>
+					<div class="event-hero__buttons">
+						<a data-href="#tabs-5" class="btn btn-red event-hero__btn open-tab">Book Now</a>
+						<a class="btn btn-outlined btn--round event-hero__btn" href="/urban-ski-events">View Events</a>
+					</div>
 					<div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="event-hero__date"><?php echo $event["date"]; ?> </div>
 					<div id="event-timer" class="event-hero__timer"></div>
 				</div>	
@@ -81,6 +75,12 @@
 						<p>Experience the thrill of skiing and nightlife at Urban Ski Weekend 2026 in Gatlinburg, Tennessee. This event caters to both beginners and seasoned skiers, offering an unforgettable blend of slope action and after-dark excitement.</p>
 
 						<h3>What Makes This Experience Irresistible:</h3>
+
+						<div class="ratio ratio-16x9 mb-20">
+								<iframe src="https://www.youtube.com/embed/5WuK1wDeBaI?rel=0" 
+								title="YouTube video" 
+								allowfullscreen></iframe>
+						</div>
 
 						<p>You'll enjoy a very accommodating 4-day, 3-night stay at our premium host hotel. Start each morning with a delicious sponsored breakfast that fuels your mountain adventures. Indulge in up to 28 hours of sponsored bar drinks that keep the energy high and the memories flowing. Your exclusive party passes unlock VIP access to the most sought-after events, while our headline comedy show guarantees non-stop laughter. </p>
 

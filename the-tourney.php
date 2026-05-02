@@ -220,7 +220,7 @@ $metas = $event_config['metas'];
 
                             <?php echo $responsive_tabs["photos"]; ?>
                             <div class="tab" aria-label="photos">
-                                <div id="nanoGallery"></div>
+                                <div id="nanoGallery" data-photoset="72157632957250953"></div>
                             </div><!-- ./photos -->
 
 
@@ -269,34 +269,6 @@ $metas = $event_config['metas'];
 
     <!-- Global Scripts -->
     <?php include 'includes/scripts.inc.php'; ?>
-    <script type="text/javascript">
-        $(document).ready(function() {
-
-            //nano
-            $("#nanoGallery").nanoGallery({
-                kind: 'flickr',
-                userID: '50836209@N03',
-
-                //uncomment this line to display one specific album:
-                photoset: '72157632957250953',
-
-                // uncomment this line to display full photostream (v5.0.0):
-                // photoset:'none',
-
-                thumbnailWidth: 115,
-                thumbnailHeight: 'auto',
-                thumbnailAlignment: 'left',
-                thumbnailLabel: {
-                    display: false,
-                    displayDescription: false,
-                    position: 'overImageOnBottom'
-                },
-
-                thumbnailHoverEffect: 'borderLighter'
-            });
-        });
-    </script>
-
 
     <script src="https://services.cognitoforms.com/s/NiNAkf4LukqBZOHDFOMsiQ"></script>
     <script>

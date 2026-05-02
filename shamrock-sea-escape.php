@@ -317,7 +317,7 @@
                         <?php echo $responsive_tabs["photos"]; ?>
 						<div class="tab" aria-label="photos">
 					   	<h2>Photos</h2>
-                        		<div id="nanoGallery"></div>
+                        		<div id="nanoGallery" data-photoset="72157632729673352"></div>
                         </div>  <!-- ./photos -->
 
 
@@ -368,37 +368,6 @@
 <!-- End of Footer  -->
 
 <?php include 'includes/scripts.inc.php'; ?>
-
-<script type="text/javascript">
-
-	$(document).ready(function(){
-
-		//nano
-		$("#nanoGallery").nanoGallery({
-			kind: 'flickr',
-			userID: '50836209@N03',
-
-			 //uncomment this line to display one specific album:
-		    photoset:'72157632729673352',
-
-			// uncomment this line to display full photostream (v5.0.0):
-			// photoset:'none',
-
-			thumbnailWidth: 100,
-			thumbnailHeight: 100,
-			thumbnailAlignment: 'left',
-			thumbnailLabel: {
-				display:false,
-				displayDescription: false,
-				position: 'overImageOnBottom'
-			},
-
-			thumbnailHoverEffect:'borderLighter'
-		});
-
-
-	});
-</script>
 
 <script src="https://services.cognitoforms.com/s/NiNAkf4LukqBZOHDFOMsiQ"></script>
 <script>Cognito.load("forms", { id: "87" });</script>

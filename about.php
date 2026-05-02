@@ -1,20 +1,25 @@
 <?php 
 include 'includes/functions.inc.php';
-include 'includes/meta.config.inc.php';
+include 'includes/bootstrap.inc.php';
 
+// Load the event configuration
+	$event_config = require 'config/conf_about.php';
+
+	// Access configuration data
+	$metas = $event_config['metas'];
 ?>
 <!doctype html>
 <html lang="en">
 
 <head>
 <meta charset="utf-8">
-<title><?php echo $metas['about']['title']; ?></title>
+<title><?php echo $metas['title']; ?></title>
 
-<meta name="description" content="<?php echo $metas['about']['desc']; ?>" />
-<meta name="keywords" content="<?php echo $metas['about']['keywords']; ?>" />
+<meta name="description" content="<?php echo $metas['description']; ?>" />
+<meta name="keywords" content="<?php echo $metas['keywords']; ?>" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-<link href="<?php echo $metas['about']['canonical']; ?>" rel="canonical" />
+<link href="<?php echo $metas['canonical']; ?>" rel="canonical" />
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
 <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 <meta property="fb:pages" content="117420764961518" />
@@ -78,9 +83,16 @@ include 'includes/meta.config.inc.php';
 
                 <section class="col-lg-10">
                     <h2>What People Are Saying</h2> 
+                    
+                    <blockquote  style="border-left: 4px solid; padding-left: 15px; font-style: italic; color: #666; margin: 20px 0;">
+                    "Enjoyed the cruise in Cincinnati. Special thanks to Matthew and his security staff for all of their efforts. Chicago love to you!"
+                    <span style="display: block; margin-top: 10px; font-weight: bold; color: #333;">— Regina O.</span>
+                    </blockquote>
+
+                
 
                     <blockquote  style="border-left: 4px solid; padding-left: 15px; font-style: italic; color: #666; margin: 20px 0;">
-                    "Puerto Rico, the parties, the vibe—YOLLO made it all seamless. I'm already booking my next trip!""
+                    "Puerto Rico, the parties, the vibe—YOLLO made it all seamless. I'm already booking my next trip!"
                     <span style="display: block; margin-top: 10px; font-weight: bold; color: #333;">— Brenda P.</span>
                     </blockquote>
 

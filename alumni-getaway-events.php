@@ -7,8 +7,8 @@ $event = array(
 	"title"				=>"HBCU Alumni Getaway Cruise Events",
 	"subtitle"			=>"The Crossroads of the West",
 	"location"			=>"Amber Cove and Grand Turk",
-	"date"				=>"December 5, 2022",
-    "date_start"        =>"December 9, 2022",
+	"date"				=>"December 12, 2026",
+    "date_start"        =>"December 12, 2026",
 	"img_url"			=>"/images/event-list/alumni/alumni-event-header.jpg",
 );
 
@@ -52,6 +52,7 @@ $event = array(
                             <img class="title__event-logo mb-20" src="/images/hbcu-alumni-color.svg">
                             <h1><?php echo $event["title"]; ?></h1>
                             <h2 class="h4 sans-serif-light text-white">Join exclusive alumni events designed to entertain and inspire.</h2>
+                            <a class="btn btn-outlined btn--round" target="_blank" href="/booklet/">View Event Digital Booklet</a>
                         </div>
                     </div><!-- ./topcontent -->
                 </div><!-- ./col -->
@@ -66,7 +67,7 @@ $event = array(
                 <!-- Intro -->
                 <div class="col-sm-8 col-12 mb-20">
                     <h2>Events Included In Your Package</h2>
-                    <p>Enjoy a week packed with fun and entertainment! Need some extra cash? Unlock exciting earning opportunities by <a title="Become an ambassador and earn!" target="_blank" href="/alumni-ambassador-program">joining our Ambassador Program</a> today! </p>
+                    <p>Enjoy a week packed with fun and entertainment! You can <a target="_blank" href="/booklet/">view our digital booklet here.</a> Looking to make some extra cash? Unlock exciting earning opportunities by <a title="Become an ambassador and earn!" target="_blank" href="/alumni-ambassador-program">joining our Ambassador Program</a> today! Benefit from your network while pulling together fellow HBCU Alumni. </p>
                 </div>
 
                 <!-- Mixtape -->
@@ -78,20 +79,20 @@ $event = array(
 
             <div class="row justify-content-center">
                 <div class="col-sm-10">
-                    <h3>Saturday - Dec 13, 2025</h3>
+                    <h3>Friday - Dec 11, 2026</h3>
                 </div>
             </div><!-- ./row -->
 
             <div class="row justify-content-center">
                 <div class="col-sm-10">
-                    <img src="/images/event-list/alumni/agc-kickoff-party-2025.jpg" class="img-responsive mb-20" alt="Kick Off Party">
+                    <img src="/images/event-list/alumni/agc-kickoff-party-2026.jpg" class="img-responsive mb-20" alt="Kick Off Party">
                 </div>
             </div><!-- ./row -->
             
 
             <div class="row justify-content-center">
                 <div class="col-sm-10">
-                    <h3>Sunday - Dec 14, 2025</h3>
+                    <h3>Saturday - Dec 12, 2026</h3>
                 </div>
             </div><!-- ./row -->
 
@@ -122,7 +123,7 @@ $event = array(
 
             <div class="row justify-content-center">
                 <div class="col-sm-10">
-                    <h3>Monday - Dec 15, 2025 (Day at Sea)</h3>
+                    <h3>Sunday - Dec 13, 2026(Day at Sea)</h3>
                 </div>
             </div><!-- ./row -->
             
@@ -151,7 +152,7 @@ $event = array(
             
             <div class="row justify-content-center">
                 <div class="col-sm-10">
-                    <h3>Tuesday - Dec 16, 2025</h3>
+                    <h3>Monday - Dec 14, 2026</h3>
                 </div>
             </div><!-- ./row -->
 
@@ -175,7 +176,7 @@ $event = array(
 
             <div class="row justify-content-center">
                 <div class="col-sm-10">
-                    <h3>Wednesday - Dec 17, 2025 </h3>
+                    <h3>Tuesday - Dec 15, 2026 </h3>
                 </div>
             </div><!-- ./row -->
 
@@ -199,7 +200,7 @@ $event = array(
 
             <div class="row justify-content-center">
                 <div class="col-sm-10">
-                    <h3>Thursday - Dec 18, 2025</h3>
+                    <h3>Wednesday - Dec 16, 2026</h3>
                 </div>
             </div><!-- ./row -->
 
@@ -225,7 +226,7 @@ $event = array(
 
             <div class="row justify-content-center">
                 <div class="col-sm-10">
-                    <h3>Friday - Dec 19, 2025 (Day at Sea)</h3>
+                    <h3>Thursday - Dec 17, 2026 (Day at Sea)</h3>
                 </div>
             </div><!-- ./row -->
 
@@ -251,9 +252,9 @@ $event = array(
 
             <div class="row justify-content-center mb-40">
                 <div class="col-md-10 text-center">
-                    <h3>Book Now</h3>
-                    <p>Do you like last year's events and missed all the fun, please make sure you book for 2025.</p>
-                    <a href="/alumni-getaway-cruise" class="btn btn-red open-tab">Book Now!</a>
+                    <h3>Book With Us</h3>
+                    <p>Did you like last year's events and missed all the fun, please make sure you book for 2026.</p>
+                    <a href="/alumni-getaway-cruise" class="btn btn-red open-tab">Book Today!</a>
                 </div>
             </div>
 

@@ -1,0 +1,146 @@
+#scruggs-pg{
+    background-color: #fff;
+
+    .scruggs-pg__hero{
+        padding: 100px 0;
+        color: #fff;
+
+        .btn-outline-light{
+            border: 1px solid #fff;  
+            --bs-btn-bg: rgba(255, 255, 255, 0.2);
+        }
+    }
+
+    .scruggs-pg__hero__img{        
+        position: absolute;
+        right: 0;
+        bottom: -6.3rem;
+        animation: slideInFromRight 1.5s ease-out 0.3s;
+
+
+        @media screen and (max-width: 768px) {
+            width: 60%;
+            margin-bottom: 24px;
+        }
+
+    }
+
+    .celebration-img{
+        margin-bottom: 2.5rem;
+        width: clamp(200px,60vw,800px);
+
+        @include media-breakpoint-down(md) {
+            max-width: 100%;
+            width: 100%;
+        }
+
+    }
+
+    @keyframes slideInFromRight {
+        0% {
+            opacity: 0;
+            transform: translateX(300px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .bg-overlay {
+        position: relative;
+        width: 100%;
+        padding: 100px 0;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .bg-overlay::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+        pointer-events: none; /* Allows clicks to pass through to content below */
+    }
+
+    .bg-overlay > * {
+        position: relative;
+        z-index: 1;
+    }
+
+    .overview-bar{
+        background-color: #f3f5f8;
+        padding: 40px 0;
+    }
+
+    .scruggs-pg__tiers{
+
+        .card-title--underline::after{
+            border-bottom: 3px solid;
+            content: "";
+            display: block;
+            padding-top: 1rem;
+            width: 80px;
+            margin: 0 auto;
+        }
+    }
+
+    form{
+        padding: 1rem;
+        border: 1px solid #76949F;
+        border-radius: 4px;
+        background-color: #fff;
+
+        .el-scrollbar__view {
+            padding: 0;
+        }
+
+        .cog-body{
+            margin-top: 0;
+        }
+    }
+
+    .card{
+        margin-bottom: 1rem;
+
+        .card-body .card-text ol{
+            margin: 0 0 1rem 0;
+        }
+
+        .card__tier{
+            font-size: 2rem;
+            font-weight: 600;
+            color: #824C71;
+        }
+
+        .card-body__tier{
+            max-width: 136px;
+            margin-top: -2rem;
+            margin-bottom: 1rem;
+
+            @media screen and (max-width: 480px) {
+                max-width: 160px;
+            }
+        }
+        
+    }
+
+    .card--hiw{
+        background: transparent;
+        border: none;
+        text-align: center;
+
+        @media screen and (max-width: 768px) {
+            margin-bottom: 0;
+
+            p{
+                margin: 0;
+            }
+        }
+    }
+
+
+}

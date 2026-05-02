@@ -61,10 +61,7 @@ ol {
 
 ul{
 	list-style:disc outside none;
-
-	/*:not(.event-nav){
-		margin-left:20px;
-	}*/
+	padding-left: 1.125rem; 
 }
 
 ol{ 				
@@ -91,7 +88,6 @@ ol{
 
 .ccs {
 	font-family: 'creditcardstack';
-	speak: none;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;

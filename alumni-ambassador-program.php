@@ -45,13 +45,13 @@ $event = array(
     <div class="container-fluid mb-40 ambassador-pg__hero">
         <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-8 order-2 order-md-1 text-center text-sm-center text-md-start text-xl-start">
+                    <div class="col-md-8 order-2 order-lg-1 text-center text-sm-center text-md-start text-xl-start">
                         <h1>Earn While You Share the HBCU Alumni Experience</h1>
                         <p class="lead">Get paid $50-$100 for each person who books! Plus, earn a $400 bonus.</p>
                         <a href="#sign-up-now" class="btn btn-warning fw-bold" >Join the Ambassador Program</a>
                     </div><!-- ./col -->
 
-                    <div class="col-md-4 text-center order-1 order-md-2">
+                    <div class="col-md-4 text-center order-1 order-lg-2">
                         <img src="/images/ambassador-hero-icon.svg" alt="Alumni Ambassador Program" class="img-fluid ambassador-pg__hero__img" />
                     </div><!-- ./col -->
                 </div><!-- ./row -->

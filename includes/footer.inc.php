@@ -24,6 +24,7 @@
 			<div class="foot-events">
 				<h6 class="footer-grid__title">Upcoming Events</h6>
 					<?php $i=0; foreach($feature_event as $event): if ($i == 3) break; ?>
+						<?php $now = time(); ?>
 						<?php if($event->end > $now): $i++; ?>
 							<div class="event">
 								<div class="event-img">

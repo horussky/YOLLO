@@ -1,7 +1,7 @@
 <?php
-	$current_url = pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME);
-	$active = "active-nav";
-
+	// $current_url and $active are now set in bootstrap.inc.php
+	// Keep this file clean - no duplicate variable declarations
+	
 	//array for top links
 	$top_links = array(
 		'home'      =>  'Home',

@@ -195,7 +195,7 @@
 
 										<div data-control>When are the payments due?</div>
 										<div data-content>
-										<p>After registration the first payment of $125 is due July 10, 2025 after registration. The second payment of $250 is due by October 10, 2025. The final payment (remaining balance) is due on or before January 10, 2026. If you would like to make payments between due dates that is fine also.</p>
+										<p>After registration the first payment of $125 is due August 10, 2025 after registration. The second payment of $250 is due by October 10, 2025. The final payment (remaining balance) is due on or before January 10, 2026. If you would like to make payments between due dates that is fine also.</p>
 										</div>
 
 									</div><!-- end of accordion-->
@@ -278,7 +278,7 @@
 
 							<?php echo $responsive_tabs["photos"]; ?>
 							<div class="tab" aria-label="photos">
-									<div id="nanoGallery"></div>
+									<div id="nanoGallery" data-photoset="72157661030952496"></div>
 							</div> <!-- ./photos -->
 
 
@@ -326,38 +326,6 @@
 
 	<?php include 'includes/scripts.inc.php'; ?>
 
-		<script type="text/javascript">
-			$(document).ready(function() {
-
-					//nano
-					$("#nanoGallery").nanoGallery({
-
-						kind: 'flickr',
-						userID: '50836209@N03',
-
-						//uncomment this line to display one specific album:
-						photoset: '72157661030952496',
-
-						// uncomment this line to display full photostream (v5.0.0):
-						// photoset:'none',
-
-						thumbnailWidth: 115,
-						thumbnailHeight: 'auto',
-						thumbnailAlignment: 'left',
-						thumbnailLabel: {
-							display: false,
-							displayDescription: false,
-							position: 'overImageOnBottom'
-						},
-
-						thumbnailHoverEffect: 'borderLighter'
-
-					});
-				
-
-			});
-		</script>
-		
 		<script src="https://services.cognitoforms.com/s/NiNAkf4LukqBZOHDFOMsiQ"></script>
 		<script>Cognito.load("forms", { id: "47" });</script>
 

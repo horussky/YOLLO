@@ -117,3 +117,29 @@ h6, .h6 {
     }
   }
 }
+
+
+// Define Bootstrap 5 breakpoints manually
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+// Create your own media-breakpoint-down mixin
+@mixin media-breakpoint-down($breakpoint) {
+  $max: map-get($grid-breakpoints, $breakpoint) - 0.02;
+  @media (max-width: $max) {
+    @content;
+  }
+}
+
+@mixin media-breakpoint-up($breakpoint) {
+  $min: map-get($grid-breakpoints, $breakpoint);
+  @media (min-width: $min) {
+    @content;
+  }
+}

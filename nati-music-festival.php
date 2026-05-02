@@ -73,6 +73,11 @@ $metas = $event_config['metas'];
                                 <p>Prepare for the biggest weekend of music, culture, and electrifying energy at the Cincinnati Music Festival 2026! This legendary festival has brought icons like Beyoncé, Bruno Mars, and Kendrick Lamar to the stage—and next year's lineup will be even more unforgettable. With YOLLO Group Services, you won't just attend; you'll dominate the weekend with exclusive VIP access, luxury stays, and premium events. Spots fill fast—<a data-href="#tabs-5" href="#" class="open-tab">book now</a> to guarantee your place at the hottest festival of the year!</p>
 
                                 <h3>Elevate Your Experience with the All-White Mid-Day Cruise</h3>
+                                <div class="ratio ratio-16x9 mb-20">
+                                        <iframe src="https://www.youtube.com/embed/w35en351N1E?rel=0" 
+                                        title="YouTube video" 
+                                        allowfullscreen></iframe>
+                                </div>
                                 <p>Want to take your festival weekend to the next level? Say less! Step aboard the stunning River Queen with BB Riverboats for our exclusive All-White Grown & Sophisticated Mid-Day Cruise. Glide along the Ohio River, vibing to top-tier music while soaking in breathtaking views of the Cincinnati skyline. Limited tickets available —once they're gone, they're GONE! Don't wait—secure your spot for this 2:30 PM - 5:00 PM luxury experience before it sells out!</p>
 
                                 <h3>More Than Music—A Full Weekend of VIP Treatment & Culture</h3>
@@ -215,7 +220,7 @@ $metas = $event_config['metas'];
 
                                     <div data-control>What are the payment due dates for Cincinnati Music Festival Packages?</div>
                                     <div data-content>
-                                        <p>To reserve a package each group member pays the $100.00 per person fee. The first payment of $125 is due on or before <strong>September 10, 2025</strong>. The second payment of $150 is due on or before <strong>January 10, 2026</strong>.The final payment (remaining balance) is due on or before <strong>March 10, 2026</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
+                                        <p>To reserve a package each group member pays the $100.00 per person fee. The first payment of $125 is due on or before <strong>February 10, 2026</strong>. The second payment of $150 is due on or before <strong>March 10, 2026</strong>.The final payment (remaining balance) is due on or before <strong>May 10, 2026</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
                                     </div>
 
                                     </div><!-- end of accordion-->
@@ -288,7 +293,7 @@ $metas = $event_config['metas'];
 
                             <?php echo $responsive_tabs["photos"]; ?>
                             <div class="tab" aria-label="photos">
-                                <div id="nanoGallery"></div>
+                                <div id="nanoGallery" data-photoset="72177720328384256"></div>
                             </div><!-- ./ photos -->
 
 
@@ -337,28 +342,6 @@ $metas = $event_config['metas'];
 <!-- End of Footer  -->
 
 <?php include 'includes/scripts.inc.php'; ?>
-<script type="text/javascript">
-	$(function(){
-
-        //nano
-        $("#nanoGallery").nanoGallery({
-            kind: 'flickr',
-            userID: '50836209@N03',
-
-            //uncomment this line to display one specific album:
-            photoset:'72177720328384256',
-            thumbnailWidth: 115,
-            thumbnailHeight: 'auto',
-            thumbnailAlignment: 'left',
-            thumbnailLabel: {
-                display:false,
-                displayDescription: false,
-                position: 'overImageOnBottom'
-            },
-            thumbnailHoverEffect:'borderLighter'
-        });
-	});
-</script>
 <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 
 <script type="text/javascript">
