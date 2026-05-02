@@ -11,7 +11,7 @@
     $package_items = $event_config['package_items'];
 	$metas = $event_config['metas'];
 
-	$eventbriteID = "1025067413227";
+	$eventbriteID = "1984762736774";
 ?>
 
 <!doctype html>
@@ -71,9 +71,19 @@
 		
 						<h2>Welcome to Daytopia: Your Ultimate Day Party Experience!</h2>
 
-						<p>Join us for an extraordinary journey of excitement and celebration at YOLLO's Daytopia in Gumptown. This is no ordinary event; it's a weekend affair filled with unforgettable moments during our ultimate bowling party.</p>
+						<p class="lead">Celebrate Father's Day Weekend with the perfect mix of high-energy music, premium cigars, and non-stop bowling. It's not just a party—it's a YOLLO experience.</p>
 
-						<p>Daytopia is your ultimate Saturday escape, packed with energy, fun, and unforgettable memories! Let's bring good vibes on Saturday at our high-energy bowling day party at Bama Lanes. Enjoy complimentary food provided by our sponsor, King 79 Vodka, while you bowl, vibe to the music, and compete for more great prizes. A live DJ will keep the atmosphere lively and the party going strong. Whether you're skating under the lights or aiming for a perfect strike, Daytopia is all about good vibes, great company, and creating memories you won't forget. Don't miss your chance to be part of this epic weekend — gather your crew and secure your spot at Daytopia today!</p>
+						<p>Why settle for a typical weekend when you can experience Daytopia? Hosted by YOLLO Group Services, we're taking over Bama Lanes in Montgomery for a high-octane day party designed for those who know how to live life to the fullest. Whether you're a father celebrating your day or just looking for the city's best energy, this is where you need to be on Saturday, June 20th.</p>
+
+						<p><strong>What's waiting for you at Daytopia:</strong></p>
+						<ul>
+							<li><strong>The Music:</strong> Get ready to dance the day away with a live DJ set curated by the one and only DJ Dre Smoove, ensuring the vibes are on point from start to finish.</li>
+							<li><strong>The Competition:</strong> Lace up your bowling shoes and show off your skills on the lanes. Whether you're a pro or just in it for fun, there's a spot for you at Daytopia.</li>
+							<li><strong>The Flavors:</strong> Enjoy complimentary food (while supplies last) to keep you fueled up for all the fun.</li>
+							<li><strong>The Atmosphere:</strong> Visit our on-site premium cigar vendor for that sophisticated touch to your afternoon.</li>
+							<li><strong>The Community:</strong> Connect with friends, family, and the YOLLO crew in a high-energy, welcoming environment.</li>
+						</ul>
+						<p>Don't miss out on the ultimate Father's Day Weekend celebration. Whether you're celebrating with your dad, your friends, or just treating yourself, Daytopia is the place to be. Secure your spot now and get ready for a day of unforgettable fun!</p>
 
 						<h3>Buy Now</h3>
 						<div class="mb-20" id="eventbrite-widget-container-<?php echo $eventbriteID ?>"></div>

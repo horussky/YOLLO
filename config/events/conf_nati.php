@@ -29,7 +29,7 @@
 				"img_url"			=>"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/3b/90/8d/hotel-exterior.jpg?w=800&h=-1&s=1",
 				"host"              =>true
 			),
-			"hotel2"=> array(
+			/*"hotel2"=> array(
 				"title" 			=>"Comfort Suites Newport - Cincinnati Riverfront",
 				"address"			=>"420 Riverboat Row",
 				"location"			=>"Newport, KY 41071",
@@ -37,7 +37,7 @@
 				"soldout"           =>false,
 				"img_url"			=>"https://media-cdn.tripadvisor.com/media/photo-o/03/51/42/96/comfort-suites.jpg",
 				"host"              =>false
-			),
+			),*/
 
 		],
 

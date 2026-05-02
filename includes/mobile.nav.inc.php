@@ -34,7 +34,7 @@
 		[
 			"title"	=>	"Party Gras Weekend",
 			"link"	=>	"/partygras",
-			"active"=> true
+			"active"=> false
 		],
 		[
 			"title"	=>	"Cincinnati Music Festival",
@@ -43,7 +43,7 @@
 		],
 		[
 			"title"	=>	"All-Star Weekend",
-			"link"	=>	"/nba-allstar",
+			"link"	=>	"/allstar-weekend",
 			"active"=> true
 				
 		],
@@ -54,7 +54,7 @@
 		],
 		[
 			"title"	=>	"Urban Fiesta: Jamaica",
-			"link"	=>	"/urban",
+			"link"	=>	"/urban-fiesta-jamaica",
 			"active"=> true		  	
 		],
 		[

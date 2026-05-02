@@ -1,16 +1,9 @@
 <?php
-    include 'includes/functions.inc.php';
-    include 'includes/meta.config.inc.php';
+include 'includes/functions.inc.php';
+include 'includes/bootstrap.inc.php';
 
-    // Load the event configuration
-    $event_config = require 'config/events/conf_nba-allstar.php';
-
-    // Access configuration data
-    $event = $event_config['event'];
-    $geolocation = $event_config['geolocation'];
-    $people = $event_config['people'];
-    $package_items = $event_config['package_items'];
-    $metas = $event_config['metas'];
+$config = loadEvent('conf_nba-allstar.php');
+extract($config);
 ?>
 <!doctype html>
 <html lang="en">
@@ -71,14 +64,9 @@
                         <div class="tab" aria-label="overview">
                             <h2><?php echo $event["title"]?></h2>
 
-                            <p>All-Star Weekend 2026 is coming to Los Angeles, and YOLLO Group Services is bringing you an unforgettable experience. This is your chance to witness the biggest names in basketball, enjoy exclusive parties, and immerse yourself in the electrifying atmosphere of All-Star Weekend. YOLLO Group Services provides premium hotel accommodations in prime locations, ensuring you stay close to the action. Our packages include access to top-tier events such as the NBA All-Star Game, the Celebrity Game, and the Slam Dunk Contest. You will also have the opportunity to attend exclusive parties featuring celebrity hosts, top DJs, and high-energy entertainment. <a data-href="#tabs-5" class="open-tab">secure your spot now! </a></p>
+                            <p>The All-Star Getaway Experience,  one of the biggest weekends in professional basketball as top players, personalities, and fans converge for a star-studded showcase in the host city, Los Angeles. This is your chance to be in the host city for a jam packed weekend of basketball themed events, premium nightlife, and unforgettable memories.</p>
 
-                            <p>We take care of all the details so you can enjoy a seamless and stress-free experience. Whether you are a basketball fanatic, a nightlife enthusiast, or someone looking for an epic weekend getaway, this is the event you do not want to miss.</p>
-
-                            
-                            <h3>Experience the Ultimate All-Star Weekend</h3>
-                            <p>Join us for the ultimate entertainment experience as we take you on a thrilling journey through the city's most exhilarating events. With our exclusive access, you'll have the opportunity to attend the hottest parties. One event that you definitely don't want to miss is our highly acclaimed Colors and Cocktails event. Secure your tickets now as availability is limited. Once we sell out, no more tickets will be available. Don't miss out on the festivities - <a data-href="#tabs-5" class="open-tab">reserve your package today!</a></p>
-
+                            <p>YOLLO Group Services provides curated travel packages that may include centrally located hotel accommodations, access to fan festivals and basketball exhibitions, celebrity-hosted parties, and signature YOLLO events such as Colors and Cocktails. Secure your spot now and let us handle the details so you can focus on enjoying an epic weekend. <a data-href="#tabs-5" class="open-tab">secure your spot now! </a></p>
                         </div> <!-- ./ overview -->
 
                         
@@ -184,7 +172,7 @@
                                     <p class="lead">Rookie - $1,650 </p>
                                     <ul>
                                         <li>Friday Night Party</li>
-                                        <li>NBA Crossover Ticket</li>
+                                        <li>Crossover Ticket</li>
                                         <li>Colors and Cocktails</li>
                                         <li>Comedy Show - acts announced closer to event</li>
                                         <li>Saturday Night Party (Celebrity Hosted)</li>
@@ -194,13 +182,13 @@
                                 <div class="partypass--col">
                                     <p class="lead">Rising Star - $2,350 </p>
                                     <ul>										
-                                        <li>NBA Crossover Ticket</li>
+                                        <li>Crossover Ticket</li>
                                         <li>Colors and Cocktails</li>
                                         <li>Comedy Show - acts announced closer to event</li>
                                         <li>Saturday Night Party (Celebrity Hosted)</li>
                                         <li>Sunday Night Party</li>
-                                        <li>All Star Celebrity Game Ticket</li>
-                                        <li>All Star Practice Game ticket</li>							
+                                        <li>Celebrity Game</li>
+                                        <li>Practice Game</li>							
                                     </ul>
                                 </div>
 
@@ -208,14 +196,14 @@
                                     <p class="lead">All-Star - $3,050 (best seller)</p>
                                     <ul>
                                         <li>Friday Night Party (Celebrity Hosted)</li>
-                                        <li>NBA Crossover Ticket</li>
+                                        <li>Crossover Ticket</li>
                                         <li>Colors and Cocktails</li>
                                         <li>Comedy Show - acts announced closer to event</li>
                                         <li>Saturday Night Party (Celebrity Hosted)</li>
                                         <li>Sunday Night Party</li>
-                                        <li>All Star Celebrity Game Ticket</li>
-                                        <li>All Star Practice Game ticket</li>	
-                                        <li>All Star Rising Star Challenge</li>								
+                                        <li>Celebrity Game Ticket</li>
+                                        <li>Practice Game ticket</li>	
+                                        <li>Rising Star Challenge</li>								
                                     </ul>
                                 </div>    
                             </div><!-- end of .partypass -->
@@ -232,9 +220,9 @@
                                 
                                 <div class="accordion open" data-accordion>
 
-                                    <div data-control>What is included with the NBA Crossover formerly Jam Session Tickets</div>
+                                    <div data-control>What is included with the Crossover formerly Jam Session Tickets</div>
                                     <div data-content>
-                                    <p>NBA Crossover formerly known as Jam Session  is a global event and brand that highlights all aspects of culture that surround the NBA – art, music, fashion and technology. NBA players and legends will be making appearances during the event. It provides fans who are attending this event with an opportunity to come out and experience part of NBA All-Star.</p>
+                                    <p>Crossover formerly known as Jam Session  is a global event and brand that highlights all aspects of culture. Players and legends will be making appearances during the event. It provides fans who are attending this event with an opportunity to come out and experience part of All-Star.</p>
                                     </div>
 
                                 </div><!-- end of accordion-->
@@ -242,9 +230,9 @@
 
                                 <div class="accordion" data-accordion>
 
-                                    <div data-control>What should I expect at the NBA All-Star Practice & Media Day presented by AT&T?</div>
+                                    <div data-control>What should I expect at the All-Star Practice & Media Day presented by AT&T?</div>
                                     <div data-content>
-                                    <p>This unique, behind-the-scenes event is your opportunity to see the NBA’s biggest stars interviewed by media from around the world. Fans can then watch the entire NBA All-Star Game squad train for Sunday’s showcase.</p>
+                                    <p>This unique, behind-the-scenes event is your opportunity to see the biggest stars interviewed by media from around the world. Fans can then watch the entire All-Star Game squad train for Sunday's showcase.</p>
                                     </div>
 
                                 </div><!-- end of accordion-->
@@ -254,14 +242,14 @@
 
                                     <div data-control>When are the payments due?</div>
                                     <div data-content>
-                                    <p>After registration the first payment of $125 is due July 18, 2025.  The next payment of $250 is due September 1, 2025. The next payment of $700 is due November 20, 2025.  The final payment (remaining balance) is due on or before November 1, 2025.</p>
+                                    <p>After registration the first payment of $125 is due December 10, 2025.  The next payment of $250 is due January 03, 2026. The next payment of $700 is due January  20, 2026.  The final payment (remaining balance) is due on or before November 1, 2025.</p>
                                     </div>
 
                                 </div><!-- end of accordion-->
 
                                 <div class="accordion" data-accordion>
 
-                                    <div data-control>Who won the All- Star game the last time it was hosted in Los Angeles?</div>
+                                    <div data-control>Who won the game last time it was hosted in Los Angeles?</div>
                                     <div data-content>
                                     <p>The game was hosted at the Staples Center. The game final score was Team LeBron 148 vs Team Stephen 145.  The MVP was LeBron James with the Cleveland Cavaliers. He had 29, 10 rebounds, and 8 assists.  It was his third time winning the award since the 2008 All-Star Game.</p>
                                     </div>
@@ -270,9 +258,9 @@
 
                                 <div class="accordion" data-accordion>
 
-                                    <div data-control>When is the NBA All-Star Game?</div>
+                                    <div data-control>When is the Game?</div>
                                     <div data-content>
-                                    <p>NBA All-Star Weekend 2026 weekend will start on February 13, 2026 in Los Angeles, CA. The game will be played on February 15, 2026 at the Staples Center. </p>
+                                    <p>The weekend event start on February 13, 2026 in Los Angeles, CA. The game will be played on February 15, 2026 at the Staples Center. </p>
                                     </div>
 
                                 </div><!-- end of accordion-->
@@ -280,9 +268,9 @@
 
                                 <div class="accordion" data-accordion>
 
-                                    <div data-control>How are All-Stars selected?</div>
+                                    <div data-control>How are players in this exhibition selected?</div>
                                     <div data-content>
-                                    <p>The All-Star reserves are selected by a vote of the NBA's 30 head coaches. The starters were selected by weighing the fan, player and media votes. Fan votes account for 50% of the score, and players and media each account for 25%.</p>
+                                    <p>The reserves are selected by a vote of 30 head coaches. The starters were selected by weighing the fan, player and media votes. Fan votes account for 50% of the score, and players and media each account for 25%.</p>
                                     </div>
 
                                 </div><!-- end of accordion-->
@@ -292,7 +280,7 @@
 
                                     <div data-control>What are Celebrity Game Tickets?</div>
                                     <div data-content>
-                                    <p>The celebrity game tickets give you access to the annual basketball game that features retired NBA players, WNBA players, actors, musicians and athletes from sports other than basketball. Past celebrities whom have hosted parties have been the likes of six-time GRAMMY-nominated singer-songwriter Shaboozey, WNBA's Allisha Gray, Pro Football Hall of Fame wide receiver Terrell Owens, Jamie Foxx and Kevin Hart. The NBA All-Star Celebrity Game presented by Ruffles is an exhibition featuring musicians, actors, comedians, as well as WNBA players and NBA Legends.</p>
+                                    <p>The celebrity game tickets give you access to the annual basketball game that features retired players, actors, musicians and athletes from sports other than basketball. Past celebrities whom have hosted parties have been the likes of six-time GRAMMY-nominated singer-songwriter Shaboozey, Allisha Gray, Pro Football Hall of Fame wide receiver Terrell Owens, Jamie Foxx and Kevin Hart. The All-Star Celebrity Game presented by Ruffles is an exhibition featuring musicians, actors, comedians, as well as basketball Legends.</p>
                                     </div>
 
                                 </div><!-- end of accordion-->
@@ -300,7 +288,7 @@
 
                                 <div class="accordion" data-accordion>
 
-                                    <div data-control>I would like to bring my child to the NBA All Star Weekend Games, does he/she need a ticket?</div>
+                                    <div data-control>I would like to bring my child to the Weekend Games, does he/she need a ticket?</div>
                                     <div data-content>
                                     <p>Children under the age of 2 are admitted free of charge. Children under 2 years of age are not guaranteed a seat and may be required to sit on a parent's/guardian's lap. Children 2 and over must have ticket.</p>
                                     </div>
@@ -314,7 +302,7 @@
 
                         <?php echo $responsive_tabs["photos"]; ?>
                         <div class="tab" aria-label="photos">
-                                <div id="nanoGallery"></div>
+                                <div id="nanoGallery" data-photoset="72157632729662634"></div>
                         </div><!-- ./ photos -->
 
 
@@ -341,7 +329,7 @@
 
             <div class="disclosure">
                 <?php include 'includes/package-info-generic.inc.php'; ?>
-                <p><strong>Disclaimer</strong> | The terms NBA All-Star, NBA All-Star Weekend, NBA, as well as all associated graphics and/or logos, are registered trademarks of their respective owners and are used herein for factual description purposes only. We are in no way associated with or authorized by the National Basketball Association and neither this production nor its affiliates have licensed or endorsed us to sell goods and/or services in conjunction with any National Basketball Association productions. The use of any logos, words, trademarks, or photos have been used for descriptive purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.</p>
+                <p><strong>Disclaimer</strong> | YOLLO Group Services is an independent travel and event company and is not affiliated with, sponsored by, or endorsed by any professional basketball league, team, or event organizer. Any references to professional basketball events are for descriptive purposes only. The use of any logos, words, trademarks, or photos have been used for descriptive purposes only and not to show endorsement or permission to use, to promote the sale of any tickets. We are not affiliated with, nor do we have any licenses or strategic alliances with, nor are we authorized by any box office, promoter, venue, theatre, stadium, hotel, sporting team or sporting association. All and any copyrights, trademarks, trade names used within this web site are for descriptive purposes only. We are not acting on the authority of or by the permission of any of the above mentioned entities. We are able to provide access to tickets for events through our contacts and various sources.</p>
             </div><!-- end of disclosure -->
 
 
@@ -362,36 +350,6 @@
 
 <!-- Global Scripts -->
 <?php include 'includes/scripts.inc.php'; ?>
-<script type="text/javascript">
-	$(document).ready(function(){
-
-			//nano
-			$("#nanoGallery").nanoGallery({
-				kind: 'flickr',
-				userID: '50836209@N03',
-
-				 //uncomment this line to display one specific album:
-			   photoset:'72157632729662634',
-
-				// uncomment this line to display full photostream (v5.0.0):
-				// photoset:'none',
-
-				thumbnailWidth: 115,
-				thumbnailHeight: 'auto',
-				thumbnailAlignment: 'left',
-				thumbnailLabel: {
-					display:false,
-					displayDescription: false,
-					position: 'overImageOnBottom'
-				},
-
-				thumbnailHoverEffect:'borderLighter'
-			});
-        
-
-	});
-</script>
-
     
 <!--google analytics-->
 <?php include 'includes/analytics.inc.php'; ?>

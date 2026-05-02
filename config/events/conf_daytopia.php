@@ -2,8 +2,8 @@
 return [
 	
 	"metas" => [
-		"title" => "Daytopia 2025 - YOLLO Group Services",
-		"description" => "Join us for Daytopia 2025, the ultimate R&B day party experience in Montgomery, AL. Enjoy live performances, comedy, and more!",
+		"title" => "Daytopia 2026 - YOLLO Group Services",
+		"description" => "Join us for Daytopia 2026, the ultimate R&B day party experience in Montgomery, AL. Enjoy live performances, comedy, and more!",
 		"keywords" => "Daytopia, R&B Party, Montgomery AL, Live Performances, Comedy",
 		"canonical" => "https://goyollo.com/daytopia",
 	],
@@ -12,8 +12,8 @@ return [
 		"title" => "Daytopia: <br>It's All About R&B",
 		"subtitle" => "Come Party with YOLLO ",
 		"location" => "Montgomery, AL",
-		"date" => "June 27-28, 2025",
-		"date_start" => "June 27, 2025",
+		"date" => "June 20, 2026",
+		"date_start" => "June 20, 2026",
 		"img_url" => "../../images/slides/splash-daytopia-cta.jpg",
 		"img_alt" => "Daytopia Day Party",
 		"hotel_link" => ""

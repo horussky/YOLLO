@@ -1,84 +1,26 @@
 <?php
+	include 'includes/functions.inc.php';
 
-    ob_start("ob_gzhandler");
-    include 'includes/functions.inc.php';
-    include 'includes/meta.config.inc.php';
+	// Load the event configuration
+	$event_config = require 'config/events/conf_ghana.php';
 
-	$event = array(
-		"title"				=>"Ghana Takeover",
-		"subtitle"			=>"Taking You To The Motherland",
-		"location"			=>"Ghana, Africa",
-		"date"				=>"August 1-7, 2025",
-        "date_start"		=>"August 1, 2025",
-		"img_url"			=>"../../images/slides/splash-ghana-cta.jpg",
-		"img_alt"			=>"Ghana Takeover 2025",
-	);
-
-	$geolocation = array(
-
-		"hotel1"=> array(
-			"title" 			=>"4 Star Hotel TBA",
-			"soldout"           =>false,
-			"img_url"			=>"//dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/de/d6/14/exterior.jpg?w=500&h=-1&s=1",
-			"img_default"		=>true, //" ", true
-            "address"			=>"",
-            "location"			=>"Ghana, Africa",
-		)
-
-
-	);
-
-	$people = array(
-			"diamond"=> array(
-				//"Group of 4" 			=>"$1325",
-				"Group of 3"			=>"$2799",
-				"Group of 2"			=>"$2799",
-				"Individual"			=>"$3,300"
-			)/*,
-
-			"emerald"=> array(
-				"Group of 4" 			=>"$1075",
-				"Group of 3"			=>"$1205",
-				"Group of 2"			=>"$1310",
-				"Individual"			=>"$1945"
-			)*/
-
-	);
-
-	$package_items = array(
-		"diamond_items" => array(
-			"Luxury Hotel Stay"				=> "checked",
-			"Almost all meals included"		=> "checked",
-			"Airport Transfers"				=> "checked",
-			"YOLLO Swag Bag"				=> "checked"
-		)/*,
-
-		"emerald_items" => array(
-			"Hotel Accommodations (Fri-Sun)"			      => "checked",
-			"One night concert ticket (Loge Section)"	      => "ex",
-			"All White Party Cruise "			              => "ex",
-			"Mid-Day Comedy Show (Sunday)"				      => "checked",
-			"Black Film Review (Sunday)"				      => "checked",
-			"Speak Easy Poetry Show (Sunday)"				  => "checked",
-			"Welcome to NOLA party (Friday)"				  => "checked",
-			"Complimentary Additional Night*"			      => "checked",
-			"Additional nights: $349 plus tax and fees"	      => "checked",
-			"Additional concert nights (Loge Section): $185" => "checked",
-			"YOLLO Swag Bag"							      => "checked"
-		)*/
-	);
-
+	// Access configuration data
+	$event = $event_config['event'];
+	$geolocation = $event_config['geolocation'];
+	$people = $event_config['people'];
+	$package_items = $event_config['package_items'];
+	$metas = $event_config['metas'];
 ?>
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title><?php echo $metas['ghana']['title']; ?></title>
+    <title><?php echo $metas['title']; ?></title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="<?php echo $metas['ghana']['desc']; ?>" />
-    <meta name="keywords" content="<?php echo $metas['ghana']['keywords']; ?>" />
+    <meta name="description" content="<?php echo $metas['description']; ?>" />
+    <meta name="keywords" content="<?php echo $metas['keywords']; ?>" />
     <meta name="google-site-verification" content="aOAfb-SvmTm_gQdN1mBdu4VN7r6JudKkeJ93Y2B8SLE" />
-    <link href="<?php echo $metas['ghana']['canonical']; ?>" rel="canonical" />
+    <link href="<?php echo $metas['canonical']; ?>" rel="canonical" />
     <meta name="author" content="YOLLO Group Services" />
     <meta property="fb:pages" content="117420764961518" />
     <link rel="icon" href="favicon-192.png" sizes="192x192">
@@ -127,17 +69,17 @@
                         
                         <?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
-						<h2 class="h4">We are taking over Ghana!</h2>
+						<h2>We are taking over Ghana!</h2>
 
-						<p>Discover vibrant Accra, with its bustling markets, historic sites, and lively nightlife. Journey to Kumasi, Ghana's cultural heartbeat, to explore its rich traditions and history. Cape Coast offers breathtaking beaches and historic landmarks for your exploration.
+						<p>Get ready for the Ghana Takeover — 7 days, 6 nights of culture, history, and nonstop vibes. From Accra's nightlife to Cape Coast's history, every moment is unforgettable. Stay in 4-star hotels, ride in private transport, and enjoy daily breakfast plus most meals included. You'll get a free night to explore, YOLLO swag, and one epic main event on August 6. No stress, no planning — just pure adventure. Ghana is calling. Are you in?</p>
 
-						<p>Whether you seek adventure or relaxation, we offer an affordable travel package tailored to your desires. Experience Ghana’s captivating culture, fascinating history, and stunning natural beauty. <a data-href="#tabs-5" href="#" class="open-tab">Secure your spot now</a> and discover West African travel at its best with YOLLO Group Services!</p>
+						<p>This journey is designed with comfort and exclusivity in mind. From seamless ground transfers in private, air-conditioned vehicles to hand-picked 4-star accommodations, every detail ensures a smooth and elevated experience. Guests will enjoy curated cultural tours, unforgettable dining, and a dedicated host to guide the way, removing all the stress of planning. <a data-href="#tabs-5" href="#" class="open-tab">Secure your spot now</a> and discover West African travel at its best with YOLLO Group Services!</p>
 
 						<p class="mb-10"><strong>Requirements: </strong></p>
 						<ul>
-							<li>Passports 🌍</li>
-							<li>Yellow Fever Shot 🩺 </li>
-							<li>Visa (purchase on arrival) 🛃</li>
+							<li>Valid Passport <i class="fa-solid fa-passport"></i></li>
+							<li>Proof of Yellow Fever Vaccination <i class="fa-solid fa-syringe"></i></li>
+							<li>Visa for Ghana (purchase on arrival) <i class="fa-solid fa-book"></i></li>
 						</ul>
  						
 
@@ -150,7 +92,7 @@
 						<div class="tab" aria-label="price">
 
 
-								<h2 class="h4">Hotels</h2>
+								<h2>Hotels</h2>
                                 
                                 <?php foreach($geolocation as $hotel) :?>
                                 <div class="hotel-grid">
@@ -176,7 +118,7 @@
 
                             	<hr />
 
-                                <h2 class="h4">Price</h2>
+                                <h2>Price</h2>
                                 
                                 <div class="price-table-container">
                                 
@@ -248,7 +190,7 @@
 
 							  <div data-control>What are the payment due?</div>
 							  <div data-content>
-								<p>To reserve a package each group member pays the $29.99 per person fee. The first payment of $450 is due on or before March 05, 2023. The second payment of $450 per person is due on or before April 16, 2023. The final payment (remaining balance) is due on or before May 16, 2023. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
+								<p>To reserve a package each group member pays the $100.00 per person fee. The first payment of $450 is due on or before November 15, 2025. The second payment of $450 per person is due on or before January 15, 2026. The final payment (remaining balance) is due on or before March 15, 2026. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts.</p>
 							  </div>
 
 							</div><!-- end of accordion-->
@@ -306,9 +248,9 @@
 
 							<div class="accordion" data-accordion>
 
-							  <div data-control>Must the entire group pay the $29.99 Reservation fee?</div>
+							  <div data-control>Must the entire group pay the $100.00 Reservation fee?</div>
 							  <div data-content>
-								<p>Yes. All prices are per person. The Reservation fee secures your spot on the package, and is separate from the package price.</p>
+								<p>Yes. All prices are per person. The Reservation fee secures your spot on the package, and goes toward the package price.</p>
 							  </div>
 
 							</div><!-- end of accordion-->

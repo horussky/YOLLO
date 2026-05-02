@@ -67,6 +67,27 @@
 		});
 
 	});
+
+    $(function() {
+        let $gallery = $("#nanoGallery");
+        let photosetId = $gallery.data("photoset"); // read from HTML attribute
+
+        $gallery.nanoGallery({
+            kind: 'flickr',
+            userID: '50836209@N03',
+            photoset: photosetId,
+            thumbnailWidth: 115,
+            thumbnailHeight: 'auto',
+            thumbnailAlignment: 'left',
+            thumbnailLabel: {
+            display: false,
+            displayDescription: false,
+            position: 'overImageOnBottom'
+            },
+            thumbnailHoverEffect: 'borderLighter'
+        });
+    });
+
 </script>
 
 

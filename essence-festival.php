@@ -1,16 +1,9 @@
 <?php
-
     include 'includes/functions.inc.php';
+    include 'includes/bootstrap.inc.php';
 
-	// Load the event configuration
-	$event_config = require 'config/events/conf_essence.php';
-
-	// Access configuration data
-	$event = $event_config['event'];
-	$geolocation = $event_config['geolocation'];
-	$people = $event_config['people'];
-	$package_items = $event_config['package_items'];
-	$metas = $event_config['metas'];
+    $config = loadEvent('conf_essence.php');
+    extract($config);
 
 ?>
 <!doctype html>
@@ -359,7 +352,7 @@
                         <?php echo $responsive_tabs["photos"]; ?>
 						<div class="tab" aria-label="photos">
 							<h2>Photos</h2>
-                        	<div id="nanoGallery"></div>
+                        	<div id="nanoGallery" data-photoset="72157632729673352"></div>
                         </div>  <!-- ./photos -->
 
 
@@ -402,38 +395,6 @@
 <!-- End of Footer  -->
 
 <?php include 'includes/scripts.inc.php'; ?>
-
-<script type="text/javascript">
-
-	$(document).ready(function(){
-
-		//nano
-		$("#nanoGallery").nanoGallery({
-			kind: 'flickr',
-			userID: '50836209@N03',
-
-			 //uncomment this line to display one specific album:
-		    photoset:'72157632729673352',
-
-			// uncomment this line to display full photostream (v5.0.0):
-			// photoset:'none',
-
-			thumbnailWidth: 100,
-			thumbnailHeight: 100,
-			thumbnailAlignment: 'left',
-			thumbnailLabel: {
-				display:false,
-				displayDescription: false,
-				position: 'overImageOnBottom'
-			},
-
-			thumbnailHoverEffect:'borderLighter'
-		});
-
-
-	});
-</script>
-
 
 <!--google analytics-->
 <?php include 'includes/analytics.inc.php'; ?>

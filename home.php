@@ -46,7 +46,7 @@
 
                 <h1>Live the Moment. Experience More.</h1>
 				<p>At YOLLO Group Services, we turn travel into lifetime unforgettable experiences. As a premier full-service travel company in the Southeast, we create and stylize all-inclusive event packages that go beyond just the main attraction. From electrifying concerts to themed parties and exclusive kickback day events, we bring the fun wherever you go.</p>
-				<p>Learn more <a title="read more about YOLLO" href="about.php">about YOLLO</a> and discover your next adventure below.</p>
+				<p>Learn more <a title="read more about YOLLO" href="/about">about YOLLO</a> and discover your next adventure below.</p>
             </section>
            
             <section id="upcoming-events">
@@ -130,6 +130,14 @@
 					<a class="learnmore btn" href="<?php echo $event->link ?>" title="Book <?php echo $event->title ?>">
 						<?php echo $isHappeningNow ? "Join Now" : "Book Now"; ?>
 					</a>
+					
+					
+					<?php if (!empty($event->link2)): ?>
+						<a class="btn learnmore" style="background: #000; color: #fff;" target=_blank href="<?php echo $event->link2 ?>" title="View <?php echo $event->title ?> Booklet">
+							View Booklet
+						</a>
+					<?php endif; ?>
+					
 				</div>
 
 			<?php endif;

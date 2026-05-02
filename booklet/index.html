@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>Alumni Getaway Cruise Event Booklet</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- PageFlip -->
+  <script src="https://cdn.jsdelivr.net/npm/page-flip/dist/js/page-flip.browser.min.js"></script>
+
+  <!-- Font Awesome Free CDN -->
+  <link 
+  rel="stylesheet" 
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" 
+  referrerpolicy="no-referrer"
+/>
+</head>
+<body>
+
+  <div id="flipbook-wrapper">
+    <div id="flipbook"></div>
+  </div>
+
+  <div id="controls">
+    <button id="prevBtn"><i class="fa-solid fa-angle-left"></i></button>
+    <button id="nextBtn"><i class="fa-solid fa-angle-right"></i></button>
+
+    <!-- Font Awesome zoom buttons -->
+    <button id="zoomOut"><i class="fas fa-search-minus"></i></button>
+    <button id="zoomIn"><i class="fas fa-search-plus"></i></button>
+
+    <button id="fitPage">Fit</button>
+    <button id="fullScreen"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></button>
+  </div>
+
+  <script src="flipbook.js"></script>
+
+</body>
+</html>

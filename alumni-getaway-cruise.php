@@ -1,16 +1,8 @@
 <?php
-include 'includes/functions.inc.php';
-
-// Load the event configuration
-$event_config = require 'config/events/conf_alumni.php';
-
-// Access configuration data
-$event = $event_config['event'];
-$geolocation = $event_config['geolocation'];
-$people = $event_config['people'];
-$package_items = $event_config['package_items'];
-$metas = $event_config['metas'];
-
+	include 'includes/functions.inc.php';
+	include 'includes/bootstrap.inc.php';
+	$config = loadEvent('conf_alumni.php');
+	extract($config);
 ?>
 <!doctype html>
 <html lang="en">
@@ -76,15 +68,15 @@ $metas = $event_config['metas'];
                     <?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
                        
-						<h2>HBCU Pride. Caribbean Vibes. One Epic Cruise.</h2>
-						<p>YOLLO's Alumni Getaway Cruise is more than a vacation — it's an HBCU family reunion at sea, packed with culture, connection, and Caribbean adventure. From the sun-drenched shores of Costa Maya, Belize, and Cozumel, to the unforgettable themed parties, comedy shows, and high-energy events onboard, every moment is made to honor the legacy and spirit of HBCUs.</p> 
-
+						<h2>Set Sail for Sun, Soul, and HBCU Celebration.</h2> 
+						
+						<p><strong>The 2025 HBCU Alumni Cruise is officially sold out!</strong> Don't miss your chance to be a part of the magic! Book your spot for the 2026 HBCU Alumni Getaway Cruise, which is sailing from Miami! YOLLO's Alumni Getaway Cruise is more than a vacation — it's an HBCU family reunion at sea, packed with culture, connection, and Caribbean adventure. From the sun-drenched shores of the <strong>Bahamas, Amber Cove, and Grand Turk</strong>, to the unforgettable themed parties, comedy shows, and high-energy events onboard the <strong>Carnival Magic</strong>, every moment is made to honor the legacy and spirit of HBCUs.</p>
+						
 						<p>Whether you're a first-timer or a returning cruiser, solo traveler or squad captain, YOLLO has a package for you. This is your chance to create new memories, reconnect with old friends, and be part of something bigger.</p>
-
-						<p> Want a peek at what's in store? <a href="/alumni-getaway-events">Check out the full week of events here.</a></p>
-
-						<h3>Looking for an easy payment option?</h3>
-						<p class="mb-40">Don't let budget constraints hold you back - take advantage of our convenient Flex Pay option to finance your dream getaway with easy monthly payments. From fun-filled days at sea to thrilling port adventures, this cruise promises to be the ultimate HBCU reunion experience. Let's celebrate the excellence of HBCUs together! <a data-href="#tabs-5" href="#" class="open-tab">Book this fantastic cruise package</a> right now!</p>
+						
+						<p> Want a peek at what's in store? <a href="/alumni-getaway-events">See cruise events here.</a> You can also <a href="/booklet/" target="_blank">view our digital booklet here.</a> From Western themed parties, to the Black Hollywood costume party, we are known for unforgettable experiences.</p>
+						
+						<h3>Looking for an easy payment option?</h3> <p class="mb-40">Don't let budget constraints hold you back - take advantage of our convenient Flex Pay option to finance your dream getaway with easy monthly payments. From fun-filled days at sea to thrilling port adventures, this cruise from <strong>Miami</strong> promises to be the ultimate HBCU reunion experience. Let's celebrate the excellence of HBCUs together! <a data-href="#tabs-5" href="#" class="open-tab">Book this fantastic cruise package</a> right now!</p>
 
 						<?php include 'includes/uplift-onpage.inc.php'; ?>
                         
@@ -95,32 +87,32 @@ $metas = $event_config['metas'];
 							</thead>
 							<tbody>
 								<tr>
-									<td>Sunday</td>
-									<td>Departure: New Orleans 3:30PM</td>
+									<td>Saturday</td>
+									<td>Departure: Miami 3:30PM</td>
+								</tr>
+								<tr>
+									<td>Sunday</td> 
+									<td>Relaxaway, Half Moon Cay</td>
 								</tr>
 								<tr>
 									<td>Monday</td>
-									<td>Fun Day at Sea</td>
+									<td>Fun Day at Sea </td>
 								</tr>
 								<tr>
 									<td>Tuesday</td>
-									<td>Costa Maya 1PM-8PM</td>
+									<td>Amber Cove</td>
 								</tr>
 								<tr>
 									<td>Wednesday</td>
-									<td>Belize 8AM-5PM</td>
+									<td>Grand Turk</td>
 								</tr>
 								<tr>
 									<td>Thursday</td>
-									<td>Cozumel 8AM-4PM</td>
-								</tr>
-								<tr>
-									<td>Friday</td>
 									<td>Fun Day at Sea</td>
 								</tr>
 								<tr>
-									<td>Saturday</td>
-									<td>Return: New Orleans 8AM</td>
+									<td>Friday</td>
+									<td>Return: Miami 8AM</td>
 								</tr> 
 							</tbody>
 							<tfoot>
@@ -167,32 +159,32 @@ $metas = $event_config['metas'];
 							</thead>
 							<tbody>
 								<tr>
-									<td>Sunday</td>
-									<td>Departure: New Orleans 3:30PM</td>
+									<td>Saturday</td>
+									<td>Departure: Miami 3:30PM</td>
+								</tr>
+								<tr>
+									<td>Sunday</td> 
+									<td>Relaxaway, Half Moon Cay</td>
 								</tr>
 								<tr>
 									<td>Monday</td>
-									<td>Fun Day at Sea</td>
+									<td>Fun Day at Sea </td>
 								</tr>
 								<tr>
 									<td>Tuesday</td>
-									<td>Costa Maya 1PM-8PM</td>
+									<td>Amber Cove</td>
 								</tr>
 								<tr>
 									<td>Wednesday</td>
-									<td>Belize 8AM-5PM</td>
+									<td>Grand Turk</td>
 								</tr>
 								<tr>
 									<td>Thursday</td>
-									<td>Cozumel 8AM-4PM</td>
-								</tr>
-								<tr>
-									<td>Friday</td>
 									<td>Fun Day at Sea</td>
 								</tr>
 								<tr>
-									<td>Saturday</td>
-									<td>Return: New Orleans 8AM</td>
+									<td>Friday</td>
+									<td>Return: Miami 8AM</td>
 								</tr> 
 							</tbody>
 							<tfoot>
@@ -257,7 +249,7 @@ $metas = $event_config['metas'];
 								<p>Here are a some suggested items to consider:</p>
 									
 								<ul>
-									<li>Light and Casual clothing. Linen and breathable cotton is best. Cozumel, Belize, and Cosya Maya are warm in December!</li>
+									<li>Light and Casual clothing. Linen and breathable cotton is best. Relaxaway, Half Moon Cay, Amber Cove, Grand Turk are warm in December!</li>
 									<li>Swimming trunks and bikini's</li>
 									<li>Sun Block and Lotions</li>
 									<li>Bug Repellant with DEET</li>
@@ -276,6 +268,15 @@ $metas = $event_config['metas'];
 								<div data-control>Is there a charge for sodas on the cruise? </div>
 								<div data-content>
 								<p>Yes, beverages at the bar will require purchasing. However, there is an unlimited soda program provided by Carnival called Bottomless Bubbles. Pay one flat price for fountain soda and juice all cruise long. Prices are per day with an automatic 18% gratuity added at time of purchase of the program. Children 17 years and younger are $8.20 USD per day. Adults are $11.21 USD per day. For more information please visit <a href="https://help.carnival.com/app/answers/detail/a_id/3836/~/bottomless-bubbles-%28unlimited-soda-program" target="_blank"> Carnival Cruise FAQs</a></p>
+								</div>
+
+							</div><!-- end of accordion-->
+							
+							<div class="accordion" data-accordion>
+
+								<div data-control>Is there a drink package option for those who don't prefer alcohol, but love coffee and mocktails? </div>
+								<div data-content>
+								<p>Yes, the CHEERS! Zero Proof is Carnival’s premium non-alcoholic beverage package, designed to elevate your cruise experience with variety and flavor. It includes everything you love from sodas, juices, premium coffees & teas, bottled water, handcrafted zero proof cocktails, alcohol-free beer, non-alcoholic sparkling wine, milkshakes, and energy drinks. For more information please visit <a href="https://help.carnival.com/app/answers/detail/a_id/3836/~/bottomless-bubbles-%28unlimited-soda-program" target="_blank"> Carnival Cruise FAQs</a></p>
 								</div>
 
 							</div><!-- end of accordion-->
@@ -309,9 +310,9 @@ $metas = $event_config['metas'];
 
 							<div class="accordion" data-accordion>
 
-								<div data-control>Should I set my watch to match Carnival Liberty's time or what's called SHIP TIME? </div>
+								<div data-control>Should I set my watch to match Carnival Magic's time or what's called SHIP TIME? </div>
 								<div data-content>
-									<p>Yes, this prevents you from  missing the ship during our port days. Carnival Liberty is on Central or CST.</p>
+									<p>Yes, this prevents you from  missing the ship during our port days. Carnival Magic is on Eastern or EST.</p>
 								</div>
 
 							</div><!-- end of accordion-->
@@ -338,9 +339,8 @@ $metas = $event_config['metas'];
 
 								<div data-control>When are the payments due?</div>
 								<div data-content>
-								<p>To reserve a package each group member pays the <strong>$100.00</strong> per person fee <strong> at sign-up</strong>. The first payment of <strong>$200</strong> per person is due on or before  <strong>June 15, 2025</strong>.
-								The second payment of <strong>$400</strong> per person is due on or before  <strong>July 15, 2025</strong>.
-								The final payment (remaining balance) is due on or before <strong>August 15, 2025</strong>. If the announced payment dates have passed contact us for our current payment plan.</p>
+								<p>To reserve a package each group member pays the <strong>$100.00</strong> per person fee <strong> at sign-up</strong>. The first payment of <strong>$200</strong> per person is due on or before <strong>January 20, 2026</strong>. The second payment of <strong>$250</strong> per person is due on or before <strong>March 20, 2026</strong>.
+								The final payment (remaining balance) is due on or before <strong>May05, 2026</strong>. You can make multiple payments as long as the agreed amount is paid by the scheduled payment due date. You complate this by clicking on the BUY NOW tab above and following the prompts. Another option is to use our Buy Now Pay Later option called Flexpay!</p>
 								</div>
 
 							</div><!-- end of accordion-->
@@ -358,7 +358,7 @@ $metas = $event_config['metas'];
 
 								<div data-control>What port are we departing from and what time do I need to be there?</div>
 								<div data-content>
-								<p>The Carnival Liberty sails from Port New Orleans. We suggest arriving no later than 2:00 PM.</p>
+								<p>The Carnival Magic sails from Port of Miami. We suggest arriving no later than 1:00 PM.</p>
 								</div>
 
 							</div><!-- end of accordion-->
@@ -398,7 +398,7 @@ $metas = $event_config['metas'];
 
                     <?php echo $responsive_tabs["photos"]; ?>
 						<div class="tab" aria-label="photos">
-								<div id="nanoGallery"></div>
+								<div id="nanoGallery" data-photoset="72177720324731688"></div>
 					</div><!-- ./ photos -->     
 
 
@@ -450,34 +450,6 @@ $metas = $event_config['metas'];
 
 <!-- Global Scripts -->
 <?php include 'includes/scripts.inc.php'; ?>
-<script type="text/javascript">
-	$(document).ready(function(){
-			//nano
-			$("#nanoGallery").nanoGallery({
-				kind: 'flickr',
-				userID: '50836209@N03',
-
-				 //uncomment this line to display one specific album:
-			   photoset:'72177720324731688',
-
-				// uncomment this line to display full photostream (v5.0.0):
-				// photoset:'none',
-
-				thumbnailWidth: 115,
-				thumbnailHeight: 'auto',
-				thumbnailAlignment: 'left',
-				thumbnailLabel: {
-					display:false,
-					displayDescription: false,
-					position: 'overImageOnBottom'
-				},
-
-				thumbnailHoverEffect:'borderLighter'
-			});
-
-
-	});
-</script>
 
 <!--google analytics-->
 <?php include 'includes/analytics.inc.php'; ?>

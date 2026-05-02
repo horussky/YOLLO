@@ -1,4 +1,3 @@
-<?php if(!ob_start("ob_gzhandler")) ob_start();?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -50,6 +49,14 @@
 
 								$slides = array(
 									new Slide(
+										"images/slides/splash-daytopia.jpg", //img
+										"/daytopia", //link
+										"View Daytopia"), //text 
+									new Slide(
+										"images/slides/splash-ghana.jpg", //img
+										"/ghana-takeover", //link
+										"View The Ghana Takeover"), //text
+									new Slide(
 										"images/slides/splash-alumni.jpg", //img
 										"/alumni-getaway-cruise", //link
 										"View Alumni Getaway Cruise"), //text
@@ -74,10 +81,7 @@
 										"/nba-allstar", //link
 										"View NBA All-Star"), //text
 									new Slide(
-									new Slide(
-										"images/slides/splash-daytopia.jpg", //img
-										"/daytopia", //link
-										"View Daytopia"), //text 
+									
 									new Slide(
 										"images/slides/splash-urban-fiesta.jpg", //img
 										"/urban-fiesta", //link
