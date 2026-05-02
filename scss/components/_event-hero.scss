@@ -37,7 +37,8 @@
 
     .event-hero__title{
         font-family: "Merriweather", serif;
-        font-size: 32px;
+        font-size: 40px;
+        line-height: 1;
         letter-spacing: -1px;
         font-weight: 900;
         margin-bottom: 16px;
@@ -122,22 +123,22 @@
         
         span{
             display: inline-block;
-            font-size: 24px;
+            font-size: 1rem;
             line-height: 1;
             text-align: center;
-            width:60px;
-            font-family:"opensans-bold", Arial, sans-serif;
-            color: #fff;
-            border: 1px solid;
-            padding: 10px;
+            width: 60px;
+            font-family: "opensans-bold",Arial,sans-serif;
+            color: #000;
+            border-radius:8px;
+            padding: 8px 16px;
             width: auto;
-            background-color: rgba(256, 256, 256, .20); 
+            background-color: rgba(255,255,255,1);
             
             em{
                 display: block;
                 font-size: 14px;
-                font-family:"opensans", Arial, sans-serif;
-                margin-top: 6px; 
+                font-family: "opensans-bold",Arial,sans-serif;
+                margin-top:2px;
             }
         }
     }
