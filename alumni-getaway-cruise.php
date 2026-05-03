@@ -82,9 +82,9 @@
                         
                         <table class="itinerary mb-40">
 							<caption>Cruise Itinerary</caption>
-							<thead>
+							<!--<thead>
 								<tr><th colspan="2" class="small">*All times are based on Central Time Zone.</th></tr>
-							</thead>
+							</thead> -->
 							<tbody>
 								<tr>
 									<td>Saturday</td>
@@ -117,7 +117,7 @@
 							</tbody>
 							<tfoot>
 								<tr>
-								<td colspan="2"><a href="/alumni-getaway-events">View <?php echo $event["title"]; ?> Events</a></td>
+								<td colspan="2"><a href="/alumni-getaway-events">See HBCU Alumni Cruise Events</a></td>
 								</tr>
 							</tfoot>
 						</table>
