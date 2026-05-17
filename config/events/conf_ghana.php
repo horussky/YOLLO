@@ -33,21 +33,14 @@
 
 		"people" =>[
 
-			"diamond"=> array(
-
-				"Group of 4" 			=>"$1325",
-				"Group of 3"			=>"$2799",
-				"Group of 2"			=>"$2799",
-				"Individual"			=>"$3,300"
+			"diamond" => array(
+				"Group of 4" => ["price" => "$1,925", "sold_out" => true],
+				"Group of 3" => ["price" => "$2,799", "sold_out" => true],
+				"Group of 2" => ["price" => "$3,850", "sold_out" => false],
+				"Individual"  => ["price" => "$4,100", "sold_out" => false],
 			),
 
-			"emerald"=> array(
-				"Group of 4" 			=>"$1075",
-				"Group of 3"			=>"$1205",
-				"Group of 2"			=>"$1310",
-				"Individual"			=>"$1945"
-			),
-
+			"emerald" => array(),
 		],
 
 		"package_items" =>[
@@ -57,6 +50,7 @@
 				"Daily Breakfast" => "checked",
 				"2 Dinners & 2 Lunches Included"	=> "checked",
 				"Air-Conditioned Charters"	=> "checked",
+				"Host Guide for Entire Experience"	=> "checked",
 				"All Tours"	=> "checked",
 				"Airport Transfers" => "checked",
 				"YOLLO Swag Bag" => "checked"
@@ -64,23 +58,7 @@
 
 
 
-			"emerald_items" => array(
-			/*
-				"4 Days / 3 Nights Hotel Accommodations"    => "checked",
-				"The Best of the Best Fashion Shows"	    => "checked",
-				"11th Annual Winter White Party"		    => "checked",
-				"11th Annual \"LOL\" Comedy Show"		    => "checked",
-				"The Rep Your City Party"	    => "checked",
-				"Freaky Friday PJ Party"				    => "checked",
-				"Access To The Exclusive Super Lounges Each Night"	    => "checked",
-				"Access To The Love Jones Poets Corner Lounge"			=> "checked",
-				"The \"Mid-Night Mountain\" Indoor Pool Party"			=> "checked",
-				"Access To The Caribbean Lounge"				        => "checked",
-				"Access To The 80's & 90's Old School Lounge"				=> "checked",
-				"Tickets To All Additionally Added Events"					=> "checked",
-				"YOLLO Swag Bag"							    => "checked"
-			*/
-			)
+			"emerald_items" => array()
 		], 
 
 

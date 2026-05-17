@@ -82,52 +82,46 @@
 						<p>Celebrate a major holiday in style when you <a data-href="#tabs-5" class="open-tab">book this trip</a> with the team at YOLLO Group Services. Browse further on this page to learn more details about our cruise itinerary. For any questions, reach out to us today by filling out our convenient <a href="https://goyollo.com/contact">online contact form</a>.</p>
 
 						<h3>Looking for an easy payment option?</h3>
-						<p class="mb-40">Don't let budget constraints hold you back - take advantage of our convenient Flex Pay option to finance this great package with easy monthly payments. From fun-filled days at sea to thrilling port adventures, this cruise promises to be the best cruise experience.  <a data-href="#tabs-5" href="#" class="open-tab">Book this fantastic cruise package</a> right now!</p>
+						<p class="mb-20">Don't let budget constraints hold you back - take advantage of our convenient Flex Pay option to finance this great package with easy monthly payments. From fun-filled days at sea to thrilling port adventures, this cruise promises to be the best cruise experience.  <a data-href="#tabs-5" href="#" class="open-tab">Book this fantastic cruise package</a> right now!</p>
 						<!--new copy end-->
 
-						<?php include 'includes/uplift-onpage.inc.php'; ?>
+						
 
-						<table class="itinerary">
-							<caption>Cruise Itinerary</caption>
-							<tbody>
-								<tr>
-									<td>Monday</td>
-									<td>Departure: Carnival Port, New Orleans, LA |  3:30PM</td>
-								</tr>
-								<tr>
-									<td>Tuesday</td>
-									<td>Fun Day At Sea</td>
-								</tr>
-								<tr>
-									<td>Wednesday</td>
-									<td>Cozumel, Mexico | 8AM-4PM</td>
-								</tr>
-								<tr>
-									<td>Thursday</td>
-									<td>Progreso, Yucatan | 8AM-4AM</td>
-								</tr>
-								<tr>
-									<td>Friday</td>
-									<td>Fun Day At Sea</td>
-								</tr>
-								<tr>
-									<td>Saturday</td>
-									<td>Return: Carnival Port, New Orleans, LA | 8AM</td>
-								</tr>
+						<h2>Cruise Itinerary</h2>
+								<div class="table-card mb-20">
+									<div class="tz-note">*All times are based on Central Time Zone.</div>
+									<table>
+									<tbody>
+									<tr class="depart-row">
+										<td class="day">Monday</td>
+										<td class="stop"><span class="dot dot-depart"></span>Departure: Carnival Port, New Orleans, LA  3:30PM</td>
+									</tr>
+									<tr class="sea-row">
+										<td class="day">Tuesday</td>
+										<td class="stop"><span class="dot dot-sea"></span>Fun Day At Sea</td>
+									</tr>
+									<tr class="port-row">
+										<td class="day">Wednesday</td>
+										<td class="stop"><span class="dot dot-port"></span>Cozumel, Mexico 8AM-4PM</td>
+									</tr>
+									<tr class="port-row">
+										<td class="day">Thursday</td>
+										<td class="stop"><span class="dot dot-port"></span>Progreso, Yucatan 8AM-4PM</td>
+									</tr>
+									<tr class="sea-row">
+										<td class="day">Friday</td>
+										<td class="stop"><span class="dot dot-sea"></span>Fun Day At Sea</td>
+									</tr>
+									<tr class="depart-row">
+										<td class="day">Saturday</td>
+										<td class="stop"><span class="dot dot-depart"></span>Return: Carnival Port, New Orleans, LA 8AM</td>
+									</tr>
+									</tbody></table>
+								</div>
 
-							</tbody>
-							<tfoot>
-								<tr>
-									<td colspan="2">*All times are based on Central Time Zone.</td>
-								</tr>
-							</tfoot>
-						</table>
-
-
+								<?php include 'includes/uplift-onpage.inc.php'; ?>
 
                         </div> <!-- ./overview -->
-
-
 
 
                         <?php echo $responsive_tabs["price"]; ?>
@@ -154,74 +148,120 @@
                                     </div>
                                 </div><!-- ./hotel-grid -->
                                 <?php endforeach; ?>
-								
-								<table class="itinerary">
-									<caption>Cruise Itinerary</caption>
-									<tbody>
-										<tr>
-											<td>Monday</td>
-											<td>Departure: Carnival Port, New Orleans, LA | 3:30PM</td>
-										</tr>
-										<tr>
-											<td>Tuesday</td>
-											<td>Fun Day At Sea</td>
-										</tr>
-										<tr>
-											<td>Wednesday</td>
-											<td>Cozumel, Mexico | 8AM-4PM</td>
-										</tr>
-										<tr>
-											<td>Thursday</td>
-											<td>Progreso, Yucatan | 8AM-4PM</td>
-										</tr>
-										<tr>
-											<td>Friday</td>
-											<td>Fun Day At Sea</td>
-										</tr>
-										<tr>
-											<td>Saturday</td>
-											<td>Return: Carnival Port, New Orleans, LA | 8AM</td>
-										</tr>
-									
-									
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="2">*All times are based on Central Time Zone.</td>
-										</tr>
-									</tfoot>
-								</table>
 
-                            	<hr />
-
-                                <h2>Price</h2>
+                                <h2>Price & What's Included</h2>
                                 
                                 <div class="price-table-container">
-                                
-									<?php if(count($geolocation["cruise1"]) > 1) :?>
-									<div class="price-table">
-										<ul class="price">
-											<li class="header">Diamond <span>Package</span></li>
-											<?php foreach($package_items['diamond_items'] as $key=>$value): ?>
-												<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-											<?php endforeach; ?>
-											<li class="people-price">
-												<ul class="priceblock">
-													<?php foreach($people['diamond'] as $key=>$value): ?>
-														<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
-														<?php endforeach; ?>
-												</ul>
-											</li>
-											<li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
-										</ul>
-									</div><!-- price table -->
-									<?php endif; ?>
-                                
-								</div><!-- price table container-->
+								<?php if(isset($people["diamond"]) && !empty($people["diamond"])): ?>
+                                <div class="price-table">
+								<h3 class="price-table__type"> Diamond Package</h3>
+								
+								<?php 
+									$first_key     = array_key_first($people['diamond']);
+									$first_value   = $people['diamond'][$first_key]['price'];
+									$first_soldout = $people['diamond'][$first_key]['sold_out'];
+								?>
+								
+								<div>
+									<p class="large-price mb-0"><em>Starting at</em> <?php echo $first_value; ?><em> / person</em></p>
+									<p><small><?php echo $first_key; ?> &bull; see all pricing tiers below</small></p>
+								</div> 
+								<hr />
+								
+								<ul class="price">
+									<?php foreach($package_items['diamond_items'] as $key=>$value): ?>
+										<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+									<?php endforeach; ?>		
+								</ul>
+								<p class="tier-label">Pricing by group size</p>
+								<ul class="priceblock">
+								<?php foreach($people['diamond'] as $key=>$tier): ?>
+									<li class="<?php echo $tier['sold_out'] ? 'sold-out' : ''; ?>">
+										<?php echo $key; ?>
+										<span>
+											<?php echo $tier['price']; ?>
+											<?php if($key != "Individual"): ?>
+												<em> / person</em>
+											<?php endif; ?>
+											<?php if($tier['sold_out']): ?>
+												<span class="sold-out-badge">Sold Out</span>
+											<?php endif; ?>
+										</span>
+									</li>
+								<?php endforeach; ?>
+								</ul>
+					
+                        	</div><!-- price table -->
+                            <?php endif; ?>
 
 
 
+                                <?php if(isset($people["emerald"]) && !empty($people["emerald"])): ?>
+                                <div class="price-table">
+                                    <h3 class="price-table__type"> Emerald Package</h3>
+                                    
+                                    <?php 
+                                        $first_key = array_key_first($people['emerald']);
+                                        $first_value = $people['emerald'][$first_key];
+                                    ?>
+                                    
+                                    <div>
+                                        <p class="large-price mb-0"><em>Starting at</em> <?php echo $first_value; ?><em> / person</em></p>
+                                        <p><small><?php echo $first_key; ?> &bull; see all pricing tiers below</small></p>
+                                    </div> 
+                                    <hr />
+                                    
+                                    <ul class="price">
+                                        <?php foreach($package_items['emerald_items'] as $key=>$value): ?>
+                                            <li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+                                        <?php endforeach; ?>		
+                                    </ul>
+                                    <p class="tier-label">Pricing by group size</p>
+                                    <ul class="priceblock">
+                                        <?php foreach($people['emerald'] as $key=>$value): ?>
+                                            <li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em> / person</em><?php endif;?></span></li>
+                                        <?php endforeach; ?>
+                                    </ul>
+                        
+                                </div><!-- price table -->
+                                <?php endif; ?>
+                                <div class="mt-20"><a data-href="#tabs-5" class="btn btn-success btn--round open-tab">Reserve My Spot</a></div>
+                            </div><!-- price table container -->
 
+							<hr />
+
+							<h2>Cruise Itinerary</h2>
+								<div class="table-card">
+									<div class="tz-note">*All times are based on Central Time Zone.</div>
+									<table>
+									<tbody>
+									<tr class="depart-row">
+										<td class="day">Monday</td>
+										<td class="stop"><span class="dot dot-depart"></span>Departure: Carnival Port, New Orleans, LA  3:30PM</td>
+									</tr>
+									<tr class="sea-row">
+										<td class="day">Tuesday</td>
+										<td class="stop"><span class="dot dot-sea"></span>Fun Day At Sea</td>
+									</tr>
+									<tr class="port-row">
+										<td class="day">Wednesday</td>
+										<td class="stop"><span class="dot dot-port"></span>Cozumel, Mexico 8AM-4PM</td>
+									</tr>
+									<tr class="port-row">
+										<td class="day">Thursday</td>
+										<td class="stop"><span class="dot dot-port"></span>Progreso, Yucatan 8AM-4PM</td>
+									</tr>
+									<tr class="sea-row">
+										<td class="day">Friday</td>
+										<td class="stop"><span class="dot dot-sea"></span>Fun Day At Sea</td>
+									</tr>
+									<tr class="depart-row">
+										<td class="day">Saturday</td>
+										<td class="stop"><span class="dot dot-depart"></span>Return: Carnival Port, New Orleans, LA 8AM</td>
+									</tr>
+									</tbody></table>
+								</div>
+								
                         </div><!-- ./price -->
 
 

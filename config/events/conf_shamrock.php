@@ -37,14 +37,12 @@
 		"people" =>[
 
 			"diamond"=> array(
-			    "Group of 3"			=> "$1,400",
-                "Group of 2"			=> "$1,600",
-                "Individual"			=> "$2,600"
+				"Group of 3" => ["price" => "$1,400", "sold_out" => false],
+				"Group of 2" => ["price" => "$1,600", "sold_out" => false],
+				"Individual"  => ["price" => "$2,600", "sold_out" => false],
 			),
 
-			"emerald"=> array(
-				""
-			),
+			"emerald"=> array(),
 
 			"options"=>array(
 				"Hotel Only" => "$1245 (Weekend)"
@@ -69,9 +67,7 @@
 
 
 
-			"emerald_items" => array(
-			""
-			)
+			"emerald_items" => array()
 		], 
 
 
