@@ -152,37 +152,32 @@
 					  	<div class="price-table-container">
 
 							<div class="price-table">
-							<h3 class="price-table__type"> Diamond Package</h3>
-							
-						<?php 
-							$first_key = array_key_first($people['diamond']);
-							$first_value = $people['diamond'][$first_key];
-						?>
-						
-						<div>
-							<p class="large-price mb-0"><em>Starting at</em> <?php echo $first_value; ?><em> / person</em></p>
-							<p><small><?php echo $first_key; ?> &bull; see all pricing tiers below</small></p>
-						</div> 
-						<hr />
-						
-						<ul class="price">
-							<?php foreach($package_items['diamond_items'] as $key=>$value): ?>
-								<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-							<?php endforeach; ?>		
-						</ul>
-				<p class="tier-label">Pricing by group size</p>
-						<ul class="priceblock">
-							<?php foreach($people['diamond'] as $key=>$value): ?>
-								<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em> / person</em><?php endif;?></span></li>
-								<?php endforeach; ?>
-						</ul>
+								<h3 class="price-table__type"> Diamond Package</h3>
+								
+								<?php 
+									$first_key = array_key_first($people['diamond']);
+									$first_value = $people['diamond'][$first_key];
+								?>
+								
+								<div>
+									<p class="large-price mb-0"><em>Starting at</em> <?php echo $first_value; ?><em> / person</em></p>
+									<p><small><?php echo $first_key; ?> &bull; see all pricing tiers below</small></p>
+								</div> 
+								<hr />
+								
+								<ul class="price">
+									<?php foreach($package_items['diamond_items'] as $key=>$value): ?>
+										<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+									<?php endforeach; ?>		
+								</ul>
+								<p class="tier-label">Pricing by group size</p>
+								<ul class="priceblock">
+									<?php foreach($people['diamond'] as $key=>$value): ?>
+										<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em> / person</em><?php endif;?></span></li>
+										<?php endforeach; ?>
+								</ul>
 					
-					
-					
-					
-					
-						
-                        </div><!-- price table -->
+                        	</div><!-- price table -->
                         
 						</div>
 
