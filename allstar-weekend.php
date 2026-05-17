@@ -1,9 +1,16 @@
 <?php
     include 'includes/functions.inc.php';
-    include 'includes/bootstrap.inc.php';
+    include 'includes/meta.config.inc.php';
 
-    $config = loadEvent('conf_allstar.php');
-    extract($config);
+    // Load the event configuration
+    $event_config = require 'config/events/conf_allstar.php';
+
+    // Access configuration data
+    $event = $event_config['event'];
+    $geolocation = $event_config['geolocation'];
+    $people = $event_config['people'];
+    $package_items = $event_config['package_items'];
+    $metas = $event_config['metas'];
 ?>
 <!doctype html>
 <html lang="en">
@@ -245,16 +252,16 @@
 
                                     <div data-control>When are the payments due?</div>
                                     <div data-content>
-                                    <p>After registration the first payment of $125 is due December 10, 2025.  The next payment of $250 is due January 03, 2026. The next payment of $700 is due January  20, 2026.  The final payment (remaining balance) is due on or before November 1, 2025.</p>
+                                    <p>After registration the first payment of $125 is due June 10, 2026.  The next payment of $350 is due August 10, 2026. The next payment of $700 is due October 10, 2026.  The final payment (remaining balance) is due on or before November 10, 2026.</p>
                                     </div>
 
                                 </div><!-- end of accordion-->
 
                                 <div class="accordion" data-accordion>
 
-                                    <div data-control>Who won the game last time it was hosted in Los Angeles?</div>
+                                    <div data-control>Who won the game last time it was hosted in Phoenix?</div>
                                     <div data-content>
-                                    <p>The game was hosted at the Staples Center. The game final score was Team LeBron 148 vs Team Stephen 145.  The MVP was LeBron James with the Cleveland Cavaliers. He had 29, 10 rebounds, and 8 assists.  It was his third time winning the award since the 2008 All-Star Game.</p>
+                                    <p>The game was hosted at the U.S. Airways Center. The West defeated the East 146–119.</p>
                                     </div>
 
                                 </div><!-- end of accordion-->
@@ -263,7 +270,7 @@
 
                                     <div data-control>When is the Game?</div>
                                     <div data-content>
-                                    <p>The weekend event start on February 13, 2026 in Los Angeles, CA. The game will be played on February 15, 2026 at the Staples Center. </p>
+                                    <p>The weekend event start on February 19, 2027 in Phoenix, AZ. The game will be played on February 21, 2027 at the Mortgage Matchup Center. </p>
                                     </div>
 
                                 </div><!-- end of accordion-->

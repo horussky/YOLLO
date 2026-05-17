@@ -151,17 +151,8 @@
 
 					  	<div class="price-table-container">
 
-						<div class="price-table">
-							<h3 style="display: inline-block;
-							background: linear-gradient(135deg, #2d7a2d, #4aaa2a);
-							padding: .5rem;
-							border-radius: 10px;
-							color: white;
-							font-size: 14px;
-							text-transform: uppercase;
-							font-family: 'opensans';
-							letter-spacing: 1px;
-							"> Diamond Package</h3>
+							<div class="price-table">
+							<h3 class="price-table__type"> Diamond Package</h3>
 							
 						<?php 
 							$first_key = array_key_first($people['diamond']);
