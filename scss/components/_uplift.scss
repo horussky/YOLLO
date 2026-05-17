@@ -9,6 +9,14 @@
     padding: 20px;
     margin-bottom: 40px;
 
+    .uplift-info__title{
+        font-family: "Merriweather", serif;
+
+        @media(max-width: 480px){
+            font-size: 32px;
+        }
+    }
+
     img {
       max-width: 13rem;
       @media (min-width: 600px){	

@@ -80,47 +80,40 @@
 
 						<?php include 'includes/uplift-onpage.inc.php'; ?>
                         
-                        <table class="itinerary mb-40">
-							<caption>Cruise Itinerary</caption>
-							<!--<thead>
-								<tr><th colspan="2" class="small">*All times are based on Central Time Zone.</th></tr>
-							</thead> -->
-							<tbody>
-								<tr>
-									<td>Saturday</td>
-									<td>Departure: Miami 3:30PM</td>
-								</tr>
-								<tr>
-									<td>Sunday</td> 
-									<td>Relaxaway, Half Moon Cay</td>
-								</tr>
-								<tr>
-									<td>Monday</td>
-									<td>Fun Day at Sea </td>
-								</tr>
-								<tr>
-									<td>Tuesday</td>
-									<td>Amber Cove</td>
-								</tr>
-								<tr>
-									<td>Wednesday</td>
-									<td>Grand Turk</td>
-								</tr>
-								<tr>
-									<td>Thursday</td>
-									<td>Fun Day at Sea</td>
-								</tr>
-								<tr>
-									<td>Friday</td>
-									<td>Return: Miami 8AM</td>
-								</tr> 
-							</tbody>
-							<tfoot>
-								<tr>
-								<td colspan="2"><a href="/alumni-getaway-events">See HBCU Alumni Cruise Events</a></td>
-								</tr>
-							</tfoot>
-						</table>
+                        <div class="table-card mb-40">
+							<div class="tz-note">*All times are based on Central Time Zone.</div>
+							<table>
+							<tbody><tr class="depart-row">
+								<td class="day">SATURDAY</td>
+								<td class="stop"><span class="dot dot-depart"></span>Departure: Miami 3:30PM</td>
+							</tr>
+							<tr class="port-row">
+								<td class="day">SUNDAY</td>
+								<td class="stop"><span class="dot dot-port"></span>Relaxaway, Half Moon Cay (Bahamas)</td>
+							</tr>
+							<tr class="sea-row">
+								<td class="day">MONDAY</td>
+								<td class="stop"><span class="dot dot-sea"></span>Fun Day at Sea</td>
+							</tr>
+							<tr class="port-row">
+								<td class="day">TUESDAY</td>
+								<td class="stop"><span class="dot dot-port"></span>Amber Cove (Dominican Republic)</td>
+							</tr>
+							<tr class="port-row">
+								<td class="day">WEDNESDAY</td>
+								<td class="stop"><span class="dot dot-port"></span>Grand Turk</td>
+							</tr>
+							<tr class="sea-row">
+								<td class="day">THURSDAY</td>
+								<td class="stop"><span class="dot dot-sea"></span>Fun Day at Sea</td>
+							</tr>
+							<tr class="depart-row">
+								<td class="day">FRIDAY</td>
+								<td class="stop"><span class="dot dot-depart"></span>Return: Miami 8AM</td>
+							</tr>
+							</tbody></table>
+							<button class="view-link">View HBCU Alumni Getaway 2026 Events</button>
+						</div>
 
 						
 						<?php include 'includes/hbcu-ambass-ad.inc.php'; ?>
@@ -151,75 +144,98 @@
                                     </div>
                             </div><!-- ./hotel-grid -->
                         <?php endforeach; ?>
-                        
-                        <table class="itinerary">
-							<caption>Cruise Itinerary</caption>
-							<thead>
-								<tr><th colspan="2" class="small">*All times are based on Central Time Zone.</th></tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>Saturday</td>
-									<td>Departure: Miami 3:30PM</td>
-								</tr>
-								<tr>
-									<td>Sunday</td> 
-									<td>Relaxaway, Half Moon Cay</td>
-								</tr>
-								<tr>
-									<td>Monday</td>
-									<td>Fun Day at Sea </td>
-								</tr>
-								<tr>
-									<td>Tuesday</td>
-									<td>Amber Cove</td>
-								</tr>
-								<tr>
-									<td>Wednesday</td>
-									<td>Grand Turk</td>
-								</tr>
-								<tr>
-									<td>Thursday</td>
-									<td>Fun Day at Sea</td>
-								</tr>
-								<tr>
-									<td>Friday</td>
-									<td>Return: Miami 8AM</td>
-								</tr> 
-							</tbody>
-							<tfoot>
-								<tr>
-								<td colspan="2"><a href="/alumni-getaway-events">View <?php echo $event["title"]; ?> Events</a></td>
-								</tr>
-							</tfoot>
-						</table>
+						
 
-                      <hr />
+						<h2>Price & What's Included</h2>
+					
 
-					  <h2>Price</h2>
-                                    
-                        <div class="price-table-container">
+					  	<div class="price-table-container">
 
-                        <?php if(count($geolocation["cruise1"]) > 1) :?>
-                        <div class="price-table">
-                            <ul class="price">
-                                <li class="header">Diamond <span>Package</span></li>
-                                <?php foreach($package_items['diamond_items'] as $key=>$value): ?>
-                                    <li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-                                <?php endforeach; ?>
-                                <li class="people-price">
-                                    <ul class="priceblock">
-                                        <?php foreach($people['diamond'] as $key=>$value): ?>
-                                            <li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
-                                            <?php endforeach; ?>
-                                    </ul>
-                                </li>
-                                <li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
-                            </ul>
+						<div class="price-table">
+							<h3 style="display: inline-block;
+							background: linear-gradient(135deg, #2d7a2d, #4aaa2a);
+							padding: .5rem;
+							border-radius: 10px;
+							color: white;
+							font-size: 14px;
+							text-transform: uppercase;
+							font-family: 'opensans';
+							letter-spacing: 1px;
+							"> Diamond Package</h3>
+							
+						<?php 
+							$first_key = array_key_first($people['diamond']);
+							$first_value = $people['diamond'][$first_key];
+						?>
+						
+						<div>
+							<p class="large-price mb-0"><em>Starting at</em> <?php echo $first_value; ?><em> / person</em></p>
+							<p><small><?php echo $first_key; ?> &bull; see all pricing tiers below</small></p>
+						</div> 
+						<hr />
+						
+						<ul class="price">
+							<?php foreach($package_items['diamond_items'] as $key=>$value): ?>
+								<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+							<?php endforeach; ?>		
+						</ul>
+				<p class="tier-label">Pricing by group size</p>
+						<ul class="priceblock">
+							<?php foreach($people['diamond'] as $key=>$value): ?>
+								<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em> / person</em><?php endif;?></span></li>
+								<?php endforeach; ?>
+						</ul>
+					
+					
+					
+					
+					
+						
                         </div><!-- price table -->
-                        <?php endif; ?>
+                        
+						</div>
 
-						</div><!-- price table container-->
+					  <hr />  
+					  <!-- Price Table -->
+                        <h2>Cruise Itinerary</h2>
+						<div class="table-card">
+							<div class="tz-note">*All times are based on Central Time Zone.</div>
+							<table>
+							<tbody><tr class="depart-row">
+								<td class="day">SATURDAY</td>
+								<td class="stop"><span class="dot dot-depart"></span>Departure: Miami 3:30PM</td>
+							</tr>
+							<tr class="port-row">
+								<td class="day">SUNDAY</td>
+								<td class="stop"><span class="dot dot-port"></span>Relaxaway, Half Moon Cay (Bahamas)</td>
+							</tr>
+							<tr class="sea-row">
+								<td class="day">MONDAY</td>
+								<td class="stop"><span class="dot dot-sea"></span>Fun Day at Sea</td>
+							</tr>
+							<tr class="port-row">
+								<td class="day">TUESDAY</td>
+								<td class="stop"><span class="dot dot-port"></span>Amber Cove (Dominican Republic)</td>
+							</tr>
+							<tr class="port-row">
+								<td class="day">WEDNESDAY</td>
+								<td class="stop"><span class="dot dot-port"></span>Grand Turk</td>
+							</tr>
+							<tr class="sea-row">
+								<td class="day">THURSDAY</td>
+								<td class="stop"><span class="dot dot-sea"></span>Fun Day at Sea</td>
+							</tr>
+							<tr class="depart-row">
+								<td class="day">FRIDAY</td>
+								<td class="stop"><span class="dot dot-depart"></span>Return: Miami 8AM</td>
+							</tr>
+							</tbody></table>
+							<button class="view-link">View HBCU Alumni Getaway 2026 Events</button>
+						</div>
+                    
+
+                                
+                        <div class="mt-40"><a data-href="#tabs-5" class="btn btn-success btn--round open-tab">Reserve My Spot</a></div>
 
                     </div><!-- ./ price -->
 

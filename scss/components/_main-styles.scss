@@ -457,12 +457,12 @@ li.phone{ 						height:24px; padding-left: 40px; background: transparent url(../
 
 .priceblock{					margin:0 0 20px 0;}
 
-/*Price Block*/
+/*Price Block
 #priceblock .priceblock{display:block;}
 #priceblock .priceblock li{border-bottom:1px solid #ccc; margin-left:0; list-style:none;  overflow:hidden; margin:0; padding: 5px 0;}
 #priceblock .priceblock li:last-child{border-bottom:none; }
 #priceblock .priceblock .people{float:left; display:block; width:60%}
-#priceblock .priceblock .price{float:right; display:block; width:20%; text-align: right}
+#priceblock .priceblock .price{float:right; display:block; width:20%; text-align: right}*/
 
 
 
@@ -588,9 +588,10 @@ h4 .soldout, em.soldout{
 	text-transform:uppercase;
 }
 
-
-.small{
-	font-size:85%;
+small,
+.small, 
+p .small {
+  font-size: 0.8em;
 }
 
 
@@ -740,9 +741,9 @@ h4 .soldout, em.soldout{
 hr {
     border: 0;
     height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid;
 	margin: 20px 0;
+    opacity: .25;
 }
 
 .box-fade{

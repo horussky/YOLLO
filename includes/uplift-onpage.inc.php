@@ -1,6 +1,6 @@
 <div class="uplift-info">
 	<img src="/images/flexpay/flexpay-default.svg" /><p>
-	<h3>Flex Pay Makes It Easy to Join the Fun!</h3>
+	<h3 class="uplift-info__title">Flex Pay Makes It Easy to Join the Fun!</h3>
 	<p class="lead">Book now, pay later—no stress, no interest.  <a target="_blank" href="/flexpay">Learn more</a>.</p>
   	<div class="uplift-info__list">
 		<div>
