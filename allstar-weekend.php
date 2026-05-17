@@ -165,12 +165,12 @@
 								<ul class="priceblock">
 									<?php foreach($people['emerald'] as $key=>$value): ?>
 										<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em> / person</em><?php endif;?></span></li>
-										<?php endforeach; ?>
+									<?php endforeach; ?>
 								</ul>
 					
                         	</div><!-- price table -->
                             <?php endif; ?>
-                            <div class="mt-40"><a data-href="#tabs-5" class="btn btn-success btn--round open-tab">Reserve My Spot</a></div>
+                            <div class="mt-20"><a data-href="#tabs-5" class="btn btn-success btn--round open-tab">Reserve My Spot</a></div>
                             </div><!-- price table container -->
 
                             <style>
