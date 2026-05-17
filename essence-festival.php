@@ -113,46 +113,73 @@
 
                             	<hr />
 
-                                <h2>Price</h2>
+                                <h2>Price & What's Included</h2>
                                 
                                 <div class="price-table-container">
-                                
-									<div class="price-table">
-									  <ul class="price">
-										<li class="header">Diamond <span>Package</span></li>
-										<?php foreach($package_items['diamond_items'] as $key=>$value): ?>
-											<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+
+                                <?php if(isset($people["diamond"])) :?>
+                                <div class="price-table">
+								<h3 class="price-table__type"> Diamond Package</h3>
+								
+								<?php 
+									$first_key = array_key_first($people['diamond']);
+									$first_value = $people['diamond'][$first_key];
+								?>
+								
+								<div>
+									<p class="large-price mb-0"><em>Starting at</em> <?php echo $first_value; ?><em> / person</em></p>
+									<p><small><?php echo $first_key; ?> &bull; see all pricing tiers below</small></p>
+								</div> 
+								<hr />
+								
+								<ul class="price">
+									<?php foreach($package_items['diamond_items'] as $key=>$value): ?>
+										<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+									<?php endforeach; ?>		
+								</ul>
+								<p class="tier-label">Pricing by group size</p>
+								<ul class="priceblock">
+									<?php foreach($people['diamond'] as $key=>$value): ?>
+										<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em> / person</em><?php endif;?></span></li>
 										<?php endforeach; ?>
-										<li class="people-price">
-											<ul class="priceblock">
-												<?php foreach($people['diamond'] as $key=>$value): ?>
-												<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
-												<?php endforeach; ?>
-											</ul>
-										</li>
-										<li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
-									  </ul>
-									</div><!-- price table -->
+								</ul>
+					
+                        	</div><!-- price table -->
+                            <?php endif; ?>
 
 
-									<div class="price-table">
-									  <ul class="price">
-										<li class="header">Emerald <span>Package</span></li>
-										<?php foreach($package_items['emerald_items'] as $key=>$value): ?>
-											<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-										<?php endforeach; ?>
-										<li class="people-price">
-											<ul class="priceblock">
-												<?php foreach($people['emerald'] as $key=>$value): ?>
-												<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
-												<?php endforeach; ?>
-											</ul>
-										</li>
-										<li><a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a></li>
-									  </ul>
-									</div><!-- price table -->
-                                
-								</div><!-- price table container-->
+
+                                <?php if(isset($people["emerald"])) :?>
+                                <div class="price-table">
+                                    <h3 class="price-table__type"> Emerald Package</h3>
+                                    
+                                    <?php 
+                                        $first_key = array_key_first($people['emerald']);
+                                        $first_value = $people['emerald'][$first_key];
+                                    ?>
+                                    
+                                    <div>
+                                        <p class="large-price mb-0"><em>Starting at</em> <?php echo $first_value; ?><em> / person</em></p>
+                                        <p><small><?php echo $first_key; ?> &bull; see all pricing tiers below</small></p>
+                                    </div> 
+                                    <hr />
+                                    
+                                    <ul class="price">
+                                        <?php foreach($package_items['emerald_items'] as $key=>$value): ?>
+                                            <li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+                                        <?php endforeach; ?>		
+                                    </ul>
+                                    <p class="tier-label">Pricing by group size</p>
+                                    <ul class="priceblock">
+                                        <?php foreach($people['emerald'] as $key=>$value): ?>
+                                            <li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em> / person</em><?php endif;?></span></li>
+                                        <?php endforeach; ?>
+                                    </ul>
+                        
+                                </div><!-- price table -->
+                                <?php endif; ?>
+                                <div class="mt-20"><a data-href="#tabs-5" class="btn btn-success btn--round open-tab">Reserve My Spot</a></div>
+                            </div><!-- price table container -->
 
                         </div><!-- ./price -->
 
@@ -206,7 +233,7 @@
 
 									<div data-control>What happens if I can't make the payments for the Essence Packages 2026 Early Bird special for two people by the payment due dates?</div>
 									<div data-content>
-										<p>If you can't make the payments as scheduled, you have an opportunity to convert your Early Bird special to normal package price. This can only be done if we receive have notification prior to your due date and you will forfeit your registration and the $250 of total payments made ($350 total). There are no extensions available for this package.  If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts to partial payments.</p>
+										<p>If you can't make the payments as scheduled, you have an opportunity to convert your Early Bird special to normal package price. This can only be done if we receive have notification prior to your due date or you will forfeit all payments made on the account. There are no extensions available for this package.  If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts to partial payments.</p>
 									</div>
 
 								</div><!-- end of accordion-->
@@ -216,7 +243,7 @@
 
 									<div data-control>What are the payment due dates for Essence Packages?</div>
 									<div data-content>
-										<p>To reserve a package each group member pays the registration fee $100.00 per person. The first payment of $125 per person is due on or before September 10, 2025. The second payment of $250 per person is due on or before November 10, 2025. The final payment (remaining balance) is due on or before January 10, 2026. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts to partial payments.</p>
+										<p>To reserve a package each group member pays the registration fee $100.00 per person. The first payment of $250 per person is due on or before March 15, 2026. The second payment of $500 per person is due on or before April 10, 2026. The final payment (remaining balance) is due on or before May 01, 2026. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts to partial payments.</p>
 									</div>
 
 								</div><!-- end of accordion-->

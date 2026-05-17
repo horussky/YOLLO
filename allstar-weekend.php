@@ -100,12 +100,12 @@
                                             <?php echo $hotel["location"]; ?></a>
                                     </address>
                                 </div>
-                            </div><!-- ./hotel-grid -->
+                            </div<h2>Price & What's Included</h2>><!-- ./hotel-grid -->
                             <?php endforeach; ?>
 
                             <hr />
 
-                            <h2>Price & What's Included</h2>
+                            
                                         
                             <div class="price-table-container">
 
