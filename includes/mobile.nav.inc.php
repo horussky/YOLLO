@@ -55,7 +55,7 @@
 		[
 			"title"	=>	"Urban Fiesta: Jamaica",
 			"link"	=>	"/urban-fiesta-jamaica",
-			"active"=> true		  	
+			"active"=> false	  	
 		],
 		[
 			"title"	=>	"Urban Fiesta: Puerto Rico",

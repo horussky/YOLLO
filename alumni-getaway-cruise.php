@@ -70,13 +70,19 @@
                        
 						<h2>Set Sail for Sun, Soul, and HBCU Celebration.</h2> 
 						
-						<p><strong>The 2025 HBCU Alumni Cruise is officially sold out!</strong> Don't miss your chance to be a part of the magic! Book your spot for the 2026 HBCU Alumni Getaway Cruise, which is sailing from Miami! YOLLO's Alumni Getaway Cruise is more than a vacation — it's an HBCU family reunion at sea, packed with culture, connection, and Caribbean adventure. From the sun-drenched shores of the <strong>Bahamas, Amber Cove, and Grand Turk</strong>, to the unforgettable themed parties, comedy shows, and high-energy events onboard the <strong>Carnival Magic</strong>, every moment is made to honor the legacy and spirit of HBCUs.</p>
-						
-						<p>Whether you're a first-timer or a returning cruiser, solo traveler or squad captain, YOLLO has a package for you. This is your chance to create new memories, reconnect with old friends, and be part of something bigger.</p>
+						<p>Get ready for the 2026 HBCU Alumni Getaway Cruise, sailing straight out of Miami.</p>
+							
+						<p>This trip feels like a true HBCU family reunion at sea. You will experience culture, connection, and Caribbean sunshine as we visit the <strong>Bahamas, Amber Cove, and Grand Turk</strong>. Onboard the <strong>Carnival Magic</strong>, the energy stays high with themed parties, comedy shows, and events created to celebrate the legacy and spirit of HBCUs.</p>
+
+						<p>Whether you are traveling solo or bringing your whole crew, YOLLO has a package that fits your style. This is your chance to make new memories, reconnect with familiar faces, and be part of something special.</p>
 						
 						<p> Want a peek at what's in store? <a href="/alumni-getaway-events">See cruise events here.</a> You can also <a href="/booklet/" target="_blank">view our digital booklet here.</a> From Western themed parties, to the Black Hollywood costume party, we are known for unforgettable experiences.</p>
 						
-						<h3>Looking for an easy payment option?</h3> <p class="mb-40">Don't let budget constraints hold you back - take advantage of our convenient Flex Pay option to finance your dream getaway with easy monthly payments. From fun-filled days at sea to thrilling port adventures, this cruise from <strong>Miami</strong> promises to be the ultimate HBCU reunion experience. Let's celebrate the excellence of HBCUs together! <a data-href="#tabs-5" href="#" class="open-tab">Book this fantastic cruise package</a> right now!</p>
+						<h3>Looking for an easy way to pay?</h3> 
+						
+						<p>Our Flex Pay option lets you lock in your spot now and enjoy simple monthly payments that fit your budget. Just choose Flex Pay when booking!</p>
+
+						<p>From relaxing days at sea to exciting port adventures, this Miami sailing delivers the ultimate HBCU reunion experience. Celebrate the pride, culture, and excellence of HBCUs with us. <a data-href="#tabs-5" href="#" class="open-tab">Book this fantastic cruise package</a> right now!</p>
 
 						<?php include 'includes/uplift-onpage.inc.php'; ?>
                         
@@ -112,7 +118,7 @@
 								<td class="stop"><span class="dot dot-depart"></span>Return: Miami 8AM</td>
 							</tr>
 							</tbody></table>
-							<button class="view-link">View HBCU Alumni Getaway 2026 Events</button>
+							<a class="view-link" target="_blank" href="/alumni-getaway-events">View HBCU Alumni Getaway 2026 Events</a>
 						</div>
 
 						
@@ -216,7 +222,7 @@
 								<td class="stop"><span class="dot dot-depart"></span>Return: Miami 8AM</td>
 							</tr>
 							</tbody></table>
-							<button class="view-link">View HBCU Alumni Getaway 2026 Events</button>
+							<a class="view-link" target="_blank" href="/alumni-getaway-events">View HBCU Alumni Getaway 2026 Events</a>
 						</div>
                     
 

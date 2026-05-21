@@ -122,64 +122,85 @@
 							<hr />
 
 
-							<h2 class="h4">Price</h2>
-
-							<div class="price-table-container">
-							<div class="price-table">
+							<h2>Price & What's Included</h2>
+                                
+                                <div class="price-table-container">
+								<?php if(isset($people["diamond"]) && !empty($people["diamond"])): ?>
+                                <div class="price-table">
+								<h3 class="price-table__type"> Diamond Package</h3>
+								
+								<?php 
+									$first_key     = array_key_first($people['diamond']);
+									$first_value   = $people['diamond'][$first_key]['price'];
+									$first_soldout = $people['diamond'][$first_key]['sold_out'];
+								?>
+								
+								<div>
+									<p class="large-price mb-0"><em>Starting at</em> <?php echo $first_value; ?><em> / person</em></p>
+									<p><small><?php echo $first_key; ?> &bull; see all pricing tiers below</small></p>
+								</div> 
+								<hr />
+								
 								<ul class="price">
-
-									<li class="header">Diamond <span>Package</span></li>
 									<?php foreach($package_items['diamond_items'] as $key=>$value): ?>
-
 										<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-
-									<?php endforeach; ?>
-
-									<li class="people-price">
-										<ul class="priceblock">
-											<?php foreach($people['diamond'] as $key=>$value): ?>
-												<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
-											<?php endforeach; ?>
-										</ul>
-									</li>
-
-									<li>
-										<a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a>
-									</li>
-
+									<?php endforeach; ?>		
 								</ul>
-
-							</div><!-- price table -->
-
-							
-							<?php if(isset($package_items['emerald_items']) && !empty($package_items['emerald_items'])) :?>
-							<div class="price-table">
-
-								<ul class="price">
-
-									<li class="header">Emerald <span>Package</span></li>
-									<?php foreach($package_items['emerald_items'] as $key=>$value): ?>
-										<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-									<?php endforeach; ?>
-
-									<li class="people-price">
-										<ul class="priceblock">
-											<?php foreach($people['emerald'] as $key=>$value): ?>
-												<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em>/per person</em><?php endif;?></span></li>
-												<?php endforeach; ?>
-										</ul>
+								<p class="tier-label">Pricing by group size</p>
+								<ul class="priceblock">
+								<?php foreach($people['diamond'] as $key=>$tier): ?>
+									<li class="<?php echo $tier['sold_out'] ? 'sold-out' : ''; ?>">
+										<?php echo $key; ?>
+										<span>
+											<?php echo $tier['price']; ?>
+											<?php if($key != "Individual"): ?>
+												<em> / person</em>
+											<?php endif; ?>
+											<?php if($tier['sold_out']): ?>
+												<span class="sold-out-badge">Sold Out</span>
+											<?php endif; ?>
+										</span>
 									</li>
-
-									<li>
-										<a data-href="#tabs-5" class="btn btn-success open-tab">Book Today</a>
-									</li>
-
+								<?php endforeach; ?>
 								</ul>
+					
+                        	</div><!-- price table -->
+                            <?php endif; ?>
 
-							</div><!-- price table -->
-							<?php endif; ?>
 
-						</div><!-- price table container-->
+
+                                <?php if(isset($people["emerald"]) && !empty($people["emerald"])): ?>
+                                <div class="price-table">
+                                    <h3 class="price-table__type"> Emerald Package</h3>
+                                    
+                                    <?php 
+										$first_key     = array_key_first($people['emerald']);
+										$first_value   = $people['emerald'][$first_key]['price'];
+										$first_soldout = $people['emerald'][$first_key]['sold_out'];
+                                    ?>
+                                    
+                                    <div>
+                                        <p class="large-price mb-0"><em>Starting at</em> <?php echo $first_value; ?><em> / person</em></p>
+                                        <p><small><?php echo $first_key; ?> &bull; see all pricing tiers below</small></p>
+                                    </div> 
+                                    <hr />
+                                    
+                                    <ul class="price">
+                                        <?php foreach($package_items['emerald_items'] as $key=>$value): ?>
+                                            <li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+                                        <?php endforeach; ?>		
+                                    </ul>
+                                    <p class="tier-label">Pricing by group size</p>
+                                    <ul class="priceblock">
+                                        <?php foreach($people['emerald'] as $key=>$value): ?>
+                                            <li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em> / person</em><?php endif;?></span></li>
+                                        <?php endforeach; ?>
+                                    </ul>
+                        
+                                </div><!-- price table -->
+                                <?php endif; ?>
+                                <div class="mt-20"><a data-href="#tabs-5" class="btn btn-success btn--round open-tab">Reserve My Spot</a></div>
+                            </div><!-- price table container -->
 
 
 

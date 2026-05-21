@@ -213,7 +213,7 @@
             "Celebrate St. Patrick's Day with YOLLO's all-inclusive cruise event! Enjoy great vibes and incredible entertainment!",
             ""
         ),
-        new Event(
+        /*new Event(
             "Urban Fiesta Weekend",
             "Montego Bay, Jamaica",
             "May 22-24, 2026",
@@ -223,7 +223,7 @@
             "/urban",
             "Explore Jamaica with YOLLO Group Services! Book your Urban Fiesta adventure now for a memorable Caribbean experience.",
             ""
-        )
+        )*/
     ];
 
     usort($feature_event, function($a, $b) {
