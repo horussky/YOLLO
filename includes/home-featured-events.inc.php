@@ -40,9 +40,9 @@
         new Event(
             "Daytopia", //title
             "Montgomery, AL", //location
-            "June 20, 2026", //date
-            strtotime("June 20, 2026"), //start
-            strtotime("June 20, 2026"), //end
+            "June 20, 2027", //date
+            strtotime("June 20, 2027"), //start
+            strtotime("June 20, 2027"), //end
             "images/slides/splash-daytopia.jpg", //img
             "/daytopia", //link
             "Experience the ultimate bowling party at YOLLO's Daytopia in Gumptown! Enjoy bowling with food, drinks, and music. Secure your spot now!", //desc
@@ -183,9 +183,9 @@
         new Event(
             "Fade To May",
             "Memphis, TN",
-            "May 5-7, 2023",
-            strtotime("May 5, 2023"),
-            strtotime("May 7, 2023"),
+            "April 30 - May 2, 2027",
+            strtotime("April 30, 2027"),
+            strtotime("May 2, 2027"),
             "images/featured-events/featured-event-may.jpg",
             "/fade-to-may",
             "",

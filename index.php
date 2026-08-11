@@ -48,14 +48,11 @@
 								}
 
 								$slides = array(
-									new Slide(
+									/*new Slide(
 										"images/slides/splash-daytopia.jpg", //img
 										"/daytopia", //link
-										"View Daytopia"), //text 
-									new Slide(
-										"images/slides/splash-ghana.jpg", //img
-										"/ghana-takeover", //link
-										"View The Ghana Takeover"), //text
+										"View Daytopia"), //text */
+									
 									new Slide(
 										"images/slides/splash-alumni.jpg", //img
 										"/alumni-getaway-cruise", //link
@@ -64,6 +61,10 @@
 										"images/slides/splash-mmf.jpg", //img
 										"/nati-music-festival", //link
 										"View Cincinnati Music Festival"), //text
+									new Slide(
+										"images/slides/splash-ghana.jpg", //img
+										"/ghana-takeover", //link
+										"View The Ghana Takeover"), //text
 									new Slide(
 										"images/slides/splash-gsc.jpg", //img
 										"/nati-music-festival", //link

@@ -7,9 +7,14 @@
 			"active"=> true
 		],
 		[
+			"title"	=>	"Pier Pressure Cruise",
+			"link"	=>	"/pier-pressure",
+			"active"=> true
+		],
+		[
 			"title"	=>	"Fade to May",
 			"link"	=>	"/fade-to-may",
-			"active"=> false
+			"active"=> true
 		],
 		[
 			"title"	=>	"Classic Weekend",
@@ -19,12 +24,12 @@
 		[
 			"title"	=>	"Ghana Takeover",
 			"link"	=>	"/ghana-takeover",
-			"active"=> true
+			"active"=> false
 		],
 		[
 			"title"	=>	"Daytopia",
 			"link"	=>	"/daytopia",
-			"active"=> true
+			"active"=> false
 		],
 		[
 			"title"	=>	"Essence Festival",
@@ -85,7 +90,7 @@
 		[
 			"title"	=>	"Shamrock Sea Escape",
 			"link"	=>	"/shamrock-sea-escape",
-			"active"=> true
+			"active"=> false
 		],
 		[
 			"title"	=>	"Spring Fling Festival",

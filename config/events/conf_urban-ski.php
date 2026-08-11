@@ -5,7 +5,7 @@
 			"title" => "Urban Ski Weekend 2027 - YOLLO Group Services",
 			"description" => "Join us for the Urban Ski Weekend 2027 in Gatlinburg, Tennessee! Experience a weekend of skiing, parties, and exclusive events.",
 			"keywords" => "Urban Ski Weekend, Gatlinburg, Tennessee, skiing, parties, 2027",
-			"canonical" => "https://goyollo.com/urban-ski-weekend",
+			"canonical"  => "https://goyollo.com/urban-ski-weekend",
 		],
 
 		"event" => [
@@ -36,13 +36,13 @@
 				"Group of 4" => ["price" => "$865", "sold_out" => false],
 				"Group of 3" => ["price" => "$915", "sold_out" => false],
 				"Group of 2" => ["price" => "$1,085", "sold_out" => false],
-				"Individual"  => ["price" => "$1,275", "sold_out" => false],
+				"Individual" => ["price" => "$1,275", "sold_out" => false],
 			),
 
 			"emerald"=> array(),
 
 			"options"=>array(
-				"Hotel Only" 			=>"$525 (Weekend)",
+				"Hotel Only"		=>"$525 (Weekend)",
 				"Ski Excursions" 	=> "$100"
 			),
 
@@ -51,18 +51,20 @@
 		"package_items" =>[
 			"diamond_items" => array(
 				"4 Days / 3 Nights Hotel Accommodations"        => "checked",
-				"The Best of the Best Fashion Shows"            => "checked",
-				"15th Annual Winter White Party"		        => "checked",
-				"15th Annual \"LOL\" Comedy Show"		        => "checked",
-				"The Rep Your City Party"		    			=> "checked",
-				"Freaky Friday PJ Party"						=> "checked",
-				"Access To The Exclusive Super Lounges Each Night"	    => "checked",
-				"Access To The Love Jones Poets Corner Lounge"		    => "checked",
-				"The \"Mid-Night Mountain\" Indoor Pool Party"			=> "checked",
-				"Access To The Caribbean Lounge"					    => "checked",
-				"Access To The 80's & 90's Old School Lounge"		    => "checked",
-				"Tickets To All Additionally Added Events"			    => "checked",
-				"YOLLO Swag Bag"							    => "checked"
+				"The Premix Thursday Event"            			=> "checked",
+				"Who You Wit? Welcome Reception"            	=> "checked",
+				"Mardi Gras Friday Night"            			=> "checked",
+				"Whet Red Heated Pool Party"		    		=> "checked",
+				"Slide Season Line Dance Function"				=> "checked",
+				"The Blend Lab: Craft Your Signature Wine"		=> "checked",
+				"Black Cinema Film Review"						=> "checked",
+				"The Playhouse Grown & Social"					=> "checked",
+				"Nude Noir Any Shade Of Brown Signature Event"	=> "checked",
+				"Comedy Show"									=> "checked",
+				"Heated Pool Bad Behavior Party"				=> "checked",
+				"Group Ski Day"									=> "checked",
+				"All Star Game Watch Party"						=> "checked",
+				"The Sexy, Sultry, Sinful Sunday Pj Party!"		=> "checked"
 			),
 
 

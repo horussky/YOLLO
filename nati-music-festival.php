@@ -69,21 +69,30 @@ $metas = $event_config['metas'];
 
                             <?php echo $responsive_tabs["overview"]; ?>
                             <div class="tab" aria-label="overview">
-                                <h2>Cincinnati Music Festival 2026 Is Going to Be Epic!</h2>
-                                <p>Prepare for the biggest weekend of music, culture, and electrifying energy at the Cincinnati Music Festival 2026! This legendary festival has brought icons like Beyoncé, Bruno Mars, and Kendrick Lamar to the stage—and next year's lineup will be even more unforgettable. With YOLLO Group Services, you won't just attend; you'll dominate the weekend with exclusive VIP access, luxury stays, and premium events. Spots fill fast—<a data-href="#tabs-5" href="#" class="open-tab">book now</a> to guarantee your place at the hottest festival of the year!</p>
+                                <h2>Cincinnati Music Festival Weekend 2027</h2>
+                                <p>Get ready for an unforgettable weekend of incredible music, unforgettable memories, and nonstop celebration at the Cincinnati Music Festival 2027! Join thousands of music lovers for one of the nation's premier festival experiences, featuring world-class performances, amazing energy, and the best of Cincinnati.
 
-                                <h3>Elevate Your Experience with the All-White Mid-Day Cruise</h3>
+Travel with YOLLO Group Services and enjoy a stress-free getaway complete with exciting events, premium accommodations, and signature experiences that take your festival weekend to the next level. Whether you're a first-time guest or a returning traveler, this is the weekend you don't want to miss. Packages will go fast—<a data-href="#tabs-5" href="#" class="open-tab">book now</a> to guarantee your place at the hottest festival of the year!</p>
+
+                                <h3>The Signature Event of Cincinnati Music Festival Weekend!</h3>
                                 <div class="ratio ratio-16x9 mb-20">
                                         <iframe src="https://www.youtube.com/embed/w35en351N1E?rel=0" 
                                         title="YouTube video" 
                                         allowfullscreen></iframe>
                                 </div>
-                                <p>Want to take your festival weekend to the next level? Say less! Step aboard the stunning River Queen with BB Riverboats for our exclusive All-White Grown & Sophisticated Mid-Day Cruise. Glide along the Ohio River, vibing to top-tier music while soaking in breathtaking views of the Cincinnati skyline. Limited tickets available —once they're gone, they're GONE! Don't wait—secure your spot for this 2:30 PM - 5:00 PM luxury experience before it sells out!</p>
+                                <p>Elevate your festival weekend aboard the beautiful River Queen for the 12th Annual Grown & Sophisticated "All White" Mid-Day Cruise. Cruise the scenic Ohio River while enjoying great music, high-energy vibes, amazing people, and spectacular views of the Cincinnati skyline. Dress in your best all-white attire and get ready for one of the most anticipated events of the weekend.
+                                
 
-                                <h3>More Than Music—A Full Weekend of VIP Treatment & Culture</h3>
-                                <p>With YOLLO's premium festival packages, you don't just get a ticket—you get the ultimate weekend. Stay in luxury hotels, savor Cincinnati's best eats, and party with an elite crowd of music lovers. We handle the details—you enjoy nonstop VIP access, seamless accommodations, and legendary events. This isn't just a concert; it's the experience of a lifetime. <a data-href="#tabs-5" href="#" class="open-tab">Grab your package now</a> and get ready for three days of pure magic!</p>
+Boarding: 2:30 PM | Cruise: 3:00 PM – 5:00 PM
 
-                                <p>YOLLO can't wait to bring the heat in 2026—will you be there? Don't just dream about it—make it happen!</p>
+Tickets are limited and this event sells out every year—reserve yours today!</p>
+
+                                <h3>More Than a Festival—It's the Complete Weekend Experience</h3>
+                                <p>The Cincinnati Music Festival is only the beginning! When you travel with YOLLO Group Services, you'll enjoy a carefully planned weekend filled with unforgettable experiences, comfortable accommodations, exciting events, and opportunities to connect with music lovers from across the country.
+
+From the moment you arrive until the final performance, we'll take care of the details so you can focus on making memories, celebrating with friends, and enjoying one of the biggest music weekends of the year. <a data-href="#tabs-5" href="#" class="open-tab">Grab your package now</a> and get ready for a weekend  of pure magic!</p>
+
+                                <p>The countdown has begun, and YOLLO Group Services is ready to make Cincinnati Music Festival Weekend 2027 our biggest celebration yet!</p>
 
                                 <table class="itinerary">
                                     <caption>Event Lineup</caption>
@@ -95,16 +104,28 @@ $metas = $event_config['metas'];
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Friday, July 24</td>
+                                            <td>Friday, July 24, 2026</td>
                                             <td>
-                                                <li>tbd</li>
+                                                <ul>
+                                                    <li>803 Fresh</li>
+                                                    <li>Ledisi</li>
+                                                    <li>Charlie Wilson</li>
+                                                    <li>Nelly</li>
+                                                    <li>Tyrese</li>
+                                                </ul>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Saturday, July 25</td>
+                                            <td>Saturday, July 25, 2026</td>
                                             <td>
-                                                <li>tbd</li>
-                                                </td>
+                                                <ul>
+                                                    <li>Heatwave</li>
+                                                    <li>Doug E. Fresh and Slick Rick</li>
+                                                    <li>SWV</li>
+                                                    <li>Mary J. Blige</li>
+                                                    <li>Trey Songz</li>
+                                                </ul>
+                                                                                        </td>
                                         </tr>
                                         
                                     </tbody>
@@ -242,7 +263,7 @@ $metas = $event_config['metas'];
 
                                     <div data-control>What are the payment due dates for Cincinnati Music Festival Packages?</div>
                                     <div data-content>
-                                        <p>To reserve a package each group member pays the $100.00 per person fee. The first payment of $125 is due on or before <strong>February 10, 2026</strong>. The second payment of $150 is due on or before <strong>March 10, 2026</strong>.The final payment (remaining balance) is due on or before <strong>May 10, 2026</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
+                                        <p>To reserve a package each group member pays the $100.00 per person fee. The first payment of $125 is due on or before <strong>September 10, 2026</strong>. The second payment of $150 is due on or before <strong>December 10, 2026</strong>.The final payment (remaining balance) is due on or before <strong>February 10, 2027</strong>. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation.</p>
                                     </div>
 
                                     </div><!-- end of accordion-->
@@ -252,7 +273,7 @@ $metas = $event_config['metas'];
 
                                     <div data-control>What cities will the bus depart from?</div>
                                     <div data-content>
-                                        <p>Montgomery, Birmingham, and Huntsville, AL! Don't see you city or state listed? Email us and let's see what we can work out!</p>
+                                        <p>Montgomery and Birmingham, AL! Don't see you city or state listed? Email us and let's see what we can work out!</p>
                                     </div>
 
                                     </div><!-- end of accordion-->
@@ -262,7 +283,7 @@ $metas = $event_config['metas'];
 
                                     <div data-control>Where will we be staying that weekend?</div>
                                     <div data-content>
-                                        <p>You will two options for 2025. The Holiday Inn Cincinnati Riverfront has been selected as the host property for this wonderful event! The Comfort Suites Newport - Cincinnati  will be our over flow property once the host property is sold out and trust us it will sell out. Lock in your reservation today. </p>
+                                        <p>The Holiday Inn Cincinnati Riverfront has been selected as the host property for this wonderful event! Lock in your reservation today. </p>
                                     </div>
 
                                     </div><!-- end of accordion-->
@@ -291,7 +312,7 @@ $metas = $event_config['metas'];
 
                                     <div data-control>What time does the cruise start and how much does it cost?</div>
                                     <div data-content>
-                                        <p>The cruise will sail from 2:45 pm - 5:00 pm, however boarding begins at 2:15 pm. The cost of the cruise is $60 for General Admission and $125 for VIP. For a limited time there are Early Bird tickets available at $40 for General Admission and $95 VIP.  VIP grants no line waiting entrance, Open bar, and light food during the cruise. Ticket prices increase the week of the cruise.</p>
+                                        <p>The cruise will sail from 2:45 pm - 5:00 pm, however boarding begins at 2:30 pm. The cost of the cruise is $60 for General Admission and $125 for VIP. For a limited time there are Early Bird tickets available at $40 for General Admission and $95 VIP.  VIP grants no line waiting entrance, open bar, and light food during the cruise. Ticket prices increase the week of the cruise.</p>
                                     </div>
 
                                     </div><!-- end of accordion-->

@@ -1,7 +1,7 @@
 <?php
 	include 'includes/functions.inc.php';
 	include 'includes/bootstrap.inc.php';
-	$config = loadEvent('conf_alumni.php');
+	$config = loadEvent('conf_pier-pressure.php');
 	extract($config);
 ?>
 <!doctype html>
@@ -49,10 +49,11 @@
 					<h1 class="event-hero__title"><?php echo $event["title"]; ?></h1>
 					<p class="event-hero__subtitle"><?php echo $event["subtitle"]; ?></p>
 					<p class="event-hero__location"><?php echo $event["location"]; ?></p>
-					<div class="event-hero__buttons">
+					<a data-href="#tabs-5" class="btn btn-red event-hero__btn open-tab">Book Now</a>
+					<!--<div class="event-hero__buttons">
 						<a data-href="#tabs-5" class="btn btn-red event-hero__btn open-tab">Book Now</a>
 						<a class="btn btn-outlined btn--round event-hero__btn" href="/alumni-getaway-events">View Events</a>
-					</div>
+					</div> -->
 					<div id="event_start" data-time='<?php echo $event["date_start"]; ?>' class="event-hero__date"><?php echo $event["date"]; ?> </div>
 					<div id="event-timer" class="event-hero__timer"></div>
 				</div>	
@@ -68,61 +69,58 @@
                     <?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
                        
-						<h2>Set Sail for Sun, Soul, and HBCU Celebration.</h2> 
+						<h2>Pier Pressure: The Bahamas Getaway</h2> 
 						
-						<p>Get ready for the 2026 HBCU Alumni Getaway Cruise, sailing straight out of Miami.</p>
-							
-						<p>This trip feels like a true HBCU family reunion at sea. You will experience culture, connection, and Caribbean sunshine as we visit the <strong>Bahamas, Amber Cove, and Grand Turk</strong>. Onboard the <strong>Carnival Magic</strong>, the energy stays high with themed parties, comedy shows, and events created to celebrate the legacy and spirit of HBCUs.</p>
+						<p>Escape the ordinary with YOLLO Group Services aboard the incredible Carnival Freedom for Pier Pressure! This isn't just a cruise; it's a 5-day experience packed with nonstop nightlife, amazing food, and tropical vibes. Sail away to the beautiful Bahamas and soak up the beachside cocktails at Carnival's stunning new destination, Celebration Key.</p>
 
-						<p>Whether you are traveling solo or bringing your whole crew, YOLLO has a package that fits your style. This is your chance to make new memories, reconnect with familiar faces, and be part of something special.</p>
-						
-						<p> Want a peek at what's in store? <a href="/alumni-getaway-events">See cruise events here.</a> You can also <a href="/booklet/" target="_blank">view our digital booklet here.</a> From Western themed parties, to the Black Hollywood costume party, we are known for unforgettable experiences.</p>
+						<h3>While Onboard:</h3>
+							<ul>
+								<li><strong>The Activities:</strong> Comedy Shows, DJs, Theme Parties and Daytime fun.</li>
+								<li><strong>The Eats & Drinks:</strong> Endless food options and Tropical Cocktails.</li>
+								<li><strong>The Vibe:</strong> Gorgeous Bahamas setting with a high-energy crowd.</li>
+							</ul>
+
+						<p>	Our travelers always leave asking, “When's the next cruise?” Grab your crew, pack your fits, and get ready to catch vibes in the Bahamas with YOLLO.</p>
+
+							<p>PIER PRESSURE is calling… are you coming?</p>
 						
 						<h3>Looking for an easy way to pay?</h3> 
 						
 						<p>Our Flex Pay option lets you lock in your spot now and enjoy simple monthly payments that fit your budget. Just choose Flex Pay when booking!</p>
 
-						<p>From relaxing days at sea to exciting port adventures, this Miami sailing delivers the ultimate HBCU reunion experience. Celebrate the pride, culture, and excellence of HBCUs with us. <a data-href="#tabs-5" href="#" class="open-tab">Book this fantastic cruise package</a> right now!</p>
-
 						<?php include 'includes/uplift-onpage.inc.php'; ?>
-                        
-                        <div class="table-card mb-40">
+                    
+                        <div class="table-card mb-20">
 							<div class="tz-note">*All times are based on Central Time Zone.</div>
 							<table>
-							<tbody><tr class="depart-row">
-								<td class="day">SATURDAY</td>
-								<td class="stop"><span class="dot dot-depart"></span>Departure: Miami 3:30PM</td>
-							</tr>
-							<tr class="port-row">
-								<td class="day">SUNDAY</td>
-								<td class="stop"><span class="dot dot-port"></span>Relaxaway, Half Moon Cay (Bahamas)</td>
-							</tr>
-							<tr class="sea-row">
-								<td class="day">MONDAY</td>
-								<td class="stop"><span class="dot dot-sea"></span>Fun Day at Sea</td>
-							</tr>
-							<tr class="port-row">
-								<td class="day">TUESDAY</td>
-								<td class="stop"><span class="dot dot-port"></span>Amber Cove (Dominican Republic)</td>
-							</tr>
-							<tr class="port-row">
-								<td class="day">WEDNESDAY</td>
-								<td class="stop"><span class="dot dot-port"></span>Grand Turk</td>
-							</tr>
-							<tr class="sea-row">
-								<td class="day">THURSDAY</td>
-								<td class="stop"><span class="dot dot-sea"></span>Fun Day at Sea</td>
-							</tr>
-							<tr class="depart-row">
-								<td class="day">FRIDAY</td>
-								<td class="stop"><span class="dot dot-depart"></span>Return: Miami 8AM</td>
-							</tr>
-							</tbody></table>
-							<a class="view-link" target="_blank" href="/alumni-getaway-events">View HBCU Alumni Getaway 2026 Events</a>
+								<tbody>
+									<tr class="depart-row">
+										<td class="day">Monday</td>
+										<td class="stop"><span class="dot dot-depart"></span>Departure: Canaveral (Orlando) 3:30PM</td>
+									</tr>
+									<tr class="port-row">
+										<td class="day">Tuesday</td>
+										<td class="stop"><span class="dot dot-port"></span>Celebration Key™ 8AM-4PM</td>
+									</tr>
+									<tr class="port-row">
+										<td class="day">Wednesday</td>
+										<td class="stop"><span class="dot dot-port"></span>Nassau 8AM-4PM</td>
+									</tr>
+									<tr class="port-row">
+										<td class="day">Thursday</td>
+										<td class="stop"><span class="dot dot-port"></span>Relaxaway, Half Moon Cay 8AM-4PM</td>
+									</tr>
+									<tr class="sea-row">
+										<td class="day">Friday</td>
+										<td class="stop"><span class="dot dot-sea"></span>Fun Day At Sea</td>
+									</tr>
+									<tr class="depart-row">
+										<td class="day">Saturday</td>
+										<td class="stop"><span class="dot dot-depart"></span>Departure: Canaveral (Orlando) 8AM</td>
+									</tr>
+								</tbody>
+							</table>
 						</div>
-
-						
-						<?php include 'includes/hbcu-ambass-ad.inc.php'; ?>
 						
                     </div> <!-- ./ overview -->
 
@@ -132,6 +130,7 @@
 
 						<h2>Price & What's Included</h2>
 					
+
 					  	<div class="price-table-container">
 
 							<div class="price-table">
@@ -167,63 +166,58 @@
 						<h2>The Ship</h2>
                         <?php foreach($geolocation as $hotel) :?>
                             <div class="hotel-grid">
-								<div class="hg-img">
-									<figure style="background:url(<?php echo $hotel['ship']; ?>); background-size: cover; background-position: center;"></figure>
-								</div>
-								<div class="hg-body">
-									<p class="hg-title"><?php echo $hotel["title"]; ?> 
-									<?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
-									
-									<p class="hg-desc"><?php echo $hotel["description"]; ?></p>	
+                                    <div class="hg-img">
+                                        <figure style="background:url(<?php echo $hotel['ship']; ?>); background-size: cover; background-position: center;"></figure>
+                                    </div>
+                                    <div class="hg-body">
+                                        <p class="hg-title"><?php echo $hotel["title"]; ?> 
+                                        <?php if($hotel["soldout"] == true) :?><span class="sold">** Sold Out **</span><?php endif ?></p>
+										
+										<p class="hg-desc"><?php echo $hotel["description"]; ?></p>	
 
-									<address>
-										<i class="fa fa-location-dot" aria-hidden="true"></i> 
-										<a title="<?php echo $hotel["title"]; ?>" target="_blank" href="http://maps.google.com/maps?q=<?php echo $hotel["address"]; ?>+<?php echo $hotel["location"]; ?>"><?php echo $hotel["address"]; ?>,  
-										<?php echo $hotel["location"]; ?></a>
-									</address>
-								</div>
+                                        <address>
+                                            <i class="fa fa-location-dot" aria-hidden="true"></i> 
+                                            <a title="<?php echo $hotel["title"]; ?>" target="_blank" href="http://maps.google.com/maps?q=<?php echo $hotel["address"]; ?>+<?php echo $hotel["location"]; ?>"><?php echo $hotel["address"]; ?>,  
+                                            <?php echo $hotel["location"]; ?></a>
+                                        </address>
+                                    </div>
                             </div><!-- ./hotel-grid -->
                         <?php endforeach; ?>
 
 					  <hr />  
 					  <!-- Price Table -->
                         <h2>Cruise Itinerary</h2>
-						<div class="table-card">
+						<div class="table-card mb-20">
 							<div class="tz-note">*All times are based on Central Time Zone.</div>
 							<table>
-							<tbody><tr class="depart-row">
-								<td class="day">SATURDAY</td>
-								<td class="stop"><span class="dot dot-depart"></span>Departure: Miami 3:30PM</td>
-							</tr>
-							<tr class="port-row">
-								<td class="day">SUNDAY</td>
-								<td class="stop"><span class="dot dot-port"></span>Relaxaway, Half Moon Cay (Bahamas)</td>
-							</tr>
-							<tr class="sea-row">
-								<td class="day">MONDAY</td>
-								<td class="stop"><span class="dot dot-sea"></span>Fun Day at Sea</td>
-							</tr>
-							<tr class="port-row">
-								<td class="day">TUESDAY</td>
-								<td class="stop"><span class="dot dot-port"></span>Amber Cove (Dominican Republic)</td>
-							</tr>
-							<tr class="port-row">
-								<td class="day">WEDNESDAY</td>
-								<td class="stop"><span class="dot dot-port"></span>Grand Turk</td>
-							</tr>
-							<tr class="sea-row">
-								<td class="day">THURSDAY</td>
-								<td class="stop"><span class="dot dot-sea"></span>Fun Day at Sea</td>
-							</tr>
-							<tr class="depart-row">
-								<td class="day">FRIDAY</td>
-								<td class="stop"><span class="dot dot-depart"></span>Return: Miami 8AM</td>
-							</tr>
-							</tbody></table>
-							<a class="view-link" target="_blank" href="/alumni-getaway-events">View HBCU Alumni Getaway 2026 Events</a>
+								<tbody>
+									<tr class="depart-row">
+										<td class="day">Monday</td>
+										<td class="stop"><span class="dot dot-depart"></span>Departure: Canaveral (Orlando) 3:30PM</td>
+									</tr>
+									<tr class="port-row">
+										<td class="day">Tuesday</td>
+										<td class="stop"><span class="dot dot-port"></span>Celebration Key™ 8AM-4PM</td>
+									</tr>
+									<tr class="port-row">
+										<td class="day">Wednesday</td>
+										<td class="stop"><span class="dot dot-port"></span>Nassau 8AM-4PM</td>
+									</tr>
+									<tr class="port-row">
+										<td class="day">Thursday</td>
+										<td class="stop"><span class="dot dot-port"></span>Relaxaway, Half Moon Cay 8AM-4PM</td>
+									</tr>
+									<tr class="sea-row">
+										<td class="day">Friday</td>
+										<td class="stop"><span class="dot dot-sea"></span>Fun Day At Sea</td>
+									</tr>
+									<tr class="depart-row">
+										<td class="day">Saturday</td>
+										<td class="stop"><span class="dot dot-depart"></span>Departure: Canaveral (Orlando) 8AM</td>
+									</tr>
+								</tbody>
+							</table>
 						</div>
-
-						
                     
 
                                 
@@ -284,7 +278,7 @@
 
 								<div data-control>Is there a drink package option for those who don't prefer alcohol, but love coffee and mocktails? </div>
 								<div data-content>
-								<p>Yes, the CHEERS! Zero Proof is Carnival’s premium non-alcoholic beverage package, designed to elevate your cruise experience with variety and flavor. It includes everything you love from sodas, juices, premium coffees & teas, bottled water, handcrafted zero proof cocktails, alcohol-free beer, non-alcoholic sparkling wine, milkshakes, and energy drinks. For more information please visit <a href="https://help.carnival.com/app/answers/detail/a_id/3836/~/bottomless-bubbles-%28unlimited-soda-program" target="_blank"> Carnival Cruise FAQs</a></p>
+								<p>Yes, the CHEERS! Zero Proof is Carnival's premium non-alcoholic beverage package, designed to elevate your cruise experience with variety and flavor. It includes everything you love from sodas, juices, premium coffees & teas, bottled water, handcrafted zero proof cocktails, alcohol-free beer, non-alcoholic sparkling wine, milkshakes, and energy drinks. For more information please visit <a href="https://help.carnival.com/app/answers/detail/a_id/3836/~/bottomless-bubbles-%28unlimited-soda-program" target="_blank"> Carnival Cruise FAQs</a></p>
 								</div>
 
 							</div><!-- end of accordion-->
@@ -418,7 +412,7 @@
                             <div class="pay-form">
                                 <p>Please use the form below to complete your booking for <?php echo $event["title"]?>. If there are any questions or concerns please contact us by phone at (888) 946-9655 or email <a href="mailto:onelife@goyollo.com">onelife@goyollo.com</a></p>
                                 
-								<script src="https://www.cognitoforms.com/f/seamless.js" data-key="NiNAkf4LukqBZOHDFOMsiQ" data-form="81"></script>
+								<script src="https://www.cognitoforms.com/f/seamless.js" data-key="NiNAkf4LukqBZOHDFOMsiQ" data-form="89"></script>
 
                             </div><!-- end of pay-form -->
 

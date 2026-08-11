@@ -16,11 +16,14 @@
 <div class="header">
     <span class="left"><?php include 'includes/logo.inc.php'; ?></span>
     <span class="right">
+		<nav class="main-nav" aria-label="Primary navigation">
 		<ul class="top-nav">
 		<?php foreach($top_links as $top_link => $link_name): ?>
 			<?php if($top_link === 'subscribe'): ?>
 			<li class="<?php echo $top_link ?>">
-				<a class="hvr-underline-from-center <?php if($current_url === $top_link){echo $active;} ?>" title="<?php echo $link_name ?>" href="http://eepurl.com/bgY6P"><?php echo $link_name ?></a>
+				<a class="hvr-underline-from-center <?php if($current_url === $top_link){echo $active;} ?>"<?php if($current_url === $top_link){echo 'aria-current="page"';} ?>
+				href="/<?php echo $top_link ?>" target="_blank" rel="noopener noreferrer"><?php echo $link_name ?>
+				</a>
 			</li>
 			<?php elseif($top_link === 'events'): ?>
 			<li class="events dropdown">
@@ -50,6 +53,7 @@
 		<?php endforeach; ?>
 
 		</ul>
+		</nav>
    
    		<div id="nav-icon" class="toggle-panel menu-btn">
 		  <span></span>
