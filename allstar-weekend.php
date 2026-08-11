@@ -26,7 +26,7 @@
     <meta property="fb:pages" content="117420764961518" />
     <link rel="icon" href="favicon-192.png" sizes="192x192">
 	<link rel="apple-touch-icon" href="favicon-180.png" sizes="180x180">
-    <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
+    <link href="<?php echo asset_url('css/global.css'); ?>" rel="stylesheet" type="text/css" />
 </head>
 <body id="event-pg">
     <div id="wrap">
@@ -137,40 +137,40 @@
 								</ul>
 					
                         	</div><!-- price table -->
-                            <?php endif; ?>
+                                <?php endif; ?>
 
 
 
                                 <?php if(isset($people["emerald"])) :?>
                                 <div class="price-table">
-                                    <h3 class="price-table__type"> Emerald Package</h3>
-                                    
-                                    <?php 
-                                        $first_key = array_key_first($people['emerald']);
-                                        $first_value = $people['emerald'][$first_key];
-                                    ?>
-                                    
-                                    <div>
-                                        <p class="large-price mb-0"><em>Starting at</em> <?php echo $first_value; ?><em> / person</em></p>
-                                        <p><small><?php echo $first_key; ?> &bull; see all pricing tiers below</small></p>
-                                    </div> 
-                                    <hr />
-                                    
-                                    <ul class="price">
-                                        <?php foreach($package_items['emerald_items'] as $key=>$value): ?>
-                                            <li class="<?php echo $value; ?>"><?php echo $key; ?></li>
-                                        <?php endforeach; ?>		
-                                    </ul>
-                                    <p class="tier-label">Pricing by group size</p>
-                                    <ul class="priceblock">
-                                        <?php foreach($people['emerald'] as $key=>$value): ?>
-                                            <li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em> / person</em><?php endif;?></span></li>
-                                        <?php endforeach; ?>
-                                    </ul>
-                        
-                                </div><!-- price table -->
-                                <?php endif; ?>
-                                <div class="mt-20"><a data-href="#tabs-5" class="btn btn-success btn--round open-tab">Reserve My Spot</a></div>
+								<h3 class="price-table__type"> Emerald Package</h3>
+								
+								<?php 
+									$first_key = array_key_first($people['emerald']);
+									$first_value = $people['emerald'][$first_key];
+								?>
+								
+								<div>
+									<p class="large-price mb-0"><em>Starting at</em> <?php echo $first_value; ?><em> / person</em></p>
+									<p><small><?php echo $first_key; ?> &bull; see all pricing tiers below</small></p>
+								</div> 
+								<hr />
+								
+								<ul class="price">
+									<?php foreach($package_items['emerald_items'] as $key=>$value): ?>
+										<li class="<?php echo $value; ?>"><?php echo $key; ?></li>
+									<?php endforeach; ?>		
+								</ul>
+								<p class="tier-label">Pricing by group size</p>
+								<ul class="priceblock">
+									<?php foreach($people['emerald'] as $key=>$value): ?>
+										<li><?php echo $key; ?> <span><?php echo $value ?><?php if($key != "Individual"):?><em> / person</em><?php endif;?></span></li>
+										<?php endforeach; ?>
+								</ul>
+					
+                        	</div><!-- price table -->
+                            <?php endif; ?>
+                            <div class="mt-20"><a data-href="#tabs-5" class="btn btn-success btn--round open-tab">Reserve My Spot</a></div>
                             </div><!-- price table container -->
 
                             <style>

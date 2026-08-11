@@ -26,7 +26,7 @@ $metas = $event_config['metas'];
     <meta name="author" content="YOLLO Group Services" />
     <meta property="fb:pages" content="117420764961518" />
     <link rel="apple-touch-icon" href="favicon-180.png" sizes="180x180">
-    <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
+    <link href="<?php echo asset_url('css/global.css'); ?>" rel="stylesheet" type="text/css" />
 </head>
 
 <body id="event-pg">
@@ -75,8 +75,8 @@ $metas = $event_config['metas'];
 
                             <h2 class="h4">Get ready for CIAA in Baltimore, MD. </h2>
 
-                                <p>Baltimore was the site of CIAA in 2024 and the CITY did not disappoint. Baltimore  definitely brought new energy to this already exciting event and the Baltimore’s nightlife is a PERFECT match for the attendees of this event! YOLLO Group Services is making the Tourney a fun-filled weekend for you to remember. This basketball tournament has become one of the most attended events among HBCU’s in the nation. </p>
-                                <p>Fans will get their basketball fix during the day-time, while others enjoy all the night-time events. This means parties galore! You may spot a celebrity or two crashing and/or hosting several of these parties. You cannot go wrong booking with YOLLO Group Services for the Tourney Weekend 2025. </p>
+                                <p>Baltimore was the site of CIAA in 2026 and the CITY did not disappoint. Baltimore  definitely brought new energy to this already exciting event and the Baltimore’s nightlife is a PERFECT match for the attendees of this event! YOLLO Group Services is making the Tourney a fun-filled weekend for you to remember. This basketball tournament has become one of the most attended events among HBCU’s in the nation. </p>
+                                <p>Fans will get their basketball fix during the day-time, while others enjoy all the night-time events. This means parties galore! You may spot a celebrity or two crashing and/or hosting several of these parties. You cannot go wrong booking with YOLLO Group Services for the Tourney Weekend 2027. </p>
                                 <p>If parties and celebrities are what you are looking for this weekend's events are definitely what you want to attend. Make sure you explore our Hotel and Pricing options and reserve your package today before it's too late! </p>
 
                             </div><!-- ./overview -->
@@ -190,7 +190,7 @@ $metas = $event_config['metas'];
 
                                         <div data-control>When are the payments due?</div>
                                         <div data-content>
-                                            <p>After registration the first payment of $125 is due October May 20, 2024. The second payment of $250 is due July 20, 2024  The final payment (remaining balance) is due on or before Spetmeber 20, 2024.</p>
+                                            <p>After registration the first payment of $125 is due October July 10 , 2026. The second payment of $250 is due October 20, 2026  The final payment (remaining balance) is due on or before December 10, 2026.</p>
                                         </div>
 
                                     </div><!-- end of accordion-->

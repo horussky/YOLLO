@@ -19,7 +19,7 @@
     <meta name="author" content="YOLLO Group Services" />
     <link rel="icon" href="favicon-192.png" sizes="192x192">
 	<link rel="apple-touch-icon" href="favicon-180.png" sizes="180x180">
-    <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
+    <link href="<?php echo asset_url('css/global.css'); ?>" rel="stylesheet" type="text/css" />
 </head>
 <body id="event-pg">
 

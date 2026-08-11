@@ -18,7 +18,7 @@
     <meta property="fb:pages" content="117420764961518" />
     <link rel="icon" href="favicon-192.png" sizes="192x192">
 	<link rel="apple-touch-icon" href="favicon-180.png" sizes="180x180">
-    <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
+    <link href="<?php echo asset_url('css/global.css'); ?>" rel="stylesheet" type="text/css" />
 </head>
 
 <body id="event-pg">
@@ -347,8 +347,8 @@
 
 								<div data-control>When are the payments due?</div>
 								<div data-content>
-								<p>To reserve a package each group member pays the <strong>$100.00</strong> per person fee <strong> at sign-up</strong>. The first payment of <strong>$200</strong> per person is due on or before <strong>January 20, 2026</strong>. The second payment of <strong>$250</strong> per person is due on or before <strong>March 20, 2026</strong>.
-								The final payment (remaining balance) is due on or before <strong>May05, 2026</strong>. You can make multiple payments as long as the agreed amount is paid by the scheduled payment due date. You complate this by clicking on the BUY NOW tab above and following the prompts. Another option is to use our Buy Now Pay Later option called Flexpay!</p>
+								<p>To reserve a package each group member pays the <strong>$100.00</strong> per person fee <strong> at sign-up</strong>. The first payment of <strong>$200</strong> per person is due on or before <strong>August 12, 2026</strong>. The second payment of <strong>$250</strong> per person is due on or before <strong>September 05, 2026</strong>.
+								The final payment (remaining balance) is due on or before <strong>October 05, 2026</strong>. You can make multiple payments as long as the agreed amount is paid by the scheduled payment due date. You complate this by clicking on the BUY NOW tab above and following the prompts. Another option is to use our Buy Now Pay Later option called Flexpay!</p>
 								</div>
 
 							</div><!-- end of accordion-->

@@ -19,7 +19,7 @@
     <meta name="author" content="YOLLO Group Services" />
     <link rel="icon" href="favicon-192.png" sizes="192x192">
 	<link rel="apple-touch-icon" href="favicon-180.png" sizes="180x180">
-    <link href="css/global.css?r=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
+    <link href="<?php echo asset_url('css/global.css'); ?>" rel="stylesheet" type="text/css" />
 
 </head>
 <body id="event-pg">
@@ -63,22 +63,24 @@
 
                         <?php echo $responsive_tabs["overview"]; ?>
 						<div class="tab" aria-label="overview">
-							<h2>Join us for Essence Festival Weekend 2025</h2>
+							<h2>Join YOLLO for Essence Festival Weekend 2027!</h2>
  
-							<p>The Essence Music Festival returns for its spectacular 32nd annual celebration in 2026, solidifying its position as the premier destination for Black culture, music, and empowerment. This legendary weekend-long festival has evolved into one of the most anticipated cultural celebrations in the world, drawing hundreds of thousands of music lovers, culture enthusiasts, and community leaders to the vibrant streets of New Orleans.</p>
+							<p>Experience the energy, culture, and excitement of Essence Festival Weekend 2027—the nation's premier celebration of Black music, culture, empowerment, and community. Each year, thousands of visitors from around the world gather in New Orleans for an unforgettable weekend filled with world-class concerts, inspiring speakers, empowering experiences, and nonstop entertainment.</p>
             
-							<p>Beyond the electrifying concerts featuring today's biggest R&B, hip-hop, and gospel superstars, Essence Festival 2026 offers transformative seminars and workshops led by industry pioneers, influential entrepreneurs, and celebrated celebrities. These sessions dive deep into topics of empowerment, business innovation, wellness, and cultural preservation, making this more than just a music festival—it's a movement.</p>
+							<p>From electrifying performances by today's biggest artists to engaging daytime experiences focused on business, wellness, and culture, there's something for everyone during this iconic weekend.</p>
             
-							<p>YOLLO clients experience the ultimate VIP treatment during this unforgettable weekend, surrounded by a dynamic and passionate community of festival-goers from across the globe. <a href="#tabs-5" class="cta-link open-tab">Secure Your Spot Today!</a></p>
+							<p>When you travel with YOLLO Group Services, Inc., you'll enjoy a seamless travel experience, exciting exclusive events, and the opportunity to celebrate with an amazing community of travelers who return year after year. <a href="#tabs-5" class="cta-link open-tab">Reserve your 2027 package today!</a></p>
 
 
-							<h3>The Original All-White Mid-Day Cruise Party </h3>
+							<h3>Experience the Legendary All-White Mid-Day Cruise Party – Essence Festival Weekend 2027! </h3>
 
-							<p>Get ready for the most talked-about event of Essence Festival 2026! The iconic All-White Mid-Day Cruise Party returns for its 21st spectacular year aboard the magnificent Creole Queen, New Orleans' premier party vessel. This isn't just a cruise—it's a floating celebration that has become the heartbeat of Essence weekend.</p>
+							<p>Get ready for one of the most anticipated events of Essence Festival Weekend 2027 aboard the legendary 22nd Annual All-White Mid-Day Cruise Party aboard the iconic Creole Queen! More than just a cruise, this unforgettable experience has become a signature tradition and one of the most talked about celebrations of the entire Essence weekend. Set sail on the historic Mississippi River while surrounded by incredible views of New Orleans, amazing people, and an atmosphere filled with nonstop energy.</p>
         
-        					<p>Picture yourself dancing across multiple decks while the mighty Mississippi River carries you through the soul of New Orleans. The finest DJs spin the hottest hip-hop and R&B tracks while you network, celebrate, and create memories that last a lifetime. While all-white attire is the preferred dress code that creates stunning photo opportunities, it's not mandatory—just bring your best energy and get ready to party like never before!</p>
+        					<p>Dance across multiple decks as top DJs keep the party going with the hottest Hip-Hop, R&B, Southern Soul, and party anthems. Connect with friends, meet new people from across the country, and enjoy an afternoon filled with music, laughter, and unforgettable memories. While all-white attire is strongly encouraged for the ultimate Essence Weekend experience and stunning photo opportunities, it is not required—just bring your best energy and be ready to celebrate!</p>
 
-							<p>With its perfect blend of concerts, seminars, parties, and celebrities, YOLLO hotel and party packages for Essence Music Festival weekend 2026 promises an unparalleled weekend, etching cherished moments in the hearts of all who partake in its magic. <a data-href="#tabs-5" class="open-tab">Book now</a> with YOLLO Group Services Inc. and allow us to give you the best travel experience while in New Orleans!</p>
+							<p>Our carefully curated Essence Festival 2027 Hotel & Party Packages are designed to help you enjoy the very best of New Orleans, including world-class entertainment, cultural experiences, networking opportunities, exciting parties, and exclusive events throughout the weekend.
+
+Whether you're a first-time visitor or returning for another incredible Essence Weekend, YOLLO Group Services is committed to providing exceptional customer service, seamless travel planning, and memories you'll cherish long after the music ends. <a data-href="#tabs-5" class="open-tab">Reserve your 2027 package today</a> and experience Essence Festival Weekend the YOLLO way—because You Only Live Life Once!</p>
 
                         </div> <!-- ./overview -->
 
@@ -221,9 +223,9 @@
 
 	<div class="accordion" data-accordion>
 
-									<div data-control>What are the payment due dates for Essence Packages 2026 Early Bird special for two people?</div>
+									<div data-control>What are the payment due dates for Essence Packages 2027 Early Bird special for two people?</div>
 									<div data-content>
-										<p>To reserve a package each group member pays the registration fee $100.00 per person. The first payment of $500 per person is due on or before July 23, 2025. The second payment of $400 per person is due on or before September 10, 2025. The final payment (remaining balance) is due on or before January 10, 2026. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts to partial payments.</p>
+										<p>To reserve a package each group member pays the registration fee $100.00 per person. The first payment of $300 per person is due on or before July 20, 2026. The second payment of $400 per person is due on or before September 10, 2026. The final payment (remaining balance) is due on or before November 10, 2027. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts to partial payments.</p>
 									</div>
 
 
@@ -231,9 +233,9 @@
 								
 									<div class="accordion" data-accordion>
 
-									<div data-control>What happens if I can't make the payments for the Essence Packages 2026 Early Bird special for two people by the payment due dates?</div>
+									<div data-control>What happens if I can't make the payments for the Essence Packages 2027 Early Bird special for two people by the payment due dates?</div>
 									<div data-content>
-										<p>If you can't make the payments as scheduled, you have an opportunity to convert your Early Bird special to normal package price. This can only be done if we receive have notification prior to your due date or you will forfeit all payments made on the account. There are no extensions available for this package.  If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts to partial payments.</p>
+										<p>If you can't make the payments as scheduled, you have an opportunity to convert your Early Bird special to normal package price. This can only be done if we receive notification prior to your due date or you will forfeit all payments made on the account. There are no extensions available for this package.  If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts to partial payments.</p>
 									</div>
 
 								</div><!-- end of accordion-->
@@ -241,9 +243,9 @@
 
 								<div class="accordion" data-accordion>
 
-									<div data-control>What are the payment due dates for Essence Packages?</div>
+									<div data-control>What are the payment due dates for Essence 2027 Packages?</div>
 									<div data-content>
-										<p>To reserve a package each group member pays the registration fee $100.00 per person. The first payment of $250 per person is due on or before March 15, 2026. The second payment of $500 per person is due on or before April 10, 2026. The final payment (remaining balance) is due on or before May 01, 2026. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts to partial payments.</p>
+										<p>To reserve a package each group member pays the registration fee $100.00 per person. The first payment of $250 per person is due on or before August 15, 2026. The second payment of $300 per person is due on or before November 10, 2026. The final payment (remaining balance) is due on or before February 01, 2027. If the announced payment dates have passed contact us for our current payment plan. Any payments after the due date will incur late fees and is subject to cancellation. If you would like to make payments between due dates you may do so by clicking on the BUY NOW tab above and following the prompts to partial payments.</p>
 									</div>
 
 								</div><!-- end of accordion-->
@@ -324,7 +326,7 @@
 
 									<div data-control>How does the complimentary night work?</div>
 									<div data-content>
-										<p>Your base package includes check-in on Friday with check-out on Sunday. If you make your first payment ($125) on time you earn the complimentary night. You can use it to arrive a day early on Thursday or depart a day later on Monday.</p>
+										<p>Your base package includes check-in on Friday with check-out on Sunday. If you make your first payment ($250) on time you earn the complimentary night. You can use it to arrive a day early on Thursday or depart a day later on Monday.</p>
 									</div>
 
 								</div><!-- end of accordion-->

@@ -3,6 +3,17 @@
 // YOLLO Functions and Constants
 // Active code only - dead code has been removed
 
+
+// returns an absolute URL with a file-mod time version querystring
+function asset_url(string $path): string {
+    $clean = '/' . ltrim($path, '/');                    // URL path
+    $filePath = __DIR__ . '/../' . ltrim($path, '/');    // filesystem path (includes/ -> project root)
+    if (file_exists($filePath)) {
+        return $clean . '?v=' . filemtime($filePath);
+    }
+    return $clean;
+}
+
 // Contact phone number constant
 $phonenumber = "Contact us at (888) 946-9655";
 
